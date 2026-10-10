@@ -1,0 +1,92 @@
+{
+  "checks": [],
+  "summary": {
+    "Receipt|Supported": {
+      "count": 11,
+      "amount": 112552000.0
+    },
+    "Receipt|Review": {
+      "count": 0,
+      "amount": 0
+    },
+    "Receipt|Duplicate": {
+      "count": 0,
+      "amount": 0
+    },
+    "Receipt|Invoice only": {
+      "count": 0,
+      "amount": 0
+    },
+    "Receipt|Summary only": {
+      "count": 1,
+      "amount": 27235000.0
+    },
+    "Payment|Supported": {
+      "count": 36,
+      "amount": 41121825.0
+    },
+    "Payment|Review": {
+      "count": 36,
+      "amount": 54508973.9
+    },
+    "Payment|Duplicate": {
+      "count": 4,
+      "amount": 6129375.0
+    },
+    "Payment|Invoice only": {
+      "count": 4,
+      "amount": 16404600.0
+    },
+    "Payment|Summary only": {
+      "count": 0,
+      "amount": 0
+    },
+    "Internal transfer|Supported": {
+      "count": 0,
+      "amount": 0
+    },
+    "Internal transfer|Review": {
+      "count": 1,
+      "amount": 0
+    },
+    "Internal transfer|Duplicate": {
+      "count": 0,
+      "amount": 0
+    },
+    "Internal transfer|Invoice only": {
+      "count": 0,
+      "amount": 0
+    },
+    "Internal transfer|Summary only": {
+      "count": 0,
+      "amount": 0
+    },
+    "Unknown|Supported": {
+      "count": 0,
+      "amount": 0
+    },
+    "Unknown|Review": {
+      "count": 2,
+      "amount": 2101220.0
+    },
+    "Unknown|Duplicate": {
+      "count": 0,
+      "amount": 0
+    },
+    "Unknown|Invoice only": {
+      "count": 0,
+      "amount": 0
+    },
+    "Unknown|Summary only": {
+      "count": 0,
+      "amount": 0
+    },
+    "receipt_composition": {
+      "former_board_handover": 11000000.0,
+      "other_supported_receipts": 101552000.0
+    },
+    "net_cash_activity": 71430175.0,
+    "ledger_records": 95,
+    "issue_count": 14
+  }
+}

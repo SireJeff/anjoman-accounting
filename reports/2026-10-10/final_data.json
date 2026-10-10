@@ -1,0 +1,4623 @@
+{
+  "ledger": [
+    {
+      "id": "TX0001",
+      "date_jalali": null,
+      "date_gregorian": null,
+      "period_jalali": "1404/05",
+      "date_basis": "workbook_month",
+      "direction": "Receipt",
+      "amount_original": 33642000.0,
+      "unit_original": "toman",
+      "amount_toman": 33642000.0,
+      "counterparty": "Summer-school students (aggregate)",
+      "description_fa": "درآمد ثبت‌نام مدرسه تابستانه",
+      "description_en": "Summer school registration receipts, aggregate",
+      "category": "Course fees",
+      "project": "Summer School 1404",
+      "status": "Supported",
+      "evidence_basis": "Original ledger",
+      "cash_account": "SHAHR-8966",
+      "sources": [
+        "Anjoman accounting.xlsx#مجموع!B3",
+        "Anjoman accounting.xlsx#مرداد!B2",
+        "telegram export/files/report_Python.txt",
+        "telegram export/files/report_LaTeX.txt",
+        "telegram export/files/report_Mathematica.txt"
+      ],
+      "message_ids": [
+        "message6",
+        "message7",
+        "message8"
+      ],
+      "tracking_id": null,
+      "duplicate_of": null,
+      "review_reason": "No bank deposit evidence.",
+      "notes": "Ledger-derived. The refined workbook names Sohrab Maleki as counterparty; that is wrong. Course reports total 11,601+12,261+9,781=33,643 (apparently thousand toman), 1,000 toman above the ledger."
+    },
+    {
+      "id": "TX0002",
+      "date_jalali": "1404/05/02",
+      "date_gregorian": "2025-07-24",
+      "period_jalali": "1404/05",
+      "date_basis": "receipt",
+      "direction": "Payment",
+      "amount_original": 30000000.0,
+      "unit_original": "rial",
+      "amount_toman": 3000000.0,
+      "counterparty": "سهراب ملکی",
+      "description_fa": "حق‌الزحمه کامل مدرس Mathematica",
+      "description_en": "Mathematica instructor fee, full settlement",
+      "category": "Teaching",
+      "project": "Summer School 1404",
+      "status": "Supported",
+      "evidence_basis": "Receipt and message",
+      "cash_account": "SHAHR-8966",
+      "sources": [
+        "telegram export/photos/photo_1@24-07-2025_21-00-16.jpg",
+        "Anjoman accounting.xlsx#مجموع!D3"
+      ],
+      "message_ids": [
+        "message25",
+        "message12"
+      ],
+      "tracking_id": "130034187178",
+      "duplicate_of": null,
+      "review_reason": "",
+      "notes": "message12 computed 2,934; rounding to 100k (message14) gives 2,900, but 3,000 was paid."
+    },
+    {
+      "id": "TX0003",
+      "date_jalali": "1404/05/02",
+      "date_gregorian": "2025-07-24",
+      "period_jalali": "1404/05",
+      "date_basis": "receipt",
+      "direction": "Payment",
+      "amount_original": 35000000.0,
+      "unit_original": "rial",
+      "amount_toman": 3500000.0,
+      "counterparty": "امیرمحمد جوشقانی",
+      "description_fa": "حق‌الزحمه کامل مدرس پایتون",
+      "description_en": "Python instructor fee",
+      "category": "Teaching",
+      "project": "Summer School 1404",
+      "status": "Supported",
+      "evidence_basis": "Receipt and message",
+      "cash_account": "SHAHR-8966",
+      "sources": [
+        "telegram export/photos/photo_2@24-07-2025_21-00-17.jpg",
+        "Anjoman accounting.xlsx#مجموع!D2"
+      ],
+      "message_ids": [
+        "message26",
+        "message10"
+      ],
+      "tracking_id": "130034190881",
+      "duplicate_of": null,
+      "review_reason": "",
+      "notes": "Computed 3,480 in message10, rounded to 3,500."
+    },
+    {
+      "id": "TX0004",
+      "date_jalali": "1404/05/02",
+      "date_gregorian": "2025-07-24",
+      "period_jalali": "1404/05",
+      "date_basis": "receipt",
+      "direction": "Payment",
+      "amount_original": 37000000.0,
+      "unit_original": "rial",
+      "amount_toman": 3700000.0,
+      "counterparty": "متین جوکارتنگ کرمی",
+      "description_fa": "حق‌الزحمه کامل مدرس لتک (پل، تادیه دیون)",
+      "description_en": "LaTeX instructor fee, Pol transfer",
+      "category": "Teaching",
+      "project": "Summer School 1404",
+      "status": "Supported",
+      "evidence_basis": "Receipt and message",
+      "cash_account": "SHAHR-8966",
+      "sources": [
+        "telegram export/photos/photo_3@24-07-2025_21-02-51.jpg",
+        "telegram export/messages.html#message28",
+        "Anjoman accounting.xlsx#مجموع!D4"
+      ],
+      "message_ids": [
+        "message27",
+        "message28",
+        "message13"
+      ],
+      "tracking_id": "140405020613114740052",
+      "duplicate_of": null,
+      "review_reason": "",
+      "notes": "The SMS in message28 is the same transaction (balance after 230,203,965 rial). It is counted once."
+    },
+    {
+      "id": "TX0005",
+      "date_jalali": "1404/05/03",
+      "date_gregorian": "2025-07-25",
+      "period_jalali": "1404/05",
+      "date_basis": "receipt",
+      "direction": "Payment",
+      "amount_original": 5000000.0,
+      "unit_original": "rial",
+      "amount_toman": 500000.0,
+      "counterparty": "ابراهیم خسروانی",
+      "description_fa": "حق‌الزحمه TA، فرم و شیت",
+      "description_en": "TA, forms and sheet fee",
+      "category": "Teaching",
+      "project": "Summer School 1404",
+      "status": "Supported",
+      "evidence_basis": "Receipt and message",
+      "cash_account": "SHAHR-8966",
+      "sources": [
+        "telegram export/photos/photo_4@25-07-2025_04-04-24.jpg",
+        "Anjoman accounting.xlsx#مجموع!D5"
+      ],
+      "message_ids": [
+        "message29"
+      ],
+      "tracking_id": "130034551287",
+      "duplicate_of": null,
+      "review_reason": "",
+      "notes": ""
+    },
+    {
+      "id": "TX0006",
+      "date_jalali": "1404/05/03",
+      "date_gregorian": "2025-07-25",
+      "period_jalali": "1404/05",
+      "date_basis": "receipt",
+      "direction": "Payment",
+      "amount_original": 6000000.0,
+      "unit_original": "rial",
+      "amount_toman": 600000.0,
+      "counterparty": "سپهر طلائی",
+      "description_fa": "حق‌الزحمه ثبت‌نام و TA پایتون",
+      "description_en": "Registration support and Python TA fee",
+      "category": "Teaching",
+      "project": "Summer School 1404",
+      "status": "Supported",
+      "evidence_basis": "Receipt and message",
+      "cash_account": "SHAHR-8966",
+      "sources": [
+        "telegram export/photos/photo_5@25-07-2025_04-08-41.jpg",
+        "Anjoman accounting.xlsx#مجموع!D6"
+      ],
+      "message_ids": [
+        "message30"
+      ],
+      "tracking_id": "130034536896",
+      "duplicate_of": null,
+      "review_reason": "",
+      "notes": "No SMS is available, so any transfer fee is unknown."
+    },
+    {
+      "id": "TX0007",
+      "date_jalali": "1404/05/03",
+      "date_gregorian": "2025-07-25",
+      "period_jalali": "1404/05",
+      "date_basis": "receipt",
+      "direction": "Payment",
+      "amount_original": 6000000.0,
+      "unit_original": "rial",
+      "amount_toman": 600000.0,
+      "counterparty": "محمدامین عزیزی",
+      "description_fa": "حق‌الزحمه ثبت‌نام، حسابداری و TA پایتون",
+      "description_en": "Registration, accounting and Python TA fee",
+      "category": "Teaching",
+      "project": "Summer School 1404",
+      "status": "Supported",
+      "evidence_basis": "Receipt and message",
+      "cash_account": "SHAHR-8966",
+      "sources": [
+        "telegram export/photos/photo_6@25-07-2025_15-53-39.jpg",
+        "telegram export/messages.html#message32",
+        "Anjoman accounting.xlsx#مجموع!D7"
+      ],
+      "message_ids": [
+        "message31",
+        "message32",
+        "message33",
+        "message34"
+      ],
+      "tracking_id": "130035112458",
+      "duplicate_of": null,
+      "review_reason": "",
+      "notes": "The SMS shows a 6,009,000 rial debit, which is principal plus fee (see TX0008)."
+    },
+    {
+      "id": "TX0008",
+      "date_jalali": "1404/05/03",
+      "date_gregorian": "2025-07-25",
+      "period_jalali": "1404/05",
+      "date_basis": "message",
+      "direction": "Payment",
+      "amount_original": 9000.0,
+      "unit_original": "rial",
+      "amount_toman": 900.0,
+      "counterparty": "Bank Shahr",
+      "description_fa": "کارمزد انتقال کارت به کارت",
+      "description_en": "Card transfer fee (SMS debit 6,009,000 minus principal 6,000,000 rial)",
+      "category": "Bank fees",
+      "project": "Summer School 1404",
+      "status": "Supported",
+      "evidence_basis": "Message only",
+      "cash_account": "SHAHR-8966",
+      "sources": [
+        "telegram export/messages.html#message32"
+      ],
+      "message_ids": [
+        "message32"
+      ],
+      "tracking_id": null,
+      "duplicate_of": null,
+      "review_reason": "",
+      "notes": "The fee is supported only for this transfer. Not in the original ledger."
+    },
+    {
+      "id": "TX0009",
+      "date_jalali": "1404/04/28",
+      "date_gregorian": "2025-07-19",
+      "period_jalali": "1404/04",
+      "date_basis": "receipt",
+      "direction": "Payment",
+      "amount_original": 4000000.0,
+      "unit_original": "rial",
+      "amount_toman": 400000.0,
+      "counterparty": "محمدحسین مشک افشان",
+      "description_fa": "تبلیغ مدرسه تابستانه در مهمات شریف",
+      "description_en": "Summer school advertising on Mohemat Sharif channel",
+      "category": "Advertising",
+      "project": "Summer School 1404",
+      "status": "Supported",
+      "evidence_basis": "Receipt and message",
+      "cash_account": "SHAHR-8966",
+      "sources": [
+        "telegram export/photos/photo_8@12-08-2025_09-58-34.jpg",
+        "telegram export/photos/photo_9@12-08-2025_09-58-34.jpg",
+        "Anjoman accounting.xlsx#مجموع!D9"
+      ],
+      "message_ids": [
+        "message43",
+        "message44",
+        "message45",
+        "message46"
+      ],
+      "tracking_id": "130018173424",
+      "duplicate_of": null,
+      "review_reason": "",
+      "notes": "Dated before Mordad. The ledger places it under Mordad."
+    },
+    {
+      "id": "TX0010",
+      "date_jalali": null,
+      "date_gregorian": null,
+      "period_jalali": "1404/05",
+      "date_basis": "workbook_month",
+      "direction": "Payment",
+      "amount_original": 400000.0,
+      "unit_original": "toman",
+      "amount_toman": 400000.0,
+      "counterparty": "حسن شیری",
+      "description_fa": "تبلیغات مهمات شریف (ردیف دوم)",
+      "description_en": "Second Mohemat Sharif ad row attributed to Hassan",
+      "category": "Advertising",
+      "project": "Summer School 1404",
+      "status": "Review",
+      "evidence_basis": "Original ledger",
+      "cash_account": "UNKNOWN",
+      "sources": [
+        "Anjoman accounting.xlsx#مجموع!D12"
+      ],
+      "message_ids": [
+        "message57"
+      ],
+      "tracking_id": null,
+      "duplicate_of": "TX0009",
+      "review_reason": "Probable double entry of the single receipted 400,000 ad. message57 suggests Hassan logged the ad, but only one payment exists.",
+      "notes": "Excluded from supported totals."
+    },
+    {
+      "id": "TX0011",
+      "date_jalali": "1404/05/20",
+      "date_gregorian": "2025-08-11",
+      "period_jalali": "1404/05",
+      "date_basis": "receipt",
+      "direction": "Payment",
+      "amount_original": 3000000.0,
+      "unit_original": "rial",
+      "amount_toman": 300000.0,
+      "counterparty": "متین جوکارتنگ کرمی",
+      "description_fa": "ضبط جبرانی جلسه ۳ لتک",
+      "description_en": "Make-up recording, LaTeX session 3",
+      "category": "Teaching",
+      "project": "Summer School 1404",
+      "status": "Supported",
+      "evidence_basis": "Receipt and message",
+      "cash_account": "SHAHR-8966",
+      "sources": [
+        "telegram export/photos/photo_7@11-08-2025_15-51-55.jpg",
+        "Anjoman accounting.xlsx#مجموع!D8"
+      ],
+      "message_ids": [
+        "message42"
+      ],
+      "tracking_id": "140405200613117542670",
+      "duplicate_of": null,
+      "review_reason": "",
+      "notes": "The receipt's stated purpose is 'واریز حقوق'."
+    },
+    {
+      "id": "TX0012",
+      "date_jalali": "1404/05/24",
+      "date_gregorian": "2025-08-15",
+      "period_jalali": "1404/05",
+      "date_basis": "receipt",
+      "direction": "Payment",
+      "amount_original": 3000000.0,
+      "unit_original": "rial",
+      "amount_toman": 300000.0,
+      "counterparty": "امیرمحمد جوشقانی",
+      "description_fa": "ضبط جبرانی جلسه ۴ پایتون",
+      "description_en": "Make-up recording, Python session 4",
+      "category": "Teaching",
+      "project": "Summer School 1404",
+      "status": "Supported",
+      "evidence_basis": "Receipt and message",
+      "cash_account": "SHAHR-8966",
+      "sources": [
+        "telegram export/photos/photo_10@15-08-2025_18-28-22.jpg",
+        "Anjoman accounting.xlsx#مجموع!D10"
+      ],
+      "message_ids": [
+        "message47"
+      ],
+      "tracking_id": "130072269291",
+      "duplicate_of": null,
+      "review_reason": "",
+      "notes": "Missing from the مرداد sheet; this explains the 300,000 gap between J2 and M2."
+    },
+    {
+      "id": "TX0013",
+      "date_jalali": null,
+      "date_gregorian": null,
+      "period_jalali": "1404/05",
+      "date_basis": "workbook_month",
+      "direction": "Payment",
+      "amount_original": 750000.0,
+      "unit_original": "toman",
+      "amount_toman": 750000.0,
+      "counterparty": "حسن شیری",
+      "description_fa": "گرفتن کلید انجمن برای اعضا",
+      "description_en": "Association room keys for members",
+      "category": "Equipment",
+      "project": "Association operations",
+      "status": "Supported",
+      "evidence_basis": "Original ledger",
+      "cash_account": "UNKNOWN",
+      "sources": [
+        "Anjoman accounting.xlsx#مجموع!D11"
+      ],
+      "message_ids": [
+        "message57"
+      ],
+      "tracking_id": null,
+      "duplicate_of": null,
+      "review_reason": "No receipt. Payer account unknown (possibly Hassan personally, which would make it a reimbursement).",
+      "notes": "Ledger-derived only. message57 ('اون کلید ها که من زدم') may mean Hassan entered or paid it personally. If he paid personally, this is a reimbursable payable, not a cash outflow from the association account."
+    },
+    {
+      "id": "TX0014",
+      "date_jalali": null,
+      "date_gregorian": null,
+      "period_jalali": "1404/06",
+      "date_basis": "workbook_month",
+      "direction": "Receipt",
+      "amount_original": 4920000.0,
+      "unit_original": "toman",
+      "amount_toman": 4920000.0,
+      "counterparty": "Participants, held by محمدامین عزیزی",
+      "description_fa": "ورودی همایش معرفی رشته",
+      "description_en": "Major-introduction event receipts (gross)",
+      "category": "Events",
+      "project": "Intro Event 1404",
+      "status": "Supported",
+      "evidence_basis": "Original ledger",
+      "cash_account": "AMIN-EVENT",
+      "sources": [
+        "Anjoman accounting.xlsx#مجموع!B15",
+        "Anjoman accounting.xlsx#شهریور!B2"
+      ],
+      "message_ids": [
+        "message49",
+        "message51"
+      ],
+      "tracking_id": null,
+      "duplicate_of": null,
+      "review_reason": "",
+      "notes": "Gross receipts held by Amin. The net amount was later moved to the main account (TX0018)."
+    },
+    {
+      "id": "TX0015",
+      "date_jalali": "1404/06/14",
+      "date_gregorian": "2025-09-05",
+      "period_jalali": "1404/06",
+      "date_basis": "receipt",
+      "direction": "Payment",
+      "amount_original": 1000000.0,
+      "unit_original": "rial",
+      "amount_toman": 100000.0,
+      "counterparty": "چاپ بهزاد",
+      "description_fa": "چاپ پوستر و بارکد میز معرفی",
+      "description_en": "Poster and barcode printing for intro table",
+      "category": "Printing",
+      "project": "Intro Event 1404",
+      "status": "Supported",
+      "evidence_basis": "Receipt and message",
+      "cash_account": "AMIN-EVENT",
+      "sources": [
+        "telegram export/photos/photo_11@04-09-2025_14-05-56.jpg",
+        "Anjoman accounting.xlsx#مجموع!D15"
+      ],
+      "message_ids": [
+        "message48",
+        "message53",
+        "message54",
+        "message59",
+        "message60"
+      ],
+      "tracking_id": "129041617899/002610",
+      "duplicate_of": null,
+      "review_reason": "",
+      "notes": "Paid by Pasargad card 502229****7257. The owner is not printed and the card does not match Amin's known Maskan card. The deduction from event funds rests on message53/54 only. The receipt date is one day after message48, so the day digit may be misread."
+    },
+    {
+      "id": "TX0016",
+      "date_jalali": null,
+      "date_gregorian": null,
+      "period_jalali": "1404/06",
+      "date_basis": "workbook_month",
+      "direction": "Payment",
+      "amount_original": 2866000.0,
+      "unit_original": "toman",
+      "amount_toman": 2866000.0,
+      "counterparty": "محمدامین عزیزی",
+      "description_fa": "تدارکات رویداد معرفی رشته",
+      "description_en": "Intro event supplies",
+      "category": "Events",
+      "project": "Intro Event 1404",
+      "status": "Supported",
+      "evidence_basis": "Original ledger",
+      "cash_account": "AMIN-EVENT",
+      "sources": [
+        "Anjoman accounting.xlsx#مجموع!D16"
+      ],
+      "message_ids": [],
+      "tracking_id": null,
+      "duplicate_of": null,
+      "review_reason": "No invoices.",
+      "notes": "Ledger-derived."
+    },
+    {
+      "id": "TX0017",
+      "date_jalali": null,
+      "date_gregorian": null,
+      "period_jalali": "1404/06",
+      "date_basis": "workbook_month",
+      "direction": "Payment",
+      "amount_original": 189000.0,
+      "unit_original": "toman",
+      "amount_toman": 189000.0,
+      "counterparty": "ابراهیم خسروانی",
+      "description_fa": "حق‌الزحمه خرید تدارکات معرفی رشته",
+      "description_en": "Procurement fee for intro supplies (formula 3,055,000-2,866,000)",
+      "category": "Events",
+      "project": "Intro Event 1404",
+      "status": "Supported",
+      "evidence_basis": "Original ledger",
+      "cash_account": "AMIN-EVENT",
+      "sources": [
+        "Anjoman accounting.xlsx#مجموع!D17"
+      ],
+      "message_ids": [],
+      "tracking_id": null,
+      "duplicate_of": null,
+      "review_reason": "No receipt.",
+      "notes": "Ledger-derived."
+    },
+    {
+      "id": "TX0018",
+      "date_jalali": "1404/07/09",
+      "date_gregorian": "2025-10-01",
+      "period_jalali": "1404/07",
+      "date_basis": "receipt",
+      "direction": "Internal transfer",
+      "amount_original": 17650000.0,
+      "unit_original": "unknown",
+      "amount_toman": null,
+      "counterparty": "AMIN-EVENT to SHAHR-8966",
+      "description_fa": "انتقال درآمد خالص همایش معرفی رشته به حساب اصلی",
+      "description_en": "Net intro-event proceeds moved to main account",
+      "category": "Transfers",
+      "project": "Intro Event 1404",
+      "status": "Review",
+      "evidence_basis": "Receipt and message",
+      "cash_account": "SHAHR-8966",
+      "sources": [
+        "telegram export/photos/photo_12@01-10-2025_18-02-44.jpg",
+        "Anjoman accounting.xlsx#مجموع!M3"
+      ],
+      "message_ids": [
+        "message49",
+        "message50",
+        "message51",
+        "message52",
+        "message53",
+        "message54"
+      ],
+      "tracking_id": "500318322689",
+      "duplicate_of": null,
+      "review_reason": "No unit is printed. If the amount is rial (1,765,000 toman), it equals the ledger net 4,920,000-3,155,000 (M3).",
+      "notes": "Not income. Gross receipts and expenses are already in TX0014–TX0017. The source card 6280 23**…7262 (Bank Maskan) matches Mohammad-Amin Azizi's card on the TX0007 receipt. This corroborates the transfer from AMIN-EVENT. The unit is still unconfirmed."
+    },
+    {
+      "id": "TX0019",
+      "date_jalali": "1404/07/22",
+      "date_gregorian": "2025-10-14",
+      "period_jalali": "1404/07",
+      "date_basis": "receipt",
+      "direction": "Receipt",
+      "amount_original": 5000000.0,
+      "unit_original": "rial",
+      "amount_toman": 500000.0,
+      "counterparty": "دکتر سامان مقیمی (card 6274…2662)",
+      "description_fa": "واریزی دکتر مقیمی جهت شیرینی نشست ۲۲ مهر",
+      "description_en": "Donation for 22 Mehr assembly sweets",
+      "category": "Donations",
+      "project": "Professors assembly Mehr",
+      "status": "Supported",
+      "evidence_basis": "Receipt and message",
+      "cash_account": "SHAHR-8966",
+      "sources": [
+        "telegram export/photos/photo_15@15-10-2025_14-18-25.jpg",
+        "Anjoman accounting.xlsx#مجموع!B19"
+      ],
+      "message_ids": [
+        "message63"
+      ],
+      "tracking_id": null,
+      "duplicate_of": null,
+      "review_reason": "",
+      "notes": "Donor identity comes from the caption only."
+    },
+    {
+      "id": "TX0020",
+      "date_jalali": "1404/07/20",
+      "date_gregorian": "2025-10-12",
+      "period_jalali": "1404/07",
+      "date_basis": "receipt",
+      "direction": "Payment",
+      "amount_original": 900000.0,
+      "unit_original": "rial",
+      "amount_toman": 90000.0,
+      "counterparty": "زهرا امیری",
+      "description_fa": "پوستر نشست و کوانتا",
+      "description_en": "Poster for assembly and Quanta circles",
+      "category": "Printing",
+      "project": "Professors assembly Mehr",
+      "status": "Supported",
+      "evidence_basis": "Receipt and message",
+      "cash_account": "SHAHR-8966",
+      "sources": [
+        "telegram export/photos/photo_13@12-10-2025_10-24-38.jpg",
+        "Anjoman accounting.xlsx#مجموع!D19"
+      ],
+      "message_ids": [
+        "message61"
+      ],
+      "tracking_id": "130097475275",
+      "duplicate_of": null,
+      "review_reason": "",
+      "notes": ""
+    },
+    {
+      "id": "TX0021",
+      "date_jalali": "1404/07/20",
+      "date_gregorian": "2025-10-12",
+      "period_jalali": "1404/07",
+      "date_basis": "receipt",
+      "direction": "Payment",
+      "amount_original": 7900000.0,
+      "unit_original": "rial",
+      "amount_toman": 790000.0,
+      "counterparty": "Merchant terminal 12926362",
+      "description_fa": "لیوان، بیسکوئیت و چای انجمن چای",
+      "description_en": "Cups, biscuits and tea for Tea society",
+      "category": "Hospitality",
+      "project": "Tea & Physics society",
+      "status": "Supported",
+      "evidence_basis": "Receipt and message",
+      "cash_account": "SHAHR-8966",
+      "sources": [
+        "telegram export/photos/photo_16@15-10-2025_14-18-26.jpg",
+        "Anjoman accounting.xlsx#مجموع!D21"
+      ],
+      "message_ids": [
+        "message64"
+      ],
+      "tracking_id": "692472",
+      "duplicate_of": null,
+      "review_reason": "",
+      "notes": "Balance after: 22,953,913 rial."
+    },
+    {
+      "id": "TX0022",
+      "date_jalali": "1404/07/20",
+      "date_gregorian": "2025-10-12",
+      "period_jalali": "1404/07",
+      "date_basis": "receipt",
+      "direction": "Payment",
+      "amount_original": 7900000.0,
+      "unit_original": "rial",
+      "amount_toman": 790000.0,
+      "counterparty": "Merchant terminal 12926362",
+      "description_fa": "تکرار رسید لیوان/بیسکوئیت",
+      "description_en": "Re-uploaded copy of the TX0021 receipt",
+      "category": "Hospitality",
+      "project": "Tea & Physics society",
+      "status": "Duplicate",
+      "evidence_basis": "Receipt only",
+      "cash_account": "SHAHR-8966",
+      "sources": [
+        "recipts/photo_1_2026-10-10_14-07-27.jpg"
+      ],
+      "message_ids": [],
+      "tracking_id": "692472",
+      "duplicate_of": "TX0021",
+      "review_reason": "Same tracking ID, time and balance as TX0021.",
+      "notes": "Excluded."
+    },
+    {
+      "id": "TX0023",
+      "date_jalali": "1404/07/20",
+      "date_gregorian": "2025-10-12",
+      "period_jalali": "1404/07",
+      "date_basis": "receipt",
+      "direction": "Payment",
+      "amount_original": 9128500.0,
+      "unit_original": "rial",
+      "amount_toman": 912850.0,
+      "counterparty": "شیرینی مارژولن (terminal 14594032)",
+      "description_fa": "شیرینی جلسه انجمن چای ۲۰ مهر",
+      "description_en": "Pastry for Tea society meeting 20 Mehr",
+      "category": "Hospitality",
+      "project": "Tea & Physics society",
+      "status": "Supported",
+      "evidence_basis": "Receipt and message",
+      "cash_account": "SHAHR-8966",
+      "sources": [
+        "telegram export/photos/photo_17@15-10-2025_14-18-26.jpg",
+        "telegram export/photos/photo_37@27-06-2026_18-27-12.jpg",
+        "Anjoman accounting.xlsx#مجموع!D22"
+      ],
+      "message_ids": [
+        "message65",
+        "message150"
+      ],
+      "tracking_id": "373710",
+      "duplicate_of": null,
+      "review_reason": "",
+      "notes": "photo_37 is the order screen for the same purchase. Its arithmetic (903,000-45,150≠912,850) is unexplained."
+    },
+    {
+      "id": "TX0024",
+      "date_jalali": "1404/07/22",
+      "date_gregorian": "2025-10-14",
+      "period_jalali": "1404/07",
+      "date_basis": "receipt",
+      "direction": "Payment",
+      "amount_original": 10523750.0,
+      "unit_original": "rial",
+      "amount_toman": 1052375.0,
+      "counterparty": "شیرینی مارژولن (terminal 14594032)",
+      "description_fa": "شیرینی نشست عمومی/دیدار اساتید ۲۲ مهر",
+      "description_en": "Pastry for professors assembly 22 Mehr",
+      "category": "Hospitality",
+      "project": "Professors assembly Mehr",
+      "status": "Supported",
+      "evidence_basis": "Receipt and message",
+      "cash_account": "SHAHR-8966",
+      "sources": [
+        "telegram export/photos/photo_14@15-10-2025_14-18-25.jpg",
+        "telegram export/photos/photo_36@27-06-2026_18-26-45.jpg",
+        "telegram export/messages.html#message105",
+        "Anjoman accounting.xlsx#مجموع!D20"
+      ],
+      "message_ids": [
+        "message62",
+        "message105",
+        "message149"
+      ],
+      "tracking_id": "175854",
+      "duplicate_of": null,
+      "review_reason": "",
+      "notes": "Bank debit, order screen and statement line (message105) are one purchase. The order screen has a 5,000 arithmetic gap. The field 560,800,163 under 'مبلغ' is consistent with a running rial balance: photo_15 shows 565,800,163 after the 5,000,000 rial deposit at 13:12. It still conflicts with the 22,953,913 balance on 1404/07/20."
+    },
+    {
+      "id": "TX0025",
+      "date_jalali": null,
+      "date_gregorian": null,
+      "period_jalali": "1404/07",
+      "date_basis": "workbook_month",
+      "direction": "Payment",
+      "amount_original": 1052375.0,
+      "unit_original": "toman",
+      "amount_toman": 1052375.0,
+      "counterparty": "شیرینی مارژولن",
+      "description_fa": "شیرینی دیدار با اساتید (ردیف تکراری)",
+      "description_en": "Duplicate ledger row for professors pastry",
+      "category": "Hospitality",
+      "project": "Professors assembly Mehr",
+      "status": "Duplicate",
+      "evidence_basis": "Original ledger",
+      "cash_account": "SHAHR-8966",
+      "sources": [
+        "Anjoman accounting.xlsx#مجموع!D23"
+      ],
+      "message_ids": [
+        "message105"
+      ],
+      "tracking_id": null,
+      "duplicate_of": "TX0024",
+      "review_reason": "Only one payment exists. message105 names 'دیدار با اساتید' for the same 1404/07/22 debit.",
+      "notes": "Excluded. It is also outside the M4 formula range D19:D22."
+    },
+    {
+      "id": "TX0026",
+      "date_jalali": "1404/08/04",
+      "date_gregorian": "2025-10-26",
+      "period_jalali": "1404/08",
+      "date_basis": "receipt",
+      "direction": "Receipt",
+      "amount_original": 100000000.0,
+      "unit_original": "rial",
+      "amount_toman": 10000000.0,
+      "counterparty": "Former association (Mellat card …7532)",
+      "description_fa": "دریافتی از انجمن پیشین",
+      "description_en": "Funds received from previous association board",
+      "category": "Opening funds",
+      "project": "Association operations",
+      "status": "Supported",
+      "evidence_basis": "Receipt and message",
+      "cash_account": "SHAHR-8966",
+      "sources": [
+        "telegram export/photos/photo_20@28-10-2025_22-07-57.jpg",
+        "Anjoman accounting.xlsx#مجموع!B25"
+      ],
+      "message_ids": [
+        "message71",
+        "message72",
+        "message75"
+      ],
+      "tracking_id": "8723",
+      "duplicate_of": null,
+      "review_reason": "",
+      "notes": "Opening-funds handover, not operating income."
+    },
+    {
+      "id": "TX0027",
+      "date_jalali": "1404/08/05",
+      "date_gregorian": "2025-10-27",
+      "period_jalali": "1404/08",
+      "date_basis": "receipt",
+      "direction": "Receipt",
+      "amount_original": 10000000.0,
+      "unit_original": "rial",
+      "amount_toman": 1000000.0,
+      "counterparty": "Former association (card …7532)",
+      "description_fa": "دریافتی دوم از انجمن پیشین",
+      "description_en": "Second handover from previous association",
+      "category": "Opening funds",
+      "project": "Association operations",
+      "status": "Supported",
+      "evidence_basis": "Receipt and message",
+      "cash_account": "SHAHR-8966",
+      "sources": [
+        "telegram export/photos/photo_18@28-10-2025_01-53-01.jpg",
+        "Anjoman accounting.xlsx#مجموع!B25"
+      ],
+      "message_ids": [
+        "message67",
+        "message73",
+        "message74",
+        "message75"
+      ],
+      "tracking_id": "066592116416",
+      "duplicate_of": null,
+      "review_reason": "",
+      "notes": "message74 confirms; message75 gives a total of 11 (million), which matches B25 = 11,000,000. The refined workbook names Nima Kouhi; that is wrong."
+    },
+    {
+      "id": "TX0028",
+      "date_jalali": "1404/08/03",
+      "date_gregorian": "2025-10-25",
+      "period_jalali": "1404/08",
+      "date_basis": "receipt",
+      "direction": "Payment",
+      "amount_original": 700000.0,
+      "unit_original": "rial",
+      "amount_toman": 70000.0,
+      "counterparty": "…پناهی (merchant)",
+      "description_fa": "دستمال برای اتاق انجمن",
+      "description_en": "Tissues for association room",
+      "category": "Supplies",
+      "project": "Association operations",
+      "status": "Supported",
+      "evidence_basis": "Receipt and message",
+      "cash_account": "SHAHR-8966",
+      "sources": [
+        "telegram export/photos/photo_31@27-06-2026_18-24-39.jpg",
+        "telegram export/messages.html#message106",
+        "Anjoman accounting.xlsx#مجموع!D30"
+      ],
+      "message_ids": [
+        "message106",
+        "message144"
+      ],
+      "tracking_id": "324530191247-211415863",
+      "duplicate_of": null,
+      "review_reason": "",
+      "notes": "Matched on time 16:36 and amount. The extractor's Yalda guess was wrong."
+    },
+    {
+      "id": "TX0029",
+      "date_jalali": "1404/08/05",
+      "date_gregorian": "2025-10-27",
+      "period_jalali": "1404/08",
+      "date_basis": "message",
+      "direction": "Payment",
+      "amount_original": 3100000.0,
+      "unit_original": "rial",
+      "amount_toman": 310000.0,
+      "counterparty": "Unknown",
+      "description_fa": "اتصالات پروژکتور انجمن",
+      "description_en": "Projector connectors",
+      "category": "Equipment",
+      "project": "Association operations",
+      "status": "Supported",
+      "evidence_basis": "Message only",
+      "cash_account": "SHAHR-8966",
+      "sources": [
+        "telegram export/messages.html#message108",
+        "Anjoman accounting.xlsx#مجموع!D31"
+      ],
+      "message_ids": [
+        "message108"
+      ],
+      "tracking_id": null,
+      "duplicate_of": null,
+      "review_reason": "No receipt image.",
+      "notes": "Statement-style line; corroborated by the ledger."
+    },
+    {
+      "id": "TX0030",
+      "date_jalali": "1404/08/05",
+      "date_gregorian": "2025-10-27",
+      "period_jalali": "1404/08",
+      "date_basis": "message",
+      "direction": "Payment",
+      "amount_original": 17600000.0,
+      "unit_original": "rial",
+      "amount_toman": 1760000.0,
+      "counterparty": "Unknown",
+      "description_fa": "حفاظ برق و ابزار اتصال پروژکتور غرفه‌ها",
+      "description_en": "Power protectors and tools for booth projectors",
+      "category": "Equipment",
+      "project": "Booths 1404",
+      "status": "Supported",
+      "evidence_basis": "Message only",
+      "cash_account": "SHAHR-8966",
+      "sources": [
+        "telegram export/messages.html#message108",
+        "Anjoman accounting.xlsx#مجموع!D32"
+      ],
+      "message_ids": [
+        "message108"
+      ],
+      "tracking_id": null,
+      "duplicate_of": null,
+      "review_reason": "No receipt image.",
+      "notes": ""
+    },
+    {
+      "id": "TX0031",
+      "date_jalali": "1404/08/05",
+      "date_gregorian": "2025-10-27",
+      "period_jalali": "1404/08",
+      "date_basis": "receipt",
+      "direction": "Payment",
+      "amount_original": 2350000.0,
+      "unit_original": "rial",
+      "amount_toman": 235000.0,
+      "counterparty": "سوپر مارکت شریف پلاس",
+      "description_fa": "پذیرایی غرفه انجمن (دلستر، بیسکوئیت، چیپس، پفک)",
+      "description_en": "Booth refreshments",
+      "category": "Hospitality",
+      "project": "Booths 1404",
+      "status": "Supported",
+      "evidence_basis": "Receipt and message",
+      "cash_account": "SHAHR-8966",
+      "sources": [
+        "telegram export/photos/photo_40@27-06-2026_18-31-08.jpg",
+        "telegram export/messages.html#message108",
+        "Anjoman accounting.xlsx#مجموع!D33"
+      ],
+      "message_ids": [
+        "message108",
+        "message153"
+      ],
+      "tracking_id": "324745802454-215650602",
+      "duplicate_of": null,
+      "review_reason": "",
+      "notes": "The receipt shows 2,350,000 rial; message108 and the ledger show 2,300,000 rial (230,000 toman). Corrected by +5,000 toman."
+    },
+    {
+      "id": "TX0032",
+      "date_jalali": "1404/08/06",
+      "date_gregorian": "2025-10-28",
+      "period_jalali": "1404/08",
+      "date_basis": "receipt",
+      "direction": "Payment",
+      "amount_original": 7250000.0,
+      "unit_original": "rial",
+      "amount_toman": 725000.0,
+      "counterparty": "نیما کوهی",
+      "description_fa": "بازپرداخت باتری دوربین فیلمبرداری",
+      "description_en": "Reimbursement for camera battery (Digikala invoices 696,000+29,000)",
+      "category": "Equipment",
+      "project": "Association operations",
+      "status": "Supported",
+      "evidence_basis": "Receipt and message",
+      "cash_account": "SHAHR-8966",
+      "sources": [
+        "telegram export/photos/photo_19@28-10-2025_01-58-07.jpg",
+        "telegram export/files/dk-file-2025-10-16-14-43-08.pdf#page=1",
+        "Anjoman accounting.xlsx#مجموع!D25"
+      ],
+      "message_ids": [
+        "message66",
+        "message68",
+        "message69"
+      ],
+      "tracking_id": "130031981359",
+      "duplicate_of": null,
+      "review_reason": "",
+      "notes": "messages 68 and 69 are a repeated caption for one payment. The invoice buyer is Matin Ghassami."
+    },
+    {
+      "id": "TX0033",
+      "date_jalali": "1404/08/07",
+      "date_gregorian": "2025-10-29",
+      "period_jalali": "1404/08",
+      "date_basis": "receipt",
+      "direction": "Payment",
+      "amount_original": 14440000.0,
+      "unit_original": "rial",
+      "amount_toman": 1444000.0,
+      "counterparty": "رفاه دانشجویی",
+      "description_fa": "جوایز جشن ورودی: دفترچه و خودکار",
+      "description_en": "Freshman party prizes: notebooks and pens",
+      "category": "Events",
+      "project": "Freshman Party 1404",
+      "status": "Supported",
+      "evidence_basis": "Receipt and message",
+      "cash_account": "SHAHR-8966",
+      "sources": [
+        "telegram export/photos/photo_33@27-06-2026_18-25-49.jpg",
+        "telegram export/messages.html#message107",
+        "Anjoman accounting.xlsx#مجموع!D28"
+      ],
+      "message_ids": [
+        "message107",
+        "message146"
+      ],
+      "tracking_id": "224985252062",
+      "duplicate_of": null,
+      "review_reason": "",
+      "notes": "The handwritten invoice (photo_34, INV005) may relate to this; the match is uncertain."
+    },
+    {
+      "id": "TX0034",
+      "date_jalali": "1404/08/07",
+      "date_gregorian": "2025-10-29",
+      "period_jalali": "1404/08",
+      "date_basis": "receipt",
+      "direction": "Payment",
+      "amount_original": 15000000.0,
+      "unit_original": "rial",
+      "amount_toman": 1500000.0,
+      "counterparty": "T…Mobile (احمدی)",
+      "description_fa": "جوایز جشن (هندزفری) و فلش انجمن",
+      "description_en": "Prizes (earphones) and association USB flash drive",
+      "category": "Events",
+      "project": "Freshman Party 1404",
+      "status": "Supported",
+      "evidence_basis": "Receipt and message",
+      "cash_account": "SHAHR-8966",
+      "sources": [
+        "telegram export/photos/photo_35@27-06-2026_18-26-22.jpg",
+        "telegram export/messages.html#message107",
+        "Anjoman accounting.xlsx#مجموع!D28"
+      ],
+      "message_ids": [
+        "message107",
+        "message148"
+      ],
+      "tracking_id": "855815798282",
+      "duplicate_of": null,
+      "review_reason": "",
+      "notes": "Includes a 500,000 toman flash drive, which is association equipment rather than a prize."
+    },
+    {
+      "id": "TX0035",
+      "date_jalali": "1404/08/07",
+      "date_gregorian": "2025-10-29",
+      "period_jalali": "1404/08",
+      "date_basis": "message",
+      "direction": "Payment",
+      "amount_original": 14000000.0,
+      "unit_original": "rial",
+      "amount_toman": 1400000.0,
+      "counterparty": "Unknown",
+      "description_fa": "جوایز جشن: دستبند و فرفره",
+      "description_en": "Prizes: bracelets and spinners",
+      "category": "Events",
+      "project": "Freshman Party 1404",
+      "status": "Supported",
+      "evidence_basis": "Message only",
+      "cash_account": "SHAHR-8966",
+      "sources": [
+        "telegram export/messages.html#message107",
+        "Anjoman accounting.xlsx#مجموع!D28"
+      ],
+      "message_ids": [
+        "message107"
+      ],
+      "tracking_id": null,
+      "duplicate_of": null,
+      "review_reason": "No receipt image.",
+      "notes": "D28 = 1,444,000+1,500,000+1,400,000."
+    },
+    {
+      "id": "TX0036",
+      "date_jalali": null,
+      "date_gregorian": null,
+      "period_jalali": "1404/08",
+      "date_basis": "message",
+      "direction": "Unknown",
+      "amount_original": 300000.0,
+      "unit_original": "toman",
+      "amount_toman": 300000.0,
+      "counterparty": "Cash",
+      "description_fa": "پول نقد شاباش جشن",
+      "description_en": "Cash shabash at freshman party",
+      "category": "Unclassified",
+      "project": "Freshman Party 1404",
+      "status": "Review",
+      "evidence_basis": "Message only",
+      "cash_account": "CASH",
+      "sources": [
+        "telegram export/messages.html#message111",
+        "Anjoman accounting.xlsx#مجموع!D29"
+      ],
+      "message_ids": [
+        "message111"
+      ],
+      "tracking_id": null,
+      "duplicate_of": null,
+      "review_reason": "It is unclear whether this is cash collected (receipt) or cash given out (payment). The ledger records it as an expense.",
+      "notes": "Excluded from supported totals pending confirmation."
+    },
+    {
+      "id": "TX0037",
+      "date_jalali": "1404/08/23",
+      "date_gregorian": "2025-11-14",
+      "period_jalali": "1404/08",
+      "date_basis": "receipt",
+      "direction": "Payment",
+      "amount_original": 1200000.0,
+      "unit_original": "rial",
+      "amount_toman": 120000.0,
+      "counterparty": "اردوان شهبازی",
+      "description_fa": "بازپرداخت چسب بادکنک جشن ورودی",
+      "description_en": "Reimbursement: balloon glue (Shadzi invoice 29449)",
+      "category": "Events",
+      "project": "Freshman Party 1404",
+      "status": "Supported",
+      "evidence_basis": "Receipt and message",
+      "cash_account": "SHAHR-8966",
+      "sources": [
+        "telegram export/photos/photo_23@14-11-2025_04-07-19.jpg",
+        "telegram export/photos/photo_21@09-11-2025_23-16-09.jpg",
+        "telegram export/photos/photo_30@27-06-2026_18-24-31.jpg",
+        "Anjoman accounting.xlsx#مجموع!D26"
+      ],
+      "message_ids": [
+        "message88",
+        "message89",
+        "message96",
+        "message99",
+        "message143"
+      ],
+      "tracking_id": "130065814259",
+      "duplicate_of": null,
+      "review_reason": "",
+      "notes": "message96: Ardavan spent 120. photo_30 carries a 'Yalda' caption, but the invoice date 1404/08/07 places it in the freshman party."
+    },
+    {
+      "id": "TX0038",
+      "date_jalali": "1404/08/23",
+      "date_gregorian": "2025-11-14",
+      "period_jalali": "1404/08",
+      "date_basis": "receipt",
+      "direction": "Payment",
+      "amount_original": 13100000.0,
+      "unit_original": "rial",
+      "amount_toman": 1310000.0,
+      "counterparty": "سیده راحله مختاری",
+      "description_fa": "بازپرداخت تزئینات جشن ورودی (فاکتور شادزی)",
+      "description_en": "Reimbursement: party decorations (Shadzi invoice 13,100,000 rial)",
+      "category": "Events",
+      "project": "Freshman Party 1404",
+      "status": "Supported",
+      "evidence_basis": "Receipt and message",
+      "cash_account": "SHAHR-8966",
+      "sources": [
+        "telegram export/photos/photo_24@14-11-2025_04-07-19.jpg",
+        "telegram export/photos/photo_22@09-11-2025_23-16-15.jpg",
+        "telegram export/photos/photo_29@27-06-2026_18-24-14.jpg",
+        "Anjoman accounting.xlsx#مجموع!D27"
+      ],
+      "message_ids": [
+        "message95",
+        "message97",
+        "message98",
+        "message100",
+        "message142"
+      ],
+      "tracking_id": "130065885759",
+      "duplicate_of": null,
+      "review_reason": "",
+      "notes": "photo_22 and photo_29 are one invoice; the number is read as 2935 or 29350. photo_29's Yalda caption is a mislabel."
+    },
+    {
+      "id": "TX0039",
+      "date_jalali": "1404/08/28",
+      "date_gregorian": "2025-11-19",
+      "period_jalali": "1404/08",
+      "date_basis": "message",
+      "direction": "Payment",
+      "amount_original": 12261000.0,
+      "unit_original": "rial",
+      "amount_toman": 1226100.0,
+      "counterparty": "Unknown pharmacy",
+      "description_fa": "دارو برای کمک‌های اولیه",
+      "description_en": "First-aid medicine",
+      "category": "Supplies",
+      "project": "Association operations",
+      "status": "Supported",
+      "evidence_basis": "Message only",
+      "cash_account": "SHAHR-8966",
+      "sources": [
+        "telegram export/messages.html#message109",
+        "Anjoman accounting.xlsx#مجموع!D34"
+      ],
+      "message_ids": [
+        "message109"
+      ],
+      "tracking_id": null,
+      "duplicate_of": null,
+      "review_reason": "No receipt image.",
+      "notes": ""
+    },
+    {
+      "id": "TX0040",
+      "date_jalali": "1404/08/28",
+      "date_gregorian": "2025-11-19",
+      "period_jalali": "1404/08",
+      "date_basis": "message",
+      "direction": "Payment",
+      "amount_original": 23000.0,
+      "unit_original": "rial",
+      "amount_toman": 2300.0,
+      "counterparty": "Unknown",
+      "description_fa": "چاپ قوانین اتاق انجمن",
+      "description_en": "Printing room rules",
+      "category": "Printing",
+      "project": "Association operations",
+      "status": "Supported",
+      "evidence_basis": "Message only",
+      "cash_account": "SHAHR-8966",
+      "sources": [
+        "telegram export/messages.html#message110",
+        "Anjoman accounting.xlsx#مجموع!D35"
+      ],
+      "message_ids": [
+        "message110"
+      ],
+      "tracking_id": null,
+      "duplicate_of": null,
+      "review_reason": "",
+      "notes": "Shares a timestamp with TX0041."
+    },
+    {
+      "id": "TX0041",
+      "date_jalali": "1404/08/28",
+      "date_gregorian": "2025-11-19",
+      "period_jalali": "1404/08",
+      "date_basis": "message",
+      "direction": "Payment",
+      "amount_original": 13000.0,
+      "unit_original": "rial",
+      "amount_toman": 1300.0,
+      "counterparty": "Unknown",
+      "description_fa": "چاپ قوانین اتاق انجمن (دوم)",
+      "description_en": "Printing room rules (second line)",
+      "category": "Printing",
+      "project": "Association operations",
+      "status": "Supported",
+      "evidence_basis": "Message only",
+      "cash_account": "SHAHR-8966",
+      "sources": [
+        "telegram export/messages.html#message110",
+        "Anjoman accounting.xlsx#مجموع!D36"
+      ],
+      "message_ids": [
+        "message110"
+      ],
+      "tracking_id": null,
+      "duplicate_of": null,
+      "review_reason": "Same timestamp as TX0040, so this may be a split entry.",
+      "notes": ""
+    },
+    {
+      "id": "TX0042",
+      "date_jalali": "1404/08/28",
+      "date_gregorian": "2025-11-19",
+      "period_jalali": "1404/08",
+      "date_basis": "receipt",
+      "direction": "Payment",
+      "amount_original": 130000.0,
+      "unit_original": "rial",
+      "amount_toman": 13000.0,
+      "counterparty": "کپی آرام گرافیک",
+      "description_fa": "چاپ پوستر انجمن",
+      "description_en": "Association poster printing",
+      "category": "Printing",
+      "project": "Association operations",
+      "status": "Review",
+      "evidence_basis": "Receipt and message",
+      "cash_account": "SHAHR-8966",
+      "sources": [
+        "telegram export/photos/photo_32@27-06-2026_18-24-52.jpg"
+      ],
+      "message_ids": [
+        "message145"
+      ],
+      "tracking_id": "856401535048",
+      "duplicate_of": null,
+      "review_reason": "Same day as TX0040/41 (12:35 vs 12:55). It may be a separate purchase, or one of the printing lines misread by a factor of 10. Not in the ledger.",
+      "notes": "Excluded pending match."
+    },
+    {
+      "id": "TX0043",
+      "date_jalali": "1404/09/02",
+      "date_gregorian": "2025-11-23",
+      "period_jalali": "1404/09",
+      "date_basis": "receipt",
+      "direction": "Payment",
+      "amount_original": 10200000.0,
+      "unit_original": "rial",
+      "amount_toman": 1020000.0,
+      "counterparty": "Merchant terminal 06723260",
+      "description_fa": "خرید با کارت انجمن، بابت نامشخص",
+      "description_en": "Card purchase, purpose unknown",
+      "category": "Unclassified",
+      "project": "Unknown",
+      "status": "Review",
+      "evidence_basis": "Receipt only",
+      "cash_account": "SHAHR-8966",
+      "sources": [
+        "recipts/photo_4_2026-10-10_14-07-27.jpg"
+      ],
+      "message_ids": [],
+      "tracking_id": "406547",
+      "duplicate_of": null,
+      "review_reason": "Association account debit with no purpose and no ledger row.",
+      "notes": "Balance after: 121,745,270 rial."
+    },
+    {
+      "id": "TX0044",
+      "date_jalali": null,
+      "date_gregorian": null,
+      "period_jalali": "1404/09",
+      "date_basis": "workbook_month",
+      "direction": "Receipt",
+      "amount_original": 100000000.0,
+      "unit_original": "rial",
+      "amount_toman": 10000000.0,
+      "counterparty": "سامان مقیمی عراقی",
+      "description_fa": "واریزی دکتر مقیمی جهت هزینه‌های جاری",
+      "description_en": "Moghimi donation for running costs",
+      "category": "Donations",
+      "project": "Association operations",
+      "status": "Supported",
+      "evidence_basis": "Receipt and message",
+      "cash_account": "SHAHR-8966",
+      "sources": [
+        "telegram export/photos/photo_25@19-11-2025_11-46-31.jpg",
+        "Anjoman accounting.xlsx#مجموع!B38"
+      ],
+      "message_ids": [
+        "message101",
+        "message102",
+        "message103"
+      ],
+      "tracking_id": null,
+      "duplicate_of": null,
+      "review_reason": "The receipt crop has no date. The forward header (1404/08/28) conflicts with the ledger month آذر.",
+      "notes": "Period is taken from the ledger."
+    },
+    {
+      "id": "TX0045",
+      "date_jalali": null,
+      "date_gregorian": null,
+      "period_jalali": "1404/09",
+      "date_basis": "workbook_month",
+      "direction": "Receipt",
+      "amount_original": 7000000.0,
+      "unit_original": "toman",
+      "amount_toman": 7000000.0,
+      "counterparty": "دکتر مقیمی",
+      "description_fa": "واریزی دکتر مقیمی جهت کمک به انجمن",
+      "description_en": "Moghimi donation",
+      "category": "Donations",
+      "project": "Association operations",
+      "status": "Supported",
+      "evidence_basis": "Original ledger",
+      "cash_account": "SHAHR-8966",
+      "sources": [
+        "Anjoman accounting.xlsx#مجموع!B39"
+      ],
+      "message_ids": [],
+      "tracking_id": null,
+      "duplicate_of": null,
+      "review_reason": "No receipt.",
+      "notes": "Ledger-derived."
+    },
+    {
+      "id": "TX0046",
+      "date_jalali": "1404/09/28",
+      "date_gregorian": "2025-12-19",
+      "period_jalali": "1404/09",
+      "date_basis": "receipt",
+      "direction": "Receipt",
+      "amount_original": 60000000.0,
+      "unit_original": "rial",
+      "amount_toman": 6000000.0,
+      "counterparty": "سامان مقیمی عراقی",
+      "description_fa": "واریزی دکتر مقیمی",
+      "description_en": "Moghimi donation",
+      "category": "Donations",
+      "project": "Association operations",
+      "status": "Supported",
+      "evidence_basis": "Receipt and message",
+      "cash_account": "SHAHR-8966",
+      "sources": [
+        "telegram export/photos/photo_26@21-12-2025_05-36-21.jpg",
+        "Anjoman accounting.xlsx#مجموع!B40"
+      ],
+      "message_ids": [
+        "message112",
+        "message113"
+      ],
+      "tracking_id": "171502426735",
+      "duplicate_of": null,
+      "review_reason": "",
+      "notes": "A 2,500 toman fee was charged on the sender side; it is not an association expense. The Yalda link via message114 is weak; the ledger classifies this as a general donation."
+    },
+    {
+      "id": "TX0047",
+      "date_jalali": null,
+      "date_gregorian": null,
+      "period_jalali": "1404/10",
+      "date_basis": "workbook_month",
+      "direction": "Receipt",
+      "amount_original": 15790000.0,
+      "unit_original": "toman",
+      "amount_toman": 15790000.0,
+      "counterparty": "Crowd donors",
+      "description_fa": "دونیشن جشن یلدا در حساب",
+      "description_en": "Yalda donations deposited",
+      "category": "Donations",
+      "project": "Yalda 1404",
+      "status": "Supported",
+      "evidence_basis": "Original ledger",
+      "cash_account": "SEPAH-2925",
+      "sources": [
+        "Anjoman accounting.xlsx#مجموع!B42",
+        "telegram export/messages.html#message116"
+      ],
+      "message_ids": [
+        "message114",
+        "message115",
+        "message116",
+        "message121"
+      ],
+      "tracking_id": null,
+      "duplicate_of": null,
+      "review_reason": "The partial Sepah SMS lines do not sum to this total.",
+      "notes": "Treasurer's total (message116, message121). Included on original-ledger/treasurer-statement basis only; no bank deposit corroboration."
+    },
+    {
+      "id": "TX0048",
+      "date_jalali": null,
+      "date_gregorian": null,
+      "period_jalali": "1404/10",
+      "date_basis": "workbook_month",
+      "direction": "Receipt",
+      "amount_original": 700000.0,
+      "unit_original": "toman",
+      "amount_toman": 700000.0,
+      "counterparty": "Cash donors",
+      "description_fa": "دونیشن نقدی یلدا",
+      "description_en": "Yalda cash donations",
+      "category": "Donations",
+      "project": "Yalda 1404",
+      "status": "Supported",
+      "evidence_basis": "Original ledger",
+      "cash_account": "CASH",
+      "sources": [
+        "Anjoman accounting.xlsx#مجموع!B43",
+        "telegram export/messages.html#message116"
+      ],
+      "message_ids": [
+        "message116"
+      ],
+      "tracking_id": null,
+      "duplicate_of": null,
+      "review_reason": "Physical cash custody not evidenced.",
+      "notes": ""
+    },
+    {
+      "id": "TX0049",
+      "date_jalali": null,
+      "date_gregorian": null,
+      "period_jalali": "1404/10",
+      "date_basis": "message",
+      "direction": "Payment",
+      "amount_original": 100037800.0,
+      "unit_original": "unknown",
+      "amount_toman": null,
+      "counterparty": "Card-to-card payees (unidentified)",
+      "description_fa": "برداشت سپه برای کارت به کارت هزینه‌ها",
+      "description_en": "Sepah withdrawal used for card-to-card expense payments",
+      "category": "Transfers",
+      "project": "Yalda 1404",
+      "status": "Review",
+      "evidence_basis": "Message only",
+      "cash_account": "SEPAH-2925",
+      "sources": [
+        "telegram export/messages.html#message115"
+      ],
+      "message_ids": [
+        "message115",
+        "message118",
+        "message120"
+      ],
+      "tracking_id": null,
+      "duplicate_of": null,
+      "review_reason": "Explicitly expenses or transfers, not income (message120). Payees unknown. The withdrawal line in message115 carries no unit label, while the deposit lines are labelled rial. May overlap recorded expenses.",
+      "notes": "Sepah line dated 10/1 10:29. Excluded from totals."
+    },
+    {
+      "id": "TX0050",
+      "date_jalali": "1404/10/08",
+      "date_gregorian": "2025-12-29",
+      "period_jalali": "1404/10",
+      "date_basis": "receipt",
+      "direction": "Payment",
+      "amount_original": 21370000.0,
+      "unit_original": "rial",
+      "amount_toman": 2137000.0,
+      "counterparty": "سیدبردیا احمدی‌مروست",
+      "description_fa": "بازپرداخت خریدهای جایزه و پذیرایی یلدا",
+      "description_en": "Reimbursement to Bardia for Yalda prizes and catering",
+      "category": "Events",
+      "project": "Yalda 1404",
+      "status": "Supported",
+      "evidence_basis": "Receipt and message",
+      "cash_account": "SHAHR-8966",
+      "sources": [
+        "telegram export/photos/photo_45@27-06-2026_18-36-09.jpg",
+        "Anjoman accounting.xlsx#مجموع!D42"
+      ],
+      "message_ids": [
+        "message154",
+        "message159"
+      ],
+      "tracking_id": "130060015629",
+      "duplicate_of": null,
+      "review_reason": "",
+      "notes": "Equals D42. Bardia's claims total 400+250+600+1,162=2,412k; the 275k gap equals the sandwich portion."
+    },
+    {
+      "id": "TX0051",
+      "date_jalali": "1404/10/08",
+      "date_gregorian": "2025-12-29",
+      "period_jalali": "1404/10",
+      "date_basis": "receipt",
+      "direction": "Payment",
+      "amount_original": 21370000.0,
+      "unit_original": "rial",
+      "amount_toman": 2137000.0,
+      "counterparty": "سیدبردیا احمدی‌مروست",
+      "description_fa": "تکرار رسید بازپرداخت بردیا",
+      "description_en": "Re-posted copy of TX0050 receipt",
+      "category": "Events",
+      "project": "Yalda 1404",
+      "status": "Duplicate",
+      "evidence_basis": "Receipt only",
+      "cash_account": "SHAHR-8966",
+      "sources": [
+        "telegram export/photos/photo_48@27-06-2026_18-43-30.jpg"
+      ],
+      "message_ids": [
+        "message165"
+      ],
+      "tracking_id": "130060015629",
+      "duplicate_of": "TX0050",
+      "review_reason": "Same tracking ID.",
+      "notes": "Excluded."
+    },
+    {
+      "id": "TX0052",
+      "date_jalali": "1404/10/01",
+      "date_gregorian": "2025-12-22",
+      "period_jalali": "1404/10",
+      "date_basis": "receipt",
+      "direction": "Payment",
+      "amount_original": 4000000.0,
+      "unit_original": "rial",
+      "amount_toman": 400000.0,
+      "counterparty": "ساناز بهرامی",
+      "description_fa": "خرید جاسوییچی و گوشواره انار (پرداخت بردیا)",
+      "description_en": "Volunteer-paid keyrings and earrings (inferred from message154)",
+      "category": "Events",
+      "project": "Yalda 1404",
+      "status": "Review",
+      "evidence_basis": "Receipt and message",
+      "cash_account": "VOLUNTEER",
+      "sources": [
+        "telegram export/photos/photo_42@27-06-2026_18-36-09.jpg"
+      ],
+      "message_ids": [
+        "message154",
+        "message156"
+      ],
+      "tracking_id": "705679",
+      "duplicate_of": null,
+      "review_reason": "Paid from Bardia's personal account. This is supporting detail for the TX0050 reimbursement, not association cash.",
+      "notes": "Purpose inferred from the amount match."
+    },
+    {
+      "id": "TX0053",
+      "date_jalali": "1404/10/01",
+      "date_gregorian": "2025-12-22",
+      "period_jalali": "1404/10",
+      "date_basis": "receipt",
+      "direction": "Payment",
+      "amount_original": 2500000.0,
+      "unit_original": "rial",
+      "amount_toman": 250000.0,
+      "counterparty": "پروین حقوردی",
+      "description_fa": "جاسوییچی عروسکی (پرداخت بردیا)",
+      "description_en": "Volunteer-paid plush keyrings (inferred)",
+      "category": "Events",
+      "project": "Yalda 1404",
+      "status": "Review",
+      "evidence_basis": "Receipt and message",
+      "cash_account": "VOLUNTEER",
+      "sources": [
+        "telegram export/photos/photo_41@27-06-2026_18-36-09.jpg"
+      ],
+      "message_ids": [
+        "message154",
+        "message155"
+      ],
+      "tracking_id": "269183",
+      "duplicate_of": null,
+      "review_reason": "Volunteer-funded; supports TX0050.",
+      "notes": ""
+    },
+    {
+      "id": "TX0054",
+      "date_jalali": "1404/10/01",
+      "date_gregorian": "2025-12-22",
+      "period_jalali": "1404/10",
+      "date_basis": "receipt",
+      "direction": "Payment",
+      "amount_original": 6000000.0,
+      "unit_original": "rial",
+      "amount_toman": 600000.0,
+      "counterparty": "POS Pasargad 00778147",
+      "description_fa": "هندوانه و انار ریز (پرداخت بردیا، استنباطی)",
+      "description_en": "Volunteer POS purchase; inferred small watermelons and pomegranates",
+      "category": "Events",
+      "project": "Yalda 1404",
+      "status": "Review",
+      "evidence_basis": "Receipt and message",
+      "cash_account": "VOLUNTEER",
+      "sources": [
+        "telegram export/photos/photo_43@27-06-2026_18-36-09.jpg"
+      ],
+      "message_ids": [
+        "message157"
+      ],
+      "tracking_id": "14000623",
+      "duplicate_of": null,
+      "review_reason": "Bardia said he lacked the 600 receipt, so the mapping is ambiguous. Supports TX0050.",
+      "notes": ""
+    },
+    {
+      "id": "TX0055",
+      "date_jalali": "1404/10/02",
+      "date_gregorian": "2025-12-23",
+      "period_jalali": "1404/10",
+      "date_basis": "receipt",
+      "direction": "Payment",
+      "amount_original": 11625840.0,
+      "unit_original": "rial",
+      "amount_toman": 1162584.0,
+      "counterparty": "POS Novin Arian 11304219",
+      "description_fa": "ساندویچ و ژله فرمند (فاکتور ۱۱۶۲، پرداخت بردیا)",
+      "description_en": "Volunteer purchase: sandwiches 275 + jelly 887 (thousand toman)",
+      "category": "Events",
+      "project": "Yalda 1404",
+      "status": "Review",
+      "evidence_basis": "Receipt and message",
+      "cash_account": "VOLUNTEER",
+      "sources": [
+        "telegram export/photos/photo_44@27-06-2026_18-36-09.jpg"
+      ],
+      "message_ids": [
+        "message154",
+        "message158",
+        "message164"
+      ],
+      "tracking_id": "14482839",
+      "duplicate_of": null,
+      "review_reason": "Invoice lost. Volunteer-funded; supports TX0050.",
+      "notes": ""
+    },
+    {
+      "id": "TX0056",
+      "date_jalali": "1404/10/01",
+      "date_gregorian": "2025-12-22",
+      "period_jalali": "1404/10",
+      "date_basis": "receipt",
+      "direction": "Payment",
+      "amount_original": 21500000.0,
+      "unit_original": "rial",
+      "amount_toman": 2150000.0,
+      "counterparty": "Canbo Tarasht 1633",
+      "description_fa": "پودر ژله طالبی ۳۲ و شربت آلبالو ۲ (پرداخت حسین)",
+      "description_en": "Jelly powder and cherry syrup bought by Hossein",
+      "category": "Events",
+      "project": "Yalda 1404",
+      "status": "Review",
+      "evidence_basis": "Receipt and message",
+      "cash_account": "VOLUNTEER",
+      "sources": [
+        "telegram export/photos/photo_46@27-06-2026_18-38-52.jpg"
+      ],
+      "message_ids": [
+        "message161",
+        "message164"
+      ],
+      "tracking_id": null,
+      "duplicate_of": null,
+      "review_reason": "Payer appears to be Hossein. No reimbursement to Hossein is evidenced, so this may be an unrecorded payable or unrecorded payment.",
+      "notes": "VAT 1,954,545 rial."
+    },
+    {
+      "id": "TX0057",
+      "date_jalali": "1404/10/01",
+      "date_gregorian": "2025-12-22",
+      "period_jalali": "1404/10",
+      "date_basis": "receipt",
+      "direction": "Payment",
+      "amount_original": 21500000.0,
+      "unit_original": "rial",
+      "amount_toman": 2150000.0,
+      "counterparty": "Canbo Tarasht 1633",
+      "description_fa": "تکرار تصویر رسید جانبو",
+      "description_en": "Duplicate image of TX0056 receipt",
+      "category": "Events",
+      "project": "Yalda 1404",
+      "status": "Duplicate",
+      "evidence_basis": "Receipt only",
+      "cash_account": "VOLUNTEER",
+      "sources": [
+        "telegram export/photos/photo_47@27-06-2026_18-43-30.jpg"
+      ],
+      "message_ids": [
+        "message164"
+      ],
+      "tracking_id": null,
+      "duplicate_of": "TX0056",
+      "review_reason": "Same barcode 99T0S85F5ZMDN8E.",
+      "notes": "Excluded."
+    },
+    {
+      "id": "TX0058",
+      "date_jalali": null,
+      "date_gregorian": null,
+      "period_jalali": "1404/10",
+      "date_basis": "message",
+      "direction": "Payment",
+      "amount_original": 275.0,
+      "unit_original": "unknown",
+      "amount_toman": null,
+      "counterparty": "حسین",
+      "description_fa": "کاغذ و ماژیک ۱۶۵ + شیرینی ۶۰ و ۵۰ (بدون رسید)",
+      "description_en": "Unreceipted volunteer spend: paper/markers and sweets",
+      "category": "Events",
+      "project": "Yalda 1404",
+      "status": "Review",
+      "evidence_basis": "Message only",
+      "cash_account": "VOLUNTEER",
+      "sources": [
+        "telegram export/messages.html#message162"
+      ],
+      "message_ids": [
+        "message162",
+        "message163",
+        "message164"
+      ],
+      "tracking_id": null,
+      "duplicate_of": null,
+      "review_reason": "No receipt and no unit (likely thousand toman). Reimbursement status unknown.",
+      "notes": ""
+    },
+    {
+      "id": "TX0059",
+      "date_jalali": "1404/10/09",
+      "date_gregorian": "2025-12-30",
+      "period_jalali": "1404/10",
+      "date_basis": "receipt",
+      "direction": "Payment",
+      "amount_original": 1800000.0,
+      "unit_original": "rial",
+      "amount_toman": 180000.0,
+      "counterparty": "دینا زالی",
+      "description_fa": "نخ بسته‌بندی فال یلدا",
+      "description_en": "Thread for Yalda fortune packaging",
+      "category": "Events",
+      "project": "Yalda 1404",
+      "status": "Supported",
+      "evidence_basis": "Receipt and message",
+      "cash_account": "SHAHR-8966",
+      "sources": [
+        "telegram export/photos/photo_39@27-06-2026_18-29-10.jpg"
+      ],
+      "message_ids": [
+        "message152"
+      ],
+      "tracking_id": "130062165421",
+      "duplicate_of": null,
+      "review_reason": "",
+      "notes": "Not in the original ledger."
+    },
+    {
+      "id": "TX0060",
+      "date_jalali": null,
+      "date_gregorian": null,
+      "period_jalali": null,
+      "date_basis": "unknown",
+      "direction": "Payment",
+      "amount_original": 1664700.0,
+      "unit_original": "toman",
+      "amount_toman": 1664700.0,
+      "counterparty": "Unknown online grocer",
+      "description_fa": "فاکتور ۷ بسته انار پذیرایی یلدا",
+      "description_en": "Pomegranates invoice for Yalda",
+      "category": "Hospitality",
+      "project": "Yalda 1404",
+      "status": "Invoice only",
+      "evidence_basis": "Invoice",
+      "cash_account": "UNKNOWN",
+      "sources": [
+        "telegram export/photos/photo_38@27-06-2026_18-27-25.jpg"
+      ],
+      "message_ids": [
+        "message151"
+      ],
+      "tracking_id": null,
+      "duplicate_of": null,
+      "review_reason": "No date or payment evidence.",
+      "notes": ""
+    },
+    {
+      "id": "TX0061",
+      "date_jalali": "1404/12/09",
+      "date_gregorian": "2026-02-28",
+      "period_jalali": "1404/12",
+      "date_basis": "receipt",
+      "direction": "Unknown",
+      "amount_original": 18012200.0,
+      "unit_original": "rial",
+      "amount_toman": 1801220.0,
+      "counterparty": "Card 6221061239419676 (owner unknown)",
+      "description_fa": "انتقال از کارت انجمن، بابت نامشخص",
+      "description_en": "Transfer from association card, purpose and payee unknown",
+      "category": "Unclassified",
+      "project": "Unknown",
+      "status": "Review",
+      "evidence_basis": "Receipt only",
+      "cash_account": "SHAHR-8966",
+      "sources": [
+        "recipts/photo_6_2026-10-10_14-07-27.jpg"
+      ],
+      "message_ids": [],
+      "tracking_id": null,
+      "duplicate_of": null,
+      "review_reason": "Could be an expense or an internal transfer to the custodian.",
+      "notes": "Balance after: 12,262,895 rial."
+    },
+    {
+      "id": "TX0062",
+      "date_jalali": "1405/02/24",
+      "date_gregorian": "2026-05-14",
+      "period_jalali": "1405/02",
+      "date_basis": "receipt",
+      "direction": "Payment",
+      "amount_original": 15500000.0,
+      "unit_original": "rial",
+      "amount_toman": 1550000.0,
+      "counterparty": "پرنیان عسگری",
+      "description_fa": "تسویه ۱.۵ از ۴.۰۵ هزینه جشن یلدا",
+      "description_en": "Yalda reimbursement installment 1",
+      "category": "Events",
+      "project": "Yalda 1404",
+      "status": "Supported",
+      "evidence_basis": "Receipt and message",
+      "cash_account": "SHAHR-8966",
+      "sources": [
+        "telegram export/photos/photo_28@17-05-2026_19-45-07.jpg"
+      ],
+      "message_ids": [
+        "message126",
+        "message128"
+      ],
+      "tracking_id": "130035640932",
+      "duplicate_of": null,
+      "review_reason": "",
+      "notes": "Not in the original ledger."
+    },
+    {
+      "id": "TX0063",
+      "date_jalali": "1405/02/27",
+      "date_gregorian": "2026-05-17",
+      "period_jalali": "1405/02",
+      "date_basis": "receipt",
+      "direction": "Payment",
+      "amount_original": 25000000.0,
+      "unit_original": "rial",
+      "amount_toman": 2500000.0,
+      "counterparty": "پرنیان عسگری",
+      "description_fa": "تسویه ۲.۵ از ۴.۰۵ جشن یلدا",
+      "description_en": "Yalda reimbursement installment 2 (total 4,050,000)",
+      "category": "Events",
+      "project": "Yalda 1404",
+      "status": "Supported",
+      "evidence_basis": "Receipt and message",
+      "cash_account": "SHAHR-8966",
+      "sources": [
+        "telegram export/photos/photo_27@17-05-2026_19-45-07.jpg"
+      ],
+      "message_ids": [
+        "message125",
+        "message128"
+      ],
+      "tracking_id": "130014131832",
+      "duplicate_of": null,
+      "review_reason": "",
+      "notes": "The scan receipts (TX0064-TX0074) support this reimbursement."
+    },
+    {
+      "id": "TX0064",
+      "date_jalali": "1404/10/02",
+      "date_gregorian": "2025-12-23",
+      "period_jalali": "1404/10",
+      "date_basis": "receipt",
+      "direction": "Payment",
+      "amount_original": 1074000.0,
+      "unit_original": "rial",
+      "amount_toman": 107400.0,
+      "counterparty": "Canbo Tarasht 1633",
+      "description_fa": "۶ عدد اسنک ۳۸ گرمی (خرید پرنیان)",
+      "description_en": "Volunteer purchase C1, 6 snacks",
+      "category": "Events",
+      "project": "Yalda 1404",
+      "status": "Review",
+      "evidence_basis": "Receipt and message",
+      "cash_account": "VOLUNTEER",
+      "sources": [
+        "telegram export/files/CamScanner 13-05-2026 12.43 (1).pdf#page=1"
+      ],
+      "message_ids": [
+        "message124",
+        "message129"
+      ],
+      "tracking_id": null,
+      "duplicate_of": null,
+      "review_reason": "Volunteer-funded; supports TX0062/TX0063.",
+      "notes": "18:48."
+    },
+    {
+      "id": "TX0065",
+      "date_jalali": "1404/10/02",
+      "date_gregorian": "2025-12-23",
+      "period_jalali": "1404/10",
+      "date_basis": "receipt",
+      "direction": "Payment",
+      "amount_original": 1790000.0,
+      "unit_original": "rial",
+      "amount_toman": 179000.0,
+      "counterparty": "Canbo Tarasht 1633",
+      "description_fa": "۱۰ اسنک (C2)",
+      "description_en": "Volunteer purchase C2",
+      "category": "Events",
+      "project": "Yalda 1404",
+      "status": "Review",
+      "evidence_basis": "Receipt and message",
+      "cash_account": "VOLUNTEER",
+      "sources": [
+        "telegram export/files/CamScanner 13-05-2026 12.43 (1).pdf#page=2",
+        "telegram export/files/CamScanner 13-05-2026 12.43 (1).pdf#page=2"
+      ],
+      "message_ids": [
+        "message124",
+        "message129"
+      ],
+      "tracking_id": "857374932735",
+      "duplicate_of": null,
+      "review_reason": "Volunteer-funded; supports the Parnian reimbursement.",
+      "notes": "18:47. The terminal slip (ref 857374932735, card 603769-**-5401) reads 18:47:06. Pages 2 and 5 are both 18:47 and 1,790,000, so it is ambiguous which slip this reference belongs to. Card 603769-**-5401 matches the destination card of Parnian's reimbursements (TX0062/TX0063: 6037 69** **** 5401), which supports volunteer (Parnian) payment. The shared fiscal-memory serial S001001000010154 and terminal A001001000020043 are not transaction identifiers."
+    },
+    {
+      "id": "TX0066",
+      "date_jalali": "1404/10/02",
+      "date_gregorian": "2025-12-23",
+      "period_jalali": "1404/10",
+      "date_basis": "receipt",
+      "direction": "Payment",
+      "amount_original": 1790000.0,
+      "unit_original": "rial",
+      "amount_toman": 179000.0,
+      "counterparty": "Canbo Tarasht 1633",
+      "description_fa": "۱۰ اسنک (C3)",
+      "description_en": "Volunteer purchase C3",
+      "category": "Events",
+      "project": "Yalda 1404",
+      "status": "Review",
+      "evidence_basis": "Receipt and message",
+      "cash_account": "VOLUNTEER",
+      "sources": [
+        "telegram export/files/CamScanner 13-05-2026 12.43 (1).pdf#page=3",
+        "telegram export/files/CamScanner 13-05-2026 12.43 (1).pdf#page=3"
+      ],
+      "message_ids": [
+        "message124",
+        "message129"
+      ],
+      "tracking_id": null,
+      "duplicate_of": null,
+      "review_reason": "Distinct from C2 (18:48 vs 18:47).",
+      "notes": ""
+    },
+    {
+      "id": "TX0067",
+      "date_jalali": "1404/10/02",
+      "date_gregorian": "2025-12-23",
+      "period_jalali": "1404/10",
+      "date_basis": "receipt",
+      "direction": "Payment",
+      "amount_original": 1790000.0,
+      "unit_original": "rial",
+      "amount_toman": 179000.0,
+      "counterparty": "Canbo Tarasht 1633",
+      "description_fa": "۱۰ اسنک (C4، بدون مهر)",
+      "description_en": "Volunteer purchase C4",
+      "category": "Events",
+      "project": "Yalda 1404",
+      "status": "Review",
+      "evidence_basis": "Receipt and message",
+      "cash_account": "VOLUNTEER",
+      "sources": [
+        "telegram export/files/CamScanner 13-05-2026 12.43 (1).pdf#page=4",
+        "telegram export/files/CamScanner 13-05-2026 12.43 (1).pdf#page=4"
+      ],
+      "message_ids": [
+        "message124",
+        "message129"
+      ],
+      "tracking_id": null,
+      "duplicate_of": null,
+      "review_reason": "Volunteer-funded.",
+      "notes": "18:46, barcode ≈99TD8856BX8Y71R."
+    },
+    {
+      "id": "TX0068",
+      "date_jalali": "1404/10/02",
+      "date_gregorian": "2025-12-23",
+      "period_jalali": "1404/10",
+      "date_basis": "receipt",
+      "direction": "Payment",
+      "amount_original": 1790000.0,
+      "unit_original": "rial",
+      "amount_toman": 179000.0,
+      "counterparty": "Canbo Tarasht 1633",
+      "description_fa": "۱۰ اسنک (C5)",
+      "description_en": "Volunteer purchase C5",
+      "category": "Events",
+      "project": "Yalda 1404",
+      "status": "Review",
+      "evidence_basis": "Receipt and message",
+      "cash_account": "VOLUNTEER",
+      "sources": [
+        "telegram export/files/CamScanner 13-05-2026 12.43 (1).pdf#page=5",
+        "telegram export/files/CamScanner 13-05-2026 12.43 (1).pdf#page=5"
+      ],
+      "message_ids": [
+        "message124",
+        "message129"
+      ],
+      "tracking_id": null,
+      "duplicate_of": null,
+      "review_reason": "Volunteer-funded.",
+      "notes": "18:47, barcode …FX92HXB."
+    },
+    {
+      "id": "TX0069",
+      "date_jalali": "1404/10/02",
+      "date_gregorian": "2025-12-23",
+      "period_jalali": "1404/10",
+      "date_basis": "receipt",
+      "direction": "Payment",
+      "amount_original": 1790000.0,
+      "unit_original": "rial",
+      "amount_toman": 179000.0,
+      "counterparty": "Canbo Tarasht 1633",
+      "description_fa": "۱۰ اسنک (C6، احتمال تکرار C4)",
+      "description_en": "Volunteer purchase C6, possible re-scan of C4",
+      "category": "Events",
+      "project": "Yalda 1404",
+      "status": "Review",
+      "evidence_basis": "Receipt and message",
+      "cash_account": "VOLUNTEER",
+      "sources": [
+        "telegram export/files/CamScanner 13-05-2026 12.43 (1).pdf#page=6",
+        "telegram export/files/CamScanner 13-05-2026 12.43 (1).pdf#page=6"
+      ],
+      "message_ids": [
+        "message124",
+        "message129"
+      ],
+      "tracking_id": null,
+      "duplicate_of": "TX0067",
+      "review_reason": "Same minute as C4. Could be a pre-stamp and post-stamp scan of one slip; unresolved.",
+      "notes": ""
+    },
+    {
+      "id": "TX0070",
+      "date_jalali": "1404/10/02",
+      "date_gregorian": "2025-12-23",
+      "period_jalali": "1404/10",
+      "date_basis": "receipt",
+      "direction": "Payment",
+      "amount_original": 19166400.0,
+      "unit_original": "rial",
+      "amount_toman": 1916640.0,
+      "counterparty": "Hyperfamili Tarasht",
+      "description_fa": "۹۹ عدد اسنک مزمز",
+      "description_en": "Volunteer purchase H1, 99 Mozmoz snacks",
+      "category": "Events",
+      "project": "Yalda 1404",
+      "status": "Review",
+      "evidence_basis": "Receipt and message",
+      "cash_account": "VOLUNTEER",
+      "sources": [
+        "telegram export/files/CamScanner 13-05-2026 12.43 (1).pdf#page=7",
+        "telegram export/files/CamScanner 13-05-2026 12.43 (1).pdf#page=7"
+      ],
+      "message_ids": [
+        "message124",
+        "message129"
+      ],
+      "tracking_id": null,
+      "duplicate_of": null,
+      "review_reason": "Volunteer-funded.",
+      "notes": "Receipt no. 11-13-100361. VAT 1,742,400 rial. The date is partly stamped over."
+    },
+    {
+      "id": "TX0071",
+      "date_jalali": "1404/10/03",
+      "date_gregorian": "2025-12-24",
+      "period_jalali": "1404/10",
+      "date_basis": "receipt",
+      "direction": "Payment",
+      "amount_original": 1357999.0,
+      "unit_original": "rial",
+      "amount_toman": 135799.9,
+      "counterparty": "Ekano",
+      "description_fa": "شکلات تابلت گالا",
+      "description_en": "Volunteer purchase E1, chocolate",
+      "category": "Events",
+      "project": "Yalda 1404",
+      "status": "Review",
+      "evidence_basis": "Receipt and message",
+      "cash_account": "VOLUNTEER",
+      "sources": [
+        "telegram export/files/CamScanner 13-05-2026 12.43 (1).pdf#page=8",
+        "telegram export/files/CamScanner 13-05-2026 12.43 (1).pdf#page=8"
+      ],
+      "message_ids": [
+        "message124",
+        "message129"
+      ],
+      "tracking_id": "140622005550/11396",
+      "duplicate_of": null,
+      "review_reason": "Volunteer-funded.",
+      "notes": "Exact amount 135,799.9 toman, rounded."
+    },
+    {
+      "id": "TX0072",
+      "date_jalali": "1404/10/02",
+      "date_gregorian": "2025-12-23",
+      "period_jalali": "1404/10",
+      "date_basis": "receipt",
+      "direction": "Payment",
+      "amount_original": 1790000.0,
+      "unit_original": "rial",
+      "amount_toman": 179000.0,
+      "counterparty": "Canbo Tarasht Metro 2224",
+      "description_fa": "۱۰ اسنک (C7)",
+      "description_en": "Volunteer purchase C7",
+      "category": "Events",
+      "project": "Yalda 1404",
+      "status": "Review",
+      "evidence_basis": "Receipt and message",
+      "cash_account": "VOLUNTEER",
+      "sources": [
+        "telegram export/files/CamScanner 13-05-2026 12.43 (1).pdf#page=9",
+        "telegram export/files/CamScanner 13-05-2026 12.43 (1).pdf#page=9"
+      ],
+      "message_ids": [
+        "message124",
+        "message129"
+      ],
+      "tracking_id": null,
+      "duplicate_of": null,
+      "review_reason": "Volunteer-funded.",
+      "notes": "Barcode 99T1XLWSMFVK3PB."
+    },
+    {
+      "id": "TX0073",
+      "date_jalali": "1404/10/02",
+      "date_gregorian": "2025-12-23",
+      "period_jalali": "1404/10",
+      "date_basis": "receipt",
+      "direction": "Payment",
+      "amount_original": 1253000.0,
+      "unit_original": "rial",
+      "amount_toman": 125300.0,
+      "counterparty": "Canbo Tarasht Metro 2224",
+      "description_fa": "۷ اسنک (C8)",
+      "description_en": "Volunteer purchase C8",
+      "category": "Events",
+      "project": "Yalda 1404",
+      "status": "Review",
+      "evidence_basis": "Receipt and message",
+      "cash_account": "VOLUNTEER",
+      "sources": [
+        "telegram export/files/CamScanner 13-05-2026 12.43 (1).pdf#page=10",
+        "telegram export/files/CamScanner 13-05-2026 12.43 (1).pdf#page=10"
+      ],
+      "message_ids": [
+        "message124",
+        "message129"
+      ],
+      "tracking_id": null,
+      "duplicate_of": null,
+      "review_reason": "Volunteer-funded.",
+      "notes": "18:56."
+    },
+    {
+      "id": "TX0074",
+      "date_jalali": null,
+      "date_gregorian": null,
+      "period_jalali": "1404/10",
+      "date_basis": "unknown",
+      "direction": "Payment",
+      "amount_original": 4950000.0,
+      "unit_original": "rial",
+      "amount_toman": 495000.0,
+      "counterparty": "RIBAR coffee/fast food",
+      "description_fa": "فاکتور دست‌نویس کوکی شکلاتی (احتمالی)",
+      "description_en": "Handwritten invoice, likely chocolate cookies",
+      "category": "Events",
+      "project": "Yalda 1404",
+      "status": "Invoice only",
+      "evidence_basis": "Invoice",
+      "cash_account": "VOLUNTEER",
+      "sources": [
+        "telegram export/files/CamScanner 13-05-2026 12.43 (1).pdf#page=11",
+        "telegram export/files/CamScanner 13-05-2026 12.43 (1).pdf#page=11"
+      ],
+      "message_ids": [
+        "message124",
+        "message128",
+        "message129"
+      ],
+      "tracking_id": null,
+      "duplicate_of": null,
+      "review_reason": "Date (≈1404/10/13?) and amount are low-confidence. No payment proof.",
+      "notes": "Year-month only retained."
+    },
+    {
+      "id": "TX0075",
+      "date_jalali": "1405/05/21",
+      "date_gregorian": "2026-08-12",
+      "period_jalali": "1405/05",
+      "date_basis": "receipt",
+      "direction": "Payment",
+      "amount_original": 63370000.0,
+      "unit_original": "rial",
+      "amount_toman": 6337000.0,
+      "counterparty": "Terminal 80957455",
+      "description_fa": "خرید با کارت ۵۰۴۷۰۶۱۱۵۴۴۷۲۱۶۷ از حساب انجمن",
+      "description_en": "Card purchase on association deposit, purpose unknown",
+      "category": "Unclassified",
+      "project": "Unknown (1405)",
+      "status": "Review",
+      "evidence_basis": "Receipt only",
+      "cash_account": "SHAHR-2167",
+      "sources": [
+        "recipts/photo_3_2026-10-10_14-07-27.jpg"
+      ],
+      "message_ids": [],
+      "tracking_id": "187300",
+      "duplicate_of": null,
+      "review_reason": "No purpose and no ledger row. Second card on the same deposit.",
+      "notes": "Balance after: 260,305,702 rial. The debit is on deposit 400816808774, the same deposit as SHAHR-8966, using a second card (…2167). The cash_account label 'SHAHR-2167' must not be read as a separate account. Card ownership is unconfirmed."
+    },
+    {
+      "id": "TX0076",
+      "date_jalali": "1405/05/22",
+      "date_gregorian": "2026-08-13",
+      "period_jalali": "1405/05",
+      "date_basis": "receipt",
+      "direction": "Payment",
+      "amount_original": 11000000.0,
+      "unit_original": "rial",
+      "amount_toman": 1100000.0,
+      "counterparty": "Terminal 09039608",
+      "description_fa": "خرید با کارت، بابت نامشخص",
+      "description_en": "Card purchase, purpose unknown",
+      "category": "Unclassified",
+      "project": "Unknown (1405)",
+      "status": "Review",
+      "evidence_basis": "Receipt only",
+      "cash_account": "SHAHR-2167",
+      "sources": [
+        "recipts/photo_2_2026-10-10_14-07-27.jpg"
+      ],
+      "message_ids": [],
+      "tracking_id": "308839",
+      "duplicate_of": null,
+      "review_reason": "Purpose unknown.",
+      "notes": "Balance 217,675,702 rial."
+    },
+    {
+      "id": "TX0077",
+      "date_jalali": "1405/05/22",
+      "date_gregorian": "2026-08-13",
+      "period_jalali": "1405/05",
+      "date_basis": "receipt",
+      "direction": "Payment",
+      "amount_original": 13200000.0,
+      "unit_original": "rial",
+      "amount_toman": 1320000.0,
+      "counterparty": "Terminal 09039608",
+      "description_fa": "خرید با کارت، بابت نامشخص",
+      "description_en": "Card purchase, purpose unknown",
+      "category": "Unclassified",
+      "project": "Unknown (1405)",
+      "status": "Review",
+      "evidence_basis": "Receipt only",
+      "cash_account": "SHAHR-2167",
+      "sources": [
+        "recipts/photo_5_2026-10-10_14-07-27.jpg"
+      ],
+      "message_ids": [],
+      "tracking_id": "666086",
+      "duplicate_of": null,
+      "review_reason": "Purpose unknown.",
+      "notes": "Balance chain consistent: 204,475,702 rial."
+    },
+    {
+      "id": "TX0078",
+      "date_jalali": "1405/05/22",
+      "date_gregorian": "2026-08-13",
+      "period_jalali": "1405/05",
+      "date_basis": "receipt",
+      "direction": "Payment",
+      "amount_original": 13000000.0,
+      "unit_original": "rial",
+      "amount_toman": 1300000.0,
+      "counterparty": "Terminal 03202703",
+      "description_fa": "خرید با کارت، بابت نامشخص",
+      "description_en": "Card purchase, purpose unknown",
+      "category": "Unclassified",
+      "project": "Unknown (1405)",
+      "status": "Review",
+      "evidence_basis": "Receipt only",
+      "cash_account": "SHAHR-2167",
+      "sources": [
+        "recipts/photo_8_2026-10-10_14-07-27.jpg"
+      ],
+      "message_ids": [],
+      "tracking_id": "008584",
+      "duplicate_of": null,
+      "review_reason": "Purpose unknown.",
+      "notes": "Balance 191,475,702 rial."
+    },
+    {
+      "id": "TX0079",
+      "date_jalali": "1405/05/22",
+      "date_gregorian": "2026-08-13",
+      "period_jalali": "1405/05",
+      "date_basis": "receipt",
+      "direction": "Payment",
+      "amount_original": 11600000.0,
+      "unit_original": "rial",
+      "amount_toman": 1160000.0,
+      "counterparty": "Terminal 22958772",
+      "description_fa": "خرید با کارت، بابت نامشخص",
+      "description_en": "Card purchase, purpose unknown",
+      "category": "Unclassified",
+      "project": "Unknown (1405)",
+      "status": "Review",
+      "evidence_basis": "Receipt only",
+      "cash_account": "SHAHR-2167",
+      "sources": [
+        "recipts/photo_7_2026-10-10_14-07-27.jpg"
+      ],
+      "message_ids": [],
+      "tracking_id": "972094",
+      "duplicate_of": null,
+      "review_reason": "Purpose unknown.",
+      "notes": "Balance 179,875,702 rial."
+    },
+    {
+      "id": "TX0080",
+      "date_jalali": "1405/06/05",
+      "date_gregorian": "2026-08-27",
+      "period_jalali": "1405/06",
+      "date_basis": "receipt",
+      "direction": "Payment",
+      "amount_original": 4500000.0,
+      "unit_original": "rial",
+      "amount_toman": 450000.0,
+      "counterparty": "محمدحسین مشک افشان",
+      "description_fa": "انتقال بلو؛ احتمالاً تبلیغ (استنباطی)",
+      "description_en": "Blu transfer; possibly advertising (inference from prior ad payee)",
+      "category": "Unclassified",
+      "project": "Unknown (1405)",
+      "status": "Review",
+      "evidence_basis": "Receipt only",
+      "cash_account": "BLU-CUSTODIAN",
+      "sources": [
+        "recipts/photo_5_2026-10-10_11-09-04.jpg"
+      ],
+      "message_ids": [],
+      "tracking_id": "14054456800606",
+      "duplicate_of": null,
+      "review_reason": "Custodian Blu account; association versus personal funds not established.",
+      "notes": ""
+    },
+    {
+      "id": "TX0081",
+      "date_jalali": "1405/06/06",
+      "date_gregorian": "2026-08-28",
+      "period_jalali": "1405/06",
+      "date_basis": "receipt",
+      "direction": "Payment",
+      "amount_original": 45000000.0,
+      "unit_original": "rial",
+      "amount_toman": 4500000.0,
+      "counterparty": "عاطفه نخعی",
+      "description_fa": "انتقال کارت به کارت، بابت نامشخص",
+      "description_en": "Card transfer, purpose unknown",
+      "category": "Unclassified",
+      "project": "Unknown (1405)",
+      "status": "Review",
+      "evidence_basis": "Receipt only",
+      "cash_account": "BLU-CUSTODIAN",
+      "sources": [
+        "recipts/photo_4_2026-10-10_11-09-04.jpg"
+      ],
+      "message_ids": [],
+      "tracking_id": "233888",
+      "duplicate_of": null,
+      "review_reason": "Source card …5780 differs from the other Blu card; custody unknown.",
+      "notes": ""
+    },
+    {
+      "id": "TX0082",
+      "date_jalali": "1405/06/07",
+      "date_gregorian": "2026-08-29",
+      "period_jalali": "1405/06",
+      "date_basis": "receipt",
+      "direction": "Payment",
+      "amount_original": 42570000.0,
+      "unit_original": "rial",
+      "amount_toman": 4257000.0,
+      "counterparty": "مهبانگ فن‌آوری‌های پارس (Skyroom)",
+      "description_fa": "فاکتور اسکای‌روم ۵۰ کاربره و بسته ضبط ۲۰ ساعت",
+      "description_en": "Skyroom 1-month licence and 20h recording package",
+      "category": "Teaching",
+      "project": "Unknown (likely 1405 summer school)",
+      "status": "Invoice only",
+      "evidence_basis": "Invoice",
+      "cash_account": "UNKNOWN",
+      "sources": [
+        "invoice-61150.pdf#page=1"
+      ],
+      "message_ids": [],
+      "tracking_id": null,
+      "duplicate_of": null,
+      "review_reason": "No payment proof. Buyer is Hassan personally.",
+      "notes": "Tax 387,000 toman. The refined workbook TX-00044 wrongly marks this confirmed."
+    },
+    {
+      "id": "TX0083",
+      "date_jalali": "1405/06/30",
+      "date_gregorian": "2026-09-21",
+      "period_jalali": "1405/06",
+      "date_basis": "receipt",
+      "direction": "Payment",
+      "amount_original": 6000000.0,
+      "unit_original": "rial",
+      "amount_toman": 600000.0,
+      "counterparty": "زهرا صالح کوشالی",
+      "description_fa": "انتقال پل (رسید غیرنهایی)",
+      "description_en": "Pol transfer, provisional receipt",
+      "category": "Unclassified",
+      "project": "Unknown (1405)",
+      "status": "Review",
+      "evidence_basis": "Receipt only",
+      "cash_account": "BLU-CUSTODIAN",
+      "sources": [
+        "recipts/photo_1_2026-10-10_11-09-04.jpg"
+      ],
+      "message_ids": [],
+      "tracking_id": "140506301533582360563628293194",
+      "duplicate_of": null,
+      "review_reason": "Provisional receipt; purpose and custody unknown.",
+      "notes": "1405/06/30 = 2026-09-21, which is a Monday and matches the printed weekday 'دوشنبه'. There is no weekday conflict. The OCR's 2026-09-22 was a conversion error."
+    },
+    {
+      "id": "TX0084",
+      "date_jalali": "1405/06/30",
+      "date_gregorian": "2026-09-21",
+      "period_jalali": "1405/06",
+      "date_basis": "receipt",
+      "direction": "Payment",
+      "amount_original": 12000000.0,
+      "unit_original": "rial",
+      "amount_toman": 1200000.0,
+      "counterparty": "رضا فرهادی",
+      "description_fa": "انتقال پل (غیرنهایی)",
+      "description_en": "Pol transfer, provisional",
+      "category": "Unclassified",
+      "project": "Unknown (1405)",
+      "status": "Review",
+      "evidence_basis": "Receipt only",
+      "cash_account": "BLU-CUSTODIAN",
+      "sources": [
+        "recipts/photo_2_2026-10-10_11-09-04.jpg"
+      ],
+      "message_ids": [],
+      "tracking_id": "140506301534578220563979207732",
+      "duplicate_of": null,
+      "review_reason": "Provisional; purpose and custody unknown.",
+      "notes": "1405/06/30 = Monday 2026-09-21, consistent with the receipt. Provisional ('این رسید نهایی نیست')."
+    },
+    {
+      "id": "TX0085",
+      "date_jalali": "1405/06/30",
+      "date_gregorian": "2026-09-21",
+      "period_jalali": "1405/06",
+      "date_basis": "receipt",
+      "direction": "Payment",
+      "amount_original": 24000000.0,
+      "unit_original": "rial",
+      "amount_toman": 2400000.0,
+      "counterparty": "علیرضا کچویی محقق یعقوبی",
+      "description_fa": "انتقال بلو به سامان",
+      "description_en": "Blu-to-Saman transfer",
+      "category": "Unclassified",
+      "project": "Unknown (1405)",
+      "status": "Review",
+      "evidence_basis": "Receipt only",
+      "cash_account": "BLU-CUSTODIAN",
+      "sources": [
+        "recipts/photo_3_2026-10-10_11-09-04.jpg"
+      ],
+      "message_ids": [],
+      "tracking_id": "14055256207674",
+      "duplicate_of": null,
+      "review_reason": "Purpose and custody unknown.",
+      "notes": ""
+    },
+    {
+      "id": "TX0086",
+      "date_jalali": "1405/07/01",
+      "date_gregorian": "2026-09-23",
+      "period_jalali": "1405/07",
+      "date_basis": "receipt",
+      "direction": "Payment",
+      "amount_original": 47000000.0,
+      "unit_original": "rial",
+      "amount_toman": 4700000.0,
+      "counterparty": "بهاره خویش‌خواه",
+      "description_fa": "انتقال پایا",
+      "description_en": "Paya transfer",
+      "category": "Unclassified",
+      "project": "Unknown (possibly Intro Event 1405)",
+      "status": "Review",
+      "evidence_basis": "Receipt only",
+      "cash_account": "BLU-CUSTODIAN",
+      "sources": [
+        "recipts/photo_7_2026-10-10_11-09-04.jpg"
+      ],
+      "message_ids": [],
+      "tracking_id": "140507010562889372",
+      "duplicate_of": null,
+      "review_reason": "Purpose and custody unknown.",
+      "notes": ""
+    },
+    {
+      "id": "TX0087",
+      "date_jalali": "1405/07/01",
+      "date_gregorian": "2026-09-23",
+      "period_jalali": "1405/07",
+      "date_basis": "receipt",
+      "direction": "Payment",
+      "amount_original": 26000000.0,
+      "unit_original": "rial",
+      "amount_toman": 2600000.0,
+      "counterparty": "ایلیا اصغریان دهکردی",
+      "description_fa": "انتقال بلو به بلو",
+      "description_en": "Blu-to-Blu transfer",
+      "category": "Unclassified",
+      "project": "Unknown (1405)",
+      "status": "Review",
+      "evidence_basis": "Receipt only",
+      "cash_account": "BLU-CUSTODIAN",
+      "sources": [
+        "recipts/photo_8_2026-10-10_11-09-04.jpg"
+      ],
+      "message_ids": [],
+      "tracking_id": "14055311988732",
+      "duplicate_of": null,
+      "review_reason": "Purpose and custody unknown. The payee name appears in the 1404 course lists.",
+      "notes": ""
+    },
+    {
+      "id": "TX0088",
+      "date_jalali": "1405/07/01",
+      "date_gregorian": "2026-09-23",
+      "period_jalali": "1405/07",
+      "date_basis": "receipt",
+      "direction": "Payment",
+      "amount_original": 9500000.0,
+      "unit_original": "rial",
+      "amount_toman": 950000.0,
+      "counterparty": "زهرا امیری",
+      "description_fa": "انتقال پل؛ احتمالاً طراحی (استنباطی)",
+      "description_en": "Pol transfer; possibly design (prior poster payee), provisional",
+      "category": "Unclassified",
+      "project": "Unknown (possibly Intro Event 1405)",
+      "status": "Review",
+      "evidence_basis": "Receipt only",
+      "cash_account": "BLU-CUSTODIAN",
+      "sources": [
+        "recipts/photo_6_2026-10-10_11-09-04.jpg"
+      ],
+      "message_ids": [],
+      "tracking_id": "140507010417015540563175074696",
+      "duplicate_of": null,
+      "review_reason": "Provisional; purpose inferred only.",
+      "notes": ""
+    },
+    {
+      "id": "TX0089",
+      "date_jalali": "1405/07/01",
+      "date_gregorian": "2026-09-23",
+      "period_jalali": "1405/07",
+      "date_basis": "receipt",
+      "direction": "Payment",
+      "amount_original": 99879000.0,
+      "unit_original": "rial",
+      "amount_toman": 9987900.0,
+      "counterparty": "یاران دریان لوکس گیشا",
+      "description_fa": "فاکتور ۱۹۰ قلم شیرکاکائو و کیک به نام حسن شیری",
+      "description_en": "Invoice: 190 milk drinks and cakes, buyer Hassan Shiri",
+      "category": "Hospitality",
+      "project": "Unknown (possibly Intro Event 1405, 1405/07/02)",
+      "status": "Invoice only",
+      "evidence_basis": "Invoice",
+      "cash_account": "UNKNOWN",
+      "sources": [
+        "recipts/photo_2026-10-10_12-16-28.jpg"
+      ],
+      "message_ids": [],
+      "tracking_id": null,
+      "duplicate_of": null,
+      "review_reason": "Customer balance equals the total, so unpaid at issue. Line sum is 100,100,000 vs total 99,879,000.",
+      "notes": ""
+    },
+    {
+      "id": "TX0090",
+      "date_jalali": "1405/07/02",
+      "date_gregorian": "2026-09-24",
+      "period_jalali": "1405/07",
+      "date_basis": "receipt",
+      "direction": "Payment",
+      "amount_original": 139000000.0,
+      "unit_original": "rial",
+      "amount_toman": 13900000.0,
+      "counterparty": "پریا هاشمی",
+      "description_fa": "انتقال کارت به کارت، بابت نامشخص",
+      "description_en": "Card transfer, purpose unknown",
+      "category": "Unclassified",
+      "project": "Unknown (1405)",
+      "status": "Review",
+      "evidence_basis": "Receipt only",
+      "cash_account": "BLU-CUSTODIAN",
+      "sources": [
+        "recipts/photo_10_2026-10-10_11-09-04.jpg"
+      ],
+      "message_ids": [],
+      "tracking_id": "487065",
+      "duplicate_of": null,
+      "review_reason": "Largest unexplained outflow. Purpose and custody unknown.",
+      "notes": "Reference 487026636208."
+    },
+    {
+      "id": "TX0091",
+      "date_jalali": "1405/07/02",
+      "date_gregorian": "2026-09-24",
+      "period_jalali": "1405/07",
+      "date_basis": "receipt",
+      "direction": "Payment",
+      "amount_original": 23322500.0,
+      "unit_original": "rial",
+      "amount_toman": 2332250.0,
+      "counterparty": "Merchant 12738006",
+      "description_fa": "خرید از فروشگاه",
+      "description_en": "Store purchase",
+      "category": "Unclassified",
+      "project": "Unknown (1405)",
+      "status": "Review",
+      "evidence_basis": "Receipt only",
+      "cash_account": "BLU-CUSTODIAN",
+      "sources": [
+        "recipts/photo_11_2026-10-10_11-09-04.jpg"
+      ],
+      "message_ids": [],
+      "tracking_id": null,
+      "duplicate_of": null,
+      "review_reason": "Account holder and goods unknown.",
+      "notes": "Balance after: 16,921,310 rial."
+    },
+    {
+      "id": "TX0092",
+      "date_jalali": "1405/07/14",
+      "date_gregorian": "2026-10-06",
+      "period_jalali": "1405/07",
+      "date_basis": "receipt",
+      "direction": "Payment",
+      "amount_original": 3050000.0,
+      "unit_original": "rial",
+      "amount_toman": 305000.0,
+      "counterparty": "مژده سلمانی سرشکی",
+      "description_fa": "انتقال کارت به کارت",
+      "description_en": "Card transfer, purpose unknown",
+      "category": "Unclassified",
+      "project": "Unknown (1405)",
+      "status": "Review",
+      "evidence_basis": "Receipt only",
+      "cash_account": "BLU-CUSTODIAN",
+      "sources": [
+        "recipts/photo_12_2026-10-10_11-09-04.jpg"
+      ],
+      "message_ids": [],
+      "tracking_id": "981431",
+      "duplicate_of": null,
+      "review_reason": "Purpose and custody unknown.",
+      "notes": ""
+    },
+    {
+      "id": "TX0093",
+      "date_jalali": null,
+      "date_gregorian": null,
+      "period_jalali": "1405/07",
+      "date_basis": "workbook_month",
+      "direction": "Receipt",
+      "amount_original": 23000000.0,
+      "unit_original": "toman",
+      "amount_toman": 23000000.0,
+      "counterparty": "Event platform / participants",
+      "description_fa": "درآمد معرفی رشته (مهر ۰۵)",
+      "description_en": "Intro event 1405 receipts per ledger",
+      "category": "Events",
+      "project": "Intro Event 1405",
+      "status": "Supported",
+      "evidence_basis": "Original ledger",
+      "cash_account": "UNKNOWN",
+      "sources": [
+        "Anjoman accounting.xlsx#مجموع!B45"
+      ],
+      "message_ids": [],
+      "tracking_id": null,
+      "duplicate_of": null,
+      "review_reason": "No settlement deposit. A bridge to the 27,235,000 gross is required (ISS004).",
+      "notes": "Ledger-derived. Included on original-ledger/treasurer-statement basis only; no bank deposit corroboration."
+    },
+    {
+      "id": "TX0094",
+      "date_jalali": "1405/07/02",
+      "date_gregorian": "2026-09-24",
+      "period_jalali": "1405/07",
+      "date_basis": "receipt",
+      "direction": "Receipt",
+      "amount_original": 27235000.0,
+      "unit_original": "toman",
+      "amount_toman": 27235000.0,
+      "counterparty": "Ticket buyers (90)",
+      "description_fa": "فروش بلیت ناخالص طبق گزارش پلتفرم",
+      "description_en": "Platform-reported gross ticket sales",
+      "category": "Events",
+      "project": "Intro Event 1405",
+      "status": "Summary only",
+      "evidence_basis": "Report",
+      "cash_account": "UNKNOWN",
+      "sources": [
+        "physics_intro full report.pdf#page=1",
+        "physics_intro full report.pdf#page=2"
+      ],
+      "message_ids": [],
+      "tracking_id": null,
+      "duplicate_of": null,
+      "review_reason": "Gross sales, not settlement. Not additive to TX0093.",
+      "notes": "Gap of 4,235,000 vs ledger (fees, refunds or timing unknown)."
+    },
+    {
+      "id": "TX0095",
+      "date_jalali": null,
+      "date_gregorian": null,
+      "period_jalali": "1405/07",
+      "date_basis": "workbook_month",
+      "direction": "Payment",
+      "amount_original": 5000000.0,
+      "unit_original": "toman",
+      "amount_toman": 5000000.0,
+      "counterparty": "Unknown",
+      "description_fa": "دورهمی بعد از رویداد معرفی رشته",
+      "description_en": "Post-event gathering",
+      "category": "Events",
+      "project": "Intro Event 1405",
+      "status": "Supported",
+      "evidence_basis": "Original ledger",
+      "cash_account": "UNKNOWN",
+      "sources": [
+        "Anjoman accounting.xlsx#مجموع!D45"
+      ],
+      "message_ids": [],
+      "tracking_id": null,
+      "duplicate_of": null,
+      "review_reason": "No receipt; round amount.",
+      "notes": "Ledger-derived."
+    }
+  ],
+  "issues": [
+    {
+      "id": "ISS001",
+      "severity": "High",
+      "title": "No bank statements; opening and closing cash unverifiable",
+      "description": "Only fragments are available: receipts, SMS and screenshots. There is no opening balance, and balance snapshots conflict (230,203,965 rial on 1404/05/02; 22,953,913 rial on 1404/07/20; '560,800,163' on 1404/07/22; 22,765,000 in message52; 29,200 in message86). The 560,800,163 and 565,800,163 rial snapshots are mutually consistent with a 5,000,000 rial deposit; their relation to the earlier 22,953,913 snapshot remains unexplained. On 1404/05/03 the balance drop of 9,614,400 rial is 7,394,600 smaller than recorded intervening debits of 17,009,000 rial, requiring inflows or other explanation.",
+      "amount_toman": null,
+      "transaction_ids": [],
+      "action": "Obtain full Shahr 400816808774, Sepah 3001254062925 and Blu statements.",
+      "sources": [
+        "telegram export/messages.html"
+      ]
+    },
+    {
+      "id": "ISS002",
+      "severity": "High",
+      "title": "Commingled custodian Blu account outflows in 1405",
+      "description": "Eleven Blu transfers and purchases by Hassan Shiri totalling 33,937,250 toman have no stated purpose. The source accounts are not established as association accounts.",
+      "amount_toman": 33937250,
+      "transaction_ids": [
+        "TX0080",
+        "TX0081",
+        "TX0083",
+        "TX0084",
+        "TX0085",
+        "TX0086",
+        "TX0087",
+        "TX0088",
+        "TX0090",
+        "TX0091",
+        "TX0092"
+      ],
+      "action": "Custodian to annotate each payment and declare which funds are association funds.",
+      "sources": [
+        "recipts/photo_10_2026-10-10_11-09-04.jpg"
+      ]
+    },
+    {
+      "id": "ISS003",
+      "severity": "High",
+      "title": "Unexplained 1405 debits on association Shahr deposit",
+      "description": "Five card purchases on card …2167 (1405/05/21-22), plus 1404/09/02 and 1404/12/09 debits. There is also an undocumented 31,630,000 rial drop between the 1405/05/21 and 1405/05/22 balances.",
+      "amount_toman": 14038220,
+      "transaction_ids": [
+        "TX0075",
+        "TX0076",
+        "TX0077",
+        "TX0078",
+        "TX0079",
+        "TX0043",
+        "TX0061"
+      ],
+      "action": "Identify merchants and purpose. Confirm whether card …2167 belongs to the association.",
+      "sources": [
+        "recipts/photo_3_2026-10-10_14-07-27.jpg"
+      ]
+    },
+    {
+      "id": "ISS004",
+      "severity": "High",
+      "title": "Intro Event 1405 bridge: 27,235,000 gross vs 23,000,000 ledger",
+      "description": "The platform report shows gross sales of 27,235,000. The ledger records 23,000,000 with a 5,000,000 gathering. No settlement deposit exists, and invoices for Skyroom (4,257,000) and catering (9,987,900) are unpaid or unmatched.",
+      "amount_toman": 4235000,
+      "transaction_ids": [
+        "TX0093",
+        "TX0094",
+        "TX0095",
+        "TX0082",
+        "TX0089"
+      ],
+      "action": "Obtain the platform payout statement (fees and refunds) and the deposit. Record either gross with fees or net, never both.",
+      "sources": [
+        "physics_intro full report.pdf#page=1",
+        "Anjoman accounting.xlsx#مجموع!B45"
+      ]
+    },
+    {
+      "id": "ISS005",
+      "severity": "Medium",
+      "title": "Intro Event 1404 net transfer has no unit",
+      "description": "17,650,000 without a unit. As rial (1,765,000 toman) it equals ledger M3 net. Treated as an internal transfer.",
+      "amount_toman": null,
+      "transaction_ids": [
+        "TX0018",
+        "TX0014"
+      ],
+      "action": "Confirm the unit with Amin or the bank.",
+      "sources": [
+        "telegram export/photos/photo_12@01-10-2025_18-02-44.jpg"
+      ]
+    },
+    {
+      "id": "ISS006",
+      "severity": "Medium",
+      "title": "Duplicate ledger rows",
+      "description": "مجموع D23 duplicates the D20 pastry (1,052,375). D12 likely duplicates the D9 ad (400,000).",
+      "amount_toman": 1452375,
+      "transaction_ids": [
+        "TX0025",
+        "TX0010"
+      ],
+      "action": "Delete D23. Confirm D12 with Hassan.",
+      "sources": [
+        "Anjoman accounting.xlsx#مجموع!D23",
+        "Anjoman accounting.xlsx#مجموع!D12"
+      ]
+    },
+    {
+      "id": "ISS007",
+      "severity": "Medium",
+      "title": "Cash shabash direction unresolved",
+      "description": "message111 reads '300000 cash shabash for the party'. The ledger treats it as an expense (D29), but it could be cash received.",
+      "amount_toman": 300000,
+      "transaction_ids": [
+        "TX0036"
+      ],
+      "action": "Ask the treasurer whether the cash came in or was given out, and who holds it.",
+      "sources": [
+        "telegram export/messages.html#message111"
+      ]
+    },
+    {
+      "id": "ISS008",
+      "severity": "Medium",
+      "title": "Yalda reimbursements and volunteer purchases",
+      "description": "Parnian reimbursement 4,050,000 is absent from the original ledger. Printed purchases total 3,359,139.9, or 3,180,139.9 excluding possible C6 duplicate. Including invoice-only Ribar 495,000 gives 3,854,139.9 or 3,675,139.9. These are provisional documentation gaps, not confirmed overpayment. Hossein reimbursement is undocumented. Bardia claims vs payment need a separate bridge.",
+      "amount_toman": 4050000,
+      "transaction_ids": [
+        "TX0050",
+        "TX0062",
+        "TX0063",
+        "TX0056",
+        "TX0058",
+        "TX0064",
+        "TX0069",
+        "TX0074"
+      ],
+      "action": "Prepare a reimbursement schedule per volunteer. Confirm the C6 duplicate and the Ribar amount.",
+      "sources": [
+        "telegram export/files/CamScanner 13-05-2026 12.43 (1).pdf"
+      ]
+    },
+    {
+      "id": "ISS009",
+      "severity": "Medium",
+      "title": "Sepah Yalda SMS inconsistent",
+      "description": "The SMS withdrawal is 100,037,800 in an unprinted unit (10,003,780 toman if rial). Message120 describes expense payments or transfers, not income. It remains unconverted and may overlap recorded expenses. Deposit lines are explicitly rial: 150,000, 500,000 and 1,000,000 toman; they do not sum to the treasurer total 15,790,000. Balances imply unlogged movements.",
+      "amount_toman": null,
+      "transaction_ids": [
+        "TX0049",
+        "TX0047"
+      ],
+      "action": "Obtain the full Sepah statement and list the payees of the withdrawal.",
+      "sources": [
+        "telegram export/messages.html#message115"
+      ]
+    },
+    {
+      "id": "ISS010",
+      "severity": "Low",
+      "title": "Booth catering amount",
+      "description": "The receipt shows 235,000; the ledger and message show 230,000.",
+      "amount_toman": 5000,
+      "transaction_ids": [
+        "TX0031"
+      ],
+      "action": "Correct the ledger to the receipt amount.",
+      "sources": [
+        "telegram export/photos/photo_40@27-06-2026_18-31-08.jpg"
+      ]
+    },
+    {
+      "id": "ISS011",
+      "severity": "Low",
+      "title": "Items missing from original ledger",
+      "description": "Transfer fee 900, Dina Zali 180,000, Parnian 4,050,000. The poster print of 13,000 is unmatched.",
+      "amount_toman": 4230900,
+      "transaction_ids": [
+        "TX0008",
+        "TX0059",
+        "TX0062",
+        "TX0063",
+        "TX0042"
+      ],
+      "action": "Add these to the ledger.",
+      "sources": []
+    },
+    {
+      "id": "ISS012",
+      "severity": "Low",
+      "title": "Workbook formula and label errors",
+      "description": "Refined تطبیق!B7 is circular (=B6-B7; should be B5-B6). TX-00002 counterparty is wrong. TX-00044 is marked confirmed with no payment. The مرداد sheet omits D10-D12. Sohrab's fee does not follow the 100k rounding rule (2,934→3,000).",
+      "amount_toman": null,
+      "transaction_ids": [
+        "TX0001",
+        "TX0002",
+        "TX0082"
+      ],
+      "action": "Fix formulas and statuses.",
+      "sources": [
+        "Anjoman accounting - refined.xlsx#تطبیق!B7"
+      ]
+    },
+    {
+      "id": "ISS013",
+      "severity": "Low",
+      "title": "Donation date conflict",
+      "description": "Moghimi's 10m receipt has no date. The forward header is 1404/08/28 but the ledger month is آذر.",
+      "amount_toman": 10000000,
+      "transaction_ids": [
+        "TX0044"
+      ],
+      "action": "Obtain the bank date.",
+      "sources": [
+        "telegram export/photos/photo_25@19-11-2025_11-46-31.jpg"
+      ]
+    },
+    {
+      "id": "ISS014",
+      "severity": "Low",
+      "title": "Course report revenue allocation",
+      "description": "Course reports label 11,601, 12,261 and 9,781 as toman. The printed-unit total is 33,643 toman. A possible thousand-toman scale would total 33,643,000, versus the ledger 33,642,000; that scale is unconfirmed and is used only as a comparison, not additional revenue. Reports contain student phone numbers.",
+      "amount_toman": 1000,
+      "transaction_ids": [
+        "TX0001"
+      ],
+      "action": "Treat as an allocation control only. Redact phone numbers.",
+      "sources": [
+        "telegram export/files/report_Python.txt"
+      ]
+    }
+  ],
+  "invoice_register": [
+    {
+      "id": "INV001",
+      "date_jalali": "1404/07/22",
+      "supplier": "نوآوران فن‌آوازه (Digikala)",
+      "description_en": "Sony NP-FV50 battery, invoice 15628595",
+      "gross_toman": 696000,
+      "tax_toman": 0,
+      "payment_match_ids": [
+        "TX0032"
+      ],
+      "status": "Matched payment",
+      "sources": [
+        "telegram export/files/dk-file-2025-10-16-14-43-08.pdf#page=1"
+      ],
+      "notes": "Buyer Matin Ghassami. Paid via Nima Kouhi reimbursement (with INV002 = 725,000)."
+    },
+    {
+      "id": "INV002",
+      "date_jalali": "1404/07/22",
+      "supplier": "نوآوران فن‌آوازه (Digikala)",
+      "description_en": "Shipping and insurance, invoice 12050044",
+      "gross_toman": 29000,
+      "tax_toman": 0,
+      "payment_match_ids": [
+        "TX0032"
+      ],
+      "status": "Matched payment",
+      "sources": [
+        "telegram export/files/dk-file-2025-10-16-14-43-08.pdf#page=1"
+      ],
+      "notes": "Same order as INV001."
+    },
+    {
+      "id": "INV003",
+      "date_jalali": "1404/08/07",
+      "supplier": "شادزی",
+      "description_en": "4 balloon glue, invoice 29449",
+      "gross_toman": 120000,
+      "tax_toman": null,
+      "payment_match_ids": [
+        "TX0037"
+      ],
+      "status": "Matched payment",
+      "sources": [
+        "telegram export/photos/photo_21@09-11-2025_23-16-09.jpg",
+        "telegram export/photos/photo_30@27-06-2026_18-24-31.jpg"
+      ],
+      "notes": "Two photos of one invoice. Paid via Ardavan reimbursement."
+    },
+    {
+      "id": "INV004",
+      "date_jalali": "1404/08/06",
+      "supplier": "شادزی",
+      "description_en": "Balloons, pump, thread, foils; invoice 2935/29350",
+      "gross_toman": 1310000,
+      "tax_toman": null,
+      "payment_match_ids": [
+        "TX0038"
+      ],
+      "status": "Matched payment",
+      "sources": [
+        "telegram export/photos/photo_22@09-11-2025_23-16-15.jpg",
+        "telegram export/photos/photo_29@27-06-2026_18-24-14.jpg"
+      ],
+      "notes": "Matched by amount to the Raheleh reimbursement. The 'Yalda' caption is a mislabel."
+    },
+    {
+      "id": "INV005",
+      "date_jalali": null,
+      "supplier": "Unknown (handwritten)",
+      "description_en": "Freshman prizes: holders, spinners, bow ties",
+      "gross_toman": null,
+      "tax_toman": null,
+      "payment_match_ids": [
+        "TX0033"
+      ],
+      "status": "Uncertain",
+      "sources": [
+        "telegram export/photos/photo_34@27-06-2026_18-26-03.jpg"
+      ],
+      "notes": "Total 14,350,000, unit unknown. Possibly the TX0033 or TX0035 prizes."
+    },
+    {
+      "id": "INV006",
+      "date_jalali": "1404/08/07",
+      "supplier": "T…Mobile (احمدی)",
+      "description_en": "USB flash 32G and earphones",
+      "gross_toman": 1500000,
+      "tax_toman": null,
+      "payment_match_ids": [
+        "TX0034"
+      ],
+      "status": "Matched payment",
+      "sources": [
+        "telegram export/photos/photo_35@27-06-2026_18-26-22.jpg"
+      ],
+      "notes": "POS slip stapled to the invoice."
+    },
+    {
+      "id": "INV007",
+      "date_jalali": "1404/07/22",
+      "supplier": "شیرینی مارژولن",
+      "description_en": "Pineapple pie and pastry order",
+      "gross_toman": 1052375,
+      "tax_toman": null,
+      "payment_match_ids": [
+        "TX0024"
+      ],
+      "status": "Matched payment",
+      "sources": [
+        "telegram export/photos/photo_36@27-06-2026_18-26-45.jpg"
+      ],
+      "notes": "Order screen."
+    },
+    {
+      "id": "INV008",
+      "date_jalali": "1404/07/20",
+      "supplier": "شیرینی مارژولن",
+      "description_en": "French chocolate cream pastry",
+      "gross_toman": 912850,
+      "tax_toman": null,
+      "payment_match_ids": [
+        "TX0023"
+      ],
+      "status": "Matched payment",
+      "sources": [
+        "telegram export/photos/photo_37@27-06-2026_18-27-12.jpg"
+      ],
+      "notes": "Arithmetic conflict noted."
+    },
+    {
+      "id": "INV009",
+      "date_jalali": null,
+      "supplier": "Unknown online grocer",
+      "description_en": "7 × 2kg pomegranates",
+      "gross_toman": 1664700,
+      "tax_toman": null,
+      "payment_match_ids": [],
+      "status": "Unmatched invoice",
+      "sources": [
+        "telegram export/photos/photo_38@27-06-2026_18-27-25.jpg"
+      ],
+      "notes": "Yalda caption."
+    },
+    {
+      "id": "INV010",
+      "date_jalali": "1404/10/01",
+      "supplier": "Canbo (Everest Modern Pars)",
+      "description_en": "Jelly powder and cherry syrup",
+      "gross_toman": 2150000,
+      "tax_toman": 195454.5,
+      "payment_match_ids": [
+        "TX0056"
+      ],
+      "status": "Uncertain",
+      "sources": [
+        "telegram export/photos/photo_46@27-06-2026_18-38-52.jpg",
+        "telegram export/photos/photo_47@27-06-2026_18-43-30.jpg"
+      ],
+      "notes": "Paid by a volunteer; no association reimbursement found."
+    },
+    {
+      "id": "INV011",
+      "date_jalali": "1404/10/02",
+      "supplier": "Canbo Tarasht 1633 / Metro 2224",
+      "description_en": "Snack receipts C1-C8 (eight slips)",
+      "gross_toman": 1306700,
+      "tax_toman": null,
+      "payment_match_ids": [
+        "TX0064",
+        "TX0065",
+        "TX0066",
+        "TX0067",
+        "TX0068",
+        "TX0069",
+        "TX0072",
+        "TX0073"
+      ],
+      "status": "Uncertain",
+      "sources": [
+        "telegram export/files/CamScanner 13-05-2026 12.43 (1).pdf"
+      ],
+      "notes": "Includes C6 (possible duplicate). Volunteer-paid; supports the Parnian reimbursement."
+    },
+    {
+      "id": "INV012",
+      "date_jalali": "1404/10/02",
+      "supplier": "Hyperfamili",
+      "description_en": "99 Mozmoz snacks",
+      "gross_toman": 1916640,
+      "tax_toman": 174240,
+      "payment_match_ids": [
+        "TX0070"
+      ],
+      "status": "Uncertain",
+      "sources": [
+        "telegram export/files/CamScanner 13-05-2026 12.43 (1).pdf#page=7"
+      ],
+      "notes": "Volunteer-paid."
+    },
+    {
+      "id": "INV013",
+      "date_jalali": "1404/10/03",
+      "supplier": "Ekano",
+      "description_en": "Gala chocolate",
+      "gross_toman": 135800,
+      "tax_toman": 12345.4,
+      "payment_match_ids": [
+        "TX0071"
+      ],
+      "status": "Uncertain",
+      "sources": [
+        "telegram export/files/CamScanner 13-05-2026 12.43 (1).pdf#page=8"
+      ],
+      "notes": "Volunteer-paid."
+    },
+    {
+      "id": "INV014",
+      "date_jalali": null,
+      "supplier": "RIBAR coffee/fast food",
+      "description_en": "Handwritten, likely chocolate cookies",
+      "gross_toman": 495000,
+      "tax_toman": null,
+      "payment_match_ids": [],
+      "status": "Unmatched invoice",
+      "sources": [
+        "telegram export/files/CamScanner 13-05-2026 12.43 (1).pdf#page=11"
+      ],
+      "notes": "Low-confidence reading; date ≈1404/10/13?."
+    },
+    {
+      "id": "INV015",
+      "date_jalali": "1405/06/07",
+      "supplier": "مهبانگ فن‌آوری‌های پارس",
+      "description_en": "Skyroom licence + recording, invoice 61150",
+      "gross_toman": 4257000,
+      "tax_toman": 387000,
+      "payment_match_ids": [],
+      "status": "Unmatched invoice",
+      "sources": [
+        "invoice-61150.pdf#page=1"
+      ],
+      "notes": "Buyer Hassan Shiri."
+    },
+    {
+      "id": "INV016",
+      "date_jalali": "1405/07/01",
+      "supplier": "یاران دریان لوکس گیشا",
+      "description_en": "190 dairy drinks and cakes, order 165826",
+      "gross_toman": 9987900,
+      "tax_toman": null,
+      "payment_match_ids": [],
+      "status": "Unmatched invoice",
+      "sources": [
+        "recipts/photo_2026-10-10_12-16-28.jpg"
+      ],
+      "notes": "Unpaid at issue."
+    }
+  ],
+  "observations": [
+    {
+      "date": "1404/05/02",
+      "amount_toman": 23020396.5,
+      "type": "reported_balance",
+      "description": "Shahr 400816808774 balance after the LaTeX fee (230,203,965 rial).",
+      "sources": [
+        "telegram export/messages.html#message28"
+      ]
+    },
+    {
+      "date": "1404/05/03",
+      "amount_toman": 22058956.5,
+      "type": "reported_balance",
+      "description": "Recorded intervening debits total 17,009,000 rial versus a 9,614,400 rial balance drop on 1404/05/02-03. The drop is 7,394,600 rial smaller, implying incoming funds or incomplete/misaligned records.",
+      "sources": [
+        "telegram export/messages.html#message32",
+        "telegram export/messages.html#message35"
+      ]
+    },
+    {
+      "date": null,
+      "amount_toman": 40000,
+      "type": "message_summary",
+      "description": "Hassan's personal card held about 40,000 toman (message39).",
+      "sources": [
+        "telegram export/messages.html#message39"
+      ]
+    },
+    {
+      "date": "1404/07/09",
+      "amount_toman": 22765000,
+      "type": "message_summary",
+      "description": "'Current balance' 22,765,000 (unit not stated).",
+      "sources": [
+        "telegram export/messages.html#message52"
+      ]
+    },
+    {
+      "date": "1404/07/20",
+      "amount_toman": 2295391.3,
+      "type": "reported_balance",
+      "description": "Shahr balance 22,953,913 rial after the TX0021 debit.",
+      "sources": [
+        "telegram export/photos/photo_16@15-10-2025_14-18-26.jpg"
+      ]
+    },
+    {
+      "date": "1404/07/22",
+      "amount_toman": null,
+      "type": "reported_balance",
+      "description": "The 560,800,163 and 565,800,163 rial snapshots are mutually consistent with a 5,000,000 rial deposit. Their relation to the 1404/07/20 snapshot of 22,953,913 rial remains unexplained; a complete statement is needed.",
+      "sources": [
+        "telegram export/photos/photo_14@15-10-2025_14-18-25.jpg",
+        "telegram export/photos/photo_15@15-10-2025_14-18-25.jpg"
+      ]
+    },
+    {
+      "date": null,
+      "amount_toman": null,
+      "type": "message_summary",
+      "description": "message76: inflow exceeded 50m. message86: balance '۲۹۲۰۰' (unit unclear).",
+      "sources": [
+        "telegram export/messages.html#message76",
+        "telegram export/messages.html#message86"
+      ]
+    },
+    {
+      "date": "1404/09/02",
+      "amount_toman": 12174527,
+      "type": "reported_balance",
+      "description": "Shahr balance 121,745,270 rial.",
+      "sources": [
+        "recipts/photo_4_2026-10-10_14-07-27.jpg"
+      ]
+    },
+    {
+      "date": "1404/10",
+      "amount_toman": 16490000,
+      "type": "message_summary",
+      "description": "Yalda treasurer total: 15,790,000 bank plus 700,000 cash. Sepah deposits are explicitly 1,500,000, 5,000,000 and 10,000,000 rial. The withdrawal prints 100,037,800 with no unit; it remains unconverted. Partial balances do not reconcile.",
+      "sources": [
+        "telegram export/messages.html#message115",
+        "telegram export/messages.html#message116"
+      ]
+    },
+    {
+      "date": "1404/12/09",
+      "amount_toman": 1226289.5,
+      "type": "reported_balance",
+      "description": "Shahr balance 12,262,895 rial.",
+      "sources": [
+        "recipts/photo_6_2026-10-10_14-07-27.jpg"
+      ]
+    },
+    {
+      "date": "1405/05/22",
+      "amount_toman": 17987570.2,
+      "type": "reported_balance",
+      "description": "Shahr balance chain 260,305,702 → 217,675,702 → 204,475,702 → 191,475,702 → 179,875,702 rial.",
+      "sources": [
+        "recipts/photo_7_2026-10-10_14-07-27.jpg"
+      ]
+    },
+    {
+      "date": "1405/07/02",
+      "amount_toman": 1692131,
+      "type": "reported_balance",
+      "description": "Blu balance 16,921,310 rial after the store purchase.",
+      "sources": [
+        "recipts/photo_11_2026-10-10_11-09-04.jpg"
+      ]
+    },
+    {
+      "date": "1405/07/02",
+      "amount_toman": 27235000,
+      "type": "report_total",
+      "description": "Intro event 1405: gross ticket sales, 90 participants. Top 3 days total 23,740,000.",
+      "sources": [
+        "physics_intro full report.pdf#page=1"
+      ]
+    },
+    {
+      "date": null,
+      "amount_toman": null,
+      "type": "report_total",
+      "description": "Printed course report figures: Python 11,601 (81 students), LaTeX 12,261 (89), Mathematica 9,781 (73), labelled toman. Their printed total is 33,643. A thousand-toman interpretation would give 33,643,000, but that scale is unconfirmed and not additional cash revenue.",
+      "sources": [
+        "telegram export/files/report_Python.txt",
+        "telegram export/files/report_LaTeX.txt",
+        "telegram export/files/report_Mathematica.txt"
+      ]
+    },
+    {
+      "date": null,
+      "amount_toman": null,
+      "type": "message_summary",
+      "description": "Teacher fee computations: 3,480 Joo, 2,934 Sohrab, 3,678 Matin, rounded to 100k. Ad prices on photo_9 have no valid currency.",
+      "sources": [
+        "telegram export/messages.html#message10",
+        "telegram export/photos/photo_9@12-08-2025_09-58-34.jpg"
+      ]
+    },
+    {
+      "date": null,
+      "amount_toman": 73913700,
+      "type": "report_total",
+      "description": "Original workbook totals: income 112,552,000, expense 38,638,300, balance 73,913,700 (مجموع J2/I2/O2).",
+      "sources": [
+        "Anjoman accounting.xlsx#مجموع!O2"
+      ]
+    }
+  ],
+  "source_coverage": [
+    {
+      "path": "telegram export/messages.html",
+      "treatment": "Reconciled",
+      "ledger_ids": [
+        "TX0008",
+        "TX0018",
+        "TX0029",
+        "TX0030",
+        "TX0035",
+        "TX0036",
+        "TX0039",
+        "TX0040",
+        "TX0041",
+        "TX0047",
+        "TX0048",
+        "TX0049",
+        "TX0058"
+      ],
+      "note": "All financial messages were mapped. Non-financial chat is context only (commitments in project_notes)."
+    },
+    {
+      "path": "Anjoman accounting.xlsx",
+      "treatment": "Reconciled",
+      "ledger_ids": [
+        "TX0001",
+        "TX0013",
+        "TX0014",
+        "TX0016",
+        "TX0017",
+        "TX0045",
+        "TX0093",
+        "TX0095"
+      ],
+      "note": "Every مجموع row is mapped in original_ledger_reconciliation. The مرداد and شهریور sheets are subsets."
+    },
+    {
+      "path": "Anjoman accounting - refined.xlsx",
+      "treatment": "Context only",
+      "ledger_ids": [],
+      "note": "Derived copy of مجموع plus TX-00044..48 proposals. Errors flagged in ISS012."
+    },
+    {
+      "path": "invoice-61150.pdf",
+      "treatment": "Extracted",
+      "ledger_ids": [
+        "TX0082"
+      ],
+      "note": "Invoice only."
+    },
+    {
+      "path": "physics_intro full report.pdf",
+      "treatment": "Extracted",
+      "ledger_ids": [
+        "TX0094"
+      ],
+      "note": "Summary only."
+    },
+    {
+      "path": "telegram export/files/dk-file-2025-10-16-14-43-08.pdf",
+      "treatment": "Reconciled",
+      "ledger_ids": [
+        "TX0032"
+      ],
+      "note": "INV001/002."
+    },
+    {
+      "path": "telegram export/files/CamScanner 13-05-2026 12.43 (1).pdf",
+      "treatment": "Extracted",
+      "ledger_ids": [
+        "TX0064",
+        "TX0065",
+        "TX0066",
+        "TX0067",
+        "TX0068",
+        "TX0069",
+        "TX0070",
+        "TX0071",
+        "TX0072",
+        "TX0073",
+        "TX0074"
+      ],
+      "note": "11 pages = scan_pages_01-03, 04-06, 07-09, 10-11. Independent page review used."
+    },
+    {
+      "path": "telegram export/files/report_Python.txt",
+      "treatment": "Context only",
+      "ledger_ids": [
+        "TX0001"
+      ],
+      "note": "Allocation control; contains personal data."
+    },
+    {
+      "path": "telegram export/files/report_LaTeX.txt",
+      "treatment": "Context only",
+      "ledger_ids": [
+        "TX0001"
+      ],
+      "note": "Allocation control."
+    },
+    {
+      "path": "telegram export/files/report_Mathematica.txt",
+      "treatment": "Context only",
+      "ledger_ids": [
+        "TX0001"
+      ],
+      "note": "Allocation control."
+    },
+    {
+      "path": "telegram export/photos/photo_1@24-07-2025_21-00-16.jpg",
+      "treatment": "Extracted",
+      "ledger_ids": [
+        "TX0002"
+      ],
+      "note": ""
+    },
+    {
+      "path": "telegram export/photos/photo_2@24-07-2025_21-00-17.jpg",
+      "treatment": "Extracted",
+      "ledger_ids": [
+        "TX0003"
+      ],
+      "note": ""
+    },
+    {
+      "path": "telegram export/photos/photo_3@24-07-2025_21-02-51.jpg",
+      "treatment": "Extracted",
+      "ledger_ids": [
+        "TX0004"
+      ],
+      "note": ""
+    },
+    {
+      "path": "telegram export/photos/photo_4@25-07-2025_04-04-24.jpg",
+      "treatment": "Extracted",
+      "ledger_ids": [
+        "TX0005"
+      ],
+      "note": ""
+    },
+    {
+      "path": "telegram export/photos/photo_5@25-07-2025_04-08-41.jpg",
+      "treatment": "Extracted",
+      "ledger_ids": [
+        "TX0006"
+      ],
+      "note": ""
+    },
+    {
+      "path": "telegram export/photos/photo_6@25-07-2025_15-53-39.jpg",
+      "treatment": "Extracted",
+      "ledger_ids": [
+        "TX0007",
+        "TX0008"
+      ],
+      "note": ""
+    },
+    {
+      "path": "telegram export/photos/photo_7@11-08-2025_15-51-55.jpg",
+      "treatment": "Extracted",
+      "ledger_ids": [
+        "TX0011"
+      ],
+      "note": ""
+    },
+    {
+      "path": "telegram export/photos/photo_8@12-08-2025_09-58-34.jpg",
+      "treatment": "Extracted",
+      "ledger_ids": [
+        "TX0009"
+      ],
+      "note": ""
+    },
+    {
+      "path": "telegram export/photos/photo_9@12-08-2025_09-58-34.jpg",
+      "treatment": "Context only",
+      "ledger_ids": [
+        "TX0009"
+      ],
+      "note": "Ad screenshot; no transaction."
+    },
+    {
+      "path": "telegram export/photos/photo_10@15-08-2025_18-28-22.jpg",
+      "treatment": "Extracted",
+      "ledger_ids": [
+        "TX0012"
+      ],
+      "note": ""
+    },
+    {
+      "path": "telegram export/photos/photo_11@04-09-2025_14-05-56.jpg",
+      "treatment": "Extracted",
+      "ledger_ids": [
+        "TX0015"
+      ],
+      "note": ""
+    },
+    {
+      "path": "telegram export/photos/photo_12@01-10-2025_18-02-44.jpg",
+      "treatment": "Extracted",
+      "ledger_ids": [
+        "TX0018"
+      ],
+      "note": ""
+    },
+    {
+      "path": "telegram export/photos/photo_13@12-10-2025_10-24-38.jpg",
+      "treatment": "Extracted",
+      "ledger_ids": [
+        "TX0020"
+      ],
+      "note": ""
+    },
+    {
+      "path": "telegram export/photos/photo_14@15-10-2025_14-18-25.jpg",
+      "treatment": "Extracted",
+      "ledger_ids": [
+        "TX0024"
+      ],
+      "note": ""
+    },
+    {
+      "path": "telegram export/photos/photo_15@15-10-2025_14-18-25.jpg",
+      "treatment": "Extracted",
+      "ledger_ids": [
+        "TX0019"
+      ],
+      "note": ""
+    },
+    {
+      "path": "telegram export/photos/photo_16@15-10-2025_14-18-26.jpg",
+      "treatment": "Extracted",
+      "ledger_ids": [
+        "TX0021"
+      ],
+      "note": ""
+    },
+    {
+      "path": "telegram export/photos/photo_17@15-10-2025_14-18-26.jpg",
+      "treatment": "Extracted",
+      "ledger_ids": [
+        "TX0023"
+      ],
+      "note": ""
+    },
+    {
+      "path": "telegram export/photos/photo_18@28-10-2025_01-53-01.jpg",
+      "treatment": "Extracted",
+      "ledger_ids": [
+        "TX0027"
+      ],
+      "note": ""
+    },
+    {
+      "path": "telegram export/photos/photo_19@28-10-2025_01-58-07.jpg",
+      "treatment": "Extracted",
+      "ledger_ids": [
+        "TX0032"
+      ],
+      "note": ""
+    },
+    {
+      "path": "telegram export/photos/photo_20@28-10-2025_22-07-57.jpg",
+      "treatment": "Extracted",
+      "ledger_ids": [
+        "TX0026"
+      ],
+      "note": ""
+    },
+    {
+      "path": "telegram export/photos/photo_21@09-11-2025_23-16-09.jpg",
+      "treatment": "Reconciled",
+      "ledger_ids": [
+        "TX0037"
+      ],
+      "note": "INV003."
+    },
+    {
+      "path": "telegram export/photos/photo_22@09-11-2025_23-16-15.jpg",
+      "treatment": "Reconciled",
+      "ledger_ids": [
+        "TX0038"
+      ],
+      "note": "INV004."
+    },
+    {
+      "path": "telegram export/photos/photo_23@14-11-2025_04-07-19.jpg",
+      "treatment": "Extracted",
+      "ledger_ids": [
+        "TX0037"
+      ],
+      "note": ""
+    },
+    {
+      "path": "telegram export/photos/photo_24@14-11-2025_04-07-19.jpg",
+      "treatment": "Extracted",
+      "ledger_ids": [
+        "TX0038"
+      ],
+      "note": ""
+    },
+    {
+      "path": "telegram export/photos/photo_25@19-11-2025_11-46-31.jpg",
+      "treatment": "Extracted",
+      "ledger_ids": [
+        "TX0044"
+      ],
+      "note": ""
+    },
+    {
+      "path": "telegram export/photos/photo_26@21-12-2025_05-36-21.jpg",
+      "treatment": "Extracted",
+      "ledger_ids": [
+        "TX0046"
+      ],
+      "note": ""
+    },
+    {
+      "path": "telegram export/photos/photo_27@17-05-2026_19-45-07.jpg",
+      "treatment": "Extracted",
+      "ledger_ids": [
+        "TX0063"
+      ],
+      "note": ""
+    },
+    {
+      "path": "telegram export/photos/photo_28@17-05-2026_19-45-07.jpg",
+      "treatment": "Extracted",
+      "ledger_ids": [
+        "TX0062"
+      ],
+      "note": ""
+    },
+    {
+      "path": "telegram export/photos/photo_29@27-06-2026_18-24-14.jpg",
+      "treatment": "Reconciled",
+      "ledger_ids": [
+        "TX0038"
+      ],
+      "note": "Second photo of INV004."
+    },
+    {
+      "path": "telegram export/photos/photo_30@27-06-2026_18-24-31.jpg",
+      "treatment": "Reconciled",
+      "ledger_ids": [
+        "TX0037"
+      ],
+      "note": "Second photo of INV003."
+    },
+    {
+      "path": "telegram export/photos/photo_31@27-06-2026_18-24-39.jpg",
+      "treatment": "Extracted",
+      "ledger_ids": [
+        "TX0028"
+      ],
+      "note": ""
+    },
+    {
+      "path": "telegram export/photos/photo_32@27-06-2026_18-24-52.jpg",
+      "treatment": "Extracted",
+      "ledger_ids": [
+        "TX0042"
+      ],
+      "note": ""
+    },
+    {
+      "path": "telegram export/photos/photo_33@27-06-2026_18-25-49.jpg",
+      "treatment": "Extracted",
+      "ledger_ids": [
+        "TX0033"
+      ],
+      "note": ""
+    },
+    {
+      "path": "telegram export/photos/photo_34@27-06-2026_18-26-03.jpg",
+      "treatment": "Reconciled",
+      "ledger_ids": [
+        "TX0033"
+      ],
+      "note": "INV005, uncertain."
+    },
+    {
+      "path": "telegram export/photos/photo_35@27-06-2026_18-26-22.jpg",
+      "treatment": "Extracted",
+      "ledger_ids": [
+        "TX0034"
+      ],
+      "note": ""
+    },
+    {
+      "path": "telegram export/photos/photo_36@27-06-2026_18-26-45.jpg",
+      "treatment": "Reconciled",
+      "ledger_ids": [
+        "TX0024"
+      ],
+      "note": "Same purchase as photo_14."
+    },
+    {
+      "path": "telegram export/photos/photo_37@27-06-2026_18-27-12.jpg",
+      "treatment": "Reconciled",
+      "ledger_ids": [
+        "TX0023"
+      ],
+      "note": "Same purchase as photo_17."
+    },
+    {
+      "path": "telegram export/photos/photo_38@27-06-2026_18-27-25.jpg",
+      "treatment": "Extracted",
+      "ledger_ids": [
+        "TX0060"
+      ],
+      "note": ""
+    },
+    {
+      "path": "telegram export/photos/photo_39@27-06-2026_18-29-10.jpg",
+      "treatment": "Extracted",
+      "ledger_ids": [
+        "TX0059"
+      ],
+      "note": ""
+    },
+    {
+      "path": "telegram export/photos/photo_40@27-06-2026_18-31-08.jpg",
+      "treatment": "Extracted",
+      "ledger_ids": [
+        "TX0031"
+      ],
+      "note": ""
+    },
+    {
+      "path": "telegram export/photos/photo_41@27-06-2026_18-36-09.jpg",
+      "treatment": "Extracted",
+      "ledger_ids": [
+        "TX0053"
+      ],
+      "note": ""
+    },
+    {
+      "path": "telegram export/photos/photo_42@27-06-2026_18-36-09.jpg",
+      "treatment": "Extracted",
+      "ledger_ids": [
+        "TX0052"
+      ],
+      "note": ""
+    },
+    {
+      "path": "telegram export/photos/photo_43@27-06-2026_18-36-09.jpg",
+      "treatment": "Extracted",
+      "ledger_ids": [
+        "TX0054"
+      ],
+      "note": ""
+    },
+    {
+      "path": "telegram export/photos/photo_44@27-06-2026_18-36-09.jpg",
+      "treatment": "Extracted",
+      "ledger_ids": [
+        "TX0055"
+      ],
+      "note": ""
+    },
+    {
+      "path": "telegram export/photos/photo_45@27-06-2026_18-36-09.jpg",
+      "treatment": "Extracted",
+      "ledger_ids": [
+        "TX0050"
+      ],
+      "note": ""
+    },
+    {
+      "path": "telegram export/photos/photo_46@27-06-2026_18-38-52.jpg",
+      "treatment": "Extracted",
+      "ledger_ids": [
+        "TX0056"
+      ],
+      "note": ""
+    },
+    {
+      "path": "telegram export/photos/photo_47@27-06-2026_18-43-30.jpg",
+      "treatment": "Extracted",
+      "ledger_ids": [
+        "TX0057"
+      ],
+      "note": "Duplicate image."
+    },
+    {
+      "path": "telegram export/photos/photo_48@27-06-2026_18-43-30.jpg",
+      "treatment": "Extracted",
+      "ledger_ids": [
+        "TX0051"
+      ],
+      "note": "Duplicate image."
+    },
+    {
+      "path": "recipts/photo_1_2026-10-10_11-09-04.jpg",
+      "treatment": "Extracted",
+      "ledger_ids": [
+        "TX0083"
+      ],
+      "note": ""
+    },
+    {
+      "path": "recipts/photo_2_2026-10-10_11-09-04.jpg",
+      "treatment": "Extracted",
+      "ledger_ids": [
+        "TX0084"
+      ],
+      "note": ""
+    },
+    {
+      "path": "recipts/photo_3_2026-10-10_11-09-04.jpg",
+      "treatment": "Extracted",
+      "ledger_ids": [
+        "TX0085"
+      ],
+      "note": ""
+    },
+    {
+      "path": "recipts/photo_4_2026-10-10_11-09-04.jpg",
+      "treatment": "Extracted",
+      "ledger_ids": [
+        "TX0081"
+      ],
+      "note": ""
+    },
+    {
+      "path": "recipts/photo_5_2026-10-10_11-09-04.jpg",
+      "treatment": "Extracted",
+      "ledger_ids": [
+        "TX0080"
+      ],
+      "note": ""
+    },
+    {
+      "path": "recipts/photo_6_2026-10-10_11-09-04.jpg",
+      "treatment": "Extracted",
+      "ledger_ids": [
+        "TX0088"
+      ],
+      "note": ""
+    },
+    {
+      "path": "recipts/photo_7_2026-10-10_11-09-04.jpg",
+      "treatment": "Extracted",
+      "ledger_ids": [
+        "TX0086"
+      ],
+      "note": ""
+    },
+    {
+      "path": "recipts/photo_8_2026-10-10_11-09-04.jpg",
+      "treatment": "Extracted",
+      "ledger_ids": [
+        "TX0087"
+      ],
+      "note": ""
+    },
+    {
+      "path": "recipts/photo_10_2026-10-10_11-09-04.jpg",
+      "treatment": "Extracted",
+      "ledger_ids": [
+        "TX0090"
+      ],
+      "note": ""
+    },
+    {
+      "path": "recipts/photo_11_2026-10-10_11-09-04.jpg",
+      "treatment": "Extracted",
+      "ledger_ids": [
+        "TX0091"
+      ],
+      "note": ""
+    },
+    {
+      "path": "recipts/photo_12_2026-10-10_11-09-04.jpg",
+      "treatment": "Extracted",
+      "ledger_ids": [
+        "TX0092"
+      ],
+      "note": ""
+    },
+    {
+      "path": "recipts/photo_1_2026-10-10_14-07-27.jpg",
+      "treatment": "Extracted",
+      "ledger_ids": [
+        "TX0022"
+      ],
+      "note": "Duplicate of photo_16."
+    },
+    {
+      "path": "recipts/photo_2_2026-10-10_14-07-27.jpg",
+      "treatment": "Extracted",
+      "ledger_ids": [
+        "TX0076"
+      ],
+      "note": ""
+    },
+    {
+      "path": "recipts/photo_3_2026-10-10_14-07-27.jpg",
+      "treatment": "Extracted",
+      "ledger_ids": [
+        "TX0075"
+      ],
+      "note": ""
+    },
+    {
+      "path": "recipts/photo_4_2026-10-10_14-07-27.jpg",
+      "treatment": "Extracted",
+      "ledger_ids": [
+        "TX0043"
+      ],
+      "note": ""
+    },
+    {
+      "path": "recipts/photo_5_2026-10-10_14-07-27.jpg",
+      "treatment": "Extracted",
+      "ledger_ids": [
+        "TX0077"
+      ],
+      "note": ""
+    },
+    {
+      "path": "recipts/photo_6_2026-10-10_14-07-27.jpg",
+      "treatment": "Extracted",
+      "ledger_ids": [
+        "TX0061"
+      ],
+      "note": ""
+    },
+    {
+      "path": "recipts/photo_7_2026-10-10_14-07-27.jpg",
+      "treatment": "Extracted",
+      "ledger_ids": [
+        "TX0079"
+      ],
+      "note": ""
+    },
+    {
+      "path": "recipts/photo_8_2026-10-10_14-07-27.jpg",
+      "treatment": "Extracted",
+      "ledger_ids": [
+        "TX0078"
+      ],
+      "note": ""
+    },
+    {
+      "path": "recipts/photo_2026-10-10_12-16-28.jpg",
+      "treatment": "Extracted",
+      "ledger_ids": [
+        "TX0089"
+      ],
+      "note": "Invoice only."
+    }
+  ],
+  "original_ledger_reconciliation": [
+    {
+      "sheet": "مجموع",
+      "cell": "B3",
+      "original_amount_toman": 33642000,
+      "ledger_ids": [
+        "TX0001"
+      ],
+      "disposition": "Retained",
+      "explanation": "Ledger-derived. Course reports corroborate to within 1,000."
+    },
+    {
+      "sheet": "مجموع",
+      "cell": "D2",
+      "original_amount_toman": 3500000,
+      "ledger_ids": [
+        "TX0003"
+      ],
+      "disposition": "Retained",
+      "explanation": "Receipt."
+    },
+    {
+      "sheet": "مجموع",
+      "cell": "D3",
+      "original_amount_toman": 3000000,
+      "ledger_ids": [
+        "TX0002"
+      ],
+      "disposition": "Retained",
+      "explanation": "Receipt."
+    },
+    {
+      "sheet": "مجموع",
+      "cell": "D4",
+      "original_amount_toman": 3700000,
+      "ledger_ids": [
+        "TX0004"
+      ],
+      "disposition": "Retained",
+      "explanation": "Receipt and SMS."
+    },
+    {
+      "sheet": "مجموع",
+      "cell": "D5",
+      "original_amount_toman": 500000,
+      "ledger_ids": [
+        "TX0005"
+      ],
+      "disposition": "Retained",
+      "explanation": "Receipt."
+    },
+    {
+      "sheet": "مجموع",
+      "cell": "D6",
+      "original_amount_toman": 600000,
+      "ledger_ids": [
+        "TX0006"
+      ],
+      "disposition": "Retained",
+      "explanation": "Receipt."
+    },
+    {
+      "sheet": "مجموع",
+      "cell": "D7",
+      "original_amount_toman": 600000,
+      "ledger_ids": [
+        "TX0007",
+        "TX0008"
+      ],
+      "disposition": "Corrected",
+      "explanation": "Plus a separate 900 toman fee."
+    },
+    {
+      "sheet": "مجموع",
+      "cell": "D8",
+      "original_amount_toman": 300000,
+      "ledger_ids": [
+        "TX0011"
+      ],
+      "disposition": "Retained",
+      "explanation": "Receipt."
+    },
+    {
+      "sheet": "مجموع",
+      "cell": "D9",
+      "original_amount_toman": 400000,
+      "ledger_ids": [
+        "TX0009"
+      ],
+      "disposition": "Retained",
+      "explanation": "Receipt."
+    },
+    {
+      "sheet": "مجموع",
+      "cell": "D10",
+      "original_amount_toman": 300000,
+      "ledger_ids": [
+        "TX0012"
+      ],
+      "disposition": "Retained",
+      "explanation": "Receipt."
+    },
+    {
+      "sheet": "مجموع",
+      "cell": "D11",
+      "original_amount_toman": 750000,
+      "ledger_ids": [
+        "TX0013"
+      ],
+      "disposition": "Retained",
+      "explanation": "Ledger-derived only."
+    },
+    {
+      "sheet": "مجموع",
+      "cell": "D12",
+      "original_amount_toman": 400000,
+      "ledger_ids": [
+        "TX0010"
+      ],
+      "disposition": "Review",
+      "explanation": "Probable duplicate of D9."
+    },
+    {
+      "sheet": "مجموع",
+      "cell": "B15",
+      "original_amount_toman": 4920000,
+      "ledger_ids": [
+        "TX0014"
+      ],
+      "disposition": "Retained",
+      "explanation": "Gross. The net transfer (TX0018) is internal."
+    },
+    {
+      "sheet": "مجموع",
+      "cell": "D15",
+      "original_amount_toman": 100000,
+      "ledger_ids": [
+        "TX0015"
+      ],
+      "disposition": "Retained",
+      "explanation": "Receipt."
+    },
+    {
+      "sheet": "مجموع",
+      "cell": "D16",
+      "original_amount_toman": 2866000,
+      "ledger_ids": [
+        "TX0016"
+      ],
+      "disposition": "Retained",
+      "explanation": "Ledger-derived."
+    },
+    {
+      "sheet": "مجموع",
+      "cell": "D17",
+      "original_amount_toman": 189000,
+      "ledger_ids": [
+        "TX0017"
+      ],
+      "disposition": "Retained",
+      "explanation": "Ledger-derived."
+    },
+    {
+      "sheet": "مجموع",
+      "cell": "B19",
+      "original_amount_toman": 500000,
+      "ledger_ids": [
+        "TX0019"
+      ],
+      "disposition": "Retained",
+      "explanation": "Receipt."
+    },
+    {
+      "sheet": "مجموع",
+      "cell": "D19",
+      "original_amount_toman": 90000,
+      "ledger_ids": [
+        "TX0020"
+      ],
+      "disposition": "Retained",
+      "explanation": "Receipt."
+    },
+    {
+      "sheet": "مجموع",
+      "cell": "D20",
+      "original_amount_toman": 1052375,
+      "ledger_ids": [
+        "TX0024"
+      ],
+      "disposition": "Retained",
+      "explanation": "Receipt."
+    },
+    {
+      "sheet": "مجموع",
+      "cell": "D21",
+      "original_amount_toman": 790000,
+      "ledger_ids": [
+        "TX0021"
+      ],
+      "disposition": "Retained",
+      "explanation": "Receipt."
+    },
+    {
+      "sheet": "مجموع",
+      "cell": "D22",
+      "original_amount_toman": 912850,
+      "ledger_ids": [
+        "TX0023"
+      ],
+      "disposition": "Retained",
+      "explanation": "Receipt."
+    },
+    {
+      "sheet": "مجموع",
+      "cell": "D23",
+      "original_amount_toman": 1052375,
+      "ledger_ids": [
+        "TX0025"
+      ],
+      "disposition": "Duplicate",
+      "explanation": "Same pastry as D20."
+    },
+    {
+      "sheet": "مجموع",
+      "cell": "B25",
+      "original_amount_toman": 11000000,
+      "ledger_ids": [
+        "TX0026",
+        "TX0027"
+      ],
+      "disposition": "Reclassified",
+      "explanation": "Split into 10m+1m. Opening funds, not income."
+    },
+    {
+      "sheet": "مجموع",
+      "cell": "D25",
+      "original_amount_toman": 725000,
+      "ledger_ids": [
+        "TX0032"
+      ],
+      "disposition": "Retained",
+      "explanation": "Receipt and invoice."
+    },
+    {
+      "sheet": "مجموع",
+      "cell": "D26",
+      "original_amount_toman": 120000,
+      "ledger_ids": [
+        "TX0037"
+      ],
+      "disposition": "Retained",
+      "explanation": "Receipt."
+    },
+    {
+      "sheet": "مجموع",
+      "cell": "D27",
+      "original_amount_toman": 1310000,
+      "ledger_ids": [
+        "TX0038"
+      ],
+      "disposition": "Retained",
+      "explanation": "Receipt."
+    },
+    {
+      "sheet": "مجموع",
+      "cell": "D28",
+      "original_amount_toman": 4344000,
+      "ledger_ids": [
+        "TX0033",
+        "TX0034",
+        "TX0035"
+      ],
+      "disposition": "Retained",
+      "explanation": "Split into three purchases."
+    },
+    {
+      "sheet": "مجموع",
+      "cell": "D29",
+      "original_amount_toman": 300000,
+      "ledger_ids": [
+        "TX0036"
+      ],
+      "disposition": "Review",
+      "explanation": "Direction unresolved."
+    },
+    {
+      "sheet": "مجموع",
+      "cell": "D30",
+      "original_amount_toman": 70000,
+      "ledger_ids": [
+        "TX0028"
+      ],
+      "disposition": "Retained",
+      "explanation": "Receipt."
+    },
+    {
+      "sheet": "مجموع",
+      "cell": "D31",
+      "original_amount_toman": 310000,
+      "ledger_ids": [
+        "TX0029"
+      ],
+      "disposition": "Retained",
+      "explanation": "Message line."
+    },
+    {
+      "sheet": "مجموع",
+      "cell": "D32",
+      "original_amount_toman": 1760000,
+      "ledger_ids": [
+        "TX0030"
+      ],
+      "disposition": "Retained",
+      "explanation": "Message line."
+    },
+    {
+      "sheet": "مجموع",
+      "cell": "D33",
+      "original_amount_toman": 230000,
+      "ledger_ids": [
+        "TX0031"
+      ],
+      "disposition": "Corrected",
+      "explanation": "Receipt shows 235,000."
+    },
+    {
+      "sheet": "مجموع",
+      "cell": "D34",
+      "original_amount_toman": 1226100,
+      "ledger_ids": [
+        "TX0039"
+      ],
+      "disposition": "Retained",
+      "explanation": "Message line."
+    },
+    {
+      "sheet": "مجموع",
+      "cell": "D35",
+      "original_amount_toman": 2300,
+      "ledger_ids": [
+        "TX0040"
+      ],
+      "disposition": "Retained",
+      "explanation": "Message line."
+    },
+    {
+      "sheet": "مجموع",
+      "cell": "D36",
+      "original_amount_toman": 1300,
+      "ledger_ids": [
+        "TX0041"
+      ],
+      "disposition": "Retained",
+      "explanation": "Message line."
+    },
+    {
+      "sheet": "مجموع",
+      "cell": "B38",
+      "original_amount_toman": 10000000,
+      "ledger_ids": [
+        "TX0044"
+      ],
+      "disposition": "Retained",
+      "explanation": "Receipt, undated."
+    },
+    {
+      "sheet": "مجموع",
+      "cell": "B39",
+      "original_amount_toman": 7000000,
+      "ledger_ids": [
+        "TX0045"
+      ],
+      "disposition": "Retained",
+      "explanation": "Ledger-derived only."
+    },
+    {
+      "sheet": "مجموع",
+      "cell": "B40",
+      "original_amount_toman": 6000000,
+      "ledger_ids": [
+        "TX0046"
+      ],
+      "disposition": "Retained",
+      "explanation": "Receipt dated 1404/09/28. The sender-side fee of 2,500 is not an association expense."
+    },
+    {
+      "sheet": "مجموع",
+      "cell": "B42",
+      "original_amount_toman": 15790000,
+      "ledger_ids": [
+        "TX0047"
+      ],
+      "disposition": "Retained",
+      "explanation": "Treasurer's total (message116, message121). The Sepah SMS lines do not sum to this figure. The 10,003,780 withdrawal (TX0049) is not income. Retained on disclosed original-ledger/treasurer-statement basis; bank deposit corroboration is pending."
+    },
+    {
+      "sheet": "مجموع",
+      "cell": "D42",
+      "original_amount_toman": 2137000,
+      "ledger_ids": [
+        "TX0050"
+      ],
+      "disposition": "Retained",
+      "explanation": "Receipt for the Bardia reimbursement. TX0051 is a duplicate image. Volunteer slips TX0052-TX0055 are supporting detail and are not added."
+    },
+    {
+      "sheet": "مجموع",
+      "cell": "B43",
+      "original_amount_toman": 700000,
+      "ledger_ids": [
+        "TX0048"
+      ],
+      "disposition": "Retained",
+      "explanation": "Message-stated cash. Custody of the physical cash is not evidenced."
+    },
+    {
+      "sheet": "مجموع",
+      "cell": "B45",
+      "original_amount_toman": 23000000,
+      "ledger_ids": [
+        "TX0093"
+      ],
+      "disposition": "Retained",
+      "explanation": "Ledger-derived. The platform gross of 27,235,000 (TX0094) is not additive. A settlement bridge is pending (ISS004). Retained on disclosed original-ledger/treasurer-statement basis; bank deposit corroboration is pending."
+    },
+    {
+      "sheet": "مجموع",
+      "cell": "D45",
+      "original_amount_toman": 5000000,
+      "ledger_ids": [
+        "TX0095"
+      ],
+      "disposition": "Retained",
+      "explanation": "Ledger-derived only. Round amount, no receipt."
+    }
+  ],
+  "policies": [
+    "Reporting unit is toman. Rial documents are divided by 10, and only when the unit is printed. Amounts with no stated unit keep amount_toman null.",
+    "The printed document date takes precedence over upload, forward or filename dates. Conflicts are kept in notes.",
+    "Supported totals include only Supported rows. Review, Duplicate, Invoice only and Summary only rows are excluded.",
+    "Invoices prove billing, not payment. Cash payments are included only when settled or explicitly recorded in the original ledger; unmatched invoices remain separate.",
+    "Volunteer-paid purchases support reimbursements. Either the reimbursement or the purchases is recorded as association cash, never both.",
+    "Internal transfers (e.g. AMIN-EVENT to SHAHR-8966) are not income or expense.",
+    "Opening-funds handovers from the former board are recorded as equity or opening funds, not operating income.",
+    "Debits from custodian Blu or personal accounts stay in Review until the custodian confirms they were association funds.",
+    "Each original مجموع cell maps to ledger rows with a disposition. The مرداد and شهریور sheets are subsets and are not double-mapped.",
+    "Teacher fees round to 100,000 toman (message14). Deviations are flagged, not altered.",
+    "Student phone numbers in the course reports must not appear in published reports."
+  ],
+  "report_sections": [
+    {
+      "title": "Scope and basis",
+      "paragraphs": [
+        "This reconciliation covers the original workbook, the Telegram export, receipts, invoices and the platform report from 1404/04 to 1405/07. All amounts are in toman. No bank statements were available, so opening and closing cash are not verified."
+      ]
+    },
+    {
+      "title": "Key findings",
+      "paragraphs": [
+        "D23 duplicates D20, and D12 likely duplicates D9. The booth catering (D33) is understated by 5,000. The fee of 900, Dina Zali's 180,000 and Parnian's 4,050,000 are missing from the ledger.",
+        "There are 1405 outflows with no stated purpose: 33,937,250 from the custodian's Blu account and 14,038,220 from the Shahr deposit. The 1405 intro-event income needs a bridge from the 27,235,000 gross to the 23,000,000 recorded."
+      ]
+    },
+    {
+      "title": "Required actions",
+      "paragraphs": [
+        "Obtain full Shahr, Sepah and Blu statements. The custodian should annotate the purpose of each 1405 payment. Confirm the cash direction of the shabash (D29), the unit of the 17,650,000 transfer, the platform payout for the 1405 intro event, and the volunteer reimbursement schedules."
+      ]
+    }
+  ],
+  "project_notes": [
+    "Summer School 1404: receipts of 33,642,000 are ledger-derived. The course reports total 33,643k, which is used as an allocation control.",
+    "Intro Event 1404: net 1,765,000 = 4,920,000 − 3,155,000. The transfer unit is unconfirmed.",
+    "Yalda 1404: income of 16,490,000 per the ledger. Reimbursements to Bardia (2,137,000) and Parnian (4,050,000) are evidenced. Hossein's 2,150,000 and 275k show no reimbursement.",
+    "Intro Event 1405: Skyroom (4,257,000) and catering (9,987,900) invoices are unpaid or unmatched. The buyer on both is Hassan personally.",
+    "Open commitments: Hassan to send the invoice photos (message117, message136); a meeting was planned for 28.06.2026 (message137-141); balance sheet and payable/receivable sheets were requested (message15-16)."
+  ]
+}

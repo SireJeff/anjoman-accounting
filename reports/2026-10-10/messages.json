@@ -1,0 +1,2062 @@
+[
+  {
+    "id": "message-1",
+    "sender": "",
+    "timestamp": null,
+    "text": "",
+    "reply_to": [],
+    "attachments": [],
+    "service": true,
+    "unavailable_media": false
+  },
+  {
+    "id": "message1",
+    "sender": "",
+    "timestamp": null,
+    "text": "",
+    "reply_to": [],
+    "attachments": [],
+    "service": true,
+    "unavailable_media": false
+  },
+  {
+    "id": "message5",
+    "sender": "امین عزیزی",
+    "timestamp": "24.07.2025 20:46:34 UTC+03:30",
+    "text": "",
+    "reply_to": [],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": true
+  },
+  {
+    "id": "message6",
+    "sender": "Deleted Account",
+    "timestamp": "24.07.2025 20:47:03 UTC+03:30",
+    "text": "",
+    "reply_to": [],
+    "attachments": [
+      "telegram export/files/report_Python.txt"
+    ],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message7",
+    "sender": "Deleted Account",
+    "timestamp": "24.07.2025 20:47:03 UTC+03:30",
+    "text": "",
+    "reply_to": [],
+    "attachments": [
+      "telegram export/files/report_LaTeX.txt"
+    ],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message8",
+    "sender": "Deleted Account",
+    "timestamp": "24.07.2025 20:47:03 UTC+03:30",
+    "text": "",
+    "reply_to": [],
+    "attachments": [
+      "telegram export/files/report_Mathematica.txt"
+    ],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message9",
+    "sender": "Deleted Account",
+    "timestamp": "24.07.2025 20:47:07 UTC+03:30",
+    "text": "بنازم روحیه",
+    "reply_to": [
+      "#go_to_message5"
+    ],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message10",
+    "sender": "Deleted Account",
+    "timestamp": "24.07.2025 20:47:12 UTC+03:30",
+    "text": "3480 جو",
+    "reply_to": [],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message11",
+    "sender": "امین عزیزی",
+    "timestamp": "24.07.2025 20:47:34 UTC+03:30",
+    "text": "به هر مدرس چقدر میدیم؟",
+    "reply_to": [],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message12",
+    "sender": "Deleted Account",
+    "timestamp": "24.07.2025 20:47:42 UTC+03:30",
+    "text": "2934 سهراب",
+    "reply_to": [],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message13",
+    "sender": "Deleted Account",
+    "timestamp": "24.07.2025 20:48:09 UTC+03:30",
+    "text": "3678 متین",
+    "reply_to": [],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message14",
+    "sender": "Deleted Account",
+    "timestamp": "24.07.2025 20:48:20 UTC+03:30",
+    "text": "همرو تا صد تومن گرد میکنیم",
+    "reply_to": [],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message15",
+    "sender": "Deleted Account",
+    "timestamp": "24.07.2025 20:48:50 UTC+03:30",
+    "text": "از همین الان یه شیت تراز مالی با یه شیت حساب پرداختنی دریافتنی",
+    "reply_to": [],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message16",
+    "sender": "Deleted Account",
+    "timestamp": "24.07.2025 20:48:53 UTC+03:30",
+    "text": "بزن تو کارش",
+    "reply_to": [],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message17",
+    "sender": "Deleted Account",
+    "timestamp": "24.07.2025 20:49:04 UTC+03:30",
+    "text": "اینا رو بلدی",
+    "reply_to": [],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message18",
+    "sender": "امین عزیزی",
+    "timestamp": "24.07.2025 20:49:04 UTC+03:30",
+    "text": "حلهمن برسم تهران که نت خوب داشته باشم(قبلاً اینجایی که هستم نت خوب بود) شیت درست میکنم",
+    "reply_to": [],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message19",
+    "sender": "Deleted Account",
+    "timestamp": "24.07.2025 20:49:19 UTC+03:30",
+    "text": "اگه هم بلد نیستی باید به عنوان بیزنس من آینده یاد بگیری",
+    "reply_to": [],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message20",
+    "sender": "Deleted Account",
+    "timestamp": "24.07.2025 20:49:23 UTC+03:30",
+    "text": "بنازم",
+    "reply_to": [
+      "#go_to_message18"
+    ],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message21",
+    "sender": "امین عزیزی",
+    "timestamp": "24.07.2025 20:49:47 UTC+03:30",
+    "text": "یاد گرفتنش کار سی چهل ثانیه‌ست 👌👌",
+    "reply_to": [
+      "#go_to_message19"
+    ],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message22",
+    "sender": "امین عزیزی",
+    "timestamp": "24.07.2025 20:49:56 UTC+03:30",
+    "text": "دوتا دکمه میزنم یاد میگیرم",
+    "reply_to": [],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message23",
+    "sender": "Deleted Account",
+    "timestamp": "24.07.2025 20:50:53 UTC+03:30",
+    "text": "بنازم",
+    "reply_to": [],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message24",
+    "sender": "Deleted Account",
+    "timestamp": "24.07.2025 20:51:00 UTC+03:30",
+    "text": "",
+    "reply_to": [],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": true
+  },
+  {
+    "id": "message25",
+    "sender": "Deleted Account",
+    "timestamp": "24.07.2025 21:00:16 UTC+03:30",
+    "text": "واریزی کامل حق‌الزحمه مدرس متمتیکا مدرسه تابستانه",
+    "reply_to": [],
+    "attachments": [
+      "telegram export/photos/photo_1@24-07-2025_21-00-16.jpg"
+    ],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message26",
+    "sender": "Deleted Account",
+    "timestamp": "24.07.2025 21:00:17 UTC+03:30",
+    "text": "واریزی و تسویه کامل حق‌الزحمه مدرس پایتون مدرسه تابستانه",
+    "reply_to": [],
+    "attachments": [
+      "telegram export/photos/photo_2@24-07-2025_21-00-17.jpg"
+    ],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message27",
+    "sender": "Deleted Account",
+    "timestamp": "24.07.2025 21:02:51 UTC+03:30",
+    "text": "واریزی و تسویه کامل حق‌الزحمه مدرس لتک مدرسه تابستانه",
+    "reply_to": [],
+    "attachments": [
+      "telegram export/photos/photo_3@24-07-2025_21-02-51.jpg"
+    ],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message28",
+    "sender": "Deleted Account",
+    "timestamp": "24.07.2025 21:02:54 UTC+03:30",
+    "text": "*بانک شهر*سرويس پرداخت لحظه اي (پل)برداشت از:400816808774مبلغ:37,000,000ريالموجودي:230,203,965 ريال1404/05/2 21:01:41",
+    "reply_to": [],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message-2",
+    "sender": "Deleted Account",
+    "timestamp": null,
+    "text": "",
+    "reply_to": [],
+    "attachments": [],
+    "service": true,
+    "unavailable_media": false
+  },
+  {
+    "id": "message29",
+    "sender": "Deleted Account",
+    "timestamp": "25.07.2025 04:04:24 UTC+03:30",
+    "text": "واریزی حق الزحمه تی‌ای و فرم و شیت ابراهیم خسروانی مدرسه تابستانه",
+    "reply_to": [],
+    "attachments": [
+      "telegram export/photos/photo_4@25-07-2025_04-04-24.jpg"
+    ],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message30",
+    "sender": "Deleted Account",
+    "timestamp": "25.07.2025 04:08:41 UTC+03:30",
+    "text": "واریزی حق‌الزحمه ثبت نامی و تی ای پایتون مدرسه تابستانه سپهر طلائی",
+    "reply_to": [],
+    "attachments": [
+      "telegram export/photos/photo_5@25-07-2025_04-08-41.jpg"
+    ],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message31",
+    "sender": "Deleted Account",
+    "timestamp": "25.07.2025 15:53:39 UTC+03:30",
+    "text": "واریزی حق‌الزحمه امین عزیزی فرآیند ثبت نامی حسابداری و تی ای پایتون مدرسه تابستانه",
+    "reply_to": [],
+    "attachments": [
+      "telegram export/photos/photo_6@25-07-2025_15-53-39.jpg"
+    ],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message32",
+    "sender": "Deleted Account",
+    "timestamp": "25.07.2025 17:26:11 UTC+03:30",
+    "text": "*بانک شهر*انتقال وجه کارتيبرداشت از:400816808774مبلغ:6,009,000ريالموجودي:220,589,565 ريال1404/05/3 15:52:09",
+    "reply_to": [],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message33",
+    "sender": "امین عزیزی",
+    "timestamp": "25.07.2025 17:26:46 UTC+03:30",
+    "text": "به چه شخصی؟",
+    "reply_to": [
+      "#go_to_message32"
+    ],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message34",
+    "sender": "Deleted Account",
+    "timestamp": "25.07.2025 17:34:21 UTC+03:30",
+    "text": "این همین اخریه",
+    "reply_to": [
+      "#go_to_message31"
+    ],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message35",
+    "sender": "Deleted Account",
+    "timestamp": "25.07.2025 17:34:31 UTC+03:30",
+    "text": "این موجودی نهایی رو فعلا ثبت کن",
+    "reply_to": [],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message-3",
+    "sender": "Deleted Account",
+    "timestamp": null,
+    "text": "",
+    "reply_to": [],
+    "attachments": [],
+    "service": true,
+    "unavailable_media": false
+  },
+  {
+    "id": "message36",
+    "sender": "امین عزیزی",
+    "timestamp": "26.07.2025 08:05:51 UTC+03:30",
+    "text": "حسن از قبل تو کارتت پول بوده؟",
+    "reply_to": [],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message37",
+    "sender": "امین عزیزی",
+    "timestamp": "26.07.2025 08:06:15 UTC+03:30",
+    "text": "موجودیش از تراز مالیمون بیشتره😂",
+    "reply_to": [],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message38",
+    "sender": "امین عزیزی",
+    "timestamp": "26.07.2025 08:07:14 UTC+03:30",
+    "text": "راستی یه ایمیل هم بده بهم که اکسس شیت رو بدم بهش",
+    "reply_to": [],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message39",
+    "sender": "Deleted Account",
+    "timestamp": "26.07.2025 09:01:17 UTC+03:30",
+    "text": "چهل هزارتومن😂",
+    "reply_to": [
+      "#go_to_message37"
+    ],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message40",
+    "sender": "Deleted Account",
+    "timestamp": "26.07.2025 09:01:24 UTC+03:30",
+    "text": "sandmanshiri@gmail.com",
+    "reply_to": [
+      "#go_to_message38"
+    ],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message41",
+    "sender": "امین عزیزی",
+    "timestamp": "26.07.2025 14:05:44 UTC+03:30",
+    "text": "ایمیل زدم برات",
+    "reply_to": [],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message-4",
+    "sender": "امین عزیزی",
+    "timestamp": null,
+    "text": "",
+    "reply_to": [],
+    "attachments": [],
+    "service": true,
+    "unavailable_media": false
+  },
+  {
+    "id": "message42",
+    "sender": "Deleted Account",
+    "timestamp": "11.08.2025 15:51:55 UTC+03:30",
+    "text": "بابت ضبط جبرانی جلسه ۳ لتک",
+    "reply_to": [],
+    "attachments": [
+      "telegram export/photos/photo_7@11-08-2025_15-51-55.jpg"
+    ],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message-5",
+    "sender": "Deleted Account",
+    "timestamp": null,
+    "text": "",
+    "reply_to": [],
+    "attachments": [],
+    "service": true,
+    "unavailable_media": false
+  },
+  {
+    "id": "message43",
+    "sender": "Deleted Account",
+    "timestamp": "12.08.2025 09:58:34 UTC+03:30",
+    "text": "تبلیغات مدرسه مهمات شریف",
+    "reply_to": [],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message44",
+    "sender": "Deleted Account\nDeleted Account 19.07.2025 16:42:32",
+    "timestamp": "12.08.2025 09:58:34 UTC+03:30",
+    "text": "",
+    "reply_to": [],
+    "attachments": [
+      "telegram export/photos/photo_8@12-08-2025_09-58-34.jpg"
+    ],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message45",
+    "sender": "Deleted Account\nSharif Admin 22.07.2025 11:03:53",
+    "timestamp": "12.08.2025 09:58:34 UTC+03:30",
+    "text": "‌.سلام وقتتون بخیر خدمت شما امیدوارم موثر بوده باشه",
+    "reply_to": [],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message46",
+    "sender": "Deleted Account\nSharif Admin 22.07.2025 11:03:53",
+    "timestamp": "12.08.2025 09:58:34 UTC+03:30",
+    "text": "",
+    "reply_to": [],
+    "attachments": [
+      "telegram export/photos/photo_9@12-08-2025_09-58-34.jpg"
+    ],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message-6",
+    "sender": "Deleted Account\nSharif Admin 22.07.2025 11:03:53",
+    "timestamp": null,
+    "text": "",
+    "reply_to": [],
+    "attachments": [],
+    "service": true,
+    "unavailable_media": false
+  },
+  {
+    "id": "message47",
+    "sender": "Deleted Account",
+    "timestamp": "15.08.2025 18:28:22 UTC+03:30",
+    "text": "حق الزحمه ضبط جبرانی جلسه 4 پایتون",
+    "reply_to": [],
+    "attachments": [
+      "telegram export/photos/photo_10@15-08-2025_18-28-22.jpg"
+    ],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message-7",
+    "sender": "Deleted Account",
+    "timestamp": null,
+    "text": "",
+    "reply_to": [],
+    "attachments": [],
+    "service": true,
+    "unavailable_media": false
+  },
+  {
+    "id": "message48",
+    "sender": "امین عزیزی",
+    "timestamp": "04.09.2025 14:05:56 UTC+03:30",
+    "text": "پرداخت شود به محمدامین عزیزیبابت چاپ پوستر و بارکد برای میز معرفی دانشگاه",
+    "reply_to": [],
+    "attachments": [
+      "telegram export/photos/photo_11@04-09-2025_14-05-56.jpg"
+    ],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message-8",
+    "sender": "امین عزیزی",
+    "timestamp": null,
+    "text": "",
+    "reply_to": [],
+    "attachments": [],
+    "service": true,
+    "unavailable_media": false
+  },
+  {
+    "id": "message49",
+    "sender": "امین عزیزی",
+    "timestamp": "27.09.2025 11:43:22 UTC+03:30",
+    "text": "حسنشماره این کارتی که پولهای انجمن توش هست رو بذار اینجا من باقی مونده پول رویداد رو بریزم تو اون",
+    "reply_to": [],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message-9",
+    "sender": "امین عزیزی",
+    "timestamp": null,
+    "text": "",
+    "reply_to": [],
+    "attachments": [],
+    "service": true,
+    "unavailable_media": false
+  },
+  {
+    "id": "message50",
+    "sender": "Deleted Account",
+    "timestamp": "01.10.2025 11:51:03 UTC+03:30",
+    "text": "5047061055888966",
+    "reply_to": [
+      "#go_to_message49"
+    ],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message51",
+    "sender": "امین عزیزی",
+    "timestamp": "01.10.2025 18:02:44 UTC+03:30",
+    "text": "انتقال درآمد خالص از همایش معرفی رشته به حساب اصلی",
+    "reply_to": [],
+    "attachments": [
+      "telegram export/photos/photo_12@01-10-2025_18-02-44.jpg"
+    ],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message52",
+    "sender": "Deleted Account",
+    "timestamp": "01.10.2025 22:22:43 UTC+03:30",
+    "text": "22,765,000موجودی فعلی",
+    "reply_to": [],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message53",
+    "sender": "Deleted Account",
+    "timestamp": "01.10.2025 22:22:51 UTC+03:30",
+    "text": "این رو کسر کردی امین؟",
+    "reply_to": [
+      "#go_to_message48"
+    ],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message54",
+    "sender": "امین عزیزی",
+    "timestamp": "01.10.2025 23:25:53 UTC+03:30",
+    "text": "آره",
+    "reply_to": [],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message-10",
+    "sender": "امین عزیزی",
+    "timestamp": null,
+    "text": "",
+    "reply_to": [],
+    "attachments": [],
+    "service": true,
+    "unavailable_media": false
+  },
+  {
+    "id": "message55",
+    "sender": "Deleted Account",
+    "timestamp": "10.10.2025 04:08:44 UTC+03:30",
+    "text": "@FCS_Amzz https://docs.google.com/spreadsheets/d/12dGUWPGR8eJiLOSkOMYbIjftBJd0PxpBjG16vWOxGVo/edit?gid=696169602#gid=696169602",
+    "reply_to": [],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message56",
+    "sender": "Deleted Account",
+    "timestamp": "10.10.2025 04:08:50 UTC+03:30",
+    "text": "آپدیتش کن نازنین",
+    "reply_to": [],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message57",
+    "sender": "Deleted Account",
+    "timestamp": "10.10.2025 04:09:43 UTC+03:30",
+    "text": "اون کلید ها که من زدم با تبلیغ مهمات شریف و پوستری که تو چاپ کردی",
+    "reply_to": [],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message58",
+    "sender": "امین عزیزی",
+    "timestamp": "10.10.2025 11:50:44 UTC+03:30",
+    "text": "کدوم پوستر منظورته؟",
+    "reply_to": [
+      "#go_to_message57"
+    ],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message59",
+    "sender": "Deleted Account",
+    "timestamp": "10.10.2025 11:55:42 UTC+03:30",
+    "text": "این",
+    "reply_to": [
+      "#go_to_message48"
+    ],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message60",
+    "sender": "امین عزیزی",
+    "timestamp": "10.10.2025 11:57:06 UTC+03:30",
+    "text": "اینو زدم",
+    "reply_to": [
+      "#go_to_message59"
+    ],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message-11",
+    "sender": "امین عزیزی",
+    "timestamp": null,
+    "text": "",
+    "reply_to": [],
+    "attachments": [],
+    "service": true,
+    "unavailable_media": false
+  },
+  {
+    "id": "message61",
+    "sender": "Deleted Account",
+    "timestamp": "12.10.2025 10:24:38 UTC+03:30",
+    "text": "پوستر نشست و کوانتا",
+    "reply_to": [],
+    "attachments": [
+      "telegram export/photos/photo_13@12-10-2025_10-24-38.jpg"
+    ],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message-12",
+    "sender": "Deleted Account",
+    "timestamp": null,
+    "text": "",
+    "reply_to": [],
+    "attachments": [],
+    "service": true,
+    "unavailable_media": false
+  },
+  {
+    "id": "message62",
+    "sender": "Deleted Account",
+    "timestamp": "15.10.2025 14:18:25 UTC+03:30",
+    "text": "شیرینی نشست عمومی مورخ 22مهرماه 2کیلو شیرینی خشک سویسی1کیلو پای آناناس",
+    "reply_to": [],
+    "attachments": [
+      "telegram export/photos/photo_14@15-10-2025_14-18-25.jpg"
+    ],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message63",
+    "sender": "Deleted Account",
+    "timestamp": "15.10.2025 14:18:25 UTC+03:30",
+    "text": "واریزی دکتر مقیمی جهت شیرینی نشست مورخ 22مهرماه",
+    "reply_to": [],
+    "attachments": [
+      "telegram export/photos/photo_15@15-10-2025_14-18-25.jpg"
+    ],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message64",
+    "sender": "Deleted Account",
+    "timestamp": "15.10.2025 14:18:26 UTC+03:30",
+    "text": "دو بسته لیوان پنجاه عددی سه بسته بیسکوئیت چهل عددییک بسته چایی 100عددیبرای انجمن چایی",
+    "reply_to": [],
+    "attachments": [
+      "telegram export/photos/photo_16@15-10-2025_14-18-26.jpg"
+    ],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message65",
+    "sender": "Deleted Account",
+    "timestamp": "15.10.2025 14:18:26 UTC+03:30",
+    "text": "شیرینی پذیرایی جلسه انجمن چایی مورخ 20مهرماه",
+    "reply_to": [],
+    "attachments": [
+      "telegram export/photos/photo_17@15-10-2025_14-18-26.jpg"
+    ],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message-13",
+    "sender": "Deleted Account",
+    "timestamp": null,
+    "text": "",
+    "reply_to": [],
+    "attachments": [],
+    "service": true,
+    "unavailable_media": false
+  },
+  {
+    "id": "message66",
+    "sender": "Deleted Account\nMatin (Korosh) Ghassami 16.10.2025 14:43:56",
+    "timestamp": "20.10.2025 13:05:39 UTC+03:30",
+    "text": "dk-file-2025-10-16-14-43-08.pdf",
+    "reply_to": [],
+    "attachments": [
+      "telegram export/files/dk-file-2025-10-16-14-43-08.pdf"
+    ],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message-14",
+    "sender": "Deleted Account\nMatin (Korosh) Ghassami 16.10.2025 14:43:56",
+    "timestamp": null,
+    "text": "",
+    "reply_to": [],
+    "attachments": [],
+    "service": true,
+    "unavailable_media": false
+  },
+  {
+    "id": "message67",
+    "sender": "Deleted Account\nMŏ̈bina  28.10.2025 00:13:04",
+    "timestamp": "28.10.2025 01:53:01 UTC+03:30",
+    "text": "",
+    "reply_to": [],
+    "attachments": [
+      "telegram export/photos/photo_18@28-10-2025_01-53-01.jpg"
+    ],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message68",
+    "sender": "Deleted Account",
+    "timestamp": "28.10.2025 01:58:06 UTC+03:30",
+    "text": "بابت باتری دوربین فیلم برداری",
+    "reply_to": [],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message69",
+    "sender": "Deleted Account",
+    "timestamp": "28.10.2025 01:58:07 UTC+03:30",
+    "text": "بابت باتری دوربین فیلم برداری",
+    "reply_to": [],
+    "attachments": [
+      "telegram export/photos/photo_19@28-10-2025_01-58-07.jpg"
+    ],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message71",
+    "sender": "Deleted Account\nMŏ̈bina  28.10.2025 10:19:30",
+    "timestamp": "28.10.2025 22:07:57 UTC+03:30",
+    "text": "",
+    "reply_to": [],
+    "attachments": [
+      "telegram export/photos/photo_20@28-10-2025_22-07-57.jpg"
+    ],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message72",
+    "sender": "Deleted Account",
+    "timestamp": "28.10.2025 22:08:16 UTC+03:30",
+    "text": "دریافتی از انجمن پیشین",
+    "reply_to": [
+      "#go_to_message71"
+    ],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message73",
+    "sender": "امین عزیزی",
+    "timestamp": "28.10.2025 22:38:17 UTC+03:30",
+    "text": "اینم دریافتی از انجمن سابقه؟",
+    "reply_to": [
+      "#go_to_message67"
+    ],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message74",
+    "sender": "Deleted Account",
+    "timestamp": "28.10.2025 22:40:32 UTC+03:30",
+    "text": "درسته",
+    "reply_to": [
+      "#go_to_message73"
+    ],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message75",
+    "sender": "Deleted Account",
+    "timestamp": "28.10.2025 22:40:35 UTC+03:30",
+    "text": "جمعا۱۱",
+    "reply_to": [],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message76",
+    "sender": "امین عزیزی",
+    "timestamp": "28.10.2025 22:47:57 UTC+03:30",
+    "text": "حاجی ورودی پولمون از ۵۰ میلیون گذشت🔥",
+    "reply_to": [],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message77",
+    "sender": "Deleted Account",
+    "timestamp": "28.10.2025 22:48:51 UTC+03:30",
+    "text": "بنازم",
+    "reply_to": [],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message78",
+    "sender": "Deleted Account",
+    "timestamp": "28.10.2025 22:48:56 UTC+03:30",
+    "text": "صندوق چقدره",
+    "reply_to": [],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message79",
+    "sender": "Deleted Account",
+    "timestamp": "28.10.2025 22:49:25 UTC+03:30",
+    "text": "یکلی فیش جدیده باید بشینم بزنم بعد بفرستم برات",
+    "reply_to": [],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message80",
+    "sender": "Deleted Account",
+    "timestamp": "28.10.2025 22:49:48 UTC+03:30",
+    "text": "با جشن جمع شه و غرفه ببینیم چقدر مونده بزنیم به اساس",
+    "reply_to": [],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message81",
+    "sender": "امین عزیزی",
+    "timestamp": "28.10.2025 22:49:48 UTC+03:30",
+    "text": "موجودیمون؟",
+    "reply_to": [
+      "#go_to_message78"
+    ],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message82",
+    "sender": "Deleted Account",
+    "timestamp": "28.10.2025 22:49:57 UTC+03:30",
+    "text": "یپ",
+    "reply_to": [
+      "#go_to_message81"
+    ],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message83",
+    "sender": "امین عزیزی",
+    "timestamp": "28.10.2025 22:50:21 UTC+03:30",
+    "text": "راستی ایمیل رو چک کردی؟مقیمی میخواست مطمئن بشه حساب درسته",
+    "reply_to": [],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message84",
+    "sender": "Deleted Account",
+    "timestamp": "28.10.2025 22:50:34 UTC+03:30",
+    "text": "ایمیلا نمیان برا من",
+    "reply_to": [
+      "#go_to_message83"
+    ],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message85",
+    "sender": "امین عزیزی",
+    "timestamp": "28.10.2025 22:50:52 UTC+03:30",
+    "text": "ایمیل انجمن رو نداری؟",
+    "reply_to": [
+      "#go_to_message84"
+    ],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message86",
+    "sender": "امین عزیزی",
+    "timestamp": "28.10.2025 22:51:00 UTC+03:30",
+    "text": "۲۹۲۰۰",
+    "reply_to": [
+      "#go_to_message82"
+    ],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message87",
+    "sender": "Deleted Account",
+    "timestamp": "28.10.2025 22:57:09 UTC+03:30",
+    "text": "دارم نمیاد ولیبرا ابی می‌ره ولی روی هیچ دیوایسی از من لاگ نمیندازه",
+    "reply_to": [
+      "#go_to_message85"
+    ],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message-15",
+    "sender": "Deleted Account",
+    "timestamp": null,
+    "text": "",
+    "reply_to": [],
+    "attachments": [],
+    "service": true,
+    "unavailable_media": false
+  },
+  {
+    "id": "message88",
+    "sender": "Deleted Account",
+    "timestamp": "09.11.2025 23:15:44 UTC+03:30",
+    "text": "امین سلام خوبیاز اردوان بپرس برای جشنچقدر خرج کرده",
+    "reply_to": [
+      "#go_to_message86"
+    ],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message89",
+    "sender": "Deleted Account",
+    "timestamp": "09.11.2025 23:15:53 UTC+03:30",
+    "text": "دوتا فاکتور هست نمی‌دونم کدوم مال اونه",
+    "reply_to": [],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message90",
+    "sender": "Deleted Account",
+    "timestamp": "09.11.2025 23:16:09 UTC+03:30",
+    "text": "",
+    "reply_to": [],
+    "attachments": [
+      "telegram export/photos/photo_21@09-11-2025_23-16-09.jpg"
+    ],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message91",
+    "sender": "Deleted Account",
+    "timestamp": "09.11.2025 23:16:15 UTC+03:30",
+    "text": "",
+    "reply_to": [],
+    "attachments": [
+      "telegram export/photos/photo_22@09-11-2025_23-16-15.jpg"
+    ],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message92",
+    "sender": "امین عزیزی",
+    "timestamp": "09.11.2025 23:46:02 UTC+03:30",
+    "text": "سلام قربونتحللله",
+    "reply_to": [
+      "#go_to_message88"
+    ],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message-16",
+    "sender": "امین عزیزی",
+    "timestamp": null,
+    "text": "",
+    "reply_to": [],
+    "attachments": [],
+    "service": true,
+    "unavailable_media": false
+  },
+  {
+    "id": "message93",
+    "sender": "Deleted Account",
+    "timestamp": "12.11.2025 06:40:12 UTC+03:30",
+    "text": "امین نازنین صبحت بخیر",
+    "reply_to": [
+      "#go_to_message92"
+    ],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message94",
+    "sender": "Deleted Account",
+    "timestamp": "12.11.2025 06:40:16 UTC+03:30",
+    "text": "این رو امروز خبر بده",
+    "reply_to": [],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message95",
+    "sender": "Deleted Account",
+    "timestamp": "12.11.2025 06:40:22 UTC+03:30",
+    "text": "شماره کارت راحله هم بگیر",
+    "reply_to": [],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message96",
+    "sender": "امین عزیزی",
+    "timestamp": "12.11.2025 21:51:55 UTC+03:30",
+    "text": "۱۲۰ داده اردوان",
+    "reply_to": [
+      "#go_to_message94"
+    ],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message97",
+    "sender": "امین عزیزی",
+    "timestamp": "12.11.2025 22:46:41 UTC+03:30",
+    "text": "5892101714531544",
+    "reply_to": [
+      "#go_to_message95"
+    ],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message98",
+    "sender": "امین عزیزی",
+    "timestamp": "12.11.2025 22:46:51 UTC+03:30",
+    "text": "هروقت زدی لایو فیش بفرست",
+    "reply_to": [],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message-17",
+    "sender": "امین عزیزی",
+    "timestamp": null,
+    "text": "",
+    "reply_to": [],
+    "attachments": [],
+    "service": true,
+    "unavailable_media": false
+  },
+  {
+    "id": "message99",
+    "sender": "Deleted Account",
+    "timestamp": "14.11.2025 04:07:19 UTC+03:30",
+    "text": "واریزی هزینه چسب بادکنک جشن ورودی",
+    "reply_to": [],
+    "attachments": [
+      "telegram export/photos/photo_23@14-11-2025_04-07-19.jpg"
+    ],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message100",
+    "sender": "Deleted Account",
+    "timestamp": "14.11.2025 04:07:19 UTC+03:30",
+    "text": "واریزی جهت خرید لوازم تزئینات جشن ورودی 1404",
+    "reply_to": [],
+    "attachments": [
+      "telegram export/photos/photo_24@14-11-2025_04-07-19.jpg"
+    ],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message-18",
+    "sender": "Deleted Account",
+    "timestamp": null,
+    "text": "",
+    "reply_to": [],
+    "attachments": [],
+    "service": true,
+    "unavailable_media": false
+  },
+  {
+    "id": "message101",
+    "sender": "Deleted Account",
+    "timestamp": "19.11.2025 11:46:31 UTC+03:30",
+    "text": "واریزی دکتر مقیمی جهت هزینه های جاری انجمن",
+    "reply_to": [],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message102",
+    "sender": "Deleted Account\nSaman Moghimi 19.11.2025 11:44:07",
+    "timestamp": "19.11.2025 11:46:31 UTC+03:30",
+    "text": "",
+    "reply_to": [],
+    "attachments": [
+      "telegram export/photos/photo_25@19-11-2025_11-46-31.jpg"
+    ],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message103",
+    "sender": "Saman Moghimi 19.11.2025 11:44:07",
+    "timestamp": "19.11.2025 11:46:31 UTC+03:30",
+    "text": "این فعلا ده میلیون.",
+    "reply_to": [],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message-19",
+    "sender": "Saman Moghimi 19.11.2025 11:44:07",
+    "timestamp": null,
+    "text": "",
+    "reply_to": [],
+    "attachments": [],
+    "service": true,
+    "unavailable_media": false
+  },
+  {
+    "id": "message105",
+    "sender": "Deleted Account",
+    "timestamp": "21.11.2025 13:25:18 UTC+03:30",
+    "text": "1404/07/22  10:40:31  -10,523,750  شیرینی جلسه دیدار با اساتید- انجمن",
+    "reply_to": [],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message106",
+    "sender": "Deleted Account",
+    "timestamp": "21.11.2025 13:25:31 UTC+03:30",
+    "text": "1404/08/03  16:36:35  -700,000  دستمال - انجمن",
+    "reply_to": [],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message107",
+    "sender": "Deleted Account",
+    "timestamp": "21.11.2025 13:25:42 UTC+03:30",
+    "text": "1404/08/07  15:18:06  -14,440,000  خرید جایزه جشن -  انجمن -دفترچه خودکار و..1404/08/07  15:23:42  -15,000,000  خرید جایزه جشن -  انجمن -هندزفری و ...1404/08/07  15:32:21  -14,000,000  خرید جایزه جشن -  انجمن - دستبند فرفره و...",
+    "reply_to": [],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message108",
+    "sender": "Deleted Account",
+    "timestamp": "21.11.2025 13:25:55 UTC+03:30",
+    "text": "1404/08/05  12:16:49  -3,100,000  خرید اتصالات پروژکتور - انجمن 1404/08/05  12:24:15  -17,600,000  خرید حفاظ برق و ابزار جهت اتصال پروژکتور غرفه ها  - انجمن1404/08/05  13:13:11  -2,300,000  پذیرایی غرفه -انجمن",
+    "reply_to": [],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message109",
+    "sender": "Deleted Account",
+    "timestamp": "21.11.2025 13:26:09 UTC+03:30",
+    "text": "1404/08/28  6:49:28  -12,261,000  دارو برای کمک اولیه - انجمن",
+    "reply_to": [],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message110",
+    "sender": "Deleted Account",
+    "timestamp": "21.11.2025 13:26:19 UTC+03:30",
+    "text": "1404/08/28  12:55:53  -23,000  چاپ قوانین - انجمن1404/08/28  12:55:53  -13,000  چاپ قوانین - انجمن",
+    "reply_to": [],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message111",
+    "sender": "Deleted Account",
+    "timestamp": "21.11.2025 13:33:16 UTC+03:30",
+    "text": "300000 تومن هم پول نقد شاباش جشن",
+    "reply_to": [],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message-20",
+    "sender": "Deleted Account",
+    "timestamp": null,
+    "text": "",
+    "reply_to": [],
+    "attachments": [],
+    "service": true,
+    "unavailable_media": false
+  },
+  {
+    "id": "message112",
+    "sender": "Deleted Account",
+    "timestamp": "21.12.2025 05:36:21 UTC+03:30",
+    "text": "",
+    "reply_to": [],
+    "attachments": [
+      "telegram export/photos/photo_26@21-12-2025_05-36-21.jpg"
+    ],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message113",
+    "sender": "امین عزیزی",
+    "timestamp": "21.12.2025 08:29:22 UTC+03:30",
+    "text": "حاجی چقدر پول داره مقیمی😂",
+    "reply_to": [],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message-21",
+    "sender": "امین عزیزی",
+    "timestamp": null,
+    "text": "",
+    "reply_to": [],
+    "attachments": [],
+    "service": true,
+    "unavailable_media": false
+  },
+  {
+    "id": "message114",
+    "sender": "Deleted Account",
+    "timestamp": "16.02.2026 15:48:21 UTC+03:30",
+    "text": "امین برای یلدا اینا رو جزو ورودی ها بزن",
+    "reply_to": [],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message115",
+    "sender": "Deleted Account",
+    "timestamp": "16.02.2026 15:49:32 UTC+03:30",
+    "text": "بانک سپهواريز:1,500,000ريالحساب:3001254062925مانده:130,982,85110/1-10:11بانک سپهبرداشت:100,037,800حساب : 3001254062925 مانده:30,945,05110/1-10:29بانک سپهواريز:5,000,000ريالحساب:3001254062925مانده:47,945,05110/1-14:29بانک سپهواريز:10,000,000ريالحساب:3001254062925مانده:33,652,25210/2-7:40",
+    "reply_to": [],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message116",
+    "sender": "Deleted Account",
+    "timestamp": "16.02.2026 15:50:28 UTC+03:30",
+    "text": "یکم گیج کننده شدولی جمعا 15,790,000 واریزی نقدی بودهو 700,000 وجه نقد",
+    "reply_to": [],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message117",
+    "sender": "Deleted Account",
+    "timestamp": "16.02.2026 15:50:53 UTC+03:30",
+    "text": "تا بعد رسیدم تهران فاکتور هارو مرتب کنم بدم بهت",
+    "reply_to": [],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message-22",
+    "sender": "Deleted Account",
+    "timestamp": null,
+    "text": "",
+    "reply_to": [],
+    "attachments": [],
+    "service": true,
+    "unavailable_media": false
+  },
+  {
+    "id": "message118",
+    "sender": "امین عزیزی",
+    "timestamp": "19.02.2026 10:32:24 UTC+03:30",
+    "text": "حسن اینو رو ورودی بزنم؟زده برداشتاین اصلا هست جزوشون یا نه؟",
+    "reply_to": [
+      "#go_to_message115"
+    ],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message119",
+    "sender": "امین عزیزی",
+    "timestamp": "19.02.2026 10:35:49 UTC+03:30",
+    "text": "خرج جشن رو هم بگو لطفا",
+    "reply_to": [],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message-23",
+    "sender": "امین عزیزی",
+    "timestamp": null,
+    "text": "",
+    "reply_to": [],
+    "attachments": [],
+    "service": true,
+    "unavailable_media": false
+  },
+  {
+    "id": "message120",
+    "sender": "Deleted Account",
+    "timestamp": "21.02.2026 02:53:32 UTC+03:30",
+    "text": "این برداشت برای کارت به کارت هزینه‌ها بودهصرفا گذاشتم که با بقیه واریزی ها جمع بزنی",
+    "reply_to": [
+      "#go_to_message118"
+    ],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message121",
+    "sender": "Deleted Account",
+    "timestamp": "21.02.2026 02:54:33 UTC+03:30",
+    "text": "ولی عدد ورودی کل از منبع کمک مالی جمعی ،برابر جمع این دوتا میشه",
+    "reply_to": [
+      "#go_to_message116"
+    ],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message122",
+    "sender": "Deleted Account",
+    "timestamp": "21.02.2026 02:54:39 UTC+03:30",
+    "text": "حله",
+    "reply_to": [
+      "#go_to_message119"
+    ],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message123",
+    "sender": "Deleted Account",
+    "timestamp": "21.02.2026 02:54:41 UTC+03:30",
+    "text": ".",
+    "reply_to": [
+      "#go_to_message117"
+    ],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message-24",
+    "sender": "Deleted Account",
+    "timestamp": null,
+    "text": "",
+    "reply_to": [],
+    "attachments": [],
+    "service": true,
+    "unavailable_media": false
+  },
+  {
+    "id": "message124",
+    "sender": "Deleted Account\nParnian  13.05.2026 13:19:49",
+    "timestamp": "17.05.2026 19:45:07 UTC+03:30",
+    "text": "",
+    "reply_to": [],
+    "attachments": [
+      "telegram export/files/CamScanner 13-05-2026 12.43 (1).pdf"
+    ],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message125",
+    "sender": "Deleted Account\nDeleted Account 17.05.2026 18:38:53",
+    "timestamp": "17.05.2026 19:45:07 UTC+03:30",
+    "text": "",
+    "reply_to": [],
+    "attachments": [
+      "telegram export/photos/photo_27@17-05-2026_19-45-07.jpg"
+    ],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message126",
+    "sender": "Deleted Account\nDeleted Account 17.05.2026 18:38:53",
+    "timestamp": "17.05.2026 19:45:07 UTC+03:30",
+    "text": "",
+    "reply_to": [],
+    "attachments": [
+      "telegram export/photos/photo_28@17-05-2026_19-45-07.jpg"
+    ],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message127",
+    "sender": "امین عزیزی",
+    "timestamp": "17.05.2026 20:15:05 UTC+03:30",
+    "text": "این چیه؟",
+    "reply_to": [],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message128",
+    "sender": "Deleted Account",
+    "timestamp": "17.05.2026 20:16:06 UTC+03:30",
+    "text": "این از جشن یلدا کوکی و یسری چیزه پرنیان دیر فرستاده بود",
+    "reply_to": [],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message129",
+    "sender": "Deleted Account",
+    "timestamp": "17.05.2026 20:16:15 UTC+03:30",
+    "text": "واردشون کناین رسیداشه",
+    "reply_to": [
+      "#go_to_message124"
+    ],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message130",
+    "sender": "Deleted Account",
+    "timestamp": "17.05.2026 20:16:18 UTC+03:30",
+    "text": "یه چک بکن",
+    "reply_to": [],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message131",
+    "sender": "امین عزیزی",
+    "timestamp": "17.05.2026 20:17:06 UTC+03:30",
+    "text": "حله حله",
+    "reply_to": [],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message-25",
+    "sender": "امین عزیزی",
+    "timestamp": null,
+    "text": "",
+    "reply_to": [],
+    "attachments": [],
+    "service": true,
+    "unavailable_media": false
+  },
+  {
+    "id": "message132",
+    "sender": "Deleted Account",
+    "timestamp": "18.05.2026 01:14:16 UTC+03:30",
+    "text": "",
+    "reply_to": [
+      "#go_to_message131"
+    ],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": true
+  },
+  {
+    "id": "message-26",
+    "sender": "Deleted Account",
+    "timestamp": null,
+    "text": "",
+    "reply_to": [],
+    "attachments": [],
+    "service": true,
+    "unavailable_media": false
+  },
+  {
+    "id": "message133",
+    "sender": "Deleted Account",
+    "timestamp": "21.06.2026 12:47:37 UTC+03:30",
+    "text": "",
+    "reply_to": [],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": true
+  },
+  {
+    "id": "message134",
+    "sender": "امین عزیزی",
+    "timestamp": "21.06.2026 12:50:19 UTC+03:30",
+    "text": "",
+    "reply_to": [],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": true
+  },
+  {
+    "id": "message-27",
+    "sender": "امین عزیزی",
+    "timestamp": null,
+    "text": "",
+    "reply_to": [],
+    "attachments": [],
+    "service": true,
+    "unavailable_media": false
+  },
+  {
+    "id": "message135",
+    "sender": "Deleted Account",
+    "timestamp": "27.06.2026 15:35:40 UTC+03:30",
+    "text": "امین",
+    "reply_to": [],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message136",
+    "sender": "Deleted Account",
+    "timestamp": "27.06.2026 15:36:03 UTC+03:30",
+    "text": "میگم هرچی عکس داری از فاکتور ها تا اخر امروز بفرست اینجا",
+    "reply_to": [],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message137",
+    "sender": "Deleted Account",
+    "timestamp": "27.06.2026 15:36:34 UTC+03:30",
+    "text": "و اینکه برای فردا عصر و پسفردا عصر یا حتی 3شنبه عصر تایم های خالیت رو بگو یه نیمساعت بریم میت",
+    "reply_to": [],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message138",
+    "sender": "امین عزیزی",
+    "timestamp": "27.06.2026 16:50:34 UTC+03:30",
+    "text": "فاکتورها دست خودتهعکسی به من ندادی خودشونم ندادی💀😂",
+    "reply_to": [
+      "#go_to_message136"
+    ],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message139",
+    "sender": "امین عزیزی",
+    "timestamp": "27.06.2026 16:50:56 UTC+03:30",
+    "text": "فردا عصر بهترین زمانههروقت بگی اوکیم",
+    "reply_to": [
+      "#go_to_message137"
+    ],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message140",
+    "sender": "Deleted Account",
+    "timestamp": "27.06.2026 17:09:39 UTC+03:30",
+    "text": "نه اون قبلی ها",
+    "reply_to": [
+      "#go_to_message138"
+    ],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message141",
+    "sender": "Deleted Account",
+    "timestamp": "27.06.2026 17:10:03 UTC+03:30",
+    "text": "حله عالی",
+    "reply_to": [
+      "#go_to_message139"
+    ],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message142",
+    "sender": "Deleted Account",
+    "timestamp": "27.06.2026 18:24:14 UTC+03:30",
+    "text": "جشن یلدا",
+    "reply_to": [],
+    "attachments": [
+      "telegram export/photos/photo_29@27-06-2026_18-24-14.jpg"
+    ],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message143",
+    "sender": "Deleted Account",
+    "timestamp": "27.06.2026 18:24:31 UTC+03:30",
+    "text": "جشن یلدا",
+    "reply_to": [],
+    "attachments": [
+      "telegram export/photos/photo_30@27-06-2026_18-24-31.jpg"
+    ],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message144",
+    "sender": "Deleted Account",
+    "timestamp": "27.06.2026 18:24:39 UTC+03:30",
+    "text": "",
+    "reply_to": [],
+    "attachments": [
+      "telegram export/photos/photo_31@27-06-2026_18-24-39.jpg"
+    ],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message145",
+    "sender": "Deleted Account",
+    "timestamp": "27.06.2026 18:24:52 UTC+03:30",
+    "text": "چاپ پوستر انجمن",
+    "reply_to": [],
+    "attachments": [
+      "telegram export/photos/photo_32@27-06-2026_18-24-52.jpg"
+    ],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message146",
+    "sender": "Deleted Account",
+    "timestamp": "27.06.2026 18:25:49 UTC+03:30",
+    "text": "خودکار و روان‌نویس و دفترچه جشن ورودی",
+    "reply_to": [],
+    "attachments": [
+      "telegram export/photos/photo_33@27-06-2026_18-25-49.jpg"
+    ],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message147",
+    "sender": "Deleted Account",
+    "timestamp": "27.06.2026 18:26:03 UTC+03:30",
+    "text": "جوایز جشن ورودی",
+    "reply_to": [],
+    "attachments": [
+      "telegram export/photos/photo_34@27-06-2026_18-26-03.jpg"
+    ],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message148",
+    "sender": "Deleted Account",
+    "timestamp": "27.06.2026 18:26:22 UTC+03:30",
+    "text": "جوایز جشن ورودی و فلش انجمن",
+    "reply_to": [],
+    "attachments": [
+      "telegram export/photos/photo_35@27-06-2026_18-26-22.jpg"
+    ],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message149",
+    "sender": "Deleted Account",
+    "timestamp": "27.06.2026 18:26:45 UTC+03:30",
+    "text": "پذیرایی نشست اساتید مهرماه",
+    "reply_to": [],
+    "attachments": [
+      "telegram export/photos/photo_36@27-06-2026_18-26-45.jpg"
+    ],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message150",
+    "sender": "Deleted Account",
+    "timestamp": "27.06.2026 18:27:12 UTC+03:30",
+    "text": "پذیرایی چای و فیزیک مهرماه",
+    "reply_to": [],
+    "attachments": [
+      "telegram export/photos/photo_37@27-06-2026_18-27-12.jpg"
+    ],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message151",
+    "sender": "Deleted Account",
+    "timestamp": "27.06.2026 18:27:25 UTC+03:30",
+    "text": "پذیرایی یلدا",
+    "reply_to": [],
+    "attachments": [
+      "telegram export/photos/photo_38@27-06-2026_18-27-25.jpg"
+    ],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message152",
+    "sender": "Deleted Account",
+    "timestamp": "27.06.2026 18:29:10 UTC+03:30",
+    "text": "نخ بسته‌بندی فال یلدا",
+    "reply_to": [],
+    "attachments": [
+      "telegram export/photos/photo_39@27-06-2026_18-29-10.jpg"
+    ],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message153",
+    "sender": "Deleted Account",
+    "timestamp": "27.06.2026 18:31:08 UTC+03:30",
+    "text": "پذیرایی غرفه انجمنشریف سلامدو عدد دلستربیسکوئیت و چیپس و پفک",
+    "reply_to": [],
+    "attachments": [
+      "telegram export/photos/photo_40@27-06-2026_18-31-08.jpg"
+    ],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message154",
+    "sender": "Deleted Account\nBardia  25.12.2025 19:23:28",
+    "timestamp": "27.06.2026 18:36:09 UTC+03:30",
+    "text": "سلام خوبی ببین من یه ۴۰۰ خرید کردم که یه سری جا سوییچی  و یه دونه گوشواره انار و اینا بود  یه ۲۵۰ دوباره که بازم جا سوییچی های عروسکی بود  یه ۶۰۰ که هندونه و انار های ریز بودن با یه ۱۱۶۲ که ۲۷۵ تاشو ساندویچ خریدیم  میمونه ۸۸۷ که ۲۲ تا ژله فرمند بودن که قیمت اصلی‌شون ۴۵ بود ولی تخفیف خورده بودن  فک کنم شده بودن ۴۰ اینا حالا از اینا من رسید ۴۰۰ و ۲۵۰ رو دارم ولی رسید ۶۰۰ رو ندارم فاکتور اون ۱۱۶۲ رو هم داده بودم حسین ولی گم کرده",
+    "reply_to": [],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message155",
+    "sender": "Bardia  25.12.2025 19:23:48",
+    "timestamp": "27.06.2026 18:36:09 UTC+03:30",
+    "text": "",
+    "reply_to": [],
+    "attachments": [
+      "telegram export/photos/photo_41@27-06-2026_18-36-09.jpg"
+    ],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message156",
+    "sender": "Bardia  25.12.2025 19:23:48",
+    "timestamp": "27.06.2026 18:36:09 UTC+03:30",
+    "text": "",
+    "reply_to": [],
+    "attachments": [
+      "telegram export/photos/photo_42@27-06-2026_18-36-09.jpg"
+    ],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message157",
+    "sender": "Bardia  25.12.2025 19:32:19",
+    "timestamp": "27.06.2026 18:36:09 UTC+03:30",
+    "text": "این رسید اون دوتای دیگس ولی فاکتور ۱۱۶۲ رو ندارم دیگه بیشتر نتونستم پیدا کنم 😂",
+    "reply_to": [],
+    "attachments": [
+      "telegram export/photos/photo_43@27-06-2026_18-36-09.jpg"
+    ],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message158",
+    "sender": "Bardia  25.12.2025 19:32:19",
+    "timestamp": "27.06.2026 18:36:09 UTC+03:30",
+    "text": "",
+    "reply_to": [],
+    "attachments": [
+      "telegram export/photos/photo_44@27-06-2026_18-36-09.jpg"
+    ],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message159",
+    "sender": "Deleted Account\nDeleted Account 29.12.2025 00:50:11",
+    "timestamp": "27.06.2026 18:36:09 UTC+03:30",
+    "text": "خدمتت نازنین، ممنون از انرژی که گذاشتی",
+    "reply_to": [],
+    "attachments": [
+      "telegram export/photos/photo_45@27-06-2026_18-36-09.jpg"
+    ],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message161",
+    "sender": "Deleted Account\nhossein  26.12.2025 21:51:06",
+    "timestamp": "27.06.2026 18:38:52 UTC+03:30",
+    "text": "این برای یکیشون که ژله و شربت آلبالو",
+    "reply_to": [],
+    "attachments": [
+      "telegram export/photos/photo_46@27-06-2026_18-38-52.jpg"
+    ],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message162",
+    "sender": "hossein  26.12.2025 21:52:41",
+    "timestamp": "27.06.2026 18:38:52 UTC+03:30",
+    "text": "اون 165 برای خرید کاغذ و ماژیک",
+    "reply_to": [],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message163",
+    "sender": "hossein  26.12.2025 21:53:41",
+    "timestamp": "27.06.2026 18:38:52 UTC+03:30",
+    "text": "اون شصت تومن  و پنجاه تومن شیرینی تو راه گرفتیم😊😊",
+    "reply_to": [],
+    "attachments": [],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message164",
+    "sender": "Deleted Account",
+    "timestamp": "27.06.2026 18:43:30 UTC+03:30",
+    "text": "* جا سوییچی، گوشواره انار و ...: ۴۰۰ * جا سوییچی‌های عروسکی: ۲۵۰ * هندونه و انارهای ریز: ۶۰۰ * ساندویچ (از فاکتور ۱۱۶۲): ۲۷۵ * ژله فرمند (۲۲ عدد - از فاکتور ۱۱۶۲): ۸۸۷ * کاغذ و ماژیک: ۱۶۵ * شیرینی (تو راه): ۶۰ * شیرینی (تو راه): ۵۰ * پودر ژله طالبی (۳۲ عدد - طبق رسید): ۱۲۸۰ * شربت آلبالو سن ایچ (۲ عدد - طبق رسید): ۸۷۰",
+    "reply_to": [],
+    "attachments": [
+      "telegram export/photos/photo_47@27-06-2026_18-43-30.jpg"
+    ],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message165",
+    "sender": "Deleted Account",
+    "timestamp": "27.06.2026 18:43:30 UTC+03:30",
+    "text": "",
+    "reply_to": [],
+    "attachments": [
+      "telegram export/photos/photo_48@27-06-2026_18-43-30.jpg"
+    ],
+    "service": false,
+    "unavailable_media": false
+  },
+  {
+    "id": "message-28",
+    "sender": "Deleted Account",
+    "timestamp": null,
+    "text": "",
+    "reply_to": [],
+    "attachments": [],
+    "service": true,
+    "unavailable_media": false
+  },
+  {
+    "id": "message166",
+    "sender": "Deleted Account",
+    "timestamp": null,
+    "text": "",
+    "reply_to": [],
+    "attachments": [],
+    "service": true,
+    "unavailable_media": false
+  }
+]
