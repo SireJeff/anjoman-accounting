@@ -2862,6 +2862,32 @@
       "duplicate_of": null,
       "review_reason": "No receipt; round amount.",
       "notes": "Ledger-derived."
+    },
+    {
+      "id": "TX0096",
+      "date_gregorian": null,
+      "date_jalali": null,
+      "period_jalali": null,
+      "direction": "Payment",
+      "amount_original": 3000000,
+      "unit_original": "toman",
+      "amount_toman": 3000000,
+      "counterparty": "Domain registrar not supplied",
+      "description_en": "Purchase of alenush.com for the association website; user-declared expense without receipt",
+      "description_fa": "خرید دامنهٔ alenush.com برای وب‌سایت انجمن؛ هزینهٔ اعلام‌شده توسط کاربر، بدون رسید",
+      "category": "Website domain",
+      "project": "Association website",
+      "status": "Review",
+      "evidence_basis": "User declaration dated 2026-10-11; no receipt",
+      "cash_account": "Unknown funding source",
+      "message_ids": [],
+      "tracking_id": null,
+      "duplicate_of": null,
+      "review_reason": "Purpose and reported purchase amount confirmed by user. Purchase date, funding source and any reimbursement are unknown; not yet included in the cutoff cash totals.",
+      "notes": "The VM creation date is not used as the domain purchase date. Keep the declared domain expense separate from confirmed association cash disbursements until date and funding are clarified.",
+      "sources": [
+        "reports/2026-10-10/website_user_confirmation_2026-10-11.json"
+      ]
     }
   ],
   "issues": [
@@ -3111,6 +3137,20 @@
       "action": "Provide the sixth instructor/payee name or receipt filename. Do not create an additional payment or infer registration income.",
       "sources": [
         "reports/2026-10-10/user_confirmation_2026-10-10.json"
+      ]
+    },
+    {
+      "id": "ISS016",
+      "severity": "Medium",
+      "title": "Website domain payment date and funding source",
+      "description": "User reports paying 3,000,000 toman for alenush.com, without a designated receipt. Association purpose is confirmed. The purchase date and whether association or personal funds paid it are unknown. Actual VM payments are also not supplied; the 92-day VM figure is a budget estimate.",
+      "amount_toman": 3000000,
+      "transaction_ids": [
+        "TX0096"
+      ],
+      "action": "Record the purchase date and funding account; identify any reimbursement and obtain registrar confirmation if available. Replace VM estimates with actual billing records when supplied.",
+      "sources": [
+        "reports/2026-10-10/website_user_confirmation_2026-10-11.json"
       ]
     }
   ],
@@ -4632,7 +4672,8 @@
     "Each original مجموع cell maps to ledger rows with a disposition. The مرداد and شهریور sheets are subsets and are not double-mapped.",
     "Teacher fees round to 100,000 toman (message14). Deviations are flagged, not altered.",
     "Student phone numbers in the course reports must not appear in published reports.",
-    "User-confirmation revision: all recipts/ images are association expenses. Provisional transfers and the photographed invoice are treated as settled only on explicit user attestation; their original source limitations remain visible. The folder duplicate is retained and excluded. Five Summer School 1405 payments are identified; the sixth is not inferred."
+    "User-confirmation revision: all recipts/ images are association expenses. Provisional transfers and the photographed invoice are treated as settled only on explicit user attestation; their original source limitations remain visible. The folder duplicate is retained and excluded. Five Summer School 1405 payments are identified; the sixth is not inferred.",
+    "Website costs: the domain is a user-declared 3,000,000 toman expense with unknown purchase date and funding source, held outside cutoff supported cash totals. The VM is a 92-day budget at 655,440 rial per day; projections are not actual payments."
   ],
   "report_sections": [
     {
@@ -4886,5 +4927,31 @@
     "matched_instructor_total_toman": 11500000,
     "sticker_packs_toman": 950000,
     "unmatched_sixth_instructor": true
+  },
+  "website_budget": {
+    "confirmation_date": "2026-10-11",
+    "domain": "alenush.com",
+    "domain_cost_toman": 3000000,
+    "domain_purchase_date": null,
+    "domain_receipt_available": false,
+    "funding_source": null,
+    "vm_name": "Alnush",
+    "vcpus": 2,
+    "ram_gb": 4,
+    "ssd_gb": 30,
+    "start_jalali": "1405/05/28",
+    "start_gregorian": "2026-08-19",
+    "start_time": "22:56",
+    "timezone": "Asia/Tehran",
+    "end_jalali": "1405/08/28",
+    "end_gregorian": "2026-11-19",
+    "daily_rate_rial": 655440,
+    "daily_rate_toman": 65544,
+    "forecast_days": 92,
+    "forecast_vm_toman": 6030048,
+    "domain_plus_vm_budget_toman": 9030048,
+    "actual_vm_payments_toman": null,
+    "source_text": "خرید دامنه آلنوش- 3میلیون تومان\nAlnush\n2 vCPU - 4 GB RAM - 30 GB SSD\nتاریخ ایجاد: ۲۲:۵۶ - ۱۴۰۵/۰۵/۲۸\n۶۵۵٬۴۴۰ ریال/روز",
+    "billing_assumption": "Constant daily rate over 92 complete days; no additional taxes, fees, credits or downtime inferred. Server start date is not a domain purchase date. Actual billing amounts have not been supplied."
   }
 }

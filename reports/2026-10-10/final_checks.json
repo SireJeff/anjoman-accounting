@@ -1,8 +1,8 @@
 {
-  "sheet_count": 13,
-  "formula_count": 467,
+  "sheet_count": 14,
+  "formula_count": 497,
   "formula_errors": [],
-  "pdf_pages": 30,
+  "pdf_pages": 31,
   "pdf_overflow_blocks": [],
   "exact_original_source_coverage": 78,
   "folder_all_expenses": true,
@@ -19,5 +19,10 @@
   "instructor_beneficiary_payee_distinct": true,
   "payment_bridge_match": true,
   "critical_validation_errors": [],
-  "review_basis": "Original receipt OCR + explicit user confirmation; Opus arithmetic review and manual wording corrections applied."
+  "review_basis": "Original receipt OCR + explicit user confirmation; Opus arithmetic review and manual wording corrections applied.",
+  "website_declared_domain_toman": 3000000,
+  "website_vm_projection_toman": 6030048,
+  "website_combined_budget_toman": 9030048,
+  "website_cutoff_cash_totals_unchanged": true,
+  "website_rate_sensitivity_and_missing_input_checks": true
 }

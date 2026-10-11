@@ -26,8 +26,8 @@
       "amount": 99085195.0
     },
     "Payment|Review": {
-      "count": 19,
-      "amount": 8334723.9
+      "count": 20,
+      "amount": 11334723.9
     },
     "Payment|Duplicate": {
       "count": 4,
@@ -86,8 +86,11 @@
       "other_supported_receipts": 101552000.0
     },
     "net_cash_activity": 13466805.0,
-    "ledger_records": 95,
-    "issue_count": 15
+    "ledger_records": 96,
+    "issue_count": 16,
+    "website_declared_domain_toman": 3000000,
+    "website_vm_budget_toman": 6030048,
+    "website_combined_budget_toman": 9030048
   },
   "verification_checks": [
     {
@@ -140,5 +143,12 @@
       "result": "Pass",
       "value": true
     }
-  ]
+  ],
+  "website_checks": {
+    "domain_excluded_from_cutoff_supported_cash": true,
+    "vm_projection_excluded_from_transaction_ledger": true,
+    "forecast_days": 92,
+    "currency_conversion": 65544.0,
+    "forecast_vm_toman": 6030048
+  }
 }

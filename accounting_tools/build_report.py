@@ -31,6 +31,11 @@ s=v['summary'];table(['Measure','Amount / count','Interpretation'],[['Supported 
 for sec in narr.get('sections',[]):
  heading(sec['title'])
  for q in sec.get('paragraphs',[]):para(q)
+heading('Website domain expense and VM budget')
+para('Website addendum recorded 11 October 2026. The 3,000,000 toman domain purchase is user-declared with no receipt; its purchase date and funding source are unknown. TX0096 is held in Review, outside supported cutoff cash totals. The VM forecast is also outside actual payments.')
+table(['Website item','Amount (toman)','Evidence / basis'],[['Declared alenush.com purchase','3,000,000','User declaration; payment date and funding unknown'],['VM daily rate','65,544','655,440 rial per day divided by 10'],['Three-month VM forecast','6,030,048','92 days at constant rate'],['Domain plus VM budget','9,030,048','Declared domain cost plus VM forecast; not a paid total']],[180,105,230])
+table(['Jalali service interval','Days','VM forecast (toman)'],[['1405/05/28 to 1405/06/28',31,'2,031,864'],['1405/06/28 to 1405/07/28',31,'2,031,864'],['1405/07/28 to 1405/08/28',30,'1,966,320'],['Total',92,'6,030,048']],[260,65,190])
+para('Alnush VM configuration: 2 vCPU, 4 GB RAM, 30 GB SSD. Service starts 1405/05/28 at 22:56 Asia/Tehran and the three-month horizon ends 1405/08/28 at the same time. Forecast assumes uninterrupted billing at the quoted rate. Actual VM payments, additional fees, tax, credits and downtime were not supplied.')
 heading('Monthly receipts and payments')
 months=sorted(set(t['period_jalali'] or 'Undated' for t in L));monthly=[]
 for month in months:

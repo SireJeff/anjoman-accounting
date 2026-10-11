@@ -18,10 +18,10 @@ Reporting basis: cash activity reconstructed from available evidence. Supported 
 | Supported payments | 99,085,195 | Cash outflows included in this reconstruction |
 | Net supported cash activity | 13,466,805 | Receipts less payments, before opening cash |
 | Review receipt amounts | 0 | Excluded until clarified |
-| Review payment amounts | 8,334,723.9 | Excluded until clarified |
+| Review payment amounts | 11,334,723.9 | Excluded until clarified |
 | Review unclassified amounts | 300,000 | Direction unresolved |
-| Candidate records | 95 | Includes supported and excluded candidates |
-| Reconciliation issues | 15 | Actions documented in issue register |
+| Candidate records | 96 | Includes supported and excluded candidates |
+| Reconciliation issues | 16 | Actions documented in issue register |
 
 ## Scope, Basis and Limits of This Report
 
@@ -167,6 +167,34 @@ Obtain complete account statements and separate association funds from personal 
 
 Resolve Yalda reimbursement schedules and the possible duplicate scanned purchase, the unknown-unit SMS withdrawal, the ambiguous 300,000 cash shabash, and printed course-report unit scaling. Do not invent opening cash, closing bank balances or registration revenue.
 
+## Association website costs and three-month VM budget
+
+On 11 October 2026 the user declared a 3,000,000 toman purchase of alenush.com for the association website. No designated receipt or purchase date was supplied. TX0096 records this declared expense under Review because its date and funding source are unknown. It is not assumed to be a reimbursed expense or a cutoff association cash payment. Supported cash totals remain unchanged.
+
+The Alnush VM has 2 vCPU, 4 GB RAM and 30 GB SSD. It was created at 22:56 Tehran time on 1405/05/28 (19 August 2026). The stated daily rate is 655,440 rial, equivalent to 65,544 toman. Three Jalali months end at 22:56 on 1405/08/28 (19 November 2026), covering 92 complete days: 31, 31 and 30 days.
+
+At a constant daily rate the three-month VM budget is 6,030,048 toman. Including the declared 3,000,000 toman domain cost gives a combined website budget of 9,030,048 toman. This combines a user-declared purchase with a modelled service cost; it is not an actual cash-paid total. No VM invoices, paid-day count, extra fees, tax, credits or downtime were supplied. Actual VM payments remain unknown.
+
+## Website domain expense and VM budget
+
+Website addendum recorded 11 October 2026. The 3,000,000 toman domain purchase is user-declared with no receipt; its purchase date and funding source are unknown. TX0096 is held in Review, outside supported cutoff cash totals. The VM forecast is also outside actual payments.
+
+| Website item | Amount (toman) | Evidence / basis |
+| --- | --- | --- |
+| Declared alenush.com purchase | 3,000,000 | User declaration; payment date and funding unknown |
+| VM daily rate | 65,544 | 655,440 rial per day divided by 10 |
+| Three-month VM forecast | 6,030,048 | 92 days at constant rate |
+| Domain plus VM budget | 9,030,048 | Declared domain cost plus VM forecast; not a paid total |
+
+| Jalali service interval | Days | VM forecast (toman) |
+| --- | --- | --- |
+| 1405/05/28 to 1405/06/28 | 31 | 2,031,864 |
+| 1405/06/28 to 1405/07/28 | 31 | 2,031,864 |
+| 1405/07/28 to 1405/08/28 | 30 | 1,966,320 |
+| Total | 92 | 6,030,048 |
+
+Alnush VM configuration: 2 vCPU, 4 GB RAM, 30 GB SSD. Service starts 1405/05/28 at 22:56 Asia/Tehran and the three-month horizon ends 1405/08/28 at the same time. Forecast assumes uninterrupted billing at the quoted rate. Actual VM payments, additional fees, tax, credits and downtime were not supplied.
+
 ## Monthly receipts and payments
 
 | Jalali month | Receipts | Payments | Net activity | Under review |
@@ -183,13 +211,14 @@ Resolve Yalda reimbursement schedules and the possible duplicate scanned purchas
 | 1405/05 | 0 | 11,217,000 | -11,217,000 | 0 |
 | 1405/06 | 0 | 9,150,000 | -9,150,000 | 0 |
 | 1405/07 | 23,000,000 | 39,775,150 | -16,775,150 | 0 |
-| Undated | 0 | 0 | 0 | 0 |
+| Undated | 0 | 0 | 0 | 3,000,000 |
 
 ## Project cash activity
 
 | Project | Receipts | Payments | Net activity | Under review |
 | --- | --- | --- | --- | --- |
 | Association operations | 34,000,000 | 3,084,700 | 30,915,300 | 13,000 |
+| Association website | 0 | 0 | 0 | 3,000,000 |
 | Booths 1404 | 0 | 1,995,000 | -1,995,000 | 0 |
 | Freshman Party 1404 | 0 | 5,774,000 | -5,774,000 | 300,000 |
 | Intro Event 1404 | 4,920,000 | 3,155,000 | 1,765,000 | 0 |
@@ -221,6 +250,7 @@ Net project cash activity is not an accrual profit measure. Reimbursements are d
 | Teaching | 0 | 24,000,000 | 0 |
 | Transfers | 0 | 0 | 0 |
 | Unclassified | 0 | 35,525,470 | 300,000 |
+| Website domain | 0 | 0 | 3,000,000 |
 
 ## Summer School 1405 instructor payment register
 
@@ -398,6 +428,14 @@ Required action: Provide the sixth instructor/payee name or receipt filename. Do
 
 Evidence: reports/2026-10-10/user_confirmation_2026-10-10.json
 
+### ISS016 Website domain payment date and funding source
+
+Amount: 3,000,000. Transactions: TX0096.
+
+Required action: Record the purchase date and funding account; identify any reimbursement and obtain registrar confirmation if available. Replace VM estimates with actual billing records when supplied.
+
+Evidence: reports/2026-10-10/website_user_confirmation_2026-10-11.json
+
 ## Bridge from the original workbook totals
 
 | Adjustment | Change to payments (toman) |
@@ -489,6 +527,8 @@ Teacher fees round to 100,000 toman (message14). Deviations are flagged, not alt
 Student phone numbers in the course reports must not appear in published reports.
 
 User-confirmation revision: all recipts/ images are association expenses. Provisional transfers and the photographed invoice are treated as settled only on explicit user attestation; their original source limitations remain visible. The folder duplicate is retained and excluded. Five Summer School 1405 payments are identified; the sixth is not inferred.
+
+Website costs: the domain is a user-declared 3,000,000 toman expense with unknown purchase date and funding source, held outside cutoff supported cash totals. The VM is a 92-day budget at 655,440 rial per day; projections are not actual payments.
 
 The five unavailable-media notices already present in the Telegram export are retained as gaps: message5, message24, message132, message133 and message134. No omitted attachment content was invented. Export icons and thumbnail derivatives were excluded from financial evidence.
 
@@ -602,6 +642,7 @@ This register contains every canonical financial candidate, including Review, Du
 | TX0093 1405/07 | Receipt Supported | Intro event 1405 receipts per ledger Original ledger;  Review: No settlement deposit. A bridge to the 27,235,000 gross is required (ISS004). | 23,000,000 |
 | TX0094 1405/07/02 | Receipt Summary only | Platform-reported gross ticket sales Report;  Review: Gross sales, not settlement. Not additive to TX0093. | 27,235,000 |
 | TX0095 1405/07 | Payment Supported | Post-event gathering Original ledger;  Review: No receipt; round amount. | 5,000,000 |
+| TX0096 Undated | Payment Review | Purchase of alenush.com for the association website; user-declared expense without receipt User declaration dated 2026-10-11; no receipt;  Review: Purpose and reported purchase amount confirmed by user. Purchase date, funding source and any reimbursement are unknown; not yet included in the cutoff cash totals. | 3,000,000 |
 
 ## Evidence inventory and coverage
 

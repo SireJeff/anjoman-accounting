@@ -24,3 +24,7 @@ Formula-linked monthly/project/category schedules recalculate when current trans
 ## Remaining gaps
 
 Five unavailable-media notices were present in the Telegram export. No complete bank statements or verified opening association cash were supplied. The custodian has mixed personal and association funds. The report lists the documentation required to resolve outstanding transactions, invoices and settlement differences. Do not substitute the net activity figure for closing cash.
+
+## Website addendum (11 October 2026)
+
+TX0096 records the user-declared 3,000,000 toman alenush.com purchase under Review. Purchase date, funding source and reimbursement are not supplied; supported cutoff cash totals are unchanged. The Website budget tab models the 92-day VM period 1405/05/28 to 1405/08/28 at 655,440 rial/day (65,544 toman/day). The VM forecast is 6,030,048 toman; domain plus VM budget is 9,030,048 toman, not an actual paid total. Restore website_user_confirmation_2026-10-11.json and use the current final_data.json (including website_budget) when reproducing outputs. Daily-rate changes and missing-rate inputs were checked.
