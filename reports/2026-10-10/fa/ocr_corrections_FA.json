@@ -1,0 +1,19 @@
+{
+  "policy": "Raw OCR outputs preserved; normalized ledger and listed corrections supersede them.",
+  "corrections": [
+    {
+      "path": "recipts/photo_1_2026-10-10_11-09-04.jpg",
+      "field": "date_gregorian",
+      "original": "2026-09-22",
+      "corrected": "2026-09-21",
+      "reason": "1405/06/30 is Monday; Shahrivar has 31 days. Raw OCR weekday conflict is invalid."
+    }
+  ],
+  "revision_audit_fixes": [
+    "Notes aligned to specific purposes",
+    "Provided-card fields explicitly user-provided, not printed",
+    "Invoice payment method remains unspecified",
+    "Old report_sections and project_notes superseded",
+    "Different masked Blu source cards kept distinct in notes"
+  ]
+}

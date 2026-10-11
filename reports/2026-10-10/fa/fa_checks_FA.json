@@ -1,0 +1,13 @@
+{
+  "worksheets": 13,
+  "formulas": 467,
+  "formula_errors": [],
+  "transactions": 95,
+  "supported_receipts_toman": 112552000.0,
+  "supported_payments_toman": 99085195.0,
+  "net_cash_activity_toman": 13466805.0,
+  "pdf_pages": 33,
+  "out_of_page_text": [],
+  "remaining_latin_text_candidates": 105,
+  "amounts_dates_ids_and_source_references_match": true
+}
