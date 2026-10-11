@@ -1,6 +1,6 @@
 # Accounting evidence workflow
 
-The report is a reconstructed cash-activity report, not an audit or a complete accrual balance sheet. The workbook retains Persian descriptions and the original evidence. Review items are excluded from supported totals. Original-ledger-only records remain included with an explicit evidence label; they are not bank-confirmed.
+The report is a reconstructed cash-activity report, not an audit or a complete accrual balance sheet. The workbook retains Persian descriptions and the original evidence. Review items are excluded from supported totals. Original-ledger-only records remain included with an explicit evidence label; they are not bank-confirmed. The 10–11 October user confirmation establishes all recipts/ items as association expenses. Five Summer School 1405 instructor payments and intro-event sticker packs are specifically allocated; a sixth instructor payment remains unmatched. Provisional screens and the photographed invoice remain explicitly user-attested.
 
 ## Final outputs
 

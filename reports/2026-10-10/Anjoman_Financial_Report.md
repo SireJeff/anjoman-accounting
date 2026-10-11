@@ -4,6 +4,8 @@ Report cutoff: 10 October 2026 / 1405/07/18. All amounts in toman unless the ori
 
 Prepared from 78 repository source files: 188 Telegram messages, 68 full-size images, four PDFs (including every page of the 11-page CamScanner scan), three course reports and two workbooks.
 
+Revision: incorporates user confirmations received 10–11 October 2026. The transaction cutoff remains 10 October 2026.
+
 Reporting basis: cash activity reconstructed from available evidence. Supported totals include original-ledger-only records where clearly labeled. Opening association cash and bank-reconciled closing cash remain unavailable. This report does not assert an audit opinion or a complete accrual balance sheet.
 
 ## Executive financial summary
@@ -13,39 +15,43 @@ Reporting basis: cash activity reconstructed from available evidence. Supported 
 | Supported receipts | 112,552,000 | Cash inflows included in this reconstruction |
 | Former-board handover | 11,000,000 | Included in receipts; opening funds, not operating revenue |
 | Other supported receipts | 101,552,000 | Includes donations and ledger-derived event/course receipts |
-| Supported payments | 41,121,825 | Cash outflows included in this reconstruction |
-| Net supported cash activity | 71,430,175 | Receipts less payments, before opening cash |
+| Supported payments | 99,085,195 | Cash outflows included in this reconstruction |
+| Net supported cash activity | 13,466,805 | Receipts less payments, before opening cash |
 | Review receipt amounts | 0 | Excluded until clarified |
-| Review payment amounts | 54,508,973.9 | Excluded until clarified |
-| Review unclassified amounts | 2,101,220 | Direction unresolved |
+| Review payment amounts | 8,334,723.9 | Excluded until clarified |
+| Review unclassified amounts | 300,000 | Direction unresolved |
 | Candidate records | 95 | Includes supported and excluded candidates |
-| Reconciliation issues | 14 | Actions documented in issue register |
+| Reconciliation issues | 15 | Actions documented in issue register |
 
 ## Scope, Basis and Limits of This Report
 
-This report narrates the reconciliation of the association's finances from 1404/04 to 1405/07 on the final corrected and validated ledger. It draws on the original workbook (Anjoman accounting.xlsx), the Telegram message export, payment receipts, invoices, scanned slips, course reports and the platform report for the 1405 introduction event. All values are in toman. Rial documents were converted by dividing by 10, and only where the unit was printed on the document. Where a unit was not printed, the amount is left unconverted and the conditional reading is stated.
+This report narrates the reconciliation of the association's finances from 1404/04 to 1405/07 on the final corrected and validated ledger, updated after the user's explicit confirmation that every item in the recipts/ folder is an association payment or expense. It draws on the original workbook (Anjoman accounting.xlsx), the Telegram message export, payment receipts, invoices, scanned slips, course reports, the platform report for the 1405 introduction event, and the user confirmation file (reports/2026-10-10/user_confirmation_2026-10-10.json). All values are in toman. Rial documents were converted by dividing by 10, and only where the unit was printed on the document. Where a unit was not printed, the amount is left unconverted and the conditional reading is stated.
 
-The ledger holds 95 records and 14 open issues. Per the validation summary, supported receipts total 112,552,000 toman (11 records), supported payments total 41,121,825 toman (36 records), and supported net cash activity is 71,430,175 toman. Supported rows include rows evidenced only by the original ledger or by the treasurer's statement, and this basis is disclosed wherever it applies. Rows that are not supported are excluded from these totals.
+The ledger holds 95 records and 15 open issues. Per the validation summary, supported receipts total 112,552,000 toman (11 records), supported payments total 99,085,195 toman (55 records), and supported net cash activity is 13,466,805 toman. The supported payments figure reconciles in three steps: the original workbook expense total of 38,638,300 toman; the first reconstruction of 41,121,825 toman (36 records); and 19 unique user-confirmed folder expenses totalling 57,963,370 toman, which bring the figure to 99,085,195 toman. The folder's 20th document, a duplicate receipt of 790,000 toman (TX0022, a re-upload of the TX0021 tea-society receipt), is not added.
 
-There are 36 Review-status payment records: 35 have converted amounts totaling 54,508,973.9 toman, and one retains the printed amount 100,037,800 with an unknown unit. That item is shown as printed and is not folded into any toman total. A further 2,101,220 toman of unknown-direction rows (two records) await classification.
+Supported rows include rows evidenced only by the original ledger, by the treasurer's statement, or now by the user's attestation, and this basis is disclosed wherever it applies. Rows that are not supported are excluded from these totals.
 
-The supported receipts total of 112,552,000 includes 11,000,000 toman of opening-funds handover from the former board. The remaining 101,552,000 toman is therefore not all earned revenue; it mixes registration income, donations, event receipts and other items whose evidence quality varies, as set out below.
+The previous report listed 36 Review-status payment records. That count no longer applies. There are now 19 Review-status payment candidates: 17 have converted amounts totalling 8,334,723.9 toman, and 2 have unknown amounts (the Sepah withdrawal printed as 100,037,800 with no unit, and the unreceipted volunteer spend of 275 with no unit). Neither is folded into any toman total. Across all directions the Review total is 21 records: the 19 payments, the internal-transfer candidate TX0018 and the unknown-direction cash shabash TX0036. Unknown-direction rows still await classification: the 300,000 toman cash shabash remains in Review. The earlier unknown-direction 1,801,220 toman card transfer (TX0061) is now a confirmed folder expense and has left that category.
 
-This is not an audit, and the supported net figure is neither a profit nor a closing cash balance. Only the sources supplied are available: receipts, SMS fragments, screenshots and workbook ledgers. No complete bank statements were supplied for any account, and no verified opening balance exists. Reported balance snapshots also conflict with one another. The supported net is therefore an activity measure, not a balance, and no bank or cash closing position is asserted. The original workbook's own totals (income 112,552,000, expense 38,638,300, balance 73,913,700) are cited as original-ledger figures only; they are not a verified position.
+The supported receipts total of 112,552,000 includes 11,000,000 toman of opening-funds handover from the former board. The remaining 101,552,000 toman is therefore not all earned revenue; it mixes registration income, donations, event receipts and other items whose evidence quality varies, as set out below. Receipts derived from the original ledger retain an explicit disclosure of that basis.
+
+This is not an audit, and the supported net figure is neither a profit nor a closing cash balance. Only the sources supplied are available: receipts, SMS fragments, screenshots and workbook ledgers. Bank statement closure is unavailable: no complete bank statements were supplied for any account, and no verified opening balance exists. Reported balance snapshots also conflict with one another. The supported net is therefore an activity measure, not a balance, and no bank or cash closing position is asserted. The original workbook's own totals (income 112,552,000, expense 38,638,300, balance 73,913,700) are cited as original-ledger figures only; they are not a verified position.
 
 ## Executive Findings
 
-First, supported receipts of 112,552,000 toman are not all operating revenue. They include the 11,000,000 toman opening-funds handover. The other 101,552,000 toman combines registration income, donations, gross event receipts and ledger-derived items. Gross 1404 intro-event receipts of 4,920,000 toman are later partly moved to the main account, so that amount is gross rather than net.
+First, supported receipts of 112,552,000 toman are not all operating revenue. They include the 11,000,000 toman opening-funds handover, kept separate from the other 101,552,000 toman, which combines registration income, donations, gross event receipts and ledger-derived items. Gross 1404 intro-event receipts of 4,920,000 toman are later partly moved to the main account, so that amount is gross rather than net.
 
-Second, the evidence behind supported receipts is uneven in ways that go beyond one or two rows. Several supported receipts rest on the original ledger or the treasurer's statement without deposit corroboration, including the summer-school registration aggregate, the 7,000,000 donation, the Yalda deposits and cash, the 1404 event receipts and the 1405 event income. Two of these, TX0047 (Yalda deposits, 15,790,000) and TX0093 (1405 event income, 23,000,000), are retained on the disclosed ledger and treasurer-statement basis despite missing deposit corroboration; they are not in review status, and their open corroboration gaps are recorded as issues. It would be wrong to read the report as implying that only a single block of receipts lacks bank proof.
+Second, the evidence behind supported receipts is uneven. Several rest on the original ledger or the treasurer's statement without deposit corroboration, including the summer-school registration aggregate, the 7,000,000 donation, the Yalda deposits and cash, the 1404 event receipts and the 1405 event income. TX0047 (Yalda deposits, 15,790,000) and TX0093 (1405 event income, 23,000,000) are retained on the disclosed ledger and treasurer-statement basis despite missing deposit corroboration; they are not in review status, and their corroboration gaps are recorded as open issues.
 
-Third, the evidence for supported payments is also uneven. Many carry both a receipt and a message. Others rest on the original ledger alone or on a message alone, without a receipt image. These are labelled where material.
+Third, the evidence behind supported payments is also uneven, and the revision has added a new tier. Many payments carry both a receipt and a message. Others rest on the original ledger alone or on a message alone. The 19 newly added folder items rest on a receipt image plus the user's attestation. One of them, the 9,987,900 toman catering invoice (TX0089), rests on an invoice plus the user's payment attestation. The user's attestation now establishes association purpose and settlement of the temporary receipts and the invoice. It is not an independent bank confirmation, and none is simulated.
 
-Fourth, a large body of 1405 outflows has no stated purpose and is outside the supported total. These include 33,937,250 toman from the custodian's Blu account (ISS002) and 14,038,220 toman of debits on the association's Shahr deposit (ISS003). Until the custodian annotates them, they cannot be classified as association expenses.
+Fourth, the earlier claim that the 1405 outflows from the custodian's Blu account and the Shahr deposit were of unknown ownership, and that they were unmatched or unclassified outflows outside the supported total, is replaced. The eleven Blu outflows (33,937,250 toman, ISS002) and the seven Shahr-folder outflows (14,038,220 toman, ISS003) are confirmed association expenses. What remains open is allocation: project, category and merchant purpose. Items with an unidentified purpose are included in supported payments as unclassified, with project and category unknown; they are not excluded.
 
-Fifth, the 1405 introduction event has a conflict between the platform's gross sales (27,235,000 toman, a summary-only figure covering 90 buyers) and the ledger's 23,000,000 toman. No settlement deposit evidence was supplied, so the amount actually received is unknown.
+Fifth, the 1405 introduction event still has a conflict between the platform's gross sales (27,235,000 toman, a summary-only figure covering 90 buyers) and the ledger's 23,000,000 toman. No settlement deposit evidence was supplied, so the amount actually received is unknown. No registration income is inferred from the 1405 instructor payments.
 
-Sixth, Yalda 1404 reimbursements and volunteer purchases are only partly reconciled, and the Yalda deposits cannot be tied to the Sepah SMS fragments. Any documentation gap shown below is provisional and does not establish a confirmed overpayment.
+Sixth, Yalda 1404 reimbursements and volunteer purchases remain only partly reconciled, and the Yalda deposits cannot be tied to the Sepah SMS fragments. Any documentation gap shown below is provisional and does not establish a confirmed overpayment.
+
+Seventh, six folder receipts were stated to be Summer School 1405 instructor fees. Five are matched, totalling 11,500,000 toman. The sixth is not identified, and no course or amount is guessed for it (ISS015).
 
 ## Receipts, Operating Revenue and Opening Association Funds
 
@@ -55,19 +61,39 @@ The second kind is donations. Dr. Moghimi's donations are recorded at 500,000 to
 
 The Sepah withdrawal of 100,037,800 carries no unit label in the SMS, while the deposit lines in the same message are labelled rial. It is therefore left unconverted, with unit unknown. If it were rial it would equal 10,003,780 toman, but that reading is conditional only. The treasurer describes it as used for expense payments or transfers, so it is not income, and it is excluded from every total.
 
-The third kind is intro-event receipts. The 1404 event's gross receipts of 4,920,000 toman were held by Mohammad-Amin Azizi, and net proceeds were later moved to the main account. That transfer is printed as 17,650,000 with no unit. If read as rial it equals 1,765,000 toman, which matches the ledger net of 4,920,000 minus 3,155,000. This is unconfirmed (ISS005), and the transfer is treated as an internal transfer, neither income nor expense. The 1405 event's 23,000,000 toman is an original-ledger figure with no settlement deposit, retained on the disclosed ledger basis.
+The third kind is intro-event receipts. The 1404 event's gross receipts of 4,920,000 toman were held by Mohammad-Amin Azizi (محمدامین عزیزی), and net proceeds were later moved to the main account. That transfer is printed as 17,650,000 with no unit. If read as rial it equals 1,765,000 toman, which matches the ledger net of 4,920,000 minus 3,155,000. This is unconfirmed (ISS005), and the transfer is treated as an internal transfer, neither income nor expense. The 1405 event's 23,000,000 toman is an original-ledger figure with no settlement deposit, retained on the disclosed ledger basis. The platform's 27,235,000 gross is not additive to it.
 
-Opening association funds are separate. The former board handed over 10,000,000 toman on 1404/08/04 and 1,000,000 toman on 1404/08/05, totalling 11,000,000 toman and matching original ledger cell B25. These are an opening-funds handover, not operating income, and presenting them within revenue would overstate the association's own earnings. The refined workbook's counterparty names for some of these rows are wrong; the ledger notes record the corrections for the summer-school aggregate and the second handover.
+The user revision adds no receipts. The 112,552,000 toman receipts total is unchanged. In particular, the payment of 4,700,000 toman to Bahare Khishkhah (بهاره خویش‌خواه) for Python physical simulation matches the 4,700,000 amount stated in the user-supplied forwarded email, which describes it as a 35% instructor share; the percentage calculation is not independently verified, but that match is not used to reverse-calculate any income. No registration revenue for Summer School 1405 is inferred from instructor fees.
+
+Opening association funds are separate. The former board handed over 10,000,000 toman on 1404/08/04 and 1,000,000 toman on 1404/08/05, totalling 11,000,000 toman and matching original ledger cell B25. These are an opening-funds handover, not operating income, and presenting them within revenue would overstate the association's own earnings. The refined workbook misnames the counterparties of TX0001 (summer-school aggregate) and TX0027 (second former-board handover); the ledger notes record the corrections for the summer-school aggregate and the second handover.
+
+## The User Revision and the recipts/ Folder
+
+The user has explicitly confirmed that all items in the recipts/ folder are association payments or expenses. This replaces the earlier position in which the folder's Shahr and Blu outflows were treated as outflows of unconfirmed ownership or purpose, and in which the catering invoice was treated as an unmatched invoice. The folder contains 20 documents. One, the 790,000 toman receipt re-upload (TX0022, duplicate of TX0021), is excluded. The other 19 are unique and are added as supported payments totalling 57,963,370 toman.
+
+The arithmetic is exact. The original expense total was 38,638,300 toman; the first reconstruction produced 41,121,825 toman; adding 57,963,370 toman gives 99,085,195 toman. With supported receipts of 112,552,000 toman, supported net cash activity is 13,466,805 toman. The prior net of 71,430,175 toman is superseded.
+
+The 19 added items fall into four groups. First, seven Shahr-folder expenses totalling 14,038,220 toman: TX0043 (1,020,000), TX0061 (1,801,220), TX0075 (6,337,000), TX0076 (1,100,000), TX0077 (1,320,000), TX0078 (1,300,000) and TX0079 (1,160,000). Their merchants and projects are unknown. Second, Blu items with unidentified purpose, which are included as unclassified: TX0080 (450,000, possibly advertising, an inference from a prior advertising payee), TX0081 (4,500,000), TX0090 (13,900,000), TX0091 (2,332,250) and TX0092 (305,000). Third, the five matched Summer School 1405 instructor payments, TX0083 to TX0087, totalling 11,500,000 toman. Fourth, the sticker packs (TX0088, 950,000 toman) and the 9,987,900 toman food and beverage purchase (TX0089).
+
+The attestation has a defined reach. The user's statement establishes association purpose and the settlement of temporary receipts and of the invoice. The photographs of TX0083, TX0084 and TX0088 are provisional transfer screens, and their completion is accepted from the user's confirmation rather than proven by the image. No independent bank confirmation is claimed. Items without an identified purpose keep category Unclassified and project Unknown; they are included in the totals, not excluded.
+
+The confirmation applies to the recipts/ folder only. Telegram and workbook items outside that folder, such as the 300,000 toman cash shabash (ISS007), are not resolved by it.
 
 ## Payments by Category
 
-The 36 supported payments (41,121,825 toman) fall into the following groups. Instructor and assistant fees for Summer School 1404 form the largest evidenced block: 3,000,000 (Mathematica), 3,500,000 (Python) and 3,700,000 (LaTeX) toman in full-settlement fees, plus teaching-assistant and registration fees of 500,000, 600,000 and 600,000 toman, and make-up recordings of 300,000 toman each for LaTeX and Python. Each has a receipt and a message. The Mathematica fee of 3,000,000 does not follow the stated rule of rounding to 100,000 (the computed 2,934 would round to 2,900); the deviation is flagged and left unaltered.
+The 55 supported payments (99,085,195 toman) fall into the following groups. Instructor and assistant fees for Summer School 1404 form the largest evidenced 1404 block: 3,000,000 (Mathematica), 3,500,000 (Python) and 3,700,000 (LaTeX) toman in full-settlement fees, plus teaching-assistant and registration fees of 500,000, 600,000 and 600,000 toman, and make-up recordings of 300,000 toman each for LaTeX and Python. Each has a receipt and a message. The Mathematica fee of 3,000,000 does not follow the stated rule of rounding to 100,000 (the computed 2,934 would round to 2,900); the deviation is flagged and left unaltered.
 
-Advertising is supported at 400,000 toman for the Mohemat Sharif channel, dated 1404/04/28 but placed by the ledger under Mordad. A second 400,000 advertising row attributed to Hassan Shiri is a probable double entry and is held in review.
+Summer School 1405 instructor fees are new. Five are matched by recipient name or explicit user clarification: Zahra Saleh Kooshali (زهرا صالح کوشالی) 600,000; Reza Farhadi (رضا فرهادی) 1,200,000; Abolfazl Ahmadi 2,400,000 paid to the bank payee Alireza Kachooei Mohaghegh Yaghoubi (علیرضا کچویی محقق یعقوبی), recorded as LaTeX and API; Bahare Khishkhah 4,700,000, Physical simulation with Python; and Ilia Asgharian Dehkordi (ایلیا اصغریان دهکردی) 2,600,000. Together they total 11,500,000 toman. Courses are mapped only where explicitly named: LaTeX and API for Abolfazl, and Physical simulation with Python for Bahare. For the other three the course is recorded as not specified. The register keeps the instructor and the bank payee apart: for the 2,400,000 toman payment the beneficiary instructor is Abolfazl Ahmadi while the account holder who received the money is Alireza. This relationship is explicitly user-confirmed. The sixth stated instructor payment is unmatched, and no course or amount is guessed for it.
+
+The 950,000 toman payment to Zahra Amiri (زهرا امیری) is for sticker packs for the Intro Event 1405. It is not a teaching fee and not a design fee.
+
+Advertising is supported at 400,000 toman for the Mohemat Sharif channel, dated 1404/04/28 but placed by the ledger under Mordad. A second 400,000 advertising row attributed to Hassan Shiri is a probable double entry and is held in review. A 450,000 toman Blu transfer to the same channel's payee, Mohammad-Hossein Meshkafshan (محمدحسین مشک افشان), is possibly advertising, but that is an inference from the prior payee only and the item stays unclassified.
 
 Event costs cover the 1404 intro event (printing of 100,000 toman, supplies of 2,866,000 and a procurement fee of 189,000, the last two being original-ledger figures without receipts), the Freshman Party prizes (1,444,000, 1,500,000 and 1,400,000 toman, the last message-only) and party reimbursements (120,000 to Ardavan Shahbazi and 1,310,000 to Seyedeh Raheleh Mokhtari). Yalda costs include the 2,137,000 reimbursement to Bardia, the 4,050,000 paid in two installments to Parnian Asgari, and 180,000 toman for thread.
 
-Hospitality includes tea-society and assembly pastries (912,850 and 1,052,375 toman) and refreshments (790,000 and 235,000 toman). Equipment and supplies include room keys at 750,000 toman (original ledger only, payer unknown and possibly a personal payment by Hassan, which would make it a reimbursable payable rather than an outflow), projector connectors (310,000, message only), power protectors for booth projectors (1,760,000, message only), first-aid medicine (1,226,100, message only) and a 725,000 toman camera-battery reimbursement. Small printing lines (2,300 and 1,300) and a 900 toman card transfer fee complete the picture; the fee is message-only and absent from the original ledger.
+Hospitality includes tea-society and assembly pastries (912,850 and 1,052,375 toman) and refreshments (790,000 and 235,000 toman), plus the 9,987,900 toman food and beverage purchase (190 items of dairy drinks and cakes, in Hassan Shiri's name), whose cash settlement is now supported by the user's attestation. Its project is unknown; it is possibly the Intro Event 1405 on 1405/07/02. Equipment and supplies include room keys at 750,000 toman (original ledger only, payer unknown and possibly a personal payment by Hassan, which would make it a reimbursable payable rather than an outflow), projector connectors (310,000, message only), power protectors for booth projectors (1,760,000, message only), first-aid medicine (1,226,100, message only) and a 725,000 toman camera-battery reimbursement. Small printing lines (2,300 and 1,300) and a 900 toman card transfer fee complete the picture; the fee is message-only and absent from the original ledger.
+
+Unclassified folder payments of unknown project and category total 35,525,470 toman: the seven Shahr items (14,038,220), the 1405 Blu items TX0080, TX0081, TX0090, TX0091 and TX0092 (21,487,250), and nothing else. More precisely, the 33,937,250 toman Blu outflows consist of 11,500,000 identified instructor fees, 950,000 sticker packs and 21,487,250 still awaiting project or category allocation.
 
 Several supported payments are corroborated by the message record only, without a receipt image: the projector connectors, booth power protectors, the Freshman Party bracelets and spinners, the medicine and the printing lines. They are supported, but weaker than receipted items.
 
@@ -79,11 +105,13 @@ Intro Event 1404 is internally consistent if the transfer unit is rial, but that
 
 Yalda 1404 carries the heaviest documentation risk and is covered in its own section. The Professors assembly (Mehr), Tea and Physics society, Booths 1404 and Freshman Party 1404 are smaller and mostly receipted.
 
-The 1405 period is the highest risk. The custodian's Blu account shows eleven outflows totalling 33,937,250 toman with no stated purpose (ISS002), and the source accounts are not established as association accounts. The Shahr deposit shows five card purchases on card …2167 on 1405/05/21 to 22, plus earlier debits on 1404/09/02 and 1404/12/09, together 14,038,220 toman (ISS003). The card …2167 debits sit on the same deposit as the main association account, and the card's ownership is unconfirmed. There is also an undocumented drop of 31,630,000 rial between the 1405/05/21 and 1405/05/22 balances. The largest single unexplained outflow is a 13,900,000 toman card transfer on 1405/07/02. Two 1405 invoices (Skyroom at 4,257,000 and catering at 9,987,900 toman) have no payment proof and name Hassan Shiri personally as buyer. The catering invoice's line sum (100,100,000 rial) also differs from its total (99,879,000 rial), and it was unpaid at issue.
+The 1405 period remains the highest allocation risk, but its character has changed. The question is no longer whether the 1405 outflows belong to the association; the user has confirmed that they do. The question is what each was for. The custodian's Blu account shows eleven confirmed outflows totalling 33,937,250 toman (ISS002), of which 21,487,250 toman lacks project or category allocation. The Shahr deposit shows seven confirmed outflows totalling 14,038,220 toman (ISS003), all with merchant and project allocation pending: five card purchases on card …2167 on 1405/05/21 to 22, plus earlier debits on 1404/09/02 and 1404/12/09. The card …2167 debits sit on the same deposit as the main association account, and the card's ownership is unconfirmed. There is also an undocumented drop of 31,630,000 rial between the 1405/05/21 and 1405/05/22 balances, which statements are still needed to explain. The largest single unclassified outflow is the 13,900,000 toman card transfer on 1405/07/02 to Paria Hashemi (پریا هاشمی), now supported as an association expense of unknown purpose.
+
+Two 1405 invoices name Hassan Shiri personally as buyer. The Skyroom invoice (4,257,000 toman, including 387,000 tax) remains unmatched: no payment proof exists and it is not treated as paid. The catering invoice (9,987,900 toman) is now matched to TX0089 on the basis of the user's attestation. Its original arithmetic discrepancy is preserved: the line sum (100,100,000 rial) differs from the total (99,879,000 rial), and the invoice was unpaid at issue.
 
 ## Original Ledger Adjustments
 
-Each original ledger row in the Majmu totals worksheet was mapped to the validated ledger with a disposition. The Mordad and Shahrivar monthly sheets are subsets and are not double-mapped. Retained rows are the large majority.
+Each original ledger row in the Majmu totals worksheet was mapped to the validated ledger with a disposition. The Mordad and Shahrivar monthly sheets are subsets and are not double-mapped. Retained rows are the large majority. The user revision touches none of these mappings, since the folder items are not original-ledger rows.
 
 Duplicates: cell D23 (1,052,375) repeats the pastry in D20 and is excluded; D12 (400,000) is a probable duplicate of D9 and is held in review. Together these total 1,452,375 toman (ISS006).
 
@@ -97,9 +125,9 @@ Review items: D29 (300,000, the cash shabash) is excluded because it is unclear 
 
 For the 1404 event, the ledger records gross receipts of 4,920,000 toman and expenses of 3,155,000 toman (printing 100,000, supplies 2,866,000, procurement fee 189,000). The net of 1,765,000 toman is the expected transfer to the main account. The transfer receipt prints 17,650,000 with no unit, which matches only if read as rial. The source card on that receipt matches Mohammad-Amin Azizi's known card, which corroborates the origin of the transfer but not the unit. Gross and expenses are already recorded, so the transfer must not be added as income. A unit check with Mr. Azizi or the bank is outstanding (ISS005).
 
-For the 1405 event, three figures conflict. The platform's summary report shows gross ticket sales of 27,235,000 toman from 90 buyers (the top three days total 23,740,000). The ledger records 23,000,000 toman of income and a 5,000,000 toman post-event gathering, the latter a round amount with no receipt. The 4,235,000 toman gap may reflect fees, refunds or timing, but none is documented. No settlement deposit evidence was supplied. The platform figure is gross sales, not a settlement, and is not additive to the ledger figure (ISS004).
+For the 1405 event, two receipt figures conflict. The platform's summary report shows gross ticket sales of 27,235,000 toman from 90 buyers (the top three days total 23,740,000). The ledger records 23,000,000 toman of income and a 5,000,000 toman post-event gathering, the latter a round amount with no receipt. The 4,235,000 toman gap may reflect fees, refunds or timing, but none is documented. No settlement deposit evidence was supplied. The platform figure is gross sales, not a settlement, and is not additive to the ledger figure (ISS004).
 
-Linked costs are also unresolved. The Skyroom invoice (4,257,000 including 387,000 tax) and the 190-item catering invoice (9,987,900) are unpaid or unmatched, and several Blu transfers around 1405/07/01 to 02 may relate to the event but cannot be assigned. Once the platform payout statement and deposit are obtained, the association should record either gross with fees or net, never both.
+Linked costs are partly resolved. The sticker packs (950,000 toman) belong to this event, and the 190-item catering invoice (9,987,900 toman) is now matched to TX0089 from the user's attestation, with its project retained as Unassigned until explicitly confirmed. The Skyroom invoice (4,257,000 including 387,000 tax) remains unmatched. Several Blu transfers around 1405/07/01 to 02 may relate to the event but cannot be assigned beyond what the user has stated. Once the platform payout statement and deposit are obtained, the association should record either gross with fees or net, never both.
 
 ## Yalda Expenses and Reimbursement Issues
 
@@ -107,7 +135,7 @@ Yalda 1404 income is stated by the treasurer as 15,790,000 toman in the account 
 
 Reimbursements are the central issue. Bardia (Seyed Bardia Ahmadi-Morvast) was paid 2,137,000 toman, matching the original ledger. His claims total 2,412,000, so 275,000 toman is not reimbursed, which equals the sandwich portion. His volunteer-paid slips (keyrings and earrings 400,000, plush keyrings 250,000, POS purchase 600,000, sandwiches and jelly 1,162,584) are supporting detail for that reimbursement and are not added to association cash. A duplicate image of the receipt is excluded.
 
-Parnian Asgari was reimbursed 4,050,000 toman in two installments (1,550,000 on 1405/02/24 and 2,500,000 on 1405/02/27), absent from the original ledger. The eleven-page scan contains ten printed purchase documents and one handwritten invoice. The printed documents are built up as follows: eight Canbo slips total 1,306,700; Hyperfamili adds 1,916,640; and Ekano adds 135,799.9. Scanned printed purchases therefore total 3,359,139.9 toman, or 3,180,139.9 excluding a possible 179,000 duplicate (slip C6, a possible re-scan of C4). Adding the handwritten, invoice-only Ribar document (495,000, low confidence, no independent payment proof) gives 3,854,139.9, or 3,675,139.9 excluding the possible duplicate.
+Parnian Asgari was reimbursed 4,050,000 toman in two installments (1,550,000 on 1405/02/24 and 2,500,000 on 1405/02/27), absent from the original ledger. The eleven-page scan contains ten printed purchase documents and one handwritten invoice. Eight Canbo slips total 1,306,700; Hyperfamili adds 1,916,640; and Ekano adds 135,799.9. Scanned printed purchases therefore total 3,359,139.9 toman, or 3,180,139.9 excluding a possible 179,000 duplicate (slip C6, a possible re-scan of C4). Adding the handwritten, invoice-only Ribar document (495,000, low confidence, no independent payment proof) gives 3,854,139.9, or 3,675,139.9 excluding the possible duplicate.
 
 Compared with the 4,050,000 paid, the printed-only gap is 690,860.1 (or 869,860.1 excluding the possible duplicate). Including the handwritten invoice, the gap narrows to 195,860.1 (or 374,860.1). These are provisional documentation comparisons only. They do not establish a confirmed overpayment: the gap may reflect receipts not scanned, unreceipted spend or other items, and the Ribar amount and the C6 duplicate are unresolved. The card on the terminal slip (603769-**-5401) matches the destination card of Parnian's reimbursements, which supports treating the scanned purchases as volunteer-paid. Recording both the reimbursement and the purchases as association cash would double count.
 
@@ -117,33 +145,27 @@ Hossein's 2,150,000 toman Canbo purchase and 275 (probably thousand toman, no un
 
 Receipts retained on the original-ledger or treasurer-statement basis, without deposit corroboration, include the 33,642,000 summer-school aggregate, the 4,920,000 gross 1404 event receipts, the 7,000,000 Moghimi donation, the 15,790,000 Yalda deposits (TX0047), the 700,000 Yalda cash and the 23,000,000 1405 event income (TX0093). TX0093 also has no assigned cash account. These are supported on a disclosed basis, not independently verified, and the corroboration gaps remain open.
 
-Extracted but unconfirmed sources include the scanned multi-page snack-slip document and its split page sets, the Skyroom invoice, the platform report, the three course reports (context only, with personal data) and the many 1405 receipt photos, whose purposes and custody are unknown. The refined workbook is context only and contains errors.
+Payments resting on the user's attestation form a separate tier. The 19 folder expenses and the settlement of the catering invoice are supported by receipt or invoice plus the user's explicit confirmation. That confirmation does not substitute for a bank record, and the report does not present it as such. Where the original image was a provisional transfer screen, that limitation stays visible in the ledger notes.
 
-Review-status and invoice-only rows are excluded from supported totals, as are 4 duplicates (6,129,375 toman) and 4 invoice-only items (16,404,600 toman). Two unknown-direction rows (2,101,220 toman) await classification: the 300,000 cash shabash and a 1,801,220 toman card transfer of unknown purpose and payee.
+Extracted but unconfirmed sources include the scanned multi-page snack-slip document and its split page sets, the Skyroom invoice, the platform report, the three course reports (context only, with personal data) and the refined workbook, which is context only and contains errors. The earlier statement that the 1405 receipt photos had unknown purposes and custody no longer applies to the recipts/ folder, whose items are confirmed association expenses with allocation pending.
+
+Review-status and invoice-only rows are excluded from supported totals, as are 4 duplicates (6,129,375 toman) and 3 invoice-only items (6,416,700 toman: the pomegranate invoice, the Ribar handwritten invoice and the Skyroom invoice). The earlier figure of 4 invoice-only items totalling 16,404,600 toman is superseded, because the catering invoice has left that category. One unknown-direction row (300,000 toman, the cash shabash) awaits classification.
 
 ## Commitments and Missing Statements
 
-No complete statements were supplied for Shahr 400816808774, Sepah 3001254062925 or the Blu account, so there is no verified opening balance and the reported balances conflict (for example 230,203,965 rial on 1404/05/02, 22,953,913 rial on 1404/07/20, a field of 560,800,163 on 1404/07/22, and a 22,765,000 'current balance' with no unit) (ISS001). The 560,800,163 and 565,800,163 figures are consistent with each other, differing by the 5,000,000 rial deposit, but their relation to the 1404/07/20 balance remains unexplained.
+No complete statements were supplied for Shahr 400816808774, Sepah 3001254062925 or the Blu account, so there is no verified opening balance and the reported balances conflict (for example 230,203,965 rial on 1404/05/02, 22,953,913 rial on 1404/07/20, a field of 560,800,163 on 1404/07/22, and a 22,765,000 'current balance' with no unit) (ISS001). The 560,800,163 and 565,800,163 figures are consistent with each other, differing by the 5,000,000 rial deposit, but their relation to the 1404/07/20 balance remains unexplained. The folder receipts add further balance snapshots (for example 260,305,702 down to 179,875,702 rial on 1405/05/22, and 16,921,310 rial on the Blu account on 1405/07/02), but these are fragments and do not amount to a statement.
 
 On 1404/05/03 the audit shows that recorded debits between the two SMS balances total 17,009,000 rial, while the balance fell by only 9,614,400 rial. The drop is therefore 7,394,600 rial smaller than recorded debits. This points to incoming funds of at least 7,394,600 rial not captured in the records, or to incomplete or misaligned records, and it should not be read as unlogged outflows.
 
 Open commitments from the project notes are: Hassan Shiri to send invoice photos; a meeting planned for 28.06.2026; and requested balance-sheet and payable/receivable sheets. The donation-date conflict (ISS013) and the course-report allocation (ISS014) remain minor open points.
 
-## Prioritized Next Steps
+## Next reconciliation priorities
 
-1. Obtain full statements for the Shahr, Sepah and Blu accounts. These would allow a verified opening balance, the donation dates, deposit corroboration for the ledger-derived receipts and the Yalda deposits, and resolution of the balance conflicts, including the 7,394,600 rial incoming or misaligned-record difference.
+Identify the sixth Summer School 1405 instructor payment by payee or source filename. It must be matched to an already recorded folder expense rather than added as a new payment. Assign purposes and projects to the 21,487,250 Blu payments and 14,038,220 Shahr payments that remain unallocated.
 
-2. Have the custodian annotate each of the eleven Blu payments (33,937,250 toman) and declare which funds belong to the association. Identify the merchants and purposes behind the 14,038,220 toman of Shahr debits and confirm whether card …2167 is an association card.
+Obtain complete account statements and separate association funds from personal custody. Match actual event payouts to the 27,235,000 gross sales report and the original-ledger 23,000,000 receipts. Obtain settlement evidence for the unmatched Skyroom invoice; retain the food invoice as user-confirmed paid.
 
-3. Obtain the platform payout statement and the bank deposit for the 1405 intro event, bridge the 27,235,000 gross to the 23,000,000 ledger figure, and record gross with fees or net, never both. Settle the status of the Skyroom and catering invoices.
-
-4. Prepare a reimbursement schedule per volunteer for Yalda: Bardia's 275,000 difference, Hossein's 2,150,000 and unreceipted spend, and Parnian's documented 3,180,139.9 to 3,854,139.9 against 4,050,000. Resolve the C6 duplicate and the handwritten amount before drawing any conclusion on the gap.
-
-5. Correct the ledger: delete D23, confirm D12 with Hassan, change D33 to 235,000, add the missing fee, thread and reimbursement entries, match the 13,000 toman poster, and fix the workbook formula and label errors.
-
-6. Confirm the direction of the 300,000 cash shabash, the unit of the 17,650,000 transfer, the unit of the 100,037,800 Sepah withdrawal and the custody of the 700,000 Yalda cash.
-
-7. Present the 11,000,000 toman handover as opening funds in all published summaries, redact student phone numbers, and avoid any statement of profit or closing cash until statements are reconciled.
+Resolve Yalda reimbursement schedules and the possible duplicate scanned purchase, the unknown-unit SMS withdrawal, the ambiguous 300,000 cash shabash, and printed course-report unit scaling. Do not invent opening cash, closing bank balances or registration revenue.
 
 ## Monthly receipts and payments
 
@@ -154,13 +176,13 @@ Open commitments from the project notes are: Hassan Shiri to send invoice photos
 | 1404/06 | 4,920,000 | 3,155,000 | 1,765,000 | 0 |
 | 1404/07 | 500,000 | 2,845,225 | -2,345,225 | 0 |
 | 1404/08 | 11,000,000 | 10,103,700 | 896,300 | 313,000 |
-| 1404/09 | 23,000,000 | 0 | 23,000,000 | 1,020,000 |
+| 1404/09 | 23,000,000 | 1,020,000 | 21,980,000 | 0 |
 | 1404/10 | 16,490,000 | 2,317,000 | 14,173,000 | 7,921,723.9 |
-| 1404/12 | 0 | 0 | 0 | 1,801,220 |
+| 1404/12 | 0 | 1,801,220 | -1,801,220 | 0 |
 | 1405/02 | 0 | 4,050,000 | -4,050,000 | 0 |
-| 1405/05 | 0 | 0 | 0 | 11,217,000 |
-| 1405/06 | 0 | 0 | 0 | 9,150,000 |
-| 1405/07 | 23,000,000 | 5,000,000 | 18,000,000 | 24,787,250 |
+| 1405/05 | 0 | 11,217,000 | -11,217,000 | 0 |
+| 1405/06 | 0 | 9,150,000 | -9,150,000 | 0 |
+| 1405/07 | 23,000,000 | 39,775,150 | -16,775,150 | 0 |
 | Undated | 0 | 0 | 0 | 0 |
 
 ## Project cash activity
@@ -171,15 +193,13 @@ Open commitments from the project notes are: Hassan Shiri to send invoice photos
 | Booths 1404 | 0 | 1,995,000 | -1,995,000 | 0 |
 | Freshman Party 1404 | 0 | 5,774,000 | -5,774,000 | 300,000 |
 | Intro Event 1404 | 4,920,000 | 3,155,000 | 1,765,000 | 0 |
-| Intro Event 1405 | 23,000,000 | 5,000,000 | 18,000,000 | 0 |
+| Intro Event 1405 | 23,000,000 | 5,950,000 | 17,050,000 | 0 |
 | Professors assembly Mehr | 500,000 | 1,142,375 | -642,375 | 0 |
 | Summer School 1404 | 33,642,000 | 12,900,900 | 20,741,100 | 400,000 |
+| Summer School 1405 | 0 | 11,500,000 | -11,500,000 | 0 |
 | Tea & Physics society | 0 | 1,702,850 | -1,702,850 | 0 |
-| Unknown | 0 | 0 | 0 | 2,821,220 |
-| Unknown (1405) | 0 | 0 | 0 | 39,504,250 |
+| Unassigned | 0 | 45,513,370 | -45,513,370 | 0 |
 | Unknown (likely 1405 summer school) | 0 | 0 | 0 | 0 |
-| Unknown (possibly Intro Event 1405) | 0 | 0 | 0 | 5,650,000 |
-| Unknown (possibly Intro Event 1405, 1405/07/02) | 0 | 0 | 0 | 0 |
 | Yalda 1404 | 16,490,000 | 6,367,000 | 10,123,000 | 7,921,723.9 |
 
 Net project cash activity is not an accrual profit measure. Reimbursements are dated when paid; supplier purchases are not counted again when they support the same reimbursement. Gross sales reports and settlements use different measurement bases.
@@ -194,13 +214,25 @@ Net project cash activity is not an accrual profit measure. Reimbursements are d
 | Donations | 39,990,000 | 0 | 0 |
 | Equipment | 0 | 3,545,000 | 0 |
 | Events | 27,920,000 | 20,196,000 | 7,921,723.9 |
-| Hospitality | 0 | 2,990,225 | 0 |
+| Hospitality | 0 | 12,978,125 | 0 |
 | Opening funds | 11,000,000 | 0 | 0 |
 | Printing | 0 | 193,600 | 13,000 |
-| Supplies | 0 | 1,296,100 | 0 |
-| Teaching | 0 | 12,500,000 | 0 |
+| Supplies | 0 | 2,246,100 | 0 |
+| Teaching | 0 | 24,000,000 | 0 |
 | Transfers | 0 | 0 | 0 |
-| Unclassified | 0 | 0 | 48,275,470 |
+| Unclassified | 0 | 35,525,470 | 300,000 |
+
+## Summer School 1405 instructor payment register
+
+| ID / date | Instructor / bank payee | Course | Toman | Evidence basis |
+| --- | --- | --- | --- | --- |
+| TX0083 1405/06/30 | زهرا صالح کوشالی Bank payee: زهرا صالح کوشالی | Course not specified | 600,000 | User confirmation; original provisional notice preserved |
+| TX0084 1405/06/30 | رضا فرهادی Bank payee: رضا فرهادی | Course not specified | 1,200,000 | User confirmation; original provisional notice preserved |
+| TX0085 1405/06/30 | ابوالفضل احمدی Bank payee: علیرضا کچویی محقق یعقوبی | LaTeX and API | 2,400,000 | Receipt and user confirmation |
+| TX0086 1405/07/01 | بهاره خویش خواه Bank payee: بهاره خویش‌خواه | Physical simulation with Python | 4,700,000 | Receipt and user confirmation |
+| TX0087 1405/07/01 | ایلیا اصغریان دهکردی Bank payee: ایلیا اصغریان دهکردی | Course not specified | 2,600,000 | Receipt and user confirmation |
+
+Five instructor payments total 11,500,000 toman. The user stated six; the sixth is not yet matched. The 950,000 payment to Zahra Amiri is introduction-event sticker packs, not teaching fees. Payment to Alireza Kachooei is instructor compensation for Abolfazl Ahmadi. The supplied instructor cards were not printed on the IBAN receipts; these matches use recipient names and explicit user confirmation, not an asserted exact card-number match. No additional receipt or income is created from the 35% email statement.
 
 ## Supplier invoice matching
 
@@ -221,7 +253,7 @@ Net project cash activity is not an accrual profit measure. Reimbursements are d
 | INV013 | Ekano Gala chocolate | 135,800 | 12,345.4 | TX0071 Uncertain |
 | INV014 | RIBAR coffee/fast food Handwritten, likely chocolate cookies | 495,000 | Unavailable |  Unmatched invoice |
 | INV015 | مهبانگ فن‌آوری‌های پارس Skyroom licence + recording, invoice 61150 | 4,257,000 | 387,000 |  Unmatched invoice |
-| INV016 | یاران دریان لوکس گیشا 190 dairy drinks and cakes, order 165826 | 9,987,900 | Unavailable |  Unmatched invoice |
+| INV016 | یاران دریان لوکس گیشا 190 dairy drinks and cakes, order 165826 | 9,987,900 | Unavailable | TX0089 Matched payment |
 
 ## Account observations and reported balances
 
@@ -254,19 +286,19 @@ Required action: Obtain full Shahr 400816808774, Sepah 3001254062925 and Blu sta
 
 Evidence: telegram export/messages.html
 
-### ISS002 Commingled custodian Blu account outflows in 1405
+### ISS002 Allocation details for user-confirmed association payments
 
 Amount: 33,937,250. Transactions: TX0080, TX0081, TX0083, TX0084, TX0085, TX0086, TX0087, TX0088, TX0090, TX0091, TX0092.
 
-Required action: Custodian to annotate each payment and declare which funds are association funds.
+Required action: Identify remaining project/category allocations and the sixth Summer School instructor payment. Preserve user attestation separately from bank evidence.
 
 Evidence: recipts/photo_10_2026-10-10_11-09-04.jpg
 
-### ISS003 Unexplained 1405 debits on association Shahr deposit
+### ISS003 User-confirmed Shahr expenses and bank-balance gaps
 
 Amount: 14,038,220. Transactions: TX0075, TX0076, TX0077, TX0078, TX0079, TX0043, TX0061.
 
-Required action: Identify merchants and purpose. Confirm whether card …2167 belongs to the association.
+Required action: Assign purposes/projects to merchant payments and obtain complete statements to explain the 31,630,000 rial balance gap.
 
 Evidence: recipts/photo_3_2026-10-10_14-07-27.jpg
 
@@ -358,6 +390,14 @@ Required action: Treat as an allocation control only. Redact phone numbers.
 
 Evidence: telegram export/files/report_Python.txt
 
+### ISS015 Sixth Summer School 1405 instructor payment not identified
+
+Amount: Unavailable. Transactions: TX0083, TX0084, TX0085, TX0086, TX0087.
+
+Required action: Provide the sixth instructor/payee name or receipt filename. Do not create an additional payment or infer registration income.
+
+Evidence: reports/2026-10-10/user_confirmation_2026-10-10.json
+
 ## Bridge from the original workbook totals
 
 | Adjustment | Change to payments (toman) |
@@ -370,9 +410,11 @@ Evidence: telegram export/files/report_Python.txt
 | Add documented transfer fee | 900 |
 | Add thread reimbursement | 180,000 |
 | Add Parnian reimbursement installments | 4,050,000 |
-| Reconstructed supported payments | 41,121,825 |
+| First reconstruction before folder confirmation | 41,121,825 |
+| Add 19 unique user-confirmed folder expenses | 57,963,370 |
+| Revised supported payments | 99,085,195 |
 
-Original receipts of 112,552,000 remain unchanged. Original net cash activity was 73,913,700; after these adjustments it is 71,430,175. These totals include disclosed original-ledger-only entries and exclude unresolved candidates.
+Original receipts of 112,552,000 remain unchanged. Original net cash activity was 73,913,700; after these adjustments it is 13,466,805. These totals include disclosed original-ledger-only entries and exclude unresolved candidates.
 
 ## Original ledger reconciliation
 
@@ -438,7 +480,7 @@ Internal transfers (e.g. AMIN-EVENT to SHAHR-8966) are not income or expense.
 
 Opening-funds handovers from the former board are recorded as equity or opening funds, not operating income.
 
-Debits from custodian Blu or personal accounts stay in Review until the custodian confirms they were association funds.
+Custodian Blu outflows in recipts/ are now confirmed by the user as association expenses. Unknown purposes remain unallocated; statement reconciliation is still required.
 
 Each original مجموع cell maps to ledger rows with a disposition. The مرداد and شهریور sheets are subsets and are not double-mapped.
 
@@ -446,11 +488,13 @@ Teacher fees round to 100,000 toman (message14). Deviations are flagged, not alt
 
 Student phone numbers in the course reports must not appear in published reports.
 
+User-confirmation revision: all recipts/ images are association expenses. Provisional transfers and the photographed invoice are treated as settled only on explicit user attestation; their original source limitations remain visible. The folder duplicate is retained and excluded. Five Summer School 1405 payments are identified; the sixth is not inferred.
+
 The five unavailable-media notices already present in the Telegram export are retained as gaps: message5, message24, message132, message133 and message134. No omitted attachment content was invented. Export icons and thumbnail derivatives were excluded from financial evidence.
 
 ## Complete transaction register
 
-This register contains every canonical financial candidate, including Review, Duplicate, Invoice only and Summary only entries. Only Supported Receipt and Payment entries affect the cash summary. Full Persian source text, original amounts, units and references are retained in the workbook and evidence data.
+This register contains every canonical financial candidate, including Review, Duplicate, Invoice only and Summary only entries. Only Supported Receipt and Payment entries affect the cash summary. Folder expenses now include explicit user confirmation; provisional screens and invoice-only evidence retain their original limitations. Full Persian source text, original amounts, units and references are retained in the workbook and evidence data.
 
 | ID / date | Direction / status | Description / evidence | Toman |
 | --- | --- | --- | --- |
@@ -499,7 +543,7 @@ This register contains every canonical financial candidate, including Review, Du
 | TX0040 1404/08/28 | Payment Supported | Printing room rules Message only; message110 | 2,300 |
 | TX0041 1404/08/28 | Payment Supported | Printing room rules (second line) Message only; message110 Review: Same timestamp as TX0040, so this may be a split entry. | 1,300 |
 | TX0042 1404/08/28 | Payment Review | Association poster printing Receipt and message; message145 Review: Same day as TX0040/41 (12:35 vs 12:55). It may be a separate purchase, or one of the printing lines misread by a factor of 10. Not in the ledger. | 13,000 |
-| TX0043 1404/09/02 | Payment Review | Card purchase, purpose unknown Receipt only;  Review: Association account debit with no purpose and no ledger row. | 1,020,000 |
+| TX0043 1404/09/02 | Payment Supported | Card purchase, purpose unknown Receipt and user confirmation;  | 1,020,000 |
 | TX0044 1404/09 | Receipt Supported | Moghimi donation for running costs Receipt and message; message101, message102, message103 Review: The receipt crop has no date. The forward header (1404/08/28) conflicts with the ledger month آذر. | 10,000,000 |
 | TX0045 1404/09 | Receipt Supported | Moghimi donation Original ledger;  Review: No receipt. | 7,000,000 |
 | TX0046 1404/09/28 | Receipt Supported | Moghimi donation Receipt and message; message112, message113 | 6,000,000 |
@@ -520,7 +564,7 @@ This register contains every canonical financial candidate, including Review, Du
 | TX0058 1404/10 | Payment Review | Unreceipted volunteer spend: paper/markers and sweets Message only; message162, message163, message164 Review: No receipt and no unit (likely thousand toman). Reimbursement status unknown. | Unavailable |
 | TX0059 1404/10/09 | Payment Supported | Thread for Yalda fortune packaging Receipt and message; message152 | 180,000 |
 | TX0060 Undated | Payment Invoice only | Pomegranates invoice for Yalda Invoice; message151 Review: No date or payment evidence. | 1,664,700 |
-| TX0061 1404/12/09 | Unknown Review | Transfer from association card, purpose and payee unknown Receipt only;  Review: Could be an expense or an internal transfer to the custodian. | 1,801,220 |
+| TX0061 1404/12/09 | Payment Supported | Association payment, purpose and payee allocation pending Receipt and user confirmation;  | 1,801,220 |
 | TX0062 1405/02/24 | Payment Supported | Yalda reimbursement installment 1 Receipt and message; message126, message128 | 1,550,000 |
 | TX0063 1405/02/27 | Payment Supported | Yalda reimbursement installment 2 (total 4,050,000) Receipt and message; message125, message128 | 2,500,000 |
 | TX0064 1404/10/02 | Payment Review | Volunteer purchase C1, 6 snacks Receipt and message; message124, message129 Review: Volunteer-funded; supports TX0062/TX0063. | 107,400 |
@@ -534,27 +578,27 @@ This register contains every canonical financial candidate, including Review, Du
 | TX0072 1404/10/02 | Payment Review | Volunteer purchase C7 Receipt and message; message124, message129 Review: Volunteer-funded. | 179,000 |
 | TX0073 1404/10/02 | Payment Review | Volunteer purchase C8 Receipt and message; message124, message129 Review: Volunteer-funded. | 125,300 |
 | TX0074 1404/10 | Payment Invoice only | Handwritten invoice, likely chocolate cookies Invoice; message124, message128, message129 Review: Date (≈1404/10/13?) and amount are low-confidence. No payment proof. | 495,000 |
-| TX0075 1405/05/21 | Payment Review | Card purchase on association deposit, purpose unknown Receipt only;  Review: No purpose and no ledger row. Second card on the same deposit. | 6,337,000 |
+| TX0075 1405/05/21 | Payment Supported | Card purchase on association deposit, purpose unknown Receipt and user confirmation;  | 6,337,000 |
 
 | ID / date | Direction / status | Description / evidence | Toman |
 | --- | --- | --- | --- |
-| TX0076 1405/05/22 | Payment Review | Card purchase, purpose unknown Receipt only;  Review: Purpose unknown. | 1,100,000 |
-| TX0077 1405/05/22 | Payment Review | Card purchase, purpose unknown Receipt only;  Review: Purpose unknown. | 1,320,000 |
-| TX0078 1405/05/22 | Payment Review | Card purchase, purpose unknown Receipt only;  Review: Purpose unknown. | 1,300,000 |
-| TX0079 1405/05/22 | Payment Review | Card purchase, purpose unknown Receipt only;  Review: Purpose unknown. | 1,160,000 |
-| TX0080 1405/06/05 | Payment Review | Blu transfer; possibly advertising (inference from prior ad payee) Receipt only;  Review: Custodian Blu account; association versus personal funds not established. | 450,000 |
-| TX0081 1405/06/06 | Payment Review | Card transfer, purpose unknown Receipt only;  Review: Source card …5780 differs from the other Blu card; custody unknown. | 4,500,000 |
+| TX0076 1405/05/22 | Payment Supported | Card purchase, purpose unknown Receipt and user confirmation;  | 1,100,000 |
+| TX0077 1405/05/22 | Payment Supported | Card purchase, purpose unknown Receipt and user confirmation;  | 1,320,000 |
+| TX0078 1405/05/22 | Payment Supported | Card purchase, purpose unknown Receipt and user confirmation;  | 1,300,000 |
+| TX0079 1405/05/22 | Payment Supported | Card purchase, purpose unknown Receipt and user confirmation;  | 1,160,000 |
+| TX0080 1405/06/05 | Payment Supported | Blu transfer; possibly advertising (inference from prior ad payee) Receipt and user confirmation;  | 450,000 |
+| TX0081 1405/06/06 | Payment Supported | Card transfer, purpose unknown Receipt and user confirmation;  | 4,500,000 |
 | TX0082 1405/06/07 | Payment Invoice only | Skyroom 1-month licence and 20h recording package Invoice;  Review: No payment proof. Buyer is Hassan personally. | 4,257,000 |
-| TX0083 1405/06/30 | Payment Review | Pol transfer, provisional receipt Receipt only;  Review: Provisional receipt; purpose and custody unknown. | 600,000 |
-| TX0084 1405/06/30 | Payment Review | Pol transfer, provisional Receipt only;  Review: Provisional; purpose and custody unknown. | 1,200,000 |
-| TX0085 1405/06/30 | Payment Review | Blu-to-Saman transfer Receipt only;  Review: Purpose and custody unknown. | 2,400,000 |
-| TX0086 1405/07/01 | Payment Review | Paya transfer Receipt only;  Review: Purpose and custody unknown. | 4,700,000 |
-| TX0087 1405/07/01 | Payment Review | Blu-to-Blu transfer Receipt only;  Review: Purpose and custody unknown. The payee name appears in the 1404 course lists. | 2,600,000 |
-| TX0088 1405/07/01 | Payment Review | Pol transfer; possibly design (prior poster payee), provisional Receipt only;  Review: Provisional; purpose inferred only. | 950,000 |
-| TX0089 1405/07/01 | Payment Invoice only | Invoice: 190 milk drinks and cakes, buyer Hassan Shiri Invoice;  Review: Customer balance equals the total, so unpaid at issue. Line sum is 100,100,000 vs total 99,879,000. | 9,987,900 |
-| TX0090 1405/07/02 | Payment Review | Card transfer, purpose unknown Receipt only;  Review: Largest unexplained outflow. Purpose and custody unknown. | 13,900,000 |
-| TX0091 1405/07/02 | Payment Review | Store purchase Receipt only;  Review: Account holder and goods unknown. | 2,332,250 |
-| TX0092 1405/07/14 | Payment Review | Card transfer, purpose unknown Receipt only;  Review: Purpose and custody unknown. | 305,000 |
+| TX0083 1405/06/30 | Payment Supported | Summer School 1405 instructor fee: Course not specified Receipt and user confirmation;  | 600,000 |
+| TX0084 1405/06/30 | Payment Supported | Summer School 1405 instructor fee: Course not specified Receipt and user confirmation;  | 1,200,000 |
+| TX0085 1405/06/30 | Payment Supported | Summer School 1405 instructor fee: LaTeX and API Receipt and user confirmation;  | 2,400,000 |
+| TX0086 1405/07/01 | Payment Supported | Summer School 1405 instructor fee: Physical simulation with Python Receipt and user confirmation;  | 4,700,000 |
+| TX0087 1405/07/01 | Payment Supported | Summer School 1405 instructor fee: Course not specified Receipt and user confirmation;  | 2,600,000 |
+| TX0088 1405/07/01 | Payment Supported | Sticker packs for introduction event Receipt and user confirmation;  | 950,000 |
+| TX0089 1405/07/01 | Payment Supported | Food and beverage purchase, settlement confirmed by user Invoice and user payment confirmation;  | 9,987,900 |
+| TX0090 1405/07/02 | Payment Supported | Card transfer, purpose unknown Receipt and user confirmation;  | 13,900,000 |
+| TX0091 1405/07/02 | Payment Supported | Store purchase Receipt and user confirmation;  | 2,332,250 |
+| TX0092 1405/07/14 | Payment Supported | Card transfer, purpose unknown Receipt and user confirmation;  | 305,000 |
 | TX0093 1405/07 | Receipt Supported | Intro event 1405 receipts per ledger Original ledger;  Review: No settlement deposit. A bridge to the 27,235,000 gross is required (ISS004). | 23,000,000 |
 | TX0094 1405/07/02 | Receipt Summary only | Platform-reported gross ticket sales Report;  Review: Gross sales, not settlement. Not additive to TX0093. | 27,235,000 |
 | TX0095 1405/07 | Payment Supported | Post-event gathering Original ledger;  Review: No receipt; round amount. | 5,000,000 |
@@ -644,4 +688,4 @@ This register contains every canonical financial candidate, including Review, Du
 
 ## Validation and reproducibility
 
-All 78 retrieved source files were byte-verified against their GitHub blob hashes. Jalali dates with a complete supported date were converted programmatically, rather than relying on OCR date conversion. Original data and original formula text are preserved. Source documents and extracted evidence are linked by stable transaction and source IDs. Workbook summary formulas were recalculated and checked against independently calculated ledger totals.
+All 78 retrieved source files were byte-verified against their GitHub blob hashes. Jalali dates with a complete supported date were converted programmatically, rather than relying on OCR date conversion. Original data and original formula text are preserved. Source documents and extracted evidence are linked by stable transaction and source IDs. Workbook summary formulas were recalculated and checked against independently calculated ledger totals. The later user-confirmation source is recorded separately from the 78 original files; it establishes expense direction and purpose for the folder and named instructor/sticker payments.

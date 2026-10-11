@@ -26,8 +26,10 @@ def call(model,content,name,max_tokens=14000):
     d['content']=[{'type':'text','text':''.join(chunks)}]
    text='\n'.join(x['text'] for x in d['content'] if x['type']=='text');(C/(name+'.response.json')).write_text(json.dumps(d,ensure_ascii=False))
    if text.startswith('```'):text=text.split('\n',1)[1].rsplit('```',1)[0]
-   if d.get('stop_reason')=='max_tokens':raise RuntimeError('Output truncated at token limit; split this request instead of repeating it')
+   if d.get('stop_reason')=='max_tokens':raise ValueError('Output truncated at token limit; split this request instead of repeating it')
    parsed=json.loads(text);dest.write_text(json.dumps(parsed,ensure_ascii=False,indent=2));print(name,'OK',d.get('usage'),flush=True);return parsed
+  except ValueError:
+   raise
   except urllib.error.HTTPError as e:
    msg=e.read(1500).decode();print(name,'HTTP',e.code,msg,flush=True)
    if e.code not in (429,500,502,503,529):raise RuntimeError(msg)
