@@ -1,0 +1,966 @@
+[
+  {
+    "path": "Anjoman accounting - refined.xlsx",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8926c7a455b386c02044d3e9e9be10969bf1122c",
+    "size": 63212,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/8926c7a455b386c02044d3e9e9be10969bf1122c",
+    "downloaded": true,
+    "sha256": "d77c540aba056a0bce5abaef9ac974fbf1f91ead2f0ea55d7ac1bc96b94a2228",
+    "message_ids": []
+  },
+  {
+    "path": "Anjoman accounting.xlsx",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ee59b7e9394beb2c7dde2e79030fe038b4d4364a",
+    "size": 130028,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/ee59b7e9394beb2c7dde2e79030fe038b4d4364a",
+    "downloaded": true,
+    "sha256": "5701b246ebee5bd5db7fc022de097f47c34354e420bb59f08f4f2fc74a0bfcf0",
+    "message_ids": []
+  },
+  {
+    "path": "invoice-61150.pdf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b9ed7695d59d341d50413f07ce91c9ce7afc2ece",
+    "size": 153863,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/b9ed7695d59d341d50413f07ce91c9ce7afc2ece",
+    "downloaded": true,
+    "sha256": "06626a709e2a23bc59d3a5185c64e0a85b64e59ccf244cbb3b0867344bc07b57",
+    "message_ids": []
+  },
+  {
+    "path": "physics_intro full report.pdf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4b39ed16ddc1f3bcaa30704fcc3dde7aa363cb1c",
+    "size": 52198,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/4b39ed16ddc1f3bcaa30704fcc3dde7aa363cb1c",
+    "downloaded": true,
+    "sha256": "993061f6f022016308bbd6585c6ae0e8a2b67575c39f21e740659cc25da7dc70",
+    "message_ids": []
+  },
+  {
+    "path": "recipts/photo_10_2026-10-10_11-09-04.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "78e2c995cae404420c8d73e568ea22becd623759",
+    "size": 49752,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/78e2c995cae404420c8d73e568ea22becd623759",
+    "downloaded": true,
+    "sha256": "b424f88e66186c7fdfcd19043e65ade1aef245c80f81328c53bd4c1354047ea3",
+    "message_ids": []
+  },
+  {
+    "path": "recipts/photo_11_2026-10-10_11-09-04.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "86ff0a50746f6d308aee8ceeee6d25131902fa4c",
+    "size": 31986,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/86ff0a50746f6d308aee8ceeee6d25131902fa4c",
+    "downloaded": true,
+    "sha256": "4b6a665eaaa0ff0a14e2f665cd7ef1480d78c90efa576fa0f1cf910698baacc6",
+    "message_ids": []
+  },
+  {
+    "path": "recipts/photo_12_2026-10-10_11-09-04.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "285b80afb2899fbeb21aade208fd7e59f73232f2",
+    "size": 50026,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/285b80afb2899fbeb21aade208fd7e59f73232f2",
+    "downloaded": true,
+    "sha256": "77e952d643e05bc03bdd136daa677561a5610e8049fb8d8aedfc24280909d917",
+    "message_ids": []
+  },
+  {
+    "path": "recipts/photo_1_2026-10-10_11-09-04.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "27fd683b13b2f272798ba80180e340c852fca85b",
+    "size": 58923,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/27fd683b13b2f272798ba80180e340c852fca85b",
+    "downloaded": true,
+    "sha256": "9b398cb3fd79cacf08994828e10209d3739b9ec072ff9dbdb29e456ad1a29262",
+    "message_ids": []
+  },
+  {
+    "path": "recipts/photo_1_2026-10-10_14-07-27.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "954ce702da3de61c942b2729c2919a17c753781e",
+    "size": 44693,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/954ce702da3de61c942b2729c2919a17c753781e",
+    "downloaded": true,
+    "sha256": "a50d13d6abcf5b4aacd05fa7fa773b5c01a6d2739577691d719c1bf334433b52",
+    "message_ids": []
+  },
+  {
+    "path": "recipts/photo_2026-10-10_12-16-28.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f46b2f2c69e00093f9212fa429a782507bbbc598",
+    "size": 160143,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/f46b2f2c69e00093f9212fa429a782507bbbc598",
+    "downloaded": true,
+    "sha256": "99a77eab001c2f3c72a639a7ec75b0a97bb90c5e5e244a8cf575d61107bedcc9",
+    "message_ids": []
+  },
+  {
+    "path": "recipts/photo_2_2026-10-10_11-09-04.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6107ff037281f26e9d92e227fa27fb7314fe5017",
+    "size": 57944,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/6107ff037281f26e9d92e227fa27fb7314fe5017",
+    "downloaded": true,
+    "sha256": "5b8abe4d9a9d270a1a5cb0583fbb4ff555d551b16023d63343affe459769150f",
+    "message_ids": []
+  },
+  {
+    "path": "recipts/photo_2_2026-10-10_14-07-27.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6e28169f74f38620d446806943a31e98c269086d",
+    "size": 39945,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/6e28169f74f38620d446806943a31e98c269086d",
+    "downloaded": true,
+    "sha256": "6f9a6e2d264b36faa78b41d76c6a1448122e4a243a95c361fd1281ae2bc47e4a",
+    "message_ids": []
+  },
+  {
+    "path": "recipts/photo_3_2026-10-10_11-09-04.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f948643ab67821f7c77ff77c008ade77dd0d7ead",
+    "size": 48603,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/f948643ab67821f7c77ff77c008ade77dd0d7ead",
+    "downloaded": true,
+    "sha256": "5e9f3828411eb9b655e40edf6506756897d37de7bd8a35ea38c9eee80d9742c0",
+    "message_ids": []
+  },
+  {
+    "path": "recipts/photo_3_2026-10-10_14-07-27.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "154030b3934fe41a2639f0d449c24dcb254bc661",
+    "size": 45037,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/154030b3934fe41a2639f0d449c24dcb254bc661",
+    "downloaded": true,
+    "sha256": "89cfe54d6ab70d44461da04c4318c4b7a11f78947d9a61bda0e7266fbcc3bdab",
+    "message_ids": []
+  },
+  {
+    "path": "recipts/photo_4_2026-10-10_11-09-04.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0eba65b06238c9479904daeffe605f737e59bafb",
+    "size": 49704,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/0eba65b06238c9479904daeffe605f737e59bafb",
+    "downloaded": true,
+    "sha256": "da2ff247cc7b5f3f295635d3052d3d599eebc0806a657613e584d1cce0639769",
+    "message_ids": []
+  },
+  {
+    "path": "recipts/photo_4_2026-10-10_14-07-27.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d5877fbb515e46e1f06e04310df3579c818b056a",
+    "size": 44990,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/d5877fbb515e46e1f06e04310df3579c818b056a",
+    "downloaded": true,
+    "sha256": "44a438cc79650702edcbab92c8d1b6d5bc74008f068089c928f463f0657d2162",
+    "message_ids": []
+  },
+  {
+    "path": "recipts/photo_5_2026-10-10_11-09-04.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "06e6562deaded310a5df3ea7236dfb3ed8202d65",
+    "size": 49513,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/06e6562deaded310a5df3ea7236dfb3ed8202d65",
+    "downloaded": true,
+    "sha256": "556c6c35f9ce9e0fb5845f3b0d5b9a1b2696d7e1377af7f4c39d6a23e4360af2",
+    "message_ids": []
+  },
+  {
+    "path": "recipts/photo_5_2026-10-10_14-07-27.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6110c769586a6cd771418dfb2aee4bda52b01dc5",
+    "size": 39739,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/6110c769586a6cd771418dfb2aee4bda52b01dc5",
+    "downloaded": true,
+    "sha256": "63f59a169b5a2bb5dd1bc0587d75173d88da586a0b9b30cbe7effcd5b676c67c",
+    "message_ids": []
+  },
+  {
+    "path": "recipts/photo_6_2026-10-10_11-09-04.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "492b87a2ca8149b280bed1a0a2d62c4f61dc5305",
+    "size": 57246,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/492b87a2ca8149b280bed1a0a2d62c4f61dc5305",
+    "downloaded": true,
+    "sha256": "3e2419ef0ccbe67c3e775ffb4f32e97152e3923bab3c3760071727253938e142",
+    "message_ids": []
+  },
+  {
+    "path": "recipts/photo_6_2026-10-10_14-07-27.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e28e7031563750d4fc42074f33290de9ca4e178f",
+    "size": 41211,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/e28e7031563750d4fc42074f33290de9ca4e178f",
+    "downloaded": true,
+    "sha256": "2a51ef05147371b78e220f491a2c3e82578cb8a9cc8a65128cd503f3f2eaf183",
+    "message_ids": []
+  },
+  {
+    "path": "recipts/photo_7_2026-10-10_11-09-04.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6d5fc80f175ff0e56d23766be7e861ab286c4a45",
+    "size": 49510,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/6d5fc80f175ff0e56d23766be7e861ab286c4a45",
+    "downloaded": true,
+    "sha256": "805ebbd2b231c7cf1c2858b5a056938b59dd5c7ccaed44d74c4edc20f4b57ce2",
+    "message_ids": []
+  },
+  {
+    "path": "recipts/photo_7_2026-10-10_14-07-27.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9b071f3f82bbf2c5e207e6cea5b042e1df98d138",
+    "size": 44918,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/9b071f3f82bbf2c5e207e6cea5b042e1df98d138",
+    "downloaded": true,
+    "sha256": "1bfe3e9b9076ece14313b068bc35b4b58c247e5b9fbf0c8ac9d9161c5a1eab10",
+    "message_ids": []
+  },
+  {
+    "path": "recipts/photo_8_2026-10-10_11-09-04.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f540503a0335c9d5476af21f42eb006464dc93f0",
+    "size": 48893,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/f540503a0335c9d5476af21f42eb006464dc93f0",
+    "downloaded": true,
+    "sha256": "75fee797d13ddb85ea935721b36fb145c6c9fe6b2ea11406f10a551c57acac32",
+    "message_ids": []
+  },
+  {
+    "path": "recipts/photo_8_2026-10-10_14-07-27.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b14f8ef3a91133fe9c8b595285a5d5f6a0e1b415",
+    "size": 39907,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/b14f8ef3a91133fe9c8b595285a5d5f6a0e1b415",
+    "downloaded": true,
+    "sha256": "ae9fe7eccdae6bf86a1de9ecb8dc330494dec3835c76a1f55a0dd695297689b8",
+    "message_ids": []
+  },
+  {
+    "path": "telegram export/files/CamScanner 13-05-2026 12.43 (1).pdf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0aa217e1ba10d3d9aee9eb78eff82040a3b43cf1",
+    "size": 7377808,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/0aa217e1ba10d3d9aee9eb78eff82040a3b43cf1",
+    "downloaded": true,
+    "sha256": "6710c8248b7f8f3fb3ccc8ef74c9e5f017aa69fcd6c02fb1e5e4f8d33d134b2b",
+    "message_ids": [
+      "message124"
+    ]
+  },
+  {
+    "path": "telegram export/files/dk-file-2025-10-16-14-43-08.pdf",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b94bcafefcf1fd5764c25f8d3075afb8791bc3c2",
+    "size": 326283,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/b94bcafefcf1fd5764c25f8d3075afb8791bc3c2",
+    "downloaded": true,
+    "sha256": "6e8ce528a639e8464eeb696a426eea1e00398cec8ff5e910340153fd01552139",
+    "message_ids": [
+      "message66"
+    ]
+  },
+  {
+    "path": "telegram export/files/report_LaTeX.txt",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "faa4e9731e9f909bb9e7bccfeceb50abd33c2aac",
+    "size": 6858,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/faa4e9731e9f909bb9e7bccfeceb50abd33c2aac",
+    "downloaded": true,
+    "sha256": "31bbba72112289413c94d94087af8adf90da26ee8f61c7340c3042896a931038",
+    "message_ids": [
+      "message7"
+    ]
+  },
+  {
+    "path": "telegram export/files/report_Mathematica.txt",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "449258a0d1c6ddd930ecbe97e6e4cd793aca14d3",
+    "size": 5711,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/449258a0d1c6ddd930ecbe97e6e4cd793aca14d3",
+    "downloaded": true,
+    "sha256": "63b8607b7119b6c9b55fc9d03c59faa2b7722b6d12fd9ec43f51827b9048224b",
+    "message_ids": [
+      "message8"
+    ]
+  },
+  {
+    "path": "telegram export/files/report_Python.txt",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "427542baf8167f1d2a9f37802e1da90c2737a5ab",
+    "size": 6285,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/427542baf8167f1d2a9f37802e1da90c2737a5ab",
+    "downloaded": true,
+    "sha256": "8ff96f7277fc07553a6ac271872413e31de240ec23f25984e53ebd6202e8e6b6",
+    "message_ids": [
+      "message6"
+    ]
+  },
+  {
+    "path": "telegram export/messages.html",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d01f020dc86a42648bda32b9aff3dd623c5e8c8e",
+    "size": 116651,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/d01f020dc86a42648bda32b9aff3dd623c5e8c8e",
+    "downloaded": true,
+    "sha256": "4ac19a5c1db97672da0893539fa00e862d2f986c2b12a577bfe816891b24e7e4",
+    "message_ids": []
+  },
+  {
+    "path": "telegram export/photos/photo_10@15-08-2025_18-28-22.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b2bf2f77f5b6483a83c7212385bb56469dc640d1",
+    "size": 74672,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/b2bf2f77f5b6483a83c7212385bb56469dc640d1",
+    "downloaded": true,
+    "sha256": "28455c00bd0229cddc0b8874a8b025fc25700f4e553b6c67bdfc9082b2cad0b7",
+    "message_ids": [
+      "message47"
+    ]
+  },
+  {
+    "path": "telegram export/photos/photo_11@04-09-2025_14-05-56.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3494687f9625df9604bd0f043efe5e3b2e1fbb4b",
+    "size": 56585,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/3494687f9625df9604bd0f043efe5e3b2e1fbb4b",
+    "downloaded": true,
+    "sha256": "dba6c9549b471a9a2d016b29b57970c53eedf21a4f80e3a841478cf04784555e",
+    "message_ids": [
+      "message48"
+    ]
+  },
+  {
+    "path": "telegram export/photos/photo_12@01-10-2025_18-02-44.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "554e2b56ff80b5fbb6d76474a20b5f940fdd95f2",
+    "size": 48640,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/554e2b56ff80b5fbb6d76474a20b5f940fdd95f2",
+    "downloaded": true,
+    "sha256": "6295ac27d8bc4463d51132d3a86a8e01dc37946b107ee50d0c77ceffe9470b4c",
+    "message_ids": [
+      "message51"
+    ]
+  },
+  {
+    "path": "telegram export/photos/photo_13@12-10-2025_10-24-38.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "23c101a6b19a2fa3b8e313ea687b7734ab504b1f",
+    "size": 66592,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/23c101a6b19a2fa3b8e313ea687b7734ab504b1f",
+    "downloaded": true,
+    "sha256": "6d79bcdee6b1e2fb274811a327e44deb472e519ef16ca2cb2633fddb9da7e083",
+    "message_ids": [
+      "message61"
+    ]
+  },
+  {
+    "path": "telegram export/photos/photo_14@15-10-2025_14-18-25.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f90809331759b052ac0e2dab67237b8f09bb019a",
+    "size": 69226,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/f90809331759b052ac0e2dab67237b8f09bb019a",
+    "downloaded": true,
+    "sha256": "b214b33a77c58bb0428ba09719496e21696b82ae4055292c9711694e4e16fd3b",
+    "message_ids": [
+      "message62"
+    ]
+  },
+  {
+    "path": "telegram export/photos/photo_15@15-10-2025_14-18-25.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c764241f053f06ce759d9c7bcfe7f4faad9d9e5c",
+    "size": 64998,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/c764241f053f06ce759d9c7bcfe7f4faad9d9e5c",
+    "downloaded": true,
+    "sha256": "f31ffa6bdd2395d18e073911daffc69b21952eaef6f5b1d6bcf7beacb8193f96",
+    "message_ids": [
+      "message63"
+    ]
+  },
+  {
+    "path": "telegram export/photos/photo_16@15-10-2025_14-18-26.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dbd4bb51e4a9ca220269d8a826a86ea2bfcf9df0",
+    "size": 68536,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/dbd4bb51e4a9ca220269d8a826a86ea2bfcf9df0",
+    "downloaded": true,
+    "sha256": "28db8e201da1e5584cadcf90b8a007d7293f769983b96c5cee2f7e2e3fd3fa83",
+    "message_ids": [
+      "message64"
+    ]
+  },
+  {
+    "path": "telegram export/photos/photo_17@15-10-2025_14-18-26.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "99aa0293a3b67092000f59fd010eeed5bc85508b",
+    "size": 68859,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/99aa0293a3b67092000f59fd010eeed5bc85508b",
+    "downloaded": true,
+    "sha256": "ed8841b0f4a343d505b7aecc8f250fbe6f41fbcf2dcf64ca77e75a72fcf51b2b",
+    "message_ids": [
+      "message65"
+    ]
+  },
+  {
+    "path": "telegram export/photos/photo_18@28-10-2025_01-53-01.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6620c19bbb29ae3a0c8f193f1c400dd7e26f247d",
+    "size": 69491,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/6620c19bbb29ae3a0c8f193f1c400dd7e26f247d",
+    "downloaded": true,
+    "sha256": "52872081d1c4fc01e8f48c9cae4df8a96c78c269d03384ab89a398a382fda9e2",
+    "message_ids": [
+      "message67"
+    ]
+  },
+  {
+    "path": "telegram export/photos/photo_19@28-10-2025_01-58-07.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "83de4e5a9a08751ff17e6aec94f263cf34ef2a23",
+    "size": 65290,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/83de4e5a9a08751ff17e6aec94f263cf34ef2a23",
+    "downloaded": true,
+    "sha256": "6406d711ff22151beab2efc5ad32dff29634b42c4df6d6c1de3e76cff738b2ca",
+    "message_ids": [
+      "message69"
+    ]
+  },
+  {
+    "path": "telegram export/photos/photo_1@24-07-2025_21-00-16.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "231e627ce9402d515eb2d8dd9253e2a2313a7ea3",
+    "size": 73477,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/231e627ce9402d515eb2d8dd9253e2a2313a7ea3",
+    "downloaded": true,
+    "sha256": "79265bb04e6428f336712238ba43edcc9065f4a4313a8b75c7f937a113c99ce2",
+    "message_ids": [
+      "message25"
+    ]
+  },
+  {
+    "path": "telegram export/photos/photo_20@28-10-2025_22-07-57.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f7d948c372a37091590004bbd70ee458fd08d1c1",
+    "size": 145202,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/f7d948c372a37091590004bbd70ee458fd08d1c1",
+    "downloaded": true,
+    "sha256": "18a41c8ef151421d6a8438c0c292c313bd9d69817efed89507abf1bb0e852e6b",
+    "message_ids": [
+      "message71"
+    ]
+  },
+  {
+    "path": "telegram export/photos/photo_21@09-11-2025_23-16-09.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bbc3fb39240300c41c03b8b00cde86099d3ffee1",
+    "size": 89073,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/bbc3fb39240300c41c03b8b00cde86099d3ffee1",
+    "downloaded": true,
+    "sha256": "430d605cb4bf4e4aaaf901e209b69c43c2d82946451612543b40ef112ba1fe22",
+    "message_ids": [
+      "message90"
+    ]
+  },
+  {
+    "path": "telegram export/photos/photo_22@09-11-2025_23-16-15.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "478acebdd5b88ae3820b9f080d24e50054d11280",
+    "size": 84952,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/478acebdd5b88ae3820b9f080d24e50054d11280",
+    "downloaded": true,
+    "sha256": "64e9c8107140b08a348e146533350e8bd264e2f59b1f09ade0e80ba76639f360",
+    "message_ids": [
+      "message91"
+    ]
+  },
+  {
+    "path": "telegram export/photos/photo_23@14-11-2025_04-07-19.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9dfc2ee48ec7b3f8e15540525135b0d0837399e8",
+    "size": 65632,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/9dfc2ee48ec7b3f8e15540525135b0d0837399e8",
+    "downloaded": true,
+    "sha256": "7003f7a94da98c211e78490a0c98ad1e5681266cb40708889b8d9b8cb66f3455",
+    "message_ids": [
+      "message99"
+    ]
+  },
+  {
+    "path": "telegram export/photos/photo_24@14-11-2025_04-07-19.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b220cc8a26fd1db001cb56e22df020ff15e90c51",
+    "size": 66823,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/b220cc8a26fd1db001cb56e22df020ff15e90c51",
+    "downloaded": true,
+    "sha256": "2944f175b5256a669c1a6407a09eecb566d715c37dd54b80eed0cee2ae943f0c",
+    "message_ids": [
+      "message100"
+    ]
+  },
+  {
+    "path": "telegram export/photos/photo_25@19-11-2025_11-46-31.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d37ebddacfd72608a9319560430a26f7892bc0d6",
+    "size": 18253,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/d37ebddacfd72608a9319560430a26f7892bc0d6",
+    "downloaded": true,
+    "sha256": "5c7d3623f81cfec1c847235a9e6124fc4d7090687911db318684c83dc455de7f",
+    "message_ids": [
+      "message102"
+    ]
+  },
+  {
+    "path": "telegram export/photos/photo_26@21-12-2025_05-36-21.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "094d78e091d37685a52a5e24fca964b5462bbe7d",
+    "size": 35321,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/094d78e091d37685a52a5e24fca964b5462bbe7d",
+    "downloaded": true,
+    "sha256": "a7ff8727fc0c461dc0be5e4bbc9c6c1409720229eae30931e3ae85f417819512",
+    "message_ids": [
+      "message112"
+    ]
+  },
+  {
+    "path": "telegram export/photos/photo_27@17-05-2026_19-45-07.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c66a3ac3e4fdcaa71ce68fda31b28771bc2a1ac1",
+    "size": 71982,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/c66a3ac3e4fdcaa71ce68fda31b28771bc2a1ac1",
+    "downloaded": true,
+    "sha256": "e0e7050e5e9b2018e96723ae4831b7cdcbf4f3d79406e74efb72a47e928fe9e5",
+    "message_ids": [
+      "message125"
+    ]
+  },
+  {
+    "path": "telegram export/photos/photo_28@17-05-2026_19-45-07.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4b2babe2157fc0659aa953d04a163d2813f060b4",
+    "size": 72527,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/4b2babe2157fc0659aa953d04a163d2813f060b4",
+    "downloaded": true,
+    "sha256": "a79a95c1f0e5d599fc42a26df85ffafea142c9cc7caa622a0a1b3e9d5b7dae31",
+    "message_ids": [
+      "message126"
+    ]
+  },
+  {
+    "path": "telegram export/photos/photo_29@27-06-2026_18-24-14.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "125cd4b836de516e08c753fe0b4d135b0f37d7ba",
+    "size": 89975,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/125cd4b836de516e08c753fe0b4d135b0f37d7ba",
+    "downloaded": true,
+    "sha256": "fdfebe75ba5891f2dbc84e11ef7625558452b73f3ce3b50b63d9c1745a4385b5",
+    "message_ids": [
+      "message142"
+    ]
+  },
+  {
+    "path": "telegram export/photos/photo_2@24-07-2025_21-00-17.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "486e29a12db0392321ad29578e4eb28b25c9f752",
+    "size": 74772,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/486e29a12db0392321ad29578e4eb28b25c9f752",
+    "downloaded": true,
+    "sha256": "9d1cc7913277237d5bf999452661d8ab00c1add42d2751e54bfa96521f756b17",
+    "message_ids": [
+      "message26"
+    ]
+  },
+  {
+    "path": "telegram export/photos/photo_30@27-06-2026_18-24-31.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "db019fc377ff66451289f395acef9843848e8705",
+    "size": 114397,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/db019fc377ff66451289f395acef9843848e8705",
+    "downloaded": true,
+    "sha256": "f5569b998adf63c1cebcb144277502c32db8088ce75d731cd3a7d98be3b2c669",
+    "message_ids": [
+      "message143"
+    ]
+  },
+  {
+    "path": "telegram export/photos/photo_31@27-06-2026_18-24-39.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c5f6d386e200eb85636102cd62628afb4c897a92",
+    "size": 51950,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/c5f6d386e200eb85636102cd62628afb4c897a92",
+    "downloaded": true,
+    "sha256": "5e693fc6f8303f5ee512c9ec9b3eadec3f3d7319b2c2f969e9875baca06d790b",
+    "message_ids": [
+      "message144"
+    ]
+  },
+  {
+    "path": "telegram export/photos/photo_32@27-06-2026_18-24-52.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8dd7e3e6effe155edfd351bce37bd979f6165a98",
+    "size": 66516,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/8dd7e3e6effe155edfd351bce37bd979f6165a98",
+    "downloaded": true,
+    "sha256": "7628c00e8636b2fb53053ed1feaab9c04fbc27a578e143dd6f1f16a64d6e00e3",
+    "message_ids": [
+      "message145"
+    ]
+  },
+  {
+    "path": "telegram export/photos/photo_33@27-06-2026_18-25-49.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "998a740997e5341dee685dd71c38ea4cc0c8f902",
+    "size": 69981,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/998a740997e5341dee685dd71c38ea4cc0c8f902",
+    "downloaded": true,
+    "sha256": "a0ebad23be285a1e51b629326f6f3a8dab9f52662632f4ef6194fea9855b2267",
+    "message_ids": [
+      "message146"
+    ]
+  },
+  {
+    "path": "telegram export/photos/photo_34@27-06-2026_18-26-03.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c9c4fbbbddbc3401db2ae8fb9f4cf8d75e0cae46",
+    "size": 162060,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/c9c4fbbbddbc3401db2ae8fb9f4cf8d75e0cae46",
+    "downloaded": true,
+    "sha256": "d7091b678efb3e0f2e1da6270bff602fc8d5dd14fd758484945206f09aec6835",
+    "message_ids": [
+      "message147"
+    ]
+  },
+  {
+    "path": "telegram export/photos/photo_35@27-06-2026_18-26-22.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "020e315a7b5c47b3a55daa90cb42637cd5eb5867",
+    "size": 168669,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/020e315a7b5c47b3a55daa90cb42637cd5eb5867",
+    "downloaded": true,
+    "sha256": "df1dad972da0ba8c3da2b76b90ccdd5c9ae6c42488b2b0f50e3eb232ab177028",
+    "message_ids": [
+      "message148"
+    ]
+  },
+  {
+    "path": "telegram export/photos/photo_36@27-06-2026_18-26-45.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bc4225c817c0aa2e71368634ae9beec7ebb8d002",
+    "size": 56182,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/bc4225c817c0aa2e71368634ae9beec7ebb8d002",
+    "downloaded": true,
+    "sha256": "c76783f3ab2aa8dfafe81fe1d3273e3a70b017cbb8e04ee0aebf20c7896fd8a6",
+    "message_ids": [
+      "message149"
+    ]
+  },
+  {
+    "path": "telegram export/photos/photo_37@27-06-2026_18-27-12.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "29300b7ff55c22832af906ba79ee8a1fe769b8df",
+    "size": 45970,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/29300b7ff55c22832af906ba79ee8a1fe769b8df",
+    "downloaded": true,
+    "sha256": "9a1f8890689207a4000e3fe0fc271e522bb56ace944c1646ccf84577b88f9405",
+    "message_ids": [
+      "message150"
+    ]
+  },
+  {
+    "path": "telegram export/photos/photo_38@27-06-2026_18-27-25.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "29b8677d5b2f41a7670258cf987af278f7934936",
+    "size": 41070,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/29b8677d5b2f41a7670258cf987af278f7934936",
+    "downloaded": true,
+    "sha256": "e8a6c9ba9556546fa4abbc8e152e35df08dcc2c6669884f9dc12679882029c3e",
+    "message_ids": [
+      "message151"
+    ]
+  },
+  {
+    "path": "telegram export/photos/photo_39@27-06-2026_18-29-10.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bf78691babdc3ba5b86733a05c711067d7af9031",
+    "size": 62596,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/bf78691babdc3ba5b86733a05c711067d7af9031",
+    "downloaded": true,
+    "sha256": "2cc0dda007136a8eb626cca071cf976fa2faea1a3ec9461e2f9e61d426d539da",
+    "message_ids": [
+      "message152"
+    ]
+  },
+  {
+    "path": "telegram export/photos/photo_3@24-07-2025_21-02-51.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "07e4f128a36b53fcc69b71f1aebaa40c1a437007",
+    "size": 71647,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/07e4f128a36b53fcc69b71f1aebaa40c1a437007",
+    "downloaded": true,
+    "sha256": "3a30db869e1f6a6c63f03739af4268b7b0405346be7199ac5e26f23dc73806fc",
+    "message_ids": [
+      "message27"
+    ]
+  },
+  {
+    "path": "telegram export/photos/photo_40@27-06-2026_18-31-08.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f1b775d5822afa5d09564ebc71e511df4841f7bb",
+    "size": 59578,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/f1b775d5822afa5d09564ebc71e511df4841f7bb",
+    "downloaded": true,
+    "sha256": "8e9cb970ead01179e35ef3181ee0017987b3e8de78c03c3bb37fc20f4f3ef402",
+    "message_ids": [
+      "message153"
+    ]
+  },
+  {
+    "path": "telegram export/photos/photo_41@27-06-2026_18-36-09.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6e8de54e07d629356c2a2549e6a590b651aa1924",
+    "size": 77996,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/6e8de54e07d629356c2a2549e6a590b651aa1924",
+    "downloaded": true,
+    "sha256": "78ad7571d728263883b5dc1bb9cd22848b5c2e67370643caa12c8c8935da2b20",
+    "message_ids": [
+      "message155"
+    ]
+  },
+  {
+    "path": "telegram export/photos/photo_42@27-06-2026_18-36-09.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d2645b1236e07a9aea5b27b28ea8f2e3e119b8c1",
+    "size": 77238,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/d2645b1236e07a9aea5b27b28ea8f2e3e119b8c1",
+    "downloaded": true,
+    "sha256": "94ca1e41dc1aa15b41dd5ec0b9bb664d54733c8559fe9e348d1adc782f316712",
+    "message_ids": [
+      "message156"
+    ]
+  },
+  {
+    "path": "telegram export/photos/photo_43@27-06-2026_18-36-09.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d35f7e7913ac93ecaf0710fa30fc6e1c3e38b3f0",
+    "size": 85618,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/d35f7e7913ac93ecaf0710fa30fc6e1c3e38b3f0",
+    "downloaded": true,
+    "sha256": "35428512edee92243496c3104d792d4fd07c6d43257d697c19937ccfa0a98517",
+    "message_ids": [
+      "message157"
+    ]
+  },
+  {
+    "path": "telegram export/photos/photo_44@27-06-2026_18-36-09.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2d735fe9e72394ca4d503a0c85f2b527b5cdfa61",
+    "size": 85772,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/2d735fe9e72394ca4d503a0c85f2b527b5cdfa61",
+    "downloaded": true,
+    "sha256": "552ed592df76565fdf834836abf1da6c4b9784e66039b1efaa36e162e69d855b",
+    "message_ids": [
+      "message158"
+    ]
+  },
+  {
+    "path": "telegram export/photos/photo_45@27-06-2026_18-36-09.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8b3660c03e09e76814e9563234008be8786558c8",
+    "size": 65390,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/8b3660c03e09e76814e9563234008be8786558c8",
+    "downloaded": true,
+    "sha256": "d3cd5d400ad26b008c54a467ede8e780c9606b0a9a460d51c2e11bf69ede9a39",
+    "message_ids": [
+      "message159"
+    ]
+  },
+  {
+    "path": "telegram export/photos/photo_46@27-06-2026_18-38-52.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "31df1021cdee143cdcea9e3147a0a03628431ee1",
+    "size": 145310,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/31df1021cdee143cdcea9e3147a0a03628431ee1",
+    "downloaded": true,
+    "sha256": "22c0f55d35b72f746c979bd91c0f23f9862ff7f5a4851ab2293686a796fab727",
+    "message_ids": [
+      "message161"
+    ]
+  },
+  {
+    "path": "telegram export/photos/photo_47@27-06-2026_18-43-30.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "686f15de8b3215cfa24a3060b22b35716210fc02",
+    "size": 145095,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/686f15de8b3215cfa24a3060b22b35716210fc02",
+    "downloaded": true,
+    "sha256": "65c4560d70bc56c79da398701f9c98c8ae2ffada8d71d2c3e111e2e24ae1cd86",
+    "message_ids": [
+      "message164"
+    ]
+  },
+  {
+    "path": "telegram export/photos/photo_48@27-06-2026_18-43-30.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b1ea9f552e69e00c0dff4d0f4739fc610d0911ef",
+    "size": 64244,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/b1ea9f552e69e00c0dff4d0f4739fc610d0911ef",
+    "downloaded": true,
+    "sha256": "20df96b527f0c957a11188d14f66f9281587d18e0b3e31457b0db70daf899449",
+    "message_ids": [
+      "message165"
+    ]
+  },
+  {
+    "path": "telegram export/photos/photo_4@25-07-2025_04-04-24.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b0652f1e339a3410347ceb74bf64026a23937d0e",
+    "size": 74199,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/b0652f1e339a3410347ceb74bf64026a23937d0e",
+    "downloaded": true,
+    "sha256": "5034c1ebaa4bd3c07a59eaf0de3840e0ed1486387ba2b1e9c2832c748b3979a7",
+    "message_ids": [
+      "message29"
+    ]
+  },
+  {
+    "path": "telegram export/photos/photo_5@25-07-2025_04-08-41.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "efcd62eb17b01d7db22f7bf5e901b8e334d11c1e",
+    "size": 74870,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/efcd62eb17b01d7db22f7bf5e901b8e334d11c1e",
+    "downloaded": true,
+    "sha256": "097c6be0efefe88b7e213d3f6aba5f4dc6a9e813bd3aed9162a991d6f68aeb4b",
+    "message_ids": [
+      "message30"
+    ]
+  },
+  {
+    "path": "telegram export/photos/photo_6@25-07-2025_15-53-39.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "82c0ab3a15d4dca598abd9300da7f32b88531d7a",
+    "size": 74748,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/82c0ab3a15d4dca598abd9300da7f32b88531d7a",
+    "downloaded": true,
+    "sha256": "26c18dafda65ecb48d670d908ff9a6c650df2905684e12dc23e64ef7a00a2547",
+    "message_ids": [
+      "message31"
+    ]
+  },
+  {
+    "path": "telegram export/photos/photo_7@11-08-2025_15-51-55.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c6983d59572ce21f9f499869a11a82706a674738",
+    "size": 71573,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/c6983d59572ce21f9f499869a11a82706a674738",
+    "downloaded": true,
+    "sha256": "7cea1f63bcc0623f6f084e71e2aeea383f1f5648bfcdf5e8b6785cc5a6ec980d",
+    "message_ids": [
+      "message42"
+    ]
+  },
+  {
+    "path": "telegram export/photos/photo_8@12-08-2025_09-58-34.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "36b21264f67e1261fee773068b5506abfd091291",
+    "size": 74246,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/36b21264f67e1261fee773068b5506abfd091291",
+    "downloaded": true,
+    "sha256": "644eada63dc0f6deb5768ffcb5bf455d0cda0ea15dd20247a08aedaf6a6c2863",
+    "message_ids": [
+      "message44"
+    ]
+  },
+  {
+    "path": "telegram export/photos/photo_9@12-08-2025_09-58-34.jpg",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ac2da36441e839f66c4cbf7346c8c6db86a18dfc",
+    "size": 254809,
+    "url": "https://api.github.com/repos/SireJeff/anjoman-accounting/git/blobs/ac2da36441e839f66c4cbf7346c8c6db86a18dfc",
+    "downloaded": true,
+    "sha256": "5c47322f7a512fb80b48f0044a38ac5a9222176efd200637dbdac21211145ca5",
+    "message_ids": [
+      "message46"
+    ]
+  }
+]

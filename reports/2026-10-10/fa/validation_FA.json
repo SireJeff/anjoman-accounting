@@ -1,0 +1,154 @@
+{
+  "checks": [],
+  "summary": {
+    "Receipt|Supported": {
+      "count": 11,
+      "amount": 112552000.0
+    },
+    "Receipt|Review": {
+      "count": 0,
+      "amount": 0
+    },
+    "Receipt|Duplicate": {
+      "count": 0,
+      "amount": 0
+    },
+    "Receipt|Invoice only": {
+      "count": 0,
+      "amount": 0
+    },
+    "Receipt|Summary only": {
+      "count": 1,
+      "amount": 27235000.0
+    },
+    "Payment|Supported": {
+      "count": 55,
+      "amount": 99085195.0
+    },
+    "Payment|Review": {
+      "count": 20,
+      "amount": 11334723.9
+    },
+    "Payment|Duplicate": {
+      "count": 4,
+      "amount": 6129375.0
+    },
+    "Payment|Invoice only": {
+      "count": 3,
+      "amount": 6416700.0
+    },
+    "Payment|Summary only": {
+      "count": 0,
+      "amount": 0
+    },
+    "Internal transfer|Supported": {
+      "count": 0,
+      "amount": 0
+    },
+    "Internal transfer|Review": {
+      "count": 1,
+      "amount": 0
+    },
+    "Internal transfer|Duplicate": {
+      "count": 0,
+      "amount": 0
+    },
+    "Internal transfer|Invoice only": {
+      "count": 0,
+      "amount": 0
+    },
+    "Internal transfer|Summary only": {
+      "count": 0,
+      "amount": 0
+    },
+    "Unknown|Supported": {
+      "count": 0,
+      "amount": 0
+    },
+    "Unknown|Review": {
+      "count": 1,
+      "amount": 300000.0
+    },
+    "Unknown|Duplicate": {
+      "count": 0,
+      "amount": 0
+    },
+    "Unknown|Invoice only": {
+      "count": 0,
+      "amount": 0
+    },
+    "Unknown|Summary only": {
+      "count": 0,
+      "amount": 0
+    },
+    "receipt_composition": {
+      "former_board_handover": 11000000.0,
+      "other_supported_receipts": 101552000.0
+    },
+    "net_cash_activity": 13466805.0,
+    "ledger_records": 96,
+    "issue_count": 16,
+    "website_declared_domain_toman": 3000000,
+    "website_vm_budget_toman": 6030048,
+    "website_combined_budget_toman": 9030048
+  },
+  "verification_checks": [
+    {
+      "name": "folder_all_expenses",
+      "result": "Pass",
+      "value": true
+    },
+    {
+      "name": "unique_new_payments",
+      "result": "Pass",
+      "value": 19
+    },
+    {
+      "name": "duplicate_counted_again",
+      "result": "Pass",
+      "value": false
+    },
+    {
+      "name": "user_confirmed_folder_total",
+      "result": "Pass",
+      "value": 57963370
+    },
+    {
+      "name": "new_payments_total",
+      "result": "Pass",
+      "value": 99085195
+    },
+    {
+      "name": "new_net_activity",
+      "result": "Pass",
+      "value": 13466805
+    },
+    {
+      "name": "instructor_total",
+      "result": "Pass",
+      "value": 11500000
+    },
+    {
+      "name": "sticker_packs_correct",
+      "result": "Pass",
+      "value": true
+    },
+    {
+      "name": "instructor_beneficiary_payee_distinct",
+      "result": "Pass",
+      "value": true
+    },
+    {
+      "name": "payment_bridge_match",
+      "result": "Pass",
+      "value": true
+    }
+  ],
+  "website_checks": {
+    "domain_excluded_from_cutoff_supported_cash": true,
+    "vm_projection_excluded_from_transaction_ledger": true,
+    "forecast_days": 92,
+    "currency_conversion": 65544.0,
+    "forecast_vm_toman": 6030048
+  }
+}

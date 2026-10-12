@@ -1,0 +1,52 @@
+{
+  "id": "USER-CONFIRMATION-2026-10-10-01",
+  "received_date": "2026-10-10",
+  "scope": "All images in repository recipts/ are association payments/expenses, not income. Six relate to Summer School 1405 instructors; five identified so far.",
+  "provided_instructor_details": [
+    {
+      "instructor": "بهاره خویش خواه",
+      "card": "5022291037095740",
+      "bank": "Pasargad",
+      "amount_toman": 4700000,
+      "course": "Physical simulation with Python",
+      "stated_share_percent": 35,
+      "matched_id": "TX0086",
+      "match_basis": "Exact normalized recipient name and stated amount. Receipt is an IBAN/Paya transfer, so the supplied card is corroborative contact detail, not an exact on-document card match."
+    },
+    {
+      "instructor": "زهرا صالح کوشالی",
+      "card": "4982643833896104",
+      "bank": "Mellat",
+      "matched_id": "TX0083",
+      "match_basis": "Exact normalized recipient name; source is IBAN/Pol, not a card transfer."
+    },
+    {
+      "instructor": "ایلیا اصغریان دهکردی",
+      "card": "6219861496006676",
+      "bank": "Saman",
+      "matched_id": "TX0087",
+      "match_basis": "Exact normalized recipient name; source is IBAN transfer."
+    },
+    {
+      "instructor": "رضا فرهادی",
+      "card": "6037701569742692",
+      "bank": "Keshavarzi",
+      "matched_id": "TX0084",
+      "match_basis": "Exact normalized recipient name; Blu-to-Blu transfer to IBAN. Card supplied by user, not printed on receipt."
+    },
+    {
+      "instructor": "ابوالفضل احمدی",
+      "account_payee": "علیرضا کچویی محقق یعقوبی",
+      "course": "LaTeX and API",
+      "matched_id": "TX0085",
+      "match_basis": "Explicit user confirmation that payment to Alireza was instructor fee for Abolfazl."
+    }
+  ],
+  "other_purpose_confirmation": {
+    "matched_id": "TX0088",
+    "account_payee": "زهرا امیری",
+    "purpose": "Sticker packs for introduction event"
+  },
+  "not_assumed": "The remaining sixth instructor is not identified. No reverse-calculated registration income is created from the stated 35% share. Invoice settlement and provisional-transfer completion are accepted as user-attested, not as independent bank evidence.",
+  "later_clarification_date": "2026-10-11"
+}

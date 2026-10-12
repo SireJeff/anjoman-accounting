@@ -1,0 +1,52 @@
+{
+  "id": "USER-CONFIRMATION-2026-10-10-01",
+  "received_date": "2026-10-10",
+  "scope": "All images in repository recipts/ are association payments/expenses, not income. Six relate to Summer School 1405 instructors; five identified so far.",
+  "provided_instructor_details": [
+    {
+      "instructor": "بهاره خویش خواه",
+      "card": "5022291037095740",
+      "bank": "Pasargad",
+      "amount_toman": 4700000,
+      "course": "شبیه‌سازی فیزیکی با پایتون",
+      "stated_share_percent": 35,
+      "matched_id": "TX0086",
+      "match_basis": "نام گیرندهٔ نرمال‌شده و مبلغ اعلام‌شده دقیقاً مطابقت دارند. رسید مربوط به انتقال شبا/پایا است، بنابراین کارت ارائه‌شده اطلاعات تماس تأییدکننده است و تطابق دقیق کارت روی سند محسوب نمی‌شود."
+    },
+    {
+      "instructor": "زهرا صالح کوشالی",
+      "card": "4982643833896104",
+      "bank": "Mellat",
+      "matched_id": "TX0083",
+      "match_basis": "نام گیرندهٔ نرمال‌شده دقیقاً مطابقت دارد؛ منبع شبا/پل است و انتقال کارت‌به‌کارت نیست."
+    },
+    {
+      "instructor": "ایلیا اصغریان دهکردی",
+      "card": "6219861496006676",
+      "bank": "Saman",
+      "matched_id": "TX0087",
+      "match_basis": "Exact normalized recipient name; source is IBAN transfer."
+    },
+    {
+      "instructor": "رضا فرهادی",
+      "card": "6037701569742692",
+      "bank": "Keshavarzi",
+      "matched_id": "TX0084",
+      "match_basis": "نام گیرندهٔ نرمال‌شده دقیقاً مطابقت دارد؛ انتقال بلو به بلو به شبا. کارت را کاربر ارائه کرده و روی رسید چاپ نشده است."
+    },
+    {
+      "instructor": "ابوالفضل احمدی",
+      "account_payee": "علیرضا کچویی محقق یعقوبی",
+      "course": "لاتک و رابط برنامه‌نویسی",
+      "matched_id": "TX0085",
+      "match_basis": "تأیید صریح کاربر مبنی بر اینکه پرداخت به علیرضا حق‌التدریس ابوالفضل بوده است."
+    }
+  ],
+  "other_purpose_confirmation": {
+    "matched_id": "TX0088",
+    "account_payee": "زهرا امیری",
+    "purpose": "بسته‌های استیکر برای برنامهٔ معارفه"
+  },
+  "not_assumed": "The remaining sixth instructor is not identified. No reverse-calculated registration income is created from the stated 35% share. Invoice settlement and provisional-transfer completion are accepted as user-attested, not as independent bank evidence.",
+  "later_clarification_date": "2026-10-11"
+}
