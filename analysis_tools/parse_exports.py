@@ -103,3 +103,47 @@ def parse_file(path: Path, chat: str):
         rec["text_plain"] = _clean([" ".join(b.itertext()) for b in body_text])
         records.append(rec)
     return records
+
+import jdatetime
+from .common import ROOT, SOURCES, write_json, WINDOW_START, WINDOW_END
+
+def enrich(rec):
+    if rec.get("timestamp"):
+        dt = datetime.fromisoformat(rec["timestamp"])
+        jd = jdatetime.date.fromgregorian(date=dt.date())
+        rec["date_greg"] = dt.date().isoformat()
+        rec["jalali_month"] = f"{jd.year}/{jd.month:02d}"
+        rec["jalali_weekday"] = jd.strftime("%A")
+        rec["hour"] = dt.hour
+        rec["weekday_en"] = dt.strftime("%A")
+        rec["in_window"] = WINDOW_START <= rec["date_greg"] <= WINDOW_END
+    else:
+        for k in ("date_greg", "jalali_month", "jalali_weekday", "hour", "weekday_en"):
+            rec[k] = None
+        rec["in_window"] = False
+    return rec
+
+def parse_docx(path):
+    import docx
+    d = docx.Document(str(path))
+    paras = [{"style": p.style.name if p.style else "Normal", "text": p.text}
+             for p in d.paragraphs if p.text.strip()]
+    tables = [[cell.text.strip() for cell in row.cells] for t in d.tables for row in t.rows]
+    return {"paragraphs": paras, "tables": tables}
+
+def run_all():
+    import json
+    out = []
+    for chat, src in SOURCES.items():
+        for f in iter_message_files(src):
+            for rec in parse_file(f, chat):
+                out.append(enrich(rec))
+    with open(ROOT / "analysis/messages.jsonl", "w", encoding="utf-8") as fh:
+        for rec in out:
+            fh.write(json.dumps(rec, ensure_ascii=False) + "\n")
+    write_json(ROOT / "analysis/docx_content.json",
+               parse_docx(ROOT / "گزارش_عملکرد_رسانه‌ای_انجمن_علمی_فیزیک.docx"))
+    print(f"parsed {len(out)} messages -> analysis/messages.jsonl")
+
+if __name__ == "__main__":
+    run_all()
