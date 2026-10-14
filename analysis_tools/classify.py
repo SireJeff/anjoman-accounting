@@ -1,5 +1,5 @@
-"""Stage 3 layers 1-2: structural rules + lexicon classification."""
-import json, re
+"""Stage 3: structural rules + lexicon classification + LLM residual machinery."""
+import json, re, sys
 from .common import ROOT, read_json, write_json, normalize_digits
 
 RULE_ORDER = ["education_courses", "events", "publications_shabahng", "media_outreach",
@@ -62,11 +62,67 @@ def main():
     win = stats["in_window"]
     win["classified"] = win["total"] - win["by_method"].get("unclassified", 0)
     win["coverage_pct"] = round(100.0 * win["classified"] / win["total"], 2) if win["total"] else 0.0
-    with open(ROOT / "analysis/classified.jsonl", "w", encoding="utf-8") as fh:
-        for rec in out:
-            fh.write(json.dumps(rec, ensure_ascii=False) + "\n")
+    write_classified(out)
     write_json(ROOT / "analysis/classification_stats.json", stats)
     print(json.dumps(stats, indent=1, ensure_ascii=False))
 
+
+# --- Task 7: LLM residual pass (labels produced by labeling agents) ---
+
+def load_classified():
+    with open(ROOT / "analysis/classified.jsonl", encoding="utf-8") as fh:
+        return [json.loads(line) for line in fh]
+
+def write_classified(recs):
+    with open(ROOT / "analysis/classified.jsonl", "w", encoding="utf-8") as fh:
+        for rec in recs:
+            fh.write(json.dumps(rec, ensure_ascii=False) + "\n")
+
+def select_residual(recs):
+    """In-window, non-service messages with no method or confidence < 0.7."""
+    return [r for r in recs if r.get("in_window") and not r.get("is_service")
+            and (r.get("method") is None or (r.get("confidence") or 0.0) < 0.7)]
+
+def build_batches(resid, batch_size=200):
+    return [{"batch": bi + 1, "items": [
+        {"key": f'{r["chat"]}#{r["message_id"]}', "chat": r["chat"],
+         "month": r["jalali_month"], "text": (r["text_plain"] or "")[:500],
+         "media": r["media_kinds"]}
+        for r in resid[i:i + batch_size]]}
+        for bi, i in enumerate(range(0, len(resid), batch_size))]
+
+def emit_residual(batch_size=200):
+    resid = select_residual(load_classified())
+    batches = build_batches(resid, batch_size)
+    write_json(ROOT / "analysis/llm_residual.json",
+               {"n_residual": len(resid), "batches": batches})
+    print(f"residual: {len(resid)} messages in {len(batches)} batches")
+
+def apply_llm_labels(recs, labels):
+    """Merge {"key": {categories, is_decision, event_ref, confidence}} into records."""
+    n = 0
+    for r in recs:
+        lab = labels.get(f'{r["chat"]}#{r["message_id"]}')
+        if lab and (r.get("method") is None or (r.get("confidence") or 0.0) < 0.7):
+            if lab.get("categories"):
+                r["categories"] = lab["categories"]; r["method"] = "llm"
+                r["confidence"] = lab.get("confidence", 0.6); n += 1
+            r["is_decision"] = r.get("is_decision", False) or bool(lab.get("is_decision"))
+            if lab.get("event_ref"):
+                r["event_ref"] = lab["event_ref"]
+    return n
+
+def apply_llm():
+    labels = read_json(ROOT / "analysis/llm_labels.json")
+    recs = load_classified()
+    n = apply_llm_labels(recs, labels)
+    write_classified(recs)
+    print(f"applied {n} llm labels")
+
 if __name__ == "__main__":
-    main()
+    if "--emit-residual" in sys.argv:
+        emit_residual()
+    elif "--apply" in sys.argv:
+        apply_llm()
+    else:
+        main()
