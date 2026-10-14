@@ -1,0 +1,358 @@
+{
+  "source": "accounting_group",
+  "n_messages": 158,
+  "months": {
+    "1404/05": {"count": 43, "top_participants": [["Deleted Account", 14], ["امین عزیزی", 7]]},
+    "1404/06": {"count": 1, "top_participants": [["امین عزیزی", 1]]},
+    "1404/07": {"count": 18, "top_participants": [["Deleted Account", 7], ["امین عزیزی", 5]]},
+    "1404/08": {"count": 43, "top_participants": [["Deleted Account", 15], ["امین عزیزی", 8]]},
+    "1404/09": {"count": 2, "top_participants": [["Deleted Account", 1], ["امین عزیزی", 1]]},
+    "1404/11": {"count": 6, "top_participants": [["Deleted Account", 1], ["امین عزیزی", 1]]},
+    "1404/12": {"count": 4, "top_participants": [["Deleted Account", 1]]},
+    "1405/02": {"count": 9, "top_participants": [["Deleted Account", 4], ["امین عزیزی", 2]]},
+    "1405/03": {"count": 2, "top_participants": [["Deleted Account", 1], ["امین عزیزی", 1]]},
+    "1405/04": {"count": 30, "top_participants": [["Deleted Account", 7], ["امین عزیزی", 1]]}
+  },
+  "participants": [
+    ["Deleted Account", "51", "32.3"],
+    ["امین عزیزی", "27", "17.1"]
+  ],
+  "media_mix": {"photo": 48, "video": 0, "voice": 0, "document": 0, "poll": 0, "sticker": 0, "animated": 0},
+  "forwarded_origins": [
+    ["Bardia", 5],
+    ["Deleted Account", 3],
+    ["hossein", 3],
+    ["Mṏbina", 2],
+    ["Saman Moghimi", 2],
+    ["Sharif Admin", 1],
+    ["Matin (Korosh) Ghassami", 1],
+    ["Parnian", 1]
+  ],
+  "candidate_threads": [
+    {
+      "event_ref": "summer-school-1404-instructor-payments",
+      "title": "تسویه حق‌الزحمه مدرسین مدرسه تابستانه ۱۴۰۴ (متمتیکا، پایتون، لتک، تی‌ای‌ها) و ضبط جلسات جبرانی",
+      "keywords": ["مدرسه تابستانه", "حق‌الزحمه", "مدرس", "متمتیکا", "پایتون", "لتک", "تی ای", "ثبت نامی", "ضبط جبرانی", "واریزی"],
+      "anchor_dates": ["2025-07-24", "2025-07-25", "2025-08-11", "2025-08-15"],
+      "chats_seen_in": ["accounting_group"],
+      "evidence_message_ids": ["message10", "message11", "message12", "message13", "message14", "message25", "message26", "message27", "message28", "message29", "message30", "message31", "message42", "message47"]
+    },
+    {
+      "event_ref": "hamayesh-moarafi-reshte-settlement",
+      "title": "تسویه همایش معرفی رشته و میز معرفی دانشگاه (انتقال درآمد خالص به حساب اصلی، چاپ پوستر و بارکد)",
+      "keywords": ["همایش معرفی رشته", "میز معرفی دانشگاه", "درآمد خالص", "چاپ پوستر", "بارکد", "پوستر نشست و کوانتا", "کارت انجمن"],
+      "anchor_dates": ["2025-09-04", "2025-09-27", "2025-10-01", "2025-10-10", "2025-10-12"],
+      "chats_seen_in": ["accounting_group"],
+      "evidence_message_ids": ["message48", "message49", "message50", "message51", "message52", "message53", "message54", "message57", "message58", "message59", "message60", "message61"]
+    },
+    {
+      "event_ref": "jashn-veroodi-1404",
+      "title": "جشن ورودی ۱۴۰۴ (تزئینات و بادکنک، جوایز، اتصالات پروژکتور و پذیرایی غرفه، شاباش نقدی، خرج‌های اردوان)",
+      "keywords": ["جشن ورودی", "تزئینات", "چسب بادکنک", "جایزه جشن", "اتصالات پروژکتور", "حفاظ برق", "پذیرایی غرفه", "شاباش", "اردوان"],
+      "anchor_dates": ["2025-11-09", "2025-11-14", "2025-11-21"],
+      "chats_seen_in": ["accounting_group"],
+      "evidence_message_ids": ["message88", "message89", "message90", "message91", "message96", "message99", "message100", "message107", "message108", "message111", "message146", "message147", "message148"]
+    },
+    {
+      "event_ref": "jashn-yalda-1404",
+      "title": "جشن یلدا: ورودی‌ها و تسویه (کمک مالی جمعی، برداشت کارت‌به‌کارت هزینه‌ها، رسیدهای پرنیان و بردیا و حسین، فال یلدا)",
+      "keywords": ["جشن یلدا", "یلدا", "فال یلدا", "کوکی", "پرنیان", "هندونه", "انار", "ژله", "کمک مالی جمعی", "کارت به کارت"],
+      "anchor_dates": ["2025-11-09", "2026-02-16", "2026-02-21", "2026-05-17", "2026-06-27"],
+      "chats_seen_in": ["accounting_group"],
+      "evidence_message_ids": ["message114", "message115", "message116", "message120", "message121", "message124", "message125", "message126", "message128", "message129", "message142", "message143", "message144", "message151", "message152", "message154", "message161", "message164"]
+    },
+    {
+      "event_ref": "hospitality-sessions-1404",
+      "title": "پذیرایی نشست‌ها: نشست عمومی ۲۲ مهرماه، انجمن چایی ۲۰ مهرماه، دیدار با اساتید و غرفه انجمن شریف",
+      "keywords": ["نشست عمومی", "شیرینی", "پذیرایی", "انجمن چایی", "دیدار با اساتید", "غرفه", "دکتر مقیمی", "دلستر"],
+      "anchor_dates": ["2025-10-15", "2025-11-21", "2026-06-27"],
+      "chats_seen_in": ["accounting_group"],
+      "evidence_message_ids": ["message62", "message63", "message64", "message65", "message105", "message149", "message150", "message153"]
+    },
+    {
+      "event_ref": "inflows-donations-legacy-funds",
+      "title": "ورودی‌های صندوق: دریافتی از انجمن پیشین، کمک مالی جمعی و واریزی‌های دکتر مقیمی + نقاط کنترل موجودی",
+      "keywords": ["دریافتی از انجمن پیشین", "انجمن سابقه", "کمک مالی جمعی", "واریزی دکتر مقیمی", "هزینه‌های جاری", "موجودی", "صندوق", "فیش"],
+      "anchor_dates": ["2025-10-01", "2025-10-28", "2025-11-19", "2026-02-16", "2026-02-21"],
+      "chats_seen_in": ["accounting_group"],
+      "evidence_message_ids": ["message71", "message72", "message73", "message74", "message75", "message76", "message86", "message101", "message102", "message103", "message112", "message113", "message115", "message116", "message121"]
+    },
+    {
+      "event_ref": "sharif-mohamat-advertising",
+      "title": "تبلیغات مدرسه مهمات شریف و کلیدهای خریداری‌شده (ردیابی هزینه تبلیغات)",
+      "keywords": ["تبلیغات", "مدرسه مهمات شریف", "کلید", "پوستر"],
+      "anchor_dates": ["2025-08-12", "2025-10-10"],
+      "chats_seen_in": ["accounting_group"],
+      "evidence_message_ids": ["message43", "message44", "message45", "message46", "message57"]
+    },
+    {
+      "event_ref": "camera-equipment-expense",
+      "title": "هزینه باتری دوربین فیلم‌برداری (رسید عکس + فوروارد مبینا)",
+      "keywords": ["باتری", "دوربین فیلم برداری", "دریافتی"],
+      "anchor_dates": ["2025-10-28"],
+      "chats_seen_in": ["accounting_group"],
+      "evidence_message_ids": ["message67", "message68", "message69"]
+    },
+    {
+      "event_ref": "final-receipt-handover-1405",
+      "title": "تحویل نهایی اسناد مالی: جمع‌آوری عکس همه فاکتورها/رسیدها و قرار جلسه حضوری (خرداد-تیر ۱۴۰۵)",
+      "keywords": ["فاکتور", "رسید", "عکس فاکتور", "تحویل", "میت", "حسابداری"],
+      "anchor_dates": ["2026-06-27"],
+      "chats_seen_in": ["accounting_group"],
+      "evidence_message_ids": ["message136", "message138", "message142", "message145", "message149", "message153", "message165"]
+    },
+    {
+      "event_ref": "bardia-bulk-purchase-settlement",
+      "title": "تسویه خریدهای گروهی بردیا و رسیدهای حسین (جا سوییچی، هندونه و انار، ژله فرمند، ساندویچ، شربت آلبالو) با فاکتور مفقود ۱۱۶۲",
+      "keywords": ["جا سوییچی", "گوشواره انار", "هندونه", "انار", "ژله فرمند", "ساندویچ", "شربت آلبالو", "کاغذ و ماژیک", "فاکتور ۱۱۶۲", "پودر ژله طالبی"],
+      "anchor_dates": ["2026-06-27"],
+      "chats_seen_in": ["accounting_group"],
+      "evidence_message_ids": ["message154", "message155", "message156", "message157", "message158", "message159", "message161", "message162", "message163", "message164"]
+    }
+  ],
+  "time_patterns": [
+    {
+      "kind": "active-hour",
+      "hour": 18,
+      "jalali_weekday": "شنبه",
+      "n": 23,
+      "evidence_message_ids": ["message142", "message143", "message144", "message145", "message146", "message147", "message148", "message149", "message150", "message151", "message152", "message153", "message154", "message155", "message156", "message157", "message158", "message159", "message161", "message162", "message163", "message164", "message165"]
+    },
+    {
+      "kind": "active-hour",
+      "hour": 20,
+      "jalali_weekday": "پنج‌شنبه",
+      "n": 20,
+      "evidence_message_ids": ["message5", "message6", "message7", "message8", "message9", "message10", "message11", "message12", "message13", "message14", "message15", "message16", "message17", "message18", "message19", "message20", "message21", "message22", "message23", "message24"]
+    },
+    {
+      "kind": "active-hour",
+      "hour": 22,
+      "jalali_weekday": "سه‌شنبه",
+      "n": 17,
+      "evidence_message_ids": ["message71", "message72", "message73", "message74", "message75", "message76", "message77", "message78", "message79", "message80", "message81", "message82", "message83", "message84", "message85", "message86", "message87"]
+    },
+    {
+      "kind": "weekday-slot",
+      "hour": 4,
+      "jalali_weekday": "جمعه",
+      "n": 7,
+      "evidence_message_ids": ["message29", "message30", "message55", "message56", "message57", "message99", "message100"]
+    },
+    {
+      "kind": "active-hour",
+      "hour": 13,
+      "jalali_weekday": "جمعه",
+      "n": 7,
+      "evidence_message_ids": ["message105", "message106", "message107", "message108", "message109", "message110", "message111"]
+    },
+    {
+      "kind": "weekday-slot",
+      "hour": 15,
+      "jalali_weekday": "دوشنبه",
+      "n": 5,
+      "evidence_message_ids": ["message42", "message114", "message115", "message116", "message117"]
+    },
+    {
+      "kind": "active-hour",
+      "hour": 20,
+      "jalali_weekday": "یک‌شنبه",
+      "n": 5,
+      "evidence_message_ids": ["message127", "message128", "message129", "message130", "message131"]
+    },
+    {
+      "kind": "active-hour",
+      "hour": 23,
+      "jalali_weekday": "یک‌شنبه",
+      "n": 5,
+      "evidence_message_ids": ["message88", "message89", "message90", "message91", "message92"]
+    }
+  ],
+  "financial_signals": [
+    {
+      "what": "برآورد حق‌الزحمه هر مدرس مدرسه تابستانه در گفتگو (اعداد به هزار تومان): جو ۳۴۸۰، سهراب ۲۹۳۴، متین ۳۶۷۸؛ تصمیم گرد کردن تا صد تومن (message14)",
+      "message_ids": ["message10", "message11", "message12", "message13", "message14"],
+      "amounts_toman": [3480000, 2934000, 3678000]
+    },
+    {
+      "what": "رسید عکس: واریزی کامل حق‌الزحمه مدرس متمتیکا مدرسه تابستانه",
+      "message_ids": ["message25"],
+      "amounts_toman": []
+    },
+    {
+      "what": "رسید عکس: واریزی و تسویه کامل حق‌الزحمه مدرس پایتون مدرسه تابستانه",
+      "message_ids": ["message26"],
+      "amounts_toman": []
+    },
+    {
+      "what": "رسید عکس: واریزی و تسویه کامل حق‌الزحمه مدرس لتک مدرسه تابستانه",
+      "message_ids": ["message27"],
+      "amounts_toman": []
+    },
+    {
+      "what": "پیامک بانک شهر: سرویس پرداخت لحظه‌ای (پل) برداشت ۳۷٬۰۰۰٬۰۰۰ ریال، موجودی ۲۳۰٬۲۰۳٬۹۶۵ ریال — پوشش پرداخت حق‌الزحمه مدرسین همان شب",
+      "message_ids": ["message28"],
+      "amounts_toman": [3700000]
+    },
+    {
+      "what": "رسید عکس: واریزی حق‌الزحمه تی‌ای و فرم و شیت ابراهیم خسروانی مدرسه تابستانه",
+      "message_ids": ["message29"],
+      "amounts_toman": []
+    },
+    {
+      "what": "رسید عکس: واریزی حق‌الزحمه ثبت‌نامی و تی‌ای پایتون مدرسه تابستانه — سپهر طلائی",
+      "message_ids": ["message30"],
+      "amounts_toman": []
+    },
+    {
+      "what": "رسید عکس: واریزی حق‌الزحمه امین عزیزی بابت فرآیند ثبت‌نامی حسابداری و تی‌ای پایتون مدرسه تابستانه",
+      "message_ids": ["message31"],
+      "amounts_toman": []
+    },
+    {
+      "what": "پیامک بانک شهر: انتقال وجه کارتی برداشت ۶٬۰۰۹٬۰۰۰ ریال (موجودی ۲۲۰٬۵۸۹٬۵۶۵ ریال) + استعلام دریافت‌کننده و دستور ثبت موجودی نهایی",
+      "message_ids": ["message32", "message33", "message34", "message35"],
+      "amounts_toman": [600900]
+    },
+    {
+      "what": "رسید عکس: هزینه ضبط جبرانی جلسه ۳ لتک",
+      "message_ids": ["message42"],
+      "amounts_toman": []
+    },
+    {
+      "what": "رسید عکس: حق‌الزحمه ضبط جبرانی جلسه ۴ پایتون",
+      "message_ids": ["message47"],
+      "amounts_toman": []
+    },
+    {
+      "what": "تبلیغات مدرسه مهمات شریف و کلیدهای خریداری‌شده با تبلیغ مهمات شریف (ردیابی هزینه تبلیغات)",
+      "message_ids": ["message43", "message44", "message45", "message46", "message57"],
+      "amounts_toman": []
+    },
+    {
+      "what": "پرداخت بابت چاپ پوستر و بارکد برای میز معرفی دانشگاه + ردیابی هزینه چاپ پوستر (نشست و کوانتا)",
+      "message_ids": ["message48", "message58", "message59", "message60", "message61"],
+      "amounts_toman": []
+    },
+    {
+      "what": "فایل PDF ارسالی (dk-file-2025-10-16.pdf) — سند احتمالاً مالی/فاکتور؛ در دفتر reconcile به یک تراکنش پیوند خورده",
+      "message_ids": ["message66"],
+      "amounts_toman": []
+    },
+    {
+      "what": "تسویه همایش معرفی رشته: انتقال درآمد خالص به حساب اصلی، شماره کارت انجمن (5047061055888966) و موجودی فعلی ۲۲٬۷۶۵٬۰۰۰ تومان",
+      "message_ids": ["message49", "message50", "message51", "message52", "message53", "message54"],
+      "amounts_toman": [22765000]
+    },
+    {
+      "what": "شیت تراز مالی و حساب پرداختنی/دریافتنی: درخواست راه‌اندازی، اشتراک لینک Google Sheets و درخواست به‌روزرسانی",
+      "message_ids": ["message15", "message55", "message56"],
+      "amounts_toman": []
+    },
+    {
+      "what": "موجودی کارت حسن (چهل هزار تومان) و بحث تراز مالی؛ سه پیام بدون متنِ قابل استخراج (message6/7/8) که در دفتر به درآمد تجمیعی ثبت‌نام مدرسه تابستانه (۳۳٬۶۴۲٬۰۰۰ تومان) پیوند خورده‌اند",
+      "message_ids": ["message6", "message7", "message8", "message36", "message37", "message39"],
+      "amounts_toman": [33642000, 40000]
+    },
+    {
+      "what": "شیرینی و پذیرایی نشست عمومی ۲۲ مهرماه، جلسه انجمن چایی ۲۰ مهرماه و واریزی دکتر مقیمی جهت شیرینی نشست (رسیدهای عکس)",
+      "message_ids": ["message62", "message63", "message64", "message65"],
+      "amounts_toman": []
+    },
+    {
+      "what": "هزینه باتری دوربین فیلم‌برداری (رسید عکس)",
+      "message_ids": ["message67", "message68", "message69"],
+      "amounts_toman": []
+    },
+    {
+      "what": "دریافتی از انجمن پیشین/سابقه — «جمعاً ۱۱» (به احتمال زیاد ۱۱ میلیون تومان)",
+      "message_ids": ["message71", "message72", "message73", "message74", "message75"],
+      "amounts_toman": [11000000]
+    },
+    {
+      "what": "جلسه موجودی ۲۸ اکتبر: ورودی پول از ۵۰ میلیون گذشت، پرسش صندوق و عدد «۲۹۲۰۰» (به احتمال زیاد هزار تومان = ۲۹٬۲۰۰٬۰۰۰ تومان)",
+      "message_ids": ["message76", "message78", "message79", "message80", "message81", "message86"],
+      "amounts_toman": [50000000, 29200000]
+    },
+    {
+      "what": "پیگیری خرج جشنِ اردوان: دو فاکتور بدون برچسب و پاسخ «۱۲۰ داده اردوان» (واحد نامشخص)",
+      "message_ids": ["message88", "message89", "message90", "message91", "message96"],
+      "amounts_toman": []
+    },
+    {
+      "what": "شماره کارت «راه» (5892101714531544) و درخواست ارسال فیش لایو بلافاصله پس از هر واریز",
+      "message_ids": ["message93", "message94", "message95", "message97", "message98"],
+      "amounts_toman": []
+    },
+    {
+      "what": "واریزی هزینه چسب بادکنک و لوازم تزئینات جشن ورودی ۱۴۰۴ (رسید عکس)",
+      "message_ids": ["message99", "message100"],
+      "amounts_toman": []
+    },
+    {
+      "what": "واریزی دکتر مقیمی جهت هزینه‌های جاری انجمن — «این فعلا ده میلیون» (رسید عکس فورواردی از سامان مقیمی)",
+      "message_ids": ["message101", "message102", "message103"],
+      "amounts_toman": [10000000]
+    },
+    {
+      "what": "فهرست برداخت‌های بانکی انجمن: شیرینی جلسه دیدار با اساتید ۱۰٬۵۲۳٬۷۵۰ ریال (۱٬۰۵۲٬۳۷۵ تومان) و دستمال ۷۰۰٬۰۰۰ ریال (۷۰٬۰۰۰ تومان)",
+      "message_ids": ["message105", "message106"],
+      "amounts_toman": [1052375, 70000]
+    },
+    {
+      "what": "خرید جایزه جشن (دفترچه خودکار، هندزفری، دستبند فرفره): ۱۴٬۴۴۰٬۰۰۰ + ۱۵٬۰۰۰٬۰۰۰ + ۱۴٬۰۰۰٬۰۰۰ ریال",
+      "message_ids": ["message107"],
+      "amounts_toman": [1444000, 1500000, 1400000]
+    },
+    {
+      "what": "اتصالات پروژکتور ۳٬۱۰۰٬۰۰۰، حفاظ برق و ابزار غرفه‌ها ۱۷٬۶۰۰٬۰۰۰ و پذیرایی غرفه ۲٬۳۰۰٬۰۰۰ ریال",
+      "message_ids": ["message108"],
+      "amounts_toman": [310000, 1760000, 230000]
+    },
+    {
+      "what": "داروی کمک اولیه ۱۲٬۲۶۱٬۰۰۰ ریال (۱٬۲۲۶٬۱۰۰ تومان)",
+      "message_ids": ["message109"],
+      "amounts_toman": [1226100]
+    },
+    {
+      "what": "چاپ قوانین ۲۳٬۰۰۰ + ۱۳٬۰۰۰ ریال و پول نقد شاباش جشن ۳۰۰٬۰۰۰ تومان",
+      "message_ids": ["message110", "message111"],
+      "amounts_toman": [2300, 1300, 300000]
+    },
+    {
+      "what": "ورودی‌های جشن یلدا: پیامک بانک سپه (واریز ۱٬۵۰۰٬۰۰۰ ریال، برداشت کارت‌به‌کارت هزینه‌ها ۱۰۰٬۰۳۷٬۸۰۰ ریال، واریز ۵٬۰۰۰٬۰۰۰ و ۱۰٬۰۰۰٬۰۰۰ ریال)؛ جمع واریزی نقدی ۱۵٬۷۹۰٬۰۰۰ تومان به‌علاوه ۷۰۰٬۰۰۰ تومان وجه نقد از منبع کمک مالی جمعی",
+      "message_ids": ["message112", "message113", "message114", "message115", "message116", "message117", "message118", "message119", "message120", "message121"],
+      "amounts_toman": [150000, 10003780, 500000, 1000000, 15790000, 700000]
+    },
+    {
+      "what": "رسیدهای جشن یلدا (کوکی و اقلام دیگر) ارسالی دیرهنگام پرنیان — دستور وارد کردن به ورودی‌ها",
+      "message_ids": ["message124", "message125", "message126", "message128", "message129"],
+      "amounts_toman": []
+    },
+    {
+      "what": "درخواست نهایی ارسال عکس همه فاکتورها تا پایان روز و هماهنگی جلسه حضوری تحویل حساب (میت)",
+      "message_ids": ["message136", "message138"],
+      "amounts_toman": []
+    },
+    {
+      "what": "دسته رسیدهای عکس نهایی: جشن یلدا (۳ مورد)، چاپ پوستر انجمن، خودکار/روان‌نویس/دفترچه جشن ورودی، جوایز جشن ورودی، جوایز و فلش انجمن، پذیرایی نشست اساتید مهرماه، پذیرایی چای و فیزیک مهرماه، پذیرایی یلدا، نخ بسته‌بندی فال یلدا، پذیرایی غرفه انجمن شریف",
+      "message_ids": ["message142", "message143", "message144", "message145", "message146", "message147", "message148", "message149", "message150", "message151", "message152", "message153", "message165"],
+      "amounts_toman": []
+    },
+    {
+      "what": "تسویه خریدهای بردیا (هزار تومان): جا سوییچی و گوشواره انار ۴۰۰، جا سوییچی عروسکی ۲۵۰، هندونه و انار ۶۰۰، ساندویچ ۲۷۵ و ژله فرمند ۸۸۷ از فاکتور ۱۱۶۲ — رسید ۶۰۰ و فاکتور ۱۱۶۲ مفقود",
+      "message_ids": ["message154", "message155", "message156", "message157", "message158", "message159"],
+      "amounts_toman": [400000, 250000, 600000, 275000, 887000]
+    },
+    {
+      "what": "رسیدهای حسین: ژله و شربت آلبالو (عکس)، کاغذ و ماژیک ۱۶۵ و شیرینی تو راه ۶۰ + ۵۰ هزار تومان",
+      "message_ids": ["message161", "message162", "message163"],
+      "amounts_toman": [165000, 60000, 50000]
+    },
+    {
+      "what": "جمع‌بندی نهایی اقلام خرید (هر رقم هزار تومان): ۴۰۰+۲۵۰+۶۰۰+۲۷۵+۸۸۷+۱۶۵+۶۰+۵۰+۱۲۸۰+۸۷۰ = ۴٬۸۳۷٬۰۰۰ تومان",
+      "message_ids": ["message164"],
+      "amounts_toman": [400000, 250000, 600000, 275000, 887000, 165000, 60000, 50000, 1280000, 870000]
+    }
+  ]
+}

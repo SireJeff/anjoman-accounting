@@ -1,0 +1,147 @@
+{
+  "source": "summerschool_channel",
+  "n_messages": 37,
+  "months": {
+    "1404/04": {
+      "count": 19,
+      "top_participants": [["Physics summer school", 16]]
+    },
+    "1404/05": {
+      "count": 2,
+      "top_participants": [["Physics summer school", 2]]
+    },
+    "1405/06": {
+      "count": 16,
+      "top_participants": [["Physics summer school", 11]]
+    }
+  },
+  "participants": [
+    ["Physics summer school", "27", "100.0"]
+  ],
+  "media_mix": {
+    "photo": 13,
+    "video": 0,
+    "voice": 0,
+    "document": 0,
+    "poll": 0,
+    "sticker": 0,
+    "animated": 0
+  },
+  "forwarded_origins": [
+    ["انجمن علمی فیزیک شریف", 1],
+    ["Physics summer school", 1]
+  ],
+  "candidate_threads": [
+    {
+      "event_ref": "summer-school-1404-computational-skills",
+      "title": "مدرسه تابستانه مجازی مهارت‌های محاسباتی ۱۴۰۴ — سه دوره لتک/پایتون/متمتیکا (پوستر، سیلابس، تقویم، شروع)",
+      "keywords": ["مدرسه تابستانه", "مهارت‌های محاسباتی", "لاتک/LaTeX", "پایتون مقدماتی برای فیزیک", "متمتیکا", "سیلابس", "تقویم مدرسه تابستانه", "اسکای‌روم", "شنبه‌های حرفه‌ای"],
+      "anchor_dates": ["2025-07-17", "2025-07-18", "2025-07-26"],
+      "chats_seen_in": ["summerschool_channel"],
+      "evidence_message_ids": ["message3", "message4", "message5", "message6", "message7", "message8", "message9", "message11", "message12", "message13", "message15", "message25", "message26"]
+    },
+    {
+      "event_ref": "summer-school-1404-registration-payment",
+      "title": "ثبت‌نام و پرداخت مدرسه ۱۴۰۴ — گوگل فرم، هزینه هر دوره ۲۰۰٬۰۰۰ تومان، تخفیف ۱۰٪، تمدید مهلت واریز، لینک گروه‌ها",
+      "keywords": ["ثبت‌نام", "گوگل فرم", "هزینه هر دوره", "بسته جامع", "تخفیف ۱۰ درصدی", "واریز", "پرداخت", "مهلت ثبت‌نام", "لینک گروه‌ها", "@sutschools"],
+      "anchor_dates": ["2025-07-18", "2025-07-19", "2025-07-20", "2025-07-21", "2025-07-22"],
+      "chats_seen_in": ["summerschool_channel"],
+      "evidence_message_ids": ["message14", "message16", "message18", "message19", "message20", "message21", "message22", "message23"]
+    },
+    {
+      "event_ref": "summer-school-1405-six-courses",
+      "title": "مدرسه تابستانه فیزیک ۴۰۵ — شش دوره (پایتون مقدماتی، شی‌گرایی، شبیه‌سازی، لتک، API، Manim) با قیمت هر دوره و تقویم",
+      "keywords": ["مدرسه تابستانه", "ورودی ۴۰۵", "پایتون مقدماتی", "شی‌گرایی/OOP", "شبیه‌سازی فیزیکی", "لتک/LaTeX", "دوره API", "Manim", "۲۲ جلسه", "دایره‌المعارف", "18:00 الی 19:10", "هزینه دوره"],
+      "anchor_dates": ["2026-08-25", "2026-08-29"],
+      "chats_seen_in": ["summerschool_channel"],
+      "evidence_message_ids": ["message28", "message29", "message30", "message31", "message32", "message33", "message34", "message43", "message44", "message45"]
+    },
+    {
+      "event_ref": "summer-school-1405-registration-website",
+      "title": "ثبت‌نام آنلاین مدرسه ۱۴۰۵ از سایت انجمن (alenush.com) — زرین‌پال/کیف پول، تخفیف ۱۵٪ شریفی و کدهای تخفیف",
+      "keywords": ["ثبت‌نام", "alenush.com", "پنل کاربری", "زرین‌پال", "کیف پول", "رسید", "بازگشت وجه", "تخفیف ۱۵ درصدی", "First30sumsch", "PLANCK1404", "SUPERPLANCK1404", "SOOMSOOM", "مهلت ۸ شهریور", "@sutschools"],
+      "anchor_dates": ["2026-08-27", "2026-08-29"],
+      "chats_seen_in": ["summerschool_channel"],
+      "evidence_message_ids": ["message36", "message37", "message39", "message40", "message41", "message42"]
+    }
+  ],
+  "time_patterns": [
+    {
+      "kind": "event-hour",
+      "hour": 18,
+      "jalali_weekday": "همه‌روزه",
+      "n": 8,
+      "evidence_message_ids": ["message29", "message30", "message31", "message32", "message33", "message34", "message40", "message45"]
+    },
+    {
+      "kind": "active-hour",
+      "hour": 22,
+      "jalali_weekday": "سه‌شنبه",
+      "n": 5,
+      "evidence_message_ids": ["message28", "message29", "message30", "message31", "message32"]
+    },
+    {
+      "kind": "weekday-slot",
+      "hour": 0,
+      "jalali_weekday": "شنبه",
+      "n": 11,
+      "evidence_message_ids": ["message18", "message19", "message20", "message25", "message26", "message40", "message41", "message42", "message43", "message44", "message45"]
+    },
+    {
+      "kind": "weekday-slot",
+      "hour": 0,
+      "jalali_weekday": "جمعه",
+      "n": 10,
+      "evidence_message_ids": ["message6", "message7", "message8", "message9", "message11", "message12", "message13", "message14", "message15", "message16"]
+    },
+    {
+      "kind": "weekday-slot",
+      "hour": 0,
+      "jalali_weekday": "سه‌شنبه",
+      "n": 8,
+      "evidence_message_ids": ["message23", "message28", "message29", "message30", "message31", "message32", "message33", "message34"]
+    }
+  ],
+  "financial_signals": [
+    {
+      "what": "مدرسه ۱۴۰۴: هزینه هر دوره ۲۰۰٬۰۰۰ تومان و بسته جامع هر ۳ دوره ۴۶۹٬۰۰۰ تومان؛ تخفیف ۴۰٪ شریفی‌ها (هر دوره ۱۲۰٬۰۰۰، بسته ۲۸۱٬۰۰۰ تومان) — اعلام در پست معرفی و فرم ثبت‌نام",
+      "message_ids": ["message3", "message14"],
+      "amounts_toman": [200000, 469000, 120000, 281000]
+    },
+    {
+      "what": "مدرسه ۱۴۰۴: تخفیف ۱۰٪ غیرشریفی‌ها با مهلت محدود (پایان ۱۲ ظهر، سپس تمدید تا ۱۸:۰۰) و مهلت ثبت‌نام ۲۳:۵۹ یکشنبه",
+      "message_ids": ["message18", "message20"],
+      "amounts_toman": []
+    },
+    {
+      "what": "مدرسه ۱۴۰۴: تمدید مهلت واریز/پرداخت تا ۱۲ ظهر به دلیل مشکلات همراه بانک؛ عدم واریزی = حذف از لیست ثبت‌نامی",
+      "message_ids": ["message21", "message22"],
+      "amounts_toman": []
+    },
+    {
+      "what": "مدرسه ۱۴۰۴: اشاره به هزینه‌ها در FAQ و دایره‌المعارف (بخش «ثبت‌نام و هزینه دوره»، شرایط تخفیف) بدون مبلغ جدید",
+      "message_ids": ["message15", "message16"],
+      "amounts_toman": []
+    },
+    {
+      "what": "مدرسه ۱۴۰۵: قیمت هر دوره — پایتون مقدماتی ۱٬۰۸۰٬۰۰۰، لتک ۵۴۰٬۰۰۰، API ۵۴۰٬۰۰۰، شی‌گرایی ۳۶۰٬۰۰۰، Manim ۵۴۰٬۰۰۰، شبیه‌سازی ۹۰۰٬۰۰۰ تومان (مجموع = قیمت بسته کامل)",
+      "message_ids": ["message29", "message30", "message31", "message32", "message33", "message34"],
+      "amounts_toman": [1080000, 540000, 540000, 360000, 540000, 900000]
+    },
+    {
+      "what": "مدرسه ۱۴۰۵: هزینه دوره کامل ۲۲ جلسه‌ای ۳٬۹۶۰٬۰۰۰ تومان (۳ میلیون و ۹۶۰ هزارتومان) + معرفی ثبت‌نام و تخفیف‌های آتی",
+      "message_ids": ["message28"],
+      "amounts_toman": [3960000]
+    },
+    {
+      "what": "مدرسه ۱۴۰۵: تخفیف‌ها — ۱۵٪ دانشجویان شریف، کد ۱۰٪ First30sumsch (۳۰ نفر)، PLANCK1404 ویژه ورودی ۱۴۰۴، سپس SUPERPLANCK1404 و SOOMSOOM (با سقف ظرفیت و انقضا)",
+      "message_ids": ["message36", "message37", "message42"],
+      "amounts_toman": []
+    },
+    {
+      "what": "مدرسه ۱۴۰۵: زیرساخت پرداخت سایت — درگاه زرین‌پال/کارت، کیف پول و شارژ، تاریخچه پرداخت و رسیدها در پنل، بازگشت وجه خودکار تا ۴۸ ساعت قبل شروع؛ هزینه هر دوره در صفحه دوره در سایت",
+      "message_ids": ["message40", "message41"],
+      "amounts_toman": []
+    }
+  ]
+}
