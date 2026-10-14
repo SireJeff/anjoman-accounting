@@ -1,0 +1,30 @@
+{
+ "total": 16677,
+ "by_method": {
+  "unclassified": 8980,
+  "lexicon": 7271,
+  "rule": 426
+ },
+ "by_category": {
+  "education_courses": 1675,
+  "finance_operations": 1006,
+  "community_social": 1931,
+  "events": 2103,
+  "coordination_logistics": 424,
+  "media_outreach": 1377,
+  "meta_noise": 2408,
+  "governance_decisions": 1306,
+  "publications_shabahng": 211,
+  "website_tech": 200
+ },
+ "in_window": {
+  "total": 12066,
+  "by_method": {
+   "unclassified": 6730,
+   "lexicon": 5072,
+   "rule": 264
+  },
+  "classified": 5336,
+  "coverage_pct": 44.22
+ }
+}
