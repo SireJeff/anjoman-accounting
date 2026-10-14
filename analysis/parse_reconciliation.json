@@ -1,0 +1,56 @@
+{
+ "private_group": {
+  "grep_default": 5309,
+  "parsed_default": 5309,
+  "parsed_service": 213,
+  "default_delta": 0,
+  "with_timestamp": 5309,
+  "forwarded_with_origin": 237
+ },
+ "public_group": {
+  "grep_default": 6136,
+  "parsed_default": 6136,
+  "parsed_service": 111,
+  "default_delta": 0,
+  "with_timestamp": 6136,
+  "forwarded_with_origin": 160
+ },
+ "channel": {
+  "grep_default": 3015,
+  "parsed_default": 3015,
+  "parsed_service": 1652,
+  "default_delta": 0,
+  "with_timestamp": 3015,
+  "forwarded_with_origin": 816
+ },
+ "accounting_group": {
+  "grep_default": 158,
+  "parsed_default": 158,
+  "parsed_service": 30,
+  "default_delta": 0,
+  "with_timestamp": 158,
+  "forwarded_with_origin": 18
+ },
+ "summerschool_channel": {
+  "grep_default": 37,
+  "parsed_default": 37,
+  "parsed_service": 16,
+  "default_delta": 0,
+  "with_timestamp": 37,
+  "forwarded_with_origin": 2
+ },
+ "_totals": {
+  "messages": 16677,
+  "forwarded_expected_about": 1271,
+  "forwarded_raw_blocks": 1273,
+  "forwarded_actual": 1233,
+  "default_total": 14655,
+  "service_total": 2022
+ },
+ "notes": {
+  "gate_result": "PASS - default_delta is 0 for all five chats; no discrepancies to explain.",
+  "forwarded_1233_vs_expected_1271": "Raw grep counts 1273 'class=\"forwarded body\"' divs across all sources (264/171/816/20/2 per chat, grep-verified). The parser records forwarded_with_origin only when the block carries an inner from_name origin label: 1233 blocks do. The other 40 blocks (27 private_group, 11 public_group, 2 accounting_group) sit inside message divs with class 'joined' and contain NO from_name, because Telegram Desktop's export renderer merges the origin label onto the first block of a run of consecutive forwards from the same source. Proven by lxml probe over all 19 files: joined-without-name=40, not-joined-without-name=0 in every chat. This is the anticipated joined-forward merge, not a parser miss; the 1271 exploration figure corresponds to the raw block count (1273), not to blocks carrying a label.",
+  "service_counts": "parsed_service matches raw grep of 'class=\"message service' exactly in every chat (213/111/1652/30/16), so default + service closes on the full population: 14655 default + 2022 service = 16677 total records.",
+  "timestamps": "with_timestamp equals parsed_default in every chat - zero untimestamped non-service messages; the only records with timestamp null are service messages."
+ }
+}
