@@ -8,7 +8,7 @@ def test_enrich_jalali_and_window():
     assert out["hour"] == 14
     assert out["weekday_en"] == "Monday"
     assert out["in_window"] is True
-    assert isinstance(out["jalali_weekday"], str) and out["jalali_weekday"]
+    assert out["jalali_weekday"] == "دوشنبه"
 
 def test_enrich_excludes_pre_window():
     rec = {"timestamp": "2025-05-27T10:00:00"}

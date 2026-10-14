@@ -107,10 +107,14 @@ def parse_file(path: Path, chat: str):
 import jdatetime
 from .common import ROOT, SOURCES, write_json, WINDOW_START, WINDOW_END
 
+# Persian weekday names only render when the date's locale is FA_LOCALE;
+# without it jd.strftime("%A") returns the English name on non-Persian hosts.
+_FA_LOCALE = getattr(jdatetime, "FA_LOCALE", "Persian_Iran")
+
 def enrich(rec):
     if rec.get("timestamp"):
         dt = datetime.fromisoformat(rec["timestamp"])
-        jd = jdatetime.date.fromgregorian(date=dt.date())
+        jd = jdatetime.date.fromgregorian(date=dt.date(), locale=_FA_LOCALE)
         rec["date_greg"] = dt.date().isoformat()
         rec["jalali_month"] = f"{jd.year}/{jd.month:02d}"
         rec["jalali_weekday"] = jd.strftime("%A")
