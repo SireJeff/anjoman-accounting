@@ -21,7 +21,13 @@ def test_forwarded_fixture_has_origin():
     fwd = [x for x in msgs if x["forwarded_from"]]
     assert fwd, "expected at least one forwarded message with a non-empty origin"
 
+def test_voice_message_media_kind():
+    # real voice blocks use class media_voice_message and must yield "voice"
+    msgs = parse_file(FIX / "voice.html", "test")
+    assert any("voice" in m["media_kinds"] for m in msgs)
+
 def test_service_messages_flagged():
     # service messages (joins, pins) must be flagged, not crash the parser
     msgs = parse_file(FIX / "plain.html", "test")
     assert all(isinstance(m["is_service"], bool) for m in msgs)
+    assert any(m["is_service"] for m in msgs)  # fixture contains a real service message (message803)

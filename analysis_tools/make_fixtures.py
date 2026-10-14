@@ -44,6 +44,10 @@ if __name__ == "__main__":
         grab(SOURCES["private_group"] / "messages.html",
              ["message803", "message804", "message806"]),
         encoding="utf-8")
+    # voice message (media_voice_message block, non-forwarded) from the private group
+    (FIX / "voice.html").write_text(
+        grab(SOURCES["private_group"] / "messages.html", ["message1699"]),
+        encoding="utf-8")
     # forwarded messages, from the channel (found by scanning for 'forwarded body')
     chan_file = SOURCES["channel"] / "messages3.html"
     ids = forwarded_ids(chan_file)

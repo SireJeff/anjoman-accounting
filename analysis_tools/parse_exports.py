@@ -20,6 +20,20 @@ analysis_tools/tests/fixtures/):
   with avatar initials.
 - reply_to hrefs look like "#go_to_message802"; we strip the "go_to_" marker so
   the value matches the message_id format ("message802") for joins.
+
+Fix round 1:
+- Message selection now uses starts-with(normalize-space(@class),"message"):
+  a bare contains(@class,"message") also matched NESTED divs such as
+  <div class="media clearfix pull_left media_voice_message"> and
+  <div class="text rich_message">, producing phantom nosid- records (proven:
+  1112 records vs 1068 real message divs in private_group/messages2.html).
+  All three real message variants ("message default clearfix[ joined]",
+  "message service") start with "message"; no nested class does.
+- Media kinds map (verified across all 19 export HTML files): only
+  photo_wrap (2653x), media_poll (7x) and media_voice_message (314x) occur;
+  the brief's other guesses (video_file_wrap, voice_player, animated_wrap,
+  sticker_wrap, document_wrap, media_audio_player) occur 0x and are pruned.
+  Voice blocks use media_voice_message -> "voice".
 """
 import re
 from datetime import datetime
@@ -27,8 +41,8 @@ from pathlib import Path
 from lxml import html as lhtml
 
 DATE_RE = re.compile(r"(\d{2})\.(\d{2})\.(\d{4}) (\d{2}):(\d{2}):(\d{2})(?:\s*(UTC[+-][\d:]+))?")
-MEDIA_CLASSES = ["photo_wrap", "video_file_wrap", "voice_player", "animated_wrap",
-                 "sticker_wrap", "media_poll", "document_wrap", "media_audio_player"]
+# class token -> media kind; only classes verified present in the real exports
+MEDIA_CLASSES = {"photo_wrap": "photo", "media_voice_message": "voice", "media_poll": "poll"}
 
 def parse_timestamp(title):
     m = DATE_RE.search(title or "")
@@ -42,10 +56,9 @@ def iter_message_files(chat_dir: Path):
 
 def _media_kinds(node):
     out = []
-    for cls in MEDIA_CLASSES:
-        xp = f'.//*[contains(@class,"{cls}")]'
-        if node.xpath(xp):
-            out.append(cls.replace("_wrap", "").replace("media_", "").replace("_player", ""))
+    for cls, kind in MEDIA_CLASSES.items():
+        if node.xpath(f'.//*[contains(@class,"{cls}")]'):
+            out.append(kind)
     return out
 
 def _clean(texts):
@@ -59,7 +72,7 @@ _FROM_NAME_TEXT = ('.//div[contains(@class,"from_name")]'
 def parse_file(path: Path, chat: str):
     doc = lhtml.parse(str(path))
     records = []
-    for msg in doc.xpath('//div[contains(@class,"message")]'):
+    for msg in doc.xpath('//div[starts-with(normalize-space(@class),"message")]'):
         mid = msg.get("id", "")
         titles = msg.xpath('.//div[contains(@class,"date") and contains(@class,"details")]/@title')
         ts, tz = parse_timestamp(titles[0]) if titles else (None, None)
