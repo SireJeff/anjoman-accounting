@@ -75,6 +75,18 @@ def test_backfill_untouched_by_normal_service_or_chat_boundary():
     assert msgs[1]["forwarded_from"] is None and msgs[2]["forwarded_from"] is None
 
 
+def test_association_handle_alias_mention():
+    # task-10 review fix: the association's own handle (any case form) aliases
+    # into the association seed node instead of a handle: external node
+    g = build([{"chat": "channel", "forwarded_from": None,
+                "text_plain": "پیگیری در @Anjoman_Elmi_Phys_sut"}])
+    ids = {n["id"] for n in g["nodes"]}
+    assert "handle:anjoman_elmi_phys_sut" not in ids
+    assert "handle:rnjoman_elmi_phys_sut" not in ids
+    weights = {(e["source"], e["target"], e["type"]): e["weight"] for e in g["edges"]}
+    assert weights[("channel_export", "association", "mention")] == 1
+
+
 def test_backfill_reduces_nulls_on_real_data():
     # the 40 known label-less joined forwards from the task-4 reconciliation
     # (27 private_group, 11 public_group, 2 accounting_group; 0 elsewhere)

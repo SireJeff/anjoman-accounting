@@ -40,6 +40,13 @@ SEED_MATCH = {"شباهنگ": "shabahang_sut", "نجوم": "sharifastronomy", "�
               "تابستانه": "sutschools", "school": "sutschools",
               "summer school": "sutschools",  # English form of the summerschool entity
               "انجمن علمی فیزیک": "association"}
+# Curated alias (task-10 review fix): the association's own handle and its
+# r-typo variant are the association itself, so mentions of them land on the
+# seed node instead of separate handle: externals. SEED_MATCH cannot do this:
+# mentions carry bare handles and bypass _map_origin. Deliberately excludes the
+# ambiguous family variants (anjoman_elmi_phys_su, elmi_physics, anjomansut, ...)
+# which stay external.
+HANDLE_ALIAS = {"anjoman_elmi_phys_sut": "association", "rnjoman_elmi_phys_sut": "association"}
 HANDLE_RE = re.compile(r"(?:t\.me/|@)([A-Za-z0-9_]{4,})")
 EXPORT_NODE = {"private_group": "private_group_export", "public_group": "public_group_export",
                "channel": "channel_export", "accounting_group": "accounting_group_export",
@@ -95,7 +102,8 @@ def build(messages, backfill=True):
                 externals[raw] = externals.get(raw, 0) + 1
                 fwd[(src, f"ext:{raw}")] += 1
         for h in HANDLE_RE.findall(m.get("text_plain") or ""):
-            sid = h.lower() if h.lower() in {s[0] for s in SEEDS} else f"handle:{h.lower()}"
+            hl = HANDLE_ALIAS.get(h.lower(), h.lower())
+            sid = hl if hl in {s[0] for s in SEEDS} else f"handle:{hl}"
             men[(src, sid)] += 1
     nodes = [{"id": sid, "label": lab, "type": typ, "seed": True}
              for sid, lab, typ in SEEDS]
