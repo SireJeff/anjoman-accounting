@@ -1,0 +1,808 @@
+{
+"private_group#message10709": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10710": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10712": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10713": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10715": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10718": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10719": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10720": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10721": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10724": {
+"categories": [
+"media_outreach",
+"governance_decisions"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10731": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10732": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10734": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10736": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10737": {
+"categories": [
+"media_outreach"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10738": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10740": {
+"categories": [
+"media_outreach"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10741": {
+"categories": [
+"media_outreach"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10742": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10743": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10744": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10747": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10748": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10751": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10752": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10754": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10755": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10758": {
+"categories": [
+"media_outreach"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10760": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10761": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10762": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10763": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10764": {
+"categories": [
+"media_outreach"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10765": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10766": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10767": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10768": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10769": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10770": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10771": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10772": {
+"categories": [
+"media_outreach"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10774": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10775": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10777": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10778": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10779": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10782": {
+"categories": [
+"media_outreach",
+"education_courses"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10783": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10784": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10786": {
+"categories": [
+"media_outreach"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10791": {
+"categories": [
+"media_outreach"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10792": {
+"categories": [
+"media_outreach"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10793": {
+"categories": [
+"media_outreach"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10794": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10795": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10796": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10797": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10799": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10800": {
+"categories": [
+"media_outreach"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10803": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10806": {
+"categories": [
+"media_outreach"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10809": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10810": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10812": {
+"categories": [
+"media_outreach",
+"coordination_logistics"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10813": {
+"categories": [
+"media_outreach"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10814": {
+"categories": [
+"media_outreach",
+"website_tech"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10816": {
+"categories": [
+"media_outreach"
+],
+"is_decision": false,
+"event_ref": "instagram-growth-campaign",
+"confidence": 0.6
+},
+"private_group#message10820": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10823": {
+"categories": [
+"media_outreach"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10824": {
+"categories": [
+"coordination_logistics"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10825": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10826": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10827": {
+"categories": [
+"media_outreach",
+"governance_decisions"
+],
+"is_decision": true,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10829": {
+"categories": [
+"community_social"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10831": {
+"categories": [
+"media_outreach"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10833": {
+"categories": [
+"coordination_logistics",
+"media_outreach"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10836": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10837": {
+"categories": [
+"community_social"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10838": {
+"categories": [
+"coordination_logistics"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10841": {
+"categories": [
+"community_social"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10842": {
+"categories": [
+"community_social"
+],
+"is_decision": false,
+"event_ref": "tea-physics-society",
+"confidence": 0.6
+},
+"private_group#message10844": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10848": {
+"categories": [
+"community_social"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10849": {
+"categories": [
+"media_outreach"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10850": {
+"categories": [
+"media_outreach"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10852": {
+"categories": [
+"media_outreach"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10853": {
+"categories": [
+"media_outreach"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10854": {
+"categories": [
+"media_outreach"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10855": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10856": {
+"categories": [
+"media_outreach"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10857": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10859": {
+"categories": [
+"media_outreach"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10862": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10863": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10864": {
+"categories": [
+"media_outreach"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10865": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10867": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10870": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10873": {
+"categories": [
+"media_outreach"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10877": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+}
+}

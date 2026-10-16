@@ -1,0 +1,9682 @@
+{
+ "public_group#message1023": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.5
+ },
+ "public_group#message1024": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1025": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.5
+ },
+ "public_group#message1026": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1027": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.5
+ },
+ "public_group#message1028": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.55
+ },
+ "public_group#message1029": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.55
+ },
+ "public_group#message1031": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1033": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1034": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1035": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1036": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1037": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1041": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1042": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.5
+ },
+ "public_group#message1043": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1046": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1048": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1049": {
+  "categories": [
+   "events",
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message1050": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.55
+ },
+ "public_group#message1053": {
+  "categories": [
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.5
+ },
+ "public_group#message1060": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message1062": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message1063": {
+  "categories": [
+   "community_social",
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1064": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message1065": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message1066": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.65
+ },
+ "public_group#message1067": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1068": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1073": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "media-team-content-pipeline",
+  "confidence": 0.55
+ },
+ "public_group#message1078": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1086": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "media-team-content-pipeline",
+  "confidence": 0.55
+ },
+ "public_group#message1089": {
+  "categories": [
+   "events",
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.5
+ },
+ "public_group#message1090": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1093": {
+  "categories": [
+   "events",
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.55
+ },
+ "public_group#message1095": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message1096": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.55
+ },
+ "public_group#message1098": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.55
+ },
+ "public_group#message1100": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1102": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1103": {
+  "categories": [
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message1104": {
+  "categories": [
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message1105": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message1106": {
+  "categories": [
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message1107": {
+  "categories": [
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message1108": {
+  "categories": [
+   "community_social",
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.5
+ },
+ "public_group#message1110": {
+  "categories": [
+   "community_social",
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.5
+ },
+ "public_group#message1112": {
+  "categories": [
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.55
+ },
+ "public_group#message1113": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1114": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.55
+ },
+ "public_group#message1115": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message1116": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.5
+ },
+ "public_group#message1118": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.55
+ },
+ "public_group#message1119": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.55
+ },
+ "public_group#message1121": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1123": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1125": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1126": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.65
+ },
+ "public_group#message1127": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.65
+ },
+ "public_group#message1129": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message1131": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message1132": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.55
+ },
+ "public_group#message1134": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1135": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.55
+ },
+ "public_group#message1136": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.65
+ },
+ "public_group#message1138": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.65
+ },
+ "public_group#message1139": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.55
+ },
+ "public_group#message1140": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.65
+ },
+ "public_group#message1141": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message1142": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message1143": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.55
+ },
+ "public_group#message1144": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message1145": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.55
+ },
+ "public_group#message1146": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message1148": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.5
+ },
+ "public_group#message1149": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1150": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.5
+ },
+ "public_group#message1155": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.5
+ },
+ "public_group#message1157": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.55
+ },
+ "public_group#message1160": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message1161": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.55
+ },
+ "public_group#message1163": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.55
+ },
+ "public_group#message1164": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.55
+ },
+ "public_group#message1165": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1166": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message1167": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1169": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message1170": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message1171": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1172": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.5
+ },
+ "public_group#message1173": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.55
+ },
+ "public_group#message1174": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message1176": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message1177": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message1178": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message1180": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.5
+ },
+ "public_group#message1184": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message1185": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.5
+ },
+ "public_group#message1188": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.5
+ },
+ "public_group#message1190": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.65
+ },
+ "public_group#message1191": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message1193": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.55
+ },
+ "public_group#message1195": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1197": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1198": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1199": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.55
+ },
+ "public_group#message1200": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message1202": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.55
+ },
+ "public_group#message1204": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.55
+ },
+ "public_group#message1205": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message1207": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message1208": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.5
+ },
+ "public_group#message1209": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message1211": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.65
+ },
+ "public_group#message1214": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.5
+ },
+ "public_group#message1217": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.5
+ },
+ "public_group#message1218": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.5
+ },
+ "public_group#message1219": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.5
+ },
+ "public_group#message1221": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1222": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.55
+ },
+ "public_group#message1224": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1225": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.55
+ },
+ "public_group#message1227": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.5
+ },
+ "public_group#message1228": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1229": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.5
+ },
+ "public_group#message1230": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.55
+ },
+ "public_group#message1231": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1234": {
+  "categories": [
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.5
+ },
+ "public_group#message1238": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1243": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1244": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1245": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1247": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1248": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1249": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1250": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1251": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1253": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1254": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1258": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1261": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1262": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.55
+ },
+ "public_group#message1264": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.55
+ },
+ "public_group#message1266": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1268": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1270": {
+  "categories": [
+   "community_social",
+   "finance_operations"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1272": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1273": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1276": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1278": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1280": {
+  "categories": [
+   "finance_operations"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1281": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1285": {
+  "categories": [
+   "finance_operations"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1287": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1290": {
+  "categories": [
+   "finance_operations"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message1291": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1292": {
+  "categories": [
+   "finance_operations"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message1293": {
+  "categories": [
+   "finance_operations"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message1294": {
+  "categories": [
+   "finance_operations"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message1295": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1296": {
+  "categories": [
+   "finance_operations"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1301": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1304": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1305": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1306": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1307": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1308": {
+  "categories": [
+   "finance_operations"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.65
+ },
+ "public_group#message1309": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1310": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1311": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1314": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1322": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1323": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1325": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1327": {
+  "categories": [
+   "finance_operations"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1329": {
+  "categories": [
+   "finance_operations"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message1330": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1331": {
+  "categories": [
+   "finance_operations"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message1333": {
+  "categories": [
+   "finance_operations"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message1335": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1336": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1337": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1338": {
+  "categories": [
+   "finance_operations"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message1339": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1340": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1341": {
+  "categories": [
+   "finance_operations"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1343": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1345": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1346": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1347": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1348": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1349": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1350": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1352": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1354": {
+  "categories": [
+   "finance_operations"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message1355": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1356": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.65
+ },
+ "public_group#message1357": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message1358": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.55
+ },
+ "public_group#message1359": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1360": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1361": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1362": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1363": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1364": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1365": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1366": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1367": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1369": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1370": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1371": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1372": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1373": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1374": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1375": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1376": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1377": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1378": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1380": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1381": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1384": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1385": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1387": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1388": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1389": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1390": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1392": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1396": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1397": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1398": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1399": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1400": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1402": {
+  "categories": [
+   "governance_decisions"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message1403": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1404": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1405": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1406": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1407": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1408": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.5
+ },
+ "public_group#message1409": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.5
+ },
+ "public_group#message1412": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.65
+ },
+ "public_group#message1413": {
+  "categories": [
+   "coordination_logistics",
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.65
+ },
+ "public_group#message1414": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message1415": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message1416": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message1418": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message1422": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message1423": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message1426": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.55
+ },
+ "public_group#message1428": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.55
+ },
+ "public_group#message1429": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.5
+ },
+ "public_group#message1430": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1431": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1434": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1435": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1437": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1438": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message1439": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1440": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1441": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.55
+ },
+ "public_group#message1442": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1443": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1446": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1448": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1449": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1450": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1452": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1454": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1456": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1466": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1468": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1469": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1471": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1472": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1473": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1475": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1476": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1477": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1481": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1482": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1484": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1485": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1486": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1488": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1489": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1490": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1491": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1493": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1494": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1495": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "weekly-coordination-meeting-21h",
+  "confidence": 0.7
+ },
+ "public_group#message1497": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "weekly-coordination-meeting-21h",
+  "confidence": 0.55
+ },
+ "public_group#message1498": {
+  "categories": [
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.55
+ },
+ "public_group#message1500": {
+  "categories": [
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.5
+ },
+ "public_group#message1501": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1502": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1503": {
+  "categories": [
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.5
+ },
+ "public_group#message1504": {
+  "categories": [
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.5
+ },
+ "public_group#message1505": {
+  "categories": [
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.55
+ },
+ "public_group#message1506": {
+  "categories": [
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.55
+ },
+ "public_group#message1507": {
+  "categories": [
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.55
+ },
+ "public_group#message1509": {
+  "categories": [
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.55
+ },
+ "public_group#message1510": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1511": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1512": {
+  "categories": [
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.5
+ },
+ "public_group#message1513": {
+  "categories": [
+   "finance_operations",
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1514": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1517": {
+  "categories": [
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message1518": {
+  "categories": [
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message1519": {
+  "categories": [
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message1520": {
+  "categories": [
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.55
+ },
+ "public_group#message1523": {
+  "categories": [
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.55
+ },
+ "public_group#message1524": {
+  "categories": [
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.55
+ },
+ "public_group#message1525": {
+  "categories": [
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.5
+ },
+ "public_group#message1526": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1528": {
+  "categories": [
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.55
+ },
+ "public_group#message1529": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1530": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1531": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1532": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1533": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.5
+ },
+ "public_group#message1534": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1535": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1537": {
+  "categories": [
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.55
+ },
+ "public_group#message1538": {
+  "categories": [
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message1540": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1541": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1543": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1544": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1545": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1546": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1547": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1548": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1549": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1550": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1551": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1552": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1553": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message1554": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message1555": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1556": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1557": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1558": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1560": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1561": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1562": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "weekly-coordination-meeting-21h",
+  "confidence": 0.65
+ },
+ "public_group#message1564": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1567": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1568": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1569": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1570": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1571": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1572": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1573": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1574": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1575": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1576": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1577": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1578": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1579": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1581": {
+  "categories": [
+   "community_social",
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1582": {
+  "categories": [
+   "community_social",
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1583": {
+  "categories": [
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message1584": {
+  "categories": [
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message1585": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1586": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1587": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1589": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1590": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1591": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1592": {
+  "categories": [
+   "finance_operations",
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message1594": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1595": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1600": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1601": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1602": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1603": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1605": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1611": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1612": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1614": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1615": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1620": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1624": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1627": {
+  "categories": [
+   "events",
+   "finance_operations"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.5
+ },
+ "public_group#message1628": {
+  "categories": [
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.5
+ },
+ "public_group#message1633": {
+  "categories": [
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.5
+ },
+ "public_group#message1639": {
+  "categories": [
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.55
+ },
+ "public_group#message1640": {
+  "categories": [
+   "events",
+   "finance_operations"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.55
+ },
+ "public_group#message1642": {
+  "categories": [
+   "events",
+   "finance_operations"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.5
+ },
+ "public_group#message1643": {
+  "categories": [
+   "events",
+   "finance_operations"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.5
+ },
+ "public_group#message1644": {
+  "categories": [
+   "events",
+   "finance_operations"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.5
+ },
+ "public_group#message1645": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1646": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1647": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1648": {
+  "categories": [
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.5
+ },
+ "public_group#message1649": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1650": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1654": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1655": {
+  "categories": [
+   "events",
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.5
+ },
+ "public_group#message1656": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1658": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1659": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.5
+ },
+ "public_group#message1661": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message1663": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message1667": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.6
+ },
+ "public_group#message1670": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1671": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1672": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1673": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1674": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1676": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1677": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1678": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1679": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1681": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1684": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.6
+ },
+ "public_group#message1691": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1692": {
+  "categories": [
+   "media_outreach",
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1693": {
+  "categories": [
+   "media_outreach",
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1694": {
+  "categories": [
+   "media_outreach",
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1695": {
+  "categories": [
+   "media_outreach",
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1696": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1697": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.65
+ },
+ "public_group#message1698": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1699": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.55
+ },
+ "public_group#message1703": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.5
+ },
+ "public_group#message1704": {
+  "categories": [
+   "community_social",
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1705": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1708": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1709": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1710": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1711": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1713": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1714": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.55
+ },
+ "public_group#message1717": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.65
+ },
+ "public_group#message1718": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1720": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1722": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.5
+ },
+ "public_group#message1727": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.5
+ },
+ "public_group#message1728": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.55
+ },
+ "public_group#message1729": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1730": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1731": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1732": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1733": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1734": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1735": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1736": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1737": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1738": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1739": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1740": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1741": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1742": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1743": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1744": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1745": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1746": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1747": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1748": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1749": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1750": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1751": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1752": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1753": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1754": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1756": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1757": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1760": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1761": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1762": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1763": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1764": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1766": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1770": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.6
+ },
+ "public_group#message1771": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.55
+ },
+ "public_group#message1772": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.6
+ },
+ "public_group#message1773": {
+  "categories": [
+   "media_outreach",
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.55
+ },
+ "public_group#message1774": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.6
+ },
+ "public_group#message1775": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.55
+ },
+ "public_group#message1776": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.55
+ },
+ "public_group#message1777": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.5
+ },
+ "public_group#message1778": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1779": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.6
+ },
+ "public_group#message1780": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.65
+ },
+ "public_group#message1781": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1782": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.55
+ },
+ "public_group#message1783": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1785": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1787": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.55
+ },
+ "public_group#message1788": {
+  "categories": [
+   "media_outreach",
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.6
+ },
+ "public_group#message1791": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.6
+ },
+ "public_group#message1794": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.5
+ },
+ "public_group#message1795": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.55
+ },
+ "public_group#message1797": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.6
+ },
+ "public_group#message1798": {
+  "categories": [
+   "media_outreach",
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.55
+ },
+ "public_group#message1799": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1800": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1801": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1802": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.55
+ },
+ "public_group#message1803": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1804": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1806": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1807": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.55
+ },
+ "public_group#message1808": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1809": {
+  "categories": [
+   "media_outreach",
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.5
+ },
+ "public_group#message1810": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.6
+ },
+ "public_group#message1811": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.55
+ },
+ "public_group#message1812": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.6
+ },
+ "public_group#message1813": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.5
+ },
+ "public_group#message1814": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1816": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.6
+ },
+ "public_group#message1817": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1820": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1822": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.6
+ },
+ "public_group#message1823": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1824": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1825": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1827": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.55
+ },
+ "public_group#message1828": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1832": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.55
+ },
+ "public_group#message1833": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.6
+ },
+ "public_group#message1834": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1835": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1836": {
+  "categories": [
+   "media_outreach",
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.55
+ },
+ "public_group#message1838": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1840": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1843": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1844": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1845": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1846": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1847": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.65
+ },
+ "public_group#message1848": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1849": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1850": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.6
+ },
+ "public_group#message1852": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.55
+ },
+ "public_group#message1854": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1855": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1857": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1858": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.65
+ },
+ "public_group#message1859": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.55
+ },
+ "public_group#message1860": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.6
+ },
+ "public_group#message1861": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.6
+ },
+ "public_group#message1863": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.55
+ },
+ "public_group#message1864": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1865": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.55
+ },
+ "public_group#message1867": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.6
+ },
+ "public_group#message1868": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.55
+ },
+ "public_group#message1870": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.6
+ },
+ "public_group#message1872": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.6
+ },
+ "public_group#message1873": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.6
+ },
+ "public_group#message1874": {
+  "categories": [
+   "media_outreach",
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.55
+ },
+ "public_group#message1876": {
+  "categories": [
+   "media_outreach",
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.5
+ },
+ "public_group#message1877": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1878": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.5
+ },
+ "public_group#message1881": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.6
+ },
+ "public_group#message1882": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1884": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.6
+ },
+ "public_group#message1885": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1886": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.6
+ },
+ "public_group#message1890": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1891": {
+  "categories": [
+   "media_outreach",
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.6
+ },
+ "public_group#message1892": {
+  "categories": [
+   "media_outreach",
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.55
+ },
+ "public_group#message1893": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.5
+ },
+ "public_group#message1894": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.6
+ },
+ "public_group#message1896": {
+  "categories": [
+   "media_outreach",
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message1897": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1898": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.5
+ },
+ "public_group#message1899": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.5
+ },
+ "public_group#message1900": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.5
+ },
+ "public_group#message1901": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.6
+ },
+ "public_group#message1902": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.6
+ },
+ "public_group#message1904": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.6
+ },
+ "public_group#message1905": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.6
+ },
+ "public_group#message1906": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.6
+ },
+ "public_group#message1907": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1908": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.65
+ },
+ "public_group#message1910": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.6
+ },
+ "public_group#message1912": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.6
+ },
+ "public_group#message1914": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": true,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.55
+ },
+ "public_group#message1915": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.6
+ },
+ "public_group#message1916": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1917": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.55
+ },
+ "public_group#message1921": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.6
+ },
+ "public_group#message1924": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1925": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1926": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1927": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.5
+ },
+ "public_group#message1928": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1929": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1930": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1933": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1934": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1935": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1936": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1938": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1939": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1940": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1941": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1942": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1943": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1945": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.5
+ },
+ "public_group#message1946": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.5
+ },
+ "public_group#message1947": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1949": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1950": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1951": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1953": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1954": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1957": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1958": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message1959": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.6
+ },
+ "public_group#message1960": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.6
+ },
+ "public_group#message1961": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.55
+ },
+ "public_group#message1962": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.55
+ },
+ "public_group#message1963": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1969": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1970": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1972": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1973": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.65
+ },
+ "public_group#message1974": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.6
+ },
+ "public_group#message1975": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1978": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1979": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1980": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1981": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.5
+ },
+ "public_group#message1984": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.55
+ },
+ "public_group#message1985": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.65
+ },
+ "public_group#message1988": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.55
+ },
+ "public_group#message1989": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": true,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.55
+ },
+ "public_group#message1990": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1993": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.5
+ },
+ "public_group#message1994": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.5
+ },
+ "public_group#message1996": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message1998": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.5
+ },
+ "public_group#message1999": {
+  "categories": [
+   "coordination_logistics",
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2006": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2007": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.6
+ },
+ "public_group#message2010": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.55
+ },
+ "public_group#message2011": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.65
+ },
+ "public_group#message2014": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2015": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.6
+ },
+ "public_group#message2016": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.55
+ },
+ "public_group#message2017": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2018": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.6
+ },
+ "public_group#message2022": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2023": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2024": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.6
+ },
+ "public_group#message2026": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.6
+ },
+ "public_group#message2029": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.55
+ },
+ "public_group#message2033": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2036": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2037": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2038": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.5
+ },
+ "public_group#message2042": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2043": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2049": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.5
+ },
+ "public_group#message2052": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2056": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2061": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2066": {
+  "categories": [
+   "finance_operations",
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2067": {
+  "categories": [
+   "finance_operations",
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.65
+ },
+ "public_group#message2068": {
+  "categories": [
+   "finance_operations",
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2070": {
+  "categories": [
+   "finance_operations",
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2071": {
+  "categories": [
+   "finance_operations",
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message2072": {
+  "categories": [
+   "finance_operations",
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message2073": {
+  "categories": [
+   "finance_operations",
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message2074": {
+  "categories": [
+   "finance_operations",
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message2075": {
+  "categories": [
+   "finance_operations",
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2077": {
+  "categories": [
+   "finance_operations",
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message2079": {
+  "categories": [
+   "finance_operations",
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2080": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2082": {
+  "categories": [
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message2084": {
+  "categories": [
+   "finance_operations",
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message2085": {
+  "categories": [
+   "finance_operations",
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message2087": {
+  "categories": [
+   "finance_operations",
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message2088": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2089": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2090": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2091": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2093": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2094": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2095": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2099": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2101": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2102": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.6
+ },
+ "public_group#message2104": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.6
+ },
+ "public_group#message2105": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2106": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2116": {
+  "categories": [
+   "events",
+   "finance_operations"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message2117": {
+  "categories": [
+   "events",
+   "finance_operations"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2123": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.65
+ },
+ "public_group#message2129": {
+  "categories": [
+   "events",
+   "finance_operations"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message2130": {
+  "categories": [
+   "events",
+   "finance_operations"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message2133": {
+  "categories": [
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2134": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2135": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2136": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2137": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": true,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2139": {
+  "categories": [
+   "media_outreach",
+   "coordination_logistics"
+  ],
+  "is_decision": true,
+  "event_ref": "weekly-coordination-meeting-21h",
+  "confidence": 0.6
+ },
+ "public_group#message2144": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.6
+ },
+ "public_group#message2155": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2157": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2158": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.6
+ },
+ "public_group#message2159": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.65
+ },
+ "public_group#message2160": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.6
+ },
+ "public_group#message2162": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.55
+ },
+ "public_group#message2164": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2165": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2166": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2168": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2169": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2170": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2171": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2172": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2173": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2174": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2178": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2180": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2181": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2182": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2184": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2191": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2192": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2195": {
+  "categories": [
+   "website_tech",
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2196": {
+  "categories": [
+   "website_tech",
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2197": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2198": {
+  "categories": [
+   "website_tech",
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message2199": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2200": {
+  "categories": [
+   "website_tech"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2201": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2202": {
+  "categories": [
+   "website_tech"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message2203": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2204": {
+  "categories": [
+   "website_tech"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2207": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2208": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2214": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2215": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2216": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2218": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2222": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2223": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2224": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2225": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2226": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2227": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2228": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2230": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2231": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2232": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2233": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2235": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2236": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2237": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2238": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2239": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2240": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2241": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2242": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2243": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2246": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2247": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2248": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2249": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2250": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2251": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2252": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2253": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2254": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2255": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2256": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2257": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2258": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2259": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2260": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2261": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2262": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2263": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2265": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2266": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2267": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2268": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2269": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2272": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2273": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2274": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2276": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2277": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2280": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2281": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2282": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2283": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2284": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2286": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2287": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2288": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2289": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2290": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2291": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2292": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2293": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2294": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2296": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2299": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2300": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2301": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2302": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2303": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2305": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.65
+ },
+ "public_group#message2310": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": true,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.75
+ },
+ "public_group#message2311": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2312": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message2314": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2315": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message2316": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.55
+ },
+ "public_group#message2317": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": true,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.75
+ },
+ "public_group#message2318": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2321": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2323": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.65
+ },
+ "public_group#message2324": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2325": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.5
+ },
+ "public_group#message2326": {
+  "categories": [
+   "finance_operations",
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message2327": {
+  "categories": [
+   "finance_operations",
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message2328": {
+  "categories": [
+   "finance_operations"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.55
+ },
+ "public_group#message2331": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2333": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2336": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2337": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.55
+ },
+ "public_group#message2339": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2342": {
+  "categories": [
+   "coordination_logistics",
+   "finance_operations"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2343": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.6
+ },
+ "public_group#message2345": {
+  "categories": [
+   "finance_operations",
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2347": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2350": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2359": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2361": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2363": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2367": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2368": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2370": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message2372": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2374": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2381": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message2382": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2383": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2384": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2385": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2386": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2387": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2388": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2390": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2391": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2393": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2395": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2396": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2400": {
+  "categories": [
+   "events",
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.5
+ },
+ "public_group#message2402": {
+  "categories": [
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.55
+ },
+ "public_group#message2405": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2407": {
+  "categories": [
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.55
+ },
+ "public_group#message2408": {
+  "categories": [
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.55
+ },
+ "public_group#message2409": {
+  "categories": [
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.55
+ },
+ "public_group#message2411": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2412": {
+  "categories": [
+   "events",
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message2413": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2415": {
+  "categories": [
+   "events",
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message2417": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2420": {
+  "categories": [
+   "events",
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message2421": {
+  "categories": [
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.55
+ },
+ "public_group#message2422": {
+  "categories": [
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message2424": {
+  "categories": [
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.5
+ },
+ "public_group#message2427": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2428": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2429": {
+  "categories": [
+   "events",
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message2433": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message2439": {
+  "categories": [
+   "media_outreach",
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.55
+ },
+ "public_group#message2443": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2446": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message2447": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2448": {
+  "categories": [
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.5
+ },
+ "public_group#message2456": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2458": {
+  "categories": [
+   "events",
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message2460": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2463": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2464": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2466": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2467": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2471": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.6
+ },
+ "public_group#message2472": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.55
+ },
+ "public_group#message2473": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.5
+ },
+ "public_group#message2476": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2478": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2480": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2481": {
+  "categories": [
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.55
+ },
+ "public_group#message2482": {
+  "categories": [
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.5
+ },
+ "public_group#message2484": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2487": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2488": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.65
+ },
+ "public_group#message2489": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.6
+ },
+ "public_group#message2490": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2491": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.55
+ },
+ "public_group#message2492": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2493": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.6
+ },
+ "public_group#message2498": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.6
+ },
+ "public_group#message2499": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-and-registration-videos",
+  "confidence": 0.55
+ },
+ "public_group#message2500": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2502": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2503": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2504": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2506": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2508": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2509": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2512": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2513": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "media-team-content-pipeline",
+  "confidence": 0.6
+ },
+ "public_group#message2515": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "media-team-content-pipeline",
+  "confidence": 0.55
+ },
+ "public_group#message2516": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "media-team-content-pipeline",
+  "confidence": 0.55
+ },
+ "public_group#message2517": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2518": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2519": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "media-team-content-pipeline",
+  "confidence": 0.55
+ },
+ "public_group#message2520": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2521": {
+  "categories": [
+   "media_outreach",
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": "media-team-content-pipeline",
+  "confidence": 0.55
+ },
+ "public_group#message2522": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2523": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2525": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2526": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2527": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "media-team-content-pipeline",
+  "confidence": 0.5
+ },
+ "public_group#message2528": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2529": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2530": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2532": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2533": {
+  "categories": [
+   "website_tech"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2538": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2540": {
+  "categories": [
+   "website_tech"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message2542": {
+  "categories": [
+   "website_tech"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2543": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2544": {
+  "categories": [
+   "website_tech"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message2546": {
+  "categories": [
+   "website_tech"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2548": {
+  "categories": [
+   "website_tech"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2549": {
+  "categories": [
+   "website_tech",
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2554": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2555": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2556": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2559": {
+  "categories": [
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.55
+ },
+ "public_group#message2560": {
+  "categories": [
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.55
+ },
+ "public_group#message2561": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2562": {
+  "categories": [
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message2565": {
+  "categories": [
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message2567": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2568": {
+  "categories": [
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.65
+ },
+ "public_group#message2569": {
+  "categories": [
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message2571": {
+  "categories": [
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message2573": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2574": {
+  "categories": [
+   "website_tech"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message2577": {
+  "categories": [
+   "website_tech"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message2578": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2579": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2580": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2585": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2586": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2587": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2588": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2593": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2594": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2596": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2597": {
+  "categories": [
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message2600": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2603": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2604": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message2607": {
+  "categories": [
+   "finance_operations"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message2610": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2612": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2614": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2615": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2619": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2620": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2624": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2625": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2626": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "media-team-content-pipeline",
+  "confidence": 0.6
+ },
+ "public_group#message2630": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2631": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "media-team-content-pipeline",
+  "confidence": 0.6
+ },
+ "public_group#message2633": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "media-team-content-pipeline",
+  "confidence": 0.65
+ },
+ "public_group#message2634": {
+  "categories": [
+   "media_outreach",
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": "media-team-content-pipeline",
+  "confidence": 0.55
+ },
+ "public_group#message2635": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2637": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2638": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2639": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2640": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2641": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2642": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2643": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.55
+ },
+ "public_group#message2644": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2646": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2648": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2649": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.5
+ },
+ "public_group#message2651": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2652": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2653": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2654": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.5
+ },
+ "public_group#message2657": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.55
+ },
+ "public_group#message2658": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2661": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2667": {
+  "categories": [
+   "media_outreach",
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.55
+ },
+ "public_group#message2668": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.55
+ },
+ "public_group#message2670": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message2671": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message2672": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.5
+ },
+ "public_group#message2673": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message2674": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.5
+ },
+ "public_group#message2675": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message2677": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2680": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message2682": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.55
+ },
+ "public_group#message2683": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2684": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message2685": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message2686": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2689": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message2690": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2691": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.55
+ },
+ "public_group#message2692": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2693": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2695": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.65
+ },
+ "public_group#message2696": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2697": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.55
+ },
+ "public_group#message2700": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message2701": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2702": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.55
+ },
+ "public_group#message2704": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2706": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2707": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message2708": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.5
+ },
+ "public_group#message2709": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message2710": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.55
+ },
+ "public_group#message2711": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.5
+ },
+ "public_group#message2712": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2713": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2714": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message2716": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message2718": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message2719": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2721": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message2722": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.55
+ },
+ "public_group#message2723": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.5
+ },
+ "public_group#message2724": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.5
+ },
+ "public_group#message2727": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2729": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2730": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2732": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2733": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message2734": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.55
+ },
+ "public_group#message2735": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message2736": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message2738": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2739": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2741": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.55
+ },
+ "public_group#message2742": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message2743": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message2744": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2745": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2747": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.55
+ },
+ "public_group#message2748": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2749": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2750": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2751": {
+  "categories": [
+   "media_outreach",
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.5
+ },
+ "public_group#message2752": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2754": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2757": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2759": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2760": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2761": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2762": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2764": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2765": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2766": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2767": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2768": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2769": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.65
+ },
+ "public_group#message2770": {
+  "categories": [
+   "media_outreach",
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.5
+ },
+ "public_group#message2771": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2772": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.65
+ },
+ "public_group#message2773": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message2774": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2775": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message2776": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.55
+ },
+ "public_group#message2777": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.55
+ },
+ "public_group#message2778": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.55
+ },
+ "public_group#message2779": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2780": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.55
+ },
+ "public_group#message2781": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.5
+ },
+ "public_group#message2782": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message2785": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.55
+ },
+ "public_group#message2787": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2788": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2789": {
+  "categories": [
+   "website_tech"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message2790": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2792": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2794": {
+  "categories": [
+   "website_tech"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2795": {
+  "categories": [
+   "website_tech",
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2797": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2799": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2800": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2803": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2804": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2805": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2806": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2808": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2809": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2810": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2811": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2812": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2813": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2814": {
+  "categories": [
+   "finance_operations"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message2815": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2816": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2817": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2818": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2820": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2821": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2822": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2824": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message2827": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2830": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2831": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2832": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2833": {
+  "categories": [
+   "media_outreach",
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2835": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2837": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2838": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2840": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2842": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2843": {
+  "categories": [
+   "media_outreach",
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2844": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2847": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2848": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2853": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2854": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2855": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2858": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2859": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2860": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2862": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2863": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2865": {
+  "categories": [
+   "community_social",
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2867": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2868": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2869": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2870": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2871": {
+  "categories": [
+   "community_social",
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2872": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2875": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2876": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2877": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2881": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2883": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2884": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2885": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2886": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2888": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2890": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2891": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2892": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2893": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2894": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2896": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2897": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2899": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "media-team-content-pipeline",
+  "confidence": 0.6
+ },
+ "public_group#message2901": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2902": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2904": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2905": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2906": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "media-team-content-pipeline",
+  "confidence": 0.55
+ },
+ "public_group#message2907": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2908": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2909": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2910": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2911": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2912": {
+  "categories": [
+   "community_social",
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2913": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2915": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2916": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2919": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2922": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2923": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2926": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2927": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2928": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2929": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2930": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2931": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2932": {
+  "categories": [
+   "media_outreach",
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": "media-team-content-pipeline",
+  "confidence": 0.55
+ },
+ "public_group#message2933": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2935": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2936": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2937": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2938": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "media-team-content-pipeline",
+  "confidence": 0.55
+ },
+ "public_group#message2939": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2940": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message2941": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2942": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2943": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ },
+ "public_group#message2945": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.55
+ }
+}

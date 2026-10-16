@@ -41,24 +41,28 @@ def classify_message(rec, lexicon):
 
 def main():
     lex = read_json(ROOT / "analysis/lexicon.json")
-    out, stats = [], {"total": 0, "by_method": {}, "by_category": {},
-                      "in_window": {"total": 0, "by_method": {}}}
+    out = []
     with open(ROOT / "analysis/messages.jsonl", encoding="utf-8") as fh:
         for line in fh:
             rec = json.loads(line)
-            cls = classify_message(rec, lex)
-            rec.update(cls)
+            rec.update(classify_message(rec, lex))
             out.append(rec)
-            stats["total"] += 1
-            stats["by_method"][cls["method"] or "unclassified"] = \
-                stats["by_method"].get(cls["method"] or "unclassified", 0) + 1
-            if rec.get("in_window") and not rec.get("is_service"):
-                win = stats["in_window"]
-                win["total"] += 1
-                win["by_method"][cls["method"] or "unclassified"] = \
-                    win["by_method"].get(cls["method"] or "unclassified", 0) + 1
-            for c in cls["categories"]:
-                stats["by_category"][c] = stats["by_category"].get(c, 0) + 1
+    # layer 3: fold in LLM residual labels when the label file exists (idempotent)
+    labels_path = ROOT / "analysis/llm_labels.json"
+    if labels_path.exists():
+        print(f"re-applied {apply_llm_labels(out, read_json(labels_path))} llm labels")
+    stats = {"total": 0, "by_method": {}, "by_category": {},
+             "in_window": {"total": 0, "by_method": {}}}
+    for rec in out:
+        method = rec["method"] or "unclassified"
+        stats["total"] += 1
+        stats["by_method"][method] = stats["by_method"].get(method, 0) + 1
+        if rec.get("in_window") and not rec.get("is_service"):
+            win = stats["in_window"]
+            win["total"] += 1
+            win["by_method"][method] = win["by_method"].get(method, 0) + 1
+        for c in rec["categories"]:
+            stats["by_category"][c] = stats["by_category"].get(c, 0) + 1
     win = stats["in_window"]
     win["classified"] = win["total"] - win["by_method"].get("unclassified", 0)
     win["coverage_pct"] = round(100.0 * win["classified"] / win["total"], 2) if win["total"] else 0.0

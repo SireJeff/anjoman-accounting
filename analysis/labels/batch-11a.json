@@ -1,0 +1,807 @@
+{
+"private_group#message10878": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10879": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10880": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10881": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10885": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10886": {
+"categories": [
+"community_social"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10889": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10891": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10892": {
+"categories": [
+"education_courses"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10893": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10894": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10895": {
+"categories": [
+"media_outreach"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10896": {
+"categories": [
+"media_outreach"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10898": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10900": {
+"categories": [
+"media_outreach"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10902": {
+"categories": [
+"media_outreach"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10903": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10905": {
+"categories": [
+"media_outreach"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10906": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10907": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10909": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10910": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10913": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10914": {
+"categories": [
+"media_outreach"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10917": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10920": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10922": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10923": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10924": {
+"categories": [
+"media_outreach"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10925": {
+"categories": [
+"media_outreach"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10926": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10928": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10929": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10930": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10931": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10933": {
+"categories": [
+"media_outreach",
+"education_courses"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10935": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10936": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10937": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10938": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10940": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10941": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10942": {
+"categories": [
+"media_outreach"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10945": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10951": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10952": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10955": {
+"categories": [
+"media_outreach"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10963": {
+"categories": [
+"community_social",
+"coordination_logistics"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10964": {
+"categories": [
+"education_courses",
+"coordination_logistics"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10967": {
+"categories": [
+"community_social",
+"coordination_logistics"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10973": {
+"categories": [
+"governance_decisions"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10974": {
+"categories": [
+"coordination_logistics"
+],
+"is_decision": false,
+"event_ref": "tea-physics-society",
+"confidence": 0.6
+},
+"private_group#message10976": {
+"categories": [
+"coordination_logistics"
+],
+"is_decision": false,
+"event_ref": "tea-physics-society",
+"confidence": 0.6
+},
+"private_group#message10977": {
+"categories": [
+"coordination_logistics"
+],
+"is_decision": false,
+"event_ref": "tea-physics-society",
+"confidence": 0.5
+},
+"private_group#message10980": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10983": {
+"categories": [
+"community_social"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10984": {
+"categories": [
+"community_social"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10985": {
+"categories": [
+"community_social"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10986": {
+"categories": [
+"community_social"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10987": {
+"categories": [
+"community_social"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10988": {
+"categories": [
+"community_social"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10989": {
+"categories": [
+"community_social"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10990": {
+"categories": [
+"community_social"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10991": {
+"categories": [
+"community_social"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message10993": {
+"categories": [
+"coordination_logistics"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10995": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message10996": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message11000": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message11004": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message11005": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message11008": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message11009": {
+"categories": [
+"community_social"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message11011": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message11012": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message11013": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message11014": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message11018": {
+"categories": [
+"media_outreach"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message11019": {
+"categories": [
+"coordination_logistics"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message11020": {
+"categories": [
+"coordination_logistics"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message11021": {
+"categories": [
+"coordination_logistics"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message11023": {
+"categories": [
+"coordination_logistics"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message11024": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message11026": {
+"categories": [
+"community_social"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message11027": {
+"categories": [
+"community_social"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message11028": {
+"categories": [
+"community_social"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message11029": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message11031": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message11034": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message11038": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message11041": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message11044": {
+"categories": [
+"coordination_logistics"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.5
+},
+"private_group#message11046": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message11047": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message11048": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message11049": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message11051": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message11052": {
+"categories": [
+"website_tech"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message11053": {
+"categories": [
+"website_tech"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message11054": {
+"categories": [
+"website_tech",
+"governance_decisions"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+},
+"private_group#message11056": {
+"categories": [
+"meta_noise"
+],
+"is_decision": false,
+"event_ref": null,
+"confidence": 0.6
+}
+}
