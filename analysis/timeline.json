@@ -1462,6 +1462,2005 @@
     "2026-09-14",
     "2026-09-14"
    ]
+  },
+  {
+   "event_ref": "professors-assembly-mehr",
+   "title": "Professors assembly Mehr",
+   "first_seen": null,
+   "last_seen": null,
+   "chats": {},
+   "n_messages": 0,
+   "tx_ids": [
+    "TX0019",
+    "TX0020",
+    "TX0024",
+    "TX0025"
+   ],
+   "tx_total_toman": 2694750.0,
+   "announcement_lag_days": null,
+   "decision_dates": [],
+   "money_only": true
+  }
+ ],
+ "monthly_activity": {
+  "1404/04": {
+   "private_group": {
+    "community_social": 291,
+    "education_courses": 106,
+    "finance_operations": 133,
+    "events": 16,
+    "coordination_logistics": 91,
+    "meta_noise": 575,
+    "media_outreach": 52,
+    "governance_decisions": 18,
+    "website_tech": 58,
+    "publications_shabahng": 4
+   },
+   "channel": {
+    "education_courses": 26,
+    "governance_decisions": 19,
+    "media_outreach": 25,
+    "community_social": 13,
+    "events": 10,
+    "website_tech": 2,
+    "meta_noise": 5,
+    "coordination_logistics": 1,
+    "finance_operations": 11
+   },
+   "summerschool_channel": {
+    "education_courses": 19,
+    "events": 5,
+    "finance_operations": 11,
+    "community_social": 5,
+    "media_outreach": 7,
+    "meta_noise": 4,
+    "coordination_logistics": 1,
+    "governance_decisions": 4
+   }
+  },
+  "1404/05": {
+   "private_group": {
+    "meta_noise": 231,
+    "education_courses": 50,
+    "governance_decisions": 26,
+    "finance_operations": 35,
+    "community_social": 152,
+    "coordination_logistics": 33,
+    "media_outreach": 27,
+    "website_tech": 7,
+    "events": 41,
+    "publications_shabahng": 1
+   },
+   "channel": {
+    "education_courses": 29,
+    "media_outreach": 14,
+    "governance_decisions": 13,
+    "community_social": 20,
+    "finance_operations": 11,
+    "events": 21,
+    "website_tech": 6,
+    "meta_noise": 11,
+    "publications_shabahng": 18,
+    "coordination_logistics": 2
+   },
+   "accounting_group": {
+    "meta_noise": 12,
+    "finance_operations": 24,
+    "education_courses": 10,
+    "community_social": 8,
+    "governance_decisions": 2,
+    "media_outreach": 2
+   },
+   "summerschool_channel": {
+    "education_courses": 2
+   }
+  },
+  "1404/06": {
+   "private_group": {
+    "community_social": 20,
+    "media_outreach": 8,
+    "finance_operations": 8,
+    "meta_noise": 22,
+    "website_tech": 7,
+    "events": 5,
+    "education_courses": 16,
+    "governance_decisions": 7,
+    "coordination_logistics": 5
+   },
+   "channel": {
+    "education_courses": 8,
+    "governance_decisions": 3,
+    "coordination_logistics": 3,
+    "events": 11,
+    "meta_noise": 3,
+    "media_outreach": 13,
+    "website_tech": 2,
+    "finance_operations": 5,
+    "community_social": 9,
+    "publications_shabahng": 1
+   },
+   "accounting_group": {
+    "events": 1,
+    "media_outreach": 1,
+    "finance_operations": 1,
+    "coordination_logistics": 1
+   }
+  },
+  "1404/07": {
+   "private_group": {
+    "meta_noise": 57,
+    "education_courses": 12,
+    "coordination_logistics": 18,
+    "governance_decisions": 13,
+    "finance_operations": 8,
+    "community_social": 32,
+    "publications_shabahng": 3,
+    "media_outreach": 6,
+    "events": 4
+   },
+   "channel": {
+    "education_courses": 12,
+    "events": 21,
+    "governance_decisions": 7,
+    "finance_operations": 7,
+    "meta_noise": 6,
+    "media_outreach": 8,
+    "community_social": 5,
+    "publications_shabahng": 1,
+    "website_tech": 2,
+    "coordination_logistics": 2
+   },
+   "accounting_group": {
+    "events": 7,
+    "finance_operations": 9,
+    "meta_noise": 2,
+    "media_outreach": 4,
+    "coordination_logistics": 4,
+    "education_courses": 1,
+    "governance_decisions": 2
+   }
+  },
+  "1404/08": {
+   "private_group": {
+    "finance_operations": 3,
+    "meta_noise": 13,
+    "community_social": 12,
+    "governance_decisions": 3,
+    "coordination_logistics": 3,
+    "education_courses": 1,
+    "events": 1,
+    "media_outreach": 7,
+    "publications_shabahng": 1
+   },
+   "channel": {
+    "events": 38,
+    "governance_decisions": 11,
+    "education_courses": 15,
+    "media_outreach": 7,
+    "community_social": 4,
+    "coordination_logistics": 7,
+    "meta_noise": 5,
+    "publications_shabahng": 3,
+    "finance_operations": 5,
+    "website_tech": 1
+   },
+   "accounting_group": {
+    "media_outreach": 3,
+    "community_social": 9,
+    "coordination_logistics": 8,
+    "finance_operations": 22,
+    "meta_noise": 6,
+    "events": 7,
+    "governance_decisions": 3
+   }
+  },
+  "1404/09": {
+   "private_group": {
+    "community_social": 4,
+    "media_outreach": 2,
+    "coordination_logistics": 1,
+    "meta_noise": 4,
+    "finance_operations": 1
+   },
+   "channel": {
+    "events": 32,
+    "community_social": 9,
+    "coordination_logistics": 5,
+    "governance_decisions": 7,
+    "media_outreach": 11,
+    "education_courses": 13,
+    "finance_operations": 4,
+    "meta_noise": 8
+   },
+   "accounting_group": {
+    "community_social": 1,
+    "governance_decisions": 1,
+    "finance_operations": 1,
+    "meta_noise": 1
+   }
+  },
+  "1404/10": {
+   "private_group": {
+    "community_social": 28,
+    "meta_noise": 37,
+    "governance_decisions": 6,
+    "website_tech": 5,
+    "events": 1,
+    "coordination_logistics": 4,
+    "finance_operations": 4,
+    "media_outreach": 5,
+    "education_courses": 2
+   },
+   "channel": {
+    "events": 17,
+    "governance_decisions": 5,
+    "meta_noise": 6,
+    "media_outreach": 8,
+    "community_social": 7,
+    "education_courses": 9,
+    "coordination_logistics": 3,
+    "finance_operations": 7,
+    "website_tech": 2,
+    "publications_shabahng": 2
+   }
+  },
+  "1404/11": {
+   "private_group": {
+    "community_social": 2,
+    "meta_noise": 3,
+    "coordination_logistics": 2
+   },
+   "channel": {
+    "finance_operations": 2,
+    "website_tech": 2,
+    "community_social": 4,
+    "coordination_logistics": 2,
+    "media_outreach": 2,
+    "meta_noise": 2,
+    "governance_decisions": 3,
+    "education_courses": 1
+   },
+   "accounting_group": {
+    "events": 1,
+    "finance_operations": 4,
+    "community_social": 1
+   }
+  },
+  "1405/01": {
+   "private_group": {
+    "community_social": 19,
+    "events": 4,
+    "meta_noise": 9,
+    "media_outreach": 2,
+    "governance_decisions": 2,
+    "finance_operations": 3,
+    "coordination_logistics": 1
+   },
+   "channel": {
+    "events": 3,
+    "governance_decisions": 4,
+    "finance_operations": 1,
+    "community_social": 2
+   }
+  },
+  "1405/02": {
+   "private_group": {
+    "community_social": 53,
+    "governance_decisions": 18,
+    "meta_noise": 77,
+    "education_courses": 9,
+    "finance_operations": 2,
+    "coordination_logistics": 3,
+    "media_outreach": 12,
+    "events": 2,
+    "website_tech": 2
+   },
+   "channel": {
+    "governance_decisions": 6,
+    "community_social": 2,
+    "meta_noise": 2,
+    "media_outreach": 1,
+    "education_courses": 2
+   },
+   "accounting_group": {
+    "media_outreach": 2,
+    "community_social": 2,
+    "finance_operations": 3,
+    "events": 1,
+    "coordination_logistics": 1,
+    "meta_noise": 2
+   }
+  },
+  "1405/03": {
+   "private_group": {
+    "community_social": 212,
+    "meta_noise": 410,
+    "events": 40,
+    "governance_decisions": 101,
+    "finance_operations": 25,
+    "education_courses": 79,
+    "coordination_logistics": 40,
+    "media_outreach": 57,
+    "publications_shabahng": 16,
+    "website_tech": 5
+   },
+   "channel": {
+    "governance_decisions": 16,
+    "events": 11,
+    "media_outreach": 5,
+    "community_social": 6,
+    "finance_operations": 5,
+    "publications_shabahng": 6,
+    "education_courses": 9,
+    "meta_noise": 1
+   },
+   "accounting_group": {
+    "meta_noise": 2
+   }
+  },
+  "1405/04": {
+   "private_group": {
+    "meta_noise": 552,
+    "coordination_logistics": 65,
+    "community_social": 219,
+    "education_courses": 52,
+    "media_outreach": 154,
+    "governance_decisions": 87,
+    "finance_operations": 27,
+    "events": 36,
+    "website_tech": 17,
+    "publications_shabahng": 11
+   },
+   "channel": {
+    "finance_operations": 19,
+    "meta_noise": 9,
+    "events": 18,
+    "education_courses": 10,
+    "media_outreach": 13,
+    "publications_shabahng": 9,
+    "community_social": 14,
+    "governance_decisions": 10,
+    "website_tech": 2
+   },
+   "accounting_group": {
+    "meta_noise": 5,
+    "finance_operations": 7,
+    "coordination_logistics": 12,
+    "community_social": 12,
+    "events": 10,
+    "media_outreach": 4
+   }
+  },
+  "1405/05": {
+   "private_group": {
+    "education_courses": 78,
+    "events": 13,
+    "governance_decisions": 49,
+    "website_tech": 11,
+    "meta_noise": 263,
+    "community_social": 257,
+    "publications_shabahng": 8,
+    "finance_operations": 17,
+    "media_outreach": 123,
+    "coordination_logistics": 67
+   },
+   "public_group": {
+    "community_social": 84,
+    "meta_noise": 71,
+    "governance_decisions": 5,
+    "education_courses": 28,
+    "events": 6,
+    "media_outreach": 134,
+    "coordination_logistics": 3
+   },
+   "channel": {
+    "education_courses": 6,
+    "events": 5,
+    "publications_shabahng": 4,
+    "finance_operations": 4,
+    "community_social": 2,
+    "media_outreach": 4,
+    "governance_decisions": 3,
+    "meta_noise": 1
+   }
+  },
+  "1405/06": {
+   "private_group": {
+    "community_social": 195,
+    "media_outreach": 41,
+    "education_courses": 46,
+    "events": 36,
+    "meta_noise": 149,
+    "finance_operations": 16,
+    "coordination_logistics": 57,
+    "governance_decisions": 23,
+    "website_tech": 40,
+    "publications_shabahng": 2
+   },
+   "public_group": {
+    "community_social": 1809,
+    "meta_noise": 1559,
+    "media_outreach": 1014,
+    "education_courses": 222,
+    "finance_operations": 339,
+    "events": 461,
+    "governance_decisions": 99,
+    "coordination_logistics": 457,
+    "website_tech": 88,
+    "publications_shabahng": 15
+   },
+   "channel": {
+    "events": 28,
+    "publications_shabahng": 12,
+    "media_outreach": 16,
+    "education_courses": 19,
+    "governance_decisions": 8,
+    "finance_operations": 12,
+    "community_social": 7,
+    "meta_noise": 4,
+    "coordination_logistics": 1,
+    "website_tech": 2
+   },
+   "summerschool_channel": {
+    "education_courses": 16,
+    "events": 7,
+    "media_outreach": 12,
+    "governance_decisions": 11,
+    "finance_operations": 9,
+    "community_social": 1,
+    "website_tech": 1,
+    "meta_noise": 1
+   }
+  },
+  "1405/07": {
+   "private_group": {
+    "meta_noise": 20,
+    "community_social": 24,
+    "coordination_logistics": 17,
+    "website_tech": 1,
+    "finance_operations": 1,
+    "governance_decisions": 15,
+    "media_outreach": 4,
+    "events": 6
+   },
+   "public_group": {
+    "meta_noise": 319,
+    "community_social": 224,
+    "media_outreach": 109,
+    "coordination_logistics": 82,
+    "events": 91,
+    "governance_decisions": 39,
+    "finance_operations": 30,
+    "website_tech": 23,
+    "education_courses": 37,
+    "publications_shabahng": 1
+   },
+   "channel": {
+    "education_courses": 12,
+    "governance_decisions": 12,
+    "events": 16,
+    "media_outreach": 7,
+    "publications_shabahng": 3,
+    "finance_operations": 8,
+    "community_social": 7,
+    "meta_noise": 5,
+    "website_tech": 3,
+    "coordination_logistics": 1
+   }
+  },
+  "1404/03": {
+   "channel": {
+    "events": 5,
+    "education_courses": 10,
+    "governance_decisions": 6,
+    "media_outreach": 2,
+    "finance_operations": 2,
+    "community_social": 3,
+    "coordination_logistics": 2
+   }
+  },
+  "1404/12": {
+   "channel": {
+    "events": 4,
+    "community_social": 4,
+    "coordination_logistics": 1,
+    "publications_shabahng": 1,
+    "media_outreach": 3,
+    "governance_decisions": 2,
+    "finance_operations": 4,
+    "website_tech": 2,
+    "meta_noise": 3
+   },
+   "accounting_group": {
+    "finance_operations": 2,
+    "meta_noise": 2
+   }
+  }
+ },
+ "monthly_cashflow": {
+  "1404/05": {
+   "Receipts": 33642000.0,
+   "Payments": 13650900.0,
+   "by_category": {
+    "Course fees": 33642000.0,
+    "Teaching": 12500000.0,
+    "Bank fees": 900.0,
+    "Advertising": 400000.0,
+    "Equipment": 750000.0
+   },
+   "by_project": {
+    "Summer School 1404": 46542900.0,
+    "Association operations": 750000.0
+   }
+  },
+  "1404/04": {
+   "Receipts": 0.0,
+   "Payments": 400000.0,
+   "by_category": {
+    "Advertising": 400000.0
+   },
+   "by_project": {
+    "Summer School 1404": 400000.0
+   }
+  },
+  "1404/06": {
+   "Receipts": 4920000.0,
+   "Payments": 3155000.0,
+   "by_category": {
+    "Events": 7975000.0,
+    "Printing": 100000.0
+   },
+   "by_project": {
+    "Intro Event 1404": 8075000.0
+   }
+  },
+  "1404/07": {
+   "Receipts": 500000.0,
+   "Payments": 4687600.0,
+   "by_category": {
+    "Transfers": 0.0,
+    "Donations": 500000.0,
+    "Printing": 90000.0,
+    "Hospitality": 4597600.0
+   },
+   "by_project": {
+    "Intro Event 1404": 0.0,
+    "Professors assembly Mehr": 2694750.0,
+    "Tea & Physics society": 2492850.0
+   }
+  },
+  "1404/08": {
+   "Receipts": 11000000.0,
+   "Payments": 10416700.0,
+   "by_category": {
+    "Opening funds": 11000000.0,
+    "Supplies": 1296100.0,
+    "Equipment": 2795000.0,
+    "Hospitality": 235000.0,
+    "Events": 5774000.0,
+    "Unclassified": 300000.0,
+    "Printing": 16600.0
+   },
+   "by_project": {
+    "Association operations": 13347700.0,
+    "Booths 1404": 1995000.0,
+    "Freshman Party 1404": 6074000.0
+   }
+  },
+  "1404/09": {
+   "Receipts": 23000000.0,
+   "Payments": 1020000.0,
+   "by_category": {
+    "Unclassified": 1020000.0,
+    "Donations": 23000000.0
+   },
+   "by_project": {
+    "Unassigned": 1020000.0,
+    "Association operations": 23000000.0
+   }
+  },
+  "1404/10": {
+   "Receipts": 16490000.0,
+   "Payments": 15020723.9,
+   "by_category": {
+    "Donations": 16490000.0,
+    "Transfers": 0.0,
+    "Events": 15020723.9
+   },
+   "by_project": {
+    "Yalda 1404": 31510723.9
+   }
+  },
+  "unknown": {
+   "Receipts": 0.0,
+   "Payments": 4664700.0,
+   "by_category": {
+    "Hospitality": 1664700.0,
+    "Website domain": 3000000.0
+   },
+   "by_project": {
+    "Yalda 1404": 1664700.0,
+    "Association website": 3000000.0
+   }
+  },
+  "1404/12": {
+   "Receipts": 0.0,
+   "Payments": 1801220.0,
+   "by_category": {
+    "Unclassified": 1801220.0
+   },
+   "by_project": {
+    "Unassigned": 1801220.0
+   }
+  },
+  "1405/02": {
+   "Receipts": 0.0,
+   "Payments": 4050000.0,
+   "by_category": {
+    "Events": 4050000.0
+   },
+   "by_project": {
+    "Yalda 1404": 4050000.0
+   }
+  },
+  "1405/05": {
+   "Receipts": 0.0,
+   "Payments": 11217000.0,
+   "by_category": {
+    "Unclassified": 11217000.0
+   },
+   "by_project": {
+    "Unassigned": 11217000.0
+   }
+  },
+  "1405/06": {
+   "Receipts": 0.0,
+   "Payments": 13407000.0,
+   "by_category": {
+    "Unclassified": 4950000.0,
+    "Teaching": 8457000.0
+   },
+   "by_project": {
+    "Unassigned": 4950000.0,
+    "Unknown (likely 1405 summer school)": 4257000.0,
+    "Summer School 1405": 4200000.0
+   }
+  },
+  "1405/07": {
+   "Receipts": 50235000.0,
+   "Payments": 39775150.0,
+   "by_category": {
+    "Teaching": 7300000.0,
+    "Supplies": 950000.0,
+    "Hospitality": 9987900.0,
+    "Unclassified": 16537250.0,
+    "Events": 55235000.0
+   },
+   "by_project": {
+    "Summer School 1405": 7300000.0,
+    "Intro Event 1405": 56185000.0,
+    "Unassigned": 26525150.0
+   }
+  }
+ },
+ "hour_histogram": {
+  "private_group": {
+   "22": 367,
+   "1": 230,
+   "16": 259,
+   "17": 209,
+   "18": 315,
+   "19": 387,
+   "21": 283,
+   "23": 682,
+   "0": 333,
+   "12": 344,
+   "13": 354,
+   "14": 217,
+   "15": 254,
+   "20": 338,
+   "8": 54,
+   "10": 163,
+   "11": 251,
+   "3": 30,
+   "2": 64,
+   "4": 20,
+   "6": 11,
+   "9": 93,
+   "5": 20,
+   "7": 31
+  },
+  "public_group": {
+   "21": 401,
+   "22": 460,
+   "23": 598,
+   "0": 1130,
+   "15": 251,
+   "17": 81,
+   "18": 186,
+   "4": 5,
+   "5": 12,
+   "2": 3,
+   "1": 455,
+   "10": 163,
+   "11": 262,
+   "19": 180,
+   "20": 380,
+   "12": 515,
+   "16": 115,
+   "13": 309,
+   "14": 371,
+   "9": 101,
+   "8": 115,
+   "6": 17,
+   "7": 26
+  },
+  "channel": {
+   "11": 29,
+   "12": 24,
+   "22": 18,
+   "15": 32,
+   "7": 8,
+   "18": 26,
+   "14": 18,
+   "0": 8,
+   "10": 24,
+   "21": 28,
+   "17": 32,
+   "16": 31,
+   "19": 30,
+   "23": 22,
+   "20": 23,
+   "8": 17,
+   "6": 6,
+   "13": 30,
+   "2": 2,
+   "1": 1,
+   "9": 14,
+   "3": 2,
+   "4": 1
+  },
+  "accounting_group": {
+   "20": 25,
+   "21": 5,
+   "4": 7,
+   "15": 9,
+   "17": 6,
+   "8": 4,
+   "9": 6,
+   "14": 6,
+   "18": 25,
+   "11": 8,
+   "22": 21,
+   "23": 6,
+   "10": 3,
+   "13": 8,
+   "1": 4,
+   "6": 3,
+   "5": 1,
+   "2": 4,
+   "19": 3,
+   "12": 2,
+   "16": 2
+  },
+  "summerschool_channel": {
+   "17": 2,
+   "21": 2,
+   "8": 2,
+   "10": 2,
+   "13": 2,
+   "15": 3,
+   "16": 3,
+   "11": 3,
+   "12": 2,
+   "14": 2,
+   "22": 6,
+   "23": 3,
+   "20": 1,
+   "9": 2,
+   "18": 1,
+   "19": 1
+  }
+ },
+ "weekday_hour_heat": {
+  "private_group": {
+   "چهارشنبه": {
+    "22": 32,
+    "10": 41,
+    "15": 35,
+    "18": 40,
+    "20": 41,
+    "21": 38,
+    "23": 49,
+    "1": 18,
+    "9": 20,
+    "11": 116,
+    "13": 46,
+    "16": 6,
+    "17": 23,
+    "19": 26,
+    "14": 11,
+    "6": 5,
+    "4": 2,
+    "8": 6,
+    "0": 16,
+    "3": 3,
+    "12": 23,
+    "2": 1
+   },
+   "پنج‌شنبه": {
+    "1": 5,
+    "16": 36,
+    "17": 25,
+    "18": 36,
+    "19": 93,
+    "21": 45,
+    "23": 21,
+    "3": 4,
+    "20": 51,
+    "10": 31,
+    "15": 11,
+    "2": 8,
+    "7": 4,
+    "8": 3,
+    "11": 18,
+    "13": 125,
+    "14": 65,
+    "0": 38,
+    "6": 1,
+    "12": 22,
+    "9": 7,
+    "22": 3
+   },
+   "جمعه": {
+    "0": 72,
+    "1": 111,
+    "12": 67,
+    "13": 68,
+    "14": 13,
+    "15": 112,
+    "16": 98,
+    "17": 42,
+    "19": 48,
+    "20": 25,
+    "21": 31,
+    "22": 42,
+    "23": 136,
+    "2": 43,
+    "3": 16,
+    "4": 1,
+    "6": 3,
+    "9": 14,
+    "5": 8,
+    "18": 40,
+    "10": 4,
+    "8": 3,
+    "11": 14,
+    "7": 3
+   },
+   "شنبه": {
+    "0": 68,
+    "1": 6,
+    "8": 13,
+    "10": 52,
+    "11": 23,
+    "12": 40,
+    "13": 42,
+    "14": 36,
+    "15": 66,
+    "16": 55,
+    "17": 61,
+    "18": 26,
+    "19": 18,
+    "20": 29,
+    "21": 54,
+    "22": 55,
+    "23": 134,
+    "7": 9,
+    "3": 5,
+    "4": 16,
+    "2": 3,
+    "5": 5,
+    "9": 3
+   },
+   "یک‌شنبه": {
+    "0": 94,
+    "1": 84,
+    "12": 23,
+    "13": 19,
+    "14": 23,
+    "15": 20,
+    "16": 42,
+    "17": 11,
+    "19": 142,
+    "20": 31,
+    "21": 19,
+    "22": 10,
+    "23": 72,
+    "10": 21,
+    "5": 7,
+    "11": 19,
+    "18": 36,
+    "2": 3,
+    "8": 2,
+    "9": 16
+   },
+   "دوشنبه": {
+    "0": 24,
+    "11": 16,
+    "12": 124,
+    "13": 42,
+    "14": 42,
+    "16": 8,
+    "18": 107,
+    "20": 77,
+    "22": 91,
+    "23": 124,
+    "8": 12,
+    "19": 21,
+    "6": 2,
+    "7": 11,
+    "21": 73,
+    "15": 9,
+    "3": 2,
+    "4": 1,
+    "2": 6,
+    "9": 4,
+    "10": 2,
+    "17": 16
+   },
+   "سه‌شنبه": {
+    "0": 21,
+    "1": 6,
+    "11": 45,
+    "12": 45,
+    "16": 14,
+    "17": 31,
+    "18": 30,
+    "19": 39,
+    "20": 84,
+    "15": 1,
+    "21": 23,
+    "23": 146,
+    "8": 15,
+    "10": 12,
+    "22": 134,
+    "9": 29,
+    "14": 27,
+    "13": 12,
+    "7": 4
+   }
+  },
+  "public_group": {
+   "دوشنبه": {
+    "21": 71,
+    "22": 62,
+    "23": 57,
+    "18": 49,
+    "19": 93,
+    "20": 36,
+    "0": 338,
+    "10": 15,
+    "1": 108,
+    "9": 12,
+    "12": 94,
+    "13": 22,
+    "8": 3,
+    "11": 97,
+    "14": 4,
+    "15": 16,
+    "16": 6,
+    "17": 2,
+    "5": 1
+   },
+   "سه‌شنبه": {
+    "0": 142,
+    "15": 40,
+    "18": 42,
+    "19": 30,
+    "20": 72,
+    "21": 47,
+    "22": 100,
+    "11": 5,
+    "12": 25,
+    "13": 7,
+    "23": 20,
+    "8": 1,
+    "10": 43,
+    "14": 40,
+    "16": 17,
+    "1": 66,
+    "7": 1,
+    "9": 4,
+    "17": 16
+   },
+   "چهارشنبه": {
+    "15": 23,
+    "17": 23,
+    "18": 31,
+    "21": 85,
+    "22": 113,
+    "23": 52,
+    "11": 52,
+    "12": 29,
+    "16": 6,
+    "13": 2,
+    "0": 215,
+    "1": 79,
+    "6": 6,
+    "9": 30,
+    "10": 35,
+    "14": 29,
+    "19": 13,
+    "20": 27,
+    "7": 13,
+    "8": 44
+   },
+   "پنج‌شنبه": {
+    "4": 5,
+    "5": 8,
+    "0": 143,
+    "2": 2,
+    "21": 38,
+    "22": 60,
+    "9": 7,
+    "10": 21,
+    "15": 38,
+    "18": 16,
+    "19": 32,
+    "20": 71,
+    "23": 30,
+    "1": 165,
+    "8": 2,
+    "11": 3,
+    "12": 121,
+    "13": 18,
+    "14": 108,
+    "17": 19,
+    "7": 2,
+    "16": 12
+   },
+   "جمعه": {
+    "0": 80,
+    "2": 1,
+    "17": 7,
+    "13": 13,
+    "14": 49,
+    "16": 28,
+    "20": 7,
+    "21": 84,
+    "22": 66,
+    "23": 135,
+    "9": 5,
+    "10": 6,
+    "11": 9,
+    "12": 6,
+    "18": 42,
+    "19": 3
+   },
+   "شنبه": {
+    "15": 39,
+    "22": 17,
+    "10": 30,
+    "11": 4,
+    "21": 17,
+    "0": 58,
+    "14": 20,
+    "16": 4,
+    "18": 6,
+    "20": 18,
+    "13": 17,
+    "23": 75,
+    "1": 2,
+    "8": 54,
+    "9": 25,
+    "12": 29,
+    "17": 12,
+    "19": 1,
+    "7": 3
+   },
+   "یک‌شنبه": {
+    "1": 35,
+    "10": 13,
+    "11": 92,
+    "13": 230,
+    "19": 8,
+    "20": 149,
+    "21": 59,
+    "22": 42,
+    "23": 229,
+    "0": 154,
+    "8": 11,
+    "12": 211,
+    "14": 121,
+    "16": 42,
+    "17": 2,
+    "5": 3,
+    "7": 7,
+    "9": 18,
+    "15": 95,
+    "6": 11
+   }
+  },
+  "channel": {
+   "جمعه": {
+    "11": 3,
+    "12": 6,
+    "14": 3,
+    "15": 6,
+    "16": 5,
+    "17": 4,
+    "19": 6,
+    "21": 9,
+    "8": 2,
+    "18": 1,
+    "20": 4,
+    "2": 1,
+    "23": 2,
+    "9": 1,
+    "10": 1,
+    "13": 3,
+    "22": 1
+   },
+   "شنبه": {
+    "22": 3,
+    "12": 5,
+    "16": 2,
+    "17": 6,
+    "18": 4,
+    "13": 10,
+    "19": 6,
+    "20": 3,
+    "0": 3,
+    "8": 6,
+    "11": 5,
+    "14": 3,
+    "9": 3,
+    "15": 3,
+    "10": 1,
+    "23": 1,
+    "6": 1,
+    "2": 1
+   },
+   "یک‌شنبه": {
+    "15": 12,
+    "22": 5,
+    "10": 3,
+    "11": 5,
+    "18": 3,
+    "20": 4,
+    "17": 9,
+    "19": 6,
+    "13": 4,
+    "23": 11,
+    "9": 3,
+    "7": 2,
+    "3": 1,
+    "8": 2,
+    "0": 2,
+    "14": 5,
+    "21": 1,
+    "6": 2,
+    "16": 1,
+    "12": 1
+   },
+   "دوشنبه": {
+    "7": 3,
+    "14": 1,
+    "17": 8,
+    "12": 5,
+    "20": 5,
+    "16": 5,
+    "18": 3,
+    "10": 5,
+    "22": 1,
+    "1": 1,
+    "23": 2,
+    "9": 1,
+    "21": 3,
+    "15": 4,
+    "11": 3,
+    "4": 1,
+    "13": 2,
+    "8": 1,
+    "19": 1
+   },
+   "پنج‌شنبه": {
+    "18": 6,
+    "0": 3,
+    "14": 4,
+    "17": 2,
+    "19": 3,
+    "21": 10,
+    "22": 3,
+    "15": 3,
+    "6": 1,
+    "10": 3,
+    "16": 11,
+    "13": 4,
+    "12": 1,
+    "23": 2,
+    "11": 4,
+    "7": 1,
+    "20": 1,
+    "9": 1
+   },
+   "سه‌شنبه": {
+    "21": 5,
+    "22": 4,
+    "23": 3,
+    "12": 6,
+    "15": 3,
+    "10": 7,
+    "18": 3,
+    "13": 3,
+    "19": 2,
+    "16": 2,
+    "7": 1,
+    "8": 3,
+    "9": 2,
+    "11": 4,
+    "17": 1,
+    "20": 1
+   },
+   "چهارشنبه": {
+    "17": 2,
+    "19": 6,
+    "23": 1,
+    "11": 5,
+    "18": 6,
+    "20": 5,
+    "14": 2,
+    "8": 3,
+    "15": 1,
+    "9": 3,
+    "10": 4,
+    "7": 1,
+    "13": 4,
+    "16": 5,
+    "22": 1,
+    "6": 2,
+    "3": 1
+   }
+  },
+  "accounting_group": {
+   "پنج‌شنبه": {
+    "20": 20,
+    "21": 4,
+    "14": 1,
+    "10": 2
+   },
+   "جمعه": {
+    "4": 7,
+    "15": 1,
+    "17": 4,
+    "18": 1,
+    "11": 3,
+    "13": 7
+   },
+   "شنبه": {
+    "8": 3,
+    "9": 2,
+    "14": 1,
+    "11": 1,
+    "2": 4,
+    "15": 3,
+    "16": 2,
+    "17": 2,
+    "18": 23
+   },
+   "دوشنبه": {
+    "15": 5,
+    "13": 1,
+    "1": 1
+   },
+   "سه‌شنبه": {
+    "9": 4,
+    "1": 3,
+    "22": 17
+   },
+   "چهارشنبه": {
+    "11": 4,
+    "18": 1,
+    "22": 4,
+    "23": 1,
+    "14": 4,
+    "6": 3,
+    "21": 1
+   },
+   "یک‌شنبه": {
+    "10": 1,
+    "23": 5,
+    "5": 1,
+    "8": 1,
+    "19": 3,
+    "20": 5,
+    "12": 2
+   }
+  },
+  "summerschool_channel": {
+   "پنج‌شنبه": {
+    "17": 2,
+    "21": 2,
+    "16": 1,
+    "18": 1
+   },
+   "جمعه": {
+    "8": 2,
+    "10": 2,
+    "13": 2,
+    "15": 2,
+    "16": 2
+   },
+   "شنبه": {
+    "11": 3,
+    "12": 2,
+    "14": 2,
+    "9": 2,
+    "15": 1,
+    "19": 1
+   },
+   "یک‌شنبه": {
+    "22": 1
+   },
+   "دوشنبه": {
+    "23": 1
+   },
+   "سه‌شنبه": {
+    "20": 1,
+    "22": 5,
+    "23": 2
+   }
+  }
+ },
+ "event_start_times": {
+  "apply-workshop": {
+   "times": [
+    "00:00",
+    "01:24",
+    "03:05",
+    "04:17",
+    "05:36",
+    "08:54",
+    "10:34",
+    "13:30",
+    "14:30",
+    "15:00",
+    "15:15",
+    "15:30",
+    "16:30",
+    "18:00",
+    "19:02",
+    "22:55"
+   ],
+   "n": 64,
+   "mode": "15:00"
+  },
+  "association-elections": {
+   "times": [
+    "12:50",
+    "18:00"
+   ],
+   "n": 2,
+   "mode": "12:50"
+  },
+  "association-operations": {
+   "times": [
+    "08:00",
+    "17:30"
+   ],
+   "n": 4,
+   "mode": "08:00"
+  },
+  "association-website": {
+   "times": [
+    "11:00",
+    "13:00",
+    "15:00",
+    "18:00",
+    "19:10",
+    "23:59"
+   ],
+   "n": 13,
+   "mode": "13:00"
+  },
+  "astro-trips-observing": {
+   "times": [
+    "07:26",
+    "08:45",
+    "09:00",
+    "10:00",
+    "12:30",
+    "13:30",
+    "14:00",
+    "15:56",
+    "18:00",
+    "19:00",
+    "19:10",
+    "23:59"
+   ],
+   "n": 23,
+   "mode": "14:00"
+  },
+  "beh-royat-ma-interview-series": {
+   "times": [
+    "18:00",
+    "19:10"
+   ],
+   "n": 2,
+   "mode": "18:00"
+  },
+  "booths-1404": {
+   "times": [
+    "10:40",
+    "12:16",
+    "12:24",
+    "13:13"
+   ],
+   "n": 4,
+   "mode": "10:40"
+  },
+  "calculus-study-circle": {
+   "times": [
+    "11:00",
+    "12:00",
+    "14:30",
+    "15:00",
+    "17:00",
+    "18:00",
+    "18:30",
+    "19:00",
+    "20:00"
+   ],
+   "n": 33,
+   "mode": "20:00"
+  },
+  "cosmology-weekly-seminar": {
+   "times": [
+    "10:30",
+    "12:30",
+    "13:00",
+    "13:20",
+    "15:00",
+    "17:00",
+    "17:30",
+    "18:00",
+    "19:30"
+   ],
+   "n": 18,
+   "mode": "17:00"
+  },
+  "covid-webinar-series": {
+   "times": [
+    "12:00",
+    "17:00",
+    "18:00"
+   ],
+   "n": 3,
+   "mode": "12:00"
+  },
+  "dept-weekly-seminars": {
+   "times": [
+    "00:00",
+    "01:01",
+    "01:05",
+    "01:06",
+    "01:47",
+    "01:55",
+    "03:06",
+    "04:30",
+    "04:40",
+    "06:30",
+    "07:10",
+    "07:20",
+    "09:00",
+    "09:06",
+    "09:37",
+    "10:30",
+    "10:37",
+    "12:15",
+    "12:45",
+    "12:46",
+    "13:20",
+    "13:30",
+    "13:45",
+    "14:30",
+    "15:00",
+    "15:30",
+    "16:00",
+    "16:30",
+    "17:21",
+    "18:00",
+    "18:30",
+    "19:00",
+    "19:32",
+    "19:55",
+    "22:09",
+    "22:54",
+    "23:30",
+    "23:38"
+   ],
+   "n": 62,
+   "mode": "13:30"
+  },
+  "faculty-committee-liaison": {
+   "times": [
+    "13:30"
+   ],
+   "n": 4,
+   "mode": "13:30"
+  },
+  "final-receipt-handover-1405": {
+   "times": [
+    "18:00",
+    "19:00"
+   ],
+   "n": 5,
+   "mode": "18:00"
+  },
+  "hospitality-sessions-1404": {
+   "times": [
+    "05:30"
+   ],
+   "n": 1,
+   "mode": "05:30"
+  },
+  "instagram-growth-campaign": {
+   "times": [
+    "18:00",
+    "19:10"
+   ],
+   "n": 2,
+   "mode": "18:00"
+  },
+  "interview-series": {
+   "times": [
+    "18:00",
+    "19:10"
+   ],
+   "n": 4,
+   "mode": "18:00"
+  },
+  "intro-event-1405": {
+   "times": [
+    "17:30",
+    "19:30",
+    "23:59"
+   ],
+   "n": 4,
+   "mode": "23:59"
+  },
+  "media-social-content": {
+   "times": [
+    "10:00",
+    "12:00",
+    "14:00",
+    "16:00",
+    "17:00",
+    "18:00",
+    "18:30",
+    "19:10"
+   ],
+   "n": 24,
+   "mode": "18:00"
+  },
+  "nobel-review-series": {
+   "times": [
+    "12:45",
+    "13:45",
+    "15:00",
+    "18:00"
+   ],
+   "n": 4,
+   "mode": "18:00"
+  },
+  "physics-math-circle": {
+   "times": [
+    "14:00",
+    "16:00",
+    "17:00",
+    "18:00",
+    "19:00",
+    "20:15",
+    "20:30"
+   ],
+   "n": 10,
+   "mode": "20:15"
+  },
+  "research-bell-photos": {
+   "times": [
+    "07:30",
+    "08:00",
+    "13:00",
+    "13:30",
+    "15:00",
+    "15:30",
+    "17:00",
+    "18:00"
+   ],
+   "n": 10,
+   "mode": "08:00"
+  },
+  "shabahang-journal": {
+   "times": [
+    "17:30"
+   ],
+   "n": 1,
+   "mode": "17:30"
+  },
+  "tea-and-physics": {
+   "times": [
+    "02:30",
+    "03:30"
+   ],
+   "n": 2,
+   "mode": "02:30"
+  },
+  "tea-physics-society": {
+   "times": [
+    "18:15"
+   ],
+   "n": 1,
+   "mode": "18:15"
+  }
+ },
+ "mechanics": [
+  {
+   "kind": "fixed-slot",
+   "hour": 15,
+   "category": "apply-workshop",
+   "n": 64,
+   "note": "apply-workshop most often mentions start 15:00"
+  },
+  {
+   "kind": "fixed-slot",
+   "hour": 13,
+   "category": "association-website",
+   "n": 13,
+   "note": "association-website most often mentions start 13:00"
+  },
+  {
+   "kind": "fixed-slot",
+   "hour": 14,
+   "category": "astro-trips-observing",
+   "n": 23,
+   "note": "astro-trips-observing most often mentions start 14:00"
+  },
+  {
+   "kind": "fixed-slot",
+   "hour": 20,
+   "category": "calculus-study-circle",
+   "n": 33,
+   "note": "calculus-study-circle most often mentions start 20:00"
+  },
+  {
+   "kind": "fixed-slot",
+   "hour": 17,
+   "category": "cosmology-weekly-seminar",
+   "n": 18,
+   "note": "cosmology-weekly-seminar most often mentions start 17:00"
+  },
+  {
+   "kind": "fixed-slot",
+   "hour": 13,
+   "category": "dept-weekly-seminars",
+   "n": 62,
+   "note": "dept-weekly-seminars most often mentions start 13:30"
+  },
+  {
+   "kind": "fixed-slot",
+   "hour": 18,
+   "category": "final-receipt-handover-1405",
+   "n": 5,
+   "note": "final-receipt-handover-1405 most often mentions start 18:00"
+  },
+  {
+   "kind": "fixed-slot",
+   "hour": 18,
+   "category": "media-social-content",
+   "n": 24,
+   "note": "media-social-content most often mentions start 18:00"
+  },
+  {
+   "kind": "fixed-slot",
+   "hour": 20,
+   "category": "physics-math-circle",
+   "n": 10,
+   "note": "physics-math-circle most often mentions start 20:15"
+  },
+  {
+   "kind": "fixed-slot",
+   "hour": 8,
+   "category": "research-bell-photos",
+   "n": 10,
+   "note": "research-bell-photos most often mentions start 08:00"
+  },
+  {
+   "kind": "peak",
+   "jalali_weekday": "چهارشنبه",
+   "hour": 11,
+   "category": "private_group",
+   "n": 116,
+   "note": "private_group peaks چهارشنبه 11:00"
+  },
+  {
+   "kind": "peak",
+   "jalali_weekday": "پنج‌شنبه",
+   "hour": 13,
+   "category": "private_group",
+   "n": 125,
+   "note": "private_group peaks پنج‌شنبه 13:00"
+  },
+  {
+   "kind": "peak",
+   "jalali_weekday": "جمعه",
+   "hour": 23,
+   "category": "private_group",
+   "n": 136,
+   "note": "private_group peaks جمعه 23:00"
+  },
+  {
+   "kind": "peak",
+   "jalali_weekday": "شنبه",
+   "hour": 23,
+   "category": "private_group",
+   "n": 134,
+   "note": "private_group peaks شنبه 23:00"
+  },
+  {
+   "kind": "peak",
+   "jalali_weekday": "یک‌شنبه",
+   "hour": 19,
+   "category": "private_group",
+   "n": 142,
+   "note": "private_group peaks یک‌شنبه 19:00"
+  },
+  {
+   "kind": "peak",
+   "jalali_weekday": "دوشنبه",
+   "hour": 12,
+   "category": "private_group",
+   "n": 124,
+   "note": "private_group peaks دوشنبه 12:00"
+  },
+  {
+   "kind": "peak",
+   "jalali_weekday": "سه‌شنبه",
+   "hour": 23,
+   "category": "private_group",
+   "n": 146,
+   "note": "private_group peaks سه‌شنبه 23:00"
+  },
+  {
+   "kind": "peak",
+   "jalali_weekday": "دوشنبه",
+   "hour": 0,
+   "category": "public_group",
+   "n": 338,
+   "note": "public_group peaks دوشنبه 00:00"
+  },
+  {
+   "kind": "peak",
+   "jalali_weekday": "سه‌شنبه",
+   "hour": 0,
+   "category": "public_group",
+   "n": 142,
+   "note": "public_group peaks سه‌شنبه 00:00"
+  },
+  {
+   "kind": "peak",
+   "jalali_weekday": "چهارشنبه",
+   "hour": 0,
+   "category": "public_group",
+   "n": 215,
+   "note": "public_group peaks چهارشنبه 00:00"
+  },
+  {
+   "kind": "peak",
+   "jalali_weekday": "پنج‌شنبه",
+   "hour": 1,
+   "category": "public_group",
+   "n": 165,
+   "note": "public_group peaks پنج‌شنبه 01:00"
+  },
+  {
+   "kind": "peak",
+   "jalali_weekday": "جمعه",
+   "hour": 23,
+   "category": "public_group",
+   "n": 135,
+   "note": "public_group peaks جمعه 23:00"
+  },
+  {
+   "kind": "peak",
+   "jalali_weekday": "شنبه",
+   "hour": 23,
+   "category": "public_group",
+   "n": 75,
+   "note": "public_group peaks شنبه 23:00"
+  },
+  {
+   "kind": "peak",
+   "jalali_weekday": "یک‌شنبه",
+   "hour": 13,
+   "category": "public_group",
+   "n": 230,
+   "note": "public_group peaks یک‌شنبه 13:00"
+  },
+  {
+   "kind": "peak",
+   "jalali_weekday": "جمعه",
+   "hour": 21,
+   "category": "channel",
+   "n": 9,
+   "note": "channel peaks جمعه 21:00"
+  },
+  {
+   "kind": "peak",
+   "jalali_weekday": "شنبه",
+   "hour": 13,
+   "category": "channel",
+   "n": 10,
+   "note": "channel peaks شنبه 13:00"
+  },
+  {
+   "kind": "peak",
+   "jalali_weekday": "یک‌شنبه",
+   "hour": 15,
+   "category": "channel",
+   "n": 12,
+   "note": "channel peaks یک‌شنبه 15:00"
+  },
+  {
+   "kind": "peak",
+   "jalali_weekday": "دوشنبه",
+   "hour": 17,
+   "category": "channel",
+   "n": 8,
+   "note": "channel peaks دوشنبه 17:00"
+  },
+  {
+   "kind": "peak",
+   "jalali_weekday": "پنج‌شنبه",
+   "hour": 16,
+   "category": "channel",
+   "n": 11,
+   "note": "channel peaks پنج‌شنبه 16:00"
+  },
+  {
+   "kind": "peak",
+   "jalali_weekday": "سه‌شنبه",
+   "hour": 10,
+   "category": "channel",
+   "n": 7,
+   "note": "channel peaks سه‌شنبه 10:00"
+  },
+  {
+   "kind": "peak",
+   "jalali_weekday": "چهارشنبه",
+   "hour": 19,
+   "category": "channel",
+   "n": 6,
+   "note": "channel peaks چهارشنبه 19:00"
+  },
+  {
+   "kind": "peak",
+   "jalali_weekday": "پنج‌شنبه",
+   "hour": 20,
+   "category": "accounting_group",
+   "n": 20,
+   "note": "accounting_group peaks پنج‌شنبه 20:00"
+  },
+  {
+   "kind": "peak",
+   "jalali_weekday": "جمعه",
+   "hour": 4,
+   "category": "accounting_group",
+   "n": 7,
+   "note": "accounting_group peaks جمعه 04:00"
+  },
+  {
+   "kind": "peak",
+   "jalali_weekday": "شنبه",
+   "hour": 18,
+   "category": "accounting_group",
+   "n": 23,
+   "note": "accounting_group peaks شنبه 18:00"
+  },
+  {
+   "kind": "peak",
+   "jalali_weekday": "دوشنبه",
+   "hour": 15,
+   "category": "accounting_group",
+   "n": 5,
+   "note": "accounting_group peaks دوشنبه 15:00"
+  },
+  {
+   "kind": "peak",
+   "jalali_weekday": "سه‌شنبه",
+   "hour": 22,
+   "category": "accounting_group",
+   "n": 17,
+   "note": "accounting_group peaks سه‌شنبه 22:00"
+  },
+  {
+   "kind": "peak",
+   "jalali_weekday": "یک‌شنبه",
+   "hour": 23,
+   "category": "accounting_group",
+   "n": 5,
+   "note": "accounting_group peaks یک‌شنبه 23:00"
+  },
+  {
+   "kind": "peak",
+   "jalali_weekday": "سه‌شنبه",
+   "hour": 22,
+   "category": "summerschool_channel",
+   "n": 5,
+   "note": "summerschool_channel peaks سه‌شنبه 22:00"
+  },
+  {
+   "kind": "tx-hour",
+   "hour": 4,
+   "category": "accounting_group",
+   "n": 5,
+   "note": "5 TX-linked messages in accounting_group at 04:00"
+  },
+  {
+   "kind": "tx-hour",
+   "hour": 11,
+   "category": "accounting_group",
+   "n": 7,
+   "note": "7 TX-linked messages in accounting_group at 11:00"
+  },
+  {
+   "kind": "tx-hour",
+   "hour": 13,
+   "category": "accounting_group",
+   "n": 8,
+   "note": "8 TX-linked messages in accounting_group at 13:00"
+  },
+  {
+   "kind": "tx-hour",
+   "hour": 14,
+   "category": "accounting_group",
+   "n": 5,
+   "note": "5 TX-linked messages in accounting_group at 14:00"
+  },
+  {
+   "kind": "tx-hour",
+   "hour": 15,
+   "category": "accounting_group",
+   "n": 5,
+   "note": "5 TX-linked messages in accounting_group at 15:00"
+  },
+  {
+   "kind": "tx-hour",
+   "hour": 18,
+   "category": "accounting_group",
+   "n": 24,
+   "note": "24 TX-linked messages in accounting_group at 18:00"
+  },
+  {
+   "kind": "tx-hour",
+   "hour": 20,
+   "category": "accounting_group",
+   "n": 8,
+   "note": "8 TX-linked messages in accounting_group at 20:00"
+  },
+  {
+   "kind": "tx-hour",
+   "hour": 21,
+   "category": "accounting_group",
+   "n": 5,
+   "note": "5 TX-linked messages in accounting_group at 21:00"
+  },
+  {
+   "kind": "tx-hour",
+   "hour": 22,
+   "category": "accounting_group",
+   "n": 9,
+   "note": "9 TX-linked messages in accounting_group at 22:00"
   }
  ]
 }
