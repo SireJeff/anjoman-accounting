@@ -255,5 +255,31 @@
   "website_declared_domain_toman",
   "website_rate_sensitivity_and_missing_input_checks",
   "website_vm_projection_toman"
+ ],
+ "precision": {
+  "community_social": 85,
+  "education_courses": 95,
+  "events": 65,
+  "coordination_logistics": 80,
+  "meta_noise": 100,
+  "media_outreach": 65,
+  "finance_operations": 80,
+  "website_tech": 65,
+  "governance_decisions": 60,
+  "publications_shabahng": 50
+ },
+ "precision_top5": {
+  "meta_noise": 100,
+  "community_social": 85,
+  "coordination_logistics": 80,
+  "finance_operations": 80,
+  "education_courses": 95
+ },
+ "review_notes": [
+  "Round-3 spot-check (200 samples, post-fix-2): 149/200 correct (74.5% overall); 51 failures = 29 lexicon + 21 llm + 1 rule. Top-5 gate: PASS on mean - 88.0% (meta_noise 100, education_courses 95, community_social 85, coordination_logistics 80, finance_operations 80) vs >=85% target; under a strict per-category reading coordination_logistics and finance_operations (80 each) still sit below 85. Round-2 fixes demonstrably worked where aimed: meta_noise 70->100 (word-boundary affirmation list, demotion), education 85->95, community 80->85, coordination 70->80; top-5 mean 77->88.",
+  "Lexicon failures (29) now dominate and are concentrated, not diffuse: publications_shabahng 10/10 and governance_decisions 8/8 failures are lexicon. Root causes visible in lexicon.json: publications carries the generic term 'گروه نجوم', so every کوانتا/اریدانوس astronomy-group channel post (study-circle session ads, stargazing tours, trip reports) multi-labels into the journal bucket alongside its correct home; governance carries 'جلسه', 'گزارش', 'فراخوان', 'شورای صنفی' and the person name 'مقیمی', pulling broadcast essays, council news alerts, session announcements and name-drop banter into board coordination. Both are systematically fixable: require journal anchors (نشریه/شباهنگ/تکانه/شماره) for publications, drop person names and bare 'گزارش' from governance, and gate multi-label firing on channel-source broadcast posts.",
+  "LLM residual failures (21) are the ambiguity floor, not a bug class: all at confidence 0.5-0.65, mostly context-free fragments whose true category is unknowable without thread context ('پارت های جالبی دارن', 'یا مشکلات محاسبه‌ای', 'صدای کسی که حرف میزنه', 'تایم بگین', 'فکر نکنم بتونیم الان مکانیزمی دراریم'). Concentration: website_tech 6, media_outreach 5, coordination_logistics 3, events 3, community_social 2, finance 1, education 1 - website_tech remains a soft catch-all for generic platform/AV talk (Google Meet limits, record-and-play) that fits no category cleanly. One rule-path leak: empty channel message (channel#message3131) labeled media_outreach at 0.9 via the media/sticker rule, plus one empty llm guess (private_group#message1760) - trivially fixable by routing empty text to meta_noise/unclassified unconditionally.",
+  "Multi-label exposure inflates the failure surface: 84/200 sampled messages carry 2-4 categories each, and two IDs were double-sampled across buckets (channel#message3106 under education_courses AND publications_shabahng; channel#message3485 under governance_decisions AND publications_shabahng) - each extra label is another precision test, and at most one placement of a duplicate can be right. Channel# broadcast posts averaging 4 labels (e.g. message3470, 3484) are the main offender; capping secondary labels or requiring per-label corroboration would cut most lexicon failures.",
+  "Verdict: remaining failures are NOT purely an ambiguity floor - roughly 20 of 51 (the publications/governance/governance-adjacent lexicon over-firing on channel broadcasts) are systematically fixable with the lexicon surgery above, while the ~21 llm fragment failures (and a handful of near-miss education-vs-events summer-school registrations) represent genuine overlap between adjacent categories (school-registration posts straddling education/events/media; interview/poster talk straddling media/events) that no keyword system resolves without thread context."
  ]
 }
