@@ -1,0 +1,9658 @@
+{
+ "private_group#message11709": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11710": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11719": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11720": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11722": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11725": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11727": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11728": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11729": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11731": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11733": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11734": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11736": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11737": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11738": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11739": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11740": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11741": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11742": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11743": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11747": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11748": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11750": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11753": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11755": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11756": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11760": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11761": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11762": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11765": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11768": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11772": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11773": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11777": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11778": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11779": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11781": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11784": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11785": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11786": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11787": {
+  "categories": [
+   "website_tech"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11788": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11790": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11792": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11797": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11799": {
+  "categories": [
+   "media_outreach",
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11800": {
+  "categories": [
+   "media_outreach",
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11801": {
+  "categories": [
+   "media_outreach",
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11802": {
+  "categories": [
+   "media_outreach",
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11803": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11804": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11805": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11806": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11808": {
+  "categories": [
+   "media_outreach",
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11810": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11812": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11814": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11815": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11816": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11817": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11819": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11820": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11821": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11823": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11824": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11827": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11828": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11830": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": true,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11832": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11833": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": true,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11834": {
+  "categories": [
+   "media_outreach",
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11836": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11837": {
+  "categories": [
+   "media_outreach",
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11838": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11839": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11841": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11843": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11844": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11845": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11846": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11848": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11849": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11851": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11853": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11854": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11856": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11857": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11858": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11859": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11861": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11863": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11866": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11867": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11869": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11871": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11873": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11874": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11875": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11876": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11877": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11881": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11883": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11884": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11885": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11886": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11887": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11888": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11889": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11890": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11891": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11892": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11893": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11894": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11895": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11896": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11897": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11898": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11900": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11903": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11904": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11906": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11907": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11913": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11914": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11917": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11920": {
+  "categories": [
+   "education_courses"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11924": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11928": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11930": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11931": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11932": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11933": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11934": {
+  "categories": [
+   "education_courses",
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.7
+ },
+ "private_group#message11937": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11938": {
+  "categories": [
+   "education_courses",
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11939": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11943": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11944": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11945": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11948": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11950": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11951": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11952": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11953": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11955": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11958": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11960": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11961": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11962": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11964": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11965": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11966": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11969": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11971": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11976": {
+  "categories": [
+   "education_courses"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11977": {
+  "categories": [
+   "education_courses"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11979": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11980": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11981": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11983": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11984": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11985": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11986": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11987": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11988": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11989": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11990": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11991": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11992": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11993": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11994": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11995": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11996": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11997": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message11998": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message11999": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12000": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12002": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12003": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12004": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12005": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12006": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12007": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12008": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12009": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12010": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12011": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12012": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12013": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12014": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12016": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12017": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12018": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12019": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12020": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12021": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12026": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12030": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12032": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12034": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12037": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12038": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12041": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12042": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12045": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12047": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12048": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12049": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12050": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12051": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12053": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12056": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12057": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12058": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12059": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12062": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12063": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12065": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12067": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12068": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12069": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12073": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12075": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12081": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12084": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12085": {
+  "categories": [
+   "website_tech"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12086": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12087": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12088": {
+  "categories": [
+   "website_tech"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12091": {
+  "categories": [
+   "website_tech",
+   "governance_decisions"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12092": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12093": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12094": {
+  "categories": [
+   "website_tech"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12096": {
+  "categories": [
+   "website_tech"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12097": {
+  "categories": [
+   "website_tech"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12098": {
+  "categories": [
+   "website_tech"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12099": {
+  "categories": [
+   "publications_shabahang"
+  ],
+  "is_decision": false,
+  "event_ref": "shabahang-journals-funding",
+  "confidence": 0.7
+ },
+ "private_group#message12100": {
+  "categories": [
+   "publications_shabahang",
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12104": {
+  "categories": [
+   "education_courses",
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "summer-school-1405",
+  "confidence": 0.6
+ },
+ "private_group#message12106": {
+  "categories": [
+   "education_courses",
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "summer-school-1405",
+  "confidence": 0.6
+ },
+ "private_group#message12108": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "media-social-content",
+  "confidence": 0.6
+ },
+ "private_group#message12110": {
+  "categories": [
+   "publications_shabahang"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12113": {
+  "categories": [
+   "publications_shabahang"
+  ],
+  "is_decision": false,
+  "event_ref": "shabahang-journals-funding",
+  "confidence": 0.7
+ },
+ "private_group#message12118": {
+  "categories": [
+   "education_courses"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12121": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12123": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12124": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12126": {
+  "categories": [
+   "education_courses"
+  ],
+  "is_decision": false,
+  "event_ref": "summer-school-1405",
+  "confidence": 0.5
+ },
+ "private_group#message12128": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12129": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12130": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12133": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12134": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12137": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12139": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12141": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12142": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12143": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12145": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12146": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12147": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12148": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12150": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12151": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12152": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12153": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12154": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12155": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12156": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12161": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12163": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12165": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12166": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12167": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12168": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12170": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12172": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12175": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12176": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12177": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12179": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12180": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12181": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12182": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12183": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12184": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12189": {
+  "categories": [
+   "education_courses"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.7
+ },
+ "private_group#message12190": {
+  "categories": [
+   "education_courses"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12191": {
+  "categories": [
+   "education_courses"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12192": {
+  "categories": [
+   "education_courses"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12193": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12194": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12195": {
+  "categories": [
+   "education_courses"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12196": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12197": {
+  "categories": [
+   "education_courses"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12198": {
+  "categories": [
+   "education_courses"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12201": {
+  "categories": [
+   "education_courses"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12203": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12207": {
+  "categories": [
+   "education_courses"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12209": {
+  "categories": [
+   "education_courses"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12212": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12218": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12219": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12222": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12223": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12225": {
+  "categories": [
+   "education_courses"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12226": {
+  "categories": [
+   "education_courses"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12228": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12230": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12231": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12233": {
+  "categories": [
+   "education_courses"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12235": {
+  "categories": [
+   "education_courses"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12237": {
+  "categories": [
+   "education_courses"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12238": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12239": {
+  "categories": [
+   "education_courses"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12240": {
+  "categories": [
+   "education_courses"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12241": {
+  "categories": [
+   "education_courses"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12243": {
+  "categories": [
+   "education_courses"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12244": {
+  "categories": [
+   "education_courses"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12247": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12248": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12251": {
+  "categories": [
+   "education_courses"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12252": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12254": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12255": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12256": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12258": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12260": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12261": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12262": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12263": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12264": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12265": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12267": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12268": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12271": {
+  "categories": [
+   "media_outreach",
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12272": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12273": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12275": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12278": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12279": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12281": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12282": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12283": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12285": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": true,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12289": {
+  "categories": [
+   "education_courses"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12292": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12294": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12296": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12297": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12299": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12300": {
+  "categories": [
+   "media_outreach",
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12303": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12306": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12307": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12308": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12309": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12311": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12312": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12315": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12320": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12321": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12322": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12323": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12325": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12327": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12329": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12330": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12331": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12332": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12333": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12334": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12335": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12336": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12337": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12338": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12339": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12340": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12345": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12347": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12350": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12353": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12354": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12355": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12356": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12357": {
+  "categories": [
+   "education_courses"
+  ],
+  "is_decision": false,
+  "event_ref": "summer-school-1405",
+  "confidence": 0.7
+ },
+ "private_group#message12358": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12360": {
+  "categories": [
+   "education_courses"
+  ],
+  "is_decision": false,
+  "event_ref": "summer-school-1405",
+  "confidence": 0.7
+ },
+ "private_group#message12364": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12365": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12367": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12371": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12372": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12373": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12374": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12376": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12377": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12378": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12380": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12389": {
+  "categories": [
+   "education_courses",
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "summer-school-1405",
+  "confidence": 0.6
+ },
+ "private_group#message12390": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12392": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12393": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12394": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12395": {
+  "categories": [
+   "website_tech"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12396": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12397": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12398": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12399": {
+  "categories": [
+   "website_tech"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12400": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12401": {
+  "categories": [
+   "website_tech"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12402": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12403": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12404": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12405": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12406": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12408": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12411": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12413": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12414": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12415": {
+  "categories": [
+   "website_tech"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12417": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12419": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12420": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12421": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12422": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12423": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12424": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12427": {
+  "categories": [
+   "education_courses"
+  ],
+  "is_decision": false,
+  "event_ref": "summer-school-1405",
+  "confidence": 0.7
+ },
+ "private_group#message12428": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12429": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12431": {
+  "categories": [
+   "website_tech"
+  ],
+  "is_decision": false,
+  "event_ref": "summer-school-1405",
+  "confidence": 0.6
+ },
+ "private_group#message12432": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12434": {
+  "categories": [
+   "website_tech"
+  ],
+  "is_decision": false,
+  "event_ref": "summer-school-1405",
+  "confidence": 0.6
+ },
+ "private_group#message12437": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12438": {
+  "categories": [
+   "website_tech"
+  ],
+  "is_decision": false,
+  "event_ref": "summer-school-1405",
+  "confidence": 0.6
+ },
+ "private_group#message12439": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12441": {
+  "categories": [
+   "website_tech"
+  ],
+  "is_decision": false,
+  "event_ref": "summer-school-1405",
+  "confidence": 0.7
+ },
+ "private_group#message12442": {
+  "categories": [
+   "website_tech"
+  ],
+  "is_decision": false,
+  "event_ref": "summer-school-1405",
+  "confidence": 0.6
+ },
+ "private_group#message12443": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12444": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12445": {
+  "categories": [
+   "website_tech"
+  ],
+  "is_decision": false,
+  "event_ref": "summer-school-1405",
+  "confidence": 0.7
+ },
+ "private_group#message12446": {
+  "categories": [
+   "website_tech"
+  ],
+  "is_decision": false,
+  "event_ref": "summer-school-1405",
+  "confidence": 0.7
+ },
+ "private_group#message12447": {
+  "categories": [
+   "website_tech"
+  ],
+  "is_decision": false,
+  "event_ref": "summer-school-1405",
+  "confidence": 0.7
+ },
+ "private_group#message12448": {
+  "categories": [
+   "website_tech"
+  ],
+  "is_decision": false,
+  "event_ref": "summer-school-1405",
+  "confidence": 0.7
+ },
+ "private_group#message12449": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12451": {
+  "categories": [
+   "website_tech"
+  ],
+  "is_decision": false,
+  "event_ref": "summer-school-1405",
+  "confidence": 0.6
+ },
+ "private_group#message12452": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12453": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12455": {
+  "categories": [
+   "finance_operations"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12456": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12458": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12460": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12461": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12463": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12466": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12468": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12469": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12472": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12473": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12474": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12476": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12478": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12479": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12480": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12481": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12483": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12485": {
+  "categories": [
+   "website_tech"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12486": {
+  "categories": [
+   "website_tech"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.7
+ },
+ "private_group#message12488": {
+  "categories": [
+   "website_tech"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12494": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12495": {
+  "categories": [
+   "website_tech"
+  ],
+  "is_decision": false,
+  "event_ref": "summer-school-1405",
+  "confidence": 0.7
+ },
+ "private_group#message12498": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12499": {
+  "categories": [
+   "website_tech"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12500": {
+  "categories": [
+   "website_tech"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12501": {
+  "categories": [
+   "website_tech"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12503": {
+  "categories": [
+   "website_tech"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12504": {
+  "categories": [
+   "website_tech"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12511": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12512": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12517": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12519": {
+  "categories": [
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.7
+ },
+ "private_group#message12520": {
+  "categories": [
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.5
+ },
+ "private_group#message12521": {
+  "categories": [
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "private_group#message12522": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12524": {
+  "categories": [
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "private_group#message12525": {
+  "categories": [
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.5
+ },
+ "private_group#message12527": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12528": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12530": {
+  "categories": [
+   "events",
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "private_group#message12532": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12540": {
+  "categories": [
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "private_group#message12543": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12546": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12553": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12554": {
+  "categories": [
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "private_group#message12558": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12560": {
+  "categories": [
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.5
+ },
+ "private_group#message12567": {
+  "categories": [
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.5
+ },
+ "private_group#message12568": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12572": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.5
+ },
+ "private_group#message12573": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "private_group#message12574": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "private_group#message12575": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "private_group#message12576": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12579": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12584": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12585": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12586": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12587": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12589": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12590": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12592": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12593": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12595": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12598": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "private_group#message12599": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12600": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "private_group#message12601": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12604": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12607": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12608": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12611": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12614": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12615": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12617": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12619": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12623": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12627": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12630": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12635": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12636": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12642": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12643": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12644": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12645": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12646": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12647": {
+  "categories": [
+   "education_courses",
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "summer-school-1405",
+  "confidence": 0.7
+ },
+ "private_group#message12648": {
+  "categories": [
+   "education_courses",
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "summer-school-1405",
+  "confidence": 0.6
+ },
+ "private_group#message12650": {
+  "categories": [
+   "education_courses",
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "summer-school-1405",
+  "confidence": 0.6
+ },
+ "private_group#message12652": {
+  "categories": [
+   "education_courses"
+  ],
+  "is_decision": false,
+  "event_ref": "summer-school-1405",
+  "confidence": 0.6
+ },
+ "private_group#message12653": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12654": {
+  "categories": [
+   "education_courses",
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "summer-school-1405",
+  "confidence": 0.6
+ },
+ "private_group#message12655": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12658": {
+  "categories": [
+   "education_courses",
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "summer-school-1405",
+  "confidence": 0.5
+ },
+ "private_group#message12659": {
+  "categories": [
+   "education_courses"
+  ],
+  "is_decision": false,
+  "event_ref": "summer-school-1405",
+  "confidence": 0.6
+ },
+ "private_group#message12661": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12662": {
+  "categories": [
+   "education_courses"
+  ],
+  "is_decision": false,
+  "event_ref": "summer-school-1405",
+  "confidence": 0.6
+ },
+ "private_group#message12663": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12664": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12670": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12672": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12673": {
+  "categories": [
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "private_group#message12674": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12675": {
+  "categories": [
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "private_group#message12679": {
+  "categories": [
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "private_group#message12684": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "private_group#message12685": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12686": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12687": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12689": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12693": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12694": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12695": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12696": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12697": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12698": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12699": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12700": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12701": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12702": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12703": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12706": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12708": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12709": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12710": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12712": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12713": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12714": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12715": {
+  "categories": [
+   "website_tech"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12716": {
+  "categories": [
+   "website_tech"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12718": {
+  "categories": [
+   "website_tech"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12719": {
+  "categories": [
+   "website_tech"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12720": {
+  "categories": [
+   "website_tech"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12721": {
+  "categories": [
+   "website_tech"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12724": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12725": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12726": {
+  "categories": [
+   "website_tech"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12727": {
+  "categories": [
+   "website_tech"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12730": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12731": {
+  "categories": [
+   "website_tech"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12733": {
+  "categories": [
+   "website_tech"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12735": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12736": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12741": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12742": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12743": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12744": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12745": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12746": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12747": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12748": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12753": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12754": {
+  "categories": [
+   "education_courses",
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "summer-school-1405",
+  "confidence": 0.5
+ },
+ "private_group#message12755": {
+  "categories": [
+   "education_courses",
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "summer-school-1405",
+  "confidence": 0.6
+ },
+ "private_group#message12756": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12759": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12761": {
+  "categories": [
+   "education_courses"
+  ],
+  "is_decision": false,
+  "event_ref": "summer-school-1405",
+  "confidence": 0.6
+ },
+ "private_group#message12764": {
+  "categories": [
+   "website_tech"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12765": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12766": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12768": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12769": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12770": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12771": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12773": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12774": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12775": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12776": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12777": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12779": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12780": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12781": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12783": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12785": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12786": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12788": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12789": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12790": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12792": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12794": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12795": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12796": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12798": {
+  "categories": [
+   "education_courses",
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "summer-school-1405",
+  "confidence": 0.6
+ },
+ "private_group#message12800": {
+  "categories": [
+   "education_courses"
+  ],
+  "is_decision": false,
+  "event_ref": "summer-school-1405",
+  "confidence": 0.5
+ },
+ "private_group#message12805": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12808": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12810": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12811": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12813": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12815": {
+  "categories": [
+   "website_tech"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12819": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12822": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12823": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12824": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12825": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12827": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12830": {
+  "categories": [
+   "media_outreach",
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12832": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12833": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12834": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12835": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12837": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.7
+ },
+ "private_group#message12838": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12841": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12850": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12851": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12854": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12855": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12860": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12863": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "private_group#message12866": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12870": {
+  "categories": [
+   "governance_decisions"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12871": {
+  "categories": [
+   "governance_decisions",
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12875": {
+  "categories": [
+   "governance_decisions"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12877": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12879": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "private_group#message12881": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "sponsorship-room-renovation",
+  "confidence": 0.6
+ },
+ "public_group#message19": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message22": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message26": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message27": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message28": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message29": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message30": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message32": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message33": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message34": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message39": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message43": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message45": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message47": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message57": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "media-team-content-pipeline",
+  "confidence": 0.6
+ },
+ "public_group#message62": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "media-team-content-pipeline",
+  "confidence": 0.7
+ },
+ "public_group#message78": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message79": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message81": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message83": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message84": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message86": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message88": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message91": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message93": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message94": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message97": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message99": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message100": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message101": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message104": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message105": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message106": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "summer-school-1405",
+  "confidence": 0.6
+ },
+ "public_group#message107": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "summer-school-1405",
+  "confidence": 0.6
+ },
+ "public_group#message108": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message110": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message111": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message117": {
+  "categories": [
+   "education_courses",
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "summer-school-1405",
+  "confidence": 0.6
+ },
+ "public_group#message118": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message120": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message123": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message125": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message129": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message130": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message133": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message134": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message136": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message137": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "summer-school-1405",
+  "confidence": 0.6
+ },
+ "public_group#message138": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message139": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message140": {
+  "categories": [
+   "education_courses",
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "summer-school-1405",
+  "confidence": 0.6
+ },
+ "public_group#message141": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message142": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "summer-school-1405",
+  "confidence": 0.6
+ },
+ "public_group#message143": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "summer-school-1405",
+  "confidence": 0.5
+ },
+ "public_group#message145": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message146": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message148": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message149": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message150": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message154": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message155": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message157": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message158": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message163": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message164": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message165": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message166": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message168": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message172": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message174": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message175": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message176": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": true,
+  "event_ref": "summer-school-1405",
+  "confidence": 0.6
+ },
+ "public_group#message178": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message179": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message180": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message181": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.7
+ },
+ "public_group#message182": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message183": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message184": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message187": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message188": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message189": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message191": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message192": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message193": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message194": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message195": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message196": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message197": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message199": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message201": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message203": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message204": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message206": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message207": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message208": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message209": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message210": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message212": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message213": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message214": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message215": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message216": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message217": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message218": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message220": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message224": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message228": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message229": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message230": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message233": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message234": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message238": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message239": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message240": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message242": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message243": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message246": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "summer-school-1405",
+  "confidence": 0.6
+ },
+ "public_group#message247": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "summer-school-1405",
+  "confidence": 0.5
+ },
+ "public_group#message251": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message252": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "summer-school-1405",
+  "confidence": 0.6
+ },
+ "public_group#message254": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "summer-school-1405",
+  "confidence": 0.6
+ },
+ "public_group#message255": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "summer-school-1405",
+  "confidence": 0.5
+ },
+ "public_group#message256": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message259": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "summer-school-1405",
+  "confidence": 0.6
+ },
+ "public_group#message264": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "media-team-content-pipeline",
+  "confidence": 0.7
+ },
+ "public_group#message265": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message266": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message267": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message268": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message270": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message271": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message278": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message279": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message280": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message281": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message282": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message284": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message285": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message286": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message288": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message290": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message291": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message296": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message297": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message302": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message316": {
+  "categories": [
+   "education_courses",
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "summer-school-1405",
+  "confidence": 0.6
+ },
+ "public_group#message318": {
+  "categories": [
+   "education_courses",
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "summer-school-1405",
+  "confidence": 0.6
+ },
+ "public_group#message320": {
+  "categories": [
+   "education_courses",
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "summer-school-1405",
+  "confidence": 0.6
+ },
+ "public_group#message321": {
+  "categories": [
+   "education_courses",
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "summer-school-1405",
+  "confidence": 0.6
+ },
+ "public_group#message322": {
+  "categories": [
+   "education_courses",
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "summer-school-1405",
+  "confidence": 0.6
+ },
+ "public_group#message324": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message325": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "summer-school-1405",
+  "confidence": 0.6
+ },
+ "public_group#message329": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "summer-school-1405",
+  "confidence": 0.6
+ },
+ "public_group#message330": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message331": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "summer-school-1405",
+  "confidence": 0.6
+ },
+ "public_group#message341": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message342": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message343": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message344": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message347": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message349": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message350": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message355": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message357": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message365": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message366": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message367": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message372": {
+  "categories": [
+   "education_courses"
+  ],
+  "is_decision": false,
+  "event_ref": "summer-school-1405",
+  "confidence": 0.6
+ },
+ "public_group#message373": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message375": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message380": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message381": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message382": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message387": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message389": {
+  "categories": [
+   "education_courses"
+  ],
+  "is_decision": false,
+  "event_ref": "summer-school-1405",
+  "confidence": 0.6
+ },
+ "public_group#message392": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message393": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message394": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message399": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message400": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message401": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message402": {
+  "categories": [
+   "education_courses"
+  ],
+  "is_decision": false,
+  "event_ref": "summer-school-1405",
+  "confidence": 0.6
+ },
+ "public_group#message404": {
+  "categories": [
+   "education_courses",
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "summer-school-1405",
+  "confidence": 0.6
+ },
+ "public_group#message405": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message407": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message409": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message412": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message414": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message415": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message416": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message417": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message418": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message419": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message422": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message423": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message424": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message425": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message426": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message427": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message428": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message429": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": true,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message430": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message431": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message433": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message434": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message435": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message437": {
+  "categories": [
+   "finance_operations",
+   "education_courses"
+  ],
+  "is_decision": false,
+  "event_ref": "summer-school-1405",
+  "confidence": 0.7
+ },
+ "public_group#message441": {
+  "categories": [
+   "education_courses",
+   "media_outreach"
+  ],
+  "is_decision": true,
+  "event_ref": "summer-school-1405",
+  "confidence": 0.7
+ },
+ "public_group#message442": {
+  "categories": [
+   "education_courses",
+   "media_outreach"
+  ],
+  "is_decision": true,
+  "event_ref": "summer-school-1405",
+  "confidence": 0.6
+ },
+ "public_group#message444": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message445": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message446": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message449": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message451": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message452": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message458": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message459": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message460": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message461": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message462": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message466": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message467": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message469": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message470": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message475": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message477": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message480": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message481": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message482": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message485": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message486": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message487": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message488": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message490": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message491": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message492": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message495": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message496": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message497": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message498": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message499": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message502": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message503": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message505": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message506": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.7
+ },
+ "public_group#message507": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message509": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message511": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message512": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message513": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message514": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message515": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message517": {
+  "categories": [
+   "education_courses",
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "summer-school-1405",
+  "confidence": 0.6
+ },
+ "public_group#message518": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message519": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message520": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message521": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message527": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message528": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message529": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message530": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message531": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message533": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message534": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message535": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message538": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message539": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message540": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message541": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message542": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message543": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message544": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message546": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message555": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message556": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message557": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message560": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message561": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message562": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message564": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message565": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message566": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message567": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message568": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "media-team-content-pipeline",
+  "confidence": 0.6
+ },
+ "public_group#message569": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message570": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message571": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message574": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message584": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message585": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.7
+ },
+ "public_group#message586": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message587": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message588": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message589": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message590": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.7
+ },
+ "public_group#message592": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message594": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message601": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message602": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message603": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message604": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message605": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message608": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message610": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message611": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message612": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message613": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message615": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message616": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message617": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message618": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message619": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message622": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message625": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message626": {
+  "categories": [
+   "website_tech"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message627": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message629": {
+  "categories": [
+   "website_tech"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message630": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message631": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message633": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message634": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message635": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message636": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message637": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message638": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message641": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message642": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message643": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message644": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message649": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message663": {
+  "categories": [
+   "coordination_logistics",
+   "education_courses"
+  ],
+  "is_decision": false,
+  "event_ref": "summer-school-1405",
+  "confidence": 0.6
+ },
+ "public_group#message665": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "summer-school-1405",
+  "confidence": 0.5
+ },
+ "public_group#message678": {
+  "categories": [
+   "events",
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message681": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.5
+ },
+ "public_group#message682": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.5
+ },
+ "public_group#message686": {
+  "categories": [
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.7
+ },
+ "public_group#message689": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message691": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message692": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message693": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message694": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message695": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message697": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message698": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message699": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message700": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message708": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message710": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message716": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message721": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message722": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message726": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message727": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message728": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message730": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message732": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message733": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message734": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message735": {
+  "categories": [
+   "website_tech"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message738": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message739": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message740": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message741": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message742": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message743": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message744": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message745": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message747": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message748": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message749": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message752": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message753": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message754": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message755": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message762": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message768": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message769": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message770": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message771": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message772": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message773": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message775": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message776": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message777": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message778": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message779": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message780": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message783": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message784": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message785": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message786": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message787": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message788": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message790": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message791": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message792": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message794": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message795": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message800": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message802": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message804": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message805": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message806": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message808": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message811": {
+  "categories": [
+   "community_social",
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message813": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message814": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message818": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message824": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message825": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message826": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message827": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message828": {
+  "categories": [
+   "finance_operations",
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "sponsorship-room-renovation",
+  "confidence": 0.5
+ },
+ "public_group#message829": {
+  "categories": [
+   "finance_operations",
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "sponsorship-room-renovation",
+  "confidence": 0.5
+ },
+ "public_group#message830": {
+  "categories": [
+   "finance_operations",
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "sponsorship-room-renovation",
+  "confidence": 0.5
+ },
+ "public_group#message838": {
+  "categories": [
+   "finance_operations",
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "sponsorship-room-renovation",
+  "confidence": 0.5
+ },
+ "public_group#message839": {
+  "categories": [
+   "finance_operations",
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "sponsorship-room-renovation",
+  "confidence": 0.5
+ },
+ "public_group#message840": {
+  "categories": [
+   "finance_operations",
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "sponsorship-room-renovation",
+  "confidence": 0.5
+ },
+ "public_group#message842": {
+  "categories": [
+   "finance_operations",
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "sponsorship-room-renovation",
+  "confidence": 0.5
+ },
+ "public_group#message844": {
+  "categories": [
+   "finance_operations",
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "sponsorship-room-renovation",
+  "confidence": 0.5
+ },
+ "public_group#message845": {
+  "categories": [
+   "finance_operations",
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": "sponsorship-room-renovation",
+  "confidence": 0.5
+ },
+ "public_group#message846": {
+  "categories": [
+   "finance_operations",
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": "sponsorship-room-renovation",
+  "confidence": 0.5
+ },
+ "public_group#message849": {
+  "categories": [
+   "finance_operations",
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": "sponsorship-room-renovation",
+  "confidence": 0.5
+ },
+ "public_group#message850": {
+  "categories": [
+   "finance_operations",
+   "events"
+  ],
+  "is_decision": false,
+  "event_ref": "sponsorship-room-renovation",
+  "confidence": 0.5
+ },
+ "public_group#message851": {
+  "categories": [
+   "finance_operations",
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "sponsorship-room-renovation",
+  "confidence": 0.5
+ },
+ "public_group#message853": {
+  "categories": [
+   "finance_operations",
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "sponsorship-room-renovation",
+  "confidence": 0.6
+ },
+ "public_group#message854": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.7
+ },
+ "public_group#message855": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message857": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message858": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message859": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message860": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message861": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message863": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message864": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message865": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message868": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message870": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message871": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message872": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message873": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message875": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message876": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message877": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message878": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message879": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message880": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message881": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message882": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message884": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message885": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.7
+ },
+ "public_group#message886": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message887": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message888": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message893": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message895": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message898": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message899": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message900": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message901": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message902": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message903": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message906": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message907": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "media-team-content-pipeline",
+  "confidence": 0.6
+ },
+ "public_group#message908": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message910": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message912": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "media-team-content-pipeline",
+  "confidence": 0.6
+ },
+ "public_group#message913": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message914": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message917": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message918": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message919": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "media-team-content-pipeline",
+  "confidence": 0.6
+ },
+ "public_group#message921": {
+  "categories": [
+   "coordination_logistics"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message924": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message925": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message929": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message932": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "intro-event-1405",
+  "confidence": 0.6
+ },
+ "public_group#message933": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message934": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message935": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message936": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message937": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message943": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message944": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message945": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message946": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message948": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message950": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message952": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message955": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message956": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message957": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message959": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message960": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message962": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message964": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message965": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message967": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message970": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message971": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message972": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message973": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message975": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message980": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": true,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message982": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message983": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message987": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message988": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message990": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message991": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message992": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message993": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message994": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message995": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.7
+ },
+ "public_group#message996": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message997": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1000": {
+  "categories": [
+   "community_social"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1001": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1002": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1003": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message1005": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1006": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1007": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1011": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1012": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1014": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message1015": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": "media-team-content-pipeline",
+  "confidence": 0.7
+ },
+ "public_group#message1017": {
+  "categories": [
+   "meta_noise"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1019": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.5
+ },
+ "public_group#message1020": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ },
+ "public_group#message1022": {
+  "categories": [
+   "media_outreach"
+  ],
+  "is_decision": false,
+  "event_ref": null,
+  "confidence": 0.6
+ }
+}

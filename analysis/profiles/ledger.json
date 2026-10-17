@@ -1,0 +1,2557 @@
+{
+  "source": "ledger",
+  "n_messages": 96,
+  "months": {
+    "1404/04": {
+      "count": 1,
+      "toman_total": 400000.0,
+      "receipt_toman": 0.0,
+      "payment_toman": 400000.0,
+      "top_participants": [
+        [
+          "محمدحسین مشک افشان",
+          1
+        ]
+      ]
+    },
+    "1404/05": {
+      "count": 12,
+      "toman_total": 47292900.0,
+      "receipt_toman": 33642000.0,
+      "payment_toman": 13650900.0,
+      "top_participants": [
+        [
+          "امیرمحمد جوشقانی",
+          2
+        ],
+        [
+          "متین جوکارتنگ کرمی",
+          2
+        ],
+        [
+          "حسن شیری",
+          2
+        ]
+      ]
+    },
+    "1404/06": {
+      "count": 4,
+      "toman_total": 8075000.0,
+      "receipt_toman": 4920000.0,
+      "payment_toman": 3155000.0,
+      "top_participants": [
+        [
+          "Participants, held by محمدامین عزیزی",
+          1
+        ],
+        [
+          "چاپ بهزاد",
+          1
+        ],
+        [
+          "محمدامین عزیزی",
+          1
+        ]
+      ]
+    },
+    "1404/07": {
+      "count": 8,
+      "toman_total": 5187600.0,
+      "receipt_toman": 500000.0,
+      "payment_toman": 4687600.0,
+      "top_participants": [
+        [
+          "Merchant terminal 12926362",
+          2
+        ],
+        [
+          "شیرینی مارژولن (terminal 14594032)",
+          2
+        ],
+        [
+          "AMIN-EVENT to SHAHR-8966",
+          1
+        ]
+      ]
+    },
+    "1404/08": {
+      "count": 17,
+      "toman_total": 21416700.0,
+      "receipt_toman": 11000000.0,
+      "payment_toman": 10116700.0,
+      "top_participants": [
+        [
+          "Unknown",
+          5
+        ],
+        [
+          "Former association (Mellat card …7532)",
+          1
+        ],
+        [
+          "Former association (card …7532)",
+          1
+        ]
+      ]
+    },
+    "1404/09": {
+      "count": 4,
+      "toman_total": 24020000.0,
+      "receipt_toman": 23000000.0,
+      "payment_toman": 1020000.0,
+      "top_participants": [
+        [
+          "سامان مقیمی عراقی",
+          2
+        ],
+        [
+          "Merchant terminal 06723260",
+          1
+        ],
+        [
+          "دکتر مقیمی",
+          1
+        ]
+      ]
+    },
+    "1404/10": {
+      "count": 24,
+      "toman_total": 31510723.9,
+      "receipt_toman": 16490000.0,
+      "payment_toman": 15020723.9,
+      "top_participants": [
+        [
+          "Canbo Tarasht 1633",
+          8
+        ],
+        [
+          "سیدبردیا احمدی‌مروست",
+          2
+        ],
+        [
+          "Canbo Tarasht Metro 2224",
+          2
+        ]
+      ]
+    },
+    "1404/12": {
+      "count": 1,
+      "toman_total": 1801220.0,
+      "receipt_toman": 0.0,
+      "payment_toman": 1801220.0,
+      "top_participants": [
+        [
+          "Card 6221061239419676 (owner unknown)",
+          1
+        ]
+      ]
+    },
+    "1405/02": {
+      "count": 2,
+      "toman_total": 4050000.0,
+      "receipt_toman": 0.0,
+      "payment_toman": 4050000.0,
+      "top_participants": [
+        [
+          "پرنیان عسگری",
+          2
+        ]
+      ]
+    },
+    "1405/05": {
+      "count": 5,
+      "toman_total": 11217000.0,
+      "receipt_toman": 0.0,
+      "payment_toman": 11217000.0,
+      "top_participants": [
+        [
+          "Terminal 09039608",
+          2
+        ],
+        [
+          "Terminal 80957455",
+          1
+        ],
+        [
+          "Terminal 03202703",
+          1
+        ]
+      ]
+    },
+    "1405/06": {
+      "count": 6,
+      "toman_total": 13407000.0,
+      "receipt_toman": 0.0,
+      "payment_toman": 13407000.0,
+      "top_participants": [
+        [
+          "محمدحسین مشک افشان",
+          1
+        ],
+        [
+          "عاطفه نخعی",
+          1
+        ],
+        [
+          "مهبانگ فن‌آوری‌های پارس (Skyroom)",
+          1
+        ]
+      ]
+    },
+    "1405/07": {
+      "count": 10,
+      "toman_total": 90010150.0,
+      "receipt_toman": 50235000.0,
+      "payment_toman": 39775150.0,
+      "top_participants": [
+        [
+          "بهاره خویش‌خواه",
+          1
+        ],
+        [
+          "ایلیا اصغریان دهکردی",
+          1
+        ],
+        [
+          "زهرا امیری",
+          1
+        ]
+      ]
+    },
+    "unknown": {
+      "count": 2,
+      "toman_total": 4664700.0,
+      "receipt_toman": 0.0,
+      "payment_toman": 4664700.0,
+      "top_participants": [
+        [
+          "Unknown online grocer",
+          1
+        ],
+        [
+          "Domain registrar not supplied",
+          1
+        ]
+      ]
+    }
+  },
+  "participants": [
+    [
+      "Canbo Tarasht 1633",
+      8,
+      8.3
+    ],
+    [
+      "Unknown",
+      6,
+      6.2
+    ],
+    [
+      "Canbo Tarasht Metro 2224",
+      2,
+      2.1
+    ],
+    [
+      "Merchant terminal 12926362",
+      2,
+      2.1
+    ],
+    [
+      "Terminal 09039608",
+      2,
+      2.1
+    ],
+    [
+      "ابراهیم خسروانی",
+      2,
+      2.1
+    ],
+    [
+      "امیرمحمد جوشقانی",
+      2,
+      2.1
+    ],
+    [
+      "حسن شیری",
+      2,
+      2.1
+    ],
+    [
+      "زهرا امیری",
+      2,
+      2.1
+    ],
+    [
+      "سامان مقیمی عراقی",
+      2,
+      2.1
+    ],
+    [
+      "سیدبردیا احمدی‌مروست",
+      2,
+      2.1
+    ],
+    [
+      "شیرینی مارژولن (terminal 14594032)",
+      2,
+      2.1
+    ],
+    [
+      "متین جوکارتنگ کرمی",
+      2,
+      2.1
+    ],
+    [
+      "محمدامین عزیزی",
+      2,
+      2.1
+    ],
+    [
+      "محمدحسین مشک افشان",
+      2,
+      2.1
+    ],
+    [
+      "پرنیان عسگری",
+      2,
+      2.1
+    ],
+    [
+      "AMIN-EVENT to SHAHR-8966",
+      1,
+      1.0
+    ],
+    [
+      "Bank Shahr",
+      1,
+      1.0
+    ],
+    [
+      "Card 6221061239419676 (owner unknown)",
+      1,
+      1.0
+    ],
+    [
+      "Card-to-card payees (unidentified)",
+      1,
+      1.0
+    ],
+    [
+      "Cash",
+      1,
+      1.0
+    ],
+    [
+      "Cash donors",
+      1,
+      1.0
+    ],
+    [
+      "Crowd donors",
+      1,
+      1.0
+    ],
+    [
+      "Domain registrar not supplied",
+      1,
+      1.0
+    ],
+    [
+      "Ekano",
+      1,
+      1.0
+    ],
+    [
+      "Event platform / participants",
+      1,
+      1.0
+    ],
+    [
+      "Former association (Mellat card …7532)",
+      1,
+      1.0
+    ],
+    [
+      "Former association (card …7532)",
+      1,
+      1.0
+    ],
+    [
+      "Hyperfamili Tarasht",
+      1,
+      1.0
+    ],
+    [
+      "Merchant 12738006",
+      1,
+      1.0
+    ],
+    [
+      "Merchant terminal 06723260",
+      1,
+      1.0
+    ],
+    [
+      "POS Novin Arian 11304219",
+      1,
+      1.0
+    ],
+    [
+      "POS Pasargad 00778147",
+      1,
+      1.0
+    ],
+    [
+      "Participants, held by محمدامین عزیزی",
+      1,
+      1.0
+    ],
+    [
+      "RIBAR coffee/fast food",
+      1,
+      1.0
+    ],
+    [
+      "Summer-school students (aggregate)",
+      1,
+      1.0
+    ],
+    [
+      "Terminal 03202703",
+      1,
+      1.0
+    ],
+    [
+      "Terminal 22958772",
+      1,
+      1.0
+    ],
+    [
+      "Terminal 80957455",
+      1,
+      1.0
+    ],
+    [
+      "Ticket buyers (90)",
+      1,
+      1.0
+    ],
+    [
+      "T…Mobile (احمدی)",
+      1,
+      1.0
+    ],
+    [
+      "Unknown online grocer",
+      1,
+      1.0
+    ],
+    [
+      "Unknown pharmacy",
+      1,
+      1.0
+    ],
+    [
+      "ابوالفضل احمدی (paid to علیرضا کچویی محقق یعقوبی)",
+      1,
+      1.0
+    ],
+    [
+      "اردوان شهبازی",
+      1,
+      1.0
+    ],
+    [
+      "ایلیا اصغریان دهکردی",
+      1,
+      1.0
+    ],
+    [
+      "بهاره خویش‌خواه",
+      1,
+      1.0
+    ],
+    [
+      "حسین",
+      1,
+      1.0
+    ],
+    [
+      "دکتر سامان مقیمی (card 6274…2662)",
+      1,
+      1.0
+    ],
+    [
+      "دکتر مقیمی",
+      1,
+      1.0
+    ],
+    [
+      "دینا زالی",
+      1,
+      1.0
+    ],
+    [
+      "رضا فرهادی",
+      1,
+      1.0
+    ],
+    [
+      "رفاه دانشجویی",
+      1,
+      1.0
+    ],
+    [
+      "زهرا صالح کوشالی",
+      1,
+      1.0
+    ],
+    [
+      "ساناز بهرامی",
+      1,
+      1.0
+    ],
+    [
+      "سهراب ملکی",
+      1,
+      1.0
+    ],
+    [
+      "سوپر مارکت شریف پلاس",
+      1,
+      1.0
+    ],
+    [
+      "سپهر طلائی",
+      1,
+      1.0
+    ],
+    [
+      "سیده راحله مختاری",
+      1,
+      1.0
+    ],
+    [
+      "شیرینی مارژولن",
+      1,
+      1.0
+    ],
+    [
+      "عاطفه نخعی",
+      1,
+      1.0
+    ],
+    [
+      "مهبانگ فن‌آوری‌های پارس (Skyroom)",
+      1,
+      1.0
+    ],
+    [
+      "مژده سلمانی سرشکی",
+      1,
+      1.0
+    ],
+    [
+      "نیما کوهی",
+      1,
+      1.0
+    ],
+    [
+      "پروین حقوردی",
+      1,
+      1.0
+    ],
+    [
+      "پریا هاشمی",
+      1,
+      1.0
+    ],
+    [
+      "چاپ بهزاد",
+      1,
+      1.0
+    ],
+    [
+      "کپی آرام گرافیک",
+      1,
+      1.0
+    ],
+    [
+      "یاران دریان لوکس گیشا",
+      1,
+      1.0
+    ],
+    [
+      "…پناهی (merchant)",
+      1,
+      1.0
+    ]
+  ],
+  "media_mix": {
+    "photo": 0,
+    "video": 0,
+    "voice": 0,
+    "document": 0,
+    "poll": 0,
+    "sticker": 0,
+    "animated": 0
+  },
+  "forwarded_origins": [],
+  "candidate_threads": [
+    {
+      "event_ref": "yalda-1404",
+      "title": "Yalda 1404",
+      "keywords": [
+        "yalda",
+        "1404"
+      ],
+      "anchor_dates": [
+        "2025-12-22",
+        "2026-05-17"
+      ],
+      "anchor_periods": [
+        "1404/10",
+        "1405/02"
+      ],
+      "chats_seen_in": [
+        "ledger",
+        "accounting_group"
+      ],
+      "evidence_message_ids": [
+        "message114",
+        "message115",
+        "message116",
+        "message118",
+        "message120",
+        "message121",
+        "message124",
+        "message125",
+        "message126",
+        "message128",
+        "message129",
+        "message151",
+        "message152",
+        "message154",
+        "message155",
+        "message156",
+        "message157",
+        "message158",
+        "message159",
+        "message161",
+        "message162",
+        "message163",
+        "message164",
+        "message165"
+      ],
+      "tx_ids": [
+        "TX0047",
+        "TX0048",
+        "TX0049",
+        "TX0050",
+        "TX0051",
+        "TX0052",
+        "TX0053",
+        "TX0054",
+        "TX0055",
+        "TX0056",
+        "TX0057",
+        "TX0058",
+        "TX0059",
+        "TX0060",
+        "TX0062",
+        "TX0063",
+        "TX0064",
+        "TX0065",
+        "TX0066",
+        "TX0067",
+        "TX0068",
+        "TX0069",
+        "TX0070",
+        "TX0071",
+        "TX0072",
+        "TX0073",
+        "TX0074"
+      ],
+      "tx_count": 27,
+      "toman_total": 37225423.9,
+      "direction_counts": {
+        "Receipt": 2,
+        "Payment": 25
+      },
+      "status_counts": {
+        "Supported": 6,
+        "Review": 17,
+        "Duplicate": 2,
+        "Invoice only": 2
+      }
+    },
+    {
+      "event_ref": "association-operations",
+      "title": "Association operations",
+      "keywords": [
+        "association",
+        "operations"
+      ],
+      "anchor_dates": [
+        "2025-10-25",
+        "2025-12-19"
+      ],
+      "anchor_periods": [
+        "1404/05",
+        "1404/08",
+        "1404/09"
+      ],
+      "chats_seen_in": [
+        "ledger",
+        "accounting_group"
+      ],
+      "evidence_message_ids": [
+        "message57",
+        "message66",
+        "message67",
+        "message68",
+        "message69",
+        "message71",
+        "message72",
+        "message73",
+        "message74",
+        "message75",
+        "message101",
+        "message102",
+        "message103",
+        "message106",
+        "message108",
+        "message109",
+        "message110",
+        "message112",
+        "message113",
+        "message144",
+        "message145"
+      ],
+      "tx_ids": [
+        "TX0013",
+        "TX0026",
+        "TX0027",
+        "TX0028",
+        "TX0029",
+        "TX0032",
+        "TX0039",
+        "TX0040",
+        "TX0041",
+        "TX0042",
+        "TX0044",
+        "TX0045",
+        "TX0046"
+      ],
+      "tx_count": 13,
+      "toman_total": 37097700,
+      "direction_counts": {
+        "Payment": 8,
+        "Receipt": 5
+      },
+      "status_counts": {
+        "Supported": 12,
+        "Review": 1
+      }
+    },
+    {
+      "event_ref": "unassigned",
+      "title": "Unassigned",
+      "keywords": [
+        "unassigned"
+      ],
+      "anchor_dates": [
+        "2025-11-23",
+        "2026-10-06"
+      ],
+      "anchor_periods": [
+        "1404/09",
+        "1404/12",
+        "1405/05",
+        "1405/06",
+        "1405/07"
+      ],
+      "chats_seen_in": [
+        "ledger"
+      ],
+      "evidence_message_ids": [],
+      "tx_ids": [
+        "TX0043",
+        "TX0061",
+        "TX0075",
+        "TX0076",
+        "TX0077",
+        "TX0078",
+        "TX0079",
+        "TX0080",
+        "TX0081",
+        "TX0089",
+        "TX0090",
+        "TX0091",
+        "TX0092"
+      ],
+      "tx_count": 13,
+      "toman_total": 45513370,
+      "direction_counts": {
+        "Payment": 13
+      },
+      "status_counts": {
+        "Supported": 13
+      }
+    },
+    {
+      "event_ref": "summer-school-1404",
+      "title": "Summer School 1404",
+      "keywords": [
+        "summer",
+        "school",
+        "1404"
+      ],
+      "anchor_dates": [
+        "2025-07-19",
+        "2025-08-15"
+      ],
+      "anchor_periods": [
+        "1404/04",
+        "1404/05"
+      ],
+      "chats_seen_in": [
+        "ledger",
+        "accounting_group"
+      ],
+      "evidence_message_ids": [
+        "message6",
+        "message7",
+        "message8",
+        "message10",
+        "message12",
+        "message13",
+        "message25",
+        "message26",
+        "message27",
+        "message28",
+        "message29",
+        "message30",
+        "message31",
+        "message32",
+        "message33",
+        "message34",
+        "message42",
+        "message43",
+        "message44",
+        "message45",
+        "message46",
+        "message47",
+        "message57"
+      ],
+      "tx_ids": [
+        "TX0001",
+        "TX0002",
+        "TX0003",
+        "TX0004",
+        "TX0005",
+        "TX0006",
+        "TX0007",
+        "TX0008",
+        "TX0009",
+        "TX0010",
+        "TX0011",
+        "TX0012"
+      ],
+      "tx_count": 12,
+      "toman_total": 46942900,
+      "direction_counts": {
+        "Receipt": 1,
+        "Payment": 11
+      },
+      "status_counts": {
+        "Supported": 11,
+        "Review": 1
+      }
+    },
+    {
+      "event_ref": "freshman-party-1404",
+      "title": "Freshman Party 1404",
+      "keywords": [
+        "freshman",
+        "party",
+        "1404"
+      ],
+      "anchor_dates": [
+        "2025-10-29",
+        "2025-11-14"
+      ],
+      "anchor_periods": [
+        "1404/08"
+      ],
+      "chats_seen_in": [
+        "ledger",
+        "accounting_group"
+      ],
+      "evidence_message_ids": [
+        "message88",
+        "message89",
+        "message95",
+        "message96",
+        "message97",
+        "message98",
+        "message99",
+        "message100",
+        "message107",
+        "message111",
+        "message142",
+        "message143",
+        "message146",
+        "message148"
+      ],
+      "tx_ids": [
+        "TX0033",
+        "TX0034",
+        "TX0035",
+        "TX0036",
+        "TX0037",
+        "TX0038"
+      ],
+      "tx_count": 6,
+      "toman_total": 6074000,
+      "direction_counts": {
+        "Payment": 5,
+        "Unknown": 1
+      },
+      "status_counts": {
+        "Supported": 5,
+        "Review": 1
+      }
+    },
+    {
+      "event_ref": "intro-event-1404",
+      "title": "Intro Event 1404",
+      "keywords": [
+        "intro",
+        "event",
+        "1404"
+      ],
+      "anchor_dates": [
+        "2025-09-05",
+        "2025-10-01"
+      ],
+      "anchor_periods": [
+        "1404/06",
+        "1404/07"
+      ],
+      "chats_seen_in": [
+        "ledger",
+        "accounting_group"
+      ],
+      "evidence_message_ids": [
+        "message48",
+        "message49",
+        "message50",
+        "message51",
+        "message52",
+        "message53",
+        "message54",
+        "message59",
+        "message60"
+      ],
+      "tx_ids": [
+        "TX0014",
+        "TX0015",
+        "TX0016",
+        "TX0017",
+        "TX0018"
+      ],
+      "tx_count": 5,
+      "toman_total": 8075000,
+      "direction_counts": {
+        "Receipt": 1,
+        "Payment": 3,
+        "Internal transfer": 1
+      },
+      "status_counts": {
+        "Supported": 4,
+        "Review": 1
+      }
+    },
+    {
+      "event_ref": "summer-school-1405",
+      "title": "Summer School 1405",
+      "keywords": [
+        "summer",
+        "school",
+        "1405"
+      ],
+      "anchor_dates": [
+        "2026-09-21",
+        "2026-09-23"
+      ],
+      "anchor_periods": [
+        "1405/06",
+        "1405/07"
+      ],
+      "chats_seen_in": [
+        "ledger"
+      ],
+      "evidence_message_ids": [],
+      "tx_ids": [
+        "TX0083",
+        "TX0084",
+        "TX0085",
+        "TX0086",
+        "TX0087"
+      ],
+      "tx_count": 5,
+      "toman_total": 11500000,
+      "direction_counts": {
+        "Payment": 5
+      },
+      "status_counts": {
+        "Supported": 5
+      }
+    },
+    {
+      "event_ref": "intro-event-1405",
+      "title": "Intro Event 1405",
+      "keywords": [
+        "intro",
+        "event",
+        "1405"
+      ],
+      "anchor_dates": [
+        "2026-09-23",
+        "2026-09-24"
+      ],
+      "anchor_periods": [
+        "1405/07"
+      ],
+      "chats_seen_in": [
+        "ledger"
+      ],
+      "evidence_message_ids": [],
+      "tx_ids": [
+        "TX0088",
+        "TX0093",
+        "TX0094",
+        "TX0095"
+      ],
+      "tx_count": 4,
+      "toman_total": 56185000,
+      "direction_counts": {
+        "Payment": 2,
+        "Receipt": 2
+      },
+      "status_counts": {
+        "Supported": 3,
+        "Summary only": 1
+      }
+    },
+    {
+      "event_ref": "professors-assembly-mehr",
+      "title": "Professors assembly Mehr",
+      "keywords": [
+        "professors",
+        "assembly",
+        "mehr"
+      ],
+      "anchor_dates": [
+        "2025-10-12",
+        "2025-10-14"
+      ],
+      "anchor_periods": [
+        "1404/07"
+      ],
+      "chats_seen_in": [
+        "ledger",
+        "accounting_group"
+      ],
+      "evidence_message_ids": [
+        "message61",
+        "message62",
+        "message63",
+        "message105",
+        "message149"
+      ],
+      "tx_ids": [
+        "TX0019",
+        "TX0020",
+        "TX0024",
+        "TX0025"
+      ],
+      "tx_count": 4,
+      "toman_total": 2694750,
+      "direction_counts": {
+        "Receipt": 1,
+        "Payment": 3
+      },
+      "status_counts": {
+        "Supported": 3,
+        "Duplicate": 1
+      }
+    },
+    {
+      "event_ref": "tea-physics-society",
+      "title": "Tea & Physics society",
+      "keywords": [
+        "tea",
+        "physics",
+        "society"
+      ],
+      "anchor_dates": [
+        "2025-10-12",
+        "2025-10-12"
+      ],
+      "anchor_periods": [
+        "1404/07"
+      ],
+      "chats_seen_in": [
+        "ledger",
+        "accounting_group"
+      ],
+      "evidence_message_ids": [
+        "message64",
+        "message65",
+        "message150"
+      ],
+      "tx_ids": [
+        "TX0021",
+        "TX0022",
+        "TX0023"
+      ],
+      "tx_count": 3,
+      "toman_total": 2492850,
+      "direction_counts": {
+        "Payment": 3
+      },
+      "status_counts": {
+        "Supported": 2,
+        "Duplicate": 1
+      }
+    },
+    {
+      "event_ref": "booths-1404",
+      "title": "Booths 1404",
+      "keywords": [
+        "booths",
+        "1404"
+      ],
+      "anchor_dates": [
+        "2025-10-27",
+        "2025-10-27"
+      ],
+      "anchor_periods": [
+        "1404/08"
+      ],
+      "chats_seen_in": [
+        "ledger",
+        "accounting_group"
+      ],
+      "evidence_message_ids": [
+        "message108",
+        "message153"
+      ],
+      "tx_ids": [
+        "TX0030",
+        "TX0031"
+      ],
+      "tx_count": 2,
+      "toman_total": 1995000,
+      "direction_counts": {
+        "Payment": 2
+      },
+      "status_counts": {
+        "Supported": 2
+      }
+    },
+    {
+      "event_ref": "association-website",
+      "title": "Association website",
+      "keywords": [
+        "association",
+        "website"
+      ],
+      "anchor_dates": [],
+      "anchor_periods": [],
+      "chats_seen_in": [
+        "ledger"
+      ],
+      "evidence_message_ids": [],
+      "tx_ids": [
+        "TX0096"
+      ],
+      "tx_count": 1,
+      "toman_total": 3000000,
+      "direction_counts": {
+        "Payment": 1
+      },
+      "status_counts": {
+        "Review": 1
+      }
+    },
+    {
+      "event_ref": "unknown-1405-summer-school",
+      "title": "Unknown (likely 1405 summer school)",
+      "keywords": [
+        "unknown",
+        "1405",
+        "summer",
+        "school"
+      ],
+      "anchor_dates": [
+        "2026-08-29",
+        "2026-08-29"
+      ],
+      "anchor_periods": [
+        "1405/06"
+      ],
+      "chats_seen_in": [
+        "ledger"
+      ],
+      "evidence_message_ids": [],
+      "tx_ids": [
+        "TX0082"
+      ],
+      "tx_count": 1,
+      "toman_total": 4257000,
+      "direction_counts": {
+        "Payment": 1
+      },
+      "status_counts": {
+        "Invoice only": 1
+      }
+    }
+  ],
+  "time_patterns": [],
+  "financial_signals": [
+    {
+      "tx_id": "TX0001",
+      "period": "1404/05",
+      "direction": "Receipt",
+      "amount_toman": 33642000,
+      "category": "Course fees",
+      "project": "Summer School 1404",
+      "status": "Supported",
+      "message_ids": [
+        "message6",
+        "message7",
+        "message8"
+      ]
+    },
+    {
+      "tx_id": "TX0002",
+      "period": "1404/05",
+      "direction": "Payment",
+      "amount_toman": 3000000,
+      "category": "Teaching",
+      "project": "Summer School 1404",
+      "status": "Supported",
+      "message_ids": [
+        "message25",
+        "message12"
+      ]
+    },
+    {
+      "tx_id": "TX0003",
+      "period": "1404/05",
+      "direction": "Payment",
+      "amount_toman": 3500000,
+      "category": "Teaching",
+      "project": "Summer School 1404",
+      "status": "Supported",
+      "message_ids": [
+        "message26",
+        "message10"
+      ]
+    },
+    {
+      "tx_id": "TX0004",
+      "period": "1404/05",
+      "direction": "Payment",
+      "amount_toman": 3700000,
+      "category": "Teaching",
+      "project": "Summer School 1404",
+      "status": "Supported",
+      "message_ids": [
+        "message27",
+        "message28",
+        "message13"
+      ]
+    },
+    {
+      "tx_id": "TX0005",
+      "period": "1404/05",
+      "direction": "Payment",
+      "amount_toman": 500000,
+      "category": "Teaching",
+      "project": "Summer School 1404",
+      "status": "Supported",
+      "message_ids": [
+        "message29"
+      ]
+    },
+    {
+      "tx_id": "TX0006",
+      "period": "1404/05",
+      "direction": "Payment",
+      "amount_toman": 600000,
+      "category": "Teaching",
+      "project": "Summer School 1404",
+      "status": "Supported",
+      "message_ids": [
+        "message30"
+      ]
+    },
+    {
+      "tx_id": "TX0007",
+      "period": "1404/05",
+      "direction": "Payment",
+      "amount_toman": 600000,
+      "category": "Teaching",
+      "project": "Summer School 1404",
+      "status": "Supported",
+      "message_ids": [
+        "message31",
+        "message32",
+        "message33",
+        "message34"
+      ]
+    },
+    {
+      "tx_id": "TX0008",
+      "period": "1404/05",
+      "direction": "Payment",
+      "amount_toman": 900,
+      "category": "Bank fees",
+      "project": "Summer School 1404",
+      "status": "Supported",
+      "message_ids": [
+        "message32"
+      ]
+    },
+    {
+      "tx_id": "TX0009",
+      "period": "1404/04",
+      "direction": "Payment",
+      "amount_toman": 400000,
+      "category": "Advertising",
+      "project": "Summer School 1404",
+      "status": "Supported",
+      "message_ids": [
+        "message43",
+        "message44",
+        "message45",
+        "message46"
+      ]
+    },
+    {
+      "tx_id": "TX0010",
+      "period": "1404/05",
+      "direction": "Payment",
+      "amount_toman": 400000,
+      "category": "Advertising",
+      "project": "Summer School 1404",
+      "status": "Review",
+      "message_ids": [
+        "message57"
+      ]
+    },
+    {
+      "tx_id": "TX0011",
+      "period": "1404/05",
+      "direction": "Payment",
+      "amount_toman": 300000,
+      "category": "Teaching",
+      "project": "Summer School 1404",
+      "status": "Supported",
+      "message_ids": [
+        "message42"
+      ]
+    },
+    {
+      "tx_id": "TX0012",
+      "period": "1404/05",
+      "direction": "Payment",
+      "amount_toman": 300000,
+      "category": "Teaching",
+      "project": "Summer School 1404",
+      "status": "Supported",
+      "message_ids": [
+        "message47"
+      ]
+    },
+    {
+      "tx_id": "TX0013",
+      "period": "1404/05",
+      "direction": "Payment",
+      "amount_toman": 750000,
+      "category": "Equipment",
+      "project": "Association operations",
+      "status": "Supported",
+      "message_ids": [
+        "message57"
+      ]
+    },
+    {
+      "tx_id": "TX0014",
+      "period": "1404/06",
+      "direction": "Receipt",
+      "amount_toman": 4920000,
+      "category": "Events",
+      "project": "Intro Event 1404",
+      "status": "Supported",
+      "message_ids": [
+        "message49",
+        "message51"
+      ]
+    },
+    {
+      "tx_id": "TX0015",
+      "period": "1404/06",
+      "direction": "Payment",
+      "amount_toman": 100000,
+      "category": "Printing",
+      "project": "Intro Event 1404",
+      "status": "Supported",
+      "message_ids": [
+        "message48",
+        "message53",
+        "message54",
+        "message59",
+        "message60"
+      ]
+    },
+    {
+      "tx_id": "TX0016",
+      "period": "1404/06",
+      "direction": "Payment",
+      "amount_toman": 2866000,
+      "category": "Events",
+      "project": "Intro Event 1404",
+      "status": "Supported",
+      "message_ids": []
+    },
+    {
+      "tx_id": "TX0017",
+      "period": "1404/06",
+      "direction": "Payment",
+      "amount_toman": 189000,
+      "category": "Events",
+      "project": "Intro Event 1404",
+      "status": "Supported",
+      "message_ids": []
+    },
+    {
+      "tx_id": "TX0018",
+      "period": "1404/07",
+      "direction": "Internal transfer",
+      "amount_toman": null,
+      "category": "Transfers",
+      "project": "Intro Event 1404",
+      "status": "Review",
+      "message_ids": [
+        "message49",
+        "message50",
+        "message51",
+        "message52",
+        "message53",
+        "message54"
+      ]
+    },
+    {
+      "tx_id": "TX0019",
+      "period": "1404/07",
+      "direction": "Receipt",
+      "amount_toman": 500000,
+      "category": "Donations",
+      "project": "Professors assembly Mehr",
+      "status": "Supported",
+      "message_ids": [
+        "message63"
+      ]
+    },
+    {
+      "tx_id": "TX0020",
+      "period": "1404/07",
+      "direction": "Payment",
+      "amount_toman": 90000,
+      "category": "Printing",
+      "project": "Professors assembly Mehr",
+      "status": "Supported",
+      "message_ids": [
+        "message61"
+      ]
+    },
+    {
+      "tx_id": "TX0021",
+      "period": "1404/07",
+      "direction": "Payment",
+      "amount_toman": 790000,
+      "category": "Hospitality",
+      "project": "Tea & Physics society",
+      "status": "Supported",
+      "message_ids": [
+        "message64"
+      ]
+    },
+    {
+      "tx_id": "TX0022",
+      "period": "1404/07",
+      "direction": "Payment",
+      "amount_toman": 790000,
+      "category": "Hospitality",
+      "project": "Tea & Physics society",
+      "status": "Duplicate",
+      "message_ids": []
+    },
+    {
+      "tx_id": "TX0023",
+      "period": "1404/07",
+      "direction": "Payment",
+      "amount_toman": 912850,
+      "category": "Hospitality",
+      "project": "Tea & Physics society",
+      "status": "Supported",
+      "message_ids": [
+        "message65",
+        "message150"
+      ]
+    },
+    {
+      "tx_id": "TX0024",
+      "period": "1404/07",
+      "direction": "Payment",
+      "amount_toman": 1052375,
+      "category": "Hospitality",
+      "project": "Professors assembly Mehr",
+      "status": "Supported",
+      "message_ids": [
+        "message62",
+        "message105",
+        "message149"
+      ]
+    },
+    {
+      "tx_id": "TX0025",
+      "period": "1404/07",
+      "direction": "Payment",
+      "amount_toman": 1052375,
+      "category": "Hospitality",
+      "project": "Professors assembly Mehr",
+      "status": "Duplicate",
+      "message_ids": [
+        "message105"
+      ]
+    },
+    {
+      "tx_id": "TX0026",
+      "period": "1404/08",
+      "direction": "Receipt",
+      "amount_toman": 10000000,
+      "category": "Opening funds",
+      "project": "Association operations",
+      "status": "Supported",
+      "message_ids": [
+        "message71",
+        "message72",
+        "message75"
+      ]
+    },
+    {
+      "tx_id": "TX0027",
+      "period": "1404/08",
+      "direction": "Receipt",
+      "amount_toman": 1000000,
+      "category": "Opening funds",
+      "project": "Association operations",
+      "status": "Supported",
+      "message_ids": [
+        "message67",
+        "message73",
+        "message74",
+        "message75"
+      ]
+    },
+    {
+      "tx_id": "TX0028",
+      "period": "1404/08",
+      "direction": "Payment",
+      "amount_toman": 70000,
+      "category": "Supplies",
+      "project": "Association operations",
+      "status": "Supported",
+      "message_ids": [
+        "message106",
+        "message144"
+      ]
+    },
+    {
+      "tx_id": "TX0029",
+      "period": "1404/08",
+      "direction": "Payment",
+      "amount_toman": 310000,
+      "category": "Equipment",
+      "project": "Association operations",
+      "status": "Supported",
+      "message_ids": [
+        "message108"
+      ]
+    },
+    {
+      "tx_id": "TX0030",
+      "period": "1404/08",
+      "direction": "Payment",
+      "amount_toman": 1760000,
+      "category": "Equipment",
+      "project": "Booths 1404",
+      "status": "Supported",
+      "message_ids": [
+        "message108"
+      ]
+    },
+    {
+      "tx_id": "TX0031",
+      "period": "1404/08",
+      "direction": "Payment",
+      "amount_toman": 235000,
+      "category": "Hospitality",
+      "project": "Booths 1404",
+      "status": "Supported",
+      "message_ids": [
+        "message108",
+        "message153"
+      ]
+    },
+    {
+      "tx_id": "TX0032",
+      "period": "1404/08",
+      "direction": "Payment",
+      "amount_toman": 725000,
+      "category": "Equipment",
+      "project": "Association operations",
+      "status": "Supported",
+      "message_ids": [
+        "message66",
+        "message68",
+        "message69"
+      ]
+    },
+    {
+      "tx_id": "TX0033",
+      "period": "1404/08",
+      "direction": "Payment",
+      "amount_toman": 1444000,
+      "category": "Events",
+      "project": "Freshman Party 1404",
+      "status": "Supported",
+      "message_ids": [
+        "message107",
+        "message146"
+      ]
+    },
+    {
+      "tx_id": "TX0034",
+      "period": "1404/08",
+      "direction": "Payment",
+      "amount_toman": 1500000,
+      "category": "Events",
+      "project": "Freshman Party 1404",
+      "status": "Supported",
+      "message_ids": [
+        "message107",
+        "message148"
+      ]
+    },
+    {
+      "tx_id": "TX0035",
+      "period": "1404/08",
+      "direction": "Payment",
+      "amount_toman": 1400000,
+      "category": "Events",
+      "project": "Freshman Party 1404",
+      "status": "Supported",
+      "message_ids": [
+        "message107"
+      ]
+    },
+    {
+      "tx_id": "TX0036",
+      "period": "1404/08",
+      "direction": "Unknown",
+      "amount_toman": 300000,
+      "category": "Unclassified",
+      "project": "Freshman Party 1404",
+      "status": "Review",
+      "message_ids": [
+        "message111"
+      ]
+    },
+    {
+      "tx_id": "TX0037",
+      "period": "1404/08",
+      "direction": "Payment",
+      "amount_toman": 120000,
+      "category": "Events",
+      "project": "Freshman Party 1404",
+      "status": "Supported",
+      "message_ids": [
+        "message88",
+        "message89",
+        "message96",
+        "message99",
+        "message143"
+      ]
+    },
+    {
+      "tx_id": "TX0038",
+      "period": "1404/08",
+      "direction": "Payment",
+      "amount_toman": 1310000,
+      "category": "Events",
+      "project": "Freshman Party 1404",
+      "status": "Supported",
+      "message_ids": [
+        "message95",
+        "message97",
+        "message98",
+        "message100",
+        "message142"
+      ]
+    },
+    {
+      "tx_id": "TX0039",
+      "period": "1404/08",
+      "direction": "Payment",
+      "amount_toman": 1226100,
+      "category": "Supplies",
+      "project": "Association operations",
+      "status": "Supported",
+      "message_ids": [
+        "message109"
+      ]
+    },
+    {
+      "tx_id": "TX0040",
+      "period": "1404/08",
+      "direction": "Payment",
+      "amount_toman": 2300,
+      "category": "Printing",
+      "project": "Association operations",
+      "status": "Supported",
+      "message_ids": [
+        "message110"
+      ]
+    },
+    {
+      "tx_id": "TX0041",
+      "period": "1404/08",
+      "direction": "Payment",
+      "amount_toman": 1300,
+      "category": "Printing",
+      "project": "Association operations",
+      "status": "Supported",
+      "message_ids": [
+        "message110"
+      ]
+    },
+    {
+      "tx_id": "TX0042",
+      "period": "1404/08",
+      "direction": "Payment",
+      "amount_toman": 13000,
+      "category": "Printing",
+      "project": "Association operations",
+      "status": "Review",
+      "message_ids": [
+        "message145"
+      ]
+    },
+    {
+      "tx_id": "TX0043",
+      "period": "1404/09",
+      "direction": "Payment",
+      "amount_toman": 1020000,
+      "category": "Unclassified",
+      "project": "Unassigned",
+      "status": "Supported",
+      "message_ids": []
+    },
+    {
+      "tx_id": "TX0044",
+      "period": "1404/09",
+      "direction": "Receipt",
+      "amount_toman": 10000000,
+      "category": "Donations",
+      "project": "Association operations",
+      "status": "Supported",
+      "message_ids": [
+        "message101",
+        "message102",
+        "message103"
+      ]
+    },
+    {
+      "tx_id": "TX0045",
+      "period": "1404/09",
+      "direction": "Receipt",
+      "amount_toman": 7000000,
+      "category": "Donations",
+      "project": "Association operations",
+      "status": "Supported",
+      "message_ids": []
+    },
+    {
+      "tx_id": "TX0046",
+      "period": "1404/09",
+      "direction": "Receipt",
+      "amount_toman": 6000000,
+      "category": "Donations",
+      "project": "Association operations",
+      "status": "Supported",
+      "message_ids": [
+        "message112",
+        "message113"
+      ]
+    },
+    {
+      "tx_id": "TX0047",
+      "period": "1404/10",
+      "direction": "Receipt",
+      "amount_toman": 15790000,
+      "category": "Donations",
+      "project": "Yalda 1404",
+      "status": "Supported",
+      "message_ids": [
+        "message114",
+        "message115",
+        "message116",
+        "message121"
+      ]
+    },
+    {
+      "tx_id": "TX0048",
+      "period": "1404/10",
+      "direction": "Receipt",
+      "amount_toman": 700000,
+      "category": "Donations",
+      "project": "Yalda 1404",
+      "status": "Supported",
+      "message_ids": [
+        "message116"
+      ]
+    },
+    {
+      "tx_id": "TX0049",
+      "period": "1404/10",
+      "direction": "Payment",
+      "amount_toman": null,
+      "category": "Transfers",
+      "project": "Yalda 1404",
+      "status": "Review",
+      "message_ids": [
+        "message115",
+        "message118",
+        "message120"
+      ]
+    },
+    {
+      "tx_id": "TX0050",
+      "period": "1404/10",
+      "direction": "Payment",
+      "amount_toman": 2137000,
+      "category": "Events",
+      "project": "Yalda 1404",
+      "status": "Supported",
+      "message_ids": [
+        "message154",
+        "message159"
+      ]
+    },
+    {
+      "tx_id": "TX0051",
+      "period": "1404/10",
+      "direction": "Payment",
+      "amount_toman": 2137000,
+      "category": "Events",
+      "project": "Yalda 1404",
+      "status": "Duplicate",
+      "message_ids": [
+        "message165"
+      ]
+    },
+    {
+      "tx_id": "TX0052",
+      "period": "1404/10",
+      "direction": "Payment",
+      "amount_toman": 400000,
+      "category": "Events",
+      "project": "Yalda 1404",
+      "status": "Review",
+      "message_ids": [
+        "message154",
+        "message156"
+      ]
+    },
+    {
+      "tx_id": "TX0053",
+      "period": "1404/10",
+      "direction": "Payment",
+      "amount_toman": 250000,
+      "category": "Events",
+      "project": "Yalda 1404",
+      "status": "Review",
+      "message_ids": [
+        "message154",
+        "message155"
+      ]
+    },
+    {
+      "tx_id": "TX0054",
+      "period": "1404/10",
+      "direction": "Payment",
+      "amount_toman": 600000,
+      "category": "Events",
+      "project": "Yalda 1404",
+      "status": "Review",
+      "message_ids": [
+        "message157"
+      ]
+    },
+    {
+      "tx_id": "TX0055",
+      "period": "1404/10",
+      "direction": "Payment",
+      "amount_toman": 1162584,
+      "category": "Events",
+      "project": "Yalda 1404",
+      "status": "Review",
+      "message_ids": [
+        "message154",
+        "message158",
+        "message164"
+      ]
+    },
+    {
+      "tx_id": "TX0056",
+      "period": "1404/10",
+      "direction": "Payment",
+      "amount_toman": 2150000,
+      "category": "Events",
+      "project": "Yalda 1404",
+      "status": "Review",
+      "message_ids": [
+        "message161",
+        "message164"
+      ]
+    },
+    {
+      "tx_id": "TX0057",
+      "period": "1404/10",
+      "direction": "Payment",
+      "amount_toman": 2150000,
+      "category": "Events",
+      "project": "Yalda 1404",
+      "status": "Duplicate",
+      "message_ids": [
+        "message164"
+      ]
+    },
+    {
+      "tx_id": "TX0058",
+      "period": "1404/10",
+      "direction": "Payment",
+      "amount_toman": null,
+      "category": "Events",
+      "project": "Yalda 1404",
+      "status": "Review",
+      "message_ids": [
+        "message162",
+        "message163",
+        "message164"
+      ]
+    },
+    {
+      "tx_id": "TX0059",
+      "period": "1404/10",
+      "direction": "Payment",
+      "amount_toman": 180000,
+      "category": "Events",
+      "project": "Yalda 1404",
+      "status": "Supported",
+      "message_ids": [
+        "message152"
+      ]
+    },
+    {
+      "tx_id": "TX0060",
+      "period": null,
+      "direction": "Payment",
+      "amount_toman": 1664700,
+      "category": "Hospitality",
+      "project": "Yalda 1404",
+      "status": "Invoice only",
+      "message_ids": [
+        "message151"
+      ]
+    },
+    {
+      "tx_id": "TX0061",
+      "period": "1404/12",
+      "direction": "Payment",
+      "amount_toman": 1801220,
+      "category": "Unclassified",
+      "project": "Unassigned",
+      "status": "Supported",
+      "message_ids": []
+    },
+    {
+      "tx_id": "TX0062",
+      "period": "1405/02",
+      "direction": "Payment",
+      "amount_toman": 1550000,
+      "category": "Events",
+      "project": "Yalda 1404",
+      "status": "Supported",
+      "message_ids": [
+        "message126",
+        "message128"
+      ]
+    },
+    {
+      "tx_id": "TX0063",
+      "period": "1405/02",
+      "direction": "Payment",
+      "amount_toman": 2500000,
+      "category": "Events",
+      "project": "Yalda 1404",
+      "status": "Supported",
+      "message_ids": [
+        "message125",
+        "message128"
+      ]
+    },
+    {
+      "tx_id": "TX0064",
+      "period": "1404/10",
+      "direction": "Payment",
+      "amount_toman": 107400,
+      "category": "Events",
+      "project": "Yalda 1404",
+      "status": "Review",
+      "message_ids": [
+        "message124",
+        "message129"
+      ]
+    },
+    {
+      "tx_id": "TX0065",
+      "period": "1404/10",
+      "direction": "Payment",
+      "amount_toman": 179000,
+      "category": "Events",
+      "project": "Yalda 1404",
+      "status": "Review",
+      "message_ids": [
+        "message124",
+        "message129"
+      ]
+    },
+    {
+      "tx_id": "TX0066",
+      "period": "1404/10",
+      "direction": "Payment",
+      "amount_toman": 179000,
+      "category": "Events",
+      "project": "Yalda 1404",
+      "status": "Review",
+      "message_ids": [
+        "message124",
+        "message129"
+      ]
+    },
+    {
+      "tx_id": "TX0067",
+      "period": "1404/10",
+      "direction": "Payment",
+      "amount_toman": 179000,
+      "category": "Events",
+      "project": "Yalda 1404",
+      "status": "Review",
+      "message_ids": [
+        "message124",
+        "message129"
+      ]
+    },
+    {
+      "tx_id": "TX0068",
+      "period": "1404/10",
+      "direction": "Payment",
+      "amount_toman": 179000,
+      "category": "Events",
+      "project": "Yalda 1404",
+      "status": "Review",
+      "message_ids": [
+        "message124",
+        "message129"
+      ]
+    },
+    {
+      "tx_id": "TX0069",
+      "period": "1404/10",
+      "direction": "Payment",
+      "amount_toman": 179000,
+      "category": "Events",
+      "project": "Yalda 1404",
+      "status": "Review",
+      "message_ids": [
+        "message124",
+        "message129"
+      ]
+    },
+    {
+      "tx_id": "TX0070",
+      "period": "1404/10",
+      "direction": "Payment",
+      "amount_toman": 1916640,
+      "category": "Events",
+      "project": "Yalda 1404",
+      "status": "Review",
+      "message_ids": [
+        "message124",
+        "message129"
+      ]
+    },
+    {
+      "tx_id": "TX0071",
+      "period": "1404/10",
+      "direction": "Payment",
+      "amount_toman": 135799.9,
+      "category": "Events",
+      "project": "Yalda 1404",
+      "status": "Review",
+      "message_ids": [
+        "message124",
+        "message129"
+      ]
+    },
+    {
+      "tx_id": "TX0072",
+      "period": "1404/10",
+      "direction": "Payment",
+      "amount_toman": 179000,
+      "category": "Events",
+      "project": "Yalda 1404",
+      "status": "Review",
+      "message_ids": [
+        "message124",
+        "message129"
+      ]
+    },
+    {
+      "tx_id": "TX0073",
+      "period": "1404/10",
+      "direction": "Payment",
+      "amount_toman": 125300,
+      "category": "Events",
+      "project": "Yalda 1404",
+      "status": "Review",
+      "message_ids": [
+        "message124",
+        "message129"
+      ]
+    },
+    {
+      "tx_id": "TX0074",
+      "period": "1404/10",
+      "direction": "Payment",
+      "amount_toman": 495000,
+      "category": "Events",
+      "project": "Yalda 1404",
+      "status": "Invoice only",
+      "message_ids": [
+        "message124",
+        "message128",
+        "message129"
+      ]
+    },
+    {
+      "tx_id": "TX0075",
+      "period": "1405/05",
+      "direction": "Payment",
+      "amount_toman": 6337000,
+      "category": "Unclassified",
+      "project": "Unassigned",
+      "status": "Supported",
+      "message_ids": []
+    },
+    {
+      "tx_id": "TX0076",
+      "period": "1405/05",
+      "direction": "Payment",
+      "amount_toman": 1100000,
+      "category": "Unclassified",
+      "project": "Unassigned",
+      "status": "Supported",
+      "message_ids": []
+    },
+    {
+      "tx_id": "TX0077",
+      "period": "1405/05",
+      "direction": "Payment",
+      "amount_toman": 1320000,
+      "category": "Unclassified",
+      "project": "Unassigned",
+      "status": "Supported",
+      "message_ids": []
+    },
+    {
+      "tx_id": "TX0078",
+      "period": "1405/05",
+      "direction": "Payment",
+      "amount_toman": 1300000,
+      "category": "Unclassified",
+      "project": "Unassigned",
+      "status": "Supported",
+      "message_ids": []
+    },
+    {
+      "tx_id": "TX0079",
+      "period": "1405/05",
+      "direction": "Payment",
+      "amount_toman": 1160000,
+      "category": "Unclassified",
+      "project": "Unassigned",
+      "status": "Supported",
+      "message_ids": []
+    },
+    {
+      "tx_id": "TX0080",
+      "period": "1405/06",
+      "direction": "Payment",
+      "amount_toman": 450000,
+      "category": "Unclassified",
+      "project": "Unassigned",
+      "status": "Supported",
+      "message_ids": []
+    },
+    {
+      "tx_id": "TX0081",
+      "period": "1405/06",
+      "direction": "Payment",
+      "amount_toman": 4500000,
+      "category": "Unclassified",
+      "project": "Unassigned",
+      "status": "Supported",
+      "message_ids": []
+    },
+    {
+      "tx_id": "TX0082",
+      "period": "1405/06",
+      "direction": "Payment",
+      "amount_toman": 4257000,
+      "category": "Teaching",
+      "project": "Unknown (likely 1405 summer school)",
+      "status": "Invoice only",
+      "message_ids": []
+    },
+    {
+      "tx_id": "TX0083",
+      "period": "1405/06",
+      "direction": "Payment",
+      "amount_toman": 600000,
+      "category": "Teaching",
+      "project": "Summer School 1405",
+      "status": "Supported",
+      "message_ids": []
+    },
+    {
+      "tx_id": "TX0084",
+      "period": "1405/06",
+      "direction": "Payment",
+      "amount_toman": 1200000,
+      "category": "Teaching",
+      "project": "Summer School 1405",
+      "status": "Supported",
+      "message_ids": []
+    },
+    {
+      "tx_id": "TX0085",
+      "period": "1405/06",
+      "direction": "Payment",
+      "amount_toman": 2400000,
+      "category": "Teaching",
+      "project": "Summer School 1405",
+      "status": "Supported",
+      "message_ids": []
+    },
+    {
+      "tx_id": "TX0086",
+      "period": "1405/07",
+      "direction": "Payment",
+      "amount_toman": 4700000,
+      "category": "Teaching",
+      "project": "Summer School 1405",
+      "status": "Supported",
+      "message_ids": []
+    },
+    {
+      "tx_id": "TX0087",
+      "period": "1405/07",
+      "direction": "Payment",
+      "amount_toman": 2600000,
+      "category": "Teaching",
+      "project": "Summer School 1405",
+      "status": "Supported",
+      "message_ids": []
+    },
+    {
+      "tx_id": "TX0088",
+      "period": "1405/07",
+      "direction": "Payment",
+      "amount_toman": 950000,
+      "category": "Supplies",
+      "project": "Intro Event 1405",
+      "status": "Supported",
+      "message_ids": []
+    },
+    {
+      "tx_id": "TX0089",
+      "period": "1405/07",
+      "direction": "Payment",
+      "amount_toman": 9987900,
+      "category": "Hospitality",
+      "project": "Unassigned",
+      "status": "Supported",
+      "message_ids": []
+    },
+    {
+      "tx_id": "TX0090",
+      "period": "1405/07",
+      "direction": "Payment",
+      "amount_toman": 13900000,
+      "category": "Unclassified",
+      "project": "Unassigned",
+      "status": "Supported",
+      "message_ids": []
+    },
+    {
+      "tx_id": "TX0091",
+      "period": "1405/07",
+      "direction": "Payment",
+      "amount_toman": 2332250,
+      "category": "Unclassified",
+      "project": "Unassigned",
+      "status": "Supported",
+      "message_ids": []
+    },
+    {
+      "tx_id": "TX0092",
+      "period": "1405/07",
+      "direction": "Payment",
+      "amount_toman": 305000,
+      "category": "Unclassified",
+      "project": "Unassigned",
+      "status": "Supported",
+      "message_ids": []
+    },
+    {
+      "tx_id": "TX0093",
+      "period": "1405/07",
+      "direction": "Receipt",
+      "amount_toman": 23000000,
+      "category": "Events",
+      "project": "Intro Event 1405",
+      "status": "Supported",
+      "message_ids": []
+    },
+    {
+      "tx_id": "TX0094",
+      "period": "1405/07",
+      "direction": "Receipt",
+      "amount_toman": 27235000,
+      "category": "Events",
+      "project": "Intro Event 1405",
+      "status": "Summary only",
+      "message_ids": []
+    },
+    {
+      "tx_id": "TX0095",
+      "period": "1405/07",
+      "direction": "Payment",
+      "amount_toman": 5000000,
+      "category": "Events",
+      "project": "Intro Event 1405",
+      "status": "Supported",
+      "message_ids": []
+    },
+    {
+      "tx_id": "TX0096",
+      "period": null,
+      "direction": "Payment",
+      "amount_toman": 3000000,
+      "category": "Website domain",
+      "project": "Association website",
+      "status": "Review",
+      "message_ids": []
+    }
+  ],
+  "coverage": {
+    "unit": "n_messages counts transaction (TX) rows in Transactions.csv; message_ids reference the accounting_group chat export",
+    "tx_total": 96,
+    "with_message_ids": 68,
+    "without_message_ids": 28,
+    "coverage_percent": 70.8,
+    "total_message_refs": 142,
+    "distinct_message_refs": 99,
+    "without_message_ids_tx_ids": [
+      "TX0016",
+      "TX0017",
+      "TX0022",
+      "TX0043",
+      "TX0045",
+      "TX0061",
+      "TX0075",
+      "TX0076",
+      "TX0077",
+      "TX0078",
+      "TX0079",
+      "TX0080",
+      "TX0081",
+      "TX0082",
+      "TX0083",
+      "TX0084",
+      "TX0085",
+      "TX0086",
+      "TX0087",
+      "TX0088",
+      "TX0089",
+      "TX0090",
+      "TX0091",
+      "TX0092",
+      "TX0093",
+      "TX0094",
+      "TX0095",
+      "TX0096"
+    ],
+    "status_counts": {
+      "Supported": 66,
+      "Review": 22,
+      "Duplicate": 4,
+      "Invoice only": 3,
+      "Summary only": 1
+    },
+    "review_tx_ids": [
+      "TX0010",
+      "TX0018",
+      "TX0036",
+      "TX0042",
+      "TX0049",
+      "TX0052",
+      "TX0053",
+      "TX0054",
+      "TX0055",
+      "TX0056",
+      "TX0058",
+      "TX0064",
+      "TX0065",
+      "TX0066",
+      "TX0067",
+      "TX0068",
+      "TX0069",
+      "TX0070",
+      "TX0071",
+      "TX0072",
+      "TX0073",
+      "TX0096"
+    ],
+    "duplicate_tx_ids": [
+      "TX0022",
+      "TX0025",
+      "TX0051",
+      "TX0057"
+    ],
+    "amount_toman_missing_tx_ids": [
+      "TX0018",
+      "TX0049",
+      "TX0058"
+    ],
+    "totals_toman": {
+      "receipts_all_statuses": 139787000,
+      "payments_all_statuses": 122965993.9,
+      "net_all_statuses": 16821006.1,
+      "receipts_supported": 112552000,
+      "payments_supported": 99085195,
+      "net_supported": 13466805,
+      "note": "TX0018, TX0049, TX0058 carry no amount_toman (unit unknown) and are excluded from every toman total; TX0060/TX0096 have empty period_jalali (bucketed under the key 'unknown')."
+    },
+    "final_checks_reconciliation": {
+      "file": "anjoman_accounting_information/reports/2026-10-10/final_checks.json",
+      "checks": [
+        {
+          "check": "new_payments_total = sum(amount_toman) of Supported Payment TXs",
+          "final_checks_value": 99085195,
+          "ledger_value": 99085195,
+          "matches": true
+        },
+        {
+          "check": "new_net_activity = Supported receipts - Supported payments",
+          "final_checks_value": 13466805,
+          "ledger_value": 13466805,
+          "matches": true
+        },
+        {
+          "check": "instructor_matched_count = Summer School 1405 Supported Teaching TXs",
+          "final_checks_value": 5,
+          "ledger_value": 5,
+          "matches": true
+        },
+        {
+          "check": "instructor_total = toman sum of those instructor fees",
+          "final_checks_value": 11500000,
+          "ledger_value": 11500000,
+          "matches": true
+        },
+        {
+          "check": "unique_new_payments = unique recipts/-sourced Payment TXs (duplicates excluded)",
+          "final_checks_value": 19,
+          "ledger_value": 19,
+          "matches": true
+        },
+        {
+          "check": "user_confirmed_folder_total = toman sum of those 19 payments",
+          "final_checks_value": 57963370,
+          "ledger_value": 57963370,
+          "matches": true
+        },
+        {
+          "check": "folder_document_count = recipts/-sourced rows incl. 1 duplicate (duplicate_counted_again=false)",
+          "final_checks_value": 20,
+          "ledger_value": 20,
+          "matches": true
+        },
+        {
+          "check": "website_declared_domain_toman = TX0096 (Association website)",
+          "final_checks_value": 3000000,
+          "ledger_value": 3000000,
+          "matches": true
+        }
+      ],
+      "not_tx_derivable": [
+        "sheet_count",
+        "formula_count",
+        "pdf_pages",
+        "exact_original_source_coverage",
+        "website_vm_projection_toman",
+        "website_combined_budget_toman"
+      ],
+      "verdict": "RECONCILES",
+      "note": "All 8 derivable final_checks figures match Transactions.csv exactly; remaining keys are workbook/PDF-level metrics not derivable from the TX table."
+    }
+  },
+  "provenance": {
+    "inputs": [
+      "anjoman_accounting_information/reports/2026-10-10/Transactions.csv",
+      "anjoman_accounting_information/reports/2026-10-10/final_checks.json"
+    ],
+    "generated": "2026-10-14",
+    "read_only": true
+  }
+}

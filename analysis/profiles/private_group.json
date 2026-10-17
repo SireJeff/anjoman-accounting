@@ -1,0 +1,937 @@
+{
+ "source": "private_group",
+ "n_messages": 5309,
+ "months": {
+  "1404/04": {
+   "count": 1200,
+   "top_participants": [
+    [
+     "Deleted Account",
+     195
+    ],
+    [
+     "Physics",
+     181
+    ],
+    [
+     "Irancell_mien",
+     13
+    ]
+   ]
+  },
+  "1404/05": {
+   "count": 515,
+   "top_participants": [
+    [
+     "Deleted Account",
+     128
+    ],
+    [
+     "Physics",
+     16
+    ]
+   ]
+  },
+  "1404/06": {
+   "count": 73,
+   "top_participants": [
+    [
+     "Deleted Account",
+     25
+    ],
+    [
+     "Physics",
+     2
+    ]
+   ]
+  },
+  "1404/07": {
+   "count": 131,
+   "top_participants": [
+    [
+     "Deleted Account",
+     33
+    ]
+   ]
+  },
+  "1404/08": {
+   "count": 32,
+   "top_participants": [
+    [
+     "Deleted Account",
+     12
+    ]
+   ]
+  },
+  "1404/09": {
+   "count": 11,
+   "top_participants": [
+    [
+     "Deleted Account",
+     7
+    ]
+   ]
+  },
+  "1404/10": {
+   "count": 69,
+   "top_participants": [
+    [
+     "Deleted Account",
+     16
+    ]
+   ]
+  },
+  "1404/11": {
+   "count": 7,
+   "top_participants": [
+    [
+     "Deleted Account",
+     5
+    ]
+   ]
+  },
+  "1405/01": {
+   "count": 32,
+   "top_participants": [
+    [
+     "Za.Am",
+     7
+    ],
+    [
+     "Deleted Account",
+     6
+    ],
+    [
+     "امین عزیزی",
+     3
+    ]
+   ]
+  },
+  "1405/02": {
+   "count": 139,
+   "top_participants": [
+    [
+     "بیتا قربانی",
+     25
+    ],
+    [
+     "امین عزیزی",
+     19
+    ],
+    [
+     "Deleted Account",
+     17
+    ]
+   ]
+  },
+  "1405/03": {
+   "count": 760,
+   "top_participants": [
+    [
+     "امین عزیزی",
+     111
+    ],
+    [
+     "Za.Am",
+     105
+    ],
+    [
+     "بیتا قربانی",
+     89
+    ]
+   ]
+  },
+  "1405/04": {
+   "count": 987,
+   "top_participants": [
+    [
+     "Deleted Account",
+     174
+    ],
+    [
+     "Za.Am",
+     168
+    ],
+    [
+     "امین عزیزی",
+     89
+    ]
+   ]
+  },
+  "1405/05": {
+   "count": 771,
+   "top_participants": [
+    [
+     "Za.Am",
+     154
+    ],
+    [
+     "امین عزیزی",
+     106
+    ],
+    [
+     "Sepehr T 👾",
+     101
+    ]
+   ]
+  },
+  "1405/06": {
+   "count": 509,
+   "top_participants": [
+    [
+     "Za.Am",
+     103
+    ],
+    [
+     "امین عزیزی",
+     62
+    ],
+    [
+     "Mohamad Hasan Shiri 4",
+     59
+    ]
+   ]
+  },
+  "1405/07": {
+   "count": 73,
+   "top_participants": [
+    [
+     "امین عزیزی",
+     17
+    ],
+    [
+     "Za.Am",
+     15
+    ],
+    [
+     "Sepehr T 👾",
+     8
+    ]
+   ]
+  }
+ },
+ "participants": [
+  [
+   "Deleted Account",
+   658,
+   12.39
+  ],
+  [
+   "Za.Am",
+   561,
+   10.57
+  ],
+  [
+   "امین عزیزی",
+   407,
+   7.67
+  ],
+  [
+   "Physics",
+   206,
+   3.88
+  ],
+  [
+   "Sepehr T 👾",
+   205,
+   3.86
+  ],
+  [
+   "بیتا قربانی",
+   199,
+   3.75
+  ],
+  [
+   "سهراب ملکی",
+   162,
+   3.05
+  ],
+  [
+   "Mohamad Hasan Shiri 4",
+   69,
+   1.3
+  ],
+  [
+   "Irancell_mien",
+   13,
+   0.24
+  ],
+  [
+   "Yasamin Yazdani",
+   8,
+   0.15
+  ],
+  [
+   "زهرا امیری",
+   7,
+   0.13
+  ],
+  [
+   "Ebrahim Khosravani",
+   1,
+   0.02
+  ]
+ ],
+ "media_mix": {
+  "photo": 141,
+  "video": 0,
+  "voice": 207,
+  "document": 0,
+  "poll": 3,
+  "sticker": 0,
+  "animated": 0
+ },
+ "forwarded_origins": [
+  [
+   "Saman Moghimi",
+   34
+  ],
+  [
+   "Deleted Account",
+   15
+  ],
+  [
+   "روزنامه شریف | SharifDaily",
+   13
+  ],
+  [
+   "حلقه‌های مطالعاتی کوانتا",
+   11
+  ],
+  [
+   "Reza Keyvan",
+   8
+  ],
+  [
+   "Za.Am",
+   6
+  ],
+  [
+   "Alireza Jafari",
+   6
+  ],
+  [
+   "Physics summer school",
+   5
+  ],
+  [
+   "انجمن علمی فیزیک شریف",
+   5
+  ],
+  [
+   "معاونت فرهنگی و اجتماعی شریف",
+   5
+  ]
+ ],
+ "candidate_threads": [
+  {
+   "event_ref": "summer-school-1404",
+   "title": "مدرسه تابستانه مهارت‌های محاسباتی ۱۴۰۴ (Python/LaTeX/Mathematica، مجازی، ۴ تا ۲۱ مرداد)",
+   "keywords": [
+    "مدرسه تابستانه",
+    "مهارت‌های محاسباتی",
+    "فاز دو",
+    "ثبت نام",
+    "گواهی",
+    "دوره لتکس",
+    "دوره پایتون"
+   ],
+   "anchor_dates": [
+    "2025-07-18",
+    "2025-08-12",
+    "2025-09-15"
+   ],
+   "chats_seen_in": [
+    "private_group"
+   ],
+   "evidence_message_ids": [
+    "message840",
+    "message1209",
+    "message1287",
+    "message1533",
+    "message1628",
+    "message3009",
+    "message4865",
+    "message7246"
+   ]
+  },
+  {
+   "event_ref": "summer-school-1405",
+   "title": "مدرسه تابستانه ۱۴۰۵ (برنامه‌ریزی از خرداد، فراخوان همکاری مرداد، ثبت‌نام از طریق وب‌سایت در شهریور)",
+   "keywords": [
+    "مدرسه تابستانه",
+    "فراخوان همکاری",
+    "ثبت‌نام مدرسه",
+    "کارگاه",
+    "خوابگاه",
+    "لوگو"
+   ],
+   "anchor_dates": [
+    "2026-06-04",
+    "2026-08-05",
+    "2026-08-11",
+    "2026-08-27"
+   ],
+   "chats_seen_in": [
+    "private_group"
+   ],
+   "evidence_message_ids": [
+    "message10030",
+    "message10037",
+    "message11643",
+    "message11653",
+    "message11721",
+    "message12375",
+    "message12475",
+    "message12496"
+   ]
+  },
+  {
+   "event_ref": "intro-event-ashenayi-ba-fizik",
+   "title": "همایش/کمپین «آشنایی با فیزیک» و معرفی رشته (۱۵ شهریور ۱۴۰۴ + بازطراحی مرداد/شهریور ۱۴۰۵ با پوستر، ویدیو، منتور)",
+   "keywords": [
+    "آشنایی با فیزیک",
+    "معرفی رشته",
+    "همایش",
+    "کمپین",
+    "جشن ورودی",
+    "منتور",
+    "انتخاب رشته"
+   ],
+   "anchor_dates": [
+    "2025-08-11",
+    "2025-09-05",
+    "2026-09-08",
+    "2026-09-11"
+   ],
+   "chats_seen_in": [
+    "private_group"
+   ],
+   "evidence_message_ids": [
+    "message4369",
+    "message4710",
+    "message4977",
+    "message5040",
+    "message10481",
+    "message12538",
+    "message12633",
+    "message12677"
+   ]
+  },
+  {
+   "event_ref": "quanta-study-circles",
+   "title": "حلقه‌های مطالعاتی کوانتا (سلسله جلسات لمبدا، اخترفیزیک، اطلاعات کوانتومی، مقالات تاریخی؛ ساعت ۱۸-۱۹)",
+   "keywords": [
+    "کوانتا",
+    "حلقه",
+    "لمبدا",
+    "اخترفیزیک",
+    "اطلاعات کوانتومی",
+    "مقالات تاریخی",
+    "خبرخوانی"
+   ],
+   "anchor_dates": [
+    "2025-07-20",
+    "2026-05-08",
+    "2026-06-01",
+    "2026-06-27"
+   ],
+   "chats_seen_in": [
+    "private_group"
+   ],
+   "evidence_message_ids": [
+    "message2621",
+    "message7420",
+    "message9662",
+    "message9854",
+    "message10068",
+    "message10328",
+    "message10558",
+    "message11440",
+    "message10409"
+   ]
+  },
+  {
+   "event_ref": "shabahang-journals-funding",
+   "title": "نشریه‌های شباهنگ/تکانه و کوانتا: درخواست بودجه ثابت چاپ و ادغام محتوا در وب‌سایت انجمن",
+   "keywords": [
+    "شباهنگ",
+    "تکانه",
+    "نشریه",
+    "بودجه چاپ",
+    "ادلیست",
+    "گروه نجوم"
+   ],
+   "anchor_dates": [
+    "2025-10-04",
+    "2026-05-30",
+    "2026-06-02",
+    "2026-08-10"
+   ],
+   "chats_seen_in": [
+    "private_group"
+   ],
+   "evidence_message_ids": [
+    "message7723",
+    "message9784",
+    "message9833",
+    "message9905",
+    "message9907",
+    "message11207",
+    "message11678",
+    "message11693"
+   ]
+  },
+  {
+   "event_ref": "website-payment-gateway",
+   "title": "وب‌سایت انجمن و درگاه پرداخت (تصویب مهر ۱۴۰۴، تاخیر درگاه و استفاده موقت از ایوند، لانچ و ثبت‌نام آنلاین تابستان ۱۴۰۵)",
+   "keywords": [
+    "وبسایت",
+    "سایت",
+    "درگاه پرداخت",
+    "ایوند",
+    "دامنه",
+    "ثبت‌نام آنلاین",
+    "نکسوس"
+   ],
+   "anchor_dates": [
+    "2025-09-11",
+    "2025-09-15",
+    "2026-06-29",
+    "2026-08-27"
+   ],
+   "chats_seen_in": [
+    "private_group"
+   ],
+   "evidence_message_ids": [
+    "message7172",
+    "message7183",
+    "message7208",
+    "message7245",
+    "message9833",
+    "message11111",
+    "message12475",
+    "message12487",
+    "message12752"
+   ]
+  },
+  {
+   "event_ref": "interview-series",
+   "title": "سری مصاحبه‌ها (مصاحبه با اساتید مانند خسروی ۱۴۰۴؛ ژانر مصاحبه شغلی/شبیه‌سازی فیزیکی/اینستا در ۱۴۰۵)",
+   "keywords": [
+    "مصاحبه",
+    "کانتنت",
+    "خسروی",
+    "مصاحبه شغلی",
+    "شبیه‌سازی فیزیکی"
+   ],
+   "anchor_dates": [
+    "2025-08-05",
+    "2026-08-10",
+    "2026-09-14"
+   ],
+   "chats_seen_in": [
+    "private_group"
+   ],
+   "evidence_message_ids": [
+    "message3939",
+    "message3940",
+    "message4069",
+    "message7543",
+    "message11678",
+    "message11711",
+    "message11926",
+    "message12342"
+   ]
+  },
+  {
+   "event_ref": "apply-workshop",
+   "title": "کارگاه اپلای و برنامه «تجربیات پس از اپلای» (پیشنهاد خرداد ۱۴۰۵، هماهنگی با مقیمی شهریور)",
+   "keywords": [
+    "اپلای",
+    "کارگاه اپلای",
+    "سمینار",
+    "تجربیات پس از اپلای",
+    "فارغ التحصیل"
+   ],
+   "anchor_dates": [
+    "2026-05-27",
+    "2026-06-19",
+    "2026-09-08",
+    "2026-09-12"
+   ],
+   "chats_seen_in": [
+    "private_group"
+   ],
+   "evidence_message_ids": [
+    "message9794",
+    "message10348",
+    "message10368",
+    "message12298",
+    "message12557",
+    "message12632"
+   ]
+  },
+  {
+   "event_ref": "elections-1405",
+   "title": "انتخابات انجمن (موکول به آبان ۱۴۰۵؛ اطلاعیه انتخابات انجمن‌های علمی دانشگاه مهر ۱۴۰۵)",
+   "keywords": [
+    "انتخابات",
+    "هیئت مدیره",
+    "مجمع عمومی",
+    "رای گیری",
+    "انجمن جدید"
+   ],
+   "anchor_dates": [
+    "2026-05-08",
+    "2026-06-15",
+    "2026-06-21",
+    "2026-10-06"
+   ],
+   "chats_seen_in": [
+    "private_group"
+   ],
+   "evidence_message_ids": [
+    "message9692",
+    "message9696",
+    "message10214",
+    "message10261",
+    "message10335",
+    "message10446",
+    "message12831"
+   ]
+  },
+  {
+   "event_ref": "media-social-content",
+   "title": "تولید محتوا و سوشال مدیا (پوستر/پست/اینستا، اعتراض به محتوای AI کانال، تبلیغ تلگرام‌ادز، یک‌سالگی فیزیکوه)",
+   "keywords": [
+    "پوستر",
+    "پست",
+    "اینستا",
+    "کانال",
+    "محتوا",
+    "تلگرام ادز",
+    "فیزیکوه"
+   ],
+   "anchor_dates": [
+    "2025-07-18",
+    "2026-06-27",
+    "2026-08-17"
+   ],
+   "chats_seen_in": [
+    "private_group"
+   ],
+   "evidence_message_ids": [
+    "message1327",
+    "message10723",
+    "message10944",
+    "message10971",
+    "message11910",
+    "message11912",
+    "message12631"
+   ]
+  },
+  {
+   "event_ref": "faculty-committee-liaison",
+   "title": "ارتباط با کمیته/معاونت دانشکده (جلسات کمیته دانشکده و آموزشی، نشست عمومی اساتید ساعت ۱۳:۳۰)",
+   "keywords": [
+    "کمیته دانشکده",
+    "کمیته آموزشی",
+    "نشست عمومی",
+    "مقیمی",
+    "معاونت دانشجویی"
+   ],
+   "anchor_dates": [
+    "2026-04-28",
+    "2026-06-02",
+    "2026-09-09"
+   ],
+   "chats_seen_in": [
+    "private_group"
+   ],
+   "evidence_message_ids": [
+    "message9571",
+    "message9552",
+    "message9875",
+    "message10847",
+    "message12513",
+    "message12820"
+   ]
+  }
+ ],
+ "time_patterns": [
+  {
+   "kind": "event-hour",
+   "hour": 20,
+   "jalali_weekday": "",
+   "n": 5,
+   "evidence_message_ids": [
+    "message1882",
+    "message8623",
+    "message11581",
+    "message11618",
+    "message12677"
+   ]
+  },
+  {
+   "kind": "event-hour",
+   "hour": 19,
+   "jalali_weekday": "",
+   "n": 6,
+   "evidence_message_ids": [
+    "message3453",
+    "message11402",
+    "message9662",
+    "message10262",
+    "message11440",
+    "message10368"
+   ]
+  },
+  {
+   "kind": "event-hour",
+   "hour": 18,
+   "jalali_weekday": "",
+   "n": 6,
+   "evidence_message_ids": [
+    "message9777",
+    "message9854",
+    "message10068",
+    "message10328",
+    "message10558",
+    "message10717"
+   ]
+  },
+  {
+   "kind": "event-hour",
+   "hour": 13,
+   "jalali_weekday": "",
+   "n": 5,
+   "evidence_message_ids": [
+    "message901",
+    "message9552",
+    "message10409",
+    "message10847",
+    "message11515"
+   ]
+  },
+  {
+   "kind": "active-hour",
+   "hour": 23,
+   "jalali_weekday": "",
+   "n": 682,
+   "evidence_message_ids": [
+    "message3713",
+    "message1415",
+    "message2155",
+    "message3081",
+    "message2703"
+   ]
+  },
+  {
+   "kind": "active-hour",
+   "hour": 22,
+   "jalali_weekday": "",
+   "n": 367,
+   "evidence_message_ids": [
+    "message3900",
+    "message3001",
+    "message804",
+    "message7595",
+    "message969"
+   ]
+  },
+  {
+   "kind": "weekday-slot",
+   "hour": 23,
+   "jalali_weekday": "سه‌شنبه",
+   "n": 146,
+   "evidence_message_ids": [
+    "message3713",
+    "message3715",
+    "message3718"
+   ]
+  },
+  {
+   "kind": "weekday-slot",
+   "hour": 19,
+   "jalali_weekday": "یک‌شنبه",
+   "n": 142,
+   "evidence_message_ids": [
+    "message2577",
+    "message2578",
+    "message2596"
+   ]
+  },
+  {
+   "kind": "weekday-slot",
+   "hour": 23,
+   "jalali_weekday": "جمعه",
+   "n": 136,
+   "evidence_message_ids": [
+    "message1415",
+    "message1416",
+    "message1417"
+   ]
+  },
+  {
+   "kind": "weekday-slot",
+   "hour": 13,
+   "jalali_weekday": "پنج‌شنبه",
+   "n": 125,
+   "evidence_message_ids": [
+    "message7179",
+    "message7180",
+    "message7183"
+   ]
+  }
+ ],
+ "financial_signals": [
+  {
+   "what": "شهریه مدرسه تابستانه ۱۴۰۴: بسته جامع ۴۲۲ هزار تومان؛ واریز به کارت 5859831823766240 به نام سپهر طلائی",
+   "message_ids": [
+    "message1533"
+   ],
+   "amounts_toman": [
+    422000
+   ]
+  },
+  {
+   "what": "شهریه دوره جامع LaTeX مدرسه تابستانه ۱۴۰۴: ۱۸۰ هزار تومان؛ کارت 6280231508957262 به نام محمد امین عزیزی",
+   "message_ids": [
+    "message1628"
+   ],
+   "amounts_toman": [
+    180000
+   ]
+  },
+  {
+   "what": "شهریه دوره‌های مدرسه تابستانه ۱۴۰۴ (ترکیب ۳۶۰ هزار تومانی، تکرار پیام ثبت‌نام)",
+   "message_ids": [
+    "message1629",
+    "message1630"
+   ],
+   "amounts_toman": [
+    360000
+   ]
+  },
+  {
+   "what": "پیگیری پرداخت‌های مدرسه تابستانه ۱۴۰۴: گردش رسیده ۳۴ -> ۲۹ -> ۲۱ «تومن» (واحد محاوره‌ای؛ احتمالاً هر تومن = ۱۰۰ هزار تومان)، سقف هدف ۳۰ تومن",
+   "message_ids": [
+    "message1855",
+    "message2265",
+    "message2271"
+   ],
+   "amounts_toman": [
+    34,
+    29,
+    21,
+    30
+   ]
+  },
+  {
+   "what": "مهلت پرداخت و مشکلات واریز (همراه‌بانک/عابربانک) شرکت‌کنندگان مدرسه تابستانه ۱۴۰۴؛ درخواست عکس صفحه پرداخت به‌جای رسید",
+   "message_ids": [
+    "message2258",
+    "message2285",
+    "message2943",
+    "message3009",
+    "message3021",
+    "message3111"
+   ],
+   "amounts_toman": []
+  },
+  {
+   "what": "هدف درآمدی همایش معرفی رشته ۱۴۰۴: ۵۰ تومن تا مهر در حساب انجمن؛ ۱۷۰ تومن درآمد که ۷۰ تومنش پذیرایی؛ کسری ~۵۰ تومن (واحد محاوره‌ای)",
+   "message_ids": [
+    "message4441",
+    "message4458",
+    "message4809",
+    "message4865"
+   ],
+   "amounts_toman": [
+    50,
+    170,
+    70,
+    60
+   ]
+  },
+  {
+   "what": "هزینه اسکای‌روم ۱۵۰ نفره: ۳ تومن (واحد محاوره‌ای)؛ نگرانی سقف ۱۰۰ نفر نسخه رایگان",
+   "message_ids": [
+    "message2900",
+    "message12188"
+   ],
+   "amounts_toman": [
+    3
+   ]
+  },
+  {
+   "what": "دامنه وب‌سایت: .ir سالی ۴۵ تومن (واحد محاوره‌ای)، ثبت درگاه پرداخت شخصی برای انجمن؛ درگاه ۲ هفته تا تایید مالیات، ادامه با ایوند",
+   "message_ids": [
+    "message7183",
+    "message7208",
+    "message7245"
+   ],
+   "amounts_toman": [
+    45
+   ]
+  },
+  {
+   "what": "دوره آموزش عکاسی «رسانگاه» (معاونت فرهنگی، آبان ۱۴۰۴): ثبت‌نام ۸۰۰ هزار تومان با بازگشت نیمی از مبلغ در صورت حضور کامل",
+   "message_ids": [
+    "message8261"
+   ],
+   "amounts_toman": [
+    800000
+   ]
+  },
+  {
+   "what": "پیشنهاد پرداخت پایه ماهانه به اعضای فعال (پنجاه تومن در ماه، واحد محاوره‌ای) برای خوراکی/چای/قهوه اتاق انجمن",
+   "message_ids": [
+    "message8486",
+    "message8487",
+    "message8488"
+   ],
+   "amounts_toman": [
+    50
+   ]
+  },
+  {
+   "what": "درخواست بودجه ثابت نشریه‌ها (شباهنگ/تکانه/کوانتا) برای چاپ و دستمزد اعضا از دانشکده؛ حق‌الزحمه فعلی اعضا در کنار هزینه‌ها",
+   "message_ids": [
+    "message9905",
+    "message9906",
+    "message9907",
+    "message9910",
+    "message1803"
+   ],
+   "amounts_toman": []
+  },
+  {
+   "what": "تورهای رصدی گروه نجومی اریدانوس (خارجی، تبلیغ در گروه): شهریه آزاد ۵,۵۰۰,۰۰۰ و دانشجویان شریف ۴,۷۰۰,۰۰۰ تومان (مرداد)؛ ۴,۹۵۰,۰۰۰ / ۴,۵۵۰,۰۰۰ / ۴,۱۵۰,۰۰۰ تومان (مهر)",
+   "message_ids": [
+    "message11524",
+    "message12555"
+   ],
+   "amounts_toman": [
+    5500000,
+    4700000,
+    4950000,
+    4550000,
+    4150000
+   ]
+  },
+  {
+   "what": "جنب‌وجوش مالی ۱۴۰۵: بحث شهریه کارگاه («۳ ۴ تومن زیاد نیست؟»)، تبلیغ انجمن با پول کارگاه‌های تابستون در تلگرام‌ادز، اسپانسر برای رویداد معرفی رشته",
+   "message_ids": [
+    "message10723",
+    "message12095",
+    "message12631"
+   ],
+   "amounts_toman": [
+    3,
+    4
+   ]
+  }
+ ]
+}
