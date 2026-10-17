@@ -255,5 +255,31 @@
   "website_declared_domain_toman",
   "website_rate_sensitivity_and_missing_input_checks",
   "website_vm_projection_toman"
+ ],
+ "precision": {
+  "community_social": 80,
+  "education_courses": 85,
+  "events": 70,
+  "coordination_logistics": 70,
+  "meta_noise": 70,
+  "finance_operations": 80,
+  "media_outreach": 80,
+  "governance_decisions": 60,
+  "website_tech": 70,
+  "publications_shabahng": 90
+ },
+ "precision_top5": {
+  "meta_noise": 70,
+  "community_social": 80,
+  "coordination_logistics": 70,
+  "finance_operations": 80,
+  "education_courses": 85
+ },
+ "review_notes": [
+  "Round-2 spot-check (200 samples): 151/200 per-category labels correct overall (75.5%); 49 failures = 26 method=llm vs 23 method=lexicon (0 rule). Top-5 gate (>=85% each): FAIL - only education_courses passes at 85%; meta_noise 70, community_social 80, coordination_logistics 70, finance_operations 80 (top-5 mean 77.0%).",
+  "LLM-labeled failures (26) concentrate in unverifiable micro-messages: bare numbers ('180'), contentless phatics ('فقط جناب', 'باید فکر کنم', 'یپ'-style items placed in topical cats), empty voice notes guessed into community_social/website_tech, and vague fragments ('اسما داره گیج کننده میشه') - all at confidence 0.5-0.65. events (6), coordination_logistics (6), media_outreach (4), website_tech (4), community_social (3), education_courses (2), finance_operations (1).",
+  "Lexicon-labeled failures (23) are substring false positives on non-risky single words that bypass the corroboration gate: governance 8/20 (60%, worst category) via جلسه on course-session ads (Python/LaTeX/Lambda posts) and تصمیم/گزارش on jokes and science posts; meta_noise 6/20 via emoji/affirmation substrings (😂, آره, باشه, اوکی inside اوکیه) on substantive messages; finance 3 via پرداخته‌اند (verb), دریافتی (received forms), گردش (flux/circulation physics term); website 2 via دامنه (amplitude) and ثبت‌نام آنلاین/API in a summer-school ad; publications 2 via گروه نجوم matching the کوانتا study-group name; community 1 via مدرس inside مدارس.",
+  "website_tech sample quality is weak: 18/20 llm-labeled generic platform/account chatter (VPN, premium accounts, cloud accounts, scripts, LMS dashboard) with zero alenush/domain/VM/site-build anchors, one empty voice note, and both lexicon failures being physics/ad false positives; the 14 'correct' items are mostly low-evidence tech-adjacent fragments, so 70% overstates real signal.",
+  "coordination_logistics sample quality is mediocre: correct items are mostly bare time-negotiation one-liners (defensible as scheduling but content-thin); 6/20 failures are off-topic chatter or account/name talk ('از بالا چک کنیم اکانتارو', 'فقط جناب', 'من پر کردم'); duplicates elsewhere too (public_group#message5545 sampled under both events and coordination_logistics, wrong in both)."
  ]
 }
