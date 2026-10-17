@@ -109,7 +109,7 @@ Monthly labelings per category, aggregated over chats (`monthly_activity`; a mes
 | publications_shabahng | — | — | 8 | 12 | 2 | 4 | — | **34** |
 | **All labelings** | **41** | **164** | **836** | **1,136** | **1,113** | **6,064** | **953** | **13,001** |
 
-Most-engaged threads per category, from the **1,187 explicitly affiliated** messages (LLM `event_ref`; affiliation is conversational, not an evidence link — see §7):
+Most-engaged threads per category, from the **1,186 explicitly affiliated** messages (LLM `event_ref`; affiliation is conversational, not an evidence link — see §7):
 
 | Category | Labelings | Share | Peak month | Explicitly affiliated | Top threads by explicit affiliation (messages) |
 |---|---|---|---|---|---|
@@ -130,7 +130,7 @@ Most-engaged threads per category, from the **1,187 explicitly affiliated** mess
 
 ## 4. Cross-chat correlation
 
-All 46 message-bearing threads with their per-chat spread, announcement lag and linked ledger money. `Explicit` counts messages whose LLM `event_ref` names the thread; the remainder of `Msgs` is keyword-fallback membership (2,734 of the 3,921 affiliations), so fallback-heavy threads carry approximate message counts and lags (§7). `Lag` = days from the earliest non-channel chat first to the channel first; negative means the channel announcement preceded other-chat coordination.
+All 46 message-bearing threads with their per-chat spread, announcement lag and linked ledger money. `Explicit` counts messages whose LLM `event_ref` names the thread; the remainder of `Msgs` is keyword-fallback membership (2,734 of the 3,920 affiliations), so fallback-heavy threads carry approximate message counts and lags (§7). `Lag` = days from the earliest non-channel chat first to the channel first; negative means the channel announcement preceded other-chat coordination.
 
 | Thread | First seen | Chats | Msgs | Explicit | Lag (d) | TX total (toman) |
 |---|---|---|---|---|---|---|

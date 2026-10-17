@@ -245,12 +245,14 @@ def sec3(tl, w_rows):
         if r.get("event_ref"):
             for c in r["categories"]:
                 aff[c][r["event_ref"]] += 1
+    # total explicit event_ref affiliations — same basis as §7's `aff`
+    expl_total = sum(1 for r in w_rows if r.get("event_ref"))
 
     L = ["## 3. Activity categories", "",
          f"Monthly labelings per category, aggregated over chats "
          f"(`monthly_activity`; a message with several labels counts once per "
-         f"label — {fmt(total_labelings)} labelings over the 12,066 in-window "
-         f"messages).", ""]
+         f"label — {fmt(total_labelings)} labelings over the {len(w_rows):,} "
+         f"in-window messages).", ""]
     for yr in ("1404", "1405"):
         ym = [m for m in months if m.startswith(yr)]
         if not ym:
@@ -271,7 +273,7 @@ def sec3(tl, w_rows):
         L.append("")
 
     L += ["Most-engaged threads per category, from the "
-          "**1,187 explicitly affiliated** messages (LLM `event_ref`; "
+          f"**{expl_total:,} explicitly affiliated** messages (LLM `event_ref`; "
           "affiliation is conversational, not an evidence link — see §7):", ""]
     rows = []
     for cat, tot in cats.most_common():
@@ -295,15 +297,21 @@ def sec4(tl, w_rows, registry, ledger):
     threads = [t for t in tl["threads"] if not t.get("money_only")]
     expl = Counter(r["event_ref"] for r in w_rows if r.get("event_ref"))
     tx_by_id = {f["tx_id"]: f for f in ledger["financial_signals"]}
+    # same basis as §7: explicit event_ref affiliations vs. total thread
+    # membership (explicit + keyword-fallback), so the two sections agree
+    expl_total = sum(expl.values())
+    affiliated_total = sum(t["n_messages"] for t in threads)
+    fb_total = affiliated_total - expl_total
     L = ["## 4. Cross-chat correlation", "",
          f"All {len(threads)} message-bearing threads with their per-chat "
          f"spread, announcement lag and linked ledger money. `Explicit` counts "
          f"messages whose LLM `event_ref` names the thread; the remainder of "
-         f"`Msgs` is keyword-fallback membership (2,734 of the 3,921 "
-         f"affiliations), so fallback-heavy threads carry approximate message "
-         f"counts and lags (§7). `Lag` = days from the earliest non-channel "
-         f"chat first to the channel first; negative means the channel "
-         f"announcement preceded other-chat coordination.", ""]
+         f"`Msgs` is keyword-fallback membership ({fb_total:,} of the "
+         f"{affiliated_total:,} affiliations), so fallback-heavy threads "
+         f"carry approximate message counts and lags (§7). `Lag` = days "
+         f"from the earliest non-channel chat first to the channel first; "
+         f"negative means the channel announcement preceded other-chat "
+         f"coordination.", ""]
     rows = []
     for t in sorted(threads, key=lambda t: -t["n_messages"]):
         rows.append([f"`{t['event_ref']}`", t["first_seen"][:10],
@@ -635,8 +643,9 @@ def sec7(stats, w_rows, tl):
     llm_short = sum(1 for r in w_rows if r.get("method") == "llm"
                     and len((r.get("text_plain") or "").strip()) <= 15)
     L = ["## 7. Classification method & limitations", "",
-         "Three-layer pipeline over the 16,677 parsed records; the analysis "
-         f"denominator is the **{n:,} in-window, non-service messages**:", ""]
+         f"Three-layer pipeline over the {stats['total']:,} parsed records; "
+         f"the analysis denominator is the **{n:,} in-window, non-service "
+         f"messages**:", ""]
     L += _table(["Layer", "Method", "Messages (in-window)", "Share"],
                 [["1", "structural rules (poll/forms/media-only)", fmt(by_m["rule"]),
                   pct(by_m["rule"], n)],
@@ -690,7 +699,7 @@ def sec7(stats, w_rows, tl):
           f"Labels are multi-label (capped at 4): {fmt(multi)} of {fmt(n)} "
           f"in-window messages carry more than one category, so category "
           f"sums exceed message counts ({fmt(sum(stats['by_category'].values()))} "
-          f"corpus labelings over 16,677 records). Service messages "
+          f"corpus labelings over {stats['total']:,} records). Service messages "
           f"(joins, title changes, poll closes) are excluded from every "
           f"narrative and histogram here. Timestamps are export-local "
           f"(UTC+03:30) — hour patterns are Tehran-local.", ""]
