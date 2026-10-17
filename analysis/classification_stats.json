@@ -1,31 +1,32 @@
 {
  "total": 16677,
  "by_method": {
-  "unclassified": 2250,
-  "llm": 6730,
-  "lexicon": 7271,
-  "rule": 426
+  "unclassified": 2512,
+  "llm": 6158,
+  "lexicon": 6990,
+  "rule": 1017
  },
  "by_category": {
-  "community_social": 4336,
-  "education_courses": 1868,
-  "finance_operations": 1152,
+  "community_social": 4371,
+  "education_courses": 1661,
   "events": 2466,
-  "coordination_logistics": 1186,
-  "meta_noise": 4566,
-  "media_outreach": 2245,
-  "governance_decisions": 1396,
-  "website_tech": 373,
+  "coordination_logistics": 1074,
+  "meta_noise": 4642,
+  "finance_operations": 633,
+  "media_outreach": 2243,
+  "governance_decisions": 1397,
+  "website_tech": 225,
   "publications_shabahng": 215
  },
  "in_window": {
   "total": 12066,
   "by_method": {
-   "llm": 6730,
-   "lexicon": 5072,
-   "rule": 264
+   "llm": 6158,
+   "lexicon": 4818,
+   "rule": 836,
+   "unclassified": 254
   },
-  "classified": 12066,
-  "coverage_pct": 100.0
+  "classified": 11812,
+  "coverage_pct": 97.89
  }
 }

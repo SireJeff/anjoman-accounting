@@ -25,6 +25,59 @@ def test_multilabel():
     assert set(r["categories"]) >= {"events", "finance_operations"}
 
 
+# --- Task 14: corroboration rules for high-ambiguity (risky) lexicon words ---
+
+RISKY_LEX = {"finance_operations": ["حساب", "رسید", "تخفیف", "حق‌الزحمه", "تومان"],
+             "education_courses": ["ثبت‌نام", "کارگاه", "دوره api"],
+             "website_tech": ["سایت", "alenush"]}
+
+def test_risky_hesab_verb_form_not_finance():
+    r = classify_message({"chat": "x", "text_plain": "حساب کردم ساعت ها رو",
+                          "media_kinds": []}, RISKY_LEX)
+    assert "finance_operations" not in r["categories"]
+
+def test_corroborated_resid_is_finance():
+    r = classify_message({"chat": "x", "text_plain": "حق‌الزحمه رسید",
+                          "media_kinds": []}, RISKY_LEX)
+    assert "finance_operations" in r["categories"]
+
+def test_registration_with_workshop_is_education():
+    r = classify_message({"chat": "x", "text_plain": "ثبت‌نام کارگاه پایتون",
+                          "media_kinds": []}, RISKY_LEX)
+    assert "education_courses" in r["categories"]
+
+def test_risky_site_without_corroborator_not_website():
+    r = classify_message({"chat": "x", "text_plain": "سایت تلگرام خرابه",
+                          "media_kinds": []}, RISKY_LEX)
+    assert "website_tech" not in r["categories"]
+
+def test_corroborated_hesab_is_finance():
+    r = classify_message({"chat": "x", "text_plain": "حساب ۲۰۰ تومن شارژ شد",
+                          "media_kinds": []}, RISKY_LEX)
+    assert "finance_operations" in r["categories"]
+
+def test_risky_takhfif_ad_without_money_not_finance():
+    r = classify_message({"chat": "x", "text_plain": "۱۵٪ تخفیف ویژه دانشجویان",
+                          "media_kinds": []}, RISKY_LEX)
+    assert "finance_operations" not in r["categories"]
+
+def test_multiword_entry_containing_risky_word_still_counts():
+    # "دوره api" is a multi-word entry -> never risky, fires on its own
+    r = classify_message({"chat": "x", "text_plain": "دوره api شروع شد",
+                          "media_kinds": []}, RISKY_LEX)
+    assert "education_courses" in r["categories"]
+
+def test_empty_no_media_not_forwarded_is_meta_noise():
+    r = classify_message({"chat": "x", "text_plain": "", "media_kinds": []}, RISKY_LEX)
+    assert r["categories"] == ["meta_noise"] and r["method"] == "rule"
+
+def test_empty_forwarded_stays_media_outreach_not_meta_noise():
+    r = classify_message({"chat": "x", "text_plain": "", "media_kinds": [],
+                          "forwarded_from": "some_channel"}, RISKY_LEX)
+    assert "media_outreach" in r["categories"]
+    assert "meta_noise" not in r["categories"]
+
+
 # --- Task 7: LLM residual emission and label application ---
 
 def _rec(mid, chat="a", in_window=True, is_service=False, method=None,

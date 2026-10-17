@@ -619,6 +619,8 @@ def sec7(stats, w_rows, tl):
     multi = sum(v for k, v in n_labels.items() if k > 1)
     unl = stats["by_method"]["unclassified"]
     noise_all = stats["by_category"]["meta_noise"]
+    n_lex = sum(len(v) for v in
+                read_json(ROOT / "analysis/lexicon.json").values())
     decisions = sum(1 for r in w_rows if r.get("is_decision"))
     aff = sum(1 for r in w_rows if r.get("event_ref"))
     affiliated = sum(t["n_messages"] for t in tl["threads"]
@@ -638,7 +640,7 @@ def sec7(stats, w_rows, tl):
     L += _table(["Layer", "Method", "Messages (in-window)", "Share"],
                 [["1", "structural rules (poll/forms/media-only)", fmt(by_m["rule"]),
                   pct(by_m["rule"], n)],
-                 ["2", "lexicon (multi-label, 332 entries)", fmt(by_m["lexicon"]),
+                 ["2", f"lexicon (multi-label, {n_lex} entries)", fmt(by_m["lexicon"]),
                   pct(by_m["lexicon"], n)],
                  ["3", "LLM residual (method=llm)", fmt(by_m["llm"]),
                   pct(by_m["llm"], n)],
@@ -658,11 +660,13 @@ def sec7(stats, w_rows, tl):
           f"or shorter — so the residue was routed to layer 3 rather than "
           f"forced into topics.",
           "",
-          f"**Final state: 100% classified.** The LLM layer labeled the "
-          f"remaining **{fmt(by_m['llm'])} messages with `method=llm`** "
-          f"(confidence-gated at 0.7), closing in-window unclassified to "
-          f"zero; {unl:,} records remain unlabeled corpus-wide, all of them "
-          f"out-of-window or service rows. **{decisions} messages** carry "
+          f"**Final state: {pct2(iw['classified'], n)} classified.** The LLM "
+          f"layer labeled **{fmt(by_m['llm'])} messages with `method=llm`** "
+          f"(confidence-gated at 0.7); after the Task-14 precision pass "
+          f"(risky-word corroboration plus lexicon pruning), "
+          f"**{fmt(n - iw['classified'])} in-window messages** hold no label "
+          f"rather than a speculative one, and {unl:,} records remain "
+          f"unlabeled corpus-wide. **{decisions} messages** carry "
           f"`is_decision` (all from the LLM layer).",
           "",
           f"**event_ref is affiliation, not evidence.** The LLM attached "

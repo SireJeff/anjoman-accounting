@@ -7,6 +7,53 @@ RULE_ORDER = ["education_courses", "events", "publications_shabahng", "media_out
               "community_social", "coordination_logistics", "meta_noise"]
 FORM_LINK = re.compile(r"docs\.google\.com/(forms|spreadsheets)")
 
+# --- Task 14 precision fix: corroboration for high-ambiguity lexicon words ---
+# Some single lexicon words are too ambiguous to count alone: Persian verb
+# forms embed them as substrings ("حساب کردم" I-calculated, "پرسیده" asked →
+# رسید; "متریال" material → ریال), and broadcast ads carry stray tokens
+# ("API", "تخفیف", "ثبت‌نام" for external camps). A lexicon hit on a risky
+# word counts only when a corroborating token for the same category
+# co-occurs in the text. Multi-word lexicon entries are never risky.
+FINANCE_CORROBORATORS = ["تومان", "تومن", "ریال", "حق الزحمه", "حق‌الزحمه", "کارت",
+                         "تراکنش", "گردش", "شارژ", "پرداخت شد", "واریز", "واریزی",
+                         "برداشت", "فاکتور"]
+EDUCATION_CORROBORATORS = ["مدرسه", "دوره", "کلاس", "کارگاه", "سمینار", "وبینار",
+                           "تابستانه", "instructor", "مدرس"]
+WEBSITE_CORROBORATORS = ["دامنه", "سرور", "هاست", "وب سایت", "وب‌سایت", "وبسایت",
+                         "alenush", "alenush.com", "vm", "بک‌اند", "فرانت‌اند",
+                         "درگاه", "زرین‌پال", "بیلد", "آپلود", "آپدیت"]
+COORDINATION_CORROBORATORS = ["رزرو", "اجاره", "اتاق", "سالن", "تجهیزات", "پذیرایی",
+                              "مجوز", "پروژکتور", "استند", "پوستر"]
+
+RISKY_WORDS = {
+    "finance_operations": {w: FINANCE_CORROBORATORS
+                           for w in ["حساب", "رسید", "مبلغ", "تخفیف", "شارژ",
+                                     "قیمت", "هزینه", "پول", "ریال"]},
+    "education_courses": {w: EDUCATION_CORROBORATORS
+                          for w in ["ثبت‌نام", "ثبت نام"]},
+    "website_tech": {w: WEBSITE_CORROBORATORS for w in ["سایت", "api"]},
+    "coordination_logistics": {w: COORDINATION_CORROBORATORS
+                               for w in ["چاپ", "سالن", "هماهنگی"]},
+}
+
+def category_hit(text, category, keywords):
+    """Does any keyword count for the category? Non-risky words and multi-word
+    entries always count; risky single words need a corroborator in the text."""
+    risky = RISKY_WORDS.get(category, {})
+    for kw in keywords:
+        nk = normalize_digits(kw).lower()
+        if nk not in text:
+            continue
+        if " " in nk:
+            return True                       # multi-word entries are never risky
+        corroborators = risky.get(nk)
+        if corroborators is None:
+            return True
+        if any(c != nk and normalize_digits(c).lower() in text
+               for c in corroborators):
+            return True
+    return False
+
 def classify_message(rec, lexicon):
     text = normalize_digits(rec.get("text_plain") or "").lower()
     media = rec.get("media_kinds") or []
@@ -24,10 +71,13 @@ def classify_message(rec, lexicon):
         cats.append("meta_noise"); method = "rule"
     if not text and media and "photo" in media:
         cats.append("community_social"); method = method or "rule"
+    # empty text + no media + not forwarded -> fallback category, never topical
+    if not text.strip() and not media and not rec.get("forwarded_from"):
+        cats.append("meta_noise"); method = method or "rule"
 
-    # Layer 2 - lexicon (multi-label)
+    # Layer 2 - lexicon (multi-label, corroboration-gated for risky words)
     lex_hits = [c for c in RULE_ORDER
-                if any(normalize_digits(k).lower() in text for k in lexicon.get(c, []))]
+                if category_hit(text, c, lexicon.get(c, []))]
     if lex_hits:
         for c in lex_hits:
             if c not in cats:
