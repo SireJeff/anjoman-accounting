@@ -662,8 +662,10 @@ def sec7(stats, w_rows, tl):
           "",
           f"**Final state: {pct2(iw['classified'], n)} classified.** The LLM "
           f"layer labeled **{fmt(by_m['llm'])} messages with `method=llm`** "
-          f"(confidence-gated at 0.7); after the Task-14 precision pass "
-          f"(risky-word corroboration plus lexicon pruning), "
+          f"(confidence-gated at 0.7); after the Task-14 precision passes "
+          f"(risky-word corroboration, lexicon pruning, word-boundary "
+          f"matching for short keywords, and demotion of low-confidence "
+          f"topical labels on micro-messages), "
           f"**{fmt(n - iw['classified'])} in-window messages** hold no label "
           f"rather than a speculative one, and {unl:,} records remain "
           f"unlabeled corpus-wide. **{decisions} messages** carry "

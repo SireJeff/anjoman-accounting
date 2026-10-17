@@ -142,7 +142,7 @@ Accounting-group hours holding at least 5 TX-linked messages (n ≥ 5 only, 9 ho
 
 Weekday peaks in the accounting group (n ≥ 5): Saturday 18:00 (n=23), Sunday 23:00 (n=5), Monday 15:00 (n=5), Tuesday 22:00 (n=17), Thursday 20:00 (n=20), Friday 04:00 (n=7).
 
-Caveats: these counts are **messages, not transactions**, and start-time mention counts include deadline times. Example — the money-linked association-website thread most often mentions start 13:00 (n=13), but its distinct times are 11:00, 13:00, 15:00, 18:00, 19:10, 23:59, so n counts a 23:59 deadline alongside real starts.
+Caveats: these counts are **messages, not transactions**, and start-time mention counts include deadline times. Example — the money-linked association-website thread most often mentions start 13:00 (n=12), but its distinct times are 11:00, 13:00, 15:00, 18:00, 19:10, 23:59, so n counts a 23:59 deadline alongside real starts.
 
 ## Caveats
 
