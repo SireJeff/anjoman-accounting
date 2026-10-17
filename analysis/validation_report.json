@@ -221,6 +221,167 @@
    "private_group#message11235\tنه نه یکم اشتباه شد فکر کنم این گروه قرار نیست کارش اطلاع رسانی باشه اطلاع رسانی اتفاقای مهم آره مثلا رویدادای انجمن یا انتشار نشریه ها ولی بقیه اتفاقات نه چون "
   ]
  },
+ "precision": {
+  "community_social": 75,
+  "education_courses": 90,
+  "events": 75,
+  "coordination_logistics": 75,
+  "meta_noise": 95,
+  "media_outreach": 90,
+  "finance_operations": 85,
+  "website_tech": 75,
+  "governance_decisions": 75,
+  "publications_shabahng": 90
+ },
+ "precision_top5": {
+  "meta_noise": 95,
+  "community_social": 75,
+  "coordination_logistics": 75,
+  "finance_operations": 85,
+  "education_courses": 90
+ },
+ "review_notes": {
+  "round": 4,
+  "basis": "manual judgment of all 200 samples (20x10, seed 42) against full text in analysis/classified.jsonl; ambiguous fragments resolved with +/-3 message thread context from analysis/messages.jsonl; media_kinds checked for empty-text samples (voice/photo notes treated as content-bearing)",
+  "verdict_rule": "sample counts as CORRECT for category X if X is a defensible label for the full message (multi-label allowed); empty/affirmation-only/emoji-only texts are meta_noise by definition",
+  "overall_precision_pct": 82.5,
+  "top5_all_pass_ge85": false,
+  "top5_miss_attribution": {
+   "community_social (75%, 5 misses: lexicon 3, rule 1, llm 1)": [
+    {
+     "id": "public_group#message552",
+     "method": "lexicon",
+     "text": "وای😭😭",
+     "issue": "lexicon 'وای' outranks meta_noise '😭'; <=25-char demotion not applied to lexicon hits",
+     "verdict": "mechanically fixable: emoji/exclamation-only short texts must resolve to meta_noise"
+    },
+    {
+     "id": "public_group#message508",
+     "method": "lexicon",
+     "text": "عالی و قوی",
+     "issue": "lexicon 'عالی' on affirmation-only reply",
+     "verdict": "mechanically fixable: affirmation-only -> meta_noise"
+    },
+    {
+     "id": "private_group#message10410",
+     "method": "rule",
+     "text": "(empty photo forward from خبرخوانی فیزیک)",
+     "issue": "broadcast forward still multi-labeled [media_outreach, community_social]",
+     "verdict": "mechanically fixable: broadcast-forward gate must emit media_outreach only, no community_social append"
+    },
+    {
+     "id": "private_group#message10074",
+     "method": "lexicon",
+     "text": "Crash-Course کوانتا proposal (522 chars)",
+     "issue": "lexicon 'بچه‌ها' adds community_social onto substantive education text",
+     "verdict": "mechanically fixable: corroboration/min-length gate on social lexicon terms inside long substantive texts"
+    },
+    {
+     "id": "public_group#message4287",
+     "method": "llm",
+     "text": "They wanted a story by us",
+     "issue": "'story' = cross-promo request from کامپ association, only visible in thread",
+     "verdict": "genuinely ambiguous: standalone text reads as chatter; true label media_outreach needs thread context"
+    }
+   ],
+   "coordination_logistics (75%, 5 misses: lexicon 3, llm 2)": [
+    {
+     "id": "public_group#message2756",
+     "method": "lexicon",
+     "text": "چرا از گوگل عکس دانلود کردم هنگام فرستادن استیکر شد",
+     "issue": "lexicon 'استیکر' = Telegram sticker behavior, not sticker printing",
+     "verdict": "mechanically fixable: require printing corroboration (چاپ/تیراژ/کاستوم) for استیکر"
+    },
+    {
+     "id": "private_group#message11577",
+     "method": "lexicon",
+     "text": "دانشگاه تعطیل است اطلاعیه (fwd روزنامه شریف)",
+     "issue": "external news forward hits 'سالن'/'مجوز' (library halls, entry permit)",
+     "verdict": "mechanically fixable: gate coordination_logistics on external/broadcast forwards"
+    },
+    {
+     "id": "channel#message3223",
+     "method": "lexicon",
+     "text": "پژوهش‌خوانی announcement (مکان: اتاق انجمن...)",
+     "issue": "venue/time line of a pure event announcement hits 'اتاق انجمن'",
+     "verdict": "borderline, mechanically fixable-leaning: require logistics verbs (رزرو/چاپ/پذیرایی/تهیه) not venue lines in announcements"
+    },
+    {
+     "id": "private_group#message11649",
+     "method": "llm",
+     "text": "اتفاقا میخواستم پیام بدم بگم شروع کنیم",
+     "issue": "fragment; thread context is poster/media work start-up",
+     "verdict": "genuinely ambiguous: no lexical signal, thread-dependent"
+    },
+    {
+     "id": "public_group#message1708",
+     "method": "llm",
+     "text": "درود من زیاد چک نکردم گروهو چه کاری مونده کمک کنم",
+     "issue": "task-request banter",
+     "verdict": "genuinely ambiguous: task chatter without logistics content"
+    }
+   ],
+   "finance_operations (85%, 3 misses: lexicon 2, llm 1)": [
+    {
+     "id": "channel#message3359",
+     "method": "lexicon",
+     "text": "macro-economy گزارش ایران (3179 chars)",
+     "issue": "editorial econ post hits تومان/ریال/پول/صندوق/هزینه",
+     "verdict": "mechanically fixable: block on macro-econ markers (تورم/دلار/بیکاری/بانک جهانی) or require org-finance context (درگاه/واریز/فاکتور/اسپانسر)"
+    },
+    {
+     "id": "public_group#message6227",
+     "method": "lexicon",
+     "text": "دبیر انجمن گزارش روایت وقایع اخیر",
+     "issue": "'پرداخت' matched inside verb 'پرداختید' - suffix word-boundary FP; 'دوره' = cohorts",
+     "verdict": "mechanically fixable: enforce morphological boundary so پرداخت does not match پرداختید/پرداختند"
+    },
+    {
+     "id": "accounting_group#message137",
+     "method": "llm",
+     "text": "تایم های خالیت رو بگو یه نیمساعت بریم میت",
+     "issue": "pure scheduling text inside accounting_group",
+     "verdict": "genuinely ambiguous: group-membership bias toward finance; content is scheduling only"
+    }
+   ],
+   "education_courses (90%, 2 misses: lexicon 2)": [
+    {
+     "id": "channel#message3506",
+     "method": "lexicon",
+     "text": "«به‌قدر کافی خوب» هربرت سایمون essay (5639 chars)",
+     "issue": "generic 'شبیه‌سازی' in editorial science essay",
+     "verdict": "mechanically fixable: require course/school corroboration (ثبت‌نام/دوره/مدرس/مدرسه تابستانه) for شبیه‌سازی"
+    },
+    {
+     "id": "public_group#message764",
+     "method": "lexicon",
+     "text": "جذب اسپانسر شرکت‌های فیزیک (2667 chars)",
+     "issue": "'پایتون'/'شبیه‌سازی' inside company descriptions of a sponsor prospectus",
+     "verdict": "mechanically fixable: same corroboration rule; sponsor context (اسپانسر/بودجه) should route to finance_operations only"
+    }
+   ],
+   "meta_noise (95%, 1 miss: llm 1)": [
+    {
+     "id": "private_group#message10825",
+     "method": "llm",
+     "text": "آدم هم کم نیست که علاقمند باشن",
+     "issue": "short but substantive observation (interest-level remark)",
+     "verdict": "genuinely ambiguous: borderline community_social vs meta_noise"
+    }
+   ]
+  },
+  "other_categories": {
+   "events (75%)": "misses: message12531 'رویداد' = group-name mention, message10363 'نشست' idiom, message3178 + message3522 Nobel news posts (lexicon 'نوبل/رصد/پژوهش'), message3151 'انتن' interview production (llm) - all lexicon FPs mechanically fixable except 3151 (ambiguous media-vs-event)",
+   "website_tech (75%)": "misses: 2549 VPN-banking (llm), 3186 external 'وبسایت' mention (lexicon), 6345 Telegram account presence (llm), 471 API course hits 'سرور/سایت' (lexicon), 8444 fingerprint door access (llm), 5532 online event format (llm) - lexicon pair fixable (require alenush/دامنه/VM corroboration for سایت/سرور); llm quartet context-dependent",
+   "governance_decisions (75%)": "misses: 1135 'برنامه‌ریزی' political banter, 3581 'فراخوان' = recruitment call, 3494 'مجمع' = organizer name, 6229 'صبحت کنیم' literally in governance lexicon, 10339 political letter, 11054 credential access (llm) - remove 'صبحت کنیم' from lexicon; scope فراخوان/مجمع with corroboration",
+   "publications_shabahng (90%)": "misses: 3479 + 11417 both external 'تابش' journal forwards hitting 'نشریه' - fixable: restrict publications lexicon to own journals (شباهنگ/تکانه), external journal names route to media_outreach"
+  },
+  "positive_notes": [
+   "meta_noise at 95%: rule-based empties all correct; voice/photo 'empty-text' samples correctly not demoted",
+   "publications/governance keyword surgery (fix 3) largely held: own-journal posts and real board/assembly/election chatter classify correctly",
+   "media_outreach at 90%: interview/cross-promo/channel vocabulary works; broadcast-forward gating correct on official-source forwards though it still over-appends community_social"
+  ]
+ },
  "artifacts_present": {
   "financial_md": true,
   "financial_pdf": true,
