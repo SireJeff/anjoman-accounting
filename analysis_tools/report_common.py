@@ -148,9 +148,16 @@ def _image(path, usable_cm):
     return Image(str(path), width=width, height=width * h / w)
 
 
-def md_to_pdf(md_path, pdf_path, images_dir=None):
+DEFAULT_FOOTER = "ANJOMAN | Financial report (monthly) | 2026-10-14 | toman"
+DEFAULT_TITLE = "Anjoman financial report (monthly view)"
+
+
+def md_to_pdf(md_path, pdf_path, images_dir=None, footer=None, title=None):
     """Render a markdown file (headings, paragraphs, bullets, pipe tables,
-    ![](rel.png) images) to a readable A4 PDF."""
+    ![](rel.png) images) to a readable A4 PDF. footer/title override the
+    financial-report defaults for other report families (performance report)."""
+    footer_text = footer if footer is not None else DEFAULT_FOOTER
+    title = title if title is not None else DEFAULT_TITLE
     md_path, pdf_path = Path(md_path), Path(pdf_path)
     images_dir = Path(images_dir) if images_dir else md_path.parent
     st = _styles()
@@ -195,8 +202,7 @@ def md_to_pdf(md_path, pdf_path, images_dir=None):
         canvas.line(1.6 * cm, 1.15 * cm, A4[0] - 1.6 * cm, 1.15 * cm)
         canvas.setFont(FONT, 7)
         canvas.setFillColor(colors.HexColor(MUTED))
-        canvas.drawString(1.6 * cm, 0.78 * cm,
-                          "ANJOMAN | Financial report (monthly) | 2026-10-14 | toman")
+        canvas.drawString(1.6 * cm, 0.78 * cm, footer_text)
         canvas.drawRightString(A4[0] - 1.6 * cm, 0.78 * cm, str(doc.page))
         canvas.restoreState()
 
@@ -204,6 +210,6 @@ def md_to_pdf(md_path, pdf_path, images_dir=None):
         str(pdf_path), pagesize=A4,
         leftMargin=1.6 * cm, rightMargin=1.6 * cm,
         topMargin=1.5 * cm, bottomMargin=1.7 * cm,
-        title="Anjoman financial report (monthly view)", author="Anjoman")
+        title=title, author="Anjoman")
     doc.build(story, onFirstPage=footer, onLaterPages=footer)
     return pdf_path
