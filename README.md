@@ -28,6 +28,10 @@ Central repository for the Anjoman's accounting records and Telegram chat archiv
 - **2026-10-10** — Reconciled financial report produced from the workbooks and receipts: `reports/2026-10-10/` (English and Persian versions, professional workbook, audit evidence). Declared domain expense and three-month website VM budget recorded.
 - **2026-10-12** — Report package merged to `main` via PR #1. Telegram channel export added (`anjoman_channel_content/`, 4,537 files). Three large media files (>50 MB) tracked with **Git LFS**; remaining content pushed in chunked batches after the initial large push timed out.
 - **2026-10-13** — Repository restructured: all accounting material consolidated under `anjoman_accounting_information/` (pure moves, history preserved via rename detection). Added two new group exports: the private group report and the public group export (2026-10-13). This README added.
+- **2026-10-14** — Performance & Financial analysis pipeline built (`analysis_tools/`): all four
+  Telegram exports parsed and classified (10-category taxonomy), event threads correlated across
+  chats and joined to the ledger, ecosystem map generated from forwards/mentions. Two new report
+  packages: `reports/2026-10-14/financial_monthly/` and `reports/2026-10-14/performance/`.
 
 ## Notes for collaborators
 
