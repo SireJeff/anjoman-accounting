@@ -44,13 +44,26 @@ RISKY_WORDS = {
                                         "اسپانسر", "برداشت"]},
                            # physics "circulation/flux" needs a money/bank token
                            "گردش": ["مالی", "کارت", "حساب", "بانک"]},
-    "education_courses": {w: EDUCATION_CORROBORATORS
-                          for w in ["ثبت‌نام", "ثبت نام"]},
+    "education_courses": {**{w: EDUCATION_CORROBORATORS
+                             for w in ["ثبت‌نام", "ثبت نام"]},
+                          # round 4: شبیه‌سازی is generic science prose
+                          # (channel#message3506 essay) and پایتون appears in
+                          # sponsor-prospectus company blurbs
+                          # (public_group#message764); both need a course token
+                          "شبیه‌سازی": EDUCATION_CORROBORATORS,
+                          "پایتون": EDUCATION_CORROBORATORS},
     "website_tech": {**{w: WEBSITE_CORROBORATORS for w in ["سایت", "api"]},
                      # "دامنه" = amplitude in physics; needs a web-infra token
                      "دامنه": ["سرور", "هاست", "alenush", "خرید", "تمدید"]},
-    "coordination_logistics": {w: COORDINATION_CORROBORATORS
-                               for w in ["چاپ", "سالن", "هماهنگی"]},
+    "coordination_logistics": {**{w: COORDINATION_CORROBORATORS
+                                  for w in ["چاپ", "سالن", "هماهنگی"]},
+                               # round 4: bare مجوز fires on external news
+                               # forwards (private_group#message11577 library
+                               # entry permit); استیکر alone is Telegram
+                               # sticker chatter (public_group#message2756),
+                               # printing needs چاپ/طراحی/سفارش
+                               "مجوز": COORDINATION_CORROBORATORS,
+                               "استیکر": ["چاپ", "طراحی", "سفارش"]},
     # round 2: polysemous tokens beyond the original risky set
     # round 3: bare تصمیم گرفتیم is announcement prose, not board action
     "governance_decisions": {w: GOVERNANCE_CORROBORATORS
@@ -62,6 +75,40 @@ RISKY_WORDS = {
                                  for w in ["تکانه", "شباهنگ", "ویراستاری", "جلد"]},
                               "شماره": PUBLICATIONS_NAME_CORROBORATORS},
 }
+
+# round 4: multi-word entries that are themselves risky — "اتاق انجمن" in an
+# event announcement is a bare venue line (channel#message3223 "مکان: اتاق
+# انجمن..."), not logistics work; it counts only with a logistics verb.
+MULTIWORD_RISKY = {
+    "coordination_logistics": {
+        "اتاق انجمن": ["رزرو", "ببرید", "بگذارید", "آماده کنید", "بگیرید"],
+    }
+}
+
+# round 4: category-level blockers — a marker token that switches the whole
+# category off unless an unblocking token co-occurs.
+# Macro-economy editorials cite تومان/ریال/صندوق/هزینه but describe the
+# national economy, not org money ops (channel#message3359); external
+# journal forwards (تابش, Isfahan student physics journal) hit نشریه in
+# their credit lines (channel#message3479, private_group#message11417).
+MACRO_ECON_MARKERS = ["تورم", "دلار", "بیکاری", "اقتصاد", "بانک جهانی"]
+MONEY_OPS_TOKENS = ["درگاه", "واریز", "واریزی", "فاکتور", "اسپانسر",
+                    "حق الزحمه", "حق‌الزحمه", "پرداخت شد", "دریافت شد",
+                    "تسویه", "شهریه", "کارت به کارت", "کارت‌به‌کارت"]
+EXTERNAL_JOURNAL_NAMES = ["تابش"]
+OWN_JOURNAL_ANCHORS = ["شباهنگ", "تکانه"]
+CATEGORY_BLOCKERS = {
+    "finance_operations": (MACRO_ECON_MARKERS, MONEY_OPS_TOKENS),
+    "publications_shabahng": (EXTERNAL_JOURNAL_NAMES, OWN_JOURNAL_ANCHORS),
+}
+
+# round 4: generic greeting/address words. Inside a substantive (>100 char)
+# text they must not add community_social when another category already
+# fired (private_group#message10074 بچه‌ها inside a course proposal,
+# public_group#message6227 سلام/بچه‌ها inside a governance report).
+GENERIC_SOCIAL_WORDS = {"سلام", "بچه‌ها", "بچه ها", "خوبی", "چطوری",
+                        "چه خبر", "لطفا", "زحمت"}
+SUBSTANTIVE_TEXT_MIN = 100
 
 # bare corroborator tokens per category, reused by the round-3 demotion gate
 CATEGORY_CORROBORATORS = {
@@ -80,20 +127,55 @@ CATEGORY_CORROBORATORS = {
 # substring false positives such as لتک inside کلتک (Caltech), اوکی inside
 # اوکیه, باشه inside می‌باشه, مدرس inside مدارس, ok inside token/broker.
 WORD_CHAR = re.compile("[؀-ۿ‌A-Za-z0-9]")
+WORD_TOKEN = re.compile("[؀-ۿ‌A-Za-z0-9]+")
+# Arabic punctuation lives inside the ؀-ۿ block but is not part of words:
+# "تابش،" must count as the standalone word تابش (and not as a substring of
+# کتابش). Treated as separators everywhere word boundaries matter.
+ARABIC_PUNCT = "،؛؟"
 SHORT_KEYWORD_MAX = 5
 
+# --- Task 14 round 4: Persian verb-conjugation suffix boundary ---
+# A keyword that is a past-tense verb stem must not match inside a
+# conjugated form: پرداخت fired inside پرداختید / پرداختند / پرداخته‌ام
+# (public_group#message6227 "به این موضوع پرداختید" = attention you paid).
+# Only multi-char personal endings are blocked; the single-char clitics
+# م/ی are also possessive on nouns (واریزم = my deposit) and stay matches,
+# and the participle in "پرداخت شد" is a separate multi-word entry.
+VERB_ENDINGS = ("ید", "یم", "ند", "اند", "ه‌ام", "ه‌ای", "ه‌است", "ه‌ایم",
+                "ه‌اید", "ه‌اند")
+
+def _is_word_char(ch):
+    return bool(WORD_CHAR.match(ch)) and ch not in ARABIC_PUNCT
+
 def _word_char_at(s, i):
-    return 0 <= i < len(s) and WORD_CHAR.match(s[i]) is not None
+    return 0 <= i < len(s) and _is_word_char(s[i])
+
+def _verb_ending_after(text, end):
+    """Does a conjugation suffix start right at text[end]?"""
+    return any(text[end:].startswith(s) for s in VERB_ENDINGS)
 
 def contains_standalone(text, kw):
     """True when kw occurs in text at least once with non-word chars (or the
-    string edge) on both sides."""
+    string edge) on both sides and no verb-conjugation suffix glued on."""
     start = 0
     while True:
         i = text.find(kw, start)
         if i < 0:
             return False
-        if not _word_char_at(text, i - 1) and not _word_char_at(text, i + len(kw)):
+        if (not _word_char_at(text, i - 1)
+                and not _word_char_at(text, i + len(kw))
+                and not _verb_ending_after(text, i + len(kw))):
+            return True
+        start = i + 1
+
+def _has_unsuffixed_occurrence(text, nk):
+    """Substring match that ignores occurrences glued to a verb ending."""
+    start = 0
+    while True:
+        i = text.find(nk, start)
+        if i < 0:
+            return False
+        if not _verb_ending_after(text, i + len(nk)):
             return True
         start = i + 1
 
@@ -112,10 +194,11 @@ def remove_standalone(text, kw):
     return "".join(out)
 
 def keyword_present(text, nk):
-    """Multi-word and long entries match by substring; short single-word
-    entries only as standalone words."""
+    """Multi-word and long entries match by substring (verb-suffixed
+    occurrences excluded); short single-word entries only as standalone,
+    unsuffixed words."""
     if " " in nk or len(nk) > SHORT_KEYWORD_MAX:
-        return nk in text
+        return _has_unsuffixed_occurrence(text, nk)
     return contains_standalone(text, nk)
 
 def meta_noise_hit(text, keywords):
@@ -130,23 +213,71 @@ def meta_noise_hit(text, keywords):
     rem = text
     for nk in nks:
         rem = remove_standalone(rem, nk)
-    return WORD_CHAR.search(rem) is None
+    return not any(_is_word_char(c) for c in rem)
+
+# --- Task 14 round 4: affirmation-only texts resolve to meta_noise ---
+# "وای😭😭" (public_group#message552) and "عالی و قوی" (public_group#message508)
+# fire community_social lexicon words, but the stripped text (minus
+# emoji/punctuation) is pure affirmation: phatic reaction, not social content.
+AFFIRMATION_GLUE = {"و", "هم", "یا", "نه", "خوب", "خیلی", "واقعا", "قوی",
+                    "بود", "هست", "است", "ست", "شد"}
+
+def word_tokens(text):
+    """Word tokens with Arabic punctuation treated as separators."""
+    return WORD_TOKEN.findall(text.translate(str.maketrans(ARABIC_PUNCT,
+                                                           "   ")))
+
+def _lexicon_tokens(keywords):
+    """Every word token of the (possibly multi-word) lexicon entries."""
+    toks = set()
+    for kw in keywords:
+        toks.update(word_tokens(normalize_digits(kw).lower()))
+    return toks
+
+def affirmation_only_text(text, community_keywords, noise_keywords):
+    """True when every word token of the text is a social/noise lexicon token
+    or glue word, and at least one is a community_social lexicon token."""
+    tokens = word_tokens(text)
+    if not tokens:
+        return False
+    social = _lexicon_tokens(community_keywords)
+    allowed = social | _lexicon_tokens(noise_keywords) | AFFIRMATION_GLUE
+    return all(t in allowed for t in tokens) and any(t in social
+                                                     for t in tokens)
 
 def firing_keywords(text, category, keywords):
     """Every keyword that counts for the category, in lexicon order: non-risky
-    words and multi-word entries always count; risky single words only with a
+    words and multi-word entries always count (risky multi-word entries and
+    category-blocked categories excepted); risky single words only with a
     corroborator in the text. Short keywords match only on word boundaries.
     meta_noise has its own dominance gate and is not keyword machinery."""
     if category == "meta_noise":
         return []
+    # round-4 category blockers: a marker token switches the whole category
+    # off unless an unblocking token co-occurs (keyword_present rules apply,
+    # so تابش matches "#تابش" / "تابش،" but not the inside of کتابش)
+    blockers, unblockers = CATEGORY_BLOCKERS.get(category, ((), ()))
+    if (blockers
+            and any(keyword_present(text, normalize_digits(b).lower())
+                    for b in blockers)
+            and not any(keyword_present(text, normalize_digits(u).lower())
+                        for u in unblockers)):
+        return []
     risky = RISKY_WORDS.get(category, {})
+    multiword_risky = MULTIWORD_RISKY.get(category, {})
     fired = []
     for kw in keywords:
         nk = normalize_digits(kw).lower()
         if not keyword_present(text, nk):
             continue
         if " " in nk:
-            fired.append(nk)                  # multi-word entries are never risky
+            # multi-word entries are never single-word risky, but a few are
+            # risky as entries (bare venue lines) and need their own anchor
+            corroborators = multiword_risky.get(nk)
+            if corroborators is None or any(
+                    c != nk and keyword_present(text, normalize_digits(c).lower())
+                    for c in corroborators):
+                fired.append(nk)
             continue
         corroborators = risky.get(nk)
         if corroborators is None:
@@ -199,7 +330,9 @@ def classify_message(rec, lexicon):
         cats.append("media_outreach"); method = method or "rule"
     if not text and media and set(media) <= {"sticker", "animated"}:
         cats.append("meta_noise"); method = "rule"
-    if not text and media and "photo" in media:
+    # round 4: a forwarded photo with no text is a rebroadcast, not a member
+    # sharing a picture — keep it media_outreach alone (message10410)
+    if not text and media and "photo" in media and not rec.get("forwarded_from"):
         cats.append("community_social"); method = method or "rule"
     # empty text + no media + not forwarded -> fallback category, never topical
     if not text.strip() and not media and not rec.get("forwarded_from"):
@@ -208,6 +341,22 @@ def classify_message(rec, lexicon):
     # Layer 2 - lexicon (multi-label, corroboration-gated for risky words)
     lex_hits = [c for c in RULE_ORDER
                 if category_hit(text, c, lexicon.get(c, []))]
+    # round 4: affirmation-only texts (lexicon social word + emoji/glue only)
+    # are phatic reactions -> meta_noise, not community_social
+    if "community_social" in lex_hits and affirmation_only_text(
+            text, lexicon.get("community_social", []),
+            lexicon.get("meta_noise", [])):
+        lex_hits.remove("community_social")
+        if "meta_noise" not in lex_hits:
+            lex_hits.append("meta_noise")
+    # round 4: generic greeting words must not append community_social onto
+    # substantive (>100 char) texts that already carry another category
+    elif "community_social" in lex_hits and len(text) > SUBSTANTIVE_TEXT_MIN:
+        fired = firing_keywords(text, "community_social",
+                                lexicon.get("community_social", []))
+        others = [c for c in cats + lex_hits if c != "community_social"]
+        if fired and set(fired) <= GENERIC_SOCIAL_WORDS and others:
+            lex_hits.remove("community_social")
     if lex_hits:
         for c in lex_hits:
             if c not in cats:

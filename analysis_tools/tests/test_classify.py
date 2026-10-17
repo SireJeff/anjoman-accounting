@@ -504,3 +504,222 @@ def test_fragment_over_25_chars_not_demoted():
     labels = {"a#m1": {"categories": ["website_tech"], "confidence": 0.6}}
     apply_llm_labels(recs, labels, lexicon={"website_tech": ["سرور"]})
     assert recs[0]["categories"] == ["website_tech"]
+
+
+# --- Task 14 round 4: affirmation resolution ---
+
+AFF4_LEX = {"community_social": ["وای", "عالی", "ممنون", "بچه‌ها", "سلام"],
+            "meta_noise": ["آره", "باشه"]}
+
+def test_emoji_only_social_reaction_is_meta_noise():
+    # public_group#message552 "وای😭😭": lexicon social word, phatic reaction
+    r = classify_message({"chat": "x", "text_plain": "وای😭😭", "media_kinds": []},
+                         AFF4_LEX)
+    assert r["categories"] == ["meta_noise"] and r["method"] == "lexicon"
+
+def test_affirmation_phrase_with_glue_is_meta_noise():
+    # public_group#message508 "عالی و قوی": affirmation + glue words only
+    r = classify_message({"chat": "x", "text_plain": "عالی و قوی",
+                          "media_kinds": []}, AFF4_LEX)
+    assert r["categories"] == ["meta_noise"]
+
+def test_social_word_inside_substantive_text_not_noise():
+    r = classify_message({"chat": "x",
+                          "text_plain": "عالی بود، فایل رو فردا می‌فرستم",
+                          "media_kinds": []}, AFF4_LEX)
+    assert "meta_noise" not in r["categories"]
+    assert "community_social" in r["categories"]
+
+def test_generic_social_word_not_appended_to_long_multilabel():
+    # private_group#message10074 pattern: بچه‌ها inside a >100 char course
+    # proposal that already fires education — community_social not appended
+    lex = {"education_courses": ["گواهی"], "community_social": ["بچه‌ها"]}
+    text = "بچه‌ها " + "پیشنهاد دوره و گواهی شرکت‌کنندگان " * 5
+    r = classify_message({"chat": "x", "text_plain": text, "media_kinds": []},
+                         lex)
+    assert "education_courses" in r["categories"]
+    assert "community_social" not in r["categories"]
+
+def test_generic_social_word_keeps_short_greeting_social():
+    r = classify_message({"chat": "x", "text_plain": "بچه‌ها چی شد؟",
+                          "media_kinds": []}, AFF4_LEX)
+    assert "community_social" in r["categories"]
+
+def test_forwarded_photo_only_is_media_outreach_alone():
+    # private_group#message10410: empty photo rebroadcast stays outreach-only
+    r = classify_message({"chat": "x", "text_plain": "",
+                          "media_kinds": ["photo"],
+                          "forwarded_from": "خبرخوانی فیزیک"}, AFF4_LEX)
+    assert r["categories"] == ["media_outreach"]
+    assert "community_social" not in r["categories"]
+
+def test_own_photo_without_text_stays_community_social():
+    r = classify_message({"chat": "x", "text_plain": "",
+                          "media_kinds": ["photo"]}, AFF4_LEX)
+    assert "community_social" in r["categories"]
+
+
+# --- Task 14 round 4: coordination corroboration (استیکر/مجوز/اتاق انجمن) ---
+
+COORD4_LEX = {"coordination_logistics": ["استیکر", "مجوز", "اتاق انجمن", "رزرو"]}
+
+def test_telegram_sticker_chatter_not_coordination():
+    # public_group#message2756: Telegram sticker behavior, not sticker printing
+    r = classify_message({"chat": "x",
+                          "text_plain": "چرا از گوگل عکس دانلود کردم هنگام فرستادن استیکر شد",
+                          "media_kinds": []}, COORD4_LEX)
+    assert "coordination_logistics" not in r["categories"]
+
+def test_sticker_printing_is_coordination():
+    r = classify_message({"chat": "x",
+                          "text_plain": "استیکرها را برای چاپ سفارش دادیم",
+                          "media_kinds": []}, COORD4_LEX)
+    assert "coordination_logistics" in r["categories"]
+
+def test_external_news_permit_not_coordination():
+    # private_group#message11577: university closure notice (forwarded news)
+    r = classify_message({"chat": "x",
+                          "text_plain": "دانشگاه تعطیل است؛ تردد صرفا با مجوز قابل انجام است",
+                          "media_kinds": [],
+                          "forwarded_from": "روزنامه شریف"}, COORD4_LEX)
+    assert "coordination_logistics" not in r["categories"]
+
+def test_permit_with_venue_token_is_coordination():
+    r = classify_message({"chat": "x", "text_plain": "مجوز سالن را بگیرید",
+                          "media_kinds": []}, COORD4_LEX)
+    assert "coordination_logistics" in r["categories"]
+
+def test_bare_venue_line_not_coordination():
+    # channel#message3223: "مکان: اتاق انجمن ..." in an event announcement
+    lex = {"events": ["سمینار"], "coordination_logistics": ["اتاق انجمن"]}
+    r = classify_message({"chat": "channel",
+                          "text_plain": "پژوهش‌خوانی؛ سمینار با حضور دکتر خسروی. "
+                                        "مکان: اتاق انجمن علمی دانشکده فیزیک. "
+                                        "زمان: سه‌شنبه ۱۳ آبان ساعت ۱۳:۳۰",
+                          "media_kinds": []}, lex)
+    assert r["categories"] == ["events"]
+
+def test_venue_with_logistics_verb_is_coordination():
+    r = classify_message({"chat": "x",
+                          "text_plain": "اتاق انجمن را برای چهارشنبه رزرو کنید",
+                          "media_kinds": []}, COORD4_LEX)
+    assert "coordination_logistics" in r["categories"]
+
+
+# --- Task 14 round 4: verb-conjugation suffix boundary ---
+
+def test_payment_verb_conjugations_not_matched():
+    # public_group#message6227 "به این موضوع پرداختید" (attention you paid)
+    from analysis_tools.classify import keyword_present
+    assert not keyword_present("به این موضوع پرداختید", "پرداخت")
+    assert not keyword_present("پرداختند بدون ثبت", "پرداخت")
+    assert not keyword_present("قبلا پرداخته‌ام", "پرداخت")
+    assert keyword_present("هزینه پرداخت شد", "پرداخت")
+    assert keyword_present("پرداخت‌ها را ببین", "پرداخت")   # plural stays
+    assert keyword_present("تا الان پرداختم", "پرداخت")     # single-char clitic stays
+
+def test_pardakhtid_narrative_not_finance():
+    lex = {"finance_operations": ["پرداخت", "برداشت"]}
+    r = classify_message({"chat": "x",
+                          "text_plain": "قسمتی از این روایت و برداشت رو درک کردم که به این موضوع پرداختید",
+                          "media_kinds": []}, lex)
+    assert "finance_operations" not in r["categories"]
+
+def test_keyword_before_arabic_comma_matches():
+    # ،؛؟ are separators, not word chars: "همایش،" is the standalone همایش
+    r = classify_message({"chat": "x",
+                          "text_plain": "شرکت در همایش، رایگان است",
+                          "media_kinds": []}, {"events": ["همایش"]})
+    assert "events" in r["categories"]
+
+
+# --- Task 14 round 4: category blockers (macro-econ, external journals) ---
+
+FIN4_LEX = {"finance_operations": ["تومان", "ریال", "صندوق", "هزینه"]}
+
+def test_macro_economy_editorial_not_finance():
+    # channel#message3359: national-economy figures, not org money ops
+    r = classify_message({"chat": "channel",
+                          "text_plain": "تورم رسمی ۴۲ درصد؛ ریال ایران از 50 هزار تومان "
+                                        "به 160 هزار تومان در برابر دلار سقوط کرد و "
+                                        "بیکاری ۸ درصد است",
+                          "media_kinds": []}, FIN4_LEX)
+    assert "finance_operations" not in r["categories"]
+
+def test_macro_text_with_money_ops_still_finance():
+    r = classify_message({"chat": "x",
+                          "text_plain": "با وجود تورم، حق‌الزحمه اسپانسر به صندوق واریز شد",
+                          "media_kinds": []}, FIN4_LEX)
+    assert "finance_operations" in r["categories"]
+
+PUB4_LEX = {"publications_shabahng": ["نشریه", "شباهنگ", "تکانه", "شعر و فیزیک"]}
+
+def test_external_journal_forward_not_publications():
+    # channel#message3479 / private_group#message11417: تابش (Isfahan student
+    # journal) credit lines hit نشریه but are not the association's journals
+    r = classify_message({"chat": "x",
+                          "text_plain": "نشریه علمی فرهنگی فیزیک دانشگاه صنعتی اصفهان #تابش",
+                          "media_kinds": []}, PUB4_LEX)
+    assert "publications_shabahng" not in r["categories"]
+
+def test_external_name_inside_word_not_blocked():
+    # channel#message3436: تابش inside کتابش must not block the own series
+    r = classify_message({"chat": "x",
+                          "text_plain": "نام کتابش را از جمله‌ای بلیک برداشت؛ شعر و فیزیک",
+                          "media_kinds": []}, PUB4_LEX)
+    assert "publications_shabahng" in r["categories"]
+
+def test_own_journal_mention_unblocks_publications():
+    r = classify_message({"chat": "x",
+                          "text_plain": "نشریه تابش از ما نقل کرد؛ شماره جدید شباهنگ رسید",
+                          "media_kinds": []}, PUB4_LEX)
+    assert "publications_shabahng" in r["categories"]
+
+
+# --- Task 14 round 4: education corroboration (شبیه‌سازی/پایتون) ---
+
+EDU4_LEX = {"education_courses": ["شبیه‌سازی", "پایتون", "کارگاه", "دوره پایتون"]}
+
+def test_simulation_in_essay_not_education():
+    # channel#message3506: تبرید شبیه‌سازی‌شده in a science essay
+    r = classify_message({"chat": "channel",
+                          "text_plain": "روش‌هایی مثل تبرید شبیه‌سازی‌شده دقیقاً به همین دلیل ساخته شدند",
+                          "media_kinds": []}, EDU4_LEX)
+    assert "education_courses" not in r["categories"]
+
+def test_sponsor_prospectus_python_not_education():
+    # public_group#message764: پایتون in a sponsor-prospectus company blurb
+    r = classify_message({"chat": "x",
+                          "text_plain": "شرکت‌هایی که دنبال بچه‌های با تسلط روی آمار، فرآیندهای تصادفی و پایتون هستند",
+                          "media_kinds": []}, EDU4_LEX)
+    assert "education_courses" not in r["categories"]
+
+def test_simulation_workshop_is_education():
+    r = classify_message({"chat": "x",
+                          "text_plain": "کارگاه شبیه‌سازی مونت‌کارلو برگزار می‌شود",
+                          "media_kinds": []}, EDU4_LEX)
+    assert "education_courses" in r["categories"]
+
+def test_python_course_entry_fires_without_corroboration():
+    # multi-word course entries stay never-risky
+    r = classify_message({"chat": "x",
+                          "text_plain": "دوره پایتون مقدماتی شروع شد",
+                          "media_kinds": []}, EDU4_LEX)
+    assert "education_courses" in r["categories"]
+
+
+# --- Task 14 round 4: residual lexicon surgery (صبحت کنیم typo) ---
+
+def test_round4_pruned_entries_stay_out_of_lexicon():
+    from analysis_tools.common import ROOT, read_json
+    lex = read_json(ROOT / "analysis/lexicon.json")
+    assert "صبحت کنیم" not in lex["governance_decisions"]  # typo'd keyword
+
+def test_sobhat_typo_phrase_not_governance():
+    # public_group#message6229: "صبحت کنیم" = misspelled صحبت (scheduling talk)
+    from analysis_tools.common import ROOT, read_json
+    lex = read_json(ROOT / "analysis/lexicon.json")
+    r = classify_message({"chat": "x",
+                          "text_plain": "چه ساعت میتونی بیای نیمساعت صبحت کنیم امروز",
+                          "media_kinds": []}, lex)
+    assert "governance_decisions" not in r["categories"]
