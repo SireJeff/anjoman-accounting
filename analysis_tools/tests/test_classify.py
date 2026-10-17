@@ -327,3 +327,180 @@ def test_demotion_never_touches_rule_or_lexicon_labels():
               categories=["events"])
     assert demote_micro_message(r2) is False
     assert r2["categories"] == ["events"]
+
+
+# --- Task 14 round 3: publications/governance lexicon surgery ---
+
+def test_round3_pruned_entries_stay_out_of_lexicon():
+    from analysis_tools.common import ROOT, read_json
+    lex = read_json(ROOT / "analysis/lexicon.json")
+    assert "گروه نجوم" not in lex["publications_shabahng"]
+    assert "مقیمی" not in lex["governance_decisions"]
+    assert "گزارش" not in lex["governance_decisions"]
+    assert "شماره" in lex["publications_shabahng"]   # journal anchor kept
+
+PUB3_LEX = {"publications_shabahng": ["شباهنگ", "تکانه", "شماره", "ویراستاری",
+                                      "جلد", "نشریه"]}
+
+def test_shabheng_brand_hashtag_not_publications():
+    # channel#message3477/3484 pattern: #شباهنگ hashtag in a news footer
+    r = classify_message({"chat": "channel",
+                          "text_plain": "تلسکوپ فضایی نانسی گریس رومن #شباهنگ #نجوم #اخترفیزیک",
+                          "media_kinds": []}, PUB3_LEX)
+    assert "publications_shabahng" not in r["categories"]
+
+def test_journal_issue_with_number_anchor_is_publications():
+    # channel#message3324 pattern: شماره‌ی نشریه‌ی #شباهنگ + این شماره
+    r = classify_message({"chat": "channel",
+                          "text_plain": "بیست و یکمین شماره‌ی نشریه‌ی #شباهنگ منتشر شد! این شماره درباره DESI",
+                          "media_kinds": []}, PUB3_LEX)
+    assert "publications_shabahng" in r["categories"]
+
+def test_editing_credit_line_not_publications():
+    # channel#message3106/3115 pattern: ویراستاری in production credits
+    r = classify_message({"chat": "channel",
+                          "text_plain": "با تشکر از خانم ملکی جهت کمک در ویراستاری علمی متن #جمعه_های_کوانتومی",
+                          "media_kinds": []}, PUB3_LEX)
+    assert "publications_shabahng" not in r["categories"]
+
+def test_textbook_volume_not_publications():
+    # channel#message3420 pattern: جلد دوم هالیدی is a textbook volume
+    r = classify_message({"chat": "channel",
+                          "text_plain": "جمع‌وجور حسابی از مطالب فصل‌های ۲۸ تا ۳۳ هالیدی (جلد دوم) آماده شد",
+                          "media_kinds": []}, PUB3_LEX)
+    assert "publications_shabahng" not in r["categories"]
+
+def test_journal_name_chatter_not_publications():
+    # private_group#message9825 pattern: اسم تکانه و شباهنگ نیست اینجا
+    r = classify_message({"chat": "private_group",
+                          "text_plain": "اسم تکانه و شباهنگ نیست اینجا",
+                          "media_kinds": []}, PUB3_LEX)
+    assert "publications_shabahng" not in r["categories"]
+
+GOV3_LEX = {"governance_decisions": ["جلسه", "کمیته", "انتخابات", "تصمیم",
+                                     "هیئت مدیره"]}
+
+def test_bare_decision_prose_not_governance():
+    # channel#message3420 pattern: انجمن تصمیم گرفتیم in an announcement ad
+    r = classify_message({"chat": "channel",
+                          "text_plain": "ما توی انجمن علمی فیزیک تصمیم گرفتیم یه جمع‌وجور آماده کنیم",
+                          "media_kinds": []}, GOV3_LEX)
+    assert "governance_decisions" not in r["categories"]
+
+def test_board_decision_is_governance():
+    r = classify_message({"chat": "x",
+                          "text_plain": "هیئت مدیره تصمیم گرفت جلسات را ادامه دهد",
+                          "media_kinds": []}, GOV3_LEX)
+    assert "governance_decisions" in r["categories"]
+
+def test_committee_meeting_keeps_governance():
+    # private_group#message9875/12513 pattern: جلسه کمیته — کمیته fires,
+    # the risky جلسه stays corroborator-gated (TP preserved)
+    r = classify_message({"chat": "private_group",
+                          "text_plain": "دوستان فردا جلسه کمیته دانشکدست نکته‌ای هست که بپرسید؟",
+                          "media_kinds": []}, GOV3_LEX)
+    assert "governance_decisions" in r["categories"]
+
+def test_standalone_election_is_governance():
+    # private_group#message10342: انتخابات is an unambiguous anchor
+    r = classify_message({"chat": "x", "text_plain": "انتخابات رو من اصلا نیستم",
+                          "media_kinds": []}, GOV3_LEX)
+    assert "governance_decisions" in r["categories"]
+
+FIN3_LEX = {"finance_operations": ["اسپانسر", "برداشت", "تومان", "حساب"]}
+
+def test_bare_sponsor_chatter_not_finance():
+    # public_group#message1289/3246/2541 pattern
+    r = classify_message({"chat": "public_group",
+                          "text_plain": "حالا باید دید اسپانسر چی میشه",
+                          "media_kinds": []}, FIN3_LEX)
+    assert "finance_operations" not in r["categories"]
+
+def test_sponsor_with_money_token_is_finance():
+    r = classify_message({"chat": "x",
+                          "text_plain": "اسپانسر قرار شد پنج میلیون تومان واریز کنه",
+                          "media_kinds": []}, FIN3_LEX)
+    assert "finance_operations" in r["categories"]
+
+def test_interpretation_bardasht_not_finance():
+    # channel#message3115 pattern: برداشت = interpretation in a physics essay
+    r = classify_message({"chat": "channel",
+                          "text_plain": "این برداشت دقیق نیست؛ نتیجه اندازه‌گیری احتمالی است",
+                          "media_kinds": []}, FIN3_LEX)
+    assert "finance_operations" not in r["categories"]
+
+def test_withdrawal_with_money_token_is_finance():
+    r = classify_message({"chat": "x",
+                          "text_plain": "برداشت دویست هزار تومان از حساب ثبت شد",
+                          "media_kinds": []}, FIN3_LEX)
+    assert "finance_operations" in r["categories"]
+
+
+# --- Task 14 round 3: multi-label gating on broadcasts ---
+
+GATE_LEX = {"events": ["سمینار", "وبینار"],
+            "finance_operations": ["پرداخت"],
+            "governance_decisions": ["جلسه", "انتخابات"]}
+
+def _broadcast(fwd=True, chat="channel"):
+    return {"chat": chat, "text_plain": "سمینار وبینار فیزیک؛ پرداخت حق ثبت نام تومان",
+            "media_kinds": [], "forwarded_from": "کانال" if fwd else None}
+
+def test_broadcast_drops_weak_secondary_label():
+    # events fires on two keywords (strong); finance only on the risky
+    # پرداخت (corroborated by تومان) — dropped on a broadcast
+    r = classify_message(_broadcast(), GATE_LEX)
+    assert "events" in r["categories"]
+    assert "finance_operations" not in r["categories"]
+
+def test_non_broadcast_keeps_weak_secondary_label():
+    r = classify_message(_broadcast(fwd=False, chat="private_group"), GATE_LEX)
+    assert set(r["categories"]) >= {"events", "finance_operations"}
+
+def test_channel_origin_post_is_gated_even_without_forward():
+    r = classify_message(_broadcast(fwd=False, chat="channel"), GATE_LEX)
+    assert "events" in r["categories"]
+    assert "finance_operations" not in r["categories"]
+
+def test_broadcast_all_weak_keeps_all_labels():
+    # no strongly supported category -> drop nothing (never empty the post)
+    lex = {"governance_decisions": ["جلسه"],
+           "finance_operations": ["پرداخت"]}
+    r = classify_message({"chat": "channel",
+                          "text_plain": "جلسه انتخابات پرداخت تومان",
+                          "media_kinds": [], "forwarded_from": "کانال"}, lex)
+    assert set(r["categories"]) == {"governance_decisions", "finance_operations"}
+
+def test_broadcast_rule_labels_never_dropped():
+    # poll rule label has no keyword evidence -> never weak -> survives
+    r = classify_message({"chat": "channel",
+                          "text_plain": "سمینار وبینار فیزیک",
+                          "media_kinds": ["poll"]}, GATE_LEX)
+    assert "governance_decisions" in r["categories"]
+    assert "events" in r["categories"]
+
+
+# --- Task 14 round 3: demotion window extended to 25 chars without evidence ---
+
+def test_demote_medium_fragment_without_evidence():
+    from analysis_tools.classify import apply_llm_labels
+    recs = [_rec("m1", text="اسمش یادم رفته الان دقیقا", media=[])]  # 24 chars
+    labels = {"a#m1": {"categories": ["events"], "confidence": 0.6}}
+    apply_llm_labels(recs, labels, lexicon={"events": ["سمینار"]})
+    assert recs[0]["categories"] == ["community_social"]
+    assert recs[0]["confidence"] == 0.5
+
+def test_medium_fragment_with_corroborator_not_demoted():
+    from analysis_tools.classify import apply_llm_labels
+    recs = [_rec("m1", text="کلاس فرداست حتما بیا", media=[])]  # 19 chars
+    labels = {"a#m1": {"categories": ["education_courses"], "confidence": 0.6}}
+    apply_llm_labels(recs, labels, lexicon={"education_courses": ["پایتون"]})
+    assert recs[0]["categories"] == ["education_courses"]
+    assert recs[0]["confidence"] == 0.6
+
+def test_fragment_over_25_chars_not_demoted():
+    from analysis_tools.classify import apply_llm_labels
+    recs = [_rec("m1", text="فکر نکنم بتونیم الان مکانیزمی دراریم", media=[])]  # 36 chars
+    labels = {"a#m1": {"categories": ["website_tech"], "confidence": 0.6}}
+    apply_llm_labels(recs, labels, lexicon={"website_tech": ["سرور"]})
+    assert recs[0]["categories"] == ["website_tech"]

@@ -1591,2906 +1591,8 @@
    "seed": false
   },
   {
-   "id": "handle:rah_khanahouse",
-   "label": "rah_khanahouse",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:qorpi",
-   "label": "qorpi",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:ee_jaryan",
-   "label": "ee_jaryan",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:ut_sap",
-   "label": "ut_sap",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:nexuseventbot",
-   "label": "nexuseventbot",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:yektanet",
-   "label": "yektanet",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:umznovin",
-   "label": "umznovin",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:kheiriehazratezahra",
-   "label": "kheiriehazratezahra",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:fahimeh_fakhri",
-   "label": "fahimeh_fakhri",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:khupa",
-   "label": "khupa",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:physicsbzte_admin",
-   "label": "physicsbzte_admin",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:ieee_bzte",
-   "label": "ieee_bzte",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:physmount",
-   "label": "physmount",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:queen1073",
-   "label": "queen1073",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:sharif_nano_admin",
-   "label": "sharif_nano_admin",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:itsamirz",
-   "label": "itsamirz",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:basu_physics",
-   "label": "basu_physics",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:plasma_competition",
-   "label": "plasma_competition",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:sariinanj",
-   "label": "sariinanj",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:bsps_2020",
-   "label": "bsps_2020",
-   "type": "external",
-   "seed": false
-  },
-  {
    "id": "handle:hamkhanclub",
    "label": "hamkhanclub",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:piais",
-   "label": "piais",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:mostafa_ghalebani",
-   "label": "mostafa_ghalebani",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:borna_sepehr",
-   "label": "borna_sepehr",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:lhassan_sanil",
-   "label": "lhassan_sanil",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:aerospaceeng_association_admin",
-   "label": "aerospaceeng_association_admin",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:sharif_senfi_phys",
-   "label": "sharif_senfi_phys",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:umz_physics",
-   "label": "umz_physics",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:hamkhanbookclub",
-   "label": "hamkhanbookclub",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:nojum_magazine",
-   "label": "nojum_magazine",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:cm_conference",
-   "label": "cm_conference",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:ee_intro_support",
-   "label": "ee_intro_support",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:railway_society",
-   "label": "railway_society",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:hellischool",
-   "label": "hellischool",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:farmand_bt",
-   "label": "farmand_bt",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:sutmech97",
-   "label": "sutmech97",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:ieee_ut",
-   "label": "ieee_ut",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:sharif_senfi",
-   "label": "sharif_senfi",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:mahdipourahmadi1996",
-   "label": "mahdipourahmadi1996",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:parsarangriz",
-   "label": "parsarangriz",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:startuptrigger",
-   "label": "startuptrigger",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:raz_jsr",
-   "label": "raz_jsr",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:qorpico",
-   "label": "qorpico",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:aichallenge",
-   "label": "aichallenge",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:ihpsc3",
-   "label": "ihpsc3",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:philsharif",
-   "label": "philsharif",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:rahi_0_0",
-   "label": "rahi_0_0",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:maghalekhaninano",
-   "label": "maghalekhaninano",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:qtech_magazine",
-   "label": "qtech_magazine",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:inevents",
-   "label": "inevents",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:physics",
-   "label": "physics",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:ncqic2024",
-   "label": "ncqic2024",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:mif_sut",
-   "label": "mif_sut",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:rahneshan_ir",
-   "label": "rahneshan_ir",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:eridanusgroup",
-   "label": "eridanusgroup",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:zahra_nasseri",
-   "label": "zahra_nasseri",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:openday_phy_sut",
-   "label": "openday_phy_sut",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:sharif_islamic_society",
-   "label": "sharif_islamic_society",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:iust_ssc",
-   "label": "iust_ssc",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:iust_ssc_admin",
-   "label": "iust_ssc_admin",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:quantum",
-   "label": "quantum",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:sharifhepcenter",
-   "label": "sharifhepcenter",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:ssiediust",
-   "label": "ssiediust",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:civilscienceclub",
-   "label": "civilscienceclub",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:hamband_math_cs",
-   "label": "hamband_math_cs",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:ssa_iesharif_admin",
-   "label": "ssa_iesharif_admin",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:epa_qut",
-   "label": "epa_qut",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:haftghalamsut",
-   "label": "haftghalamsut",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:eeresana",
-   "label": "eeresana",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:mhasanshiri",
-   "label": "mhasanshiri",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:fatemehfj98",
-   "label": "fatemehfj98",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:ie_intro",
-   "label": "ie_intro",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:mrymhoseiniii",
-   "label": "mrymhoseiniii",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:vc_phys",
-   "label": "vc_phys",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:shoniz",
-   "label": "shoniz",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:sadaf_meta",
-   "label": "sadaf_meta",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:harkatsut",
-   "label": "harkatsut",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:sara_alaei",
-   "label": "sara_alaei",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:hamkhanclubbot",
-   "label": "hamkhanclubbot",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:foundations_of_physics",
-   "label": "foundations_of_physics",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:f79s79a79",
-   "label": "f79s79a79",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:idschools",
-   "label": "idschools",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:oppeventir",
-   "label": "oppeventir",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:ethics_technology",
-   "label": "ethics_technology",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:physics_ipsu",
-   "label": "physics_ipsu",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:mh_aliasgharnezhad",
-   "label": "mh_aliasgharnezhad",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:saengsci",
-   "label": "saengsci",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:se_workshops",
-   "label": "se_workshops",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:newquanta",
-   "label": "newquanta",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:shenasa_sharif",
-   "label": "shenasa_sharif",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:civil_intro",
-   "label": "civil_intro",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:bws_ut",
-   "label": "bws_ut",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:vebinar_nano",
-   "label": "vebinar_nano",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:masaafaut",
-   "label": "masaafaut",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:pa79af",
-   "label": "pa79af",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:statisticssbu2",
-   "label": "statisticssbu2",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:mah2ya",
-   "label": "mah2ya",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:beconomics",
-   "label": "beconomics",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:shahroodut",
-   "label": "shahroodut",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:sharifschools",
-   "label": "sharifschools",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:sns_2019",
-   "label": "sns_2019",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:soltani_emc",
-   "label": "soltani_emc",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:farhangisharif",
-   "label": "farhangisharif",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:shariftechpark",
-   "label": "shariftechpark",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:algorithm_design_sut",
-   "label": "algorithm_design_sut",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:abootalebsaf",
-   "label": "abootalebsaf",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:ravandid",
-   "label": "ravandid",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:irost",
-   "label": "irost",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:rezayov",
-   "label": "rezayov",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:quantcamp",
-   "label": "quantcamp",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:green_branch",
-   "label": "green_branch",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:gamein2017",
-   "label": "gamein2017",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:au_astronomy",
-   "label": "au_astronomy",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:ieeesharifsb",
-   "label": "ieeesharifsb",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:decoupage_sharif",
-   "label": "decoupage_sharif",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:spssa_info",
-   "label": "spssa_info",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:alzahraelectronic",
-   "label": "alzahraelectronic",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:hamband_sut",
-   "label": "hamband_sut",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:jozvedaneshgahi_ir",
-   "label": "jozvedaneshgahi_ir",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:aminsadeghian78",
-   "label": "aminsadeghian78",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:astro_tu",
-   "label": "astro_tu",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:rezaejtehadi",
-   "label": "rezaejtehadi",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:jdevs_farhangi",
-   "label": "jdevs_farhangi",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:astro_basu",
-   "label": "astro_basu",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:khabarkhani_physbot",
-   "label": "khabarkhani_physbot",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:anjomansut",
-   "label": "anjomansut",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:shirinasal",
-   "label": "shirinasal",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:morphyoos",
-   "label": "morphyoos",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:mantama_iran",
-   "label": "mantama_iran",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:sharifmusicgroup",
-   "label": "sharifmusicgroup",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:ikashef",
-   "label": "ikashef",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:alzahra_astronomy",
-   "label": "alzahra_astronomy",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:mahyarabbasi",
-   "label": "mahyarabbasi",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:physics_sut_bot",
-   "label": "physics_sut_bot",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:energysharif",
-   "label": "energysharif",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:react2024",
-   "label": "react2024",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:physicsopenday",
-   "label": "physicsopenday",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:qmlworkshop",
-   "label": "qmlworkshop",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:sino_admin",
-   "label": "sino_admin",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:iustcesa",
-   "label": "iustcesa",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:avastarco",
-   "label": "avastarco",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:sharifsummerschool",
-   "label": "sharifsummerschool",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:barezinnovationcenter",
-   "label": "barezinnovationcenter",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:ipmfpg",
-   "label": "ipmfpg",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:qic_national_conference",
-   "label": "qic_national_conference",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:mysharif",
-   "label": "mysharif",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:de1an",
-   "label": "de1an",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:buali_physics_week99",
-   "label": "buali_physics_week99",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:thermo_stat_circle",
-   "label": "thermo_stat_circle",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:mehvar_admin",
-   "label": "mehvar_admin",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:iesoft",
-   "label": "iesoft",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:opticebonabuni",
-   "label": "opticebonabuni",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:workshop_physics",
-   "label": "workshop_physics",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:elmi_physics",
-   "label": "elmi_physics",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:helliresearch",
-   "label": "helliresearch",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:iotame",
-   "label": "iotame",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:psinews",
-   "label": "psinews",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:topsaverbot",
-   "label": "topsaverbot",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:mha315",
-   "label": "mha315",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:sharifstudentsnews",
-   "label": "sharifstudentsnews",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:kiana_hk",
-   "label": "kiana_hk",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:mobinsaidy",
-   "label": "mobinsaidy",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:rah_energy",
-   "label": "rah_energy",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:arminazargoy",
-   "label": "arminazargoy",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:iap_tournament",
-   "label": "iap_tournament",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:tarikhandishi",
-   "label": "tarikhandishi",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:irreversiblephenomenon",
-   "label": "irreversiblephenomenon",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:qomat",
-   "label": "qomat",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:public_anjmotahed",
-   "label": "public_anjmotahed",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:kimiagroup_admin",
-   "label": "kimiagroup_admin",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:farayand_scientific_magazine",
-   "label": "farayand_scientific_magazine",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:scischool",
-   "label": "scischool",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:tara_kamari",
-   "label": "tara_kamari",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:utnano_tabadmin",
-   "label": "utnano_tabadmin",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:sutdaftarm",
-   "label": "sutdaftarm",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:historyofscience_zharfa",
-   "label": "historyofscience_zharfa",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:rayanesh_ce",
-   "label": "rayanesh_ce",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:nsfund",
-   "label": "nsfund",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:takaneh_physics_sharif",
-   "label": "takaneh_physics_sharif",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:elprofessoredu",
-   "label": "elprofessoredu",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:utphysicsweeklyseminars",
-   "label": "utphysicsweeklyseminars",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:megasaverbot",
-   "label": "megasaverbot",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:physicsiut",
-   "label": "physicsiut",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:sharifee",
-   "label": "sharifee",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:faculty_of_physics_tabriz",
-   "label": "faculty_of_physics_tabriz",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:saavosh",
-   "label": "saavosh",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:sharifgs",
-   "label": "sharifgs",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:taha_jm",
-   "label": "taha_jm",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:sharifdaily",
-   "label": "sharifdaily",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:skmlorca7885",
-   "label": "skmlorca7885",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:physicsdu",
-   "label": "physicsdu",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:anjmotahed",
-   "label": "anjmotahed",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:mcs_intro",
-   "label": "mcs_intro",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:anjoman_unknown_stuff",
-   "label": "anjoman_unknown_stuff",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:nenbis",
-   "label": "nenbis",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:hershadi",
-   "label": "hershadi",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:new_moien",
-   "label": "new_moien",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:ihpscadmin",
-   "label": "ihpscadmin",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:kimia_group",
-   "label": "kimia_group",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:khu_pa",
-   "label": "khu_pa",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:ahosseinnezhad",
-   "label": "ahosseinnezhad",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:zarkam",
-   "label": "zarkam",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:sunich",
-   "label": "sunich",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:srttu_computer",
-   "label": "srttu_computer",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:sharif_snowatec",
-   "label": "sharif_snowatec",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:pvportal",
-   "label": "pvportal",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:wss_sut",
-   "label": "wss_sut",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:kntuanjomaneslami",
-   "label": "kntuanjomaneslami",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:khabarkhaani",
-   "label": "khabarkhaani",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:hanna_nrt",
-   "label": "hanna_nrt",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:ahmadramezanpour",
-   "label": "ahmadramezanpour",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:alirezazourmand",
-   "label": "alirezazourmand",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:iranianastrotourism",
-   "label": "iranianastrotourism",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:drbehnazakbarnavaz",
-   "label": "drbehnazakbarnavaz",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:sharif_nano",
-   "label": "sharif_nano",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:sut_96",
-   "label": "sut_96",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:qisatsut",
-   "label": "qisatsut",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:pania_z",
-   "label": "pania_z",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:ae_physics",
-   "label": "ae_physics",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:karafarinisharif",
-   "label": "karafarinisharif",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:physicskntu",
-   "label": "physicskntu",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:hsu_sut",
-   "label": "hsu_sut",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:alumni",
-   "label": "alumni",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:mahtab_shafie",
-   "label": "mahtab_shafie",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:physics_anjoman_umz",
-   "label": "physics_anjoman_umz",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:mehvargroup",
-   "label": "mehvargroup",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:anjoman_elmi_physics",
-   "label": "anjoman_elmi_physics",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:epc1380",
-   "label": "epc1380",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:sokut1234",
-   "label": "sokut1234",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:utsap",
-   "label": "utsap",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:lambda_circle",
-   "label": "lambda_circle",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:iap_tournamant",
-   "label": "iap_tournamant",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:tgadsplatformbot",
-   "label": "tgadsplatformbot",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:qptc_sbu",
-   "label": "qptc_sbu",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:kamand_rad",
-   "label": "kamand_rad",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:biophysics_admine",
-   "label": "biophysics_admine",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:psa_aut",
-   "label": "psa_aut",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:taraadars",
-   "label": "taraadars",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:zzaa1383",
-   "label": "zzaa1383",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:sharif_energy_engineering",
-   "label": "sharif_energy_engineering",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:sanjide_pr",
-   "label": "sanjide_pr",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:ichallenge",
-   "label": "ichallenge",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:alz_physics",
-   "label": "alz_physics",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:ehsan_a21",
-   "label": "ehsan_a21",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:sharif_theater",
-   "label": "sharif_theater",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:helliseminar",
-   "label": "helliseminar",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:msekntu",
-   "label": "msekntu",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:elmos95",
-   "label": "elmos95",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:utnano",
-   "label": "utnano",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:primeno11",
-   "label": "primeno11",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:nanobztu_admin",
-   "label": "nanobztu_admin",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:usern_net",
-   "label": "usern_net",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:jv_alireza",
-   "label": "jv_alireza",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:physics_cl",
-   "label": "physics_cl",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:bigdataserve",
-   "label": "bigdataserve",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:blackholeinformationparadox",
-   "label": "blackholeinformationparadox",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:sbubiotechnology",
-   "label": "sbubiotechnology",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:mazaheriphysics",
-   "label": "mazaheriphysics",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:vnd_69n",
-   "label": "vnd_69n",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:sns_en",
-   "label": "sns_en",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:rastaihaclub",
-   "label": "rastaihaclub",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:kavoshsut",
-   "label": "kavoshsut",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:optimizer_math",
-   "label": "optimizer_math",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:sharif_prm",
-   "label": "sharif_prm",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:physics_du",
-   "label": "physics_du",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:kabiri_zahra",
-   "label": "kabiri_zahra",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:sharif_chemistry",
-   "label": "sharif_chemistry",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:nova_astrophysics_journal",
-   "label": "nova_astrophysics_journal",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:bio_cheme_association",
-   "label": "bio_cheme_association",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:physicsiut_admin",
-   "label": "physicsiut_admin",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:anjoman_elmi_phys_su",
-   "label": "anjoman_elmi_phys_su",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:graduates_qut",
-   "label": "graduates_qut",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:qmlworkshop_support",
-   "label": "qmlworkshop_support",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:hodhod_events",
-   "label": "hodhod_events",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:carimi",
-   "label": "carimi",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:alzahra_physics",
-   "label": "alzahra_physics",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:arminmk2000",
-   "label": "arminmk2000",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:tsuki_cou",
-   "label": "tsuki_cou",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:shenakhtcenter",
-   "label": "shenakhtcenter",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:sammeiust",
-   "label": "sammeiust",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:ssa_iesharif",
-   "label": "ssa_iesharif",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:addlist",
-   "label": "addlist",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:for_sharifdaily",
-   "label": "for_sharifdaily",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:140506",
-   "label": "140506",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:enzo_1729",
-   "label": "enzo_1729",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:asrarezafadaei",
-   "label": "asrarezafadaei",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:shahabcpt",
-   "label": "shahabcpt",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:hadafmandedu",
-   "label": "hadafmandedu",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:skmmlorca7885",
-   "label": "skmmlorca7885",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:sharifvccup",
-   "label": "sharifvccup",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:fizikar",
-   "label": "fizikar",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:spstmu",
-   "label": "spstmu",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:energycompaut",
-   "label": "energycompaut",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:nano_edu_put",
-   "label": "nano_edu_put",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:hamkhanadmin",
-   "label": "hamkhanadmin",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:khugamelab",
-   "label": "khugamelab",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:sharifaccelerator",
-   "label": "sharifaccelerator",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:nobs_khu",
-   "label": "nobs_khu",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:takaneh_mag_admin",
-   "label": "takaneh_mag_admin",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:applytoday",
-   "label": "applytoday",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:mojtaba8637",
-   "label": "mojtaba8637",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:h4e97",
-   "label": "h4e97",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:hgh_ms",
-   "label": "hgh_ms",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:takaneh_physics_sut",
-   "label": "takaneh_physics_sut",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:khu_astronomy",
-   "label": "khu_astronomy",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:sharifspeech",
-   "label": "sharifspeech",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:asinojum",
-   "label": "asinojum",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:smasoud_soleimani",
-   "label": "smasoud_soleimani",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:madresesino",
-   "label": "madresesino",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:umz_novin",
-   "label": "umz_novin",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:arasholp",
-   "label": "arasholp",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:shenakhtpajouh",
-   "label": "shenakhtpajouh",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:mahtaghodsi",
-   "label": "mahtaghodsi",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:fardayesabz76",
-   "label": "fardayesabz76",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:iliviaaaa",
-   "label": "iliviaaaa",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:bigdataserve_admin",
-   "label": "bigdataserve_admin",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:ce_kntu",
-   "label": "ce_kntu",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:fazli2000",
-   "label": "fazli2000",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:spintronics",
-   "label": "spintronics",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:kimiyapajouhnano97",
-   "label": "kimiyapajouhnano97",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:charkh_tv",
-   "label": "charkh_tv",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:nojummag",
-   "label": "nojummag",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:behara",
-   "label": "behara",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:ksabamdad",
-   "label": "ksabamdad",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:shadawn_gh",
-   "label": "shadawn_gh",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:aminmo12",
-   "label": "aminmo12",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:mse_sut",
-   "label": "mse_sut",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:sbu_physics",
-   "label": "sbu_physics",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:physics_elmosanat",
-   "label": "physics_elmosanat",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:fardayesabz",
-   "label": "fardayesabz",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:guilanphysics",
-   "label": "guilanphysics",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:simahashemi",
-   "label": "simahashemi",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:eridanusastronomygroup",
-   "label": "eridanusastronomygroup",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:iap_askme",
-   "label": "iap_askme",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:se_workshops_admin",
-   "label": "se_workshops_admin",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:rahneshan_admin",
-   "label": "rahneshan_admin",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:omidmosaddegh",
-   "label": "omidmosaddegh",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:newquantasc",
-   "label": "newquantasc",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:cfuscience",
-   "label": "cfuscience",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:react2021",
-   "label": "react2021",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:ssamsrt",
-   "label": "ssamsrt",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:shenakhtadmin",
-   "label": "shenakhtadmin",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:minoogroup",
-   "label": "minoogroup",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:qmproblems",
-   "label": "qmproblems",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:erfan_zaman77",
-   "label": "erfan_zaman77",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:qist_webinar03",
-   "label": "qist_webinar03",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:sharif_nano_workshop",
-   "label": "sharif_nano_workshop",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:esw_support",
-   "label": "esw_support",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:mazmaz",
-   "label": "mazmaz",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:zoljalalih",
-   "label": "zoljalalih",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:chvahid",
-   "label": "chvahid",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:econophysicsconf",
-   "label": "econophysicsconf",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:chayofizik",
-   "label": "chayofizik",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:ab_zahraaaa",
-   "label": "ab_zahraaaa",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:mexpah17",
-   "label": "mexpah17",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:parikgpl",
-   "label": "parikgpl",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:mostafa_asemani",
-   "label": "mostafa_asemani",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:ipsu_ir",
-   "label": "ipsu_ir",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:reihanemoradiii",
-   "label": "reihanemoradiii",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:s_sadafadmin",
-   "label": "s_sadafadmin",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:snsbackup",
-   "label": "snsbackup",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:ie_intro_supportteam",
-   "label": "ie_intro_supportteam",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:voiceofcosmos",
-   "label": "voiceofcosmos",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:ahoo_tz",
-   "label": "ahoo_tz",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:moein_derakhshan",
-   "label": "moein_derakhshan",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:hamiansut",
-   "label": "hamiansut",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:semu_physics7",
-   "label": "semu_physics7",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:sharifziba",
-   "label": "sharifziba",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:ehsanpour137",
-   "label": "ehsanpour137",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:aumath96",
-   "label": "aumath96",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:aerospaceeng_association",
-   "label": "aerospaceeng_association",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:sharifculture",
-   "label": "sharifculture",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:abul_ah",
-   "label": "abul_ah",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:sharif_gs",
-   "label": "sharif_gs",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:fcs_amzz",
-   "label": "fcs_amzz",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:annavid",
-   "label": "annavid",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:physics_yazduni",
-   "label": "physics_yazduni",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:masaaf_admin",
-   "label": "masaaf_admin",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:braincog",
-   "label": "braincog",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:sharifcivilmagazine",
-   "label": "sharifcivilmagazine",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:association_physics_tmu",
-   "label": "association_physics_tmu",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:gmail",
-   "label": "gmail",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:sharif_scientific_associations",
-   "label": "sharif_scientific_associations",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:zharfa90",
-   "label": "zharfa90",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:iec_sharif",
-   "label": "iec_sharif",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:meshkatsadri",
-   "label": "meshkatsadri",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:ahz313",
-   "label": "ahz313",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:iust_ssme",
-   "label": "iust_ssme",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:anjoman_physics_tabriz_uni",
-   "label": "anjoman_physics_tabriz_uni",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:ebisssss",
-   "label": "ebisssss",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:halghe_gofteman",
-   "label": "halghe_gofteman",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:kasrakiaee",
-   "label": "kasrakiaee",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:alzahraphysics",
-   "label": "alzahraphysics",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:name_sargoshade_sharif",
-   "label": "name_sargoshade_sharif",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:basil_78",
-   "label": "basil_78",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:abbasshojakani78",
-   "label": "abbasshojakani78",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:nojum_aut",
-   "label": "nojum_aut",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:energye_aut",
-   "label": "energye_aut",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:maximalclass",
-   "label": "maximalclass",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:flyingcomet",
-   "label": "flyingcomet",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:sharif",
-   "label": "sharif",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:ce_intro",
-   "label": "ce_intro",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:sohrabmaleki",
-   "label": "sohrabmaleki",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:tabeshh_physics",
-   "label": "tabeshh_physics",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:cogncs",
-   "label": "cogncs",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:sut_tw",
-   "label": "sut_tw",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:zahra232",
-   "label": "zahra232",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:psiket_academy",
-   "label": "psiket_academy",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:nastaran_ragerdi",
-   "label": "nastaran_ragerdi",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:sruastro",
-   "label": "sruastro",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:pr_gls",
-   "label": "pr_gls",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:masaaf1",
-   "label": "masaaf1",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:psiket_admin",
-   "label": "psiket_admin",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:energy_sharif_admin",
-   "label": "energy_sharif_admin",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:startupmatch",
-   "label": "startupmatch",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:iquantop",
-   "label": "iquantop",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:ssc_public",
-   "label": "ssc_public",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:nodard",
-   "label": "nodard",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:physics_tea_sessions",
-   "label": "physics_tea_sessions",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:bizz15_bizz25",
-   "label": "bizz15_bizz25",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:dinafood",
-   "label": "dinafood",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:resana_esw",
-   "label": "resana_esw",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:noavari_org",
-   "label": "noavari_org",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:nojum_autt",
-   "label": "nojum_autt",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:payragame",
-   "label": "payragame",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:blessedwithacursee",
-   "label": "blessedwithacursee",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:mustafaprize_admin",
-   "label": "mustafaprize_admin",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:sio3pehr",
-   "label": "sio3pehr",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:iqc_news",
-   "label": "iqc_news",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:cinemasut",
-   "label": "cinemasut",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:msebolur",
-   "label": "msebolur",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:yousofshah",
-   "label": "yousofshah",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:inductors",
-   "label": "inductors",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:mrpatient2",
-   "label": "mrpatient2",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:reza_k_1",
-   "label": "reza_k_1",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:helli",
-   "label": "helli",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:researchatphysicssut",
-   "label": "researchatphysicssut",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:modern_cogitation",
-   "label": "modern_cogitation",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:skmmorca7885",
-   "label": "skmmorca7885",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:alrza98",
-   "label": "alrza98",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:white_grotesque",
-   "label": "white_grotesque",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:workshops_admin",
-   "label": "workshops_admin",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:sire_jeff",
-   "label": "sire_jeff",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:ce_khu",
-   "label": "ce_khu",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:saeedsky",
-   "label": "saeedsky",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:aida_rhn",
-   "label": "aida_rhn",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:sutphysicsbooks",
-   "label": "sutphysicsbooks",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:gaminow_lodestar",
-   "label": "gaminow_lodestar",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:ifarshidgh",
-   "label": "ifarshidgh",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:bbaliens",
-   "label": "bbaliens",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:y_shahmari",
-   "label": "y_shahmari",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:sshahrzad",
-   "label": "sshahrzad",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:cws_aut",
-   "label": "cws_aut",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:ee_intro",
-   "label": "ee_intro",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:quera_ir",
-   "label": "quera_ir",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:fs_zbh",
-   "label": "fs_zbh",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:alz_robotics",
-   "label": "alz_robotics",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:halghe_maktoob",
-   "label": "halghe_maktoob",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:kasbokardarphysic",
-   "label": "kasbokardarphysic",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:anjoman_elmi_sut",
-   "label": "anjoman_elmi_sut",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:anjomannujum",
-   "label": "anjomannujum",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:photonic_of_tabrizuniversity",
-   "label": "photonic_of_tabrizuniversity",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:ut_engsci",
-   "label": "ut_engsci",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:sharifi_96",
-   "label": "sharifi_96",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:hannane_dst",
-   "label": "hannane_dst",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:m_rm_98",
-   "label": "m_rm_98",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:se_workshops_support",
-   "label": "se_workshops_support",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:shirazuphysics",
-   "label": "shirazuphysics",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:m_a_rahimian",
-   "label": "m_a_rahimian",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:peyvandgathering",
-   "label": "peyvandgathering",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:kavyanz",
-   "label": "kavyanz",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:astronomyiut",
-   "label": "astronomyiut",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:haniyehmalaki",
-   "label": "haniyehmalaki",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:entekhab_sharif_bot",
-   "label": "entekhab_sharif_bot",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:pnic_nano",
-   "label": "pnic_nano",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:gamein_sharif",
-   "label": "gamein_sharif",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:asrarezafadae",
-   "label": "asrarezafadae",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:quanta_study_circle",
-   "label": "quanta_study_circle",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:makeathonplus",
-   "label": "makeathonplus",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:physics_bzte",
-   "label": "physics_bzte",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:sitpor",
-   "label": "sitpor",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:faculty_of_physics_tabriz_uni",
-   "label": "faculty_of_physics_tabriz_uni",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:saeed_kazemi",
-   "label": "saeed_kazemi",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:s1379s1379",
-   "label": "s1379s1379",
    "type": "external",
    "seed": false
   },
@@ -4501,68 +1603,368 @@
    "seed": false
   },
   {
-   "id": "handle:joinchat",
-   "label": "joinchat",
+   "id": "handle:physmount",
+   "label": "physmount",
    "type": "external",
    "seed": false
   },
   {
-   "id": "handle:conf_astrophysics_uok",
-   "label": "conf_astrophysics_uok",
+   "id": "handle:physics_ipsu",
+   "label": "physics_ipsu",
    "type": "external",
    "seed": false
   },
   {
-   "id": "handle:iranjobfair",
-   "label": "iranjobfair",
+   "id": "handle:mha315",
+   "label": "mha315",
    "type": "external",
    "seed": false
   },
   {
-   "id": "handle:khu_biochemistryassociation",
-   "label": "khu_biochemistryassociation",
+   "id": "handle:khu_pa",
+   "label": "khu_pa",
    "type": "external",
    "seed": false
   },
   {
-   "id": "handle:javadkamali",
-   "label": "javadkamali",
+   "id": "handle:energye_aut",
+   "label": "energye_aut",
    "type": "external",
    "seed": false
   },
   {
-   "id": "handle:ssaaesharif",
-   "label": "ssaaesharif",
+   "id": "handle:anjoman_unknown_stuff",
+   "label": "anjoman_unknown_stuff",
    "type": "external",
    "seed": false
   },
   {
-   "id": "handle:entekhab_sharif",
-   "label": "entekhab_sharif",
+   "id": "handle:utnano",
+   "label": "utnano",
    "type": "external",
    "seed": false
   },
   {
-   "id": "handle:prm_mech",
-   "label": "prm_mech",
+   "id": "handle:kiana_hk",
+   "label": "kiana_hk",
    "type": "external",
    "seed": false
   },
   {
-   "id": "handle:iman_hyt",
-   "label": "iman_hyt",
+   "id": "handle:morphyoos",
+   "label": "morphyoos",
    "type": "external",
    "seed": false
   },
   {
-   "id": "handle:alu_astronomy",
-   "label": "alu_astronomy",
+   "id": "handle:zzaa1383",
+   "label": "zzaa1383",
    "type": "external",
    "seed": false
   },
   {
-   "id": "handle:abdusphysics",
-   "label": "abdusphysics",
+   "id": "handle:fcs_amzz",
+   "label": "fcs_amzz",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:anjoman_physics_tabriz_uni",
+   "label": "anjoman_physics_tabriz_uni",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:karafarinisharif",
+   "label": "karafarinisharif",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:hsu_sut",
+   "label": "hsu_sut",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:sbu_physics",
+   "label": "sbu_physics",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:mhasanshiri",
+   "label": "mhasanshiri",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:ihpscadmin",
+   "label": "ihpscadmin",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:energycompaut",
+   "label": "energycompaut",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:arminmk2000",
+   "label": "arminmk2000",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:statisticssbu2",
+   "label": "statisticssbu2",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:green_branch",
+   "label": "green_branch",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:mif_sut",
+   "label": "mif_sut",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:aida_rhn",
+   "label": "aida_rhn",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:bigdataserve",
+   "label": "bigdataserve",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:haftghalamsut",
+   "label": "haftghalamsut",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:basil_78",
+   "label": "basil_78",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:sharif_islamic_society",
+   "label": "sharif_islamic_society",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:jozvedaneshgahi_ir",
+   "label": "jozvedaneshgahi_ir",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:mysharif",
+   "label": "mysharif",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:hanna_nrt",
+   "label": "hanna_nrt",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:au_astronomy",
+   "label": "au_astronomy",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:drbehnazakbarnavaz",
+   "label": "drbehnazakbarnavaz",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:anjmotahed",
+   "label": "anjmotahed",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:fizikar",
+   "label": "fizikar",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:nastaran_ragerdi",
+   "label": "nastaran_ragerdi",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:sharifdaily",
+   "label": "sharifdaily",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:physicsbzte_admin",
+   "label": "physicsbzte_admin",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:jv_alireza",
+   "label": "jv_alireza",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:sharif_nano",
+   "label": "sharif_nano",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:farmand_bt",
+   "label": "farmand_bt",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:guilanphysics",
+   "label": "guilanphysics",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:quera_ir",
+   "label": "quera_ir",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:tgadsplatformbot",
+   "label": "tgadsplatformbot",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:elmi_physics",
+   "label": "elmi_physics",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:mostafa_ghalebani",
+   "label": "mostafa_ghalebani",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:fazli2000",
+   "label": "fazli2000",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:blackholeinformationparadox",
+   "label": "blackholeinformationparadox",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:inevents",
+   "label": "inevents",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:hellischool",
+   "label": "hellischool",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:mustafaprize_admin",
+   "label": "mustafaprize_admin",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:sharif_scientific_associations",
+   "label": "sharif_scientific_associations",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:psa_aut",
+   "label": "psa_aut",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:association_physics_tmu",
+   "label": "association_physics_tmu",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:shenakhtadmin",
+   "label": "shenakhtadmin",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:opticebonabuni",
+   "label": "opticebonabuni",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:y_shahmari",
+   "label": "y_shahmari",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:erfan_zaman77",
+   "label": "erfan_zaman77",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:physics_tea_sessions",
+   "label": "physics_tea_sessions",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:ihpsc3",
+   "label": "ihpsc3",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:sut_96",
+   "label": "sut_96",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:se_workshops_support",
+   "label": "se_workshops_support",
    "type": "external",
    "seed": false
   },
@@ -4573,74 +1975,8 @@
    "seed": false
   },
   {
-   "id": "handle:sbu_qisc",
-   "label": "sbu_qisc",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:kavehglass",
-   "label": "kavehglass",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:hamrah_academy",
-   "label": "hamrah_academy",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:sns_fa",
-   "label": "sns_fa",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:zahrakalhor2000",
-   "label": "zahrakalhor2000",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:alakphysics",
-   "label": "alakphysics",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:saeedeh_98_sh",
-   "label": "saeedeh_98_sh",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:scitech_support",
-   "label": "scitech_support",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:rah_transportation",
-   "label": "rah_transportation",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:ssdolme",
-   "label": "ssdolme",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:rich_text_abul_bot",
-   "label": "rich_text_abul_bot",
-   "type": "external",
-   "seed": false
-  },
-  {
-   "id": "handle:11125",
-   "label": "11125",
+   "id": "handle:iotame",
+   "label": "iotame",
    "type": "external",
    "seed": false
   },
@@ -4651,14 +1987,458 @@
    "seed": false
   },
   {
+   "id": "handle:startupmatch",
+   "label": "startupmatch",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:farhangisharif",
+   "label": "farhangisharif",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:openday_phy_sut",
+   "label": "openday_phy_sut",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:for_sharifdaily",
+   "label": "for_sharifdaily",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:meshkatsadri",
+   "label": "meshkatsadri",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:gaminow_lodestar",
+   "label": "gaminow_lodestar",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:topsaverbot",
+   "label": "topsaverbot",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:researchatphysicssut",
+   "label": "researchatphysicssut",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:ae_physics",
+   "label": "ae_physics",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:primeno11",
+   "label": "primeno11",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:cogncs",
+   "label": "cogncs",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:sohrabmaleki",
+   "label": "sohrabmaleki",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:sns_fa",
+   "label": "sns_fa",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:mehvargroup",
+   "label": "mehvargroup",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:vnd_69n",
+   "label": "vnd_69n",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:new_moien",
+   "label": "new_moien",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:anjoman_elmi_physics",
+   "label": "anjoman_elmi_physics",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:physics_du",
+   "label": "physics_du",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:takaneh_mag_admin",
+   "label": "takaneh_mag_admin",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:sharif_chemistry",
+   "label": "sharif_chemistry",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:nano_edu_put",
+   "label": "nano_edu_put",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:enzo_1729",
+   "label": "enzo_1729",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:flyingcomet",
+   "label": "flyingcomet",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:megasaverbot",
+   "label": "megasaverbot",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:rahi_0_0",
+   "label": "rahi_0_0",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:aumath96",
+   "label": "aumath96",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:irost",
+   "label": "irost",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:alzahra_physics",
+   "label": "alzahra_physics",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:ab_zahraaaa",
+   "label": "ab_zahraaaa",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:ssiediust",
+   "label": "ssiediust",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:eridanusastronomygroup",
+   "label": "eridanusastronomygroup",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:lhassan_sanil",
+   "label": "lhassan_sanil",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:tarikhandishi",
+   "label": "tarikhandishi",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:parsarangriz",
+   "label": "parsarangriz",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:skmlorca7885",
+   "label": "skmlorca7885",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:arasholp",
+   "label": "arasholp",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:f79s79a79",
+   "label": "f79s79a79",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:zoljalalih",
+   "label": "zoljalalih",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:madresesino",
+   "label": "madresesino",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:shahabcpt",
+   "label": "shahabcpt",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:basu_physics",
+   "label": "basu_physics",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:energy_sharif_admin",
+   "label": "energy_sharif_admin",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:ssaaesharif",
+   "label": "ssaaesharif",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:rezayov",
+   "label": "rezayov",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:scitech_support",
+   "label": "scitech_support",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:physics_anjoman_umz",
+   "label": "physics_anjoman_umz",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:sara_alaei",
+   "label": "sara_alaei",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:iqc_news",
+   "label": "iqc_news",
+   "type": "external",
+   "seed": false
+  },
+  {
    "id": "handle:qupedia",
    "label": "qupedia",
    "type": "external",
    "seed": false
   },
   {
-   "id": "handle:ebrahimi_muhammad",
-   "label": "ebrahimi_muhammad",
+   "id": "handle:nexuseventbot",
+   "label": "nexuseventbot",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:borna_sepehr",
+   "label": "borna_sepehr",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:pania_z",
+   "label": "pania_z",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:rahneshan_admin",
+   "label": "rahneshan_admin",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:sharif_prm",
+   "label": "sharif_prm",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:khabarkhaani",
+   "label": "khabarkhaani",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:nobs_khu",
+   "label": "nobs_khu",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:photonic_of_tabrizuniversity",
+   "label": "photonic_of_tabrizuniversity",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:pvportal",
+   "label": "pvportal",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:tara_kamari",
+   "label": "tara_kamari",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:sutmech97",
+   "label": "sutmech97",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:astro_tu",
+   "label": "astro_tu",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:zarkam",
+   "label": "zarkam",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:physicsopenday",
+   "label": "physicsopenday",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:aichallenge",
+   "label": "aichallenge",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:noavari_org",
+   "label": "noavari_org",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:public_anjmotahed",
+   "label": "public_anjmotahed",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:iec_sharif",
+   "label": "iec_sharif",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:pnic_nano",
+   "label": "pnic_nano",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:hamkhanadmin",
+   "label": "hamkhanadmin",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:sbubiotechnology",
+   "label": "sbubiotechnology",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:newquantasc",
+   "label": "newquantasc",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:sharifspeech",
+   "label": "sharifspeech",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:omidmosaddegh",
+   "label": "omidmosaddegh",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:ssa_iesharif",
+   "label": "ssa_iesharif",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:sharifmusicgroup",
+   "label": "sharifmusicgroup",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:shenakhtpajouh",
+   "label": "shenakhtpajouh",
    "type": "external",
    "seed": false
   },
@@ -4669,8 +2449,2228 @@
    "seed": false
   },
   {
+   "id": "handle:hamband_sut",
+   "label": "hamband_sut",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:mh_aliasgharnezhad",
+   "label": "mh_aliasgharnezhad",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:utsap",
+   "label": "utsap",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:kheiriehazratezahra",
+   "label": "kheiriehazratezahra",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:spstmu",
+   "label": "spstmu",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:semu_physics7",
+   "label": "semu_physics7",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:sharifi_96",
+   "label": "sharifi_96",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:alumni",
+   "label": "alumni",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:nojummag",
+   "label": "nojummag",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:fardayesabz76",
+   "label": "fardayesabz76",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:chvahid",
+   "label": "chvahid",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:ahoo_tz",
+   "label": "ahoo_tz",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:ipsu_ir",
+   "label": "ipsu_ir",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:sharif_energy_engineering",
+   "label": "sharif_energy_engineering",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:sharifhepcenter",
+   "label": "sharifhepcenter",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:yektanet",
+   "label": "yektanet",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:s1379s1379",
+   "label": "s1379s1379",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:sharif_senfi_phys",
+   "label": "sharif_senfi_phys",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:sharifstudentsnews",
+   "label": "sharifstudentsnews",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:kntuanjomaneslami",
+   "label": "kntuanjomaneslami",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:srttu_computer",
+   "label": "srttu_computer",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:astro_basu",
+   "label": "astro_basu",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:sutdaftarm",
+   "label": "sutdaftarm",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:thermo_stat_circle",
+   "label": "thermo_stat_circle",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:sbu_qisc",
+   "label": "sbu_qisc",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:physicsdu",
+   "label": "physicsdu",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:nanobztu_admin",
+   "label": "nanobztu_admin",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:alakphysics",
+   "label": "alakphysics",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:zahra_nasseri",
+   "label": "zahra_nasseri",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:mahtab_shafie",
+   "label": "mahtab_shafie",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:oppeventir",
+   "label": "oppeventir",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:maximalclass",
+   "label": "maximalclass",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:eeresana",
+   "label": "eeresana",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:sharifvccup",
+   "label": "sharifvccup",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:mojtaba8637",
+   "label": "mojtaba8637",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:iranjobfair",
+   "label": "iranjobfair",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:yousofshah",
+   "label": "yousofshah",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:vc_phys",
+   "label": "vc_phys",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:eridanusgroup",
+   "label": "eridanusgroup",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:hodhod_events",
+   "label": "hodhod_events",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:rezaejtehadi",
+   "label": "rezaejtehadi",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:vebinar_nano",
+   "label": "vebinar_nano",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:kavehglass",
+   "label": "kavehglass",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:react2021",
+   "label": "react2021",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:sio3pehr",
+   "label": "sio3pehr",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:beconomics",
+   "label": "beconomics",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:jdevs_farhangi",
+   "label": "jdevs_farhangi",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:khu_astronomy",
+   "label": "khu_astronomy",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:saavosh",
+   "label": "saavosh",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:skmmlorca7885",
+   "label": "skmmlorca7885",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:ebisssss",
+   "label": "ebisssss",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:m_a_rahimian",
+   "label": "m_a_rahimian",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:aminmo12",
+   "label": "aminmo12",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:helliseminar",
+   "label": "helliseminar",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:reihanemoradiii",
+   "label": "reihanemoradiii",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:abul_ah",
+   "label": "abul_ah",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:sammeiust",
+   "label": "sammeiust",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:react2024",
+   "label": "react2024",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:queen1073",
+   "label": "queen1073",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:smasoud_soleimani",
+   "label": "smasoud_soleimani",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:khabarkhani_physbot",
+   "label": "khabarkhani_physbot",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:physicskntu",
+   "label": "physicskntu",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:anjoman_elmi_sut",
+   "label": "anjoman_elmi_sut",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:utnano_tabadmin",
+   "label": "utnano_tabadmin",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:ee_intro",
+   "label": "ee_intro",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:payragame",
+   "label": "payragame",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:bws_ut",
+   "label": "bws_ut",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:qorpico",
+   "label": "qorpico",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:iliviaaaa",
+   "label": "iliviaaaa",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:spssa_info",
+   "label": "spssa_info",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:pr_gls",
+   "label": "pr_gls",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:annavid",
+   "label": "annavid",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:ce_kntu",
+   "label": "ce_kntu",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:masaafaut",
+   "label": "masaafaut",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:kasbokardarphysic",
+   "label": "kasbokardarphysic",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:qmlworkshop",
+   "label": "qmlworkshop",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:rahneshan_ir",
+   "label": "rahneshan_ir",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:sharifaccelerator",
+   "label": "sharifaccelerator",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:rah_energy",
+   "label": "rah_energy",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:cfuscience",
+   "label": "cfuscience",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:mahtaghodsi",
+   "label": "mahtaghodsi",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:sruastro",
+   "label": "sruastro",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:tabeshh_physics",
+   "label": "tabeshh_physics",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:ipmfpg",
+   "label": "ipmfpg",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:bsps_2020",
+   "label": "bsps_2020",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:alzahra_astronomy",
+   "label": "alzahra_astronomy",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:kimiyapajouhnano97",
+   "label": "kimiyapajouhnano97",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:entekhab_sharif",
+   "label": "entekhab_sharif",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:iesoft",
+   "label": "iesoft",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:rayanesh_ce",
+   "label": "rayanesh_ce",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:historyofscience_zharfa",
+   "label": "historyofscience_zharfa",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:nojum_autt",
+   "label": "nojum_autt",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:hgh_ms",
+   "label": "hgh_ms",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:fatemehfj98",
+   "label": "fatemehfj98",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:khu_biochemistryassociation",
+   "label": "khu_biochemistryassociation",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:khupa",
+   "label": "khupa",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:buali_physics_week99",
+   "label": "buali_physics_week99",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:m_rm_98",
+   "label": "m_rm_98",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:gamein_sharif",
+   "label": "gamein_sharif",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:msebolur",
+   "label": "msebolur",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:anjomannujum",
+   "label": "anjomannujum",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:ssa_iesharif_admin",
+   "label": "ssa_iesharif_admin",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:qtech_magazine",
+   "label": "qtech_magazine",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:iap_askme",
+   "label": "iap_askme",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:saeedsky",
+   "label": "saeedsky",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:faculty_of_physics_tabriz",
+   "label": "faculty_of_physics_tabriz",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:psiket_admin",
+   "label": "psiket_admin",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:sharif_nano_admin",
+   "label": "sharif_nano_admin",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:khugamelab",
+   "label": "khugamelab",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:cm_conference",
+   "label": "cm_conference",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:biophysics_admine",
+   "label": "biophysics_admine",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:ahz313",
+   "label": "ahz313",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:shirazuphysics",
+   "label": "shirazuphysics",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:mazmaz",
+   "label": "mazmaz",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:nojum_magazine",
+   "label": "nojum_magazine",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:irreversiblephenomenon",
+   "label": "irreversiblephenomenon",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:qmlworkshop_support",
+   "label": "qmlworkshop_support",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:graduates_qut",
+   "label": "graduates_qut",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:zahrakalhor2000",
+   "label": "zahrakalhor2000",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:workshops_admin",
+   "label": "workshops_admin",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:takaneh_physics_sharif",
+   "label": "takaneh_physics_sharif",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:fardayesabz",
+   "label": "fardayesabz",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:civil_intro",
+   "label": "civil_intro",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:addlist",
+   "label": "addlist",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:11125",
+   "label": "11125",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:kavyanz",
+   "label": "kavyanz",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:parikgpl",
+   "label": "parikgpl",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:joinchat",
+   "label": "joinchat",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:elmos95",
+   "label": "elmos95",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:ebrahimi_muhammad",
+   "label": "ebrahimi_muhammad",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:aminsadeghian78",
+   "label": "aminsadeghian78",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:applytoday",
+   "label": "applytoday",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:taha_jm",
+   "label": "taha_jm",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:se_workshops_admin",
+   "label": "se_workshops_admin",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:sharifculture",
+   "label": "sharifculture",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:kimiagroup_admin",
+   "label": "kimiagroup_admin",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:ut_engsci",
+   "label": "ut_engsci",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:railway_society",
+   "label": "railway_society",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:hannane_dst",
+   "label": "hannane_dst",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:philsharif",
+   "label": "philsharif",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:behara",
+   "label": "behara",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:sokut1234",
+   "label": "sokut1234",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:quantcamp",
+   "label": "quantcamp",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:iustcesa",
+   "label": "iustcesa",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:bigdataserve_admin",
+   "label": "bigdataserve_admin",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:rich_text_abul_bot",
+   "label": "rich_text_abul_bot",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:de1an",
+   "label": "de1an",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:decoupage_sharif",
+   "label": "decoupage_sharif",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:sharif",
+   "label": "sharif",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:arminazargoy",
+   "label": "arminazargoy",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:rah_khanahouse",
+   "label": "rah_khanahouse",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:ee_jaryan",
+   "label": "ee_jaryan",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:astronomyiut",
+   "label": "astronomyiut",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:carimi",
+   "label": "carimi",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:kavoshsut",
+   "label": "kavoshsut",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:braincog",
+   "label": "braincog",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:mrpatient2",
+   "label": "mrpatient2",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:ksabamdad",
+   "label": "ksabamdad",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:mahdipourahmadi1996",
+   "label": "mahdipourahmadi1996",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:anjoman_elmi_phys_su",
+   "label": "anjoman_elmi_phys_su",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:shirinasal",
+   "label": "shirinasal",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:sharif_snowatec",
+   "label": "sharif_snowatec",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:snsbackup",
+   "label": "snsbackup",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:mobinsaidy",
+   "label": "mobinsaidy",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:ahmadramezanpour",
+   "label": "ahmadramezanpour",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:140506",
+   "label": "140506",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:avastarco",
+   "label": "avastarco",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:esw_support",
+   "label": "esw_support",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:physicsiut_admin",
+   "label": "physicsiut_admin",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:piais",
+   "label": "piais",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:kasrakiaee",
+   "label": "kasrakiaee",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:optimizer_math",
+   "label": "optimizer_math",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:shariftechpark",
+   "label": "shariftechpark",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:halghe_maktoob",
+   "label": "halghe_maktoob",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:physicsiut",
+   "label": "physicsiut",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:sns_en",
+   "label": "sns_en",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:foundations_of_physics",
+   "label": "foundations_of_physics",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:voiceofcosmos",
+   "label": "voiceofcosmos",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:physics_cl",
+   "label": "physics_cl",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:helli",
+   "label": "helli",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:sire_jeff",
+   "label": "sire_jeff",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:shenasa_sharif",
+   "label": "shenasa_sharif",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:iman_hyt",
+   "label": "iman_hyt",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:ie_intro",
+   "label": "ie_intro",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:ssdolme",
+   "label": "ssdolme",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:ahosseinnezhad",
+   "label": "ahosseinnezhad",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:sharif_gs",
+   "label": "sharif_gs",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:psinews",
+   "label": "psinews",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:sharif_nano_workshop",
+   "label": "sharif_nano_workshop",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:rah_transportation",
+   "label": "rah_transportation",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:masaaf1",
+   "label": "masaaf1",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:nenbis",
+   "label": "nenbis",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:elprofessoredu",
+   "label": "elprofessoredu",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:masaaf_admin",
+   "label": "masaaf_admin",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:wss_sut",
+   "label": "wss_sut",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:entekhab_sharif_bot",
+   "label": "entekhab_sharif_bot",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:blessedwithacursee",
+   "label": "blessedwithacursee",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:zahra232",
+   "label": "zahra232",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:sshahrzad",
+   "label": "sshahrzad",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:iap_tournament",
+   "label": "iap_tournament",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:physics_sut_bot",
+   "label": "physics_sut_bot",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:ikashef",
+   "label": "ikashef",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:abdusphysics",
+   "label": "abdusphysics",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:ieeesharifsb",
+   "label": "ieeesharifsb",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:umz_physics",
+   "label": "umz_physics",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:nsfund",
+   "label": "nsfund",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:physics_bzte",
+   "label": "physics_bzte",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:utphysicsweeklyseminars",
+   "label": "utphysicsweeklyseminars",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:qomat",
+   "label": "qomat",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:aerospaceeng_association",
+   "label": "aerospaceeng_association",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:minoogroup",
+   "label": "minoogroup",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:alrza98",
+   "label": "alrza98",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:quanta_study_circle",
+   "label": "quanta_study_circle",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:pa79af",
+   "label": "pa79af",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:cinemasut",
+   "label": "cinemasut",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:chayofizik",
+   "label": "chayofizik",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:zharfa90",
+   "label": "zharfa90",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:umz_novin",
+   "label": "umz_novin",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:sitpor",
+   "label": "sitpor",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:workshop_physics",
+   "label": "workshop_physics",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:barezinnovationcenter",
+   "label": "barezinnovationcenter",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:abbasshojakani78",
+   "label": "abbasshojakani78",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:physics_yazduni",
+   "label": "physics_yazduni",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:bbaliens",
+   "label": "bbaliens",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:sadaf_meta",
+   "label": "sadaf_meta",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:nojum_aut",
+   "label": "nojum_aut",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:alirezazourmand",
+   "label": "alirezazourmand",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:iust_ssc",
+   "label": "iust_ssc",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:quantum",
+   "label": "quantum",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:kamand_rad",
+   "label": "kamand_rad",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:name_sargoshade_sharif",
+   "label": "name_sargoshade_sharif",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:startuptrigger",
+   "label": "startuptrigger",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:lambda_circle",
+   "label": "lambda_circle",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:abootalebsaf",
+   "label": "abootalebsaf",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:resana_esw",
+   "label": "resana_esw",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:ut_sap",
+   "label": "ut_sap",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:asinojum",
+   "label": "asinojum",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:ee_intro_support",
+   "label": "ee_intro_support",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:anjomansut",
+   "label": "anjomansut",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:kimia_group",
+   "label": "kimia_group",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:bizz15_bizz25",
+   "label": "bizz15_bizz25",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:tsuki_cou",
+   "label": "tsuki_cou",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:saeedeh_98_sh",
+   "label": "saeedeh_98_sh",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:maghalekhaninano",
+   "label": "maghalekhaninano",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:kabiri_zahra",
+   "label": "kabiri_zahra",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:mantama_iran",
+   "label": "mantama_iran",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:sharif_theater",
+   "label": "sharif_theater",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:sharifgs",
+   "label": "sharifgs",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:sunich",
+   "label": "sunich",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:taraadars",
+   "label": "taraadars",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:newquanta",
+   "label": "newquanta",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:hamkhanbookclub",
+   "label": "hamkhanbookclub",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:sharifschools",
+   "label": "sharifschools",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:mah2ya",
+   "label": "mah2ya",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:farayand_scientific_magazine",
+   "label": "farayand_scientific_magazine",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:faculty_of_physics_tabriz_uni",
+   "label": "faculty_of_physics_tabriz_uni",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:iap_tournamant",
+   "label": "iap_tournamant",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:iust_ssc_admin",
+   "label": "iust_ssc_admin",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:charkh_tv",
+   "label": "charkh_tv",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:qmproblems",
+   "label": "qmproblems",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:shoniz",
+   "label": "shoniz",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:bio_cheme_association",
+   "label": "bio_cheme_association",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:spintronics",
+   "label": "spintronics",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:econophysicsconf",
+   "label": "econophysicsconf",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:itsamirz",
+   "label": "itsamirz",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:moein_derakhshan",
+   "label": "moein_derakhshan",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:plasma_competition",
+   "label": "plasma_competition",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:raz_jsr",
+   "label": "raz_jsr",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:harkatsut",
+   "label": "harkatsut",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:ehsanpour137",
+   "label": "ehsanpour137",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:mazaheriphysics",
+   "label": "mazaheriphysics",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:mrymhoseiniii",
+   "label": "mrymhoseiniii",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:qorpi",
+   "label": "qorpi",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:ie_intro_supportteam",
+   "label": "ie_intro_supportteam",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:ehsan_a21",
+   "label": "ehsan_a21",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:mostafa_asemani",
+   "label": "mostafa_asemani",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:mcs_intro",
+   "label": "mcs_intro",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:ce_khu",
+   "label": "ce_khu",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:sariinanj",
+   "label": "sariinanj",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:s_sadafadmin",
+   "label": "s_sadafadmin",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:nodard",
+   "label": "nodard",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:ssc_public",
+   "label": "ssc_public",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:umznovin",
+   "label": "umznovin",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:mexpah17",
+   "label": "mexpah17",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:conf_astrophysics_uok",
+   "label": "conf_astrophysics_uok",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:qic_national_conference",
+   "label": "qic_national_conference",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:skmmorca7885",
+   "label": "skmmorca7885",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:mahyarabbasi",
+   "label": "mahyarabbasi",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:soltani_emc",
+   "label": "soltani_emc",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:alzahraelectronic",
+   "label": "alzahraelectronic",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:nova_astrophysics_journal",
+   "label": "nova_astrophysics_journal",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:hamiansut",
+   "label": "hamiansut",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:haniyehmalaki",
+   "label": "haniyehmalaki",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:alz_robotics",
+   "label": "alz_robotics",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:inductors",
+   "label": "inductors",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:ssamsrt",
+   "label": "ssamsrt",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:ravandid",
+   "label": "ravandid",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:usern_net",
+   "label": "usern_net",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:sharifziba",
+   "label": "sharifziba",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:epc1380",
+   "label": "epc1380",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:mse_sut",
+   "label": "mse_sut",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:reza_k_1",
+   "label": "reza_k_1",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:sharif_senfi",
+   "label": "sharif_senfi",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:mehvar_admin",
+   "label": "mehvar_admin",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:alu_astronomy",
+   "label": "alu_astronomy",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:sut_tw",
+   "label": "sut_tw",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:sns_2019",
+   "label": "sns_2019",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:alzahraphysics",
+   "label": "alzahraphysics",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:sino_admin",
+   "label": "sino_admin",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:physics",
+   "label": "physics",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:ce_intro",
+   "label": "ce_intro",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:hamkhanclubbot",
+   "label": "hamkhanclubbot",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:halghe_gofteman",
+   "label": "halghe_gofteman",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:saengsci",
+   "label": "saengsci",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:fahimeh_fakhri",
+   "label": "fahimeh_fakhri",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:ieee_ut",
+   "label": "ieee_ut",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:sharifee",
+   "label": "sharifee",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:sharifcivilmagazine",
+   "label": "sharifcivilmagazine",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:scischool",
+   "label": "scischool",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:hamband_math_cs",
+   "label": "hamband_math_cs",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:fs_zbh",
+   "label": "fs_zbh",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:prm_mech",
+   "label": "prm_mech",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:white_grotesque",
+   "label": "white_grotesque",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:makeathonplus",
+   "label": "makeathonplus",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:shenakhtcenter",
+   "label": "shenakhtcenter",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:qist_webinar03",
+   "label": "qist_webinar03",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:sharifsummerschool",
+   "label": "sharifsummerschool",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:epa_qut",
+   "label": "epa_qut",
+   "type": "external",
+   "seed": false
+  },
+  {
    "id": "handle:convergingtechs",
    "label": "convergingtechs",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:idschools",
+   "label": "idschools",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:takaneh_physics_sut",
+   "label": "takaneh_physics_sut",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:hamrah_academy",
+   "label": "hamrah_academy",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:aerospaceeng_association_admin",
+   "label": "aerospaceeng_association_admin",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:cws_aut",
+   "label": "cws_aut",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:modern_cogitation",
+   "label": "modern_cogitation",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:h4e97",
+   "label": "h4e97",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:saeed_kazemi",
+   "label": "saeed_kazemi",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:javadkamali",
+   "label": "javadkamali",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:iust_ssme",
+   "label": "iust_ssme",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:ieee_bzte",
+   "label": "ieee_bzte",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:algorithm_design_sut",
+   "label": "algorithm_design_sut",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:msekntu",
+   "label": "msekntu",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:ichallenge",
+   "label": "ichallenge",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:asrarezafadae",
+   "label": "asrarezafadae",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:psiket_academy",
+   "label": "psiket_academy",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:se_workshops",
+   "label": "se_workshops",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:rastaihaclub",
+   "label": "rastaihaclub",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:qptc_sbu",
+   "label": "qptc_sbu",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:qisatsut",
+   "label": "qisatsut",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:energysharif",
+   "label": "energysharif",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:ethics_technology",
+   "label": "ethics_technology",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:physics_elmosanat",
+   "label": "physics_elmosanat",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:sutphysicsbooks",
+   "label": "sutphysicsbooks",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:helliresearch",
+   "label": "helliresearch",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:asrarezafadaei",
+   "label": "asrarezafadaei",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:iranianastrotourism",
+   "label": "iranianastrotourism",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:peyvandgathering",
+   "label": "peyvandgathering",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:ncqic2024",
+   "label": "ncqic2024",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:iquantop",
+   "label": "iquantop",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:shahroodut",
+   "label": "shahroodut",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:gmail",
+   "label": "gmail",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:sanjide_pr",
+   "label": "sanjide_pr",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:gamein2017",
+   "label": "gamein2017",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:hadafmandedu",
+   "label": "hadafmandedu",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:simahashemi",
+   "label": "simahashemi",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:shadawn_gh",
+   "label": "shadawn_gh",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:dinafood",
+   "label": "dinafood",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:ifarshidgh",
+   "label": "ifarshidgh",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:hershadi",
+   "label": "hershadi",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:alz_physics",
+   "label": "alz_physics",
+   "type": "external",
+   "seed": false
+  },
+  {
+   "id": "handle:civilscienceclub",
+   "label": "civilscienceclub",
    "type": "external",
    "seed": false
   }

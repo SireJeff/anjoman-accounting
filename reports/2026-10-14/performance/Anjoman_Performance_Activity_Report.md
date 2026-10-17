@@ -4,7 +4,7 @@ Window 2025-05-28 → 2026-10-14 (1404/03/07 → 1405/07/22), five Telegram expo
 
 ## 1. Executive summary
 
-Across the analysis window the five Telegram exports carry **12,066 in-window, non-service messages** (of 16,677 parsed records; classification coverage 80% in-window).
+Across the analysis window the five Telegram exports carry **12,066 in-window, non-service messages** (of 16,677 parsed records; classification coverage 79% in-window).
 
 Messages by chat (in-window, non-service):
 
@@ -16,7 +16,7 @@ Messages by chat (in-window, non-service):
 | accounting_group | 158 | 1.3% |
 | summerschool_channel | 37 | 0.3% |
 
-The three largest activity categories by label count are **community_social** (3,708), **meta_noise** (2,443) and **uncategorized** (2,359) of 13,409 total labelings (multi-label; see §7). The correlation stage tracks **47 threads** (46 message-bearing + 1 money-only), and the reconciled ledger behind them moves **139,787,000 toman receipts against 123,265,994 toman payments** (net **+16,521,006**, all 96 rows, including the 4,664,700 toman undated bucket).
+The three largest activity categories by label count are **community_social** (4,271), **uncategorized** (2,478) and **meta_noise** (2,443) of 13,197 total labelings (multi-label; see §7). The correlation stage tracks **47 threads** (46 message-bearing + 1 money-only), and the reconciled ledger behind them moves **139,787,000 toman receipts against 123,265,994 toman payments** (net **+16,521,006**, all 96 rows, including the 4,664,700 toman undated bucket).
 
 Five headline threads by affiliated message count:
 
@@ -36,7 +36,7 @@ Thread first-seen dates and monthly activity split the window into four phases (
 
 ### Summer 1404 (1404/04–1404/06)
 
-**Summer 1404** spans Jalali 1404/04–1404/06 with **1,962 messages** across the chats; the busiest surface is private_group (1,788 messages) and the dominant labels are meta_noise (622) and community_social (510). 30 threads first appear in this phase, led by `intro-event-1405` (first seen 2025-07-17 / 1404/04/26, 752 messages over 5 chats). The phase's peak month is 1404/04 (1,259 messages).
+**Summer 1404** spans Jalali 1404/04–1404/06 with **1,962 messages** across the chats; the busiest surface is private_group (1,788 messages) and the dominant labels are meta_noise (622) and community_social (581). 30 threads first appear in this phase, led by `intro-event-1405` (first seen 2025-07-17 / 1404/04/26, 752 messages over 5 chats). The phase's peak month is 1404/04 (1,259 messages).
 
 | Thread | First seen | Jalali | Msgs | Chats | Last seen |
 |---|---|---|---|---|---|
@@ -48,7 +48,7 @@ Thread first-seen dates and monthly activity split the window into four phases (
 
 ### Academic 1404-05 (1404/07–1405/03)
 
-**Academic 1404-05** spans Jalali 1404/07–1405/03 with **1,467 messages** across the chats; the busiest surface is private_group (1,181 messages) and the dominant labels are meta_noise (340) and community_social (340). 6 threads first appear in this phase, led by `media-team-content-pipeline` (first seen 2025-12-14 / 1404/09/23, 65 messages over 2 chats). The phase's peak month is 1405/03 (784 messages).
+**Academic 1404-05** spans Jalali 1404/07–1405/03 with **1,467 messages** across the chats; the busiest surface is private_group (1,181 messages) and the dominant labels are uncategorized (362) and community_social (355). 6 threads first appear in this phase, led by `media-team-content-pipeline` (first seen 2025-12-14 / 1404/09/23, 65 messages over 2 chats). The phase's peak month is 1405/03 (784 messages).
 
 | Thread | First seen | Jalali | Msgs | Chats | Last seen |
 |---|---|---|---|---|---|
@@ -60,7 +60,7 @@ Thread first-seen dates and monthly activity split the window into four phases (
 
 ### Summer 1405 (1405/04–1405/06)
 
-**Summer 1405** spans Jalali 1405/04–1405/06 with **7,747 messages** across the chats; the busiest surface is public_group (5,355 messages) and the dominant labels are community_social (2,613) and uncategorized (1,558). 2 threads first appear in this phase, led by `intro-and-registration-videos` (first seen 2026-09-14 / 1405/06/23, 126 messages over 1 chat). The phase's peak month is 1405/06 (5,638 messages).
+**Summer 1405** spans Jalali 1405/04–1405/06 with **7,747 messages** across the chats; the busiest surface is public_group (5,355 messages) and the dominant labels are community_social (3,045) and uncategorized (1,628). 2 threads first appear in this phase, led by `intro-and-registration-videos` (first seen 2026-09-14 / 1405/06/23, 126 messages over 1 chat). The phase's peak month is 1405/06 (5,638 messages).
 
 | Thread | First seen | Jalali | Msgs | Chats | Last seen |
 |---|---|---|---|---|---|
@@ -69,61 +69,61 @@ Thread first-seen dates and monthly activity split the window into four phases (
 
 ### Fall 1405 (1405/07–1405/07)
 
-**Fall 1405** spans Jalali 1405/07–1405/07 with **876 messages** across the chats; the busiest surface is public_group (781 messages) and the dominant labels are community_social (243) and meta_noise (192). No new threads first appear in this phase. The phase's peak month is 1405/07 (876 messages).
+**Fall 1405** spans Jalali 1405/07–1405/07 with **876 messages** across the chats; the busiest surface is public_group (781 messages) and the dominant labels are community_social (288) and meta_noise (192). No new threads first appear in this phase. The phase's peak month is 1405/07 (876 messages).
 
 ## 3. Activity categories
 
-Monthly labelings per category, aggregated over chats (`monthly_activity`; a message with several labels counts once per label — 13,409 labelings over the 12,066 in-window messages).
+Monthly labelings per category, aggregated over chats (`monthly_activity`; a message with several labels counts once per label — 13,197 labelings over the 12,066 in-window messages).
 
 **1404** (columns are Jalali month MM)
 
 | Category | 03 | 04 | 05 | 06 | 07 | 08 | 09 | 10 | 11 | 12 | Total |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| community_social | 2 | 316 | 169 | 25 | 36 | 23 | 9 | 29 | 5 | — | **3,708** |
+| community_social | 2 | 370 | 184 | 27 | 40 | 27 | 9 | 29 | 5 | — | **4,271** |
+| uncategorized | — | 204 | 108 | 7 | 26 | 16 | 4 | 21 | 3 | 5 | **2,478** |
 | meta_noise | — | 443 | 162 | 17 | 49 | 13 | 4 | 20 | 3 | 2 | **2,443** |
-| uncategorized | — | 199 | 101 | 7 | 24 | 15 | 3 | 20 | 1 | 4 | **2,359** |
-| media_outreach | 2 | 64 | 37 | 21 | 15 | 16 | 13 | 11 | 2 | 3 | **1,585** |
-| events | 5 | 11 | 52 | 16 | 32 | 42 | 30 | 16 | 1 | — | **843** |
-| coordination_logistics | 2 | 74 | 27 | 8 | 19 | 16 | 7 | 4 | 3 | — | **813** |
-| education_courses | 10 | 133 | 72 | 19 | 19 | 14 | 9 | 9 | 1 | — | **704** |
-| governance_decisions | — | 9 | 12 | 6 | 9 | 8 | 6 | 9 | 2 | 1 | **344** |
-| finance_operations | 1 | 53 | 32 | — | 11 | 21 | 1 | 2 | 4 | 3 | **342** |
-| website_tech | — | 47 | 3 | 6 | 1 | 2 | 1 | 4 | — | — | **166** |
-| publications_shabahng | — | 2 | 16 | 1 | 4 | 2 | — | 2 | — | 1 | **102** |
-| **All labelings** | **22** | **1,351** | **683** | **126** | **219** | **172** | **83** | **126** | **22** | **14** | **13,409** |
+| media_outreach | 2 | 61 | 36 | 21 | 15 | 16 | 13 | 11 | 2 | 3 | **1,357** |
+| events | 5 | 11 | 47 | 16 | 31 | 42 | 30 | 16 | 1 | — | **751** |
+| education_courses | 9 | 125 | 69 | 18 | 19 | 14 | 8 | 9 | 1 | — | **653** |
+| coordination_logistics | 2 | 45 | 24 | 8 | 16 | 15 | 7 | 4 | 3 | — | **616** |
+| finance_operations | 1 | 49 | 28 | — | 9 | 18 | 1 | 2 | 3 | 2 | **238** |
+| governance_decisions | — | 4 | 7 | 4 | 5 | 2 | 1 | 7 | 1 | — | **230** |
+| website_tech | — | 32 | 1 | 6 | 1 | 2 | 1 | 3 | — | — | **124** |
+| publications_shabahng | — | — | 3 | — | 3 | 1 | — | 1 | — | — | **36** |
+| **All labelings** | **21** | **1,344** | **669** | **124** | **214** | **166** | **78** | **123** | **22** | **12** | **13,197** |
 
 **1405** (columns are Jalali month MM)
 
 | Category | 01 | 02 | 03 | 04 | 05 | 06 | 07 | Total |
 |---|---|---|---|---|---|---|---|---|
-| community_social | 19 | 49 | 170 | 180 | 363 | 2,070 | 243 | **3,708** |
+| community_social | 19 | 51 | 175 | 210 | 432 | 2,403 | 288 | **4,271** |
+| uncategorized | 10 | 47 | 230 | 275 | 225 | 1,128 | 169 | **2,478** |
 | meta_noise | 3 | 31 | 215 | 331 | 160 | 798 | 192 | **2,443** |
-| uncategorized | 8 | 44 | 216 | 272 | 221 | 1,065 | 159 | **2,359** |
-| media_outreach | 1 | 15 | 49 | 133 | 203 | 886 | 114 | **1,585** |
-| events | 7 | 2 | 46 | 44 | 19 | 427 | 93 | **843** |
-| coordination_logistics | 1 | 3 | 37 | 67 | 57 | 407 | 81 | **813** |
-| education_courses | — | 8 | 41 | 37 | 70 | 225 | 37 | **704** |
-| governance_decisions | 3 | 15 | 67 | 58 | 25 | 65 | 49 | **344** |
-| finance_operations | 2 | 1 | 8 | 16 | 4 | 170 | 13 | **342** |
-| website_tech | — | 1 | 3 | 12 | 5 | 59 | 22 | **166** |
-| publications_shabahng | — | — | 18 | 17 | 10 | 27 | 2 | **102** |
-| **All labelings** | **44** | **169** | **870** | **1,167** | **1,137** | **6,199** | **1,005** | **13,409** |
+| media_outreach | 1 | 13 | 49 | 118 | 162 | 733 | 101 | **1,357** |
+| events | 7 | 2 | 46 | 42 | 19 | 363 | 73 | **751** |
+| education_courses | — | 7 | 41 | 37 | 61 | 204 | 31 | **653** |
+| coordination_logistics | 1 | 2 | 32 | 55 | 41 | 297 | 64 | **616** |
+| finance_operations | 1 | 1 | 4 | 12 | 3 | 98 | 6 | **238** |
+| governance_decisions | 2 | 11 | 51 | 50 | 18 | 36 | 31 | **230** |
+| website_tech | — | 1 | 4 | 12 | 3 | 44 | 14 | **124** |
+| publications_shabahng | — | — | 8 | 13 | 2 | 5 | — | **36** |
+| **All labelings** | **44** | **166** | **855** | **1,155** | **1,126** | **6,109** | **969** | **13,197** |
 
 Most-engaged threads per category, from the **1,187 explicitly affiliated** messages (LLM `event_ref`; affiliation is conversational, not an evidence link — see §7):
 
 | Category | Labelings | Share | Peak month | Explicitly affiliated | Top threads by explicit affiliation (messages) |
 |---|---|---|---|---|---|
-| community_social | 3,708 | 27.7% | 1405/06 | 305 | `intro-event-1405` (191), `summer-school-1404` (38), `intro-and-registration-videos` (24) |
-| meta_noise | 2,443 | 18.2% | 1405/06 | 1 | `intro-event-1405` (1) |
-| uncategorized | 2,359 | 17.6% | 1405/06 | 0 | *(none explicitly affiliated)* |
-| media_outreach | 1,585 | 11.8% | 1405/06 | 300 | `intro-event-1405` (107), `intro-and-registration-videos` (102), `media-team-content-pipeline` (54) |
-| events | 843 | 6.3% | 1405/06 | 230 | `intro-event-1405` (218), `tea-physics-society` (4), `apply-workshop` (3) |
-| coordination_logistics | 813 | 6.1% | 1405/06 | 373 | `intro-event-1405` (232), `summer-school-1404` (76), `sponsorship-room-renovation` (24) |
-| education_courses | 704 | 5.3% | 1405/06 | 76 | `summer-school-1404` (40), `summer-school-1405` (29), `calculus-study-circle` (4) |
-| governance_decisions | 344 | 2.6% | 1405/03 | 15 | `elections-1405` (6), `linkedin-alumni-group` (5), `intro-event-1405` (2) |
-| finance_operations | 342 | 2.6% | 1405/06 | 52 | `intro-event-1405` (22), `summer-school-1404` (15), `sponsorship-room-renovation` (12) |
-| website_tech | 166 | 1.2% | 1405/06 | 40 | `intro-event-1405` (16), `summer-school-1404` (10), `summer-school-1405` (9) |
-| publications_shabahng | 102 | 0.8% | 1405/06 | 2 | `shabahang-journals-funding` (2) |
+| community_social | 4,271 | 32.4% | 1405/06 | 589 | `intro-event-1405` (366), `summer-school-1404` (77), `intro-and-registration-videos` (55) |
+| uncategorized | 2,478 | 18.8% | 1405/06 | 0 | *(none explicitly affiliated)* |
+| meta_noise | 2,443 | 18.5% | 1405/06 | 1 | `intro-event-1405` (1) |
+| media_outreach | 1,357 | 10.3% | 1405/06 | 203 | `intro-and-registration-videos` (73), `intro-event-1405` (66), `media-team-content-pipeline` (41) |
+| events | 751 | 5.7% | 1405/06 | 158 | `intro-event-1405` (146), `tea-physics-society` (4), `apply-workshop` (3) |
+| education_courses | 653 | 4.9% | 1405/06 | 58 | `summer-school-1404` (30), `summer-school-1405` (21), `calculus-study-circle` (4) |
+| coordination_logistics | 616 | 4.7% | 1405/06 | 249 | `intro-event-1405` (150), `summer-school-1404` (49), `sponsorship-room-renovation` (21) |
+| finance_operations | 238 | 1.8% | 1405/06 | 41 | `intro-event-1405` (16), `summer-school-1404` (12), `sponsorship-room-renovation` (10) |
+| governance_decisions | 230 | 1.7% | 1405/03 | 12 | `elections-1405` (5), `linkedin-alumni-group` (4), `intro-event-1405` (2) |
+| website_tech | 124 | 0.9% | 1405/06 | 31 | `intro-event-1405` (10), `summer-school-1404` (8), `summer-school-1405` (8) |
+| publications_shabahng | 36 | 0.3% | 1405/04 | 2 | `shabahang-journals-funding` (2) |
 
 ![Activity by month](charts/activity_by_month.png)
 ![Category breakdown](charts/category_breakdown.png)
@@ -433,15 +433,15 @@ Three-layer pipeline over the 16,677 parsed records; the analysis denominator is
 | Layer | Method | Messages (in-window) | Share |
 |---|---|---|---|
 | 1 | structural rules (poll/forms/media-only) | 836 | 6.9% |
-| 2 | lexicon (multi-label, 322 entries) | 2,713 | 22.5% |
+| 2 | lexicon (multi-label, 320 entries) | 2,594 | 21.5% |
 | 3 | LLM residual (method=llm) | 6,158 | 51.0% |
-|  | **classified total** | **9,707** | **80.4%** |
+|  | **classified total** | **9,588** | **79.5%** |
 
-**Layer-2 coverage plateaued at 29.41% raw / 17.50% topical** — 3,549 of 12,066 messages received at least one lexicon/rule label, but only **2,111 carry at least one topical category** (anything beyond the chatter pair meta_noise/community_social); the remaining **1,438 layer-2 labelings are classified-only-chatter**. The structural ceiling is visible in the data itself: 594 in-window messages have no text and no media to classify, 311 are voice-only with no text, and 2,661 of the layer-3 messages are 15 characters or shorter — so the residue was routed to layer 3 rather than forced into topics.
+**Layer-2 coverage plateaued at 28.43% raw / 16.42% topical** — 3,430 of 12,066 messages received at least one lexicon/rule label, but only **1,981 carry at least one topical category** (anything beyond the chatter pair meta_noise/community_social); the remaining **1,449 layer-2 labelings are classified-only-chatter**. The structural ceiling is visible in the data itself: 594 in-window messages have no text and no media to classify, 311 are voice-only with no text, and 2,661 of the layer-3 messages are 15 characters or shorter — so the residue was routed to layer 3 rather than forced into topics.
 
-**Final state: 80.45% classified.** The LLM layer labeled **6,158 messages with `method=llm`** (confidence-gated at 0.7); after the Task-14 precision passes (risky-word corroboration, lexicon pruning, word-boundary matching for short keywords, and demotion of low-confidence topical labels on micro-messages), **2,359 in-window messages** hold no label rather than a speculative one, and 4,772 records remain unlabeled corpus-wide. **40 messages** carry `is_decision` (all from the LLM layer).
+**Final state: 79.46% classified.** The LLM layer labeled **6,158 messages with `method=llm`** (confidence-gated at 0.7); after the Task-14 precision passes (risky-word corroboration, lexicon pruning, word-boundary matching for short keywords, demotion of low-confidence topical labels on micro-messages, and multi-label gating on forwarded/channel broadcasts), **2,478 in-window messages** hold no label rather than a speculative one, and 4,898 records remain unlabeled corpus-wide. **40 messages** carry `is_decision` (all from the LLM layer).
 
 **event_ref is affiliation, not evidence.** The LLM attached explicit `event_ref` labels to **1,186 messages**, and the correlation stage added **2,734 keyword-fallback memberships** (first-6-keyword substring match) to reach 3,920 affiliated messages across the 46 message-bearing threads. In fallback-heavy threads — e.g. `final-receipt-handover-1405` (1 explicit of 413) — the per-thread `n_messages` and `announcement_lag_days` are therefore approximate, and §4 marks them as such.
 
-**Further limitations.** meta_noise is the largest category (2,462 of 14,468 corpus labelings) — the groups are, by volume, mostly chat. Labels are multi-label (capped at 4): 1,067 of 12,066 in-window messages carry more than one category, so category sums exceed message counts (14,468 corpus labelings over 16,677 records). Service messages (joins, title changes, poll closes) are excluded from every narrative and histogram here. Timestamps are export-local (UTC+03:30) — hour patterns are Tehran-local.
+**Further limitations.** meta_noise is the largest category (2,462 of 13,763 corpus labelings) — the groups are, by volume, mostly chat. Labels are multi-label (capped at 4): 921 of 12,066 in-window messages carry more than one category, so category sums exceed message counts (13,763 corpus labelings over 16,677 records). Service messages (joins, title changes, poll closes) are excluded from every narrative and histogram here. Timestamps are export-local (UTC+03:30) — hour patterns are Tehran-local.
 

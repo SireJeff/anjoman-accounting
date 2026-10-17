@@ -1,32 +1,32 @@
 {
  "total": 16677,
  "by_method": {
-  "unclassified": 4772,
+  "unclassified": 4898,
   "llm": 6158,
-  "lexicon": 4730,
+  "lexicon": 4604,
   "rule": 1017
  },
  "by_category": {
-  "community_social": 4072,
-  "education_courses": 1462,
-  "events": 2154,
-  "coordination_logistics": 926,
+  "community_social": 4637,
+  "education_courses": 1291,
+  "events": 2062,
+  "coordination_logistics": 727,
   "meta_noise": 2462,
-  "media_outreach": 1882,
-  "finance_operations": 460,
-  "website_tech": 192,
-  "governance_decisions": 672,
-  "publications_shabahng": 186
+  "media_outreach": 1654,
+  "finance_operations": 351,
+  "website_tech": 150,
+  "governance_decisions": 334,
+  "publications_shabahng": 95
  },
  "in_window": {
   "total": 12066,
   "by_method": {
    "llm": 6158,
-   "lexicon": 2713,
+   "lexicon": 2594,
    "rule": 836,
-   "unclassified": 2359
+   "unclassified": 2478
   },
-  "classified": 9707,
-  "coverage_pct": 80.45
+  "classified": 9588,
+  "coverage_pct": 79.46
  }
 }

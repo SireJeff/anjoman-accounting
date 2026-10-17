@@ -1485,23 +1485,22 @@
  "monthly_activity": {
   "1404/04": {
    "private_group": {
-    "community_social": 302,
-    "education_courses": 91,
+    "community_social": 355,
+    "education_courses": 84,
     "events": 3,
-    "coordination_logistics": 72,
+    "coordination_logistics": 43,
     "meta_noise": 441,
-    "uncategorized": 195,
-    "media_outreach": 42,
-    "finance_operations": 50,
-    "website_tech": 47,
-    "governance_decisions": 8,
-    "publications_shabahng": 2
+    "uncategorized": 200,
+    "media_outreach": 40,
+    "finance_operations": 46,
+    "website_tech": 32,
+    "governance_decisions": 3
    },
    "channel": {
-    "education_courses": 24,
+    "education_courses": 23,
     "events": 8,
-    "media_outreach": 17,
-    "community_social": 9,
+    "media_outreach": 16,
+    "community_social": 10,
     "meta_noise": 2,
     "uncategorized": 4,
     "finance_operations": 1,
@@ -1518,33 +1517,32 @@
   "1404/05": {
    "private_group": {
     "meta_noise": 154,
-    "uncategorized": 90,
-    "community_social": 152,
-    "finance_operations": 15,
-    "education_courses": 37,
-    "coordination_logistics": 26,
-    "media_outreach": 25,
-    "website_tech": 3,
-    "events": 38,
-    "governance_decisions": 7
+    "uncategorized": 92,
+    "community_social": 164,
+    "finance_operations": 14,
+    "education_courses": 34,
+    "coordination_logistics": 24,
+    "website_tech": 1,
+    "media_outreach": 24,
+    "events": 34,
+    "governance_decisions": 4
    },
    "channel": {
     "education_courses": 24,
     "media_outreach": 10,
-    "events": 14,
-    "uncategorized": 6,
-    "finance_operations": 4,
-    "publications_shabahng": 16,
-    "governance_decisions": 5,
-    "community_social": 3,
-    "coordination_logistics": 1
+    "community_social": 5,
+    "uncategorized": 10,
+    "finance_operations": 3,
+    "events": 13,
+    "publications_shabahng": 3,
+    "governance_decisions": 3
    },
    "accounting_group": {
     "meta_noise": 8,
-    "community_social": 14,
+    "community_social": 15,
     "education_courses": 9,
-    "finance_operations": 13,
-    "uncategorized": 5,
+    "finance_operations": 11,
+    "uncategorized": 6,
     "media_outreach": 2
    },
    "summerschool_channel": {
@@ -1553,15 +1551,15 @@
   },
   "1404/06": {
    "private_group": {
-    "community_social": 20,
+    "community_social": 22,
     "media_outreach": 8,
     "meta_noise": 17,
     "uncategorized": 6,
     "website_tech": 5,
-    "education_courses": 14,
-    "governance_decisions": 5,
+    "education_courses": 13,
     "coordination_logistics": 3,
-    "events": 4
+    "events": 4,
+    "governance_decisions": 3
    },
    "channel": {
     "education_courses": 5,
@@ -1571,7 +1569,6 @@
     "governance_decisions": 1,
     "community_social": 5,
     "uncategorized": 1,
-    "publications_shabahng": 1,
     "website_tech": 1
    },
    "accounting_group": {
@@ -1583,15 +1580,15 @@
   "1404/07": {
    "private_group": {
     "meta_noise": 47,
-    "uncategorized": 20,
+    "uncategorized": 22,
     "education_courses": 7,
-    "coordination_logistics": 14,
-    "governance_decisions": 5,
-    "community_social": 31,
-    "publications_shabahng": 3,
+    "coordination_logistics": 11,
+    "governance_decisions": 4,
+    "community_social": 34,
     "media_outreach": 5,
-    "events": 4,
-    "finance_operations": 2
+    "events": 3,
+    "finance_operations": 2,
+    "publications_shabahng": 2
    },
    "channel": {
     "education_courses": 12,
@@ -1600,30 +1597,29 @@
     "community_social": 4,
     "publications_shabahng": 1,
     "uncategorized": 3,
-    "governance_decisions": 3,
-    "finance_operations": 2,
     "coordination_logistics": 2,
+    "governance_decisions": 1,
+    "finance_operations": 1,
     "website_tech": 1
    },
    "accounting_group": {
     "events": 7,
-    "finance_operations": 7,
+    "finance_operations": 6,
     "meta_noise": 2,
     "media_outreach": 3,
+    "community_social": 2,
     "uncategorized": 1,
-    "community_social": 1,
-    "coordination_logistics": 3,
-    "governance_decisions": 1
+    "coordination_logistics": 3
    }
   },
   "1404/08": {
    "private_group": {
     "finance_operations": 3,
     "meta_noise": 10,
-    "community_social": 12,
+    "community_social": 13,
     "governance_decisions": 2,
     "uncategorized": 4,
-    "coordination_logistics": 3,
+    "coordination_logistics": 2,
     "education_courses": 1,
     "events": 1,
     "media_outreach": 7
@@ -1631,24 +1627,22 @@
    "channel": {
     "events": 36,
     "education_courses": 13,
-    "governance_decisions": 4,
     "media_outreach": 6,
     "community_social": 2,
     "coordination_logistics": 6,
-    "publications_shabahng": 2,
+    "publications_shabahng": 1,
     "uncategorized": 4,
     "finance_operations": 1,
     "website_tech": 2
    },
    "accounting_group": {
     "media_outreach": 3,
-    "community_social": 9,
+    "community_social": 12,
     "coordination_logistics": 7,
-    "uncategorized": 7,
+    "uncategorized": 8,
     "meta_noise": 3,
-    "finance_operations": 17,
-    "events": 5,
-    "governance_decisions": 2
+    "finance_operations": 14,
+    "events": 5
    }
   },
   "1404/09": {
@@ -1662,10 +1656,10 @@
    "channel": {
     "events": 30,
     "coordination_logistics": 6,
-    "governance_decisions": 5,
     "media_outreach": 11,
     "community_social": 4,
-    "education_courses": 9,
+    "education_courses": 8,
+    "governance_decisions": 1,
     "uncategorized": 1,
     "meta_noise": 1,
     "finance_operations": 1,
@@ -1673,7 +1667,7 @@
    },
    "accounting_group": {
     "community_social": 1,
-    "governance_decisions": 1
+    "uncategorized": 1
    }
   },
   "1404/10": {
@@ -1681,7 +1675,7 @@
     "community_social": 24,
     "meta_noise": 19,
     "uncategorized": 17,
-    "website_tech": 4,
+    "website_tech": 3,
     "governance_decisions": 5,
     "coordination_logistics": 2,
     "finance_operations": 1,
@@ -1690,14 +1684,14 @@
    },
    "channel": {
     "events": 16,
-    "governance_decisions": 4,
     "media_outreach": 7,
     "community_social": 5,
     "education_courses": 8,
-    "uncategorized": 3,
+    "uncategorized": 4,
     "coordination_logistics": 2,
-    "publications_shabahng": 2,
+    "publications_shabahng": 1,
     "finance_operations": 1,
+    "governance_decisions": 2,
     "meta_noise": 1
    }
   },
@@ -1708,16 +1702,17 @@
     "coordination_logistics": 2
    },
    "channel": {
-    "uncategorized": 1,
+    "uncategorized": 2,
     "media_outreach": 2,
     "community_social": 2,
-    "governance_decisions": 2,
+    "governance_decisions": 1,
     "education_courses": 1,
     "coordination_logistics": 1
    },
    "accounting_group": {
     "events": 1,
-    "finance_operations": 4,
+    "finance_operations": 3,
+    "uncategorized": 1,
     "community_social": 1
    }
   },
@@ -1725,11 +1720,9 @@
    "private_group": {
     "community_social": 17,
     "events": 4,
-    "uncategorized": 8,
+    "uncategorized": 10,
     "media_outreach": 1,
     "meta_noise": 3,
-    "governance_decisions": 1,
-    "finance_operations": 1,
     "coordination_logistics": 1
    },
    "channel": {
@@ -1741,15 +1734,15 @@
   },
   "1405/02": {
    "private_group": {
-    "community_social": 44,
-    "governance_decisions": 14,
-    "uncategorized": 40,
+    "community_social": 46,
+    "governance_decisions": 10,
+    "uncategorized": 43,
     "meta_noise": 29,
     "finance_operations": 1,
-    "coordination_logistics": 2,
-    "education_courses": 6,
-    "media_outreach": 12,
+    "education_courses": 5,
+    "media_outreach": 10,
     "events": 1,
+    "coordination_logistics": 1,
     "website_tech": 1
    },
    "channel": {
@@ -1770,27 +1763,26 @@
   },
   "1405/03": {
    "private_group": {
-    "community_social": 168,
+    "community_social": 173,
     "meta_noise": 213,
-    "uncategorized": 212,
+    "uncategorized": 226,
     "events": 35,
-    "governance_decisions": 65,
+    "governance_decisions": 50,
     "education_courses": 32,
-    "coordination_logistics": 37,
+    "coordination_logistics": 32,
     "media_outreach": 45,
-    "publications_shabahng": 13,
-    "finance_operations": 7,
-    "website_tech": 3
+    "publications_shabahng": 6,
+    "finance_operations": 4,
+    "website_tech": 4
    },
    "channel": {
     "uncategorized": 4,
     "events": 11,
-    "governance_decisions": 2,
-    "publications_shabahng": 5,
+    "governance_decisions": 1,
+    "publications_shabahng": 2,
     "education_courses": 9,
     "media_outreach": 4,
-    "community_social": 2,
-    "finance_operations": 1
+    "community_social": 2
    },
    "accounting_group": {
     "meta_noise": 2
@@ -1799,27 +1791,26 @@
   "1405/04": {
    "private_group": {
     "meta_noise": 330,
-    "coordination_logistics": 54,
-    "uncategorized": 264,
-    "community_social": 164,
+    "coordination_logistics": 42,
+    "uncategorized": 266,
+    "community_social": 192,
     "education_courses": 30,
-    "media_outreach": 118,
-    "governance_decisions": 54,
-    "events": 25,
+    "media_outreach": 103,
+    "governance_decisions": 50,
+    "events": 24,
     "website_tech": 12,
-    "publications_shabahng": 9,
-    "finance_operations": 5
+    "finance_operations": 4,
+    "publications_shabahng": 7
    },
    "channel": {
-    "uncategorized": 7,
-    "events": 9,
-    "publications_shabahng": 8,
+    "uncategorized": 8,
+    "community_social": 8,
+    "events": 8,
     "education_courses": 7,
     "media_outreach": 11,
-    "community_social": 6,
-    "governance_decisions": 4,
-    "finance_operations": 4,
-    "coordination_logistics": 1
+    "coordination_logistics": 1,
+    "publications_shabahng": 6,
+    "finance_operations": 1
    },
    "accounting_group": {
     "meta_noise": 1,
@@ -1833,31 +1824,30 @@
   },
   "1405/05": {
    "private_group": {
-    "uncategorized": 186,
+    "uncategorized": 190,
     "meta_noise": 120,
-    "community_social": 271,
+    "community_social": 318,
     "events": 8,
-    "publications_shabahng": 6,
-    "finance_operations": 3,
-    "coordination_logistics": 55,
-    "media_outreach": 95,
-    "governance_decisions": 19,
-    "education_courses": 45,
-    "website_tech": 5
+    "finance_operations": 2,
+    "coordination_logistics": 39,
+    "media_outreach": 76,
+    "governance_decisions": 13,
+    "education_courses": 36,
+    "website_tech": 3,
+    "publications_shabahng": 2
    },
    "public_group": {
-    "community_social": 91,
+    "community_social": 113,
     "uncategorized": 35,
     "meta_noise": 39,
-    "governance_decisions": 4,
+    "governance_decisions": 3,
     "education_courses": 20,
     "events": 6,
-    "media_outreach": 104,
+    "media_outreach": 82,
     "coordination_logistics": 1
    },
    "channel": {
     "events": 5,
-    "publications_shabahng": 4,
     "finance_operations": 1,
     "coordination_logistics": 1,
     "education_courses": 5,
@@ -1869,40 +1859,40 @@
   },
   "1405/06": {
    "private_group": {
-    "community_social": 196,
-    "uncategorized": 94,
-    "events": 34,
-    "media_outreach": 35,
+    "community_social": 226,
+    "uncategorized": 97,
+    "events": 29,
+    "media_outreach": 34,
     "meta_noise": 72,
-    "coordination_logistics": 45,
-    "education_courses": 31,
-    "website_tech": 26,
-    "finance_operations": 7,
-    "publications_shabahng": 2,
-    "governance_decisions": 8
+    "coordination_logistics": 32,
+    "education_courses": 27,
+    "website_tech": 17,
+    "finance_operations": 3,
+    "publications_shabahng": 1,
+    "governance_decisions": 6
    },
    "public_group": {
-    "community_social": 1871,
-    "media_outreach": 825,
-    "education_courses": 162,
-    "uncategorized": 969,
+    "community_social": 2173,
+    "media_outreach": 673,
+    "education_courses": 146,
+    "uncategorized": 1029,
     "meta_noise": 726,
-    "finance_operations": 158,
-    "coordination_logistics": 360,
-    "events": 365,
-    "governance_decisions": 49,
-    "website_tech": 25,
-    "publications_shabahng": 13
+    "finance_operations": 89,
+    "events": 306,
+    "governance_decisions": 26,
+    "website_tech": 19,
+    "coordination_logistics": 263,
+    "publications_shabahng": 1
    },
    "channel": {
     "events": 24,
-    "publications_shabahng": 12,
     "media_outreach": 14,
-    "education_courses": 16,
+    "education_courses": 15,
     "website_tech": 3,
+    "publications_shabahng": 3,
     "uncategorized": 2,
     "coordination_logistics": 2,
-    "governance_decisions": 4,
+    "governance_decisions": 2,
     "finance_operations": 2,
     "community_social": 3
    },
@@ -1910,51 +1900,49 @@
     "education_courses": 16,
     "events": 4,
     "media_outreach": 12,
-    "finance_operations": 3,
-    "governance_decisions": 4,
-    "website_tech": 5
+    "finance_operations": 4,
+    "governance_decisions": 2,
+    "website_tech": 5,
+    "community_social": 1
    }
   },
   "1405/07": {
    "private_group": {
     "meta_noise": 5,
-    "uncategorized": 17,
-    "coordination_logistics": 14,
-    "community_social": 22,
+    "uncategorized": 21,
+    "coordination_logistics": 13,
+    "community_social": 25,
     "website_tech": 1,
-    "finance_operations": 1,
-    "governance_decisions": 13,
+    "governance_decisions": 5,
     "media_outreach": 4,
     "events": 3
    },
    "public_group": {
     "meta_noise": 187,
-    "uncategorized": 139,
-    "community_social": 220,
-    "media_outreach": 103,
-    "coordination_logistics": 64,
-    "events": 76,
-    "governance_decisions": 29,
-    "website_tech": 21,
-    "finance_operations": 11,
-    "education_courses": 29
+    "uncategorized": 144,
+    "community_social": 261,
+    "media_outreach": 90,
+    "coordination_logistics": 48,
+    "events": 56,
+    "website_tech": 13,
+    "finance_operations": 6,
+    "governance_decisions": 23,
+    "education_courses": 24
    },
    "channel": {
-    "uncategorized": 3,
+    "uncategorized": 4,
     "events": 14,
-    "education_courses": 8,
+    "education_courses": 7,
     "media_outreach": 7,
-    "publications_shabahng": 2,
-    "finance_operations": 1,
-    "governance_decisions": 7,
+    "community_social": 2,
     "coordination_logistics": 3,
-    "community_social": 1
+    "governance_decisions": 3
    }
   },
   "1404/03": {
    "channel": {
     "events": 5,
-    "education_courses": 10,
+    "education_courses": 9,
     "media_outreach": 2,
     "finance_operations": 1,
     "community_social": 2,
@@ -1963,11 +1951,8 @@
   },
   "1404/12": {
    "channel": {
-    "uncategorized": 4,
-    "publications_shabahng": 1,
-    "media_outreach": 3,
-    "governance_decisions": 1,
-    "finance_operations": 1
+    "uncategorized": 5,
+    "media_outreach": 3
    },
    "accounting_group": {
     "finance_operations": 2,

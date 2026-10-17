@@ -27,13 +27,21 @@ WEBSITE_CORROBORATORS = ["دامنه", "سرور", "هاست", "وب سایت", 
 COORDINATION_CORROBORATORS = ["رزرو", "اجاره", "اتاق", "سالن", "تجهیزات", "پذیرایی",
                               "مجوز", "پروژکتور", "استند", "پوستر"]
 GOVERNANCE_CORROBORATORS = ["هیئت", "انتخابات", "تصمیم", "رأی", "رای گیری",
-                            "رای‌گیری", "نشست ماهانه", "plan"]
-PUBLICATIONS_CORROBORATORS = ["نشریه", "شماره", "ژورنال"]
+                            "رای‌گیری", "نشست ماهانه", "نظرسنجی", "تقسیم کار",
+                            "plan"]
+PUBLICATIONS_CORROBORATORS = ["نشریه", "شماره", "ژورنال", "مجله"]
+# the bare word شماره (issue/number) is itself ambiguous (شماره کارت,
+# phone numbers), so it corroborates on the journal names it co-occurs with
+PUBLICATIONS_NAME_CORROBORATORS = ["نشریه", "شباهنگ", "تکانه", "ژورنال", "مجله"]
 
 RISKY_WORDS = {
     "finance_operations": {**{w: FINANCE_CORROBORATORS
                               for w in ["حساب", "رسید", "مبلغ", "تخفیف", "شارژ",
-                                        "قیمت", "هزینه", "پول", "ریال", "پرداخت"]},
+                                        "قیمت", "هزینه", "پول", "ریال", "پرداخت",
+                                        # round 3: sponsor name-drops are
+                                        # chatter, and برداشت = physics
+                                        # "interpretation"/verb stem
+                                        "اسپانسر", "برداشت"]},
                            # physics "circulation/flux" needs a money/bank token
                            "گردش": ["مالی", "کارت", "حساب", "بانک"]},
     "education_courses": {w: EDUCATION_CORROBORATORS
@@ -44,8 +52,25 @@ RISKY_WORDS = {
     "coordination_logistics": {w: COORDINATION_CORROBORATORS
                                for w in ["چاپ", "سالن", "هماهنگی"]},
     # round 2: polysemous tokens beyond the original risky set
-    "governance_decisions": {"جلسه": GOVERNANCE_CORROBORATORS},
-    "publications_shabahng": {"تکانه": PUBLICATIONS_CORROBORATORS},
+    # round 3: bare تصمیم گرفتیم is announcement prose, not board action
+    "governance_decisions": {w: GOVERNANCE_CORROBORATORS
+                             for w in ["جلسه", "تصمیم"]},
+    # round 3: the journal names/anchors fire on hashtag brand tags
+    # (#شباهنگ in astronomy news footers), production credit lines
+    # (ویراستاری علمی), and textbook volumes (جلد دوم هالیدی)
+    "publications_shabahng": {**{w: PUBLICATIONS_CORROBORATORS
+                                 for w in ["تکانه", "شباهنگ", "ویراستاری", "جلد"]},
+                              "شماره": PUBLICATIONS_NAME_CORROBORATORS},
+}
+
+# bare corroborator tokens per category, reused by the round-3 demotion gate
+CATEGORY_CORROBORATORS = {
+    "finance_operations": FINANCE_CORROBORATORS,
+    "education_courses": EDUCATION_CORROBORATORS,
+    "website_tech": WEBSITE_CORROBORATORS,
+    "coordination_logistics": COORDINATION_CORROBORATORS,
+    "governance_decisions": GOVERNANCE_CORROBORATORS,
+    "publications_shabahng": PUBLICATIONS_CORROBORATORS,
 }
 
 # --- Task 14 round 2: word-boundary matching for short keywords ---
@@ -107,27 +132,57 @@ def meta_noise_hit(text, keywords):
         rem = remove_standalone(rem, nk)
     return WORD_CHAR.search(rem) is None
 
-def category_hit(text, category, keywords):
-    """Does any keyword count for the category? Non-risky words and multi-word
-    entries always count; risky single words need a corroborator in the text.
-    Short keywords match only on word boundaries; meta_noise additionally
-    requires the whole message to be affirmation-only."""
+def firing_keywords(text, category, keywords):
+    """Every keyword that counts for the category, in lexicon order: non-risky
+    words and multi-word entries always count; risky single words only with a
+    corroborator in the text. Short keywords match only on word boundaries.
+    meta_noise has its own dominance gate and is not keyword machinery."""
     if category == "meta_noise":
-        return meta_noise_hit(text, keywords)
+        return []
     risky = RISKY_WORDS.get(category, {})
+    fired = []
     for kw in keywords:
         nk = normalize_digits(kw).lower()
         if not keyword_present(text, nk):
             continue
         if " " in nk:
-            return True                       # multi-word entries are never risky
+            fired.append(nk)                  # multi-word entries are never risky
+            continue
         corroborators = risky.get(nk)
         if corroborators is None:
-            return True
-        if any(c != nk and keyword_present(text, normalize_digits(c).lower())
-               for c in corroborators):
-            return True
-    return False
+            fired.append(nk)
+        elif any(c != nk and keyword_present(text, normalize_digits(c).lower())
+                 for c in corroborators):
+            fired.append(nk)
+    return fired
+
+def category_hit(text, category, keywords):
+    """Does any keyword count for the category? (See firing_keywords; meta_noise
+    additionally requires the whole message to be affirmation-only.)"""
+    if category == "meta_noise":
+        return meta_noise_hit(text, keywords)
+    return bool(firing_keywords(text, category, keywords))
+
+# --- Task 14 round 3: multi-label gating on broadcasts ---
+# Forwarded posts and channel-origin broadcasts (event ads, journal issues,
+# news digests) fire several topical categories at once, and every extra
+# label is another precision test. On a broadcast the extra labels are
+# usually stray single generic-word hits (a polysemous risky word that
+# happened to find a corroborator), so weakly supported topical categories
+# are dropped whenever at least one strongly supported topical category
+# remains. Rule labels (polls, form links) carry no keyword evidence and are
+# never weak; conversation (non-broadcast) keeps every label.
+
+def is_broadcast(rec):
+    """Forwarded posts and original channel posts: one-to-many broadcasts
+    rather than conversation."""
+    return bool(rec.get("forwarded_from")) or rec.get("chat") == "channel"
+
+def weak_broadcast_hit(text, category, keywords):
+    """A topical category is weakly supported when its only firing evidence
+    is a single risky (polysemous, corroboration-gated) word."""
+    fired = firing_keywords(text, category, keywords)
+    return len(fired) == 1 and fired[0] in RISKY_WORDS.get(category, {})
 
 def classify_message(rec, lexicon):
     text = normalize_digits(rec.get("text_plain") or "").lower()
@@ -159,6 +214,19 @@ def classify_message(rec, lexicon):
                 cats.append(c)
         method = method or "lexicon"
 
+    # Layer 2b - round 3: broadcast multi-label gating. On forwarded /
+    # channel-origin posts carrying more than one topical category, drop the
+    # weakly supported ones (single risky-word hits) as long as at least one
+    # strongly supported topical category survives.
+    if is_broadcast(rec):
+        topical = [c for c in cats if c in TOPICAL_CATEGORIES]
+        if len(topical) > 1:
+            strong = [c for c in topical
+                      if not weak_broadcast_hit(text, c, lexicon.get(c, []))]
+            if strong and len(strong) < len(topical):
+                weak = set(topical) - set(strong)
+                cats = [c for c in cats if c not in weak]
+
     conf = 0.9 if method == "rule" else (0.7 if method == "lexicon" else 0.0)
     return {"categories": cats[:4], "event_ref": None,
             "is_decision": False, "confidence": conf,
@@ -175,7 +243,7 @@ def main():
     # layer 3: fold in LLM residual labels when the label file exists (idempotent)
     labels_path = ROOT / "analysis/llm_labels.json"
     if labels_path.exists():
-        print(f"re-applied {apply_llm_labels(out, read_json(labels_path))} llm labels")
+        print(f"re-applied {apply_llm_labels(out, read_json(labels_path), lex)} llm labels")
     stats = {"total": 0, "by_method": {}, "by_category": {},
              "in_window": {"total": 0, "by_method": {}}}
     for rec in out:
@@ -208,19 +276,39 @@ TOPICAL_CATEGORIES = ["education_courses", "events", "publications_shabahng",
                       "finance_operations", "website_tech",
                       "coordination_logistics"]
 MICRO_TEXT_MAX = 15
+# round 3: scheduling one-liners and context-free fragments of 16-25 chars
+# are equally unverifiable at llm confidence <= 0.65 — unless the text itself
+# carries a token of evidence for the label (firing keyword or corroborator)
+MICRO_TEXT_MAX_WEAK = 25
 
-def demote_micro_message(r):
-    """llm label + confidence <= 0.65 + micro text (<= 15 chars, or empty text
-    with a lone voice note) + topical category -> community_social (text) or
-    meta_noise (no text), confidence 0.5. event_ref/is_decision untouched.
+def _topical_evidence(text, category, lexicon):
+    """Does the text itself carry evidence for the category — a firing
+    lexicon keyword, or a bare corroborator token (کلاس for education,
+    تومان for finance, ...)?"""
+    if category_hit(text, category, lexicon.get(category, [])):
+        return True
+    return any(keyword_present(text, normalize_digits(c).lower())
+               for c in CATEGORY_CORROBORATORS.get(category, []))
+
+def demote_micro_message(r, lexicon=None):
+    """llm label + confidence <= 0.65 + micro text + topical category ->
+    community_social (text) or meta_noise (no text), confidence 0.5.
+    Micro means <= 15 chars (or empty text with a lone voice note); round 3
+    extends the window to <= 25 chars when no labeled category has any
+    keyword/corroborator evidence in the text. event_ref/is_decision
+    untouched; rule and lexicon labels are never demoted.
     Returns True when the record was demoted."""
     if r.get("method") != "llm" or (r.get("confidence") or 0.0) > 0.65:
         return False
     text = (r.get("text_plain") or "").strip()
     media = r.get("media_kinds") or []
     micro = len(text) <= MICRO_TEXT_MAX or (not text and media == ["voice"])
-    if not micro or not any(c in TOPICAL_CATEGORIES
-                            for c in r.get("categories") or []):
+    weak = (not micro and lexicon is not None
+            and len(text) <= MICRO_TEXT_MAX_WEAK
+            and not any(_topical_evidence(text, c, lexicon)
+                        for c in r.get("categories") or []))
+    if not (micro or weak) or not any(c in TOPICAL_CATEGORIES
+                                      for c in r.get("categories") or []):
         return False
     r["categories"] = ["meta_noise" if not text else "community_social"]
     r["confidence"] = 0.5
@@ -256,8 +344,10 @@ def emit_residual(batch_size=200):
                {"n_residual": len(resid), "batches": batches})
     print(f"residual: {len(resid)} messages in {len(batches)} batches")
 
-def apply_llm_labels(recs, labels):
+def apply_llm_labels(recs, labels, lexicon=None):
     """Merge {"key": {categories, is_decision, event_ref, confidence}} into records."""
+    if lexicon is None:
+        lexicon = read_json(ROOT / "analysis/lexicon.json")
     n = 0
     for r in recs:
         lab = labels.get(f'{r["chat"]}#{r["message_id"]}')
@@ -268,7 +358,7 @@ def apply_llm_labels(recs, labels):
             r["is_decision"] = r.get("is_decision", False) or bool(lab.get("is_decision"))
             if lab.get("event_ref"):
                 r["event_ref"] = lab["event_ref"]
-            demote_micro_message(r)
+            demote_micro_message(r, lexicon)
     return n
 
 def apply_llm():
