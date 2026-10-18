@@ -19,7 +19,7 @@ The FA reports have the same numbers, the same sections, and charts carrying the
 | Topic | Decision |
 |---|---|
 | Translation method | **Approach A: message catalog.** English prose is extracted into named templates, translated once through the Claude API, cached and committed as `fa.json`. |
-| API | Claude API via `ANTHROPIC_API_KEY` from the environment, never stored in the repo. Raw HTTP pattern of `anjoman_accounting_information/accounting_tools/claude_pipeline.py` (no `anthropic` package dependency). Model `claude-opus-5-5`. |
+| API | Claude API through the official Python SDK (`anthropic` 1.15, `client.messages.parse` with a Pydantic output schema, i.e. structured outputs). Key read from `ANTHROPIC_API_KEY`, never stored in the repo (the session exports it from a private file outside the repo). Model `claude-opus-5-5`, default effort (`medium`). The direct API is geo-blocked from this machine (HTTP 403 even for a bogus key), so translation runs only with the user's VPN on. |
 | PDF engine (FA) | Markdown → HTML (`lang="fa" dir="rtl"`) → **WeasyPrint**, the method behind the 2026-10-10 Persian report. WeasyPrint 68.1 is verified working on this Windows machine. The English PDFs stay on reportlab, unchanged. |
 | Font | Tahoma, the system font that the charts already use. |
 | Charts | **Persian-labeled variants** in `charts_fa/` beside `charts/`: same data and palette, Persian titles, axes, legends and Jalali ticks. |
@@ -31,7 +31,7 @@ The FA reports have the same numbers, the same sections, and charts carrying the
 ```
 analysis_tools/
   i18n/
-    __init__.py      t(key, lang, **kw); num(v, lang, decimals=0); pct(...); digits(s, lang)
+    __init__.py      t(key, lang, **kw); term(kind, key, lang); dt(iso, lang, n); localize(text)
     en.json          English templates (verbatim from today's builders)
     fa.json          Persian templates (generated, committed, hand-editable)
     glossary.json    fixed EN→FA term map (categories, projects, statuses, chats,
@@ -46,16 +46,15 @@ analysis_tools/
 
 ### 3.1 `i18n` module
 
-- `t(key, lang, **kw)` looks up the template in `en.json` / `fa.json` and runs `str.format(**kw)`. Unknown key → `KeyError`. When `lang == "fa"` and the key is stale (`hashes.json` sha1 ≠ current en sha1) → `RuntimeError("fa.json stale for <key>; run translate.py")`.
-- Values reach templates **already formatted**: builders pass `num(v, lang)` output, never raw floats, so templates contain no format specs.
-- `num(v, lang)`: `fa` → Persian digits, `٬` thousands, `٫` decimal. `en` → exactly today's `f"{v:,.0f}"` behavior (the `—` for zero/None stays a builder concern, as now).
-- `digits(s, lang)` converts digits inside an already-built string (dates, hours, `n=62`). Text inside backticks and anything matching `TX\d{4}`, `@\w+` or a URL/file name is skipped.
-- Glossary lookups (`term(name, lang)`) cover table row labels drawn from data keys: category slugs, project names, statuses, chat ids, weekday names. Unknown term in `fa` → returned unchanged and logged once (data-derived Persian text such as thread titles and snippets is already Persian).
+- `t(key, lang, **kw)` looks up the template in `en.json` / `fa.json` and runs `str.format(**kw)`. Unknown key → `KeyError`. When `lang == "fa"`, a missing or stale key (`hashes.json` sha1 ≠ current en sha1) → `CatalogError("... run python -m analysis_tools.translate")`.
+- **Numbers keep today's English formatting inside the builders.** `fmt`, `pct`, `f"{n:,}"` and similar are unchanged, so the EN output stays byte-identical. FA output goes through one final pass, `localize(text)`: in every unprotected span, `,` between digits → `٬`, `.` between digits → `٫`, `%` after a digit → `٪`, and ASCII digits → Persian digits. Protected spans are left untouched: backtick code, Markdown image links, URLs, `@handles`, `chat#123` message references, and identifiers that mix letters and digits (`TX0036`, `m29`, `Task-11`).
+- `dt(iso, lang, n=10)`: in `en` returns `iso[:n]` exactly as today. In `fa` returns the Jalali `YYYY/MM/DD`, plus ` HH:MM` when `n == 16`. It is used where the English shows a Gregorian date with no Jalali next to it. Where English already pairs Gregorian with Jalali, the Gregorian stays (digits localized).
+- `term(kind, key, lang, default=None)`: closed vocabularies from `glossary.json` (category slugs, chats, ledger category/project/status/direction, weekdays, phases). In `en` returns `default` if given, else `key`. In `fa` a missing entry raises `CatalogError` (strict: every vocabulary is closed and covered by a test). Data-derived free text (thread titles, snippets, docx labels) never goes through `term`; it is already Persian or a proper name.
 
 ### 3.2 Builder refactor
 
 - Every English string literal and f-string in `build_financial_report.py` and `build_performance_report.py` becomes `t("<section>.<name>", lang, ...)`. Computation, ordering, gates and asserts are untouched.
-- `fmt`/`pct`/`pct2`/`jdate` and similar helpers gain a `lang` argument and route through `i18n`.
+- `fmt`/`pct`/`pct2`/`jdate` stay as they are. FA localization happens once, through `localize()` on the finished Markdown.
 - Markdown structure (headings, table pipes, `![..](charts/x.png)`) stays in code. Only the human text goes into templates. In `fa`, image paths point to `charts_fa/`.
 - Outputs: `lang="en"` writes today's paths. `lang="fa"` writes `*_FA.md` and `*_FA.pdf` beside them.
 - The reconciliation `_gate` runs in both modes before anything is written.
@@ -67,7 +66,8 @@ analysis_tools/
 - Prompt rules: formal written Persian suited to an internal board report. Translate prose only. Keep every `{placeholder}` exactly. Keep backticked spans, IDs, handles, URLs and file names verbatim. Use glossary terms verbatim. Return JSON `{key: persian}` only.
 - Validation per key: the placeholder set must equal the English set and backticked spans must be preserved. A failing key is retried, at most 3 attempts in total. After that it is listed in the run's error output and left absent, so the builders fail loudly.
 - `stop_reason == "max_tokens"` → the chunk is halved, not repeated.
-- Raw responses are cached in `analysis/claude/i18n/<chunk-hash>.json`. Re-runs with an unchanged catalog make no API calls.
+- Each validated chunk result is cached in `analysis/claude/i18n/<sha1 of the request payload>.json`. Re-runs with an unchanged catalog make no API calls.
+- Number preservation: each Persian template must hold the same multiset of number tokens as its English source (after digit normalization). A template that adds or drops a number is rejected like a placeholder mismatch.
 
 ### 3.4 RTL PDF (`md_to_pdf_rtl`)
 
@@ -89,8 +89,8 @@ New tests in `analysis_tools/tests/test_i18n.py`. The existing 123 tests stay gr
 
 1. **English byte-identity:** `build(lang="en")` for both reports reproduces the MD committed on main byte-for-byte. Proves the refactor changed nothing.
 2. **Catalog integrity:** `en.json` and `fa.json` have identical key sets. Each key's `{placeholder}` sets are equal. Every en key is referenced by a builder or by `charts.py` (no orphans), and every referenced key exists.
-3. **Number parity:** multiset of number tokens in EN MD == the one in FA MD after Persian→Latin digit and separator normalization. Exclusions are explicit and listed in the test (e.g. section numbers if the FA headings drop them).
-4. **Formatting units:** `num(1234567.5, "fa", 1) == "۱٬۲۳۴٬۵۶۷٫۵"`. Jalali date and hour formatting. `digits()` leaves `TX0036`, `@QuantaSC`, backticked spans and file names Latin.
+3. **Number parity:** the multiset of number tokens in EN MD == the one in FA MD, after Persian→Latin digit and separator normalization and after converting every ISO date in either text to its Jalali form. That makes `dt()` substitutions compare equal and also checks their conversion. Exclusions must be explicit and justified in the test.
+4. **Formatting units:** `localize("1,234,567.5 and 12.5%") == "۱٬۲۳۴٬۵۶۷٫۵ and ۱۲٫۵٪"`. `dt` Jalali conversion (date and date+time). `localize` leaves `TX0036`, `@QuantaSC`, `accounting_group#123`, backticked spans and image paths Latin.
 5. **Glossary enforcement:** for each glossary entry whose English term appears in the EN report, its fixed Persian term appears in the FA report.
 6. **Translation validator:** unit tests of placeholder and backtick validation on synthetic good/bad translations (no API call).
 7. **Gates:** FA build fails exactly as EN does when the ledger reference is corrupted.
