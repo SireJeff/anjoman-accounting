@@ -1,0 +1,868 @@
+[
+ {
+  "id": "S-01",
+  "kind": "scope",
+  "tx": [],
+  "question": "Balance-chain flows on deposit 400816808774 with no ledger row (≈3,163,000 debits 1405/05/21–22; ≈35.2M credits 1404/12→1405/05; ≈12.8–19.8M debits 1404/09→12).",
+  "options": [
+   "Disclose, don't book",
+   "Book placeholder rows",
+   "Wait for bank statement",
+   "Out of scope"
+  ],
+  "choice": "Disclose, don't book",
+  "rationale": "Report as a balance-chain gaps section with exact balances; open item requesting the Bank Shahr statement; totals unchanged.",
+  "evidence": [
+   "dossier-C TX0075/TX0076 balances",
+   "dossier-A TX0007/TX0024 balance jumps"
+  ],
+  "date": "2026-10-18"
+ },
+ {
+  "id": "B-01",
+  "kind": "basis",
+  "tx": [],
+  "question": "Basis for audited totals and project sheets.",
+  "options": [
+   "Cash + pending column",
+   "Cash only",
+   "Economic cost"
+  ],
+  "choice": "Cash + pending column",
+  "rationale": "Headline = Supported cash; per-project pending/payable column and excluded list; reconciliation gate on cash, pending reconciled separately.",
+  "evidence": [
+   "spec 2026-10-18-ledger-audit-design §5 (cash + pending basis)",
+   "reports/2026-10-10/final_checks.json (supported cash totals precedent)"
+  ],
+  "date": "2026-10-18"
+ },
+ {
+  "id": "A-01",
+  "kind": "process",
+  "tx": [],
+  "question": "Order of decisions vs pipeline.",
+  "options": [
+   "Decisions first",
+   "Pipeline first",
+   "Interleaved"
+  ],
+  "choice": "Decisions first",
+  "rationale": "Register is real data before the spec fixes the status vocabulary.",
+  "evidence": [
+   "spec 2026-10-18-ledger-audit-design §3 (decisions taken first)"
+  ],
+  "date": "2026-10-18"
+ },
+ {
+  "id": "D-01",
+  "kind": "duplicate",
+  "tx": [
+   "TX0022",
+   "TX0025",
+   "TX0051",
+   "TX0057"
+  ],
+  "question": "Confirm the 4 existing Duplicate rows stay excluded?",
+  "options": [
+   "Confirm all 4",
+   "Reopen TX0025",
+   "Reopen another"
+  ],
+  "choice": "Confirm all 4",
+  "rationale": "Each backed by tracking id / single debit / barcode identity.",
+  "evidence": [
+   "TX0022: tracking 692472, 14:29, balance 22,953,913 = TX0021",
+   "TX0025: single debit photo_14 10,523,750 rial 1404/07/22 10:40; one gathering in Mehr",
+   "TX0051: photo_48 message165 tracking 130060015629 = TX0050",
+   "TX0057: barcode 99T0S85F5ZMDN8E = TX0056"
+  ],
+  "date": "2026-10-18"
+ },
+ {
+  "id": "D-02",
+  "kind": "duplicate",
+  "tx": [
+   "TX0010",
+   "TX0009"
+  ],
+  "question": "TX0010 duplicate of TX0009?",
+  "options": [
+   "Duplicate of TX0009",
+   "Keep in Review",
+   "Second ad, Supported"
+  ],
+  "choice": "Duplicate of TX0009",
+  "rationale": "One receipt and one ad post; message57 is a bookkeeping request for an ad already entered (مرداد!D9).",
+  "evidence": [
+   "photo_8 message44: 4,000,000 rial to محمدحسین مشک افشان 1404/04/28 16:41 ref 130018173424",
+   "photo_9 message46: one ad post",
+   "private_group message2241 '400یرای یه روز'",
+   "message57 2025-10-10 04:09 'اون کلید ها که من زدم با تبلیغ مهمات شریف و پوستری که تو چاپ کردی'"
+  ],
+  "date": "2026-10-18"
+ },
+ {
+  "id": "D-03",
+  "kind": "duplicate",
+  "tx": [
+   "TX0052",
+   "TX0053",
+   "TX0054",
+   "TX0055",
+   "TX0050"
+  ],
+  "question": "Bardia's own slips TX0052–55 vs TX0050 reimbursement.",
+  "options": [
+   "Supporting detail",
+   "Keep in Review",
+   "Count as payments"
+  ],
+  "choice": "Supporting detail",
+  "rationale": "Slips are the itemization behind TX0050 (400+250+600+887=2,137,000); counting both double-counts.",
+  "evidence": [
+   "message154 Bardia itemization",
+   "message157 second album",
+   "TX0050 photo_45 21,370,000 rial 1404/10/08 00:49 tracking 130060015629",
+   "slips paid from card …7195"
+  ],
+  "date": "2026-10-18"
+ },
+ {
+  "id": "D-04",
+  "kind": "duplicate",
+  "tx": [
+   "TX0064",
+   "TX0065",
+   "TX0066",
+   "TX0067",
+   "TX0068",
+   "TX0069",
+   "TX0070",
+   "TX0071",
+   "TX0072",
+   "TX0073",
+   "TX0074",
+   "TX0062",
+   "TX0063"
+  ],
+  "question": "Parnian's PDF slips TX0064–74 vs TX0062/63 reimbursement.",
+  "options": [
+   "Supporting detail",
+   "Keep in Review",
+   "Count as payments"
+  ],
+  "choice": "Supporting detail",
+  "rationale": "PDF sent the day before the first instalment; treasurer: 'these are its receipts'; transfer narratives cite 4.05 Yalda cost; card …5401 on slips.",
+  "evidence": [
+   "message124 CamScanner PDF 2026-05-13",
+   "message128 'این از جشن یلدا کوکی و یسری چیزه پرنیان دیر فرستاده بود'",
+   "message129 'واردشون کن این رسیداشه'",
+   "photo_28 TX0062 narrative 'تسویه ۱.۵ از ۴.۰۵ هزینه جشن یلدا'"
+  ],
+  "date": "2026-10-18"
+ },
+ {
+  "id": "D-05",
+  "kind": "duplicate",
+  "tx": [
+   "TX0069",
+   "TX0067"
+  ],
+  "question": "Is C6 (TX0069) a re-scan of C4 (TX0067)?",
+  "options": [
+   "Distinct receipts",
+   "Re-scan of C4"
+  ],
+  "choice": "Distinct receipts",
+  "rationale": "Different roll-strip offset (printed on the paper), C6 stamped/C4 not, till issued two receipts per minute (18:46/18:47/18:48). Controller visually verified PDF p4 vs p6.",
+  "evidence": [
+   "CamScanner PDF p4 and p6",
+   "dossier-B2 slip table"
+  ],
+  "date": "2026-10-18"
+ },
+ {
+  "id": "D-06",
+  "kind": "duplicate",
+  "tx": [
+   "TX0042",
+   "TX0040",
+   "TX0041"
+  ],
+  "question": "TX0042 130,000-rial poster slip a separate purchase?",
+  "options": [
+   "Separate, Supported",
+   "Same as TX0041",
+   "Keep in Review"
+  ],
+  "choice": "Separate, Supported",
+  "rationale": "Own slip and caption, 20 minutes before the message110 'rules' lines.",
+  "evidence": [
+   "photo_32 message145 SEP کپی آرام گرافیک 130,000 rial 1404/08/28 12:35:53 card …8966 ref 856401535048 caption 'چاپ پوستر انجمن'",
+   "message110 1404/08/28 12:55:53 -23,000 / -13,000 چاپ قوانین"
+  ],
+  "date": "2026-10-18"
+ },
+ {
+  "id": "R-01",
+  "kind": "review",
+  "tx": [
+   "TX0036"
+  ],
+  "question": "TX0036 300,000 cash shabash — direction and status?",
+  "options": [
+   "Payment, Supported",
+   "Payment, keep Review",
+   "Receipt (collected)"
+  ],
+  "choice": "Payment, Supported",
+  "rationale": "message111 continues a debit-only list ('هم'); workbook D29 expense column, M5 subtracts it.",
+  "evidence": [
+   "message111 2025-11-21 13:33 '300000 تومن هم پول نقد شاباش جشن'",
+   "message105–110 debit lines",
+   "مجموع!D29",
+   "channel message3212 party 1404/08/07"
+  ],
+  "date": "2026-10-18"
+ },
+ {
+  "id": "R-02",
+  "kind": "review",
+  "tx": [
+   "TX0031"
+  ],
+  "question": "TX0031 amount 235,000 or 230,000?",
+  "options": [
+   "230,000",
+   "Keep 235,000"
+  ],
+  "choice": "230,000",
+  "rationale": "Receipt 2,300,000 rial matches message108 and workbook D33.",
+  "evidence": [
+   "photo_40 message153 Sharif Plus 1404/08/05 13:13",
+   "message108 '1404/08/05 13:13:11 -2,300,000 پذیرایی غرفه'",
+   "مجموع!D33 230,000"
+  ],
+  "date": "2026-10-18"
+ },
+ {
+  "id": "R-03",
+  "kind": "review",
+  "tx": [
+   "TX0018"
+  ],
+  "question": "TX0018 unit rial or toman?",
+  "options": [
+   "Rial → 1,765,000, Supported",
+   "Toman 17,650,000",
+   "Keep Review"
+  ],
+  "choice": "Rial → 1,765,000, Supported",
+  "rationale": "17,650,000 rial = 1,765,000 toman = workbook net 4,920,000 − 3,155,000.",
+  "evidence": [
+   "photo_12 message51 Maskan 1404/07/09 18:00 17,650,000 no unit, …7262 → …8966, tracking 500318322689",
+   "مجموع!M3"
+  ],
+  "date": "2026-10-18"
+ },
+ {
+  "id": "R-04",
+  "kind": "review",
+  "tx": [
+   "TX0001"
+  ],
+  "question": "TX0001 33,642,000 or 33,643,000?",
+  "options": [
+   "Keep 33,642,000",
+   "33,643,000"
+  ],
+  "choice": "Keep 33,642,000",
+  "rationale": "Workbook figure; 1,000 difference is rounding in thousand-toman course reports; logged.",
+  "evidence": [
+   "message6–8 course reports 11,601+12,261+9,781",
+   "مرداد!B2 33,642,000"
+  ],
+  "date": "2026-10-18"
+ },
+ {
+  "id": "R-05",
+  "kind": "review",
+  "tx": [
+   "TX0047"
+  ],
+  "question": "TX0047 15,790,000 toman or rial?",
+  "options": [
+   "Toman, keep",
+   "Rial (1,579,000)",
+   "Move to Review"
+  ],
+  "choice": "Toman, keep",
+  "rationale": "Workbook B42 in toman; Sepah balance ≈13.1M toman before withdrawal fits.",
+  "evidence": [
+   "message116 'جمعا 15,790,000 واریزی نقدی بوده و 700,000 وجه نقد'",
+   "message115 Sepah SMS",
+   "مجموع!B42"
+  ],
+  "date": "2026-10-18"
+ },
+ {
+  "id": "R-06",
+  "kind": "review",
+  "tx": [
+   "TX0049"
+  ],
+  "question": "TX0049 Sepah withdrawal 10,003,780 toman, payees unknown — how to record?",
+  "options": [
+   "Fill amount, keep pending",
+   "Internal transfer",
+   "Supported Yalda payment"
+  ],
+  "choice": "Fill amount, keep pending",
+  "rationale": "Unit rial proven by balance arithmetic; payees unknown → Review/pending with open item.",
+  "evidence": [
+   "message115 'برداشت:100,037,800 … مانده:30,945,051 10/1-10:29'",
+   "message120 'این برداشت برای کارت به کارت هزینه‌ها بوده'"
+  ],
+  "date": "2026-10-18",
+  "set": {
+   "amount_toman": 10003780,
+   "unit_original": "rial",
+   "amount_original": 100037800,
+   "date_jalali": "1404/10/01"
+  }
+ },
+ {
+  "id": "R-07",
+  "kind": "review",
+  "tx": [
+   "TX0056",
+   "TX0058"
+  ],
+  "question": "Hossein's Yalda spend 2,425,000 with no reimbursement — treatment?",
+  "options": [
+   "Pending payable",
+   "Donated / volunteer detail",
+   "He was paid"
+  ],
+  "choice": "Pending payable",
+  "rationale": "TX0058 = 275,000 (165+60+50 thousand toman); both rows pending payable to Hossein; open item for treasurer.",
+  "evidence": [
+   "photo_46 message161 Canbo 1404/10/01 19:57 21,500,000 rial barcode 99T0S85F5ZMDN8E",
+   "message162–163 Hossein amounts",
+   "message164 treasurer list '۱۶۵ / ۶۰ / ۵۰'"
+  ],
+  "date": "2026-10-18",
+  "set": {
+   "TX0058.amount_toman": 275000
+  }
+ },
+ {
+  "id": "R-08",
+  "kind": "review",
+  "tx": [
+   "TX0050",
+   "TX0055"
+  ],
+  "question": "Bardia's 275,584 sandwich remainder — treatment?",
+  "options": [
+   "Pending payable",
+   "Settled / not owed"
+  ],
+  "choice": "Pending payable",
+  "rationale": "Treasurer list includes it as a Yalda cost; not in the 2,137,000 reimbursement. Non-transaction pending item (no ledger row).",
+  "evidence": [
+   "message154 '۱۱۶۲ که ۲۷۵ تاشو ساندویچ'",
+   "message164 'ساندویچ (از فاکتور ۱۱۶۲): ۲۷۵'",
+   "TX0050 2,137,000 = 400+250+600+887"
+  ],
+  "date": "2026-10-18",
+  "pending_item": {
+   "id": "PI-01",
+   "project": "Yalda 1404",
+   "amount_toman": 275584,
+   "counterparty": "سیدبردیا احمدی‌مروست"
+  }
+ },
+ {
+  "id": "R-09",
+  "kind": "review",
+  "tx": [
+   "TX0062",
+   "TX0063"
+  ],
+  "question": "Parnian 195,860.1 undocumented portion of 4,050,000?",
+  "options": [
+   "Keep paid, open item",
+   "Split unsupported part"
+  ],
+  "choice": "Keep paid, open item",
+  "rationale": "Reimbursement transfers are bank-evidenced; PDF p1 shows partly illegible slip stack; ask Parnian for missing slip(s).",
+  "evidence": [
+   "photo_28 / TX0063 slip",
+   "CamScanner PDF p1–p11",
+   "sum 3,854,139.9 vs 4,050,000"
+  ],
+  "date": "2026-10-18"
+ },
+ {
+  "id": "R-10",
+  "kind": "review",
+  "tx": [
+   "TX0060"
+  ],
+  "question": "TX0060 pomegranate order 1,664,700 — treatment?",
+  "options": [
+   "Keep Invoice only",
+   "Supported, ~1404/10/03",
+   "Already in a reimbursement"
+  ],
+  "choice": "Keep Invoice only",
+  "rationale": "Order screen only; no date, vendor, payer or payment.",
+  "evidence": [
+   "photo_38 message151 order screen 7×229,900+40,400+15,000=1,664,700 toman",
+   "channel message3304 Yalda 1404/10/03"
+  ],
+  "date": "2026-10-18"
+ },
+ {
+  "id": "R-11",
+  "kind": "review",
+  "tx": [
+   "TX0082"
+  ],
+  "question": "TX0082 Skyroom 4,257,000 — project and treatment?",
+  "options": [
+   "SS1405, pending payable",
+   "SS1405, paid by Hassan",
+   "SS1405, not owed"
+  ],
+  "choice": "SS1405, pending payable",
+  "rationale": "Invoice dated first session day, Skyroom used, recording package matches FAQ; buyer Hassan personally; no payment proof.",
+  "evidence": [
+   "invoice-61150.pdf p1 1405/06/07 buyer محمد حسن شیری",
+   "summerschool_channel message29/40",
+   "private_group message12188, message12656"
+  ],
+  "date": "2026-10-18",
+  "set": {
+   "project": "Summer School 1405"
+  }
+ },
+ {
+  "id": "R-12",
+  "kind": "review",
+  "tx": [
+   "TX0093",
+   "TX0094"
+  ],
+  "question": "Intro Event 1405 23,000,000 vs Evand gross 27,235,000?",
+  "options": [
+   "Keep 23M net, open item",
+   "Gross + fees",
+   "Both to Review"
+  ],
+  "choice": "Keep 23M net, open item",
+  "rationale": "23M Supported on original-ledger basis; TX0094 memo; 4,235,000 gap shown in project sheet; open item for Evand payout statement.",
+  "evidence": [
+   "مجموع!B45 23,000,000",
+   "physics_intro full report.pdf p1 ticket sales 27,235,000, 90 participants"
+  ],
+  "date": "2026-10-18"
+ },
+ {
+  "id": "R-13",
+  "kind": "review",
+  "tx": [
+   "TX0096"
+  ],
+  "question": "TX0096 domain 3,000,000 — treatment?",
+  "options": [
+   "Pending, date ≤1405/04",
+   "Supported, paid by Hassan",
+   "Not an association cost"
+  ],
+  "choice": "Pending, date ≤1405/04",
+  "rationale": "User-declared amount; purchase on or before 1405/04/08; no receipt/funding source.",
+  "evidence": [
+   "website_user_confirmation_2026-10-11.json",
+   "private_group message11098 2026-06-29 'دامنه .comش هم گیر آوردم بالاخره'"
+  ],
+  "date": "2026-10-18",
+  "set": {
+   "period_jalali": "1405/04",
+   "date_note": "on or before 1405/04/08"
+  }
+ },
+ {
+  "id": "R-14",
+  "kind": "review",
+  "tx": [
+   "TX0013"
+  ],
+  "question": "TX0013 keys 750,000 workbook-only — treatment?",
+  "options": [
+   "Keep Supported, flag basis",
+   "Move to Review"
+  ],
+  "choice": "Keep Supported, flag basis",
+  "rationale": "Original-ledger basis; existence confirmed by message57, amount unconfirmed.",
+  "evidence": [
+   "مجموع!D11",
+   "message57"
+  ],
+  "date": "2026-10-18"
+ },
+ {
+  "id": "R-15",
+  "kind": "review",
+  "tx": [
+   "TX0045"
+  ],
+  "question": "TX0045 Moghimi 7,000,000 workbook-only — treatment?",
+  "options": [
+   "Keep Supported, flag basis",
+   "Move to Review"
+  ],
+  "choice": "Keep Supported, flag basis",
+  "rationale": "Treasurer booked three distinct Moghimi rows (M6 sums all three); 'این فعلا ده میلیون' implies further giving; open item to confirm.",
+  "evidence": [
+   "مجموع!A38:B40, M6",
+   "message103"
+  ],
+  "date": "2026-10-18"
+ },
+ {
+  "id": "R-16",
+  "kind": "review",
+  "tx": [
+   "TX0095"
+  ],
+  "question": "TX0095 after-party 5,000,000 workbook-only — treatment?",
+  "options": [
+   "Keep Supported, flag basis",
+   "Move to Review"
+  ],
+  "choice": "Keep Supported, flag basis",
+  "rationale": "Original-ledger basis; after-party corroborated; open item for receipt/payee.",
+  "evidence": [
+   "مجموع!D45",
+   "public_group message5758 2026-09-24 19:05"
+  ],
+  "date": "2026-10-18"
+ },
+ {
+  "id": "U-01",
+  "kind": "date",
+  "tx": [
+   "TX0001"
+  ],
+  "question": "TX0001 date?",
+  "options": [
+   "2025-07-24, period 1404/05",
+   "2025-07-22, period 1404/04",
+   "Month only"
+  ],
+  "choice": "2025-07-24, period 1404/05",
+  "rationale": "Course reports posted that day.",
+  "evidence": [
+   "message6–8 2025-07-24 20:47"
+  ],
+  "date": "2026-10-18",
+  "set": {
+   "date_gregorian": "2025-07-24",
+   "date_basis": "reports posted"
+  }
+ },
+ {
+  "id": "U-02",
+  "kind": "date",
+  "tx": [
+   "TX0014",
+   "TX0016",
+   "TX0017"
+  ],
+  "question": "Date Intro Event 1404 rows to event day?",
+  "options": [
+   "2025-09-06",
+   "Month only"
+  ],
+  "choice": "2025-09-06",
+  "rationale": "Event-day proxy.",
+  "evidence": [
+   "channel message3123/3136 event 1404/06/15"
+  ],
+  "date": "2026-10-18",
+  "set": {
+   "date_gregorian": "2025-09-06",
+   "date_basis": "event-day proxy"
+  }
+ },
+ {
+  "id": "U-03",
+  "kind": "date",
+  "tx": [
+   "TX0015"
+  ],
+  "question": "TX0015 date: slip 2025-09-05 vs posted 2025-09-04?",
+  "options": [
+   "2025-09-04",
+   "Keep 2025-09-05"
+  ],
+  "choice": "2025-09-04",
+  "rationale": "Telegram server time precedes printed slip date; POS clock likely off. Controller viewed photo_11.",
+  "evidence": [
+   "photo_11 message48 posted 2025-09-04 14:05:56; slip prints 1404/06/14 12:26:10"
+  ],
+  "date": "2026-10-18",
+  "set": {
+   "date_gregorian": "2025-09-04",
+   "date_basis": "Telegram post time; slip prints 1404/06/14"
+  }
+ },
+ {
+  "id": "U-04",
+  "kind": "date",
+  "tx": [
+   "TX0044"
+  ],
+  "question": "TX0044 period?",
+  "options": [
+   "≤ 2025-11-19, period 1404/08",
+   "Keep period 1404/09"
+  ],
+  "choice": "≤ 2025-11-19, period 1404/08",
+  "rationale": "Forwarded original timestamp 19.11.2025 11:44.",
+  "evidence": [
+   "message102/103"
+  ],
+  "date": "2026-10-18",
+  "set": {
+   "date_gregorian": "2025-11-19",
+   "date_basis": "on or before (forward timestamp)",
+   "period_jalali": "1404/08"
+  }
+ },
+ {
+  "id": "U-05",
+  "kind": "date",
+  "tx": [
+   "TX0036"
+  ],
+  "question": "TX0036 date?",
+  "options": [
+   "2025-10-29",
+   "Month only"
+  ],
+  "choice": "2025-10-29",
+  "rationale": "Freshman party day proxy.",
+  "evidence": [
+   "channel message3212"
+  ],
+  "date": "2026-10-18",
+  "set": {
+   "date_gregorian": "2025-10-29",
+   "date_basis": "event-day proxy"
+  }
+ },
+ {
+  "id": "U-06",
+  "kind": "date",
+  "tx": [
+   "TX0074"
+  ],
+  "question": "TX0074 RIBAR date?",
+  "options": [
+   "1404/10/03",
+   "1404/10/13",
+   "Month only"
+  ],
+  "choice": "1404/10/03",
+  "rationale": "Stroke read as slash; matches Yalda day.",
+  "evidence": [
+   "CamScanner PDF p11"
+  ],
+  "date": "2026-10-18",
+  "set": {
+   "date_gregorian": "2025-12-24",
+   "date_basis": "handwritten invoice, read 1404/10/03"
+  }
+ },
+ {
+  "id": "U-07",
+  "kind": "date",
+  "tx": [
+   "TX0060"
+  ],
+  "question": "TX0060 period?",
+  "options": [
+   "Period 1404/10, undated",
+   "Leave blank"
+  ],
+  "choice": "Period 1404/10, undated",
+  "rationale": "By event association (Yalda).",
+  "evidence": [
+   "channel message3304"
+  ],
+  "date": "2026-10-18",
+  "set": {
+   "period_jalali": "1404/10",
+   "date_basis": "period by event association"
+  }
+ },
+ {
+  "id": "U-08",
+  "kind": "date",
+  "tx": [
+   "TX0013",
+   "TX0045",
+   "TX0047",
+   "TX0048",
+   "TX0058",
+   "TX0093",
+   "TX0095",
+   "TX0010",
+   "TX0025"
+  ],
+  "question": "Accept month-only dating?",
+  "options": [
+   "Month only, flagged",
+   "Use event-day proxies"
+  ],
+  "choice": "Month only, flagged",
+  "rationale": "Evidence supports only a month.",
+  "evidence": [
+   "dossier-D undated analysis"
+  ],
+  "date": "2026-10-18",
+  "set": {
+   "date_basis": "month only"
+  }
+ },
+ {
+  "id": "P-01",
+  "kind": "reassignment",
+  "tx": [
+   "TX0080"
+  ],
+  "question": "TX0080 reassign?",
+  "options": [
+   "SS1405 / Advertising",
+   "Keep Unassigned"
+  ],
+  "choice": "SS1405 / Advertising",
+  "rationale": "Same payee as 1404 ad; ad posted/forwarded minutes after payment.",
+  "evidence": [
+   "public_group message504 21:55, message516 22:04 (forwarded from Sharif Admin)",
+   "TX0009 payee"
+  ],
+  "date": "2026-10-18",
+  "set": {
+   "project": "Summer School 1405",
+   "category": "Advertising"
+  }
+ },
+ {
+  "id": "P-02",
+  "kind": "reassignment",
+  "tx": [
+   "TX0089"
+  ],
+  "question": "TX0089 reassign?",
+  "options": [
+   "Intro Event 1405 / Hospitality",
+   "Keep Unassigned"
+  ],
+  "choice": "Intro Event 1405 / Hospitality",
+  "rationale": "Invoice on event eve, 90 cakes for 90 participants; planning chat.",
+  "evidence": [
+   "recipts/photo_2026-10-10_12-16-28.jpg invoice 1405/07/01 19:11",
+   "public_group message5411, message5578"
+  ],
+  "date": "2026-10-18",
+  "set": {
+   "project": "Intro Event 1405",
+   "category": "Hospitality"
+  }
+ },
+ {
+  "id": "P-03",
+  "kind": "reassignment",
+  "tx": [
+   "TX0034"
+  ],
+  "question": "TX0034 split flash drive?",
+  "options": [
+   "Split into two rows",
+   "Keep whole, note it"
+  ],
+  "choice": "Split into two rows",
+  "rationale": "Caption 'فلش انجمن', 32GB Samsung 5,000,000 rial.",
+  "evidence": [
+   "photo_35 message148"
+  ],
+  "date": "2026-10-18",
+  "set": {
+   "split": [
+    {
+     "id": "TX0034",
+     "amount_toman": 1000000
+    },
+    {
+     "id": "TX0034-B",
+     "amount_toman": 500000,
+     "project": "Association operations",
+     "category": "Equipment"
+    }
+   ]
+  }
+ },
+ {
+  "id": "P-04",
+  "kind": "reassignment",
+  "tx": [
+   "TX0020"
+  ],
+  "question": "TX0020 project?",
+  "options": [
+   "Keep Professors assembly, note shared",
+   "Association operations",
+   "Split 45,000 / 45,000"
+  ],
+  "choice": "Keep Professors assembly, note shared",
+  "rationale": "Too small to split.",
+  "evidence": [
+   "message61"
+  ],
+  "date": "2026-10-18",
+  "set": {}
+ },
+ {
+  "id": "P-05",
+  "kind": "reassignment",
+  "tx": [
+   "TX0043",
+   "TX0061",
+   "TX0075",
+   "TX0076",
+   "TX0077",
+   "TX0078",
+   "TX0079",
+   "TX0081",
+   "TX0090",
+   "TX0091",
+   "TX0092"
+  ],
+  "question": "11 Unassigned payments with no trace — action?",
+  "options": [
+   "Keep Unassigned + open items",
+   "Date-signal TX0090/91"
+  ],
+  "choice": "Keep Unassigned + open items",
+  "rationale": "No evidence of purpose in any chat.",
+  "evidence": [
+   "dossier-C searches"
+  ],
+  "date": "2026-10-18",
+  "set": {}
+ }
+]
