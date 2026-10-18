@@ -13,7 +13,7 @@ from . import i18n
 from .common import ROOT, LEDGER_CSV, LEDGER_DIR, WINDOW_END, WINDOW_START, read_json
 from .correlate import _load_tx
 from .i18n import t, term
-from .report_common import md_to_pdf, md_to_pdf_rtl
+from .report_common import ensure_disk, md_to_pdf, md_to_pdf_rtl
 
 TOL = 0.5  # toman
 
@@ -255,8 +255,8 @@ def render(lang="en"):
     for e in sorted(tx_hours, key=lambda e: e["hour"]):
         L.append("- " + t("fin.ev.hour_line", lang, hour=f"{e['hour']:02d}", n=f"{e['n']}"))
     items = i18n.punct("comma", lang).join(
-        f"{term('weekday', _wd_en(e['jalali_weekday']), lang)} "
-        f"{e['hour']:02d}:00 (n={e['n']})" for e in peaks)
+        t("fin.ev.peak_item", lang, weekday=term("weekday", _wd_en(e["jalali_weekday"]), lang),
+          hour=f"{e['hour']:02d}", n=f"{e['n']}") for e in peaks)
     L += ["", t("fin.ev.peaks_line", lang, items=items), "",
           t("fin.ev.caveat", lang, mode=f"{est.get('mode')}", n=f"{est.get('n')}",
             times=i18n.punct("comma", lang).join(est.get('times', []))), ""]
@@ -277,6 +277,7 @@ def render(lang="en"):
 
 
 def build(lang="en"):
+    ensure_disk(OUT.parent)
     text = render(lang)
     out = OUT if lang == "en" else OUT_FA
     out.parent.mkdir(parents=True, exist_ok=True)

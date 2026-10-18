@@ -99,15 +99,26 @@ def dt(iso, lang, n=10):
 # ------------------------------------------------------------ digit handling
 _FA = "۰۱۲۳۴۵۶۷۸۹"
 _TO_FA = str.maketrans("0123456789", _FA)
-_TO_EN = str.maketrans(_FA + "٬٫٪", "0123456789,.%")
+# LRI/PDI (U+2066/U+2069) isolate marks localize() puts around ISO dates; they
+# carry no content, so delocalize() drops them.
+_LRI, _PDI = "\u2066", "\u2069"
+_TO_EN = str.maketrans(_FA + "٬٫٪", "0123456789,.%", _LRI + _PDI)
 _PROTECT = re.compile(
     r"`[^`]*`"                       # inline code
     r"|!\[[^\]]*\]\([^)]*\)"         # markdown image
     r"|https?://\S+"                 # URL
     r"|@\w+"                         # handle
-    r"|\w+#\d+"                      # chat#message reference
+    r"|\w+#\w*\d+"                   # chat#message ref (accounting_group#message10)
     r"|[A-Za-z_][A-Za-z0-9_\-]*\d[A-Za-z0-9_\-]*"  # TX0036, m29, Task-11
 )
+
+
+# Hyphenated Gregorian dates (ASCII or Persian digits). Inside RTL text the
+# bidi algorithm lays "2025-05-28" out as "28-05-2025"; an LTR isolate keeps
+# the year first. Matched ahead of _PROTECT so "T13:30" is not taken for an
+# identifier; already-isolated dates are skipped so localize() is idempotent.
+_ISO_RUN = re.compile(r"(?<![\d\u2066])\d{4}-\d{2}-\d{2}(?:T\d{2}:\d{2})?(?!\d)")
+_SPANS = re.compile(_ISO_RUN.pattern + "|" + _PROTECT.pattern)
 
 
 def _fa_span(s):
@@ -119,9 +130,10 @@ def _fa_span(s):
 
 def localize(text):
     out, pos = [], 0
-    for m in _PROTECT.finditer(text):
+    for m in _SPANS.finditer(text):
         out.append(_fa_span(text[pos:m.start()]))
-        out.append(m.group(0))
+        tok = m.group(0)
+        out.append(_LRI + _fa_span(tok) + _PDI if _ISO_RUN.fullmatch(tok) else tok)
         pos = m.end()
     out.append(_fa_span(text[pos:]))
     return "".join(out)

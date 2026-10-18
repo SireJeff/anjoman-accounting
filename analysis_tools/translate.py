@@ -42,10 +42,24 @@ Rules for every fragment:
 4. Keep **bold** markers around the corresponding Persian words (same number of ** pairs).
 5. Keep IDs (TX0036), @handles, URLs, file names, slugs (dept-weekly-seminars) and Latin proper names verbatim.
 6. Whenever a glossary concept occurs, use its glossary Persian term.
-7. Use Persian punctuation (، ؛ ؟) and standard ZWNJ spellings (می‌شود، داده‌ها).
+7. Use Persian punctuation (، ؛ ؟) and standard ZWNJ spellings (می‌شود، داده‌ها). In ranges write «←» instead of "→" (RTL reading order). Never use « · » as a separator; use «؛» or «،».
 8. Fragments can begin or end mid-sentence. Preserve leading and trailing spaces exactly.
 9. Keys starting with "data.thread." are event-thread titles. Translate their English words and keep their Persian words as they are.
 10. If "notes" lists problems for a key, fix exactly those problems."""
+
+
+# Keys whose Persian wording is deliberately hand-maintained in fa.json (not a
+# mechanical punctuation fix): run() never re-translates them while an fa entry
+# exists, even if their English changed; it reports them as "manual_stale"
+# instead, and fa.json + hashes.json must then be updated by hand.
+MANUAL_KEYS = (
+    "chart.ecosystem.legend_title",   # LaTeX \propto replaced by words
+    "fin.cash.h_greg",                # column holds Jalali dates in fa
+    "fin.ev.peak_item",               # added by hand ("n=" -> "پیام")
+    "fin.flag.block_reason",          # Parnian -> پرنیان
+    "perf.s7.final",                  # terminology fixes
+    "perf.title",                     # title uses Jalali dates (catalog convention)
+)
 
 
 class Item(BaseModel):
@@ -85,7 +99,14 @@ def validate(en, fa):
 
 
 def pending(en, fa, hashes):
-    return [k for k in sorted(en) if k not in fa or hashes.get(k) != i18n.sha(en[k])]
+    return [k for k in sorted(en)
+            if k not in fa or (k not in MANUAL_KEYS and hashes.get(k) != i18n.sha(en[k]))]
+
+
+def manual_stale(en, fa, hashes):
+    """Hand-maintained keys whose English changed since their fa was written."""
+    return [k for k in MANUAL_KEYS
+            if k in en and k in fa and hashes.get(k) != i18n.sha(en[k])]
 
 
 def call_model(client, items, glossary, notes=None, attempt=0):
@@ -157,7 +178,8 @@ def run(client, size=CHUNK, out_dir=None):
         todo = retry
     _write(out_dir, fa, hashes)
     i18n.reload()
-    return {"translated": done, "failed": failed}
+    return {"translated": done, "failed": failed,
+            "manual_stale": manual_stale(en, fa, hashes)}
 
 
 def main(argv=None):
@@ -176,6 +198,9 @@ def main(argv=None):
     print(f"translated {res['translated']} keys; {len(res['failed'])} failed")
     for k, p in res["failed"].items():
         print(f"  FAILED {k}: {'; '.join(p)}", file=sys.stderr)
+    for k in res["manual_stale"]:
+        print(f"  MANUAL {k}: English changed; update fa.json and hashes.json by hand",
+              file=sys.stderr)
     sys.exit(1 if res["failed"] else 0)
 
 

@@ -122,6 +122,7 @@
  "fin.ev.hour_line": "{hour}:00 — {n} TX-linked messages",
  "fin.ev.hours_intro": "Accounting-group hours holding at least 5 TX-linked messages (n ≥ 5 only, {n} hours):",
  "fin.ev.intro": "The Evidence column above counts ledger `message_ids` — the accounting-group messages each month's rows are linked to. Where a transaction links to messages, timestamps come from the Telegram export and are **export-local (UTC+03:30)**: they show when the treasurer posted, not necessarily when cash moved.",
+ "fin.ev.peak_item": "{weekday} {hour}:00 (n={n})",
  "fin.ev.peaks_line": "Weekday peaks in the accounting group (n ≥ 5): {items}.",
  "fin.flag.block_reason": "Grouped: volunteer-funded or scan-ambiguous event payments (supports TX0050, TX0062/63 and the Parnian reimbursement; several may be duplicate scans of one slip)",
  "fin.flag.h_amount": "Amount",

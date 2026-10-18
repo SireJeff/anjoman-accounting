@@ -40,6 +40,27 @@ Central repository for the Anjoman's accounting records and Telegram chat archiv
   packages: `reports/2026-10-14/financial_monthly/` and `reports/2026-10-14/performance/`.
 - 2026-10-18 — Persian (FA) versions of both 2026-10-14 reports: catalog-driven (analysis_tools/i18n, translated once via the Claude API), RTL PDFs via WeasyPrint, Persian charts in charts_fa/.
 
+## Rebuilding the Persian (FA) reports
+
+Run from the repository root. Each step stops if C: has less than 1 GB free.
+
+```bash
+python -m analysis_tools.charts --lang fa                    # charts_fa/*.png
+python -m analysis_tools.build_financial_report --lang fa    # …_Monthly_FA.{md,html,pdf}
+python -m analysis_tools.build_performance_report --lang fa  # …_Report_FA.{md,html,pdf}
+```
+
+The builders read the committed `analysis_tools/i18n/fa.json` and never call the API. Only when
+`en.json` changes does the catalog need re-translating (VPN on; the key is read from the local key
+file into the environment, never typed or committed):
+
+```bash
+ANTHROPIC_API_KEY="$(cat ~/.config/anthropic/anjoman_key)" python -m analysis_tools.translate
+```
+
+Keys listed in `translate.MANUAL_KEYS` are hand-maintained in `fa.json` and are never re-translated;
+if their English changes, update `fa.json` and `hashes.json` by hand.
+
 ## Notes for collaborators
 
 - Files over 50 MB are stored via **Git LFS** (see `.gitattributes`). Install it (`git lfs install`) before cloning/pulling, or those files will download as pointer stubs.

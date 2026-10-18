@@ -364,7 +364,9 @@ def _jalali_month_ticks(ax, lang):
 
 def event_timeline(tl, path, lang="en"):
     """Horizontal span per thread (first_seen -> last_seen); money-only skipped."""
-    from .build_performance_report import thread_title   # local import: avoids import cycle
+    # local import: only this chart needs the report builder's title helper, so
+    # importing charts does not pull in the builder (and its PDF stack) eagerly
+    from .build_performance_report import thread_title
     threads = [th for th in (tl.get("threads") or []) if th.get("first_seen")]
     threads.sort(key=lambda th: th["first_seen"])
     n = len(threads)
@@ -703,6 +705,8 @@ def cumulative_cash(tl, path, lang="en"):
 
 
 def render_all(lang="en"):
+    from .report_common import ensure_disk   # local: keeps reportlab out of chart-only imports
+    ensure_disk(PERF.parent)
     tl, eco = load_timeline(), load_ecosystem()
     perf_dir = PERF.with_name("charts_fa") if lang == "fa" else PERF
     fin_dir = FIN.with_name("charts_fa") if lang == "fa" else FIN
@@ -718,4 +722,7 @@ def render_all(lang="en"):
     return out
 
 if __name__ == "__main__":
-    print(render_all())
+    import argparse
+    ap = argparse.ArgumentParser(description="Render report charts (fa -> charts_fa/).")
+    ap.add_argument("--lang", choices=("en", "fa"), default="en")
+    print(render_all(ap.parse_args().lang))

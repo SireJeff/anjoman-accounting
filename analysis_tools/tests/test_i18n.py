@@ -76,6 +76,31 @@ def test_localize_protects_identifiers():
     assert out.endswith("and ۵")
 
 
+def test_protect_real_chat_reference():
+    # real refs in the analysis artifacts look like accounting_group#message10
+    ref = "accounting_group#message10"
+    assert i18n._PROTECT.fullmatch(ref)
+    out = i18n.localize(f"see {ref} and 5")
+    assert ref in out and out.endswith("and ۵")
+
+
+def test_localize_isolates_iso_dates():
+    LRI, PDI = "\u2066", "\u2069"
+    out = i18n.localize("بازهٔ 2025-05-28 ← 2026-10-14 و 2025-10-04T13:30، n=5")
+    assert out == (f"بازهٔ {LRI}۲۰۲۵-۰۵-۲۸{PDI} ← {LRI}۲۰۲۶-۱۰-۱۴{PDI} و "
+                   f"{LRI}۲۰۲۵-۱۰-۰۴T۱۳:۳۰{PDI}، n=۵")
+    # Persian-digit dates are isolated too; localize() is idempotent
+    assert i18n.localize("۲۰۲۵-۰۵-۲۸") == f"{LRI}۲۰۲۵-۰۵-۲۸{PDI}"
+    assert i18n.localize(out) == out
+    # protected spans are untouched (no isolates inside code or file names)
+    assert i18n.localize("`2026-10-10` report_2026-10-10.md") == \
+        "`2026-10-10` report_2026-10-10.md"
+    # isolates are invisible to delocalize / number parity
+    assert i18n.delocalize(out) == "بازهٔ 2025-05-28 ← 2026-10-14 و 2025-10-04T13:30، n=5"
+    assert i18n.number_tokens(out) == i18n.number_tokens(
+        "بازهٔ 2025-05-28 ← 2026-10-14 و 2025-10-04T13:30، n=5")
+
+
 def test_delocalize_roundtrip():
     assert i18n.delocalize("۱٬۲۳۴٫۵٪") == "1,234.5%"
 

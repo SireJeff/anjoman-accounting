@@ -18,7 +18,7 @@ import jdatetime
 from . import i18n
 from .common import ROOT, read_json
 from .i18n import t, term
-from .report_common import md_to_pdf, md_to_pdf_rtl
+from .report_common import ensure_disk, md_to_pdf, md_to_pdf_rtl
 
 OUT = ROOT / "reports/2026-10-14/performance/Anjoman_Performance_Activity_Report.md"
 OUT_FA = OUT.with_name("Anjoman_Performance_Activity_Report_FA.md")
@@ -148,6 +148,8 @@ def sec1(tl, stats, w_rows, lang):
             n_msg=f"{len(threads)}", n_money=f"{len(money_only)}",
             rec=fmt(rec), pay=fmt(pay), net=fmt(rec - pay), und=fmt(und)), "",
           t("perf.s1.top5_intro", lang), ""]
+    # fa: no-break spaces keep each "first ← last" range on one line in the PDF
+    gap = " " if lang == "en" else "\u00a0"
     L += _table([t(k, lang) for k in ("perf.s1.tbl_top5.h_thread",
                                        "perf.s1.tbl_top5.h_title",
                                        "perf.s1.tbl_top5.h_seen",
@@ -155,7 +157,7 @@ def sec1(tl, stats, w_rows, lang):
                                        "perf.s1.tbl_top5.h_msgs",
                                        "perf.s1.tbl_top5.h_tx_total")],
                 [[f"`{th['event_ref']}`", clean(thread_title(th, lang), lang, 44),
-                  f"{i18n.dt(th['first_seen'], lang)} {i18n.punct('arrow', lang)} "
+                  f"{i18n.dt(th['first_seen'], lang)}{gap}{i18n.punct('arrow', lang)}{gap}"
                   f"{i18n.dt(th['last_seen'], lang)}",
                   str(len(th["chats"])), f"{th['n_messages']:,}",
                   fmt(th["tx_total_toman"])] for th in top5])
@@ -248,7 +250,7 @@ def sec2(tl, w_rows, lang):
                                                "perf.s2.tbl.h_last")],
                         [[f"`{th['event_ref']}`", th["first_seen"][:10],
                           jdate(th["first_seen"]), f"{th['n_messages']:,}",
-                          str(len(th["chats"])), th["last_seen"][:10]]
+                          str(len(th["chats"])), i18n.dt(th["last_seen"], lang)]
                          for th in top])
             L.append("")
     return L
@@ -717,6 +719,7 @@ def render(lang="en"):
 
 
 def build(lang="en"):
+    ensure_disk(OUT.parent)
     out = OUT if lang == "en" else OUT_FA
     chart_dir = "charts" if lang == "en" else "charts_fa"
     for c in CHARTS:

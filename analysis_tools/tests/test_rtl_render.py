@@ -1,3 +1,4 @@
+import pytest
 from pypdf import PdfReader
 
 from analysis_tools.report_common import md_to_html_rtl, md_to_pdf_rtl
@@ -47,3 +48,33 @@ def test_pdf_written(tmp_path):
     pdf = md_to_pdf_rtl(md, tmp_path / "r_FA.pdf", title="گزارش", footer="انجمن")
     assert pdf.exists() and len(PdfReader(str(pdf)).pages) >= 1
     assert (tmp_path / "r_FA.html").exists()
+
+
+def _fake_usage(free_gb):
+    from collections import namedtuple
+    U = namedtuple("usage", "total used free")
+    return lambda p: U(500 * 1024 ** 3, 0, int(free_gb * 1024 ** 3))
+
+
+def test_ensure_disk_passes_and_fails(tmp_path, monkeypatch):
+    import shutil
+    from analysis_tools import report_common
+    seen = []
+    monkeypatch.setattr(shutil, "disk_usage", lambda p: (seen.append(p), _fake_usage(2.5)(p))[1])
+    assert report_common.ensure_disk(tmp_path / "not" / "yet", min_gb=1.0) == 2.5
+    assert seen == [tmp_path]                     # walked up to an existing dir
+    monkeypatch.setattr(shutil, "disk_usage", _fake_usage(0.4))
+    with pytest.raises(RuntimeError, match=r"0\.40 GB free"):
+        report_common.ensure_disk(tmp_path, min_gb=1.0)
+
+
+@pytest.mark.parametrize("call", ["fin", "perf", "charts"])
+def test_builders_stop_on_low_disk(call, monkeypatch):
+    import shutil
+    from analysis_tools import build_financial_report, build_performance_report, charts
+    monkeypatch.setattr(shutil, "disk_usage", _fake_usage(0.1))
+    fn = {"fin": lambda: build_financial_report.build("fa"),
+          "perf": lambda: build_performance_report.build("fa"),
+          "charts": lambda: charts.render_all("fa")}[call]
+    with pytest.raises(RuntimeError, match="GB free"):
+        fn()

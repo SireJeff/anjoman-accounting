@@ -8,6 +8,7 @@ charts.py so figures and tables read as one system.
 """
 import html
 import re
+import shutil
 from pathlib import Path
 
 from reportlab.lib import colors
@@ -18,6 +19,20 @@ from reportlab.lib.units import cm
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.platypus import Image, Paragraph, SimpleDocTemplate, Spacer, Table, TableStyle
+
+def ensure_disk(path=None, min_gb=1.0):
+    """Stop before chart/PDF generation when the drive holding `path` (default:
+    the reports tree) has less than `min_gb` GB free (spec 5: stop if < 1 GB)."""
+    from .common import ROOT
+    p = Path(path) if path else ROOT / "reports"
+    while not p.exists() and p != p.parent:   # disk_usage needs an existing path
+        p = p.parent
+    free_gb = shutil.disk_usage(p).free / 1024 ** 3
+    if free_gb < min_gb:
+        raise RuntimeError(f"only {free_gb:.2f} GB free on the drive holding {p} "
+                           f"(need >= {min_gb:g} GB); free space before rebuilding reports")
+    return free_gb
+
 
 # dataviz tokens (see charts.py)
 INK = "#0b0b0b"

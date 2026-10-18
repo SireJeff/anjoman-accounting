@@ -80,6 +80,13 @@ def test_catalog_integrity():
     assert bad == {}
 
 
+def test_fa_catalog_punctuation_conventions():
+    """FA ranges use «←» and separators «؛/،»; guards the hand fixes in fa.json
+    against a re-translation that brings back "→" or " · "."""
+    bad = {k: v for k, v in i18n.catalog("fa").items() if "→" in v or " · " in v}
+    assert bad == {}
+
+
 def test_every_en_key_is_referenced():
     code = "".join(open(p, encoding="utf-8").read()
                    for p in glob.glob(str(ROOT / "analysis_tools/*.py")))

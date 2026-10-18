@@ -116,3 +116,33 @@ def test_main_requires_key(monkeypatch, capsys):
     with pytest.raises(SystemExit) as e:
         translate.main([])
     assert e.value.code == 2 and "ANTHROPIC_API_KEY" in capsys.readouterr().err
+
+
+def test_pending_skips_manual_keys_unless_missing(monkeypatch):
+    monkeypatch.setattr(translate, "MANUAL_KEYS", ("m",))
+    en = {"m": "Manual", "x": "X"}
+    stale = {"m": "old", "x": "old"}
+    assert translate.pending(en, {"m": "دستی", "x": "ایکس"}, stale) == ["x"]
+    assert translate.pending(en, {"x": "ایکس"}, stale) == ["m", "x"]   # missing -> translate
+    assert translate.manual_stale(en, {"m": "دستی", "x": "ایکس"}, stale) == ["m"]
+
+
+def test_run_never_overwrites_manual_key(catdir, monkeypatch):
+    monkeypatch.setattr(translate, "MANUAL_KEYS", ("k3",))
+    (catdir / "fa.json").write_text(json.dumps({"k3": "سهٔ دستی"}), encoding="utf-8")
+    (catdir / "hashes.json").write_text(json.dumps({"k3": "stale"}), encoding="utf-8")
+    i18n.reload()
+    msgs = FakeMessages(lambda p: _resp({k: GOOD[k] for k in p["items"]}))
+    res = translate.run(SimpleNamespace(messages=msgs), size=3, out_dir=catdir)
+    assert all("k3" not in c["items"] for c in msgs.calls)
+    fa = json.loads((catdir / "fa.json").read_text(encoding="utf-8"))
+    assert fa["k3"] == "سهٔ دستی" and res["manual_stale"] == ["k3"]
+
+
+def test_manual_keys_exist_in_catalog():
+    en, fa = i18n.catalog("en"), i18n.catalog("fa")
+    assert all(k in en and k in fa for k in translate.MANUAL_KEYS)
+
+
+def test_system_prompt_states_fa_conventions():
+    assert "←" in translate.SYSTEM and "«؛»" in translate.SYSTEM and "·" in translate.SYSTEM
