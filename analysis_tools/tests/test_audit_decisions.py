@@ -20,3 +20,7 @@ def test_register_complete_and_shaped():
         assert e["question"] and e["choice"] and e["rationale"]
         assert e["date"] == "2026-10-18"
         assert isinstance(e["evidence"], list) and e["evidence"]
+
+def test_register_no_pii():
+    from analysis_tools.audit.pii import scan  # added in Task 5; see note
+    assert scan(DEC.read_text(encoding="utf-8")) == []
