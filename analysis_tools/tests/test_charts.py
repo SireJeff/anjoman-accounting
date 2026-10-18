@@ -110,3 +110,48 @@ def test_fa_charts_no_latin_digits(tmp_path, monkeypatch, pseudo_fa):
             if re.search(r"[0-9]", stripped):
                 bad.append(s)
     assert not bad, f"Latin digits found in fa chart text: {bad!r}"
+
+
+def test_event_timeline_fa_jalali_month_ticks(tmp_path, monkeypatch, pseudo_fa):
+    """FA event_timeline x-axis must show Jalali month+year ticks (spec S3.5),
+    not the Gregorian/English ConciseDateFormatter ticks the EN path uses."""
+    import re
+    from analysis_tools import i18n
+
+    # Spans Jun 2025 -> Jan 2026: 4 distinct Gregorian months, 8 distinct Jalali
+    # months (1404/03 .. 1404/10) -- long enough to exercise the every-2nd-month
+    # thinning branch too. event_ref values are real data.thread.* keys so
+    # pseudo_fa (derived from en.json) already covers them.
+    threads = [
+        {"event_ref": "yalda-1404", "title": "Yalda 1404",
+         "first_seen": "2025-06-01T10:00:00", "last_seen": "2025-06-15T10:00:00"},
+        {"event_ref": "booths-1404", "title": "Booths 1404",
+         "first_seen": "2025-08-01T10:00:00", "last_seen": "2025-08-20T10:00:00"},
+        {"event_ref": "freshman-party-1404", "title": "Freshman Party 1404",
+         "first_seen": "2025-10-01T10:00:00", "last_seen": "2025-10-10T10:00:00"},
+        {"event_ref": "summer-school-1405", "title": "Summer School 1405",
+         "first_seen": "2026-01-01T10:00:00", "last_seen": "2026-01-15T10:00:00"},
+    ]
+    tl = {"threads": threads}
+
+    captured = []
+    orig_save = charts._save
+
+    def spy_save(fig, path, dpi=120, lang="en"):
+        captured.append(fig)
+        return orig_save(fig, path, dpi=dpi, lang=lang)
+
+    monkeypatch.setattr(charts, "_save", spy_save)
+
+    out_path = charts.event_timeline(tl, tmp_path / "event_timeline.png", "fa")
+    assert Path(out_path).exists()
+    assert len(captured) == 1
+    ax = captured[0].axes[0]
+    tick_labels = [lbl.get_text() for lbl in ax.get_xticklabels() if lbl.get_text()]
+    assert tick_labels, "no x tick labels found"
+
+    month_names = set(i18n.catalog("glossary")["jalali_month"].values())
+    assert any(any(name in lbl for name in month_names) for lbl in tick_labels), \
+        f"no Persian month name found in tick labels: {tick_labels!r}"
+    assert not any(re.search(r"[A-Za-z]", lbl) for lbl in tick_labels), \
+        f"ASCII letters found in fa month tick labels: {tick_labels!r}"

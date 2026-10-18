@@ -91,7 +91,10 @@ def test_number_tokens_normalizes_dates():
 def test_glossary_digit_tokens_preserved():
     g = i18n.catalog("glossary")
     for kind, m in g.items():
-        if kind == "terms":
+        # "terms" is free vocabulary, not EN->FA display pairs; "jalali_month" is a
+        # numeric-index ("1".."12") -> Persian month-name lookup table, not a
+        # translation pair, so the index itself isn't expected to reappear in fa.
+        if kind in ("terms", "jalali_month"):
             continue
         for en, fa in m.items():
             assert i18n.number_tokens(en) == i18n.number_tokens(fa), (kind, en, fa)

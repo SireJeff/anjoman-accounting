@@ -5,6 +5,7 @@ import zlib
 from datetime import datetime
 from pathlib import Path
 
+import jdatetime
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
@@ -12,7 +13,7 @@ import numpy as np
 import matplotlib.patheffects as pe
 from matplotlib import font_manager
 from matplotlib.colors import LinearSegmentedColormap
-from matplotlib.dates import AutoDateLocator, ConciseDateFormatter
+from matplotlib.dates import AutoDateLocator, ConciseDateFormatter, date2num, num2date
 from matplotlib.lines import Line2D
 from matplotlib.patches import Patch
 
@@ -111,13 +112,21 @@ def _chrome(ax, title, subtitle=None, xlab=None, ylab=None, lang="en"):
         ax.spines[s].set_linewidth(0.8)
     ax.tick_params(colors=MUTED, labelsize=8, length=3)
     loc = "right" if lang == "fa" else "left"
-    ax.set_title(title, loc=loc, fontsize=12.5, color=INK, fontweight="bold",
-                 pad=20 if subtitle else 10)
-    if subtitle:
-        if lang == "fa":
-            ax.text(1, 1.02, subtitle, transform=ax.transAxes,
-                    fontsize=8.5, color=MUTED, ha="right", va="bottom")
-        else:
+    if lang == "fa":
+        # Fixed-point offsets (not axes-fraction) so title/subtitle spacing is
+        # independent of axes height — on a tall figure (e.g. event_timeline
+        # with many threads) an axes-fraction offset like y=1.02 can collapse
+        # to a point gap smaller than the title's own pad, colliding the two.
+        ax.set_title(title, loc=loc, fontsize=12.5, color=INK, fontweight="bold",
+                     pad=28 if subtitle else 10)
+        if subtitle:
+            ax.annotate(subtitle, xy=(1, 1), xycoords="axes fraction",
+                        xytext=(0, 6), textcoords="offset points",
+                        fontsize=8.5, color=MUTED, ha="right", va="bottom")
+    else:
+        ax.set_title(title, loc=loc, fontsize=12.5, color=INK, fontweight="bold",
+                     pad=20 if subtitle else 10)
+        if subtitle:
             ax.text(0, 1.02, subtitle, transform=ax.transAxes,
                     fontsize=8.5, color=MUTED, ha="left", va="bottom")
     if xlab:
@@ -317,6 +326,42 @@ def hour_histogram(tl, path, lang="en"):
     return _save(fig, path, lang=lang)
 
 
+def _jalali_month_ticks(ax, lang):
+    """FA x-axis for event_timeline (spec S3.5): ticks at Jalali month starts,
+    labelled with the Persian month name + Persian-digit year (e.g. «مهر ۱۴۰۴»)
+    instead of the Gregorian/English ConciseDateFormatter ticks EN uses. Thins to
+    every 2nd month when the span is long, to match EN's ~every-2-months density.
+    Returns False (caller falls back to the EN-style locator) if the axes don't
+    yet have a real date range (e.g. zero threads)."""
+    x0, x1 = ax.get_xlim()
+    if not (np.isfinite(x0) and np.isfinite(x1)) or x0 >= x1:
+        return False
+    j0 = jdatetime.date.fromgregorian(date=num2date(x0).date())
+    j1 = jdatetime.date.fromgregorian(date=num2date(x1).date())
+    months = []
+    y, m = j0.year, j0.month
+    while (y, m) <= (j1.year, j1.month):
+        months.append((y, m))
+        m += 1
+        if m > 12:
+            m = 1
+            y += 1
+    if not months:
+        return False
+    step = 2 if len(months) > 6 else 1          # match EN's ~every-2-months density
+    ticks, labels = [], []
+    for i, (y, m) in enumerate(months):
+        if i % step and i != len(months) - 1:   # always keep the last month
+            continue
+        ticks.append(date2num(jdatetime.date(y, m, 1).togregorian()))
+        # fa-only composition (no EN equivalent, so no t() template): month name
+        # from the glossary, year in Persian digits, e.g. "مهر 1404" -> "مهر ۱۴۰۴".
+        labels.append(f"{term('jalali_month', str(m), lang)} {localize(str(y))}")
+    ax.set_xticks(ticks)
+    ax.set_xticklabels(labels, rotation=45, ha="right")
+    return True
+
+
 def event_timeline(tl, path, lang="en"):
     """Horizontal span per thread (first_seen -> last_seen); money-only skipped."""
     from .build_performance_report import thread_title   # local import: avoids import cycle
@@ -336,9 +381,10 @@ def event_timeline(tl, path, lang="en"):
     ax.invert_yaxis()
     ax.grid(axis="x", color=GRID, linewidth=0.8)
     ax.set_axisbelow(True)
-    loc = AutoDateLocator()
-    ax.xaxis.set_major_locator(loc)
-    ax.xaxis.set_major_formatter(ConciseDateFormatter(loc))
+    if lang != "fa" or not _jalali_month_ticks(ax, lang):
+        loc = AutoDateLocator()
+        ax.xaxis.set_major_locator(loc)
+        ax.xaxis.set_major_formatter(ConciseDateFormatter(loc))
     skipped = len(tl.get("threads") or []) - n
     if skipped:
         sub = t("chart.timeline.sub_excluded", lang, n=f"{n}", skipped=f"{skipped}")
