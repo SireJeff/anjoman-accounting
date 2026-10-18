@@ -14,3 +14,35 @@ def test_gate_fires(monkeypatch):
     monkeypatch.setitem(bar.LOCKED, "cash_payments", 1.0)
     with pytest.raises(AssertionError, match="gate FAILED"):
         bar.run_gates()
+
+def test_fa_render_byte_identical(pseudo_fa):
+    a, b = bar.render("fa"), bar.render("fa")
+    assert a == b
+
+def test_number_parity():
+    from analysis_tools import i18n
+    assert i18n.number_tokens(bar.render("en")) == \
+        i18n.number_tokens(bar.render("fa"))
+
+def test_readonly_folders_untouched():
+    import subprocess
+    for p in ("anjoman_accounting_information/reports/2026-10-10",
+              "anjoman_accounting_information/reports/2026-10-14"):
+        subprocess.run(["git", "diff", "--quiet", "--", p], check=True)
+
+def test_no_pii_in_outputs():
+    from pypdf import PdfReader
+    from analysis_tools.audit import emit
+    from analysis_tools.audit.pii import scan
+    for f in emit.OUT_DIR.iterdir():
+        if f.suffix == ".pdf":
+            # Controller ruling 2026-10-19: PDFs are scanned by EXTRACTED
+            # text (what a reader shows a human), not raw bytes -- raw bytes
+            # false-positive on reportlab's classic-xref 10-digit offsets
+            # and never see inside weasyprint's compressed streams.
+            text = "".join(page.extract_text() or ""
+                           for page in PdfReader(f).pages)
+        else:
+            text = f.read_text(encoding="utf-8", errors="ignore")
+        hits = scan(text)
+        assert hits == [], (f.name, hits)

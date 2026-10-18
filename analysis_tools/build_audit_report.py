@@ -205,8 +205,14 @@ def _project_section(L, fig, rows, lang, evidence_rows):
               "|---|---|---|---|---:|---|---|"]
         for tx in s["tx_rows"]:
             r = by_id[tx]
-            desc = (r["description_en"] if lang == "en"
-                    else (r["description_fa"] or r["description_en"]))
+            # G6 (EN/FA number parity): both languages quote the English
+            # dossier text here.  description_fa is a Persian rendering that
+            # restates figures differently on 42/97 rows (e.g. "۴۰۰ هزار
+            # تومان" vs "400,000 toman", dropped invoice numbers), so it
+            # cannot feed a report whose number tokens must equal the EN
+            # build's.  The audited description_fa still ships in the data
+            # writers' Transactions_Audited.csv/.json.
+            desc = r["description_en"]
             ref = _first_ref(evidence_rows, tx)
             L.append(f"| {tx} | {_date_cell(r, lang)} "
                      f"| {_cell(r['counterparty'])} | {_cell(desc)} "
