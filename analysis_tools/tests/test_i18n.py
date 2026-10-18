@@ -114,3 +114,44 @@ def test_glossary_covers_classifier_categories_and_chats():
     lex = json.loads((i18n.ROOT / "analysis/lexicon.json").read_text(encoding="utf-8"))
     assert set(lex) <= set(g["category"]), set(lex) - set(g["category"])
     assert set(SOURCES) | {"docx"} <= set(g["chat"])
+
+
+def test_glossary_ledger_terms_match_precedent():
+    import pandas as pd
+    from analysis_tools.common import LEDGER_CSV
+
+    # Read the ledger CSV and precedent FA file
+    df = pd.read_csv(LEDGER_CSV, encoding="utf-8-sig")
+    precedent_path = LEDGER_CSV.parent / "fa/Accounting_Data_FA.json"
+    precedent = json.loads(precedent_path.read_text(encoding="utf-8"))
+
+    # Build EN→FA mappings from the precedent
+    g = i18n.catalog("glossary")
+    field_map = {
+        "category": "ledger_category",
+        "project": "project",
+        "status": "status",
+        "direction": "direction"
+    }
+
+    # Extract all unique (EN, FA) pairs from precedent ledger
+    precedent_mappings = {k: {} for k in field_map.values()}
+    for row in precedent["ledger"]:
+        for csv_field, kind in field_map.items():
+            if row.get(csv_field):
+                csv_row = df[df["id"] == row["id"]]
+                if not csv_row.empty and csv_field in csv_row.columns:
+                    en_val = csv_row[csv_field].values[0]
+                    fa_val = row[csv_field]
+                    if en_val and pd.notna(en_val):
+                        precedent_mappings[kind][en_val] = fa_val
+
+    # Verify glossary matches precedent (allowing digit localization)
+    for kind, en_fa_map in precedent_mappings.items():
+        for en_val, precedent_fa in en_fa_map.items():
+            glossary_fa = g[kind][en_val]
+            expected_fa = i18n.localize(precedent_fa)
+            assert glossary_fa == expected_fa, (
+                f"{kind}[{en_val!r}]: glossary has {glossary_fa!r} "
+                f"but precedent (localized) is {expected_fa!r}"
+            )
