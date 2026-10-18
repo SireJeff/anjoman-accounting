@@ -168,7 +168,11 @@ def main(argv=None):
               file=sys.stderr)
         sys.exit(2)
     import anthropic
-    res = run(anthropic.Anthropic(max_retries=4))
+    # accept-encoding: identity works around a local httpx2 decompression bug
+    # (TypeError: process() takes no keyword arguments) seen on this machine
+    # with the SDK's default compressed responses; unrelated to auth/network.
+    client = anthropic.Anthropic(max_retries=4, default_headers={"accept-encoding": "identity"})
+    res = run(client)
     print(f"translated {res['translated']} keys; {len(res['failed'])} failed")
     for k, p in res["failed"].items():
         print(f"  FAILED {k}: {'; '.join(p)}", file=sys.stderr)
