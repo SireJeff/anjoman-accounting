@@ -242,7 +242,7 @@ table.wide { font-size: 6.2pt; }
 th { background: %(accent)s; color: white; text-align: right; padding: 1.6mm 1.4mm; }
 td { padding: 1.3mm 1.4mm; vertical-align: top; overflow-wrap: anywhere;
   border-bottom: 0.4pt solid %(grid)s; text-align: right; }
-td.num, th.num { direction: ltr; unicode-bidi: isolate; text-align: left;
+td.num, th.num { direction: ltr; unicode-bidi: isolate;
   white-space: nowrap; }
 tr:nth-child(even) td { background: %(zebra)s; }
 thead { display: table-header-group; }

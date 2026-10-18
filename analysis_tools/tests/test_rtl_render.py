@@ -17,6 +17,7 @@ MD = """# گزارش مالی
 
 
 def test_html_is_rtl_with_numeric_cells():
+    import re
     html = md_to_html_rtl(MD, title="گزارش", footer="انجمن علمی فیزیک | گزارش")
     assert '<html lang="fa" dir="rtl">' in html
     assert "Tahoma" in html
@@ -25,6 +26,12 @@ def test_html_is_rtl_with_numeric_cells():
     assert "<code>TX0036</code>" in html
     assert "counter(page, persian)" in html    # page footer, Persian digits
     assert 'src="charts_fa/x.png"' in html
+    # Regression: numeric cells must inherit right-alignment, not override with left
+    m = re.search(r"td\.num, th\.num\s*\{[^}]+\}", html)
+    assert m, "td.num, th.num rule not found in CSS"
+    rule = m.group(0)
+    assert "unicode-bidi: isolate" in rule, "unicode-bidi: isolate not found in numeric cell rule"
+    assert "text-align:" not in rule, "text-align must not override right-alignment in numeric cell rule"
 
 
 def test_wide_table_class():
