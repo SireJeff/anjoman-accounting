@@ -92,7 +92,18 @@ def _new_ax(w, h):
     return fig, ax
 
 def _chrome(ax, title, subtitle=None, xlab=None, ylab=None, lang="en"):
-    """Recessive hairline chrome + aligned title block (left EN, right FA); solid grid only."""
+    """Recessive hairline chrome + aligned title block (left EN, right FA); solid grid only.
+    In fa, every string passed in is localize()d here — a single choke point so a
+    catalog template with digits baked into its EN text (not just numeric kwargs)
+    can't slip Latin digits through, now or after future catalog edits."""
+    if lang == "fa":
+        title = localize(title)
+        if subtitle:
+            subtitle = localize(subtitle)
+        if xlab:
+            xlab = localize(xlab)
+        if ylab:
+            ylab = localize(ylab)
     for s in ("top", "right"):
         ax.spines[s].set_visible(False)
     for s in ("bottom", "left"):
@@ -118,9 +129,25 @@ def _ygrid(ax):
     ax.grid(axis="y", color=GRID, linewidth=0.8)
     ax.set_axisbelow(True)
 
-def _save(fig, path, dpi=120):
+def _localize_ticks(fig):
+    """FA safety net: localize every auto-generated tick label (main + colorbar axes)
+    so no chart can slip Latin digits past the catalog/localize() call sites above.
+    Limits are read before and re-applied after, so ranges never shift."""
+    fig.canvas.draw()
+    for ax in fig.get_axes():
+        xlim, ylim = ax.get_xlim(), ax.get_ylim()
+        ax.set_xticks(ax.get_xticks())
+        ax.set_xticklabels([localize(lbl.get_text()) for lbl in ax.get_xticklabels()])
+        ax.set_yticks(ax.get_yticks())
+        ax.set_yticklabels([localize(lbl.get_text()) for lbl in ax.get_yticklabels()])
+        ax.set_xlim(xlim)
+        ax.set_ylim(ylim)
+
+def _save(fig, path, dpi=120, lang="en"):
     path = Path(path)
     path.parent.mkdir(parents=True, exist_ok=True)
+    if lang == "fa":
+        _localize_ticks(fig)
     fig.savefig(path, dpi=dpi, facecolor=SURFACE, bbox_inches="tight")
     plt.close(fig)
     return path
@@ -159,7 +186,7 @@ def activity_by_month(tl, path, lang="en"):
             xlab=t("chart.activity.xlab", lang), ylab=t("chart.activity.ylab", lang),
             lang=lang)
     ax.set_ylim(bottom=0)
-    return _save(fig, path)
+    return _save(fig, path, lang=lang)
 
 
 def category_breakdown(tl, path, lang="en"):
@@ -188,7 +215,7 @@ def category_breakdown(tl, path, lang="en"):
             t("chart.category.subtitle", lang),
             xlab=t("chart.category.xlab", lang), lang=lang)
     ax.set_xlim(0, max(vals) * 1.1 if vals else 1)
-    return _save(fig, path)
+    return _save(fig, path, lang=lang)
 
 
 def weekday_hour_heat(tl, path, lang="en"):
@@ -230,7 +257,7 @@ def weekday_hour_heat(tl, path, lang="en"):
         note = t("chart.heat.no_data", lang)
     _chrome(ax, t("chart.heat.title", lang), note,
             xlab=t("chart.heat.xlab", lang), lang=lang)
-    return _save(fig, path)
+    return _save(fig, path, lang=lang)
 
 
 def hour_histogram(tl, path, lang="en"):
@@ -273,12 +300,21 @@ def hour_histogram(tl, path, lang="en"):
                          loc="center")
     for j in range(len(chats) + (1 if len(chats) >= 2 else 0), 6):
         axes[j].axis("off")
-    fig.suptitle(t("chart.hist.title", lang),
-                 x=0.01, ha="left", fontsize=12.5, color=INK, fontweight="bold")
-    fig.text(0.01, 0.955, t("chart.hist.subtitle", lang),
-             fontsize=8.5, color=MUTED, ha="left")
-    fig.tight_layout(rect=(0, 0, 1, 0.93))
-    return _save(fig, path)
+    if lang == "fa":
+        # right-aligned, and spaced apart so the FA header doesn't overlap
+        # itself the way the (pre-existing, pixel-pinned) EN header does.
+        fig.suptitle(t("chart.hist.title", lang),
+                     x=0.99, y=0.98, ha="right", fontsize=12.5, color=INK, fontweight="bold")
+        fig.text(0.99, 0.905, t("chart.hist.subtitle", lang),
+                 fontsize=8.5, color=MUTED, ha="right")
+        fig.tight_layout(rect=(0, 0, 1, 0.86))
+    else:
+        fig.suptitle(t("chart.hist.title", lang),
+                     x=0.01, ha="left", fontsize=12.5, color=INK, fontweight="bold")
+        fig.text(0.01, 0.955, t("chart.hist.subtitle", lang),
+                 fontsize=8.5, color=MUTED, ha="left")
+        fig.tight_layout(rect=(0, 0, 1, 0.93))
+    return _save(fig, path, lang=lang)
 
 
 def event_timeline(tl, path, lang="en"):
@@ -308,8 +344,10 @@ def event_timeline(tl, path, lang="en"):
         sub = t("chart.timeline.sub_excluded", lang, n=f"{n}", skipped=f"{skipped}")
     else:
         sub = t("chart.timeline.sub_plain", lang, n=f"{n}")
+    if lang == "fa":
+        sub = localize(sub)
     _chrome(ax, t("chart.timeline.title", lang), sub, ylab="", lang=lang)
-    return _save(fig, path, dpi=125)
+    return _save(fig, path, dpi=125, lang=lang)
 
 
 def ecosystem_map(eco, path, lang="en"):
@@ -518,11 +556,19 @@ def ecosystem_map(eco, path, lang="en"):
     ax.set_yticks([])
     for s in ax.spines.values():
         s.set_visible(False)
-    ax.set_title(t("chart.ecosystem.title", lang, n_nodes=f"{len(nodes)}", n_edges=f"{len(edges)}"),
-                 loc="left", fontsize=12.5, color=INK, fontweight="bold", pad=14)
-    ax.text(0, 1.005, t("chart.ecosystem.subtitle", lang, labeled=f"{labeled}"),
-            transform=ax.transAxes, fontsize=8.5, color=MUTED, ha="left", va="bottom")
-    return _save(fig, path, dpi=125)
+    title_txt = t("chart.ecosystem.title", lang, n_nodes=f"{len(nodes)}", n_edges=f"{len(edges)}")
+    subtitle_txt = t("chart.ecosystem.subtitle", lang, labeled=f"{labeled}")
+    if lang == "fa":
+        title_txt = localize(title_txt)
+        subtitle_txt = localize(subtitle_txt)
+        ax.set_title(title_txt, loc="right", fontsize=12.5, color=INK, fontweight="bold", pad=14)
+        ax.text(1, 1.005, subtitle_txt, transform=ax.transAxes,
+                fontsize=8.5, color=MUTED, ha="right", va="bottom")
+    else:
+        ax.set_title(title_txt, loc="left", fontsize=12.5, color=INK, fontweight="bold", pad=14)
+        ax.text(0, 1.005, subtitle_txt, transform=ax.transAxes,
+                fontsize=8.5, color=MUTED, ha="left", va="bottom")
+    return _save(fig, path, dpi=125, lang=lang)
 
 
 def cashflow_monthly(tl, path, lang="en"):
@@ -532,7 +578,8 @@ def cashflow_monthly(tl, path, lang="en"):
     unk = mc.get("unknown") or {}
     if unk.get("Receipts", 0) + unk.get("Payments", 0) > 0:
         months = months + ["unknown"]                    # non-zero -> include, labeled
-    labels = ["unknown*" if m == "unknown" else m for m in months]
+    labels = [t("chart.cash.unknown_month", lang) + "*" if m == "unknown" else m
+              for m in months]
     if lang == "fa":
         labels = [localize(lbl) for lbl in labels]
     rec = [float(mc[m].get("Receipts", 0) or 0) for m in months]
@@ -560,7 +607,7 @@ def cashflow_monthly(tl, path, lang="en"):
             t("chart.cash.subtitle", lang),
             xlab=t("chart.cash.xlab", lang), ylab=t("chart.cash.ylab", lang), lang=lang)
     ax.legend(frameon=False, fontsize=9, labelcolor=INK2, loc="lower left")
-    return _save(fig, path)
+    return _save(fig, path, lang=lang)
 
 
 def cumulative_cash(tl, path, lang="en"):
@@ -570,7 +617,8 @@ def cumulative_cash(tl, path, lang="en"):
     unk = mc.get("unknown") or {}
     if unk.get("Receipts", 0) + unk.get("Payments", 0) > 0:
         months = months + ["unknown"]
-    labels = ["unknown*" if m == "unknown" else m for m in months]
+    labels = [t("chart.cash.unknown_month", lang) + "*" if m == "unknown" else m
+              for m in months]
     if lang == "fa":
         labels = [localize(lbl) for lbl in labels]
     net = np.cumsum([float(mc[m].get("Receipts", 0) or 0) -
@@ -583,8 +631,10 @@ def cumulative_cash(tl, path, lang="en"):
     if len(x):                                                       # end-dot + ring + label
         ax.plot([x[-1]], [net[-1]], "o", markersize=9, color=CAT[0],
                 markeredgecolor=SURFACE, markeredgewidth=2, zorder=4)
-        ax.annotate(t("chart.cumcash.annotation", lang, v=_mfmt(net[-1], lang=lang)),
-                    (x[-1], net[-1]),
+        ann_text = t("chart.cumcash.annotation", lang, v=_mfmt(net[-1], lang=lang))
+        if lang == "fa":
+            ann_text = localize(ann_text)
+        ax.annotate(ann_text, (x[-1], net[-1]),
                     xytext=(-8, 10 if net[-1] >= 0 else -12),
                     textcoords="offset points", ha="right",
                     fontsize=9, color=INK2)
@@ -598,7 +648,7 @@ def cumulative_cash(tl, path, lang="en"):
               receipts=t("chart.cash.receipts", lang), payments=t("chart.cash.payments", lang)),
             xlab=t("chart.cumcash.xlab", lang),
             ylab=t("chart.cumcash.ylab", lang, net=t("chart.cash.net", lang)), lang=lang)
-    return _save(fig, path)
+    return _save(fig, path, lang=lang)
 
 
 def render_all(lang="en"):

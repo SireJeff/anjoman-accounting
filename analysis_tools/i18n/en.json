@@ -9,6 +9,7 @@
  "chart.cash.receipts": "Receipts",
  "chart.cash.subtitle": "ledger totals per jalali month, toman in millions; * = rows without a parseable date",
  "chart.cash.title": "Monthly cash flow (diverging)",
+ "chart.cash.unknown_month": "unknown",
  "chart.cash.xlab": "jalali month",
  "chart.cash.ylab": "million toman (+receipts / -payments)",
  "chart.category.subtitle": "all chats and months combined; classification totals",

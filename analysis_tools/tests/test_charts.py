@@ -62,3 +62,51 @@ def test_en_chart_unchanged_against_committed(tmp_path):
         a = np.asarray(Image.open(base).convert("RGB"))
         b = np.asarray(Image.open(new).convert("RGB"))
         assert a.shape == b.shape and (a == b).all(), f"{name} EN render drifted"
+
+
+def test_fa_charts_no_latin_digits(tmp_path, monkeypatch, pseudo_fa):
+    """Every chart function, rendered in fa: no ASCII digit may survive in any
+    visible Text artist (title, subtitle, legend, tick labels, annotations) once
+    protected spans (code/URLs/handles/TX-style ids) are stripped out."""
+    import re
+    import matplotlib.text
+    from analysis_tools import i18n
+
+    tl = {"monthly_activity": {"1404/05": {"channel": {"events": 3}}},
+          "monthly_cashflow": {"1404/05": {"Receipts": 1.0, "Payments": 0.5,
+                                           "by_category": {"Events": 1.0}, "by_project": {}}},
+          "hour_histogram": {"channel": {"13": 2}},
+          "weekday_hour_heat": {"channel": {"شنبه": {"13": 2}}},
+          "threads": [], "mechanics": [], "event_start_times": {}}
+    eco = {"nodes": [{"id": "association", "label": "A", "type": "association", "seed": True},
+                     {"id": "shabahang_sut", "label": "S", "type": "subgroup", "seed": True}],
+           "edges": [{"source": "channel_export", "target": "shabahang_sut",
+                      "type": "forward", "weight": 5}]}
+    monkeypatch.setattr(charts, "load_timeline", lambda: tl)
+    monkeypatch.setattr(charts, "load_ecosystem", lambda: eco)
+    monkeypatch.setattr(charts, "PERF", tmp_path / "perf" / "charts")
+    monkeypatch.setattr(charts, "FIN", tmp_path / "fin" / "charts")
+
+    captured = []
+    orig_save = charts._save
+
+    def spy_save(fig, path, dpi=120, lang="en"):
+        captured.append(fig)
+        return orig_save(fig, path, dpi=dpi, lang=lang)
+
+    monkeypatch.setattr(charts, "_save", spy_save)
+
+    out = charts.render_all("fa")
+    assert len(out) == 8
+    assert len(captured) == 8
+
+    bad = []
+    for fig in captured:
+        for txt in fig.findobj(matplotlib.text.Text):
+            s = txt.get_text()
+            if not s or not txt.get_visible():
+                continue
+            stripped = i18n._PROTECT.sub("", s)
+            if re.search(r"[0-9]", stripped):
+                bad.append(s)
+    assert not bad, f"Latin digits found in fa chart text: {bad!r}"
