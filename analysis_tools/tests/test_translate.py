@@ -34,20 +34,33 @@ def test_pending():
     assert translate.pending(en, fa, hashes) == ["b", "c"]
 
 
+@pytest.mark.parametrize("text", [
+    '{"items": [{"key": "k", "fa": "ف"}]}',              # documented array shape
+    '```json\n{"items": {"k1": "ف۱", "k2": "ف۲"}}\n```',  # fenced, nested mapping
+    '{"k": "ب"}',                                          # flat mapping
+    '{"items": {"k": {"fa": "ج"}}}',                       # nested {fa} objects
+    '``` \n{"k": {"fa": "د"}}\n```',                       # fenced, flat {fa} objects
+])
+def test_parse_batch_tolerates_reply_shapes(text):
+    got = {i.key: i.fa for i in translate._parse_batch(text).items}
+    assert got and all(v for v in got.values())
+
+
 class FakeMessages:
     def __init__(self, script):
         self.script, self.calls = script, []
 
-    def parse(self, **kw):
+    def create(self, **kw):
         payload = json.loads(kw["messages"][0]["content"])
         self.calls.append(payload)
         return self.script(payload)
 
 
 def _resp(items, stop="end_turn"):
+    payload = json.dumps({"items": [{"key": k, "fa": v} for k, v in items.items()]},
+                         ensure_ascii=False)
     return SimpleNamespace(stop_reason=stop, stop_details=None,
-                           parsed_output=translate.Batch(items=[
-                               translate.Item(key=k, fa=v) for k, v in items.items()]))
+                           content=[SimpleNamespace(type="text", text=payload)])
 
 
 @pytest.fixture
