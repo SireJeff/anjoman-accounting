@@ -1,0 +1,1034 @@
+[
+  {
+    "tx": "TX0001",
+    "field": "description_en",
+    "new": "Summer School 1404 registration fees, aggregate of 3 courses (Python 81, LaTeX 89, Mathematica 73 students; course reports in message6-8 total 33,643 thousand toman). Collected on members' cards 18-22 Jul 2025 and asked to be consolidated into card …8966 (message6; message7; message8; private_group message3155).",
+    "reason": "Dossier A: assessment 'vague'; names the three courses, student counts, totals and the Tir collection window with the …8966 consolidation request.",
+    "evidence": [
+      "message6; message7; message8",
+      "message10; message12; message13; message14",
+      "private_group message1533 / message1628 / message3155 / message3021"
+    ],
+    "id": "M-001"
+  },
+  {
+    "tx": "TX0001",
+    "field": "description_fa",
+    "new": "درآمد ثبت‌نام مدرسه تابستانه ۱۴۰۴، جمع سه دوره (پایتون ۸۱، لاتک ۸۹، متمتیکا ۷۳ نفر؛ گزارش‌های پیام ۶ تا ۸ جمعاً ۳۳٬۶۴۳ هزار تومان). واریز به کارت‌های اعضا ۲۷ تا ۳۱ تیر ۱۴۰۴ و درخواست تجمیع در کارت …۸۹۶۶ (پیام‌های ۶ تا ۸؛ پیام ۳۱۵۵ گروه خصوصی).",
+    "reason": "Dossier A: assessment 'vague'; names the three courses, student counts, totals and the Tir collection window with the …8966 consolidation request.",
+    "evidence": [
+      "message6; message7; message8",
+      "message10; message12; message13; message14",
+      "private_group message1533 / message1628 / message3155 / message3021"
+    ],
+    "id": "M-002"
+  },
+  {
+    "tx": "TX0002",
+    "field": "notes",
+    "new": "message12 computed 2,934; fees were rounded UP to the next 100k (message14): 3,480→3,500, 3,678→3,700, 2,934→3,000. The 3,000 paid matches the rounding actually applied; the earlier implied anomaly (2,900 expected) is not supported (photo_1, message25).",
+    "reason": "Dossier A discrepancy: old note implied an anomaly (rounding gives 2,900 but 3,000 paid); all three instructor fees were rounded up, so 3,000 is consistent.",
+    "evidence": [
+      "photos/photo_1@24-07-2025_21-00-16.jpg (message25)",
+      "message12; message14"
+    ],
+    "id": "M-003"
+  },
+  {
+    "tx": "TX0013",
+    "field": "description_en",
+    "new": "Copies of association room keys for members, arranged by حسن شیری ('کلید ها که من زدم', message57); amount 750,000 from workbook only — evidence thin (message57; Anjoman accounting.xlsx!مجموع!D11).",
+    "reason": "Dossier A: assessment 'vague'; states purpose (room keys, حسن شیری) and that the amount rests on the workbook only.",
+    "evidence": [
+      "message57",
+      "Anjoman accounting.xlsx!مجموع!D11",
+      "private_group message3393; message7602; message12837"
+    ],
+    "id": "M-004"
+  },
+  {
+    "tx": "TX0013",
+    "field": "description_fa",
+    "new": "تهیه (زدن) کلید اتاق انجمن برای اعضا توسط حسن شیری (پیام ۵۷)؛ مبلغ فقط از دفتر اکسل — شواهد ضعیف (پیام ۵۷؛ مجموع!D11 دفتر اکسل).",
+    "reason": "Dossier A: assessment 'vague'; states purpose (room keys, حسن شیری) and that the amount rests on the workbook only.",
+    "evidence": [
+      "message57",
+      "Anjoman accounting.xlsx!مجموع!D11",
+      "private_group message3393; message7602; message12837"
+    ],
+    "id": "M-005"
+  },
+  {
+    "tx": "TX0016",
+    "field": "description_en",
+    "new": "Intro-event (15 Shahrivar 1404) supplies/refreshments, handled by محمدامین عزیزی from event funds; amount from workbook only (part of 3,055,000 total in شهریور!D4 formula) — evidence thin (Anjoman accounting.xlsx!شهریور!D3 and !مجموع!D16; all chats searched, no message found).",
+    "reason": "Dossier A: assessment 'vague'; states event, handler and workbook-only basis.",
+    "evidence": [
+      "Anjoman accounting.xlsx!شهریور!D3 and !مجموع!D16",
+      "Anjoman accounting.xlsx!شهریور!D4 formula",
+      "accounting_group + all chats search"
+    ],
+    "id": "M-006"
+  },
+  {
+    "tx": "TX0016",
+    "field": "description_fa",
+    "new": "تدارکات رویداد معرفی رشته (۱۵ شهریور ۱۴۰۴) از پول رویداد نزد محمدامین عزیزی؛ فقط بر پایه دفتر اکسل — شواهد ضعیف (شهریور!D3 و مجموع!D16 دفتر اکسل؛ جستجوی همه گفتگوها بدون نتیجه).",
+    "reason": "Dossier A: assessment 'vague'; states event, handler and workbook-only basis.",
+    "evidence": [
+      "Anjoman accounting.xlsx!شهریور!D3 and !مجموع!D16",
+      "Anjoman accounting.xlsx!شهریور!D4 formula",
+      "accounting_group + all chats search"
+    ],
+    "id": "M-007"
+  },
+  {
+    "tx": "TX0017",
+    "field": "description_en",
+    "new": "Procurement fee to ابراهیم خسروانی for buying intro-event supplies; derived as 3,055,000 - 2,866,000 in the workbook — evidence thin (Anjoman accounting.xlsx!شهریور!D4 / مجموع!D17; all chats searched, no message found).",
+    "reason": "Dossier A: assessment 'vague'; states payee and that the amount is a workbook balancing figure only.",
+    "evidence": [
+      "Anjoman accounting.xlsx!شهریور!D4 / مجموع!D17",
+      "all chats search"
+    ],
+    "id": "M-008"
+  },
+  {
+    "tx": "TX0017",
+    "field": "description_fa",
+    "new": "حق‌الزحمه خرید تدارکات رویداد معرفی رشته برای ابراهیم خسروانی؛ مبلغ از فرمول ۳٬۰۵۵٬۰۰۰ منهای ۲٬۸۶۶٬۰۰۰ — شواهد ضعیف (شهریور!D4 / مجموع!D17 دفتر اکسل؛ جستجوی همه گفتگوها بدون نتیجه).",
+    "reason": "Dossier A: assessment 'vague'; states payee and that the amount is a workbook balancing figure only.",
+    "evidence": [
+      "Anjoman accounting.xlsx!شهریور!D4 / مجموع!D17",
+      "all chats search"
+    ],
+    "id": "M-009"
+  },
+  {
+    "tx": "TX0020",
+    "field": "description_en",
+    "new": "Posters for the 22 Mehr professors assembly and the Quanta circles, paid to زهرا امیری; one shared print run covering both events, booked under Professors assembly as a shared cost (photo_13, message61).",
+    "reason": "Decision P-04 (Dossier A): keep under Professors assembly and append the shared-use note (Quanta circles share the print run; message61).",
+    "evidence": [
+      "photos/photo_13@12-10-2025_10-24-38.jpg (message61)",
+      "message61"
+    ],
+    "id": "M-010"
+  },
+  {
+    "tx": "TX0020",
+    "field": "description_fa",
+    "new": "پوسترهای نشست عمومی ۲۲ مهر با اساتید و حلقه‌های کوانتا، پرداخت به زهرا امیری؛ یک سفارش مشترک برای هر دو برنامه که به‌عنوان هزینه مشترک زیر نشست اساتید ثبت شده است (عکس ۱۳، پیام ۶۱).",
+    "reason": "Decision P-04 (Dossier A): keep under Professors assembly and append the shared-use note (Quanta circles share the print run; message61).",
+    "evidence": [
+      "photos/photo_13@12-10-2025_10-24-38.jpg (message61)",
+      "message61"
+    ],
+    "id": "M-011"
+  },
+  {
+    "tx": "TX0033",
+    "field": "notes",
+    "new": "The handwritten invoice photo_34 (INV005) does not belong to this row: it lists spinners/holders/card-holders (the Freshman Party prizes of TX0035) and its caption is message147. This row's evidence is photo_33 and message107 line 1 (message146).",
+    "reason": "Dossier A discrepancy: old note linked photo_34 to TX0033 'uncertainly'; the dossier assigns photo_34 to TX0035 (message107 line 3). TX0033's message_ids carries no photo token, so nothing is removed there.",
+    "evidence": [
+      "photos/photo_34@27-06-2026_18-26-03.jpg (message147)",
+      "photos/photo_33@27-06-2026_18-25-49.jpg (message146)",
+      "message107 line 1"
+    ],
+    "id": "M-012"
+  },
+  {
+    "tx": "TX0034",
+    "field": "description_en",
+    "new": "Freshman Party 1404 prizes: 8 earphones, 1,000,000 toman, from T…Mobile (احمدی) (photo_35, message107 line 2, message148).",
+    "reason": "Decision P-03 (Dossier A): TX0034 (1,500,000) split into 1,000,000 prizes (this row) + 500,000 association flash drive (TX0034-B); replaces the old combined description.",
+    "evidence": [
+      "photos/photo_35@27-06-2026_18-26-22.jpg (message148)",
+      "message107 line 2"
+    ],
+    "id": "M-013"
+  },
+  {
+    "tx": "TX0034",
+    "field": "description_fa",
+    "new": "جوایز جشن ورودی ۱۴۰۴: ۸ هندزفری، ۱٬۰۰۰٬۰۰۰ تومان، از T…Mobile (احمدی) (عکس ۳۵، خط ۲ پیام ۱۰۷، پیام ۱۴۸).",
+    "reason": "Decision P-03 (Dossier A): TX0034 (1,500,000) split into 1,000,000 prizes (this row) + 500,000 association flash drive (TX0034-B); replaces the old combined description.",
+    "evidence": [
+      "photos/photo_35@27-06-2026_18-26-22.jpg (message148)",
+      "message107 line 2"
+    ],
+    "id": "M-014"
+  },
+  {
+    "tx": "TX0034-B",
+    "field": "description_en",
+    "new": "Association operations equipment: 32GB Samsung USB flash drive ('فلش انجمن'), 500,000 toman, bought together with the Freshman Party 1404 prizes from T…Mobile (احمدی) (photo_35, message148).",
+    "reason": "Decision P-03 (Dossier A): new row TX0034-B (500,000, Association operations / Equipment) carries the flash-drive half of the old combined TX0034.",
+    "evidence": [
+      "photos/photo_35@27-06-2026_18-26-22.jpg (message148)",
+      "message107 line 2"
+    ],
+    "id": "M-015"
+  },
+  {
+    "tx": "TX0034-B",
+    "field": "description_fa",
+    "new": "تجهیزات انجمن: فلش ۳۲ گیگابیتی سامسونگ («فلش انجمن»)، ۵۰۰٬۰۰۰ تومان، خریداری‌شده همراه جوایز جشن ورودی ۱۴۰۴ از T…Mobile (احمدی) (عکس ۳۵، پیام ۱۴۸).",
+    "reason": "Decision P-03 (Dossier A): new row TX0034-B (500,000, Association operations / Equipment) carries the flash-drive half of the old combined TX0034.",
+    "evidence": [
+      "photos/photo_35@27-06-2026_18-26-22.jpg (message148)",
+      "message107 line 2"
+    ],
+    "id": "M-016"
+  },
+  {
+    "tx": "TX0035",
+    "field": "message_ids",
+    "new": "message107; message147",
+    "reason": "Dossier A: photo_34 (photos/photo_34@27-06-2026_18-26-03.jpg, caption message147) is TX0035's probable invoice (message107 line 3, 'فرفره…'); its caption message is added here. TX0033's message_ids never carried a photo token, so there is nothing to remove on that side (its stale note is corrected separately).",
+    "evidence": [
+      "photos/photo_34@27-06-2026_18-26-03.jpg (message147)",
+      "message107 line 3"
+    ],
+    "id": "M-017"
+  },
+  {
+    "tx": "TX0036",
+    "field": "description_en",
+    "new": "Cash 'shabash' (cash handed out) at the 1404 freshman party, 300,000 toman; reported by the treasurer in message111 alongside party expense lines; recipient and cash source not shown (accounting_group#message111; Anjoman accounting.xlsx!مجموع!D29).",
+    "reason": "Dossier B1: assessment 'vague'; states what the cash was for and that recipient and cash source are not shown.",
+    "evidence": [
+      "message111",
+      "Anjoman accounting.xlsx!مجموع!D29",
+      "channel message3212"
+    ],
+    "id": "M-018"
+  },
+  {
+    "tx": "TX0036",
+    "field": "description_fa",
+    "new": "پول نقد شاباش جشن ورودی ۱۴۰۴، ۳۰۰٬۰۰۰ تومان؛ طبق پیام message111 خزانه‌دار در کنار هزینه‌های جشن؛ گیرنده و منبع پول نقد مشخص نیست (مجموع!D29 دفتر اکسل).",
+    "reason": "Dossier B1: assessment 'vague'; states what the cash was for and that recipient and cash source are not shown.",
+    "evidence": [
+      "message111",
+      "Anjoman accounting.xlsx!مجموع!D29",
+      "channel message3212"
+    ],
+    "id": "M-019"
+  },
+  {
+    "tx": "TX0038",
+    "field": "notes",
+    "new": "photo_22 and photo_29 are one invoice; its number prints 29350 clearly on photo_29 (previously read as 2935 or 29350). photo_29's Yalda caption is a mislabel; the invoice is dated 1404/08/06 13:40.",
+    "reason": "Dossier B1 discrepancy: ledger note left the invoice number ambiguous ('2935 or 29350'); photo_29 clearly prints 29350.",
+    "evidence": [
+      "photos/photo_29@27-06-2026_18-24-14.jpg (message142)",
+      "photos/photo_22@09-11-2025_23-16-15.jpg (message91)"
+    ],
+    "id": "M-020"
+  },
+  {
+    "tx": "TX0043",
+    "field": "description_en",
+    "new": "Card purchase with association card …8966 at terminal 06723260 on 1404/09/02 13:21, 10,200,000 rial (1,020,000 toman), tracking 406547; purpose not shown in any message — evidence thin (recipts/photo_4_2026-10-10_14-07-27.jpg).",
+    "reason": "Dossier B1: assessment 'vague'; states terminal, date/time, amount and tracking; purpose unknown (card masked to last four digits).",
+    "evidence": [
+      "recipts/photo_4_2026-10-10_14-07-27.jpg"
+    ],
+    "id": "M-021"
+  },
+  {
+    "tx": "TX0043",
+    "field": "description_fa",
+    "new": "خرید با کارت …۸۹۶۶ انجمن از پایانه ۰۶۷۲۳۲۶۰ در ۱۴۰۴/۰۹/۰۲ ساعت ۱۳:۲۱، ۱۰٬۲۰۰٬۰۰۰ ریال (۱٬۰۲۰٬۰۰۰ تومان)، کد رهگیری ۴۰۶۵۴۷؛ بابت آن در پیام‌ها مشخص نیست — شواهد ضعیف (recipts/photo_4_2026-10-10_14-07-27.jpg).",
+    "reason": "Dossier B1: assessment 'vague'; states terminal, date/time, amount and tracking; purpose unknown (card masked to last four digits).",
+    "evidence": [
+      "recipts/photo_4_2026-10-10_14-07-27.jpg"
+    ],
+    "id": "M-022"
+  },
+  {
+    "tx": "TX0049",
+    "field": "description_en",
+    "new": "Withdrawal of 100,037,800 rial (10,003,780 toman) from Sepah account 3001254062925 on 1404/10/01 10:29, which the treasurer says was used for card-to-card payments of (Yalda) expenses (message120); payees not shown (message115; message118; message120).",
+    "reason": "Dossier B1: assessment 'vague'; states the Sepah withdrawal, treasurer's stated use, and that no payee is shown.",
+    "evidence": [
+      "message115",
+      "message118 (reply to message115)",
+      "message120 (reply to message118)"
+    ],
+    "id": "M-023"
+  },
+  {
+    "tx": "TX0049",
+    "field": "description_fa",
+    "new": "برداشت ۱۰۰٬۰۳۷٬۸۰۰ ریال (۱۰٬۰۰۳٬۷۸۰ تومان) از حساب سپه ۳۰۰۱۲۵۴۰۶۲۹۲۵ در ۱۴۰۴/۱۰/۰۱ ساعت ۱۰:۲۹ که به گفته خزانه‌دار صرف کارت به کارت هزینه‌ها (یلدا) شده (message120)؛ گیرندگان مشخص نیستند (پیام‌های ۱۱۵، ۱۱۸ و ۱۲۰).",
+    "reason": "Dossier B1: assessment 'vague'; states the Sepah withdrawal, treasurer's stated use, and that no payee is shown.",
+    "evidence": [
+      "message115",
+      "message118 (reply to message115)",
+      "message120 (reply to message118)"
+    ],
+    "id": "M-024"
+  },
+  {
+    "tx": "TX0052",
+    "field": "description_en",
+    "new": "Card-to-card 400,000 toman from Bardia's own card (...7195) to Sanaz Bahrami on 1404/10/01 17:50 for Yalda keyrings and a pomegranate earring (message154 '400'); volunteer-paid, reimbursed within TX0050. Purpose matched by amount and by being in Bardia's first photo pair (photo_41/42) which he said were the 400 and 250 receipts (photos/photo_42@27-06-2026_18-36-09.jpg, message154).",
+    "reason": "Dossier B2: assessment 'vague'; states payer, payee, purpose and the TX0050 reimbursement.",
+    "evidence": [
+      "anjoman_accounting_group_export/photos/photo_42@27-06-2026_18-36-09.jpg (message156)",
+      "message154"
+    ],
+    "id": "M-025"
+  },
+  {
+    "tx": "TX0052",
+    "field": "description_fa",
+    "new": "کارت به کارت ۴۰۰ هزار تومان از کارت شخصی بردیا (...۷۱۹۵) به ساناز بهرامی در ۱۴۰۴/۱۰/۰۱ ساعت ۱۷:۵۰ بابت جاسوییچی و گوشواره انار یلدا (پیام ۱۵۴)؛ پرداخت داوطلب که در TX0050 بازپرداخت شد (photos/photo_42@27-06-2026_18-36-09.jpg).",
+    "reason": "Dossier B2: assessment 'vague'; states payer, payee, purpose and the TX0050 reimbursement.",
+    "evidence": [
+      "anjoman_accounting_group_export/photos/photo_42@27-06-2026_18-36-09.jpg (message156)",
+      "message154"
+    ],
+    "id": "M-026"
+  },
+  {
+    "tx": "TX0053",
+    "field": "description_en",
+    "new": "Card-to-card 250,000 toman from Bardia's own card (...7195) to Parvin Haghverdi on 1404/10/01 17:55 for Yalda plush keyrings (message154 '250'); volunteer-paid, reimbursed within TX0050 (photos/photo_41@27-06-2026_18-36-09.jpg, message154).",
+    "reason": "Dossier B2: assessment 'vague'; states payer, payee, purpose and the TX0050 reimbursement.",
+    "evidence": [
+      "anjoman_accounting_group_export/photos/photo_41@27-06-2026_18-36-09.jpg (message155)",
+      "message154"
+    ],
+    "id": "M-027"
+  },
+  {
+    "tx": "TX0053",
+    "field": "description_fa",
+    "new": "کارت به کارت ۲۵۰ هزار تومان از کارت شخصی بردیا به پروین حقوردی در ۱۴۰۴/۱۰/۰۱ ساعت ۱۷:۵۵ بابت جاسوییچی‌های عروسکی یلدا (پیام ۱۵۴)؛ در TX0050 بازپرداخت شد (photos/photo_41@27-06-2026_18-36-09.jpg).",
+    "reason": "Dossier B2: assessment 'vague'; states payer, payee, purpose and the TX0050 reimbursement.",
+    "evidence": [
+      "anjoman_accounting_group_export/photos/photo_41@27-06-2026_18-36-09.jpg (message155)",
+      "message154"
+    ],
+    "id": "M-028"
+  },
+  {
+    "tx": "TX0054",
+    "field": "description_en",
+    "new": "POS purchase 600,000 toman on Bardia's card (Pasargad terminal 00778147, 1404/10/01 18:41) for small watermelons and pomegranates for Yalda (message154 '600'); volunteer-paid, reimbursed within TX0050. Merchant not shown on slip (photos/photo_43@27-06-2026_18-36-09.jpg, message154).",
+    "reason": "Dossier B2: assessment 'vague'; states terminal, time, purpose and reimbursement; merchant not shown.",
+    "evidence": [
+      "anjoman_accounting_group_export/photos/photo_43@27-06-2026_18-36-09.jpg (message157)",
+      "message154"
+    ],
+    "id": "M-029"
+  },
+  {
+    "tx": "TX0054",
+    "field": "description_fa",
+    "new": "خرید کارتخوان ۶۰۰ هزار تومان با کارت بردیا (پایانه پاسارگاد ۰۰۷۷۸۱۴۷، ۱۴۰۴/۱۰/۰۱ ساعت ۱۸:۴۱) بابت هندوانه و انارهای ریز یلدا (پیام ۱۵۴)؛ در TX0050 بازپرداخت شد. نام فروشنده روی رسید نیست (photos/photo_43@27-06-2026_18-36-09.jpg).",
+    "reason": "Dossier B2: assessment 'vague'; states terminal, time, purpose and reimbursement; merchant not shown.",
+    "evidence": [
+      "anjoman_accounting_group_export/photos/photo_43@27-06-2026_18-36-09.jpg (message157)",
+      "message154"
+    ],
+    "id": "M-030"
+  },
+  {
+    "tx": "TX0064",
+    "field": "description_en",
+    "new": "Canbo Tarasht (1633) receipt 1404/10/02 ~18:48: 6 Mazmaz 38g cheese snacks, 107,400 toman; paid by Parnian's card (POS slip 1,074,000 rial, card ...5401, PDF p1); part of the Yalda purchases reimbursed via TX0062/63 (CamScanner 13-05-2026 12.43 (1).pdf p1, message129).",
+    "reason": "Dossier B2: assessment 'vague'; states shop, items, amount and payer (POS slip on PDF p1; tracking number on the slip is not legible).",
+    "evidence": [
+      "anjoman_accounting_group_export/files/CamScanner 13-05-2026 12.43 (1).pdf p1",
+      "message124",
+      "message129"
+    ],
+    "id": "M-031"
+  },
+  {
+    "tx": "TX0064",
+    "field": "description_fa",
+    "new": "رسید جانبو طرشت (۱۶۳۳) ۱۴۰۴/۱۰/۰۲ حدود ۱۸:۴۸: ۶ عدد اسنک پنیری مزمز ۳۸ گرمی، ۱۰۷٬۴۰۰ تومان؛ پرداخت با کارت پرنیان (...۵۴۰۱)؛ جزو خریدهای یلدا که در TX0062/63 تسویه شد (CamScanner 13-05-2026 12.43 (1).pdf p1؛ پیام ۱۲۹).",
+    "reason": "Dossier B2: assessment 'vague'; states shop, items, amount and payer (POS slip on PDF p1; tracking number on the slip is not legible).",
+    "evidence": [
+      "anjoman_accounting_group_export/files/CamScanner 13-05-2026 12.43 (1).pdf p1",
+      "message124",
+      "message129"
+    ],
+    "id": "M-032"
+  },
+  {
+    "tx": "TX0065",
+    "field": "description_en",
+    "new": "Canbo Tarasht (1633) receipt 1404/10/02 18:47: 10 Mazmaz 38g cheese snacks, 179,000 toman; paid by Parnian (card ...5401); part of the Yalda purchases reimbursed via TX0062/63 (CamScanner 13-05-2026 12.43 (1).pdf p2, message129).",
+    "reason": "Dossier B2: assessment 'vague'; states shop, items, time and payer.",
+    "evidence": [
+      "anjoman_accounting_group_export/files/CamScanner 13-05-2026 12.43 (1).pdf p2",
+      "anjoman_accounting_group_export/files/CamScanner 13-05-2026 12.43 (1).pdf p1",
+      "message124",
+      "message129"
+    ],
+    "id": "M-033"
+  },
+  {
+    "tx": "TX0065",
+    "field": "description_fa",
+    "new": "رسید جانبو طرشت (۱۶۳۳) ۱۴۰۴/۱۰/۰۲ ساعت ۱۸:۴۷: ۱۰ عدد اسنک پنیری مزمز ۳۸ گرمی، ۱۷۹٬۰۰۰ تومان؛ پرداخت پرنیان؛ جزو تسویه TX0062/63 (CamScanner 13-05-2026 12.43 (1).pdf p2؛ پیام ۱۲۹).",
+    "reason": "Dossier B2: assessment 'vague'; states shop, items, time and payer.",
+    "evidence": [
+      "anjoman_accounting_group_export/files/CamScanner 13-05-2026 12.43 (1).pdf p2",
+      "anjoman_accounting_group_export/files/CamScanner 13-05-2026 12.43 (1).pdf p1",
+      "message124",
+      "message129"
+    ],
+    "id": "M-034"
+  },
+  {
+    "tx": "TX0066",
+    "field": "description_en",
+    "new": "Canbo Tarasht (1633) receipt 1404/10/02 18:48: 10 Mazmaz 38g cheese snacks, 179,000 toman; paid by Parnian; reimbursed via TX0062/63 (CamScanner 13-05-2026 12.43 (1).pdf p3, message129).",
+    "reason": "Dossier B2: assessment 'vague'; states shop, items, time and payer.",
+    "evidence": [
+      "anjoman_accounting_group_export/files/CamScanner 13-05-2026 12.43 (1).pdf p3",
+      "message124",
+      "message129"
+    ],
+    "id": "M-035"
+  },
+  {
+    "tx": "TX0066",
+    "field": "description_fa",
+    "new": "رسید جانبو طرشت (۱۶۳۳) ۱۴۰۴/۱۰/۰۲ ساعت ۱۸:۴۸: ۱۰ عدد اسنک مزمز، ۱۷۹٬۰۰۰ تومان؛ پرداخت پرنیان؛ جزو تسویه TX0062/63 (CamScanner 13-05-2026 12.43 (1).pdf p3؛ پیام ۱۲۹).",
+    "reason": "Dossier B2: assessment 'vague'; states shop, items, time and payer.",
+    "evidence": [
+      "anjoman_accounting_group_export/files/CamScanner 13-05-2026 12.43 (1).pdf p3",
+      "message124",
+      "message129"
+    ],
+    "id": "M-036"
+  },
+  {
+    "tx": "TX0067",
+    "field": "description_en",
+    "new": "Canbo Tarasht (1633) receipt 1404/10/02 18:46: 10 Mazmaz 38g cheese snacks, 179,000 toman; paid by Parnian; reimbursed via TX0062/63 (CamScanner 13-05-2026 12.43 (1).pdf p4, message129).",
+    "reason": "Dossier B2: assessment 'vague'; states shop, items, time and payer.",
+    "evidence": [
+      "anjoman_accounting_group_export/files/CamScanner 13-05-2026 12.43 (1).pdf p4",
+      "message124",
+      "message129"
+    ],
+    "id": "M-037"
+  },
+  {
+    "tx": "TX0067",
+    "field": "description_fa",
+    "new": "رسید جانبو طرشت (۱۶۳۳) ۱۴۰۴/۱۰/۰۲ ساعت ۱۸:۴۶: ۱۰ عدد اسنک مزمز، ۱۷۹٬۰۰۰ تومان؛ پرداخت پرنیان؛ جزو تسویه TX0062/63 (CamScanner 13-05-2026 12.43 (1).pdf p4؛ پیام ۱۲۹).",
+    "reason": "Dossier B2: assessment 'vague'; states shop, items, time and payer.",
+    "evidence": [
+      "anjoman_accounting_group_export/files/CamScanner 13-05-2026 12.43 (1).pdf p4",
+      "message124",
+      "message129"
+    ],
+    "id": "M-038"
+  },
+  {
+    "tx": "TX0068",
+    "field": "description_en",
+    "new": "Canbo Tarasht (1633) receipt 1404/10/02 18:47: 10 Mazmaz 38g cheese snacks, 179,000 toman; paid by Parnian; reimbursed via TX0062/63 (CamScanner 13-05-2026 12.43 (1).pdf p5, message129).",
+    "reason": "Dossier B2: assessment 'vague'; states shop, items, time and payer.",
+    "evidence": [
+      "anjoman_accounting_group_export/files/CamScanner 13-05-2026 12.43 (1).pdf p5",
+      "message124",
+      "message129"
+    ],
+    "id": "M-039"
+  },
+  {
+    "tx": "TX0068",
+    "field": "description_fa",
+    "new": "رسید جانبو طرشت (۱۶۳۳) ۱۴۰۴/۱۰/۰۲ ساعت ۱۸:۴۷: ۱۰ عدد اسنک مزمز، ۱۷۹٬۰۰۰ تومان؛ پرداخت پرنیان؛ جزو تسویه TX0062/63 (CamScanner 13-05-2026 12.43 (1).pdf p5؛ پیام ۱۲۹).",
+    "reason": "Dossier B2: assessment 'vague'; states shop, items, time and payer.",
+    "evidence": [
+      "anjoman_accounting_group_export/files/CamScanner 13-05-2026 12.43 (1).pdf p5",
+      "message124",
+      "message129"
+    ],
+    "id": "M-040"
+  },
+  {
+    "tx": "TX0069",
+    "field": "description_en",
+    "new": "Canbo Tarasht (1633) receipt 1404/10/02 18:46: 10 Mazmaz 38g cheese snacks, 179,000 toman; a second purchase in the same minute as C4 (separate physical receipt); paid by Parnian; reimbursed via TX0062/63 (CamScanner 13-05-2026 12.43 (1).pdf p6, message129).",
+    "reason": "Dossier B2: assessment 'vague'; states it is a distinct second receipt in the same minute as TX0067 (dossier: evidence indicates a distinct receipt, not a rescan).",
+    "evidence": [
+      "anjoman_accounting_group_export/files/CamScanner 13-05-2026 12.43 (1).pdf p6",
+      "message124",
+      "message129"
+    ],
+    "id": "M-041"
+  },
+  {
+    "tx": "TX0069",
+    "field": "description_fa",
+    "new": "رسید جانبو طرشت (۱۶۳۳) ۱۴۰۴/۱۰/۰۲ ساعت ۱۸:۴۶: ۱۰ عدد اسنک مزمز، ۱۷۹٬۰۰۰ تومان؛ خرید دوم در همان دقیقه C4 (رسید فیزیکی جدا)؛ پرداخت پرنیان؛ جزو تسویه TX0062/63 (CamScanner 13-05-2026 12.43 (1).pdf p6؛ پیام ۱۲۹).",
+    "reason": "Dossier B2: assessment 'vague'; states it is a distinct second receipt in the same minute as TX0067 (dossier: evidence indicates a distinct receipt, not a rescan).",
+    "evidence": [
+      "anjoman_accounting_group_export/files/CamScanner 13-05-2026 12.43 (1).pdf p6",
+      "message124",
+      "message129"
+    ],
+    "id": "M-042"
+  },
+  {
+    "tx": "TX0070",
+    "field": "description_en",
+    "new": "HyperFamili Tarasht receipt 1404/10/02: 99 Mazmaz 38g cheese snacks, 1,916,640 toman (after 2,613,600-rial discount); bought by Parnian for Yalda; reimbursed via TX0062/63 (CamScanner 13-05-2026 12.43 (1).pdf p7, message129).",
+    "reason": "Dossier B2: assessment 'vague'; states shop, items and amount; time not legible and payer inferred from Parnian's PDF only.",
+    "evidence": [
+      "anjoman_accounting_group_export/files/CamScanner 13-05-2026 12.43 (1).pdf p7",
+      "message124",
+      "message129"
+    ],
+    "id": "M-043"
+  },
+  {
+    "tx": "TX0070",
+    "field": "description_fa",
+    "new": "فاکتور هایپرفامیلی طرشت ۱۴۰۴/۱۰/۰۲: ۹۹ عدد اسنک پنیری مزمز ۳۸ گرمی، ۱٬۹۱۶٬۶۴۰ تومان؛ خرید پرنیان برای یلدا؛ جزو تسویه TX0062/63 (CamScanner 13-05-2026 12.43 (1).pdf p7؛ پیام ۱۲۹).",
+    "reason": "Dossier B2: assessment 'vague'; states shop, items and amount; time not legible and payer inferred from Parnian's PDF only.",
+    "evidence": [
+      "anjoman_accounting_group_export/files/CamScanner 13-05-2026 12.43 (1).pdf p7",
+      "message124",
+      "message129"
+    ],
+    "id": "M-044"
+  },
+  {
+    "tx": "TX0071",
+    "field": "description_en",
+    "new": "Ekano receipt 1404/10/03 11:36: one Gala milk chocolate tablet item, 1,357,999 rial = 135,799.9 toman, paid with Parnian's card ...5401; reimbursed via TX0062/63 (CamScanner 13-05-2026 12.43 (1).pdf p8, message129).",
+    "reason": "Dossier B2: assessment 'vague'; states shop, item, exact amount and payer.",
+    "evidence": [
+      "anjoman_accounting_group_export/files/CamScanner 13-05-2026 12.43 (1).pdf p8",
+      "message124",
+      "message129"
+    ],
+    "id": "M-045"
+  },
+  {
+    "tx": "TX0071",
+    "field": "description_fa",
+    "new": "رسید اکانو ۱۴۰۴/۱۰/۰۳ ساعت ۱۱:۳۶: شکلات تابلت گالا (شیری)، ۱٬۳۵۷٬۹۹۹ ریال = ۱۳۵٬۷۹۹٫۹ تومان، با کارت پرنیان ...۵۴۰۱؛ جزو تسویه TX0062/63 (CamScanner 13-05-2026 12.43 (1).pdf p8؛ پیام ۱۲۹).",
+    "reason": "Dossier B2: assessment 'vague'; states shop, item, exact amount and payer.",
+    "evidence": [
+      "anjoman_accounting_group_export/files/CamScanner 13-05-2026 12.43 (1).pdf p8",
+      "message124",
+      "message129"
+    ],
+    "id": "M-046"
+  },
+  {
+    "tx": "TX0072",
+    "field": "description_en",
+    "new": "Canbo Tarasht Metro (2224) receipt 1404/10/02 18:56: 10 Mazmaz 38g cheese snacks, 179,000 toman; bought by Parnian for Yalda; reimbursed via TX0062/63 (CamScanner 13-05-2026 12.43 (1).pdf p9, message129).",
+    "reason": "Dossier B2: assessment 'vague'; states shop branch, time and items (printed time 18:56, same minute as TX0073 but different amount).",
+    "evidence": [
+      "anjoman_accounting_group_export/files/CamScanner 13-05-2026 12.43 (1).pdf p9",
+      "message124",
+      "message129"
+    ],
+    "id": "M-047"
+  },
+  {
+    "tx": "TX0072",
+    "field": "description_fa",
+    "new": "رسید جانبو طرشت مترو (۲۲۲۴) ۱۴۰۴/۱۰/۰۲ ساعت ۱۸:۵۶: ۱۰ عدد اسنک مزمز، ۱۷۹٬۰۰۰ تومان؛ خرید پرنیان؛ جزو تسویه TX0062/63 (CamScanner 13-05-2026 12.43 (1).pdf p9؛ پیام ۱۲۹).",
+    "reason": "Dossier B2: assessment 'vague'; states shop branch, time and items (printed time 18:56, same minute as TX0073 but different amount).",
+    "evidence": [
+      "anjoman_accounting_group_export/files/CamScanner 13-05-2026 12.43 (1).pdf p9",
+      "message124",
+      "message129"
+    ],
+    "id": "M-048"
+  },
+  {
+    "tx": "TX0073",
+    "field": "description_en",
+    "new": "Canbo Tarasht Metro (2224) receipt 1404/10/02 18:56: 7 Mazmaz 38g cheese snacks, 125,300 toman; bought by Parnian; reimbursed via TX0062/63 (CamScanner 13-05-2026 12.43 (1).pdf p10, message129).",
+    "reason": "Dossier B2: assessment 'vague'; states shop branch, time and items.",
+    "evidence": [
+      "anjoman_accounting_group_export/files/CamScanner 13-05-2026 12.43 (1).pdf p10",
+      "message124",
+      "message129"
+    ],
+    "id": "M-049"
+  },
+  {
+    "tx": "TX0073",
+    "field": "description_fa",
+    "new": "رسید جانبو طرشت مترو (۲۲۲۴) ۱۴۰۴/۱۰/۰۲ ساعت ۱۸:۵۶: ۷ عدد اسنک مزمز، ۱۲۵٬۳۰۰ تومان؛ خرید پرنیان؛ جزو تسویه TX0062/63 (CamScanner 13-05-2026 12.43 (1).pdf p10؛ پیام ۱۲۹).",
+    "reason": "Dossier B2: assessment 'vague'; states shop branch, time and items.",
+    "evidence": [
+      "anjoman_accounting_group_export/files/CamScanner 13-05-2026 12.43 (1).pdf p10",
+      "message124",
+      "message129"
+    ],
+    "id": "M-050"
+  },
+  {
+    "tx": "TX0074",
+    "field": "description_en",
+    "new": "Handwritten RIBAR coffee/fast-food invoice, chocolate cookies, 4,950,000 rial = 495,000 toman, dated 1404/10/03 (or /13); included in Parnian's PDF and matches treasurer's 'Yalda cookies' remark (message128); no payment proof (CamScanner 13-05-2026 12.43 (1).pdf p11, message128).",
+    "reason": "Dossier B2: assessment 'vague'; states vendor, item and amount; notes there is no payment proof.",
+    "evidence": [
+      "anjoman_accounting_group_export/files/CamScanner 13-05-2026 12.43 (1).pdf p11",
+      "message128",
+      "message124",
+      "message129"
+    ],
+    "id": "M-051"
+  },
+  {
+    "tx": "TX0074",
+    "field": "description_fa",
+    "new": "فاکتور دست‌نویس ریبار (کافه/فست‌فود): کوکی شکلاتی، ۴٬۹۵۰٬۰۰۰ ریال = ۴۹۵٬۰۰۰ تومان، تاریخ ۱۴۰۴/۱۰/۰۳ (یا ۱۳)؛ در PDF پرنیان و مطابق اشاره خزانه‌دار به «کوکی» (پیام ۱۲۸)؛ مدرک پرداخت ندارد (CamScanner 13-05-2026 12.43 (1).pdf p11).",
+    "reason": "Dossier B2: assessment 'vague'; states vendor, item and amount; notes there is no payment proof.",
+    "evidence": [
+      "anjoman_accounting_group_export/files/CamScanner 13-05-2026 12.43 (1).pdf p11",
+      "message128",
+      "message124",
+      "message129"
+    ],
+    "id": "M-052"
+  },
+  {
+    "tx": "TX0045",
+    "field": "description_en",
+    "new": "Donation from Dr. Saman Moghimi to support the association (Azar 1404), per treasurer ledger row مجموع!B39 only; no receipt or Telegram message for this 7,000,000 — evidence thin (Anjoman accounting.xlsx!مجموع!A39:B39).",
+    "reason": "Dossier C: assessment 'vague'; names donor and purpose; flags the workbook-only basis.",
+    "evidence": [
+      "Anjoman accounting.xlsx!مجموع!A39:B39",
+      "message103",
+      "message113"
+    ],
+    "id": "M-053"
+  },
+  {
+    "tx": "TX0045",
+    "field": "description_fa",
+    "new": "واریزی دکتر مقیمی جهت کمک به انجمن (آذر ۱۴۰۴)، صرفاً طبق ردیف B39 دفتر خزانه‌دار؛ بدون رسید یا پیام تلگرامی — شواهد ضعیف (مجموع!A39:B39).",
+    "reason": "Dossier C: assessment 'vague'; names donor and purpose; flags the workbook-only basis.",
+    "evidence": [
+      "Anjoman accounting.xlsx!مجموع!A39:B39",
+      "message103",
+      "message113"
+    ],
+    "id": "M-054"
+  },
+  {
+    "tx": "TX0061",
+    "field": "description_en",
+    "new": "Card-to-card transfer of 1,801,220 toman from the association's Bank Shahr card …8966 to card …9676 (holder not shown) on 1404/12/09 10:10; purpose not shown in any evidence (recipts/photo_6_2026-10-10_14-07-27.jpg).",
+    "reason": "Dossier C: assessment 'vague'; states transfer, amount and date; destination cardholder and purpose not shown (destination card masked to last four digits).",
+    "evidence": [
+      "recipts/photo_6_2026-10-10_14-07-27.jpg",
+      "reports/2026-10-10/user_confirmation_2026-10-10.json",
+      "analysis/messages.jsonl (all chats, 2026-02-01..2026-03-20)"
+    ],
+    "id": "M-055"
+  },
+  {
+    "tx": "TX0061",
+    "field": "description_fa",
+    "new": "انتقال کارت به کارت ۱٬۸۰۱٬۲۲۰ تومان از کارت انجمن (بانک شهر …۸۹۶۶) به کارت …۹۶۷۶ (نام دارنده درج نشده) در ۱۴۰۴/۱۲/۰۹ ساعت ۱۰:۱۰؛ بابت آن در هیچ سندی مشخص نیست (recipts/photo_6_2026-10-10_14-07-27.jpg).",
+    "reason": "Dossier C: assessment 'vague'; states transfer, amount and date; destination cardholder and purpose not shown (destination card masked to last four digits).",
+    "evidence": [
+      "recipts/photo_6_2026-10-10_14-07-27.jpg",
+      "reports/2026-10-10/user_confirmation_2026-10-10.json",
+      "analysis/messages.jsonl (all chats, 2026-02-01..2026-03-20)"
+    ],
+    "id": "M-056"
+  },
+  {
+    "tx": "TX0075",
+    "field": "description_en",
+    "new": "Card purchase of 6,337,000 toman at terminal 80957455 with Bank Shahr card …2167 on the association deposit 400816808774, 1405/05/21 17:43; merchant and purpose not shown (recipts/photo_3_2026-10-10_14-07-27.jpg).",
+    "reason": "Dossier C: assessment 'vague'; states terminal, card, deposit and time; merchant and purpose not shown.",
+    "evidence": [
+      "recipts/photo_3_2026-10-10_14-07-27.jpg",
+      "reports/2026-10-10/user_confirmation_2026-10-10.json"
+    ],
+    "id": "M-057"
+  },
+  {
+    "tx": "TX0075",
+    "field": "description_fa",
+    "new": "خرید کارتی ۶٬۳۳۷٬۰۰۰ تومان از پایانه ۸۰۹۵۷۴۵۵ با کارت بانک شهر …۲۱۶۷ روی سپرده انجمن ۴۰۰۸۱۶۸۰۸۷۷۴، ۱۴۰۵/۰۵/۲۱ ساعت ۱۷:۴۳؛ پذیرنده و بابت مشخص نیست (recipts/photo_3_2026-10-10_14-07-27.jpg).",
+    "reason": "Dossier C: assessment 'vague'; states terminal, card, deposit and time; merchant and purpose not shown.",
+    "evidence": [
+      "recipts/photo_3_2026-10-10_14-07-27.jpg",
+      "reports/2026-10-10/user_confirmation_2026-10-10.json"
+    ],
+    "id": "M-058"
+  },
+  {
+    "tx": "TX0075",
+    "field": "tracking_id",
+    "new": "001873",
+    "reason": "Receipt prints tracking (باکدرهگيري) 001873; ledger had 187300 — digit order, value carried from an earlier OCR (Dossier C discrepancy).",
+    "evidence": [
+      "recipts/photo_3_2026-10-10_14-07-27.jpg",
+      "reports/2026-10-10/user_confirmation_2026-10-10.json"
+    ],
+    "id": "M-059"
+  },
+  {
+    "tx": "TX0076",
+    "field": "description_en",
+    "new": "Card purchase at terminal 09039608 with Bank Shahr card …2167 on association deposit 400816808774, 1405/05/22 - 15:05; merchant and purpose not shown (recipts/photo_2_2026-10-10_14-07-27.jpg).",
+    "reason": "Dossier C: assessment 'vague'; states terminal, deposit and time; merchant and purpose not shown.",
+    "evidence": [
+      "recipts/photo_2_2026-10-10_14-07-27.jpg",
+      "reports/2026-10-10/user_confirmation_2026-10-10.json"
+    ],
+    "id": "M-060"
+  },
+  {
+    "tx": "TX0076",
+    "field": "description_fa",
+    "new": "خرید کارتی از پایانه 09039608 با کارت بانک شهر …۲۱۶۷ روی سپرده انجمن، 1405/05/22 - 15:05؛ پذیرنده و بابت مشخص نیست (recipts/photo_2_2026-10-10_14-07-27.jpg).",
+    "reason": "Dossier C: assessment 'vague'; states terminal, deposit and time; merchant and purpose not shown.",
+    "evidence": [
+      "recipts/photo_2_2026-10-10_14-07-27.jpg",
+      "reports/2026-10-10/user_confirmation_2026-10-10.json"
+    ],
+    "id": "M-061"
+  },
+  {
+    "tx": "TX0077",
+    "field": "description_en",
+    "new": "Card purchase at terminal 09039608 with Bank Shahr card …2167 on association deposit 400816808774, 1405/05/22 - 15:11; merchant and purpose not shown (recipts/photo_5_2026-10-10_14-07-27.jpg).",
+    "reason": "Dossier C: assessment 'vague'; states terminal, deposit and time; merchant and purpose not shown.",
+    "evidence": [
+      "recipts/photo_5_2026-10-10_14-07-27.jpg",
+      "reports/2026-10-10/user_confirmation_2026-10-10.json"
+    ],
+    "id": "M-062"
+  },
+  {
+    "tx": "TX0077",
+    "field": "description_fa",
+    "new": "خرید کارتی از پایانه 09039608 با کارت بانک شهر …۲۱۶۷ روی سپرده انجمن، 1405/05/22 - 15:11؛ پذیرنده و بابت مشخص نیست (recipts/photo_5_2026-10-10_14-07-27.jpg).",
+    "reason": "Dossier C: assessment 'vague'; states terminal, deposit and time; merchant and purpose not shown.",
+    "evidence": [
+      "recipts/photo_5_2026-10-10_14-07-27.jpg",
+      "reports/2026-10-10/user_confirmation_2026-10-10.json"
+    ],
+    "id": "M-063"
+  },
+  {
+    "tx": "TX0078",
+    "field": "description_en",
+    "new": "Card purchase at terminal 03202703 with Bank Shahr card …2167 on association deposit 400816808774, 1405/05/22 - 15:31; merchant and purpose not shown (recipts/photo_8_2026-10-10_14-07-27.jpg).",
+    "reason": "Dossier C: assessment 'vague'; states terminal, deposit and time; merchant and purpose not shown.",
+    "evidence": [
+      "recipts/photo_8_2026-10-10_14-07-27.jpg",
+      "reports/2026-10-10/user_confirmation_2026-10-10.json"
+    ],
+    "id": "M-064"
+  },
+  {
+    "tx": "TX0078",
+    "field": "description_fa",
+    "new": "خرید کارتی از پایانه 03202703 با کارت بانک شهر …۲۱۶۷ روی سپرده انجمن، 1405/05/22 - 15:31؛ پذیرنده و بابت مشخص نیست (recipts/photo_8_2026-10-10_14-07-27.jpg).",
+    "reason": "Dossier C: assessment 'vague'; states terminal, deposit and time; merchant and purpose not shown.",
+    "evidence": [
+      "recipts/photo_8_2026-10-10_14-07-27.jpg",
+      "reports/2026-10-10/user_confirmation_2026-10-10.json"
+    ],
+    "id": "M-065"
+  },
+  {
+    "tx": "TX0079",
+    "field": "description_en",
+    "new": "Card purchase at terminal 22958772 with Bank Shahr card …2167 on association deposit 400816808774, 1405/05/22 - 15:35; merchant and purpose not shown (recipts/photo_7_2026-10-10_14-07-27.jpg).",
+    "reason": "Dossier C: assessment 'vague'; states terminal, deposit and time; merchant and purpose not shown.",
+    "evidence": [
+      "recipts/photo_7_2026-10-10_14-07-27.jpg",
+      "reports/2026-10-10/user_confirmation_2026-10-10.json"
+    ],
+    "id": "M-066"
+  },
+  {
+    "tx": "TX0079",
+    "field": "description_fa",
+    "new": "خرید کارتی از پایانه 22958772 با کارت بانک شهر …۲۱۶۷ روی سپرده انجمن، 1405/05/22 - 15:35؛ پذیرنده و بابت مشخص نیست (recipts/photo_7_2026-10-10_14-07-27.jpg).",
+    "reason": "Dossier C: assessment 'vague'; states terminal, deposit and time; merchant and purpose not shown.",
+    "evidence": [
+      "recipts/photo_7_2026-10-10_14-07-27.jpg",
+      "reports/2026-10-10/user_confirmation_2026-10-10.json"
+    ],
+    "id": "M-067"
+  },
+  {
+    "tx": "TX0080",
+    "field": "description_en",
+    "new": "Blu-to-Blu transfer of 450,000 toman to Mohammad-Hossein Moshk-Afshan on 1405/06/05 21:52, very likely for advertising Summer School 1405 on the 'Sharif Admin'/Mohemat Sharif channel (same payee and channel as the 1404 ad TX0009; ad forwarded from 'Sharif Admin' 12 minutes later, public_group message516) (recipts/photo_5_2026-10-10_11-09-04.jpg, public_group message516).",
+    "reason": "Dossier C: assessment 'vague'; states payee and the very-likely ad purpose via the 1404 precedent and the forwarded ad post.",
+    "evidence": [
+      "recipts/photo_5_2026-10-10_11-09-04.jpg",
+      "public_group message504",
+      "public_group message516; message524"
+    ],
+    "id": "M-068"
+  },
+  {
+    "tx": "TX0080",
+    "field": "description_fa",
+    "new": "انتقال بلو به بلو ۴۵۰٬۰۰۰ تومان به محمدحسین مشک‌افشان در ۱۴۰۵/۰۶/۰۵ ساعت ۲۱:۵۲؛ به احتمال زیاد بابت تبلیغ مدرسه تابستانه ۱۴۰۵ در کانال «Sharif Admin»/مهمات شریف (همان دریافت‌کننده و کانال تبلیغ ۱۴۰۴، TX0009؛ پست تبلیغ ۱۲ دقیقه بعد از «Sharif Admin» فوروارد شده است) (recipts/photo_5_2026-10-10_11-09-04.jpg، پیام ۵۱۶ گروه عمومی).",
+    "reason": "Dossier C: assessment 'vague'; states payee and the very-likely ad purpose via the 1404 precedent and the forwarded ad post.",
+    "evidence": [
+      "recipts/photo_5_2026-10-10_11-09-04.jpg",
+      "public_group message504",
+      "public_group message516; message524"
+    ],
+    "id": "M-069"
+  },
+  {
+    "tx": "TX0081",
+    "field": "description_en",
+    "new": "Card-to-card transfer of 4,500,000 toman from Hassan Shiri's Blu card …5780 to Atefeh Nakhaei (card …3063) on 1405/06/06 01:03; purpose not shown — evidence thin (recipts/photo_4_2026-10-10_11-09-04.jpg).",
+    "reason": "Dossier C: assessment 'vague'; states payer, payee and time; purpose not shown (destination card masked to last four digits).",
+    "evidence": [
+      "recipts/photo_4_2026-10-10_11-09-04.jpg",
+      "reports/2026-10-10/user_confirmation_2026-10-10.json"
+    ],
+    "id": "M-070"
+  },
+  {
+    "tx": "TX0081",
+    "field": "description_fa",
+    "new": "انتقال کارت به کارت ۴٬۵۰۰٬۰۰۰ تومان از کارت بلوی حسن شیری (…۵۷۸۰) به عاطفه نخعی (کارت …۳۰۶۳) در ۱۴۰۵/۰۶/۰۶ ساعت ۱:۰۳؛ بابت مشخص نیست — شواهد ضعیف (recipts/photo_4_2026-10-10_11-09-04.jpg).",
+    "reason": "Dossier C: assessment 'vague'; states payer, payee and time; purpose not shown (destination card masked to last four digits).",
+    "evidence": [
+      "recipts/photo_4_2026-10-10_11-09-04.jpg",
+      "reports/2026-10-10/user_confirmation_2026-10-10.json"
+    ],
+    "id": "M-071"
+  },
+  {
+    "tx": "TX0083",
+    "field": "description_en",
+    "new": "Summer School 1405 instructor fee to Zahra Saleh Koushali for the Python OOP course (2 sessions; summerschool_channel message32), 600,000 toman via Pol on 1405/06/30 15:33 (provisional receipt) (recipts/photo_1_2026-10-10_11-09-04.jpg).",
+    "reason": "Dossier C: assessment 'vague'; names instructor (Zahra Saleh Koushali), course (Python OOP, 2 sessions), amount and channel.",
+    "evidence": [
+      "recipts/photo_1_2026-10-10_11-09-04.jpg",
+      "reports/2026-10-10/user_confirmation_2026-10-10.json",
+      "summerschool_channel message32"
+    ],
+    "id": "M-072"
+  },
+  {
+    "tx": "TX0083",
+    "field": "description_fa",
+    "new": "حق‌التدریس مدرسه تابستانه ۱۴۰۵ — زهرا صالح کوشالی، دوره شی‌گرایی پایتون (۲ جلسه؛ پیام ۳۲ کانال مدرسه)، ۶۰۰٬۰۰۰ تومان با پل در ۱۴۰۵/۰۶/۳۰ ساعت ۱۵:۳۳ (رسید غیرنهایی) (recipts/photo_1_2026-10-10_11-09-04.jpg).",
+    "reason": "Dossier C: assessment 'vague'; names instructor (Zahra Saleh Koushali), course (Python OOP, 2 sessions), amount and channel.",
+    "evidence": [
+      "recipts/photo_1_2026-10-10_11-09-04.jpg",
+      "reports/2026-10-10/user_confirmation_2026-10-10.json",
+      "summerschool_channel message32"
+    ],
+    "id": "M-073"
+  },
+  {
+    "tx": "TX0084",
+    "field": "description_en",
+    "new": "Summer School 1405 instructor fee to Reza Farhadi for the Manim content-production course (3 sessions; summerschool_channel message33), 1,200,000 toman via Pol on 1405/06/30 15:34 (provisional receipt) (recipts/photo_2_2026-10-10_11-09-04.jpg).",
+    "reason": "Dossier C: assessment 'vague'; names instructor (Reza Farhadi), course (Manim content production, 3 sessions), amount and channel.",
+    "evidence": [
+      "recipts/photo_2_2026-10-10_11-09-04.jpg",
+      "reports/2026-10-10/user_confirmation_2026-10-10.json",
+      "summerschool_channel message33"
+    ],
+    "id": "M-074"
+  },
+  {
+    "tx": "TX0084",
+    "field": "description_fa",
+    "new": "حق‌التدریس مدرسه تابستانه ۱۴۰۵ — رضا فرهادی، دوره تولید محتوا با Manim (۳ جلسه؛ پیام ۳۳ کانال مدرسه)، ۱٬۲۰۰٬۰۰۰ تومان با پل در ۱۴۰۵/۰۶/۳۰ ساعت ۱۵:۳۴ (رسید غیرنهایی) (recipts/photo_2_2026-10-10_11-09-04.jpg).",
+    "reason": "Dossier C: assessment 'vague'; names instructor (Reza Farhadi), course (Manim content production, 3 sessions), amount and channel.",
+    "evidence": [
+      "recipts/photo_2_2026-10-10_11-09-04.jpg",
+      "reports/2026-10-10/user_confirmation_2026-10-10.json",
+      "summerschool_channel message33"
+    ],
+    "id": "M-075"
+  },
+  {
+    "tx": "TX0087",
+    "field": "description_en",
+    "new": "Summer School 1405 instructor fee to Ilia Asgharian Dehkordi for the introductory Python course (6 sessions; summerschool_channel message29), 2,600,000 toman Blu-to-Blu on 1405/07/01 01:09 (recipts/photo_8_2026-10-10_11-09-04.jpg).",
+    "reason": "Dossier C: assessment 'vague'; names instructor (Ilia Asgharian Dehkordi), course (introductory Python, 6 sessions), amount and channel.",
+    "evidence": [
+      "recipts/photo_8_2026-10-10_11-09-04.jpg",
+      "reports/2026-10-10/user_confirmation_2026-10-10.json",
+      "summerschool_channel message29"
+    ],
+    "id": "M-076"
+  },
+  {
+    "tx": "TX0087",
+    "field": "description_fa",
+    "new": "حق‌التدریس مدرسه تابستانه ۱۴۰۵ — ایلیا اصغریان دهکردی، دوره پایتون مقدماتی (۶ جلسه؛ پیام ۲۹ کانال مدرسه)، ۲٬۶۰۰٬۰۰۰ تومان بلو به بلو در ۱۴۰۵/۰۷/۰۱ ساعت ۱:۰۹ (recipts/photo_8_2026-10-10_11-09-04.jpg).",
+    "reason": "Dossier C: assessment 'vague'; names instructor (Ilia Asgharian Dehkordi), course (introductory Python, 6 sessions), amount and channel.",
+    "evidence": [
+      "recipts/photo_8_2026-10-10_11-09-04.jpg",
+      "reports/2026-10-10/user_confirmation_2026-10-10.json",
+      "summerschool_channel message29"
+    ],
+    "id": "M-077"
+  },
+  {
+    "tx": "TX0089",
+    "field": "description_en",
+    "new": "Catering for Intro Event 1405: 100 Mihan milk drinks (80 cocoa, 20 coffee) and 90 Mazmaz cakes from Yaran Daryan Lux Gisha, invoice 165826 dated 1405/07/01 19:11 in the name of Mohammad-Hassan Shiri, 9,987,900 toman; settlement user-attested (recipts/photo_2026-10-10_12-16-28.jpg).",
+    "reason": "Dossier C: assessment 'vague'; states vendor, items, invoice number/date and that settlement rests on user attestation.",
+    "evidence": [
+      "recipts/photo_2026-10-10_12-16-28.jpg",
+      "public_group message5411",
+      "public_group message5578; message5583"
+    ],
+    "id": "M-078"
+  },
+  {
+    "tx": "TX0089",
+    "field": "description_fa",
+    "new": "پذیرایی رویداد معرفی رشته ۱۴۰۵: ۱۰۰ شیر میهن (۸۰ شیرکاکائو، ۲۰ شیرقهوه) و ۹۰ کیک مزمز از یاران دریان لوکس گیشا، فاکتور ۱۶۵۸۲۶ مورخ ۱۴۰۵/۰۷/۰۱ ساعت ۱۹:۱۱ به نام محمدحسن شیری، ۹٬۹۸۷٬۹۰۰ تومان؛ تسویه طبق اظهار کاربر (recipts/photo_2026-10-10_12-16-28.jpg).",
+    "reason": "Dossier C: assessment 'vague'; states vendor, items, invoice number/date and that settlement rests on user attestation.",
+    "evidence": [
+      "recipts/photo_2026-10-10_12-16-28.jpg",
+      "public_group message5411",
+      "public_group message5578; message5583"
+    ],
+    "id": "M-079"
+  },
+  {
+    "tx": "TX0090",
+    "field": "description_en",
+    "new": "Card-to-card transfer of 13,900,000 toman from Hassan Shiri's Blu card …6947 to Paria Hashemi (card …0577) on 1405/07/02 10:03 (the Intro Event 1405 day); purpose not shown — evidence thin (recipts/photo_10_2026-10-10_11-09-04.jpg).",
+    "reason": "Dossier C: assessment 'vague'; states payer, payee, time and the Intro Event day; purpose not shown (destination card masked to last four digits).",
+    "evidence": [
+      "recipts/photo_10_2026-10-10_11-09-04.jpg",
+      "reports/2026-10-10/user_confirmation_2026-10-10.json"
+    ],
+    "id": "M-080"
+  },
+  {
+    "tx": "TX0090",
+    "field": "description_fa",
+    "new": "انتقال کارت به کارت ۱۳٬۹۰۰٬۰۰۰ تومان از کارت بلوی حسن شیری (…۶۹۴۷) به پریا هاشمی (کارت …۰۵۷۷) در ۱۴۰۵/۰۷/۰۲ ساعت ۱۰:۰۳ (روز رویداد معرفی رشته)؛ بابت مشخص نیست — شواهد ضعیف (recipts/photo_10_2026-10-10_11-09-04.jpg).",
+    "reason": "Dossier C: assessment 'vague'; states payer, payee, time and the Intro Event day; purpose not shown (destination card masked to last four digits).",
+    "evidence": [
+      "recipts/photo_10_2026-10-10_11-09-04.jpg",
+      "reports/2026-10-10/user_confirmation_2026-10-10.json"
+    ],
+    "id": "M-081"
+  },
+  {
+    "tx": "TX0091",
+    "field": "description_en",
+    "new": "Store purchase of 2,332,250 toman at merchant 12738006 from a Blu account (holder not shown) on 1405/07/02 10:17, the Intro Event 1405 day; items not shown (recipts/photo_11_2026-10-10_11-09-04.jpg).",
+    "reason": "Dossier C: assessment 'vague'; states merchant code, amount and the Intro Event day; items not shown.",
+    "evidence": [
+      "recipts/photo_11_2026-10-10_11-09-04.jpg",
+      "reports/2026-10-10/user_confirmation_2026-10-10.json"
+    ],
+    "id": "M-082"
+  },
+  {
+    "tx": "TX0091",
+    "field": "description_fa",
+    "new": "خرید از فروشگاه (پذیرنده ۱۲۷۳۸۰۰۶) به مبلغ ۲٬۳۳۲٬۲۵۰ تومان از حساب بلو (نام دارنده درج نشده) در ۱۴۰۵/۰۷/۰۲ ساعت ۱۰:۱۷، روز رویداد معرفی رشته؛ اقلام مشخص نیست (recipts/photo_11_2026-10-10_11-09-04.jpg).",
+    "reason": "Dossier C: assessment 'vague'; states merchant code, amount and the Intro Event day; items not shown.",
+    "evidence": [
+      "recipts/photo_11_2026-10-10_11-09-04.jpg",
+      "reports/2026-10-10/user_confirmation_2026-10-10.json"
+    ],
+    "id": "M-083"
+  },
+  {
+    "tx": "TX0092",
+    "field": "description_en",
+    "new": "Card-to-card transfer of 305,000 toman from Hassan Shiri's Blu card …6947 to Mozhdeh Salmani Sarshaki (card …6083) on 1405/07/14 18:07; purpose not shown (recipts/photo_12_2026-10-10_11-09-04.jpg).",
+    "reason": "Dossier C: assessment 'vague'; states payer, payee and time; purpose not shown (destination card masked to last four digits).",
+    "evidence": [
+      "recipts/photo_12_2026-10-10_11-09-04.jpg",
+      "reports/2026-10-10/user_confirmation_2026-10-10.json"
+    ],
+    "id": "M-084"
+  },
+  {
+    "tx": "TX0092",
+    "field": "description_fa",
+    "new": "انتقال کارت به کارت ۳۰۵٬۰۰۰ تومان از کارت بلوی حسن شیری (…۶۹۴۷) به مژده سلمانی سرشکی (کارت …۶۰۸۳) در ۱۴۰۵/۰۷/۱۴ ساعت ۱۸:۰۷؛ بابت مشخص نیست (recipts/photo_12_2026-10-10_11-09-04.jpg).",
+    "reason": "Dossier C: assessment 'vague'; states payer, payee and time; purpose not shown (destination card masked to last four digits).",
+    "evidence": [
+      "recipts/photo_12_2026-10-10_11-09-04.jpg",
+      "reports/2026-10-10/user_confirmation_2026-10-10.json"
+    ],
+    "id": "M-085"
+  },
+  {
+    "tx": "TX0093",
+    "field": "description_en",
+    "new": "Intro Event 1405 (1405/07/02) ticket income as entered by the treasurer (مجموع!B45, 'معرفی رشته', block 'مهر 05'); presumably the Evand payout, but no payout statement or bank deposit is in evidence (Anjoman accounting.xlsx!مجموع!A45:B45, physics_intro full report.pdf p1-2).",
+    "reason": "Dossier C: assessment 'vague'; states event and treasurer-ledger basis; no payout statement or deposit in evidence.",
+    "evidence": [
+      "Anjoman accounting.xlsx!مجموع!A45:B45",
+      "physics_intro full report.pdf p1-2",
+      "public_group message5251; message5094"
+    ],
+    "id": "M-086"
+  },
+  {
+    "tx": "TX0093",
+    "field": "description_fa",
+    "new": "درآمد بلیت رویداد معرفی رشته ۱۴۰۵ (۱۴۰۵/۰۷/۰۲) طبق دفتر خزانه‌دار (مجموع!B45، «معرفی رشته»، بلوک «مهر ۰۵»)؛ احتمالاً تسویه ایوند، اما صورت‌حساب تسویه یا واریز بانکی موجود نیست (مجموع!A45:B45؛ گزارش کامل physics_intro، صفحات ۱-۲).",
+    "reason": "Dossier C: assessment 'vague'; states event and treasurer-ledger basis; no payout statement or deposit in evidence.",
+    "evidence": [
+      "Anjoman accounting.xlsx!مجموع!A45:B45",
+      "physics_intro full report.pdf p1-2",
+      "public_group message5251; message5094"
+    ],
+    "id": "M-087"
+  },
+  {
+    "tx": "TX0095",
+    "field": "description_en",
+    "new": "Post-event gathering (after-party) of the Intro Event 1405 organizing team, apparently the evening of 1405/07/02 (public_group message5758); amount per treasurer ledger only (مجموع!D45); payee and receipt not shown (Anjoman accounting.xlsx!مجموع!D45:F45, public_group message5758).",
+    "reason": "Dossier C: assessment 'vague'; states the after-party and its workbook-only amount; payee and receipt not shown.",
+    "evidence": [
+      "Anjoman accounting.xlsx!مجموع!D45:F45",
+      "public_group message5758",
+      "public_group message5362; message5368"
+    ],
+    "id": "M-088"
+  },
+  {
+    "tx": "TX0095",
+    "field": "description_fa",
+    "new": "دورهمی (افترپارتی) تیم برگزاری پس از رویداد معرفی رشته ۱۴۰۵، ظاهراً عصر ۱۴۰۵/۰۷/۰۲ (پیام ۵۷۵۸ گروه عمومی)؛ مبلغ فقط طبق دفتر خزانه‌دار (مجموع!D45)؛ دریافت‌کننده و رسید مشخص نیست (مجموع!D45:F45).",
+    "reason": "Dossier C: assessment 'vague'; states the after-party and its workbook-only amount; payee and receipt not shown.",
+    "evidence": [
+      "Anjoman accounting.xlsx!مجموع!D45:F45",
+      "public_group message5758",
+      "public_group message5362; message5368"
+    ],
+    "id": "M-089"
+  }
+]
