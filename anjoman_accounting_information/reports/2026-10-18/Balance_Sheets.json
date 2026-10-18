@@ -1,0 +1,491 @@
+{
+  "Association operations": {
+    "receipts": 34000000.0,
+    "payments": 3597700.0,
+    "net": 30402300.0,
+    "pending": 0.0,
+    "pending_rows": [],
+    "pending_items": [],
+    "excluded": [],
+    "receipts_by_source": {
+      "Former association (Mellat card …7532)": 10000000.0,
+      "Former association (card …7532)": 1000000.0,
+      "سامان مقیمی عراقی": 16000000.0,
+      "دکتر مقیمی": 7000000.0
+    },
+    "payments_by_category": {
+      "Equipment": 2285000.0,
+      "Supplies": 1296100.0,
+      "Printing": 16600.0
+    },
+    "tx_rows": [
+      "TX0013",
+      "TX0026",
+      "TX0027",
+      "TX0028",
+      "TX0029",
+      "TX0032",
+      "TX0034-B",
+      "TX0039",
+      "TX0040",
+      "TX0041",
+      "TX0042",
+      "TX0044",
+      "TX0045",
+      "TX0046"
+    ],
+    "open_items": [
+      "OI-04",
+      "OI-05"
+    ],
+    "is_empty_note": null
+  },
+  "Association website": {
+    "receipts": 0.0,
+    "payments": 0.0,
+    "net": 0.0,
+    "pending": 3000000.0,
+    "pending_rows": [
+      "TX0096"
+    ],
+    "pending_items": [],
+    "excluded": [],
+    "receipts_by_source": {},
+    "payments_by_category": {},
+    "tx_rows": [
+      "TX0096"
+    ],
+    "open_items": [],
+    "is_empty_note": null
+  },
+  "Booths 1404": {
+    "receipts": 0.0,
+    "payments": 1990000.0,
+    "net": -1990000.0,
+    "pending": 0.0,
+    "pending_rows": [],
+    "pending_items": [],
+    "excluded": [],
+    "receipts_by_source": {},
+    "payments_by_category": {
+      "Equipment": 1760000.0,
+      "Hospitality": 230000.0
+    },
+    "tx_rows": [
+      "TX0030",
+      "TX0031"
+    ],
+    "open_items": [],
+    "is_empty_note": null
+  },
+  "Freshman Party 1404": {
+    "receipts": 0.0,
+    "payments": 5574000.0,
+    "net": -5574000.0,
+    "pending": 0.0,
+    "pending_rows": [],
+    "pending_items": [],
+    "excluded": [],
+    "receipts_by_source": {},
+    "payments_by_category": {
+      "Events": 5274000.0,
+      "Unclassified": 300000.0
+    },
+    "tx_rows": [
+      "TX0033",
+      "TX0034",
+      "TX0035",
+      "TX0036",
+      "TX0037",
+      "TX0038"
+    ],
+    "open_items": [],
+    "is_empty_note": null
+  },
+  "Intro Event 1404": {
+    "receipts": 4920000.0,
+    "payments": 3155000.0,
+    "net": 1765000.0,
+    "pending": 0.0,
+    "pending_rows": [],
+    "pending_items": [],
+    "excluded": [],
+    "receipts_by_source": {
+      "Participants, held by محمدامین عزیزی": 4920000.0
+    },
+    "payments_by_category": {
+      "Printing": 100000.0,
+      "Events": 3055000.0
+    },
+    "tx_rows": [
+      "TX0014",
+      "TX0015",
+      "TX0016",
+      "TX0017",
+      "TX0018"
+    ],
+    "open_items": [],
+    "is_empty_note": null
+  },
+  "Intro Event 1405": {
+    "receipts": 23000000.0,
+    "payments": 15937900.0,
+    "net": 7062100.0,
+    "pending": 0.0,
+    "pending_rows": [],
+    "pending_items": [],
+    "excluded": [
+      {
+        "id": "TX0094",
+        "kind": "Memo",
+        "parent": ""
+      }
+    ],
+    "receipts_by_source": {
+      "Event platform / participants": 23000000.0
+    },
+    "payments_by_category": {
+      "Supplies": 950000.0,
+      "Hospitality": 9987900.0,
+      "Events": 5000000.0
+    },
+    "tx_rows": [
+      "TX0088",
+      "TX0089",
+      "TX0093",
+      "TX0094",
+      "TX0095"
+    ],
+    "open_items": [
+      "OI-03",
+      "OI-06"
+    ],
+    "is_empty_note": null
+  },
+  "Professors assembly Mehr": {
+    "receipts": 500000.0,
+    "payments": 1142375.0,
+    "net": -642375.0,
+    "pending": 0.0,
+    "pending_rows": [],
+    "pending_items": [],
+    "excluded": [
+      {
+        "id": "TX0025",
+        "kind": "Duplicate",
+        "parent": "TX0024"
+      }
+    ],
+    "receipts_by_source": {
+      "دکتر سامان مقیمی (card 6274…2662)": 500000.0
+    },
+    "payments_by_category": {
+      "Printing": 90000.0,
+      "Hospitality": 1052375.0
+    },
+    "tx_rows": [
+      "TX0019",
+      "TX0020",
+      "TX0024",
+      "TX0025"
+    ],
+    "open_items": [],
+    "is_empty_note": null
+  },
+  "Summer School 1404": {
+    "receipts": 33642000.0,
+    "payments": 12900900.0,
+    "net": 20741100.0,
+    "pending": 0.0,
+    "pending_rows": [],
+    "pending_items": [],
+    "excluded": [
+      {
+        "id": "TX0010",
+        "kind": "Duplicate",
+        "parent": "TX0009"
+      }
+    ],
+    "receipts_by_source": {
+      "Summer-school students (aggregate)": 33642000.0
+    },
+    "payments_by_category": {
+      "Teaching": 12500000.0,
+      "Bank fees": 900.0,
+      "Advertising": 400000.0
+    },
+    "tx_rows": [
+      "TX0001",
+      "TX0002",
+      "TX0003",
+      "TX0004",
+      "TX0005",
+      "TX0006",
+      "TX0007",
+      "TX0008",
+      "TX0009",
+      "TX0010",
+      "TX0011",
+      "TX0012"
+    ],
+    "open_items": [
+      "OI-01"
+    ],
+    "is_empty_note": null
+  },
+  "Summer School 1405": {
+    "receipts": 0.0,
+    "payments": 11950000.0,
+    "net": -11950000.0,
+    "pending": 4257000.0,
+    "pending_rows": [
+      "TX0082"
+    ],
+    "pending_items": [],
+    "excluded": [],
+    "receipts_by_source": {},
+    "payments_by_category": {
+      "Advertising": 450000.0,
+      "Teaching": 11500000.0
+    },
+    "tx_rows": [
+      "TX0080",
+      "TX0082",
+      "TX0083",
+      "TX0084",
+      "TX0085",
+      "TX0086",
+      "TX0087"
+    ],
+    "open_items": [],
+    "is_empty_note": null
+  },
+  "Tea & Physics society": {
+    "receipts": 0.0,
+    "payments": 1702850.0,
+    "net": -1702850.0,
+    "pending": 0.0,
+    "pending_rows": [],
+    "pending_items": [],
+    "excluded": [
+      {
+        "id": "TX0022",
+        "kind": "Duplicate",
+        "parent": "TX0021"
+      }
+    ],
+    "receipts_by_source": {},
+    "payments_by_category": {
+      "Hospitality": 1702850.0
+    },
+    "tx_rows": [
+      "TX0021",
+      "TX0022",
+      "TX0023"
+    ],
+    "open_items": [],
+    "is_empty_note": null
+  },
+  "Unassigned": {
+    "receipts": 0.0,
+    "payments": 35075470.0,
+    "net": -35075470.0,
+    "pending": 0.0,
+    "pending_rows": [],
+    "pending_items": [],
+    "excluded": [],
+    "receipts_by_source": {},
+    "payments_by_category": {
+      "Unclassified": 35075470.0
+    },
+    "tx_rows": [
+      "TX0043",
+      "TX0061",
+      "TX0075",
+      "TX0076",
+      "TX0077",
+      "TX0078",
+      "TX0079",
+      "TX0081",
+      "TX0090",
+      "TX0091",
+      "TX0092"
+    ],
+    "open_items": [
+      "OI-08",
+      "OI-09",
+      "OI-10",
+      "OI-11",
+      "OI-12",
+      "OI-13",
+      "OI-14",
+      "OI-15",
+      "OI-16",
+      "OI-17",
+      "OI-18"
+    ],
+    "is_empty_note": null
+  },
+  "Unknown (likely 1405 summer school)": {
+    "receipts": 0.0,
+    "payments": 0.0,
+    "net": 0.0,
+    "pending": 0.0,
+    "pending_rows": [],
+    "pending_items": [],
+    "excluded": [],
+    "receipts_by_source": {},
+    "payments_by_category": {},
+    "tx_rows": [],
+    "open_items": [],
+    "is_empty_note": "No audited rows remain: transactions reassigned to Summer School 1405 (R-11)."
+  },
+  "Yalda 1404": {
+    "receipts": 16490000.0,
+    "payments": 6367000.0,
+    "net": 10123000.0,
+    "pending": 14369064.0,
+    "pending_rows": [
+      "TX0049",
+      "TX0056",
+      "TX0058",
+      "TX0060"
+    ],
+    "pending_items": [
+      {
+        "id": "PI-01",
+        "project": "Yalda 1404",
+        "amount_toman": 275584,
+        "counterparty": "سیدبردیا احمدی‌مروست",
+        "note": "unreimbursed remainder of TX0050 (decision R-08)"
+      }
+    ],
+    "excluded": [
+      {
+        "id": "TX0051",
+        "kind": "Duplicate",
+        "parent": "TX0050"
+      },
+      {
+        "id": "TX0052",
+        "kind": "Supporting detail",
+        "parent": "TX0050"
+      },
+      {
+        "id": "TX0053",
+        "kind": "Supporting detail",
+        "parent": "TX0050"
+      },
+      {
+        "id": "TX0054",
+        "kind": "Supporting detail",
+        "parent": "TX0050"
+      },
+      {
+        "id": "TX0055",
+        "kind": "Supporting detail",
+        "parent": "TX0050"
+      },
+      {
+        "id": "TX0057",
+        "kind": "Duplicate",
+        "parent": "TX0056"
+      },
+      {
+        "id": "TX0064",
+        "kind": "Supporting detail",
+        "parent": "TX0062;TX0063"
+      },
+      {
+        "id": "TX0065",
+        "kind": "Supporting detail",
+        "parent": "TX0062;TX0063"
+      },
+      {
+        "id": "TX0066",
+        "kind": "Supporting detail",
+        "parent": "TX0062;TX0063"
+      },
+      {
+        "id": "TX0067",
+        "kind": "Supporting detail",
+        "parent": "TX0062;TX0063"
+      },
+      {
+        "id": "TX0068",
+        "kind": "Supporting detail",
+        "parent": "TX0062;TX0063"
+      },
+      {
+        "id": "TX0069",
+        "kind": "Supporting detail",
+        "parent": "TX0062;TX0063"
+      },
+      {
+        "id": "TX0070",
+        "kind": "Supporting detail",
+        "parent": "TX0062;TX0063"
+      },
+      {
+        "id": "TX0071",
+        "kind": "Supporting detail",
+        "parent": "TX0062;TX0063"
+      },
+      {
+        "id": "TX0072",
+        "kind": "Supporting detail",
+        "parent": "TX0062;TX0063"
+      },
+      {
+        "id": "TX0073",
+        "kind": "Supporting detail",
+        "parent": "TX0062;TX0063"
+      },
+      {
+        "id": "TX0074",
+        "kind": "Supporting detail",
+        "parent": "TX0062;TX0063"
+      }
+    ],
+    "receipts_by_source": {
+      "Crowd donors": 15790000.0,
+      "Cash donors": 700000.0
+    },
+    "payments_by_category": {
+      "Events": 6367000.0
+    },
+    "tx_rows": [
+      "TX0047",
+      "TX0048",
+      "TX0049",
+      "TX0050",
+      "TX0051",
+      "TX0052",
+      "TX0053",
+      "TX0054",
+      "TX0055",
+      "TX0056",
+      "TX0057",
+      "TX0058",
+      "TX0059",
+      "TX0060",
+      "TX0062",
+      "TX0063",
+      "TX0064",
+      "TX0065",
+      "TX0066",
+      "TX0067",
+      "TX0068",
+      "TX0069",
+      "TX0070",
+      "TX0071",
+      "TX0072",
+      "TX0073",
+      "TX0074"
+    ],
+    "open_items": [
+      "OI-02"
+    ],
+    "is_empty_note": null
+  }
+}

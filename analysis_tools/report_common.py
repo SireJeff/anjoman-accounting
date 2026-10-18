@@ -11,6 +11,7 @@ import re
 import shutil
 from pathlib import Path
 
+from reportlab import rl_config
 from reportlab.lib import colors
 from reportlab.lib.enums import TA_RIGHT
 from reportlab.lib.pagesizes import A4
@@ -19,6 +20,13 @@ from reportlab.lib.units import cm
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.platypus import Image, Paragraph, SimpleDocTemplate, Spacer, Table, TableStyle
+
+# G7 (byte-reproducible outputs): pin the PDF /ID trailer and the
+# CreationDate/ModDate to constants instead of per-render clock values.
+# Must sit at module level, before any doc.build() call; visual output
+# is unchanged.  Without it, two renders of identical markdown produce
+# different PDF bytes and a rebuild dirties the committed file.
+rl_config.invariant = 1
 
 def ensure_disk(path=None, min_gb=1.0):
     """Stop before chart/PDF generation when the drive holding `path` (default:

@@ -1,0 +1,19 @@
+﻿id,project,rows,amount_toman,question,what_settles
+OI-01,Summer School 1404,TX0001,1000.0,"The posted report shows 33,643,000 for this receipt; the ledger has 33,642,000 (1,000 difference).",the original report/workbook page for TX0001
+OI-02,Yalda 1404,TX0062;TX0063,195860.1,"195,860.1 toman of the volunteer-reported purchases (TX0064-74) is not covered by the TX0062/63 reimbursement of 4,050,000.",the missing receipt(s) or the volunteer's confirmation of the total
+OI-03,Intro Event 1405,TX0093;TX0094,4235000.0,"Intro Event 1405 evidence implies 4,235,000 beyond the recorded net of 23,000,000; the gap is unexplained.",bank statement or receipts for the Intro Event 1405 period
+OI-04,Association operations,TX0013,,No evidence outside the original ledger; the row is kept Supported on the original ledger's authority.,a source receipt or message for TX0013
+OI-05,Association operations,TX0045,,No evidence outside the original ledger; the row is kept Supported on the original ledger's authority.,a source receipt or message for TX0045
+OI-06,Intro Event 1405,TX0095,,No evidence outside the original ledger; the row is kept Supported on the original ledger's authority.,a source receipt or message for TX0095
+OI-07,,,,"Implied bank movements are not in the ledger: ~3,163,000 debits around 1405/05/21-22; ~35.2M credits between 1404/12 and 1405/05; ~12.8-19.8M debits between 1404/09 and 1404/12; inflow anomalies at TX0007 and TX0024.",the Bank Shahr statement covering 1404/05-1405/06
+OI-08,Unassigned,TX0043,,Purpose unknown - the row could not be assigned to an event/program from evidence.,owner identifies the purpose; then reassign project and category
+OI-09,Unassigned,TX0061,,Purpose unknown - the row could not be assigned to an event/program from evidence.,owner identifies the purpose; then reassign project and category
+OI-10,Unassigned,TX0075,,Purpose unknown - the row could not be assigned to an event/program from evidence.,owner identifies the purpose; then reassign project and category
+OI-11,Unassigned,TX0076,,Purpose unknown - the row could not be assigned to an event/program from evidence.,owner identifies the purpose; then reassign project and category
+OI-12,Unassigned,TX0077,,Purpose unknown - the row could not be assigned to an event/program from evidence.,owner identifies the purpose; then reassign project and category
+OI-13,Unassigned,TX0078,,Purpose unknown - the row could not be assigned to an event/program from evidence.,owner identifies the purpose; then reassign project and category
+OI-14,Unassigned,TX0079,,Purpose unknown - the row could not be assigned to an event/program from evidence.,owner identifies the purpose; then reassign project and category
+OI-15,Unassigned,TX0081,,Purpose unknown - the row could not be assigned to an event/program from evidence.,owner identifies the purpose; then reassign project and category
+OI-16,Unassigned,TX0090,,Purpose unknown - the row could not be assigned to an event/program from evidence.,owner identifies the purpose; then reassign project and category
+OI-17,Unassigned,TX0091,,Purpose unknown - the row could not be assigned to an event/program from evidence.,owner identifies the purpose; then reassign project and category
+OI-18,Unassigned,TX0092,,Purpose unknown - the row could not be assigned to an event/program from evidence.,owner identifies the purpose; then reassign project and category
