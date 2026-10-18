@@ -174,7 +174,7 @@ existing terms stay byte-identical. Also added: `ledger_category` `Unclassified`
    totals row equals the headline (gate G1).
 4. **Project balance sheets** (12 projects; "Unknown (likely 1405 summer school)" is emptied by R-11 and shown
    as a note): receipts by source, payments by category, net, pending column (rows + PI items), the transaction
-   table (id, date or month + basis flag, counterparty, description, amount, audit_status, evidence ref), the
+   table (id, date or month + basis flag, counterparty, description, amount, status, evidence ref), the
    excluded list (duplicates and supporting detail under their parent), and the project's open items.
 5. **Cash custody**: per `cash_account`: holder and type from `accounts.json`, cash in/out, internal transfers.
 6. **Balance-chain gaps (S-01)**: the evidenced balance snapshots and the implied unrecorded movements
