@@ -116,6 +116,16 @@ def test_glossary_covers_classifier_categories_and_chats():
     assert set(SOURCES) | {"docx"} <= set(g["chat"])
 
 
+def test_glossary_covers_media_kinds():
+    g = i18n.catalog("glossary")
+    kinds = set()
+    with open(i18n.ROOT / "analysis/classified.jsonl", encoding="utf-8") as f:
+        for line in f:
+            kinds.update(json.loads(line).get("media_kinds") or [])
+    assert kinds, "no media kinds found in classified.jsonl"
+    assert kinds <= set(g.get("media", {})), kinds - set(g.get("media", {}))
+
+
 def test_glossary_ledger_terms_match_precedent():
     import pandas as pd
     from analysis_tools.common import LEDGER_CSV

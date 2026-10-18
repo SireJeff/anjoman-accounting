@@ -63,6 +63,7 @@
     "Fall 1405": "پاییز ۱۴۰۵"
   },
   "validation": {"evidenced": "مستند", "unverified": "تأییدنشده"},
+  "media": {"photo": "عکس", "voice": "پیام صوتی", "poll": "نظرسنجی"},
   "terms": {
     "thread": "رشته (موضوع)", "event thread": "رشتهٔ رویداد",
     "in-window": "درون بازه", "non-service": "غیرخدماتی",

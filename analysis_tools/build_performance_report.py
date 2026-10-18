@@ -81,7 +81,8 @@ def snippet(rec, lang):
     if rec.get("text_plain"):
         return clean(rec["text_plain"], lang)
     mk = rec.get("media_kinds") or []
-    return t("common.media", lang, kinds=", ".join(mk)) if mk else t("common.no_text", lang)
+    return (t("common.media", lang, kinds=", ".join(term("media", k, lang) for k in mk))
+            if mk else t("common.no_text", lang))
 
 
 def img(alt_key, name, lang):
