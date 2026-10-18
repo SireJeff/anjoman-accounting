@@ -234,13 +234,13 @@ h2 { font-size: 12.5pt; color: %(accent)s; border-bottom: 0.6pt solid %(grid)s;
   padding-bottom: 1.5mm; margin-top: 7mm; break-after: avoid; }
 h3 { font-size: 10.5pt; color: %(ink)s; break-after: avoid; }
 p, li { text-align: right; overflow-wrap: anywhere; }
-code { font-family: Consolas, "Courier New", monospace; font-size: 0.92em;
+code { font-family: Consolas, Tahoma, monospace; font-size: 0.92em;
   direction: ltr; unicode-bidi: isolate; }
 table { width: 100%%; border-collapse: collapse; margin: 2mm 0 5mm;
   font-size: 7.4pt; line-height: 1.55; direction: rtl; }
 table.wide { font-size: 6.2pt; }
 th { background: %(accent)s; color: white; text-align: right; padding: 1.6mm 1.4mm; }
-td { padding: 1.3mm 1.4mm; vertical-align: top; overflow-wrap: anywhere;
+td { padding: 1.3mm 1.4mm; vertical-align: top; overflow-wrap: break-word;
   border-bottom: 0.4pt solid %(grid)s; text-align: right; }
 td.num, th.num { direction: ltr; unicode-bidi: isolate;
   white-space: nowrap; }

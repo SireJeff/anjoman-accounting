@@ -178,7 +178,8 @@ def render(lang="en"):
           "|---|---|---:|---:|---:|---:|"]
     for m in months:
         r, p = cash[m]["Receipts"], cash[m]["Payments"]
-        g = (f'{i18n.dt(gr.loc[m, "min"], lang)} → {i18n.dt(gr.loc[m, "max"], lang)}'
+        g = (f'{i18n.dt(gr.loc[m, "min"], lang)} {i18n.punct("arrow", lang)} '
+             f'{i18n.dt(gr.loc[m, "max"], lang)}'
              if m in gr.index else "—")
         n = msgs.get(m, 0)
         ev = (t("fin.cash.ev_one", lang, n=f"{n}") if n == 1 else
@@ -253,11 +254,12 @@ def render(lang="en"):
           t("fin.ev.hours_intro", lang, n=f"{len(tx_hours)}"), ""]
     for e in sorted(tx_hours, key=lambda e: e["hour"]):
         L.append("- " + t("fin.ev.hour_line", lang, hour=f"{e['hour']:02d}", n=f"{e['n']}"))
-    items = ", ".join(f"{term('weekday', _wd_en(e['jalali_weekday']), lang)} "
-                      f"{e['hour']:02d}:00 (n={e['n']})" for e in peaks)
+    items = i18n.punct("comma", lang).join(
+        f"{term('weekday', _wd_en(e['jalali_weekday']), lang)} "
+        f"{e['hour']:02d}:00 (n={e['n']})" for e in peaks)
     L += ["", t("fin.ev.peaks_line", lang, items=items), "",
           t("fin.ev.caveat", lang, mode=f"{est.get('mode')}", n=f"{est.get('n')}",
-            times=", ".join(est.get('times', []))), ""]
+            times=i18n.punct("comma", lang).join(est.get('times', []))), ""]
 
     # -- caveats ---------------------------------------------------------------
     L += ["## " + t("fin.cav.h_title", lang), "",
@@ -265,7 +267,7 @@ def render(lang="en"):
           "- " + t("fin.cav.b2", lang),
           "- " + t("fin.cav.b3", lang),
           "- " + t("fin.cav.b4", lang, start=i18n.dt(WINDOW_START, lang),
-                   end=i18n.dt(WINDOW_END, lang), gap=", ".join(gap)),
+                   end=i18n.dt(WINDOW_END, lang), gap=i18n.punct("comma", lang).join(gap)),
           "- " + t("fin.cav.b5", lang), ""]
 
     text = "\n".join(L)

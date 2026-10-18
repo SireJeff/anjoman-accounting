@@ -65,6 +65,17 @@ def t(key, lang, **kw):
     return template(key, lang).format(**kw)
 
 
+# Punctuation that builders emit in code (list joins, date ranges). In RTL text
+# "→" points from the end back to the start, and Latin ", " / "; " are not
+# Persian punctuation, so fa gets its own marks; en is unchanged.
+_PUNCT = {"en": {"comma": ", ", "semi": "; ", "arrow": "→"},
+          "fa": {"comma": "، ", "semi": "؛ ", "arrow": "←"}}
+
+
+def punct(name, lang):
+    return _PUNCT[lang][name]
+
+
 def term(kind, key, lang, default=None):
     if lang == "en":
         return key if default is None else default

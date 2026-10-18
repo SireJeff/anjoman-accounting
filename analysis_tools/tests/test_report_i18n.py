@@ -65,3 +65,72 @@ def test_data_strings_in_sync():
     want = perf.collect_data_strings()
     have = {k: v for k, v in en.items() if k.startswith("data.")}
     assert have == want
+
+
+import glob
+from analysis_tools import translate
+from analysis_tools.common import ROOT, LEDGER_DIR
+
+
+def test_catalog_integrity():
+    en, fa, hashes = i18n.catalog("en"), i18n.catalog("fa"), i18n.catalog("hashes")
+    assert set(en) == set(fa) == set(hashes)
+    assert all(hashes[k] == i18n.sha(en[k]) for k in en)
+    bad = {k: p for k in en if (p := translate.validate(en[k], fa[k]))}
+    assert bad == {}
+
+
+def test_every_en_key_is_referenced():
+    code = "".join(open(p, encoding="utf-8").read()
+                   for p in glob.glob(str(ROOT / "analysis_tools/*.py")))
+    # Keys used inside f-strings are single-quoted (Python 3.11 cannot nest
+    # double quotes there), so accept either quote style.
+    orphans = [k for k in i18n.catalog("en")
+               if not k.startswith("data.")
+               and f'"{k}"' not in code and f"'{k}'" not in code]
+    assert orphans == []
+
+
+def _reason_tokens(lang):
+    """Number tokens of the flagged-table review reasons. The EN ledger and the
+    precedent FA ledger are different source texts, so these are excluded from
+    parity. Reuses the builder's own _reason() so the exclusion matches it exactly."""
+    import json
+    from collections import Counter
+    from analysis_tools.correlate import _load_tx
+    fa_rows = ({x["id"]: x for x in json.loads(fin.FA_LEDGER.read_text(encoding="utf-8"))["ledger"]}
+               if lang == "fa" else {})
+    tok = Counter()
+    for r in _load_tx():
+        if r["status"] == "Review" and r["id"] not in fin.VOLUNTEER_BLOCK:
+            tok += i18n.number_tokens(fin._reason(r, lang, fa_rows))
+    return tok
+
+
+@pytest.mark.parametrize("mod", ["fin", "perf"])
+def test_number_parity(mod):
+    m = fin if mod == "fin" else perf
+    en_tok = i18n.number_tokens(m.render("en"))
+    fa_tok = i18n.number_tokens(m.render("fa"))
+    if mod == "fin":
+        en_tok -= _reason_tokens("en")
+        fa_tok -= _reason_tokens("fa")
+    assert en_tok == fa_tok, (en_tok - fa_tok, fa_tok - en_tok)
+
+
+@pytest.mark.parametrize("mod,kinds", [("fin", ("project", "ledger_category")),
+                                       ("perf", ("chat", "category", "phase"))])
+def test_glossary_enforced(mod, kinds):
+    m = fin if mod == "fin" else perf
+    en_text, fa_text = m.render("en"), m.render("fa")
+    g = i18n.catalog("glossary")
+    for kind in kinds:
+        for en_term, fa_term in g[kind].items():
+            if any(f in en_text for f in (f"| {en_term} |", f"### {en_term} ")):
+                assert i18n.localize(fa_term) in fa_text, (kind, en_term)
+
+
+def test_fa_outputs_current():
+    """Committed FA markdown equals a fresh render (no stale deliverables)."""
+    assert fin.OUT_FA.read_text(encoding="utf-8") == fin.render("fa")
+    assert perf.OUT_FA.read_text(encoding="utf-8") == perf.render("fa")

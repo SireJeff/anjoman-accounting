@@ -607,9 +607,12 @@ def ecosystem_map(eco, path, lang="en"):
     if lang == "fa":
         title_txt = localize(title_txt)
         subtitle_txt = localize(subtitle_txt)
-        ax.set_title(title_txt, loc="right", fontsize=12.5, color=INK, fontweight="bold", pad=14)
-        ax.text(1, 1.005, subtitle_txt, transform=ax.transAxes,
-                fontsize=8.5, color=MUTED, ha="right", va="bottom")
+        # Fixed-point offsets as in _chrome: Tahoma bold's Persian descenders
+        # collided with the subtitle at pad=14 + axes-fraction placement.
+        ax.set_title(title_txt, loc="right", fontsize=12.5, color=INK, fontweight="bold", pad=28)
+        ax.annotate(subtitle_txt, xy=(1, 1), xycoords="axes fraction",
+                    xytext=(0, 6), textcoords="offset points",
+                    fontsize=8.5, color=MUTED, ha="right", va="bottom")
     else:
         ax.set_title(title_txt, loc="left", fontsize=12.5, color=INK, fontweight="bold", pad=14)
         ax.text(0, 1.005, subtitle_txt, transform=ax.transAxes,
@@ -679,7 +682,9 @@ def cumulative_cash(tl, path, lang="en"):
                 markeredgecolor=SURFACE, markeredgewidth=2, zorder=4)
         ann_text = t("chart.cumcash.annotation", lang, v=_mfmt(net[-1], lang=lang))
         if lang == "fa":
-            ann_text = localize(ann_text)
+            # RLM: the label starts with "۱۶٫۵M", whose Latin M would otherwise
+            # make the base direction LTR and put «تومان» before the number.
+            ann_text = "‏" + localize(ann_text)
         ax.annotate(ann_text, (x[-1], net[-1]),
                     xytext=(-8, 10 if net[-1] >= 0 else -12),
                     textcoords="offset points", ha="right",

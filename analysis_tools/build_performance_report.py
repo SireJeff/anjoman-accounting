@@ -81,7 +81,8 @@ def snippet(rec, lang):
     if rec.get("text_plain"):
         return clean(rec["text_plain"], lang)
     mk = rec.get("media_kinds") or []
-    return (t("common.media", lang, kinds=", ".join(term("media", k, lang) for k in mk))
+    return (t("common.media", lang,
+              kinds=i18n.punct("comma", lang).join(term("media", k, lang) for k in mk))
             if mk else t("common.no_text", lang))
 
 
@@ -154,7 +155,8 @@ def sec1(tl, stats, w_rows, lang):
                                        "perf.s1.tbl_top5.h_msgs",
                                        "perf.s1.tbl_top5.h_tx_total")],
                 [[f"`{th['event_ref']}`", clean(thread_title(th, lang), lang, 44),
-                  f"{i18n.dt(th['first_seen'], lang)} → {i18n.dt(th['last_seen'], lang)}",
+                  f"{i18n.dt(th['first_seen'], lang)} {i18n.punct('arrow', lang)} "
+                  f"{i18n.dt(th['last_seen'], lang)}",
                   str(len(th["chats"])), f"{th['n_messages']:,}",
                   fmt(th["tx_total_toman"])] for th in top5])
     L.append("")
@@ -188,7 +190,7 @@ def sec2(tl, w_rows, lang):
     stub_months = [m for m in months if mkey(m) < (1404, 4)]
     stub_thr = [th for th in thr if thread_phase(th) is None]
     if stub_months:
-        L += [t("perf.s2.stub", lang, months=", ".join(stub_months),
+        L += [t("perf.s2.stub", lang, months=i18n.punct("comma", lang).join(stub_months),
                 n_msgs=fmt(sum(vol[m] for m in stub_months)),
                 n_thr=f"{len(stub_thr)}",
                 ref=f"{max(stub_thr, key=lambda th: th['n_messages'])['event_ref']}",
@@ -302,7 +304,7 @@ def sec3(tl, w_rows, lang):
         refs = aff.get(cat, Counter()).most_common(3)
         aff_n = sum(aff.get(cat, Counter()).values())
         peak = max(cat_month[cat], key=lambda m: cat_month[cat][m]) if tot else "—"
-        thr_txt = (", ".join(f"`{r}` ({n})" for r, n in refs) if refs
+        thr_txt = (i18n.punct("comma", lang).join(f"`{r}` ({n})" for r, n in refs) if refs
                    else t("perf.s3.tbl_engaged.none", lang))
         rows.append([term("category", cat, lang), fmt(tot), pct(tot, total_labelings), peak,
                      str(aff_n), thr_txt])
@@ -356,8 +358,9 @@ def sec4(tl, w_rows, registry, ledger, lang):
                 t("perf.s4.money_gap", lang, ref=th["event_ref"],
                   title=thread_title(th, lang), n=f"{len(txs)}",
                   gross=fmt(th["tx_total_toman"]), rec=fmt(r), pay=fmt(p),
-                  ids=", ".join(th["tx_ids"]))
-                + (t("perf.s4.money_gap_dup", lang, ids=", ".join(dup)) if dup else ""))
+                  ids=i18n.punct("comma", lang).join(th["tx_ids"]))
+                + (t("perf.s4.money_gap_dup", lang, ids=i18n.punct("comma", lang).join(dup))
+                   if dup else ""))
             L.append("")
 
     L += [img("perf.s4.chart_timeline_alt", "event_timeline", lang),
@@ -427,7 +430,8 @@ def _case_study(th, w_rows, registry, tx_by_id, expl, lang):
         rows.append([label, i18n.dt(meta["first"], lang, 16), ref, ev])
     if th["decision_dates"]:
         rows.append([t("perf.case.stage_decisions", lang),
-                     ", ".join(i18n.dt(d, lang) for d in sorted(set(th["decision_dates"]))),
+                     i18n.punct("comma", lang).join(i18n.dt(d, lang)
+                                for d in sorted(set(th["decision_dates"]))),
                      t("perf.case.ref_decisions", lang,
                        n=f"{len(set(th['decision_dates']))}"),
                      t("perf.case.ev_decisions", lang)])
@@ -437,7 +441,7 @@ def _case_study(th, w_rows, registry, tx_by_id, expl, lang):
         rows.append([t("perf.case.stage_payment", lang, tx=x["tx_id"],
                        direction=term("direction", x["direction"], lang)),
                      x.get("period", "—"),
-                     ("accounting_group#" + ", accounting_group#".join(mids))
+                     i18n.punct("comma", lang).join(f"accounting_group#{m}" for m in mids)
                      if mids else t("perf.case.ref_ledger_row", lang),
                      t("perf.case.ev_payment", lang, amount=fmt(x["amount_toman"]),
                        category=term("ledger_category", x["category"], lang),
@@ -487,7 +491,7 @@ def sec5(eco, docx, channel_profile, lang):
                  for s in seeds])
     unv = [s["id"] for s in seeds if eco["validation"].get(s["id"]) == "unverified"]
     if unv:
-        unv_labels = "; ".join(f"`{u}` = {nodes[u]['label']}" for u in unv)
+        unv_labels = i18n.punct("semi", lang).join(f"`{u}` = {nodes[u]['label']}" for u in unv)
         L += ["", t("perf.s5.unverified", lang, labels=unv_labels,
                     n=f"{len(seeds) - len(unv)}")]
     L += ["",
@@ -518,7 +522,7 @@ def sec5(eco, docx, channel_profile, lang):
           "",
           t("perf.s5.docx.intro", lang, title=docx["doc_title"],
             n_par=f"{docx['n_messages']}", n_rows=f"{docx['n_table_rows']}",
-            periods="; ".join(docx["periods_covered"]),
+            periods=i18n.punct("semi", lang).join(docx["periods_covered"]),
             n_metrics=f"{len(docx['metrics'])}"), ""]
     def mval(m):
         if "value" in m:
@@ -563,7 +567,7 @@ def sec6(tl, summerschool, lang):
         dl = [x for x in s["times"] if x in DEADLINE]
         rows.append([f"`{m['category']}`", s["mode"], str(s["n"]),
                      str(len(s["times"])),
-                     f"{len(dl)} ({', '.join(dl)})" if dl else "0"])
+                     f"{len(dl)} ({i18n.punct('comma', lang).join(dl)})" if dl else "0"])
     L += _table([t(k, lang) for k in ("perf.s6.fixed.h_thread", "perf.s6.fixed.h_mode",
                                        "perf.s6.fixed.h_mentions",
                                        "perf.s6.fixed.h_distinct",

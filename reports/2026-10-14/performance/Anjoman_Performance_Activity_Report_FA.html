@@ -1,0 +1,2207 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl"><head><meta charset="utf-8"><title>گزارش عملکرد و فعالیت انجمن علمی فیزیک</title><style>
+@page { size: A4; margin: 16mm 14mm 18mm;
+  @bottom-center { content: "انجمن علمی فیزیک | گزارش عملکرد و فعالیت | ۱۴۰۵/۰۷/۲۲ | صفحه " counter(page, persian);
+    font-family: Tahoma; font-size: 7.5pt; color: #898781; } }
+html { direction: rtl; }
+body { font-family: Tahoma, "DejaVu Sans", sans-serif; font-size: 9pt;
+  line-height: 1.75; color: #52514e; }
+h1 { font-size: 17pt; color: #0b0b0b; margin: 0 0 4mm; }
+h2 { font-size: 12.5pt; color: #0d366b; border-bottom: 0.6pt solid #e1e0d9;
+  padding-bottom: 1.5mm; margin-top: 7mm; break-after: avoid; }
+h3 { font-size: 10.5pt; color: #0b0b0b; break-after: avoid; }
+p, li { text-align: right; overflow-wrap: anywhere; }
+code { font-family: Consolas, Tahoma, monospace; font-size: 0.92em;
+  direction: ltr; unicode-bidi: isolate; }
+table { width: 100%; border-collapse: collapse; margin: 2mm 0 5mm;
+  font-size: 7.4pt; line-height: 1.55; direction: rtl; }
+table.wide { font-size: 6.2pt; }
+th { background: #0d366b; color: white; text-align: right; padding: 1.6mm 1.4mm; }
+td { padding: 1.3mm 1.4mm; vertical-align: top; overflow-wrap: break-word;
+  border-bottom: 0.4pt solid #e1e0d9; text-align: right; }
+td.num, th.num { direction: ltr; unicode-bidi: isolate;
+  white-space: nowrap; }
+tr:nth-child(even) td { background: #f4f3ef; }
+thead { display: table-header-group; }
+tr { break-inside: avoid; }
+img { max-width: 100%; display: block; margin: 3mm auto; }
+</style></head><body><h1>گزارش عملکرد و فعالیت انجمن (۱۴۰۴/۰۳/۰۷ ← ۱۴۰۵/۰۷/۲۲)</h1>
+<p>بازهٔ ۲۰۲۵-۰۵-۲۸ ← ۲۰۲۶-۱۰-۱۴ (۱۴۰۴/۰۳/۰۷ ← ۱۴۰۵/۰۷/۲۲)، پنج خروجی تلگرام. این گزارش صرفاً از خروجی‌های تحلیل گردآوری شده است: <code>timeline.json</code> (۴۷ رشته (موضوع)، ۱۷ ماه جلالی، ۴۵ سازوکار)، <code>ecosystem.json</code> (۷۷۹ گره / ۸۸۱ یال)، <code>classified.jsonl</code> (۱۶٬۶۷۷ رکورد؛ ۱۲٬۰۶۶ رکورد درون بازه و غیرخدماتی)، <code>classification_stats.json</code>، <code>threads.json</code> و نمایه‌های منبعی که در اینجا به کار رفته‌اند (کانال، کانال مدرسهٔ تابستانه، دفتر کل، گزارش رسانه‌ای (docx)). نمودارها همان نمودارهای Task-11 را نمایش می‌دهند.</p>
+<h2>۱. خلاصهٔ مدیریتی</h2>
+<p>در طول بازهٔ تحلیل، پنج خروجی تلگرام دربردارندهٔ <strong>۱۲٬۰۶۶ پیام درون بازه و غیرخدماتی</strong> هستند (از مجموع ۱۶٬۶۷۷ رکورد تجزیه‌شده؛ پوشش طبقه‌بندی درون بازه ۷۹٪).</p>
+<p>پیام‌ها به تفکیک گفت‌وگو (درون بازه، غیرخدماتی):</p>
+<table>
+<thead>
+<tr>
+<th>گفت‌وگو</th>
+<th>پیام‌ها</th>
+<th>سهم</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>گروه عمومی</td>
+<td class="num">۶٬۱۳۶</td>
+<td class="num">۵۰٫۹٪</td>
+</tr>
+<tr>
+<td>گروه خصوصی</td>
+<td class="num">۵٬۳۰۹</td>
+<td class="num">۴۴٫۰٪</td>
+</tr>
+<tr>
+<td>کانال</td>
+<td class="num">۴۲۶</td>
+<td class="num">۳٫۵٪</td>
+</tr>
+<tr>
+<td>گروه حسابداری</td>
+<td class="num">۱۵۸</td>
+<td class="num">۱٫۳٪</td>
+</tr>
+<tr>
+<td>کانال مدرسهٔ تابستانه</td>
+<td class="num">۳۷</td>
+<td class="num">۰٫۳٪</td>
+</tr>
+</tbody>
+</table>
+<p>سه دستهٔ بزرگ فعالیت بر پایهٔ شمار برچسب‌ها عبارت‌اند از <strong>اجتماعی و گفت‌وگوی اعضا</strong> (۴٬۰۲۲)، <strong>پیام‌های حاشیه‌ای</strong> (۲٬۵۳۷) و <strong>دسته‌بندی‌نشده</strong> (۲٬۵۲۲) از مجموع ۱۳٬۰۰۱ برچسب‌گذاری (چندبرچسبی؛ نک. §۷). مرحلهٔ همبستگی <strong>۴۷ رشته (موضوع)</strong> را دنبال می‌کند (۴۶ رشتهٔ دارای پیام + ۱ رشتهٔ صرفاً مالی) و دفتر کل تطبیق‌شدهٔ پشتوانهٔ آن‌ها <strong>۱۳۹٬۷۸۷٬۰۰۰ تومان دریافت در برابر ۱۲۳٬۲۶۵٬۹۹۴ تومان پرداخت</strong> را نشان می‌دهد (خالص <strong>+۱۶٬۵۲۱٬۰۰۶</strong>، همهٔ ۹۶ ردیف، شامل سبد بدون تاریخ به مبلغ ۴٬۶۶۴٬۷۰۰ تومان).</p>
+<p>پنج رشته (موضوع) اصلی بر اساس تعداد پیام‌های منتسب:</p>
+<table>
+<thead>
+<tr>
+<th>رشته (موضوع)</th>
+<th>عنوان</th>
+<th>نخستین ← آخرین مشاهده</th>
+<th>گفت‌وگوها</th>
+<th>پیام‌ها</th>
+<th>جمع تراکنش‌ها (تومان)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>intro-event-1405</code></td>
+<td>برنامهٔ معارفه ۱۴۰۵</td>
+<td>۱۴۰۴/۰۴/۲۶ ← ۱۴۰۵/۰۷/۱۷</td>
+<td class="num">۵</td>
+<td class="num">۷۵۲</td>
+<td class="num">۵۶٬۱۸۵٬۰۰۰</td>
+</tr>
+<tr>
+<td><code>final-receipt-handover-1405</code></td>
+<td>تحویل نهایی اسناد مالی: جمع‌آوری عکس همه فاک…</td>
+<td>۱۴۰۴/۰۳/۲۴ ← ۱۴۰۵/۰۷/۲۰</td>
+<td class="num">۵</td>
+<td class="num">۴۱۳</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>media-social-content</code></td>
+<td>تولید محتوا و سوشال مدیا (پوستر/پست/اینستا، …</td>
+<td>۱۴۰۴/۰۳/۰۹ ← ۱۴۰۵/۰۷/۱۸</td>
+<td class="num">۵</td>
+<td class="num">۳۸۵</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>summer-school-1404</code></td>
+<td>مدرسه تابستانه ۱۴۰۴</td>
+<td>۱۴۰۴/۰۴/۲۵ ← ۱۴۰۵/۰۷/۱۰</td>
+<td class="num">۵</td>
+<td class="num">۲۳۱</td>
+<td class="num">۴۶٬۹۴۲٬۹۰۰</td>
+</tr>
+<tr>
+<td><code>dept-weekly-seminars</code></td>
+<td>اطلاع‌رسانی سمینارهای هفتگی گروه‌های دانشکده…</td>
+<td>۱۴۰۴/۰۳/۱۰ ← ۱۴۰۵/۰۷/۲۰</td>
+<td class="num">۳</td>
+<td class="num">۲۰۸</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<h2>۲. روایت دوره‌ها</h2>
+<p>تاریخ‌های نخستین مشاهدهٔ رشته‌ها (موضوع‌ها) و فعالیت ماهانه، بازه را به چهار دوره تقسیم می‌کنند (ماه‌های جلالی؛ بازه از ۱۴۰۴/۰۳/۰۷ = ۲۰۲۵-۰۵-۲۸ آغاز می‌شود). تاریخ‌های نخستین مشاهده از پیام‌های منتسب به دست می‌آیند و از این رو ملاحظهٔ انتساب §۷ را به ارث می‌برند.</p>
+<p><em>بخش ناقص آغاز بازه:</em> ماه(های) ناقص ۱۴۰۴/۰۳ شامل ۱۴ پیام و نخستین مشاهدهٔ ۸ رشته (موضوع) است (بزرگ‌ترین: <code>final-receipt-handover-1405</code>، ۴۱۳ پیام)؛ این ماه‌ها پیش از چهار دورهٔ زیر قرار دارند.</p>
+<h3>تابستان ۱۴۰۴ (۱۴۰۴/۰۴–۱۴۰۴/۰۶)</h3>
+<p><strong>تابستان ۱۴۰۴</strong> بازهٔ ۱۴۰۴/۰۴–۱۴۰۴/۰۶ جلالی را در بر می‌گیرد و <strong>۱٬۹۶۲ پیام</strong> در گفت‌وگوها دارد؛ پرکارترین بستر گروه خصوصی (۱٬۷۸۸ پیام) است و برچسب‌های غالب پیام‌های حاشیه‌ای (۶۳۵) و اجتماعی و گفت‌وگوی اعضا (۵۳۳) هستند. ۳۰ رشته (موضوع) نخستین بار در این دوره ظاهر می‌شوند که در رأس آن‌ها <code>intro-event-1405</code> قرار دارد (نخستین مشاهده ۲۰۲۵-۰۷-۱۷ / ۱۴۰۴/۰۴/۲۶، ۷۵۲ پیام در ۵ گفت‌وگو). ماه اوج این دوره ۱۴۰۴/۰۴ (۱٬۲۵۹ پیام) است.</p>
+<table>
+<thead>
+<tr>
+<th>رشته (موضوع)</th>
+<th>نخستین مشاهده</th>
+<th>جلالی</th>
+<th>پیام‌ها</th>
+<th>گفت‌وگوها</th>
+<th>آخرین مشاهده</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>intro-event-1405</code></td>
+<td class="num">۲۰۲۵-۰۷-۱۷</td>
+<td class="num">۱۴۰۴/۰۴/۲۶</td>
+<td class="num">۷۵۲</td>
+<td class="num">۵</td>
+<td class="num">۲۰۲۶-۱۰-۰۹</td>
+</tr>
+<tr>
+<td><code>summer-school-1404</code></td>
+<td class="num">۲۰۲۵-۰۷-۱۶</td>
+<td class="num">۱۴۰۴/۰۴/۲۵</td>
+<td class="num">۲۳۱</td>
+<td class="num">۵</td>
+<td class="num">۲۰۲۶-۱۰-۰۲</td>
+</tr>
+<tr>
+<td><code>astro-trips-observing</code></td>
+<td class="num">۲۰۲۵-۰۷-۱۷</td>
+<td class="num">۱۴۰۴/۰۴/۲۶</td>
+<td class="num">۱۳۹</td>
+<td class="num">۵</td>
+<td class="num">۲۰۲۶-۱۰-۱۰</td>
+</tr>
+<tr>
+<td><code>sponsorship-room-renovation</code></td>
+<td class="num">۲۰۲۵-۰۷-۱۷</td>
+<td class="num">۱۴۰۴/۰۴/۲۶</td>
+<td class="num">۱۲۳</td>
+<td class="num">۳</td>
+<td class="num">۲۰۲۶-۱۰-۱۲</td>
+</tr>
+<tr>
+<td><code>orientation-videos-2025</code></td>
+<td class="num">۲۰۲۵-۰۷-۱۲</td>
+<td class="num">۱۴۰۴/۰۴/۲۱</td>
+<td class="num">۱۰۳</td>
+<td class="num">۳</td>
+<td class="num">۲۰۲۶-۱۰-۰۸</td>
+</tr>
+</tbody>
+</table>
+<h3>سال تحصیلی ۱۴۰۴-۰۵ (۱۴۰۴/۰۷–۱۴۰۵/۰۳)</h3>
+<p><strong>سال تحصیلی ۱۴۰۴-۰۵</strong> بازهٔ ۱۴۰۴/۰۷–۱۴۰۵/۰۳ جلالی را در بر می‌گیرد و <strong>۱٬۴۶۷ پیام</strong> در گفت‌وگوها دارد؛ پرکارترین بستر گروه خصوصی (۱٬۱۸۱ پیام) است و برچسب‌های غالب دسته‌بندی‌نشده (۳۶۳) و پیام‌های حاشیه‌ای (۳۴۹) هستند. ۶ رشته (موضوع) نخستین بار در این دوره ظاهر می‌شوند که در رأس آن‌ها <code>media-team-content-pipeline</code> قرار دارد (نخستین مشاهده ۲۰۲۵-۱۲-۱۴ / ۱۴۰۴/۰۹/۲۳، ۶۵ پیام در ۲ گفت‌وگو). ماه اوج این دوره ۱۴۰۵/۰۳ (۷۸۴ پیام) است.</p>
+<table>
+<thead>
+<tr>
+<th>رشته (موضوع)</th>
+<th>نخستین مشاهده</th>
+<th>جلالی</th>
+<th>پیام‌ها</th>
+<th>گفت‌وگوها</th>
+<th>آخرین مشاهده</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>media-team-content-pipeline</code></td>
+<td class="num">۲۰۲۵-۱۲-۱۴</td>
+<td class="num">۱۴۰۴/۰۹/۲۳</td>
+<td class="num">۶۵</td>
+<td class="num">۲</td>
+<td class="num">۲۰۲۶-۱۰-۰۹</td>
+</tr>
+<tr>
+<td><code>elections-1405</code></td>
+<td class="num">۲۰۲۶-۰۴-۰۱</td>
+<td class="num">۱۴۰۵/۰۱/۱۲</td>
+<td class="num">۶۱</td>
+<td class="num">۳</td>
+<td class="num">۲۰۲۶-۱۰-۱۱</td>
+</tr>
+<tr>
+<td><code>weekly-coordination-meeting-21h</code></td>
+<td class="num">۲۰۲۶-۰۶-۱۳</td>
+<td class="num">۱۴۰۵/۰۳/۲۳</td>
+<td class="num">۱۴</td>
+<td class="num">۲</td>
+<td class="num">۲۰۲۶-۰۹-۲۲</td>
+</tr>
+<tr>
+<td><code>linkedin-alumni-group</code></td>
+<td class="num">۲۰۲۶-۰۶-۱۹</td>
+<td class="num">۱۴۰۵/۰۳/۲۹</td>
+<td class="num">۱۰</td>
+<td class="num">۱</td>
+<td class="num">۲۰۲۶-۰۸-۲۱</td>
+</tr>
+<tr>
+<td><code>yalda-1404</code></td>
+<td class="num">۲۰۲۵-۱۲-۱۵</td>
+<td class="num">۱۴۰۴/۰۹/۲۴</td>
+<td class="num">۹</td>
+<td class="num">۳</td>
+<td class="num">۲۰۲۶-۰۹-۲۰</td>
+</tr>
+</tbody>
+</table>
+<h3>تابستان ۱۴۰۵ (۱۴۰۵/۰۴–۱۴۰۵/۰۶)</h3>
+<p><strong>تابستان ۱۴۰۵</strong> بازهٔ ۱۴۰۵/۰۴–۱۴۰۵/۰۶ جلالی را در بر می‌گیرد و <strong>۷٬۷۴۷ پیام</strong> در گفت‌وگوها دارد؛ پرکارترین بستر گروه عمومی (۵٬۳۵۵ پیام) است و برچسب‌های غالب اجتماعی و گفت‌وگوی اعضا (۲٬۹۱۵) و دسته‌بندی‌نشده (۱٬۶۶۶) هستند. ۲ رشته (موضوع) نخستین بار در این دوره ظاهر می‌شوند که در رأس آن‌ها <code>intro-and-registration-videos</code> قرار دارد (نخستین مشاهده ۲۰۲۶-۰۹-۱۴ / ۱۴۰۵/۰۶/۲۳، ۱۲۶ پیام در ۱ گفت‌وگو). ماه اوج این دوره ۱۴۰۵/۰۶ (۵٬۶۳۸ پیام) است.</p>
+<table>
+<thead>
+<tr>
+<th>رشته (موضوع)</th>
+<th>نخستین مشاهده</th>
+<th>جلالی</th>
+<th>پیام‌ها</th>
+<th>گفت‌وگوها</th>
+<th>آخرین مشاهده</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>intro-and-registration-videos</code></td>
+<td class="num">۲۰۲۶-۰۹-۱۴</td>
+<td class="num">۱۴۰۵/۰۶/۲۳</td>
+<td class="num">۱۲۶</td>
+<td class="num">۱</td>
+<td class="num">۲۰۲۶-۰۹-۱۶</td>
+</tr>
+<tr>
+<td><code>mic-failure-voice-loss</code></td>
+<td class="num">۲۰۲۶-۰۶-۲۹</td>
+<td class="num">۱۴۰۵/۰۴/۰۸</td>
+<td class="num">۳</td>
+<td class="num">۲</td>
+<td class="num">۲۰۲۶-۰۹-۲۳</td>
+</tr>
+</tbody>
+</table>
+<h3>پاییز ۱۴۰۵ (۱۴۰۵/۰۷–۱۴۰۵/۰۷)</h3>
+<p><strong>پاییز ۱۴۰۵</strong> بازهٔ ۱۴۰۵/۰۷–۱۴۰۵/۰۷ جلالی را در بر می‌گیرد و <strong>۸۷۶ پیام</strong> در گفت‌وگوها دارد؛ پرکارترین بستر گروه عمومی (۷۸۱ پیام) است و برچسب‌های غالب اجتماعی و گفت‌وگوی اعضا (۲۶۸) و پیام‌های حاشیه‌ای (۲۰۱) هستند. هیچ رشته (موضوع) جدیدی نخستین بار در این دوره ظاهر نمی‌شود. ماه اوج این دوره ۱۴۰۵/۰۷ (۸۷۶ پیام) است.</p>
+<h2>۳. دسته‌های فعالیت</h2>
+<p>برچسب‌گذاری‌های ماهانه در هر دسته، تجمیع‌شده روی گفت‌وگوها (<code>monthly_activity</code>؛ پیامی با چند برچسب به ازای هر برچسب یک بار شمرده می‌شود — ۱۳٬۰۰۱ برچسب‌گذاری روی ۱۲٬۰۶۶ پیام درون بازه).</p>
+<p><strong>۱۴۰۴</strong> (ستون‌ها ماه جلالی MM هستند)</p>
+<table class="wide">
+<thead>
+<tr>
+<th>دسته</th>
+<th>۰۳</th>
+<th>۰۴</th>
+<th>۰۵</th>
+<th>۰۶</th>
+<th>۰۷</th>
+<th>۰۸</th>
+<th>۰۹</th>
+<th>۱۰</th>
+<th>۱۱</th>
+<th>۱۲</th>
+<th>جمع</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>اجتماعی و گفت‌وگوی اعضا</td>
+<td class="num">۱</td>
+<td class="num">۳۴۳</td>
+<td class="num">۱۶۷</td>
+<td class="num">۲۳</td>
+<td class="num">۳۵</td>
+<td class="num">۱۵</td>
+<td class="num">۷</td>
+<td class="num">۲۴</td>
+<td class="num">۵</td>
+<td>—</td>
+<td class="num"><strong>۴٬۰۲۲</strong></td>
+</tr>
+<tr>
+<td>پیام‌های حاشیه‌ای</td>
+<td>—</td>
+<td class="num">۴۴۹</td>
+<td class="num">۱۶۹</td>
+<td class="num">۱۷</td>
+<td class="num">۵۰</td>
+<td class="num">۱۳</td>
+<td class="num">۴</td>
+<td class="num">۲۱</td>
+<td class="num">۳</td>
+<td class="num">۲</td>
+<td class="num"><strong>۲٬۵۳۷</strong></td>
+</tr>
+<tr>
+<td>دسته‌بندی‌نشده</td>
+<td>—</td>
+<td class="num">۲۰۴</td>
+<td class="num">۱۱۲</td>
+<td class="num">۷</td>
+<td class="num">۲۹</td>
+<td class="num">۱۶</td>
+<td class="num">۶</td>
+<td class="num">۲۲</td>
+<td class="num">۳</td>
+<td class="num">۵</td>
+<td class="num"><strong>۲٬۵۲۲</strong></td>
+</tr>
+<tr>
+<td>رسانه و اطلاع‌رسانی</td>
+<td class="num">۲</td>
+<td class="num">۶۱</td>
+<td class="num">۳۷</td>
+<td class="num">۲۱</td>
+<td class="num">۱۵</td>
+<td class="num">۱۶</td>
+<td class="num">۱۳</td>
+<td class="num">۱۱</td>
+<td class="num">۲</td>
+<td class="num">۳</td>
+<td class="num"><strong>۱٬۳۶۹</strong></td>
+</tr>
+<tr>
+<td>رویدادها</td>
+<td class="num">۵</td>
+<td class="num">۱۱</td>
+<td class="num">۴۷</td>
+<td class="num">۱۶</td>
+<td class="num">۳۱</td>
+<td class="num">۴۲</td>
+<td class="num">۳۰</td>
+<td class="num">۱۶</td>
+<td class="num">۱</td>
+<td>—</td>
+<td class="num"><strong>۷۵۱</strong></td>
+</tr>
+<tr>
+<td>آموزش و دوره‌ها</td>
+<td class="num">۹</td>
+<td class="num">۱۲۴</td>
+<td class="num">۶۴</td>
+<td class="num">۱۸</td>
+<td class="num">۱۷</td>
+<td class="num">۱۲</td>
+<td class="num">۸</td>
+<td class="num">۹</td>
+<td class="num">۱</td>
+<td>—</td>
+<td class="num"><strong>۶۲۱</strong></td>
+</tr>
+<tr>
+<td>هماهنگی و پشتیبانی</td>
+<td>—</td>
+<td class="num">۴۵</td>
+<td class="num">۲۱</td>
+<td class="num">۷</td>
+<td class="num">۱۳</td>
+<td class="num">۱۰</td>
+<td class="num">۳</td>
+<td class="num">۲</td>
+<td class="num">۲</td>
+<td>—</td>
+<td class="num"><strong>۵۵۵</strong></td>
+</tr>
+<tr>
+<td>امور مالی</td>
+<td class="num">۲</td>
+<td class="num">۴۸</td>
+<td class="num">۲۸</td>
+<td>—</td>
+<td class="num">۹</td>
+<td class="num">۱۸</td>
+<td class="num">۱</td>
+<td class="num">۱</td>
+<td class="num">۳</td>
+<td class="num">۲</td>
+<td class="num"><strong>۲۳۷</strong></td>
+</tr>
+<tr>
+<td>اداره و تصمیم‌گیری</td>
+<td>—</td>
+<td class="num">۴</td>
+<td class="num">۷</td>
+<td class="num">۴</td>
+<td class="num">۵</td>
+<td class="num">۲</td>
+<td class="num">۱</td>
+<td class="num">۷</td>
+<td class="num">۱</td>
+<td>—</td>
+<td class="num"><strong>۲۲۹</strong></td>
+</tr>
+<tr>
+<td>وب‌سایت و فناوری</td>
+<td>—</td>
+<td class="num">۳۲</td>
+<td class="num">۱</td>
+<td class="num">۶</td>
+<td class="num">۱</td>
+<td class="num">۲</td>
+<td class="num">۱</td>
+<td class="num">۳</td>
+<td>—</td>
+<td>—</td>
+<td class="num"><strong>۱۲۴</strong></td>
+</tr>
+<tr>
+<td>نشریات (شباهنگ)</td>
+<td>—</td>
+<td>—</td>
+<td class="num">۳</td>
+<td>—</td>
+<td class="num">۳</td>
+<td class="num">۱</td>
+<td>—</td>
+<td class="num">۱</td>
+<td>—</td>
+<td>—</td>
+<td class="num"><strong>۳۴</strong></td>
+</tr>
+<tr>
+<td><strong>همهٔ برچسب‌گذاری‌ها</strong></td>
+<td class="num"><strong>۱۹</strong></td>
+<td class="num"><strong>۱٬۳۲۱</strong></td>
+<td class="num"><strong>۶۵۶</strong></td>
+<td class="num"><strong>۱۱۹</strong></td>
+<td class="num"><strong>۲۰۸</strong></td>
+<td class="num"><strong>۱۴۷</strong></td>
+<td class="num"><strong>۷۴</strong></td>
+<td class="num"><strong>۱۱۷</strong></td>
+<td class="num"><strong>۲۱</strong></td>
+<td class="num"><strong>۱۲</strong></td>
+<td class="num"><strong>۱۳٬۰۰۱</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong>۱۴۰۵</strong> (ستون‌ها ماه جلالی MM هستند)</p>
+<table class="wide">
+<thead>
+<tr>
+<th>دسته</th>
+<th>۰۱</th>
+<th>۰۲</th>
+<th>۰۳</th>
+<th>۰۴</th>
+<th>۰۵</th>
+<th>۰۶</th>
+<th>۰۷</th>
+<th>جمع</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>اجتماعی و گفت‌وگوی اعضا</td>
+<td class="num">۱۷</td>
+<td class="num">۴۷</td>
+<td class="num">۱۵۵</td>
+<td class="num">۱۸۹</td>
+<td class="num">۴۰۶</td>
+<td class="num">۲٬۳۲۰</td>
+<td class="num">۲۶۸</td>
+<td class="num"><strong>۴٬۰۲۲</strong></td>
+</tr>
+<tr>
+<td>پیام‌های حاشیه‌ای</td>
+<td class="num">۴</td>
+<td class="num">۳۳</td>
+<td class="num">۲۱۹</td>
+<td class="num">۳۳۹</td>
+<td class="num">۱۷۵</td>
+<td class="num">۸۳۸</td>
+<td class="num">۲۰۱</td>
+<td class="num"><strong>۲٬۵۳۷</strong></td>
+</tr>
+<tr>
+<td>دسته‌بندی‌نشده</td>
+<td class="num">۸</td>
+<td class="num">۴۷</td>
+<td class="num">۲۲۷</td>
+<td class="num">۲۷۴</td>
+<td class="num">۲۳۱</td>
+<td class="num">۱٬۱۶۱</td>
+<td class="num">۱۷۰</td>
+<td class="num"><strong>۲٬۵۲۲</strong></td>
+</tr>
+<tr>
+<td>رسانه و اطلاع‌رسانی</td>
+<td class="num">۲</td>
+<td class="num">۱۳</td>
+<td class="num">۵۰</td>
+<td class="num">۱۱۸</td>
+<td class="num">۱۶۴</td>
+<td class="num">۷۴۰</td>
+<td class="num">۱۰۱</td>
+<td class="num"><strong>۱٬۳۶۹</strong></td>
+</tr>
+<tr>
+<td>رویدادها</td>
+<td class="num">۷</td>
+<td class="num">۲</td>
+<td class="num">۴۶</td>
+<td class="num">۴۲</td>
+<td class="num">۱۹</td>
+<td class="num">۳۶۳</td>
+<td class="num">۷۳</td>
+<td class="num"><strong>۷۵۱</strong></td>
+</tr>
+<tr>
+<td>آموزش و دوره‌ها</td>
+<td>—</td>
+<td class="num">۷</td>
+<td class="num">۴۱</td>
+<td class="num">۳۵</td>
+<td class="num">۵۳</td>
+<td class="num">۱۹۶</td>
+<td class="num">۲۷</td>
+<td class="num"><strong>۶۲۱</strong></td>
+</tr>
+<tr>
+<td>هماهنگی و پشتیبانی</td>
+<td class="num">۱</td>
+<td class="num">۲</td>
+<td class="num">۳۰</td>
+<td class="num">۵۳</td>
+<td class="num">۳۹</td>
+<td class="num">۲۶۳</td>
+<td class="num">۶۴</td>
+<td class="num"><strong>۵۵۵</strong></td>
+</tr>
+<tr>
+<td>امور مالی</td>
+<td>—</td>
+<td class="num">۱</td>
+<td class="num">۵</td>
+<td class="num">۱۲</td>
+<td class="num">۳</td>
+<td class="num">۹۹</td>
+<td class="num">۵</td>
+<td class="num"><strong>۲۳۷</strong></td>
+</tr>
+<tr>
+<td>اداره و تصمیم‌گیری</td>
+<td class="num">۲</td>
+<td class="num">۱۱</td>
+<td class="num">۵۱</td>
+<td class="num">۵۰</td>
+<td class="num">۱۸</td>
+<td class="num">۳۶</td>
+<td class="num">۳۰</td>
+<td class="num"><strong>۲۲۹</strong></td>
+</tr>
+<tr>
+<td>وب‌سایت و فناوری</td>
+<td>—</td>
+<td class="num">۱</td>
+<td class="num">۴</td>
+<td class="num">۱۲</td>
+<td class="num">۳</td>
+<td class="num">۴۴</td>
+<td class="num">۱۴</td>
+<td class="num"><strong>۱۲۴</strong></td>
+</tr>
+<tr>
+<td>نشریات (شباهنگ)</td>
+<td>—</td>
+<td>—</td>
+<td class="num">۸</td>
+<td class="num">۱۲</td>
+<td class="num">۲</td>
+<td class="num">۴</td>
+<td>—</td>
+<td class="num"><strong>۳۴</strong></td>
+</tr>
+<tr>
+<td><strong>همهٔ برچسب‌گذاری‌ها</strong></td>
+<td class="num"><strong>۴۱</strong></td>
+<td class="num"><strong>۱۶۴</strong></td>
+<td class="num"><strong>۸۳۶</strong></td>
+<td class="num"><strong>۱٬۱۳۶</strong></td>
+<td class="num"><strong>۱٬۱۱۳</strong></td>
+<td class="num"><strong>۶٬۰۶۴</strong></td>
+<td class="num"><strong>۹۵۳</strong></td>
+<td class="num"><strong>۱۳٬۰۰۱</strong></td>
+</tr>
+</tbody>
+</table>
+<p>پرتعامل‌ترین رشته‌ها (موضوع‌ها) در هر دسته، بر پایهٔ <strong>۱٬۱۸۶ پیام دارای انتساب صریح</strong> (<code>event_ref</code> مدل زبانی؛ انتساب جنبهٔ گفت‌وگویی دارد و پیوند مستند نیست — ر.ک. §۷):</p>
+<table>
+<thead>
+<tr>
+<th>دسته</th>
+<th>برچسب‌گذاری‌ها</th>
+<th>سهم</th>
+<th>ماه اوج</th>
+<th>دارای انتساب صریح</th>
+<th>رشته‌های (موضوع‌های) برتر بر اساس انتساب صریح (پیام)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>اجتماعی و گفت‌وگوی اعضا</td>
+<td class="num">۴٬۰۲۲</td>
+<td class="num">۳۰٫۹٪</td>
+<td class="num">۱۴۰۵/۰۶</td>
+<td class="num">۵۸۹</td>
+<td><code>intro-event-1405</code> (۳۶۶)، <code>summer-school-1404</code> (۷۷)، <code>intro-and-registration-videos</code> (۵۵)</td>
+</tr>
+<tr>
+<td>پیام‌های حاشیه‌ای</td>
+<td class="num">۲٬۵۳۷</td>
+<td class="num">۱۹٫۵٪</td>
+<td class="num">۱۴۰۵/۰۶</td>
+<td class="num">۱</td>
+<td><code>intro-event-1405</code> (۱)</td>
+</tr>
+<tr>
+<td>دسته‌بندی‌نشده</td>
+<td class="num">۲٬۵۲۲</td>
+<td class="num">۱۹٫۴٪</td>
+<td class="num">۱۴۰۵/۰۶</td>
+<td class="num">۰</td>
+<td><em>(هیچ پیامی با انتساب صریح)</em></td>
+</tr>
+<tr>
+<td>رسانه و اطلاع‌رسانی</td>
+<td class="num">۱٬۳۶۹</td>
+<td class="num">۱۰٫۵٪</td>
+<td class="num">۱۴۰۵/۰۶</td>
+<td class="num">۲۰۳</td>
+<td><code>intro-and-registration-videos</code> (۷۳)، <code>intro-event-1405</code> (۶۶)، <code>media-team-content-pipeline</code> (۴۱)</td>
+</tr>
+<tr>
+<td>رویدادها</td>
+<td class="num">۷۵۱</td>
+<td class="num">۵٫۸٪</td>
+<td class="num">۱۴۰۵/۰۶</td>
+<td class="num">۱۵۸</td>
+<td><code>intro-event-1405</code> (۱۴۶)، <code>tea-physics-society</code> (۴)، <code>apply-workshop</code> (۳)</td>
+</tr>
+<tr>
+<td>آموزش و دوره‌ها</td>
+<td class="num">۶۲۱</td>
+<td class="num">۴٫۸٪</td>
+<td class="num">۱۴۰۵/۰۶</td>
+<td class="num">۵۸</td>
+<td><code>summer-school-1404</code> (۳۰)، <code>summer-school-1405</code> (۲۱)، <code>calculus-study-circle</code> (۴)</td>
+</tr>
+<tr>
+<td>هماهنگی و پشتیبانی</td>
+<td class="num">۵۵۵</td>
+<td class="num">۴٫۳٪</td>
+<td class="num">۱۴۰۵/۰۶</td>
+<td class="num">۲۴۹</td>
+<td><code>intro-event-1405</code> (۱۵۰)، <code>summer-school-1404</code> (۴۹)، <code>sponsorship-room-renovation</code> (۲۱)</td>
+</tr>
+<tr>
+<td>امور مالی</td>
+<td class="num">۲۳۷</td>
+<td class="num">۱٫۸٪</td>
+<td class="num">۱۴۰۵/۰۶</td>
+<td class="num">۴۱</td>
+<td><code>intro-event-1405</code> (۱۶)، <code>summer-school-1404</code> (۱۲)، <code>sponsorship-room-renovation</code> (۱۰)</td>
+</tr>
+<tr>
+<td>اداره و تصمیم‌گیری</td>
+<td class="num">۲۲۹</td>
+<td class="num">۱٫۸٪</td>
+<td class="num">۱۴۰۵/۰۳</td>
+<td class="num">۱۲</td>
+<td><code>elections-1405</code> (۵)، <code>linkedin-alumni-group</code> (۴)، <code>intro-event-1405</code> (۲)</td>
+</tr>
+<tr>
+<td>وب‌سایت و فناوری</td>
+<td class="num">۱۲۴</td>
+<td class="num">۱٫۰٪</td>
+<td class="num">۱۴۰۵/۰۶</td>
+<td class="num">۳۱</td>
+<td><code>intro-event-1405</code> (۱۰)، <code>summer-school-1404</code> (۸)، <code>summer-school-1405</code> (۸)</td>
+</tr>
+<tr>
+<td>نشریات (شباهنگ)</td>
+<td class="num">۳۴</td>
+<td class="num">۰٫۳٪</td>
+<td class="num">۱۴۰۵/۰۴</td>
+<td class="num">۲</td>
+<td><code>shabahang-journals-funding</code> (۲)</td>
+</tr>
+</tbody>
+</table>
+<p><img alt="فعالیت به تفکیک ماه" src="charts_fa/activity_by_month.png" />
+<img alt="تفکیک دسته‌ها" src="charts_fa/category_breakdown.png" /></p>
+<h2>۴. همبستگی میان گفت‌وگوها</h2>
+<p>همهٔ ۴۶ رشته (موضوع) دارای پیام، همراه با پراکندگی آن‌ها در هر گفت‌وگو، تأخیر اعلان و مبالغ مرتبط در دفتر کل. <code>Explicit</code> پیام‌هایی را می‌شمارد که <code>event_ref</code> مدل زبانی آن‌ها نام این رشته را آورده است؛ باقی‌ماندهٔ <code>Msgs</code> عضویت از طریق انتساب جایگزین کلیدواژه‌ای است (۲٬۷۳۴ مورد از ۳٬۹۲۰ انتساب)، بنابراین رشته‌هایی که عمدتاً بر انتساب جایگزین کلیدواژه‌ای متکی‌اند، تعداد پیام و تأخیر تقریبی دارند (§۷). <code>Lag</code> = تعداد روزها از نخستین پیام در زودترین گفت‌وگوی غیرکانالی تا نخستین پیام کانال؛ مقدار منفی یعنی اعلان کانال پیش از هماهنگی در گفت‌وگوهای دیگر بوده است.</p>
+<table>
+<thead>
+<tr>
+<th>رشته (موضوع)</th>
+<th>نخستین مشاهده</th>
+<th>گفت‌وگوها</th>
+<th>پیام‌ها</th>
+<th>صریح</th>
+<th>تأخیر (روز)</th>
+<th>جمع تراکنش‌ها (تومان)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>intro-event-1405</code></td>
+<td class="num">۱۴۰۴/۰۴/۲۶</td>
+<td class="num">۵</td>
+<td class="num">۷۵۲</td>
+<td class="num">۶۶۲</td>
+<td class="num">+۰</td>
+<td class="num">۵۶٬۱۸۵٬۰۰۰</td>
+</tr>
+<tr>
+<td><code>final-receipt-handover-1405</code></td>
+<td class="num">۱۴۰۴/۰۳/۲۴</td>
+<td class="num">۵</td>
+<td class="num">۴۱۳</td>
+<td class="num">۱</td>
+<td class="num">-۳۳</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>media-social-content</code></td>
+<td class="num">۱۴۰۴/۰۳/۰۹</td>
+<td class="num">۵</td>
+<td class="num">۳۸۵</td>
+<td class="num">۱</td>
+<td class="num">-۴۸</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>summer-school-1404</code></td>
+<td class="num">۱۴۰۴/۰۴/۲۵</td>
+<td class="num">۵</td>
+<td class="num">۲۳۱</td>
+<td class="num">۱۶۹</td>
+<td class="num">+۰</td>
+<td class="num">۴۶٬۹۴۲٬۹۰۰</td>
+</tr>
+<tr>
+<td><code>dept-weekly-seminars</code></td>
+<td class="num">۱۴۰۴/۰۳/۱۰</td>
+<td class="num">۳</td>
+<td class="num">۲۰۸</td>
+<td class="num">۰</td>
+<td class="num">-۴۸</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>physics-math-circle</code></td>
+<td class="num">۱۴۰۴/۰۳/۲۴</td>
+<td class="num">۵</td>
+<td class="num">۱۶۷</td>
+<td class="num">۰</td>
+<td class="num">-۳۳</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>astro-trips-observing</code></td>
+<td class="num">۱۴۰۴/۰۴/۲۶</td>
+<td class="num">۵</td>
+<td class="num">۱۳۹</td>
+<td class="num">۰</td>
+<td class="num">+۰</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>intro-and-registration-videos</code></td>
+<td class="num">۱۴۰۵/۰۶/۲۳</td>
+<td class="num">۱</td>
+<td class="num">۱۲۶</td>
+<td class="num">۱۲۶</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>sponsorship-room-renovation</code></td>
+<td class="num">۱۴۰۴/۰۴/۲۶</td>
+<td class="num">۳</td>
+<td class="num">۱۲۳</td>
+<td class="num">۳۵</td>
+<td class="num">+۱۵۱</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>apply-workshop</code></td>
+<td class="num">۱۴۰۴/۰۳/۰۹</td>
+<td class="num">۳</td>
+<td class="num">۱۲۱</td>
+<td class="num">۱۱</td>
+<td class="num">-۴۹</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>orientation-videos-2025</code></td>
+<td class="num">۱۴۰۴/۰۴/۲۱</td>
+<td class="num">۳</td>
+<td class="num">۱۰۳</td>
+<td class="num">۰</td>
+<td class="num">-۱۲</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>association-website</code></td>
+<td class="num">۱۴۰۴/۰۴/۲۹</td>
+<td class="num">۴</td>
+<td class="num">۹۱</td>
+<td class="num">۲</td>
+<td class="num">+۵</td>
+<td class="num">۳٬۰۰۰٬۰۰۰</td>
+</tr>
+<tr>
+<td><code>summer-school-1405</code></td>
+<td class="num">۱۴۰۴/۰۴/۲۷</td>
+<td class="num">۳</td>
+<td class="num">۸۱</td>
+<td class="num">۶۳</td>
+<td>—</td>
+<td class="num">۱۱٬۵۰۰٬۰۰۰</td>
+</tr>
+<tr>
+<td><code>interview-selection-critique</code></td>
+<td class="num">۱۴۰۴/۰۴/۲۷</td>
+<td class="num">۴</td>
+<td class="num">۷۸</td>
+<td class="num">۰</td>
+<td class="num">+۸۹</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>instagram-growth-campaign</code></td>
+<td class="num">۱۴۰۴/۰۵/۲۰</td>
+<td class="num">۴</td>
+<td class="num">۶۵</td>
+<td class="num">۳</td>
+<td class="num">+۸۹</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>media-team-content-pipeline</code></td>
+<td class="num">۱۴۰۴/۰۹/۲۳</td>
+<td class="num">۲</td>
+<td class="num">۶۵</td>
+<td class="num">۶۱</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>interview-series</code></td>
+<td class="num">۱۴۰۴/۰۵/۱۷</td>
+<td class="num">۴</td>
+<td class="num">۶۲</td>
+<td class="num">۱</td>
+<td class="num">+۲۳</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>elections-1405</code></td>
+<td class="num">۱۴۰۵/۰۱/۱۲</td>
+<td class="num">۳</td>
+<td class="num">۶۱</td>
+<td class="num">۶</td>
+<td class="num">-۷۱</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>hospitality-sessions-1404</code></td>
+<td class="num">۱۴۰۴/۰۵/۲۰</td>
+<td class="num">۳</td>
+<td class="num">۵۷</td>
+<td class="num">۰</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>faculty-committee-liaison</code></td>
+<td class="num">۱۴۰۴/۰۴/۲۷</td>
+<td class="num">۴</td>
+<td class="num">۵۶</td>
+<td class="num">۰</td>
+<td class="num">+۸۶</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>october-advisor-review</code></td>
+<td class="num">۱۴۰۴/۰۴/۱۹</td>
+<td class="num">۳</td>
+<td class="num">۵۱</td>
+<td class="num">۰</td>
+<td class="num">-۸</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>quanta-study-circles</code></td>
+<td class="num">۱۴۰۴/۰۴/۲۷</td>
+<td class="num">۲</td>
+<td class="num">۵۰</td>
+<td class="num">۱۰</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>welcome-semester-onboarding</code></td>
+<td class="num">۱۴۰۴/۰۴/۲۸</td>
+<td class="num">۳</td>
+<td class="num">۵۰</td>
+<td class="num">۲</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>shabahang-journal</code></td>
+<td class="num">۱۴۰۴/۰۳/۱۶</td>
+<td class="num">۴</td>
+<td class="num">۳۶</td>
+<td class="num">۰</td>
+<td class="num">-۴۲</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>tea-physics-society</code></td>
+<td class="num">۱۴۰۴/۰۳/۱۶</td>
+<td class="num">۳</td>
+<td class="num">۳۶</td>
+<td class="num">۱۳</td>
+<td class="num">-۴۱</td>
+<td class="num">۲٬۴۹۲٬۸۵۰</td>
+</tr>
+<tr>
+<td><code>covid-webinar-series</code></td>
+<td class="num">۱۴۰۴/۰۴/۲۷</td>
+<td class="num">۳</td>
+<td class="num">۳۶</td>
+<td class="num">۰</td>
+<td class="num">+۴</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>physics-newsreading</code></td>
+<td class="num">۱۴۰۴/۰۴/۲۷</td>
+<td class="num">۴</td>
+<td class="num">۲۹</td>
+<td class="num">۰</td>
+<td class="num">+۴۲۴</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>association-elections</code></td>
+<td class="num">۱۴۰۴/۰۴/۲۷</td>
+<td class="num">۳</td>
+<td class="num">۲۷</td>
+<td class="num">۰</td>
+<td class="num">+۱۶۴</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>cosmology-weekly-seminar</code></td>
+<td class="num">۱۴۰۴/۰۵/۰۵</td>
+<td class="num">۳</td>
+<td class="num">۲۷</td>
+<td class="num">۰</td>
+<td class="num">-۱۵</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>calculus-study-circle</code></td>
+<td class="num">۱۴۰۴/۰۳/۰۹</td>
+<td class="num">۳</td>
+<td class="num">۲۶</td>
+<td class="num">۴</td>
+<td class="num">-۲۲۳</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>association-operations</code></td>
+<td class="num">۱۴۰۴/۰۴/۲۵</td>
+<td class="num">۴</td>
+<td class="num">۲۴</td>
+<td class="num">۰</td>
+<td class="num">-۱۰۳</td>
+<td class="num">۳۷٬۰۹۷٬۷۰۰</td>
+</tr>
+<tr>
+<td><code>workshop-series</code></td>
+<td class="num">۱۴۰۴/۰۴/۳۰</td>
+<td class="num">۳</td>
+<td class="num">۱۵</td>
+<td class="num">۰</td>
+<td class="num">+۱۶۲</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>booths-1404</code></td>
+<td class="num">۱۴۰۴/۰۵/۰۲</td>
+<td class="num">۴</td>
+<td class="num">۱۴</td>
+<td class="num">۰</td>
+<td class="num">+۴۵</td>
+<td class="num">۱٬۹۹۵٬۰۰۰</td>
+</tr>
+<tr>
+<td><code>weekly-coordination-meeting-21h</code></td>
+<td class="num">۱۴۰۵/۰۳/۲۳</td>
+<td class="num">۲</td>
+<td class="num">۱۴</td>
+<td class="num">۴</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>beh-royat-ma-interview-series</code></td>
+<td class="num">۱۴۰۴/۰۴/۲۷</td>
+<td class="num">۳</td>
+<td class="num">۱۳</td>
+<td class="num">۰</td>
+<td class="num">+۳</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>tea-and-physics</code></td>
+<td class="num">۱۴۰۴/۰۵/۱۸</td>
+<td class="num">۳</td>
+<td class="num">۱۳</td>
+<td class="num">۰</td>
+<td class="num">+۳۱۹</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>linkedin-alumni-group</code></td>
+<td class="num">۱۴۰۵/۰۳/۲۹</td>
+<td class="num">۱</td>
+<td class="num">۱۰</td>
+<td class="num">۹</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>research-bell-photos</code></td>
+<td class="num">۱۴۰۴/۰۴/۲۶</td>
+<td class="num">۳</td>
+<td class="num">۹</td>
+<td class="num">۰</td>
+<td class="num">+۱۱۷</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>intro-event-1404</code></td>
+<td class="num">۱۴۰۴/۰۵/۰۹</td>
+<td class="num">۴</td>
+<td class="num">۹</td>
+<td class="num">۱</td>
+<td class="num">+۳۶</td>
+<td class="num">۸٬۰۷۵٬۰۰۰</td>
+</tr>
+<tr>
+<td><code>yalda-1404</code></td>
+<td class="num">۱۴۰۴/۰۹/۲۴</td>
+<td class="num">۳</td>
+<td class="num">۹</td>
+<td class="num">۰</td>
+<td class="num">-۱۵۳</td>
+<td class="num">۳۷٬۲۲۵٬۴۲۴</td>
+</tr>
+<tr>
+<td><code>kava-external-partnership</code></td>
+<td class="num">۱۴۰۵/۰۳/۳۱</td>
+<td class="num">۲</td>
+<td class="num">۹</td>
+<td class="num">۰</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>shabahang-journals-funding</code></td>
+<td class="num">۱۴۰۴/۰۴/۲۸</td>
+<td class="num">۲</td>
+<td class="num">۸</td>
+<td class="num">۲</td>
+<td class="num">+۱۵</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>inflows-donations-legacy-funds</code></td>
+<td class="num">۱۴۰۴/۰۵/۰۳</td>
+<td class="num">۳</td>
+<td class="num">۷</td>
+<td class="num">۰</td>
+<td class="num">+۳۵۱</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>freshman-party-1404</code></td>
+<td class="num">۱۴۰۴/۰۵/۲۱</td>
+<td class="num">۳</td>
+<td class="num">۶</td>
+<td class="num">۰</td>
+<td>—</td>
+<td class="num">۶٬۰۷۴٬۰۰۰</td>
+</tr>
+<tr>
+<td><code>nobel-review-series</code></td>
+<td class="num">۱۴۰۴/۰۶/۲۳</td>
+<td class="num">۲</td>
+<td class="num">۵</td>
+<td class="num">۰</td>
+<td class="num">-۱۹</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>mic-failure-voice-loss</code></td>
+<td class="num">۱۴۰۵/۰۴/۰۸</td>
+<td class="num">۲</td>
+<td class="num">۳</td>
+<td class="num">۰</td>
+<td>—</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<p><strong>پول بدون پیام منطبق — شکاف پوشش:</strong> <code>professors-assembly-mehr</code> (مجمع اساتید مهر) دارای ۴ ردیف در دفتر کل است (۲٬۶۹۴٬۷۵۰ تومان ناخالص: دریافت‌ها ۵۰۰٬۰۰۰، پرداخت‌ها ۲٬۱۹۴٬۷۵۰؛ TX0019، TX0020، TX0024، TX0025) اما هیچ پیامی با تطبیق کلیدواژه‌ای یا مدل زبانی ندارد؛ از این رو صرفاً به‌عنوان مورد مالی و با مقادیر تهی برای نخستین/آخرین/تأخیر نگه داشته شده است. TX0025 در دفتر کل وضعیت <em>تکراری</em> دارد و مبلغ آن، جمع ناخالص را بیش از واقع نشان می‌دهد.</p>
+<p><img alt="گاه‌شمار رویدادها" src="charts_fa/event_timeline.png" />
+سه مطالعهٔ موردی زیر، رشته‌هایی (موضوع‌هایی) هستند که بیشترین تعداد گفت‌وگو را در بر می‌گیرند (هر پنج گفت‌وگو؛ در صورت تساوی، بر اساس حجم تراکنش‌های مرتبط و سپس تعداد پیام).</p>
+<h3>مطالعهٔ موردی: <code>intro-event-1405</code> — برنامهٔ معارفه ۱۴۰۵</h3>
+<p>۷۵۲ پیام منتسب در ۵ گفت‌وگو، ۲۰۲۵-۰۷-۱۷ ← ۲۰۲۶-۱۰-۰۹ (۱۴۰۴/۰۴/۲۶ ← ۱۴۰۵/۰۷/۱۷)؛ تأخیر اعلان <strong>+۰ روز</strong> (نخستین پیام کانال ۱۴۰۴/۰۴/۲۶). انتساب صریح: ۶۶۲ از ۷۵۲ پیام (۸۸٫۰٪)؛ ۹۰ پیام باقی‌مانده عضویت‌های انتساب جایگزین کلیدواژه‌ای هستند.
+منابع مالی دفتر کل در پشتوانهٔ این رشته (موضوع): ۵۶٬۱۸۵٬۰۰۰ تومان ناخالص در ۴ تراکنش (دریافت‌ها: ۵۰٬۲۳۵٬۰۰۰ / پرداخت‌ها: ۵٬۹۵۰٬۰۰۰).</p>
+<table>
+<thead>
+<tr>
+<th>مرحله</th>
+<th>تاریخ</th>
+<th>مرجع</th>
+<th>شواهد</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>برنامه‌ریزی — نخستین انتساب صریح</td>
+<td class="num">۱۴۰۵/۰۳/۰۴ ۲۱:۴۱</td>
+<td>private_group#message9715</td>
+<td>[رسانه: پیام صوتی]</td>
+</tr>
+<tr>
+<td>اعلان — نخستین پست کانال (۱۱ پیام)</td>
+<td class="num">۱۴۰۴/۰۴/۲۶ ۲۱:۳۱</td>
+<td><em>(نخستین پیام گفت‌وگو، تطبیق کلیدواژه‌ای)</em></td>
+<td>نخستین پیام گفت‌وگو ۱۴۰۴/۰۴/۲۶؛ نخستین ارجاع صریح به channel#message3497 ۱۴۰۵/۰۶/۳۱</td>
+</tr>
+<tr>
+<td>کار — نخستین پیام در کانال مدرسهٔ تابستانه (۴ پیام)</td>
+<td class="num">۱۴۰۴/۰۴/۲۷ ۱۵:۵۸</td>
+<td><em>(نخستین پیام گفت‌وگو، تطبیق کلیدواژه‌ای)</em></td>
+<td>نخستین پیام در این گفت‌وگو</td>
+</tr>
+<tr>
+<td>کار — نخستین پیام در گروه خصوصی (۴۶ پیام)</td>
+<td class="num">۱۴۰۴/۰۴/۲۹ ۰۰:۰۰</td>
+<td><em>(نخستین پیام گفت‌وگو، تطبیق کلیدواژه‌ای)</em></td>
+<td>نخستین پیام گفت‌وگو ۱۴۰۴/۰۴/۲۹؛ نخستین ارجاع صریح به private_group#message9715 ۱۴۰۵/۰۳/۰۴</td>
+</tr>
+<tr>
+<td>کار — نخستین پیام در گروه حسابداری (۱ پیام)</td>
+<td class="num">۱۴۰۴/۰۷/۰۵ ۱۱:۴۳</td>
+<td><em>(نخستین پیام گفت‌وگو، تطبیق کلیدواژه‌ای)</em></td>
+<td>نخستین پیام در این گفت‌وگو</td>
+</tr>
+<tr>
+<td>اجرا — پرترافیک‌ترین گفت‌وگو گروه عمومی (۶۹۰ پیام)</td>
+<td class="num">۱۴۰۵/۰۵/۲۱ ۱۵:۳۴</td>
+<td><em>(نخستین پیام گفت‌وگو، تطبیق کلیدواژه‌ای)</em></td>
+<td>نخستین پیام گفت‌وگو ۱۴۰۵/۰۵/۲۱؛ نخستین ارجاع صریح به public_group#message678 ۱۴۰۵/۰۶/۱۳</td>
+</tr>
+<tr>
+<td>تصمیم‌های بازهٔ اجرا</td>
+<td>۱۴۰۵/۰۶/۲۵، ۱۴۰۵/۰۶/۲۶، ۱۴۰۵/۰۶/۲۸، ۱۴۰۵/۰۶/۲۹، ۱۴۰۵/۰۶/۳۱</td>
+<td>۵ تصمیم تاریخ‌دار</td>
+<td>پیام‌هایی از این رشته (موضوع) که با is_decision علامت‌گذاری شده‌اند</td>
+</tr>
+<tr>
+<td>پرداخت — TX0088 (پرداخت)</td>
+<td class="num">۱۴۰۵/۰۷</td>
+<td><em>(ردیف دفتر کل، بدون ارجاع به پیام)</em></td>
+<td>۹۵۰٬۰۰۰ تومان، ملزومات، تأییدشده</td>
+</tr>
+<tr>
+<td>پرداخت — TX0093 (دریافت)</td>
+<td class="num">۱۴۰۵/۰۷</td>
+<td><em>(ردیف دفتر کل، بدون ارجاع به پیام)</em></td>
+<td>۲۳٬۰۰۰٬۰۰۰ تومان، رویدادها، تأییدشده</td>
+</tr>
+<tr>
+<td>پرداخت — TX0094 (دریافت)</td>
+<td class="num">۱۴۰۵/۰۷</td>
+<td><em>(ردیف دفتر کل، بدون ارجاع به پیام)</em></td>
+<td>۲۷٬۲۳۵٬۰۰۰ تومان، رویدادها، صرفاً گزارش تجمیعی</td>
+</tr>
+<tr>
+<td>پرداخت — TX0095 (پرداخت)</td>
+<td class="num">۱۴۰۵/۰۷</td>
+<td><em>(ردیف دفتر کل، بدون ارجاع به پیام)</em></td>
+<td>۵٬۰۰۰٬۰۰۰ تومان، رویدادها، تأییدشده</td>
+</tr>
+</tbody>
+</table>
+<p>بستر اجرا <code>public_group</code> است — ۶۹۰ پیام از ۷۵۲ پیام این رشته (موضوع) بین ۱۴۰۵/۰۵/۲۱ و ۱۴۰۵/۰۷/۱۳.</p>
+<p>فهرست رشته‌ها این رشته (موضوع) را به گزارش رسانه‌ای (docx) پیوند می‌دهد (<code>docx</code> در میان گفت‌وگوهای آن فهرست شده است)؛ شاخص‌های کارزار متناظر شهریور–مهر ۱۴۰۵ در §۵ نقل شده‌اند.</p>
+<h3>مطالعهٔ موردی: <code>summer-school-1404</code> — مدرسه تابستانه ۱۴۰۴</h3>
+<p>۲۳۱ پیام منتسب در ۵ گفت‌وگو، ۲۰۲۵-۰۷-۱۶ ← ۲۰۲۶-۱۰-۰۲ (۱۴۰۴/۰۴/۲۵ ← ۱۴۰۵/۰۷/۱۰)؛ تأخیر اعلان <strong>+۰ روز</strong> (نخستین پیام کانال ۱۴۰۴/۰۴/۲۵). انتساب صریح: ۱۶۹ از ۲۳۱ پیام (۷۳٫۲٪)؛ ۶۲ پیام باقی‌مانده عضویت‌های انتساب جایگزین کلیدواژه‌ای هستند.
+منابع مالی دفتر کل در پشتوانهٔ این رشته (موضوع): ۴۶٬۹۴۲٬۹۰۰ تومان ناخالص در ۱۲ تراکنش (دریافت‌ها: ۳۳٬۶۴۲٬۰۰۰ / پرداخت‌ها: ۱۳٬۳۰۰٬۹۰۰).</p>
+<table>
+<thead>
+<tr>
+<th>مرحله</th>
+<th>تاریخ</th>
+<th>مرجع</th>
+<th>شواهد</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>برنامه‌ریزی — نخستین انتساب صریح</td>
+<td class="num">۱۴۰۴/۰۴/۲۶ ۱۶:۲۰</td>
+<td>private_group#message829</td>
+<td>من دارم با ارمیا می‌چینم تا ۸ بده سرفصل و تایمشو</td>
+</tr>
+<tr>
+<td>اعلان — نخستین پست کانال (۳ پیام)</td>
+<td class="num">۱۴۰۴/۰۴/۲۵ ۱۹:۱۹</td>
+<td><em>(نخستین پیام گفت‌وگو، تطبیق کلیدواژه‌ای)</em></td>
+<td>نخستین پیام در این گفت‌وگو</td>
+</tr>
+<tr>
+<td>اجرا — پرترافیک‌ترین گفت‌وگو گروه خصوصی (۲۰۰ پیام)</td>
+<td class="num">۱۴۰۴/۰۴/۲۶ ۱۶:۲۰</td>
+<td>private_group#message829</td>
+<td>من دارم با ارمیا می‌چینم تا ۸ بده سرفصل و تایمشو</td>
+</tr>
+<tr>
+<td>کار — نخستین پیام در کانال مدرسهٔ تابستانه (۴ پیام)</td>
+<td class="num">۱۴۰۴/۰۴/۲۶ ۲۱:۴۹</td>
+<td>summerschool_channel#message5</td>
+<td>دوستان نازنین داخل کامنت سوال هاتون رو مطرح کنید اگر چیزی از قلم افتاد…</td>
+</tr>
+<tr>
+<td>کار — نخستین پیام در گروه حسابداری (۱۰ پیام)</td>
+<td class="num">۱۴۰۴/۰۵/۰۲ ۲۰:۴۷</td>
+<td>accounting_group#message10</td>
+<td>۳۴۸۰ جو</td>
+</tr>
+<tr>
+<td>کار — نخستین پیام در گروه عمومی (۱۴ پیام)</td>
+<td class="num">۱۴۰۵/۰۵/۲۱ ۱۷:۵۵</td>
+<td><em>(نخستین پیام گفت‌وگو، تطبیق کلیدواژه‌ای)</em></td>
+<td>نخستین پیام در این گفت‌وگو</td>
+</tr>
+<tr>
+<td>تصمیم‌های بازهٔ اجرا</td>
+<td>۱۴۰۴/۰۴/۲۷، ۱۴۰۴/۰۴/۲۸، ۱۴۰۴/۰۴/۲۹، ۱۴۰۴/۰۴/۳۰، ۱۴۰۴/۰۵/۰۱، ۱۴۰۴/۰۵/۰۷، ۱۴۰۴/۰۵/۲۲، ۱۴۰۴/۰۷/۰۱</td>
+<td>۸ تصمیم تاریخ‌دار</td>
+<td>پیام‌هایی از این رشته (موضوع) که با is_decision علامت‌گذاری شده‌اند</td>
+</tr>
+<tr>
+<td>پرداخت — TX0001 (دریافت)</td>
+<td class="num">۱۴۰۴/۰۵</td>
+<td>accounting_group#message6، accounting_group#message7، accounting_group#message8</td>
+<td>۳۳٬۶۴۲٬۰۰۰ تومان، شهریه دوره‌ها، تأییدشده</td>
+</tr>
+<tr>
+<td>پرداخت — TX0002 (پرداخت)</td>
+<td class="num">۱۴۰۴/۰۵</td>
+<td>accounting_group#message25، accounting_group#message12</td>
+<td>۳٬۰۰۰٬۰۰۰ تومان، تدریس، تأییدشده</td>
+</tr>
+<tr>
+<td>پرداخت — TX0003 (پرداخت)</td>
+<td class="num">۱۴۰۴/۰۵</td>
+<td>accounting_group#message26، accounting_group#message10</td>
+<td>۳٬۵۰۰٬۰۰۰ تومان، تدریس، تأییدشده</td>
+</tr>
+<tr>
+<td>پرداخت — TX0004 (پرداخت)</td>
+<td class="num">۱۴۰۴/۰۵</td>
+<td>accounting_group#message27، accounting_group#message28، accounting_group#message13</td>
+<td>۳٬۷۰۰٬۰۰۰ تومان، تدریس، تأییدشده</td>
+</tr>
+<tr>
+<td>پرداخت — TX0005 (پرداخت)</td>
+<td class="num">۱۴۰۴/۰۵</td>
+<td>accounting_group#message29</td>
+<td>۵۰۰٬۰۰۰ تومان، تدریس، تأییدشده</td>
+</tr>
+<tr>
+<td>پرداخت — TX0006 (پرداخت)</td>
+<td class="num">۱۴۰۴/۰۵</td>
+<td>accounting_group#message30</td>
+<td>۶۰۰٬۰۰۰ تومان، تدریس، تأییدشده</td>
+</tr>
+<tr>
+<td>پرداخت — TX0007 (پرداخت)</td>
+<td class="num">۱۴۰۴/۰۵</td>
+<td>accounting_group#message31، accounting_group#message32، accounting_group#message33، accounting_group#message34</td>
+<td>۶۰۰٬۰۰۰ تومان، تدریس، تأییدشده</td>
+</tr>
+<tr>
+<td>پرداخت — TX0008 (پرداخت)</td>
+<td class="num">۱۴۰۴/۰۵</td>
+<td>accounting_group#message32</td>
+<td>۹۰۰ تومان، کارمزدهای بانکی، تأییدشده</td>
+</tr>
+<tr>
+<td>پرداخت — TX0009 (پرداخت)</td>
+<td class="num">۱۴۰۴/۰۴</td>
+<td>accounting_group#message43، accounting_group#message44، accounting_group#message45، accounting_group#message46</td>
+<td>۴۰۰٬۰۰۰ تومان، تبلیغات، تأییدشده</td>
+</tr>
+<tr>
+<td>پرداخت — TX0010 (پرداخت)</td>
+<td class="num">۱۴۰۴/۰۵</td>
+<td>accounting_group#message57</td>
+<td>۴۰۰٬۰۰۰ تومان، تبلیغات، نیازمند بررسی</td>
+</tr>
+<tr>
+<td>پرداخت — TX0011 (پرداخت)</td>
+<td class="num">۱۴۰۴/۰۵</td>
+<td>accounting_group#message42</td>
+<td>۳۰۰٬۰۰۰ تومان، تدریس، تأییدشده</td>
+</tr>
+<tr>
+<td>پرداخت — TX0012 (پرداخت)</td>
+<td class="num">۱۴۰۴/۰۵</td>
+<td>accounting_group#message47</td>
+<td>۳۰۰٬۰۰۰ تومان، تدریس، تأییدشده</td>
+</tr>
+</tbody>
+</table>
+<p>بستر اجرا <code>private_group</code> است — ۲۰۰ پیام از ۲۳۱ پیام این رشته (موضوع) بین ۱۴۰۴/۰۴/۲۶ و ۱۴۰۵/۰۶/۰۵.</p>
+<h3>مطالعهٔ موردی: <code>final-receipt-handover-1405</code> — تحویل نهایی اسناد مالی: جمع‌آوری عکس همه فاکتورها/رسیدها و ق…</h3>
+<p>۴۱۳ پیام منتسب در ۵ گفت‌وگو، ۲۰۲۵-۰۶-۱۴ ← ۲۰۲۶-۱۰-۱۲ (۱۴۰۴/۰۳/۲۴ ← ۱۴۰۵/۰۷/۲۰)؛ تأخیر اعلان <strong>-۳۳ روز</strong> (نخستین پیام کانال ۱۴۰۴/۰۳/۲۴). انتساب صریح: ۱ از ۴۱۳ پیام (۰٫۲٪)؛ ۴۱۲ پیام باقی‌مانده عضویت‌های انتساب جایگزین کلیدواژه‌ای هستند — این رشته (موضوع) عمدتاً بر انتساب جایگزین کلیدواژه‌ای متکی است، بنابراین شمار پیام‌ها و تأخیر آن تقریبی است (§۷).
+هیچ تراکنشی در دفتر کل به این رشته (موضوع) پیوند ندارد (این رشته خودِ جریان کاری گردآوری رسیدهاست، نه یک پروژهٔ هزینه‌کرد).</p>
+<table>
+<thead>
+<tr>
+<th>مرحله</th>
+<th>تاریخ</th>
+<th>مرجع</th>
+<th>شواهد</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>برنامه‌ریزی — نخستین انتساب صریح</td>
+<td class="num">۱۴۰۵/۰۴/۰۶ ۱۵:۳۶</td>
+<td>accounting_group#message137</td>
+<td>و اینکه برای فردا عصر و پسفردا عصر یا حتی ۳شنبه عصر تایم های خالیت رو …</td>
+</tr>
+<tr>
+<td>اعلان — نخستین پست کانال (۴۳ پیام)</td>
+<td class="num">۱۴۰۴/۰۳/۲۴ ۱۲:۰۰</td>
+<td><em>(نخستین پیام گفت‌وگو، تطبیق کلیدواژه‌ای)</em></td>
+<td>نخستین پیام در این گفت‌وگو</td>
+</tr>
+<tr>
+<td>اجرا — پرترافیک‌ترین گفت‌وگو گروه خصوصی (۱۹۴ پیام)</td>
+<td class="num">۱۴۰۴/۰۴/۲۷ ۰۰:۵۴</td>
+<td><em>(نخستین پیام گفت‌وگو، تطبیق کلیدواژه‌ای)</em></td>
+<td>نخستین پیام در این گفت‌وگو</td>
+</tr>
+<tr>
+<td>کار — نخستین پیام در کانال مدرسهٔ تابستانه (۲ پیام)</td>
+<td class="num">۱۴۰۴/۰۴/۲۷ ۱۶:۴۱</td>
+<td><em>(نخستین پیام گفت‌وگو، تطبیق کلیدواژه‌ای)</em></td>
+<td>نخستین پیام در این گفت‌وگو</td>
+</tr>
+<tr>
+<td>کار — نخستین پیام در گروه حسابداری (۱۰ پیام)</td>
+<td class="num">۱۴۰۴/۰۵/۰۳ ۱۵:۵۳</td>
+<td><em>(نخستین پیام گفت‌وگو، تطبیق کلیدواژه‌ای)</em></td>
+<td>نخستین پیام گفت‌وگو ۱۴۰۴/۰۵/۰۳؛ نخستین ارجاع صریح به accounting_group#message137 ۱۴۰۵/۰۴/۰۶</td>
+</tr>
+<tr>
+<td>کار — نخستین پیام در گروه عمومی (۱۶۴ پیام)</td>
+<td class="num">۱۴۰۵/۰۵/۲۱ ۱۵:۴۲</td>
+<td><em>(نخستین پیام گفت‌وگو، تطبیق کلیدواژه‌ای)</em></td>
+<td>نخستین پیام در این گفت‌وگو</td>
+</tr>
+</tbody>
+</table>
+<p>بستر اجرا <code>private_group</code> است — ۱۹۴ پیام از ۴۱۳ پیام این رشته (موضوع) بین ۱۴۰۴/۰۴/۲۷ و ۱۴۰۵/۰۷/۱۴.</p>
+<h2>۵. نقشهٔ زیست‌بوم</h2>
+<p><code>ecosystem.json</code> شامل <strong>۷۷۹ گره / ۸۸۱ یال</strong> است (۸ نهاد پایه، ۵ خروجی گفت‌وگو، ۷۶۶ نهاد بیرونی). اعتبارسنجی نهادهای پایه (یالی با وزن ≥ ۳ به سوی نهاد پایه، آن را مستند می‌کند):</p>
+<table>
+<thead>
+<tr>
+<th>نهاد پایه</th>
+<th>برچسب</th>
+<th>وضعیت</th>
+<th>وزن بازارسال ورودی</th>
+<th>وزن اشارهٔ ورودی</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>association</td>
+<td>انجمن علمی فیزیک شریف</td>
+<td>مستند</td>
+<td class="num">۴۸</td>
+<td class="num">۱٬۸۶۸</td>
+</tr>
+<tr>
+<td>physics_tea</td>
+<td>چای فیزیک (@physics_tea_sessions)</td>
+<td>مستند</td>
+<td class="num">۲۲</td>
+<td>—</td>
+</tr>
+<tr>
+<td>tea_chat</td>
+<td>چای - حضوری</td>
+<td>تأییدنشده</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>shabahang_sut</td>
+<td>نشریه شباهنگ (@shabahang_sut)</td>
+<td>مستند</td>
+<td class="num">۳۲</td>
+<td class="num">۳۳</td>
+</tr>
+<tr>
+<td>sharifastronomy</td>
+<td>گروه نجوم شریف (@sharifastronomy)</td>
+<td>مستند</td>
+<td class="num">۵۱</td>
+<td class="num">۵۲</td>
+</tr>
+<tr>
+<td>takaneh</td>
+<td>نشریه تکانه (@takaneh_physics_sharif)</td>
+<td>مستند</td>
+<td class="num">۲۳</td>
+<td>—</td>
+</tr>
+<tr>
+<td>sutschools</td>
+<td>مدرسه تابستانی فیزیک (@sutschools)</td>
+<td>مستند</td>
+<td class="num">۱۶</td>
+<td class="num">۶۱</td>
+</tr>
+<tr>
+<td>quantasc</td>
+<td>حلقه‌های کوانتا (@QuantaSC)</td>
+<td>مستند</td>
+<td class="num">۱۸۴</td>
+<td class="num">۲۵۲</td>
+</tr>
+</tbody>
+</table>
+<p><strong>ملاحظهٔ نهاد پایهٔ تأییدنشده:</strong> <code>tea_chat</code> = چای - حضوری در خروجی‌ها هیچ یال بازارسال یا اشاره‌ای ندارد — گردهمایی‌ای حضوری بدون ردپای دیجیتال — بنابراین همهٔ گزاره‌های گرافی این گزارش تنها بر پایهٔ ۷ نهاد پایهٔ مستند بیان شده است.</p>
+<p>مبداهای بیرونی برتر بر اساس وزن بازارسال (بازارسال‌ها به پنج گفت‌وگو؛ مجموعاً ۱٬۲۷۳ وزن بازارسال):</p>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>مبدأ بیرونی</th>
+<th>وزن بازارسال</th>
+<th>سهم از بازارسال‌ها</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="num">۱</td>
+<td>انجمن علمی ژرفا</td>
+<td class="num">۶۱</td>
+<td class="num">۴٫۸٪</td>
+</tr>
+<tr>
+<td class="num">۲</td>
+<td>Deleted Account</td>
+<td class="num">۴۵</td>
+<td class="num">۳٫۵٪</td>
+</tr>
+<tr>
+<td class="num">۳</td>
+<td>خبرخوانی فیزیک</td>
+<td class="num">۴۲</td>
+<td class="num">۳٫۳٪</td>
+</tr>
+<tr>
+<td class="num">۴</td>
+<td>اطلاع‌رسانی فعالیت‌های پژوهشی دانشکده‌ی فیزیک</td>
+<td class="num">۳۷</td>
+<td class="num">۲٫۹٪</td>
+</tr>
+<tr>
+<td class="num">۵</td>
+<td>Saman Moghimi</td>
+<td class="num">۳۶</td>
+<td class="num">۲٫۸٪</td>
+</tr>
+<tr>
+<td class="num">۶</td>
+<td>Alireza Jafari</td>
+<td class="num">۲۶</td>
+<td class="num">۲٫۰٪</td>
+</tr>
+<tr>
+<td class="num">۷</td>
+<td>Za.Am</td>
+<td class="num">۲۴</td>
+<td class="num">۱٫۹٪</td>
+</tr>
+<tr>
+<td class="num">۸</td>
+<td>Quantum Information Science @ Sharif University of Technology</td>
+<td class="num">۲۳</td>
+<td class="num">۱٫۸٪</td>
+</tr>
+<tr>
+<td class="num">۹</td>
+<td>روزنامه شریف</td>
+<td>SharifDaily</td>
+<td class="num">۲۰</td>
+</tr>
+<tr>
+<td class="num">۱۰</td>
+<td>مرکز پژوهشی فیزیک انرژی بالا</td>
+<td class="num">۱۹</td>
+<td class="num">۱٫۵٪</td>
+</tr>
+</tbody>
+</table>
+<p><strong>انجمن در نقش بازپخش‌کننده عمل می‌کند.</strong> کانال آن هم بلندگو است و هم نقطهٔ توزیع مجدد: شناسهٔ انجمن <strong>۱٬۸۶۸ وزن اشاره</strong> را به نهاد پایهٔ انجمن متصل می‌کند (پس از ادغام نام‌های مستعار؛ ۱٬۷۹۳ مورد از آن‌ها شناسهٔ امضای پست‌های خود کانال است)، این کانال از سال ۲۰۱۸ خلاصه‌های سمینار هفتگی دانشکده را بازپخش کرده است — <strong>۵۹۷ پست کانال در کل دوره</strong> (نقاط مرجع ۱۳۹۷/۰۱/۲۵ ← ۱۴۰۴/۰۲/۰۴، خارج از بازهٔ تحلیل) — و <strong>کوانتا (حلقه‌های مطالعاتی QuantaSC) ۲۲٫۵٪ از وزن بازارسال کانال را به خود اختصاص می‌دهد</strong> (۱۸۴ از ۸۱۶)، افزون بر ۲۵۲ وزن اشاره. بدین ترتیب قوی‌ترین همکاری زیرگروهی در گراف، شبکهٔ حلقه‌های مطالعاتی منشعب از خود انجمن است.</p>
+<h3>گزارش رسانه‌ای (docx) — شاخص‌های عین متن (نقل‌شده همراه با برچسب‌های دوره)</h3>
+<p><code>گزارش عملکرد رسانه‌ای انجمن علمی فیزیک — بررسی روند تولید محتوا، اطلاع‌رسانی و دستاوردهای رویداد معرفی رشته فیزیک</code> — ۵۵ بند / ۲۵ ردیف جدول؛ دوره‌های پوشش‌داده‌شده: شهریور ۱۴۰۵؛ مهر ۱۴۰۵؛ ۱۲ سپتامبر تا ۱۱ اکتبر (۳۰ روز) = ۱۴۰۵/۰۶/۲۱ تا ۱۴۰۵/۰۷/۱۹. همهٔ ۳۸ شاخص به‌صورت عین متن:</p>
+<table>
+<thead>
+<tr>
+<th>شاخص</th>
+<th>برچسب</th>
+<th>عین عبارت</th>
+<th>مقدار</th>
+<th>دوره</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>m01</td>
+<td>مجموع بازدید محتوا</td>
+<td class="num">۷۲۶٬۵۲۷</td>
+<td class="num">۷۲۶٬۵۲۷</td>
+<td>۱۲ سپتامبر تا ۱۱ اکتبر (۳۰ روز) = شهریور/مهر…</td>
+</tr>
+<tr>
+<td>m02</td>
+<td>تعداد بینندگان گزارش‌شده</td>
+<td class="num">۲۷۹٬۹۲۹</td>
+<td class="num">۲۷۹٬۹۲۹</td>
+<td>۱۲ سپتامبر تا ۱۱ اکتبر (۳۰ روز)</td>
+</tr>
+<tr>
+<td>m03</td>
+<td>رشد خالص دنبال‌کنندگان</td>
+<td>۶٬۰۲۹ نفر</td>
+<td class="num">۶٬۰۲۹</td>
+<td>۱۲ سپتامبر تا ۱۱ اکتبر (۳۰ روز)</td>
+</tr>
+<tr>
+<td>m04</td>
+<td>دنبال‌کنندگان جدید (نمایش گردشده داشبورد…</td>
+<td>حدود ۶٬۳۰۰ نفر (۶٫۳ هزار)</td>
+<td class="num">۶٬۳۰۰</td>
+<td>۱۲ سپتامبر تا ۱۱ اکتبر (۳۰ روز)</td>
+</tr>
+<tr>
+<td>m05</td>
+<td>نسبت بازدید به بیننده</td>
+<td>حدود ۲٫۶۰</td>
+<td class="num">۲٫۶</td>
+<td>بازه ۳۰روزه</td>
+</tr>
+<tr>
+<td>m06</td>
+<td>سهم بازدید غیردنبال‌کنندگان</td>
+<td class="num">۸۹٫۸٪</td>
+<td class="num">۸۹٫۸</td>
+<td>بازه ۳۰روزه</td>
+</tr>
+<tr>
+<td>m07</td>
+<td>سهم بازدید دنبال‌کنندگان</td>
+<td class="num">۱۰٫۲٪</td>
+<td class="num">۱۰٫۲</td>
+<td>بازه ۳۰روزه</td>
+</tr>
+<tr>
+<td>m08</td>
+<td>تعداد محتوای منتشرشده</td>
+<td>۲۰ مورد</td>
+<td class="num">۲۰</td>
+<td>بازه ۳۰روزه</td>
+</tr>
+<tr>
+<td>m09</td>
+<td>بازدید ریلز</td>
+<td>۶۴۴٬۰۰۰ (حدود ۶۴۴ هزار)</td>
+<td class="num">۶۴۴٬۰۰۰</td>
+<td>بازه ۳۰روزه</td>
+</tr>
+<tr>
+<td>m10</td>
+<td>سهم ریلز از کل بازدیدهای دقیق</td>
+<td class="num">۸۸٫۶۴٪</td>
+<td class="num">۸۸٫۶۴</td>
+<td>بازه ۳۰روزه</td>
+</tr>
+<tr>
+<td>m11</td>
+<td>بازدید پست</td>
+<td>۶۰٬۰۰۰ (حدود ۶۰ هزار)</td>
+<td class="num">۶۰٬۰۰۰</td>
+<td>بازه ۳۰روزه</td>
+</tr>
+<tr>
+<td>m12</td>
+<td>سهم پست</td>
+<td class="num">۸٫۲۶٪</td>
+<td class="num">۸٫۲۶</td>
+<td>بازه ۳۰روزه</td>
+</tr>
+<tr>
+<td>m13</td>
+<td>بازدید استوری</td>
+<td>۲۱٬۰۰۰ (حدود ۲۱ هزار)</td>
+<td class="num">۲۱٬۰۰۰</td>
+<td>بازه ۳۰روزه</td>
+</tr>
+<tr>
+<td>m14</td>
+<td>سهم استوری</td>
+<td class="num">۲٫۸۹٪</td>
+<td class="num">۲٫۸۹</td>
+<td>بازه ۳۰روزه</td>
+</tr>
+<tr>
+<td>m15</td>
+<td>بازدید ویدیوی زنده</td>
+<td>صفر</td>
+<td>—</td>
+<td>بازه ۳۰روزه</td>
+</tr>
+<tr>
+<td>m16</td>
+<td>مصاحبه اول در فهرست پربازدیدها</td>
+<td>۲۰۱٬۰۰۰ (۲۰۱K)</td>
+<td class="num">۲۰۱٬۰۰۰</td>
+<td>بازه ۳۰روزه</td>
+</tr>
+<tr>
+<td>m17</td>
+<td>مصاحبه دوم</td>
+<td>۱۴۲٬۰۰۰ (۱۴۲K)</td>
+<td class="num">۱۴۲٬۰۰۰</td>
+<td>بازه ۳۰روزه</td>
+</tr>
+<tr>
+<td>m18</td>
+<td>مصاحبه سوم</td>
+<td>۱۱۶٬۰۰۰ (۱۱۶K)</td>
+<td class="num">۱۱۶٬۰۰۰</td>
+<td>بازه ۳۰روزه</td>
+</tr>
+<tr>
+<td>m19</td>
+<td>مصاحبه چهارم</td>
+<td>۷۱٬۰۰۰ (۷۱K)</td>
+<td class="num">۷۱٬۰۰۰</td>
+<td>بازه ۳۰روزه</td>
+</tr>
+<tr>
+<td>m20</td>
+<td>مجموع چهار مصاحبه پربازدید</td>
+<td>۵۳۰٬۰۰۰ (حدود ۵۳۰ هزار)</td>
+<td class="num">۵۳۰٬۰۰۰</td>
+<td>بازه ۳۰روزه</td>
+</tr>
+<tr>
+<td>m21</td>
+<td>سهم مصاحبه‌های پربازدید از کل بازدیدهای …</td>
+<td>حدود ۷۲٫۹۵٪</td>
+<td class="num">۷۲٫۹۵</td>
+<td>بازه ۳۰روزه</td>
+</tr>
+<tr>
+<td>m22</td>
+<td>اوج روزانه بازدید (نیمه نخست دوره)</td>
+<td>نزدیک به خط ۱۳۷ هزار بازدید</td>
+<td class="num">۱۳۷٬۰۰۰</td>
+<td>نیمه نخست بازه ۳۰روزه؛ تاریخ دقیق در تصویر د…</td>
+</tr>
+<tr>
+<td>m23</td>
+<td>دنبال‌کنندگان صفحه پیش از دوره</td>
+<td>حدود ۱۰۰ نفر</td>
+<td class="num">۱۰۰</td>
+<td>پیش از شهریور/مهر ۱۴۰۵</td>
+</tr>
+<tr>
+<td>m24</td>
+<td>دنبال‌کنندگان صفحه پس از دوره</td>
+<td>بیش از ۶ هزار نفر</td>
+<td class="num">۶٬۰۰۰</td>
+<td>پایان بازه ۱۱ اکتبر ۱۴۰۵</td>
+</tr>
+<tr>
+<td>m25</td>
+<td>ایده‌پردازی و فیلم‌برداری چهار مصاحبه</td>
+<td>۴ تا ۸ ساعت</td>
+<td class="num">۴–۸</td>
+<td>دوره تولید محتوا (حدود یک هفته پیش از رویداد…</td>
+</tr>
+<tr>
+<td>m26</td>
+<td>تدوین چهار مصاحبه</td>
+<td>۲۰ ساعت</td>
+<td class="num">۲۰</td>
+<td>دوره تولید محتوا</td>
+</tr>
+<tr>
+<td>m27</td>
+<td>تدوین ویدیوی معرفی برنامه</td>
+<td>۵ ساعت</td>
+<td class="num">۵</td>
+<td>دوره تولید محتوا</td>
+</tr>
+<tr>
+<td>m28</td>
+<td>تدوین ویدیوی ثبت‌نام</td>
+<td>۵ ساعت</td>
+<td class="num">۵</td>
+<td>دوره تولید محتوا</td>
+</tr>
+<tr>
+<td>m29</td>
+<td>مجموع زمان قابل برآورد تولید</td>
+<td>۳۴ تا ۳۸ ساعت</td>
+<td class="num">۳۴–۳۸</td>
+<td>کل دوره تولید شش ویدیوی اصلی</td>
+</tr>
+<tr>
+<td>m30</td>
+<td>زمان ایده‌پردازی و فیلم‌برداری هر مصاحبه</td>
+<td>حدود یک تا دو ساعت</td>
+<td class="num">۱–۲</td>
+<td>دوره تولید محتوا</td>
+</tr>
+<tr>
+<td>m31</td>
+<td>تدوین و آماده‌سازی هر یک از شش ویدیوی اص…</td>
+<td>حدود پنج ساعت</td>
+<td class="num">۵</td>
+<td>دوره تولید محتوا</td>
+</tr>
+<tr>
+<td>m32</td>
+<td>تعداد ویدیوهای اصلی</td>
+<td>شش ویدیوی اصلی</td>
+<td class="num">۶</td>
+<td>دوره رویداد</td>
+</tr>
+<tr>
+<td>m33</td>
+<td>تعداد مصاحبه‌های مجموعه «به روایت ما»</td>
+<td>چهار مصاحبه</td>
+<td class="num">۴</td>
+<td>دوره رویداد</td>
+</tr>
+<tr>
+<td>m34</td>
+<td>ظرفیت اولیه رویداد</td>
+<td>۳۰ نفر</td>
+<td class="num">۳۰</td>
+<td>رویداد معرفی رشته فیزیک (مهر ۱۴۰۵)</td>
+</tr>
+<tr>
+<td>m35</td>
+<td>ظرفیت حضوری نهایی رویداد</td>
+<td>۶۰ نفر</td>
+<td class="num">۶۰</td>
+<td>رویداد معرفی رشته فیزیک (مهر ۱۴۰۵)</td>
+</tr>
+<tr>
+<td>m36</td>
+<td>طول بازه گزارش عملکرد</td>
+<td>۳۰ روز (بازه ۳۰روزه)</td>
+<td class="num">۳۰</td>
+<td>۱۲ سپتامبر تا ۱۱ اکتبر</td>
+</tr>
+<tr>
+<td>m37</td>
+<td>فاصله شروع فعالیت رسانه‌ای تا رویداد</td>
+<td>حدود دو هفته پیش از رویداد</td>
+<td class="num">۲</td>
+<td>پیش از رویداد معرفی رشته فیزیک</td>
+</tr>
+<tr>
+<td>m38</td>
+<td>پنجره فیلم‌برداری و تولید فشرده محتوا</td>
+<td>حدود یک هفته پیش از رویداد ... در یک هفته فشرده</td>
+<td class="num">۱</td>
+<td>پیش از رویداد معرفی رشته فیزیک</td>
+</tr>
+</tbody>
+</table>
+<p>ملاحظه‌های خود سند (ادعاها، به نقل عین عبارت):</p>
+<ul>
+<li>رشد دنبال‌کنندگان و توزیع محتوا نشان داد محتوای علمی-دانشگاهی با روایت انسانی هم با هویت دانشکده سازگار است و هم جذاب (para-25).</li>
+<li>۸۹٫۸٪ بازدیدها از غیردنبال‌کنندگان بوده؛ درصدها سهم بازدید هستند نه افراد یکتا (para-17).</li>
+<li>بدون داده‌های ثبت‌نام نمی‌توان سهم مستقیم هر ویدیو در تصمیم مخاطبان را محاسبه کرد (para-27, para-45).</li>
+<li>در صفحات دانشگاه‌های دیگر محتواهایی با ساختار مشابه دیده شد؛ الگوبرداری قطعی اثبات‌شدنی نیست (para-33).</li>
+<li>نظرسنجی ساختاریافته رضایت در دست نیست، بنابراین درصد رضایت قابل گزارش نیست (para-35).</li>
+<li>دعوت از دانشجویان زن برای مصاحبه انجام شد اما موافقت نشد؛ مصاحبه‌ای با حضور آنان منتشر نشد (para-41).</li>
+<li>پیشنهادهای تیم: آغاز زودتر پیش‌تولید، ثبت منظم آمار مستقل هر محتوا، کنترل تجهیزات صوتی، نگهداری فایل پشتیبان (para-47).</li>
+</ul>
+<p>در هیچ جای گزارش رسانه‌ای (docx) مبلغی به تومان نیامده است — تنها حساب هزینهٔ آن برآورد ۳۴–۳۸ ساعت تولید (m29) است؛ بنابراین جنبهٔ مالی همین کارزار به‌طور کامل بر مستندات دفتر کل در §۴ استوار است.</p>
+<p><img alt="نقشهٔ زیست‌بوم" src="charts_fa/ecosystem_map.png" /></p>
+<h2>۶. الگوهای ماهانه × ساعتی (سازوکارهای دانشگاه)</h2>
+<p><code>mechanics</code> شامل ۴۵ الگوی تکرارشونده است (۸ نوبت ثابت رویداد، ۲۸ اوج روز هفته، ۹ ساعت مرتبط با دفتر کل؛ فقط n ≥ ۵).</p>
+<h3>نوبت‌های ثابت رویدادها</h3>
+<table>
+<thead>
+<tr>
+<th>رشته (موضوع)</th>
+<th>زمان شروع غالب (مُد)</th>
+<th>اشاره‌های HH:MM</th>
+<th>زمان‌های متمایز</th>
+<th>زمان‌های از نوع مهلت</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>apply-workshop</code></td>
+<td class="num">۱۵:۰۰</td>
+<td class="num">۶۴</td>
+<td class="num">۱۶</td>
+<td class="num">۱ (۰۰:۰۰)</td>
+</tr>
+<tr>
+<td><code>dept-weekly-seminars</code></td>
+<td class="num">۱۳:۳۰</td>
+<td class="num">۶۲</td>
+<td class="num">۳۸</td>
+<td class="num">۱ (۰۰:۰۰)</td>
+</tr>
+<tr>
+<td><code>calculus-study-circle</code></td>
+<td class="num">۲۰:۰۰</td>
+<td class="num">۳۳</td>
+<td class="num">۹</td>
+<td class="num">۰</td>
+</tr>
+<tr>
+<td><code>astro-trips-observing</code></td>
+<td class="num">۱۴:۰۰</td>
+<td class="num">۲۳</td>
+<td class="num">۱۲</td>
+<td class="num">۱ (۲۳:۵۹)</td>
+</tr>
+<tr>
+<td><code>media-social-content</code></td>
+<td class="num">۱۸:۰۰</td>
+<td class="num">۲۰</td>
+<td class="num">۸</td>
+<td class="num">۰</td>
+</tr>
+<tr>
+<td><code>cosmology-weekly-seminar</code></td>
+<td class="num">۱۷:۰۰</td>
+<td class="num">۱۸</td>
+<td class="num">۹</td>
+<td class="num">۰</td>
+</tr>
+<tr>
+<td><code>association-website</code></td>
+<td class="num">۱۳:۰۰</td>
+<td class="num">۱۲</td>
+<td class="num">۶</td>
+<td class="num">۱ (۲۳:۵۹)</td>
+</tr>
+<tr>
+<td><code>physics-math-circle</code></td>
+<td class="num">۲۰:۱۵</td>
+<td class="num">۱۰</td>
+<td class="num">۷</td>
+<td class="num">۰</td>
+</tr>
+</tbody>
+</table>
+<p><em>ملاحظات (برگرفته از قواعد استخراج):</em> شمار اشاره‌ها <code>n</code> شامل <strong>زمان‌های از نوع مهلت</strong> است (۰۰:۰۰ / ۲۳:۵۹ در فهرست‌های <code>times</code> چند رشته (موضوع) دیده می‌شوند)، از این رو مُد بسیار قابل‌اعتمادتر از n آن است؛ و اشاره‌های محاوره‌ای فقط‌ساعتی مانند «ساعت ۳» (به سبک قدیم ۱۵:۰۰) <strong>هرگز گردآوری نمی‌شوند</strong> — تنها رشته‌های لفظی HH:MM گردآوری می‌شوند، بنابراین رویدادهای عصرگاهی که به‌صورت محاوره‌ای اعلان شده‌اند در اینجا کمتر از واقع بازنمایی شده‌اند.</p>
+<h3>اوج‌های روز هفته (به تفکیک گفت‌وگو)</h3>
+<table>
+<thead>
+<tr>
+<th>گفت‌وگو</th>
+<th>روز هفته</th>
+<th>ساعت اوج</th>
+<th>پیام‌ها</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>گروه حسابداری</td>
+<td>شنبه</td>
+<td class="num">۱۸:۰۰</td>
+<td class="num">۲۳</td>
+</tr>
+<tr>
+<td>گروه حسابداری</td>
+<td>یک‌شنبه</td>
+<td class="num">۲۳:۰۰</td>
+<td class="num">۵</td>
+</tr>
+<tr>
+<td>گروه حسابداری</td>
+<td>دوشنبه</td>
+<td class="num">۱۵:۰۰</td>
+<td class="num">۵</td>
+</tr>
+<tr>
+<td>گروه حسابداری</td>
+<td>سه‌شنبه</td>
+<td class="num">۲۲:۰۰</td>
+<td class="num">۱۷</td>
+</tr>
+<tr>
+<td>گروه حسابداری</td>
+<td>پنج‌شنبه</td>
+<td class="num">۲۰:۰۰</td>
+<td class="num">۲۰</td>
+</tr>
+<tr>
+<td>گروه حسابداری</td>
+<td>جمعه</td>
+<td class="num">۰۴:۰۰</td>
+<td class="num">۷</td>
+</tr>
+<tr>
+<td>کانال</td>
+<td>شنبه</td>
+<td class="num">۱۳:۰۰</td>
+<td class="num">۱۰</td>
+</tr>
+<tr>
+<td>کانال</td>
+<td>یک‌شنبه</td>
+<td class="num">۱۵:۰۰</td>
+<td class="num">۱۲</td>
+</tr>
+<tr>
+<td>کانال</td>
+<td>دوشنبه</td>
+<td class="num">۱۷:۰۰</td>
+<td class="num">۸</td>
+</tr>
+<tr>
+<td>کانال</td>
+<td>سه‌شنبه</td>
+<td class="num">۱۰:۰۰</td>
+<td class="num">۷</td>
+</tr>
+<tr>
+<td>کانال</td>
+<td>چهارشنبه</td>
+<td class="num">۱۹:۰۰</td>
+<td class="num">۶</td>
+</tr>
+<tr>
+<td>کانال</td>
+<td>پنج‌شنبه</td>
+<td class="num">۱۶:۰۰</td>
+<td class="num">۱۱</td>
+</tr>
+<tr>
+<td>کانال</td>
+<td>جمعه</td>
+<td class="num">۲۱:۰۰</td>
+<td class="num">۹</td>
+</tr>
+<tr>
+<td>گروه خصوصی</td>
+<td>شنبه</td>
+<td class="num">۲۳:۰۰</td>
+<td class="num">۱۳۴</td>
+</tr>
+<tr>
+<td>گروه خصوصی</td>
+<td>یک‌شنبه</td>
+<td class="num">۱۹:۰۰</td>
+<td class="num">۱۴۲</td>
+</tr>
+<tr>
+<td>گروه خصوصی</td>
+<td>دوشنبه</td>
+<td class="num">۱۲:۰۰</td>
+<td class="num">۱۲۴</td>
+</tr>
+<tr>
+<td>گروه خصوصی</td>
+<td>سه‌شنبه</td>
+<td class="num">۲۳:۰۰</td>
+<td class="num">۱۴۶</td>
+</tr>
+<tr>
+<td>گروه خصوصی</td>
+<td>چهارشنبه</td>
+<td class="num">۱۱:۰۰</td>
+<td class="num">۱۱۶</td>
+</tr>
+<tr>
+<td>گروه خصوصی</td>
+<td>پنج‌شنبه</td>
+<td class="num">۱۳:۰۰</td>
+<td class="num">۱۲۵</td>
+</tr>
+<tr>
+<td>گروه خصوصی</td>
+<td>جمعه</td>
+<td class="num">۲۳:۰۰</td>
+<td class="num">۱۳۶</td>
+</tr>
+<tr>
+<td>گروه عمومی</td>
+<td>شنبه</td>
+<td class="num">۲۳:۰۰</td>
+<td class="num">۷۵</td>
+</tr>
+<tr>
+<td>گروه عمومی</td>
+<td>یک‌شنبه</td>
+<td class="num">۱۳:۰۰</td>
+<td class="num">۲۳۰</td>
+</tr>
+<tr>
+<td>گروه عمومی</td>
+<td>دوشنبه</td>
+<td class="num">۰۰:۰۰</td>
+<td class="num">۳۳۸</td>
+</tr>
+<tr>
+<td>گروه عمومی</td>
+<td>سه‌شنبه</td>
+<td class="num">۰۰:۰۰</td>
+<td class="num">۱۴۲</td>
+</tr>
+<tr>
+<td>گروه عمومی</td>
+<td>چهارشنبه</td>
+<td class="num">۰۰:۰۰</td>
+<td class="num">۲۱۵</td>
+</tr>
+<tr>
+<td>گروه عمومی</td>
+<td>پنج‌شنبه</td>
+<td class="num">۰۱:۰۰</td>
+<td class="num">۱۶۵</td>
+</tr>
+<tr>
+<td>گروه عمومی</td>
+<td>جمعه</td>
+<td class="num">۲۳:۰۰</td>
+<td class="num">۱۳۵</td>
+</tr>
+<tr>
+<td>کانال مدرسهٔ تابستانه</td>
+<td>سه‌شنبه</td>
+<td class="num">۲۲:۰۰</td>
+<td class="num">۵</td>
+</tr>
+</tbody>
+</table>
+<h3>ساعت‌های حسابداری مرتبط با دفتر کل</h3>
+<table>
+<thead>
+<tr>
+<th>ساعت</th>
+<th>پیام‌های گروه حسابداری مرتبط با TX</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="num">۰۴:۰۰</td>
+<td class="num">۵</td>
+</tr>
+<tr>
+<td class="num">۱۱:۰۰</td>
+<td class="num">۷</td>
+</tr>
+<tr>
+<td class="num">۱۳:۰۰</td>
+<td class="num">۸</td>
+</tr>
+<tr>
+<td class="num">۱۴:۰۰</td>
+<td class="num">۵</td>
+</tr>
+<tr>
+<td class="num">۱۵:۰۰</td>
+<td class="num">۵</td>
+</tr>
+<tr>
+<td class="num">۱۸:۰۰</td>
+<td class="num">۲۴</td>
+</tr>
+<tr>
+<td class="num">۲۰:۰۰</td>
+<td class="num">۸</td>
+</tr>
+<tr>
+<td class="num">۲۱:۰۰</td>
+<td class="num">۵</td>
+</tr>
+<tr>
+<td class="num">۲۲:۰۰</td>
+<td class="num">۹</td>
+</tr>
+</tbody>
+</table>
+<p>مورد ساعت ۰۴:۰۰ (n = ۵) درست روی آستانهٔ n ≥ ۵ قرار دارد و بازتاب پست‌های دفترداری شبانه است — امری مشاهده‌ای و نه سازوکاری زمان‌بندی‌شده.</p>
+<h3>هماهنگی شبانه</h3>
+<p>قوی‌ترین نشانهٔ ساعتی در پیکره، هماهنگی در دیروقت شب است: پرترافیک‌ترین ساعت گروه خصوصی <strong>۲۳:۰۰ با ۶۸۲ پیام</strong> و پرترافیک‌ترین ساعت گروه عمومی <strong>۰۰:۰۰ با ۱٬۱۳۰ پیام</strong> است (ساعت ۲۳:۰۰ آن با ۵۹۸ پیام در رتبهٔ بعد قرار دارد). میان ۲۲:۰۰ تا ۰۱:۰۰، گروه خصوصی ۳۰٫۴٪ و گروه عمومی ۴۳٫۱٪ از حجم پیام‌های خود را ارسال می‌کنند — هماهنگی‌های دانشجویی پس از نیمه‌شب انجام می‌شود، نه در بازهٔ کاری ۱۳:۰۰–۱۹:۰۰ که نوبت‌های ثابت در آن قرار دارند.</p>
+<h3>سازوکارهای کانال مدرسهٔ تابستانه</h3>
+<p>کانال اختصاصی مدرسهٔ تابستانه (۳۷ پست درون بازه) جلسات زندهٔ خود را در ساعت ثابت کلاس — <strong>۱۸:۰۰–۱۹:۱۰</strong> («۱۸:۰۰ الی ۱۹:۱۰» در تقویم دورهٔ ۱۴۰۵؛ ساعت رویداد ۱۸:۰۰ در ۸ پست آمده است، «همه‌روزه») — برگزار می‌کند و اطلاعیه‌هایش را در <strong>نوبت شنبه</strong> منتشر می‌کند: ۱۱ پست از ۳۷ پست در اوج نوبت روز هفتهٔ شنبه قرار دارند.</p>
+<p><img alt="نقشهٔ حرارتی روز هفته × ساعت" src="charts_fa/weekday_hour_heat.png" />
+<img alt="هیستوگرام ساعت" src="charts_fa/hour_histogram.png" /></p>
+<h2>۷. روش طبقه‌بندی و محدودیت‌ها</h2>
+<p>خط لولهٔ سه‌لایه بر روی ۱۶٬۶۷۷ رکورد تجزیه‌شده؛ مخرج تحلیل، <strong>۱۲٬۰۶۶ پیام درون بازه و غیرخدماتی</strong> است:</p>
+<table>
+<thead>
+<tr>
+<th>لایه</th>
+<th>روش</th>
+<th>پیام‌ها (درون بازه)</th>
+<th>سهم</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="num">۱</td>
+<td>قواعد ساختاری (نظرسنجی/فرم‌ها/فقط رسانه)</td>
+<td class="num">۸۳۶</td>
+<td class="num">۶٫۹٪</td>
+</tr>
+<tr>
+<td class="num">۲</td>
+<td>واژگان (چندبرچسبی، ۳۱۹ مدخل)</td>
+<td class="num">۲٬۵۵۰</td>
+<td class="num">۲۱٫۱٪</td>
+</tr>
+<tr>
+<td class="num">۳</td>
+<td>باقی‌ماندهٔ LLM (method=llm)</td>
+<td class="num">۶٬۱۵۸</td>
+<td class="num">۵۱٫۰٪</td>
+</tr>
+<tr>
+<td></td>
+<td><strong>جمع طبقه‌بندی‌شده</strong></td>
+<td class="num"><strong>۹٬۵۴۴</strong></td>
+<td class="num"><strong>۷۹٫۱٪</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong>پوشش لایهٔ ۲ در ۲۸٫۰۶٪ خام / ۱۵٫۹۵٪ موضوعی به سقف رسید</strong> — ۳٬۳۸۶ از ۱۲٬۰۶۶ پیام دست‌کم یک برچسب واژگانی/قاعده‌ای دریافت کردند، اما تنها <strong>۱٬۹۲۴ پیام دست‌کم یک دستهٔ موضوعی دارند</strong> (هر چیزی فراتر از جفت گفت‌وگوی روزمره، یعنی پیام‌های حاشیه‌ای (meta_noise)/اجتماعی و گفت‌وگوی اعضا (community_social))؛ <strong>۱٬۴۶۲ برچسب‌گذاری باقی‌ماندهٔ لایهٔ ۲ صرفاً گفت‌وگوی روزمرهٔ طبقه‌بندی‌شده‌اند</strong>. سقف ساختاری در خود داده‌ها پیداست: ۵۹۴ پیام درون بازه نه متن دارند و نه رسانه‌ای برای طبقه‌بندی، ۳۱۱ پیام فقط پیام صوتی و بدون متن‌اند، و ۲٬۶۶۱ پیام از پیام‌های لایهٔ ۳ حداکثر ۱۵ نویسه دارند — بنابراین باقی‌مانده به جای تحمیل به موضوع‌ها، به لایهٔ ۳ ارجاع شد.</p>
+<p><strong>وضعیت نهایی: ۷۹٫۱۰٪ طبقه‌بندی‌شده.</strong> لایهٔ LLM به <strong>۶٬۱۵۸ پیام با <code>method=llm</code></strong> برچسب زد (با آستانهٔ اطمینان ۰٫۷)؛ پس از گذرهای دقت Task-14 (تأیید واژه‌های پرخطر، هرس واژگان، تطابق با مرز واژه برای کلیدواژه‌های کوتاه، تنزل برچسب‌های موضوعی کم‌اطمینان در پیام‌های بسیار کوتاه، کنترل چندبرچسبی در پیام‌های بازارسال‌شده/پخش کانالی، ارجاع پیام‌های صرفاً تأییدی به پیام‌های حاشیه‌ای (meta_noise)، تطبیق با مرز پسوندهای فعل، و مسدودکننده‌های دسته برای نشانگرهای اقتصاد کلان و نشریات بیرون از انجمن)، <strong>۲٬۵۲۲ پیام درون بازه</strong> به جای برچسب حدسی، بدون برچسب مانده‌اند و ۴٬۹۶۲ رکورد در کل پیکره بدون برچسب باقی مانده‌اند. <strong>۴۰ پیام</strong> دارای <code>is_decision</code> هستند (همگی از لایهٔ LLM).</p>
+<p><strong>event_ref انتساب است، نه شاهد.</strong> LLM برچسب‌های صریح <code>event_ref</code> را به <strong>۱٬۱۸۶ پیام</strong> پیوست کرد و مرحلهٔ همبستگی <strong>۲٬۷۳۴ عضویت انتساب جایگزین کلیدواژه‌ای</strong> (تطابق زیررشته‌ای با ۶ کلیدواژهٔ نخست) افزود تا در مجموع ۳٬۹۲۰ پیام دارای انتساب در ۴۶ رشتهٔ رویداد پیام‌دار به دست آید. از این رو در رشته‌هایی که عمدتاً بر انتساب جایگزین متکی‌اند — برای نمونه <code>final-receipt-handover-1405</code> (۱ مورد صریح از ۴۱۳) — مقادیر <code>n_messages</code> و <code>announcement_lag_days</code> هر رشته تقریبی‌اند و بخش §۴ آن‌ها را چنین علامت زده است.</p>
+<p><strong>محدودیت‌های دیگر.</strong> دستهٔ پیام‌های حاشیه‌ای (meta_noise) بزرگ‌ترین دسته است (۲٬۵۵۶ از ۱۳٬۲۸۱ برچسب‌گذاری در کل پیکره) — گروه‌ها از نظر حجم، عمدتاً گفت‌وگوی روزمره‌اند. برچسب‌ها چندگانه‌اند (حداکثر ۴): ۷۷۷ از ۱۲٬۰۶۶ پیام درون بازه بیش از یک دسته دارند، بنابراین جمع دسته‌ها از شمار پیام‌ها بیشتر است (۱۳٬۲۸۱ برچسب‌گذاری در کل پیکره برای ۱۶٬۶۷۷ رکورد). پیام‌های خدماتی (پیوستن اعضا، تغییر عنوان، بسته‌شدن نظرسنجی) از همهٔ روایت‌ها و هیستوگرام‌های این بخش کنار گذاشته شده‌اند. برچسب‌های زمانی به وقت محلی خروجی (UTC+۰۳:۳۰) هستند — الگوهای ساعتی به وقت محلی تهران‌اند.</p></body></html>
