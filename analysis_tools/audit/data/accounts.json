@@ -1,0 +1,49 @@
+{
+  "accounts": {
+    "SHAHR-8966": {
+      "holder": "محمد حسن شیری (Mohammad-Hassan Shiri)",
+      "type": "personal",
+      "evidence": "dossier-A TX0018 photos/photo_12@01-10-2025_18-02-44.jpg: Bank Maskan transfer TO card last-4 8966 printing 'صاحب کارت مقصد: محمد حسن شیری'; TX0018 message49/message50: Amin asks for 'شماره این کارتی که پولهای انجمن توش هست' and Hassan answers with the 8966 card; dossier-A TX0002-TX0007 receipts show Bank Shahr card last-4 8966 as the source card."
+    },
+    "SHAHR-2167": {
+      "holder": "not evidenced",
+      "type": "not evidenced",
+      "evidence": "dossier-C TX0075-TX0079 recipts/photo_3|2|5|8|7_2026-10-10_14-07-27.jpg: Bank Shahr withdrawal screens, purchases with card last-4 2167 debited to Shahr deposit last-4 8774 (dossier-C TX0075 calls it 'the association deposit'; dossier-A TX0004/TX0011 show the same deposit 8774 carries Hassan Shiri's card 8966) — but no document names the holder of card 2167 itself."
+    },
+    "SEPAH-2925": {
+      "holder": "not evidenced",
+      "type": "not evidenced",
+      "evidence": "dossier-B1 TX0047/TX0049 message115: Bank Sepah SMS lines for account last-4 2925 posted by 'Deleted Account (treasurer)'; dossier-B1.md findings: the Sepah account 2925 'is the treasurer's SMS account, and its holder is not shown. Custody is commingled.'"
+    },
+    "BLU-CUSTODIAN": {
+      "holder": "محمدحسن شیری (Mohammad-Hassan Shiri)",
+      "type": "personal",
+      "evidence": "dossier-C TX0080/TX0083-TX0088/TX0090/TX0092 recipts/photo_*_2026-10-10_11-09-04.jpg: Blu Bank transfer receipts printing payer (انتقال دهنده) محمدحسن شیری, source Blu deposit ending 1764 (TX0090/TX0092: Blu card last-4 6947)."
+    },
+    "AMIN-EVENT": {
+      "holder": "محمدامین عزیزی (Mohammad-Amin Azizi)",
+      "type": "event custodian",
+      "evidence": "dossier-A TX0014 message49 (Amin: 'من باقی مونده پول رویداد رو بریزم تو اون' — he holds the intro-event money) + workbook Anjoman accounting.xlsx!شهریور!C2 'محمدامین عزیزی' on 'ورودی معرفی رشته' + TX0018 photos/photo_12: 17,650,000 net event income sent from Bank Maskan card last-4 7262, caption 'انتقال درآمد خالص از همایش معرفی رشته به حساب اصلی'; TX0001 evidence: registration confirmations name card 7262 'به نام محمد امی[ن]'."
+    },
+    "VOLUNTEER": {
+      "holder": "سیدبردیا احمدیمروست (card 7195); حسین (Hossein); پرنیان (Parnian, card 5401)",
+      "type": "volunteer",
+      "evidence": "dossier-B2 TX0052-TX0055: Bank Melli receipts from card last-4 7195, forwarded from Bardia; TX0050 photo_45 names the 7195 recipient 'سیدبردیا احمدیمروست'; TX0056-TX0058: Canbo receipt + messages forwarded from hossein; TX0064-TX0074: Parnian's CamScanner PDF (POS slips card last-4 5401) via message124."
+    },
+    "CASH": {
+      "holder": "not evidenced",
+      "type": "cash",
+      "evidence": "dossier-B1 TX0036 message111 '300000 تومن هم پول نقد شاباش جشن' + workbook مجموع!F29 'شاباش نقدی برای جشن ورودی'; TX0048 message116 '700,000 وجه نقد' + مجموع!B43 'دونیشن وجه نقد برای جشن یلدا' — physical cash; no document names a custodian."
+    },
+    "UNKNOWN": {
+      "holder": "not evidenced",
+      "type": "not evidenced",
+      "evidence": "dossier-A TX0010 (duplicate ad entry, 'no separate payment evidence') and TX0013 ('No amount, no receipt, no date, no payment method'); dossier-B1 TX0060 photo_38 order screen ('no payment method shown'); dossier-C TX0082 invoice 61150 (buyer named, paying account not shown), TX0089 printed invoice (payment rests on the user's word), TX0093/TX0094 Evand report ('No document shows fees, refunds, the payout date or the receiving account'), TX0095 workbook-only row — no document identifies a paying account."
+    },
+    "Unknown funding source": {
+      "holder": "not evidenced",
+      "type": "not evidenced",
+      "evidence": "dossier-C TX0096 reports/2026-10-10/website_user_confirmation_2026-10-11.json: Alnush domain/server purchase recorded with funding_source null and domain_receipt_available false — no document names the funding account."
+    }
+  }
+}
