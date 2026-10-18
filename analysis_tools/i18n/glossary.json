@@ -1,0 +1,90 @@
+{
+  "category": {
+    "education_courses": "آموزش و دوره‌ها",
+    "events": "رویدادها",
+    "publications_shabahng": "نشریات (شباهنگ)",
+    "media_outreach": "رسانه و اطلاع‌رسانی",
+    "governance_decisions": "اداره و تصمیم‌گیری",
+    "finance_operations": "امور مالی",
+    "website_tech": "وب‌سایت و فناوری",
+    "community_social": "اجتماعی و گفت‌وگوی اعضا",
+    "coordination_logistics": "هماهنگی و پشتیبانی",
+    "meta_noise": "پیام‌های حاشیه‌ای",
+    "uncategorized": "دسته‌بندی‌نشده"
+  },
+  "chat": {
+    "private_group": "گروه خصوصی",
+    "public_group": "گروه عمومی",
+    "channel": "کانال",
+    "accounting_group": "گروه حسابداری",
+    "summerschool_channel": "کانال مدرسهٔ تابستانه",
+    "docx": "گزارش رسانه‌ای (docx)"
+  },
+  "ledger_category": {
+    "Advertising": "تبلیغات", "Bank fees": "کارمزدهای بانکی",
+    "Course fees": "شهریه دوره‌ها", "Donations": "کمک‌های مالی",
+    "Equipment": "تجهیزات", "Events": "رویدادها", "Hospitality": "پذیرایی",
+    "Opening funds": "وجوه ابتدای دوره", "Printing": "چاپ", "Supplies": "ملزومات",
+    "Teaching": "تدریس", "Transfers": "انتقال‌ها", "Unclassified": "طبقه‌بندی‌نشده",
+    "Website domain": "دامنهٔ وب‌سایت"
+  },
+  "project": {
+    "Association operations": "عملیات انجمن",
+    "Association website": "وب‌سایت انجمن",
+    "Booths 1404": "غرفه‌های ۱۴۰۴",
+    "Freshman Party 1404": "جشن ورودی‌های ۱۴۰۴",
+    "Intro Event 1404": "برنامهٔ معارفه ۱۴۰۴",
+    "Intro Event 1405": "برنامهٔ معارفه ۱۴۰۵",
+    "Professors assembly Mehr": "مجمع اساتید مهر",
+    "Summer School 1404": "مدرسه تابستانه ۱۴۰۴",
+    "Summer School 1405": "مدرسه تابستانه ۱۴۰۵",
+    "Tea & Physics society": "انجمن چای و فیزیک",
+    "Unassigned": "تخصیص‌نیافته",
+    "Unknown (likely 1405 summer school)": "نامشخص (احتمالاً مدرسه تابستانی ۱۴۰۵)",
+    "Yalda 1404": "یلدا ۱۴۰۴"
+  },
+  "status": {
+    "Supported": "تأییدشده", "Review": "نیازمند بررسی", "Duplicate": "تکراری",
+    "Invoice only": "صرفاً صورتحساب", "Summary only": "صرفاً گزارش تجمیعی"
+  },
+  "direction": {
+    "Receipt": "دریافت", "Payment": "پرداخت", "Unknown": "نامشخص",
+    "Internal transfer": "انتقال داخلی"
+  },
+  "weekday": {
+    "Saturday": "شنبه", "Sunday": "یک‌شنبه", "Monday": "دوشنبه",
+    "Tuesday": "سه‌شنبه", "Wednesday": "چهارشنبه", "Thursday": "پنج‌شنبه",
+    "Friday": "جمعه"
+  },
+  "phase": {
+    "Summer 1404": "تابستان ۱۴۰۴",
+    "Academic 1404-05": "سال تحصیلی ۱۴۰۴-۰۵",
+    "Summer 1405": "تابستان ۱۴۰۵",
+    "Fall 1405": "پاییز ۱۴۰۵"
+  },
+  "validation": {"evidenced": "مستند", "unverified": "تأییدنشده"},
+  "jalali_month": {
+    "1": "فروردین", "2": "اردیبهشت", "3": "خرداد", "4": "تیر",
+    "5": "مرداد", "6": "شهریور", "7": "مهر", "8": "آبان",
+    "9": "آذر", "10": "دی", "11": "بهمن", "12": "اسفند"
+  },
+  "media": {"photo": "عکس", "voice": "پیام صوتی", "poll": "نظرسنجی"},
+  "terms": {
+    "thread": "رشته (موضوع)", "event thread": "رشتهٔ رویداد",
+    "in-window": "درون بازه", "non-service": "غیرخدماتی",
+    "labeling": "برچسب‌گذاری", "affiliation": "انتساب",
+    "keyword-fallback": "انتساب جایگزین کلیدواژه‌ای",
+    "explicit affiliation": "انتساب صریح", "announcement lag": "تأخیر اعلان",
+    "ledger": "دفتر کل", "reconciled ledger": "دفتر کل تطبیق‌شده",
+    "supported": "تأییدشده", "review": "نیازمند بررسی",
+    "receipts": "دریافت‌ها", "payments": "پرداخت‌ها", "net": "خالص",
+    "toman": "تومان", "undated": "بدون تاریخ",
+    "headline totals": "جمع‌های اصلی", "all rows": "همهٔ ردیف‌ها",
+    "seed": "نهاد پایه", "forward weight": "وزن بازارسال",
+    "mention weight": "وزن اشاره", "relay": "بازپخش‌کننده",
+    "fixed slot": "نوبت ثابت", "weekday peak": "اوج روز هفته",
+    "mechanics": "سازوکارها", "coverage": "پوشش", "precision": "دقت",
+    "caveat": "ملاحظه", "case study": "مطالعهٔ موردی",
+    "export-local": "به وقت محلی خروجی"
+  }
+}

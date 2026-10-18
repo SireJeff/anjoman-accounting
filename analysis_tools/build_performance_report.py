@@ -8,16 +8,22 @@ that zero "(auto:" placeholders survived, that all six figures are embedded,
 and that the rendered PDF carries more than six pages plus known spot strings
 (the docx view total 726,527 and the 13:30 dept-seminar slot).
 """
+import argparse
 import json
 from collections import Counter, defaultdict
 from datetime import date, datetime
 
 import jdatetime
 
+from . import i18n
 from .common import ROOT, read_json
-from .report_common import md_to_pdf
+from .i18n import t, term
+from .report_common import ensure_disk, md_to_pdf, md_to_pdf_rtl
 
 OUT = ROOT / "reports/2026-10-14/performance/Anjoman_Performance_Activity_Report.md"
+OUT_FA = OUT.with_name("Anjoman_Performance_Activity_Report_FA.md")
+CHARTS = ["activity_by_month", "category_breakdown", "weekday_hour_heat",
+          "hour_histogram", "event_timeline", "ecosystem_map"]
 
 # ZWNJ-stripped Persian weekday -> English (same convention as the financial
 # report; timeline weekday keys carry U+200C in یک‌شنبه etc.)
@@ -50,8 +56,8 @@ def pct2(part, whole):
     return f"{100.0 * part / whole:.2f}%" if whole else "—"
 
 
-def plural(n, one="chat", many="chats"):
-    return f"{n} {one if n == 1 else many}"
+def plural(n, lang):
+    return t("common.chat_one" if n == 1 else "common.chat_many", lang, n=f"{n}")
 
 
 def mkey(m):
@@ -65,17 +71,32 @@ def jdate(iso):
     return f"{jd.year}/{jd.month:02d}/{jd.day:02d}"
 
 
-def clean(text, n=70):
+def clean(text, lang, n=70):
     """Table-safe one-line snippet."""
-    t = " ".join((text or "").split()).replace("|", "/")
-    return (t[:n] + "…") if len(t) > n else (t or "[no text]")
+    s = " ".join((text or "").split()).replace("|", "/")
+    return (s[:n] + "…") if len(s) > n else (s or t("common.no_text", lang))
 
 
-def snippet(rec):
+def snippet(rec, lang):
     if rec.get("text_plain"):
-        return clean(rec["text_plain"])
+        return clean(rec["text_plain"], lang)
     mk = rec.get("media_kinds") or []
-    return f"[media: {', '.join(mk)}]" if mk else "[no text]"
+    return (t("common.media", lang,
+              kinds=i18n.punct("comma", lang).join(term("media", k, lang) for k in mk))
+            if mk else t("common.no_text", lang))
+
+
+def img(alt_key, name, lang):
+    return f"![{t(alt_key, lang)}]({'charts' if lang == 'en' else 'charts_fa'}/{name}.png)"
+
+
+def collect_data_strings():
+    tl = read_json(ROOT / "analysis/timeline.json")
+    return {f"data.thread.{x['event_ref']}": x["title"] for x in tl["threads"]}
+
+
+def thread_title(th, lang):
+    return th["title"] if lang == "en" else t(f"data.thread.{th['event_ref']}", lang)
 
 
 def _table(header, rows):
@@ -90,7 +111,7 @@ def in_phase(month, lo, hi):
 
 
 # --------------------------------------------------------------- section 1
-def sec1(tl, stats, w_rows):
+def sec1(tl, stats, w_rows, lang):
     hh = tl["hour_histogram"]
     by_chat = sorted(((c, sum(v.values())) for c, v in hh.items()),
                      key=lambda kv: -kv[1])
@@ -103,44 +124,49 @@ def sec1(tl, stats, w_rows):
     rec = sum(v["Receipts"] for v in cash.values())
     pay = sum(v["Payments"] for v in cash.values())
     und = cash.get("unknown", {}).get("Payments", 0.0)
-    threads = [t for t in tl["threads"] if not t.get("money_only")]
-    money_only = [t for t in tl["threads"] if t.get("money_only")]
-    top5 = sorted(threads, key=lambda t: -t["n_messages"])[:5]
+    threads = [th for th in tl["threads"] if not th.get("money_only")]
+    money_only = [th for th in tl["threads"] if th.get("money_only")]
+    top5 = sorted(threads, key=lambda th: -th["n_messages"])[:5]
 
-    L = ["## 1. Executive summary", "",
-         f"Across the analysis window the five Telegram exports carry "
-         f"**{sum(n for _, n in by_chat):,} in-window, non-service messages** "
-         f"(of {stats['total']:,} parsed records; classification coverage "
-         f"{stats['in_window']['coverage_pct']:.0f}% in-window).", "",
-         "Messages by chat (in-window, non-service):", ""]
-    L += _table(["Chat", "Messages", "Share"],
-                [[c, f"{n:,}", pct(n, sum(x for _, x in by_chat))]
+    top3 = cats.most_common(3)
+    L = ["## " + t("perf.s1.h_title", lang), "",
+         t("perf.s1.intro", lang, n=f"{sum(n for _, n in by_chat):,}",
+           total=f"{stats['total']:,}",
+           cov=f"{stats['in_window']['coverage_pct']:.0f}"), "",
+         t("perf.s1.by_chat_intro", lang), ""]
+    L += _table([t(k, lang) for k in ("perf.s1.tbl_chats.h_chat",
+                                       "perf.s1.tbl_chats.h_messages",
+                                       "perf.s1.tbl_chats.h_share")],
+                [[term("chat", c, lang), f"{n:,}", pct(n, sum(x for _, x in by_chat))]
                  for c, n in by_chat])
     L += ["",
-          f"The three largest activity categories by label count are "
-          f"**{cats.most_common(3)[0][0]}** ({fmt(cats.most_common(3)[0][1])}), "
-          f"**{cats.most_common(3)[1][0]}** ({fmt(cats.most_common(3)[1][1])}) and "
-          f"**{cats.most_common(3)[2][0]}** ({fmt(cats.most_common(3)[2][1])}) "
-          f"of {fmt(cat_tot)} total labelings (multi-label; see §7). "
-          f"The correlation stage tracks **{len(tl['threads'])} threads** "
-          f"({len(threads)} message-bearing + {len(money_only)} money-only), "
-          f"and the reconciled ledger behind them moves "
-          f"**{fmt(rec)} toman receipts against {fmt(pay)} toman payments** "
-          f"(net **+{fmt(rec - pay)}**, all 96 rows, including the "
-          f"{fmt(und)} toman undated bucket).", "",
-          "Five headline threads by affiliated message count:", ""]
-    L += _table(["Thread", "Title", "First → last seen", "Chats", "Msgs",
-                 "TX total (toman)"],
-                [[f"`{t['event_ref']}`", clean(t["title"], 44),
-                  f"{t['first_seen'][:10]} → {t['last_seen'][:10]}",
-                  str(len(t["chats"])), f"{t['n_messages']:,}",
-                  fmt(t["tx_total_toman"])] for t in top5])
+          t("perf.s1.summary", lang,
+            c1=term("category", top3[0][0], lang), c1n=fmt(top3[0][1]),
+            c2=term("category", top3[1][0], lang), c2n=fmt(top3[1][1]),
+            c3=term("category", top3[2][0], lang), c3n=fmt(top3[2][1]),
+            cat_tot=fmt(cat_tot), n_threads=f"{len(tl['threads'])}",
+            n_msg=f"{len(threads)}", n_money=f"{len(money_only)}",
+            rec=fmt(rec), pay=fmt(pay), net=fmt(rec - pay), und=fmt(und)), "",
+          t("perf.s1.top5_intro", lang), ""]
+    # fa: no-break spaces keep each "first ← last" range on one line in the PDF
+    gap = " " if lang == "en" else "\u00a0"
+    L += _table([t(k, lang) for k in ("perf.s1.tbl_top5.h_thread",
+                                       "perf.s1.tbl_top5.h_title",
+                                       "perf.s1.tbl_top5.h_seen",
+                                       "perf.s1.tbl_top5.h_chats",
+                                       "perf.s1.tbl_top5.h_msgs",
+                                       "perf.s1.tbl_top5.h_tx_total")],
+                [[f"`{th['event_ref']}`", clean(thread_title(th, lang), lang, 44),
+                  f"{i18n.dt(th['first_seen'], lang)}{gap}{i18n.punct('arrow', lang)}{gap}"
+                  f"{i18n.dt(th['last_seen'], lang)}",
+                  str(len(th["chats"])), f"{th['n_messages']:,}",
+                  fmt(th["tx_total_toman"])] for th in top5])
     L.append("")
     return L
 
 
 # --------------------------------------------------------------- section 2
-def sec2(tl, w_rows):
+def sec2(tl, w_rows, lang):
     ma = tl["monthly_activity"]
     months = sorted(ma.keys(), key=mkey)
     # distinct message volume per month (classified.jsonl is the only artifact
@@ -150,38 +176,34 @@ def sec2(tl, w_rows):
     for m, chats in ma.items():
         for c, cc in chats.items():
             label[m] += sum(cc.values())
-    thr = [t for t in tl["threads"] if not t.get("money_only")]
+    thr = [th for th in tl["threads"] if not th.get("money_only")]
 
-    def phase_of_thread(t):
-        return jdate(t["first_seen"])[:7]  # YYYY/MM jalali
+    def phase_of_thread(th):
+        return jdate(th["first_seen"])[:7]  # YYYY/MM jalali
 
-    def thread_phase(t):
+    def thread_phase(th):
         for name, lo, hi in PHASES:
-            if in_phase(phase_of_thread(t), lo, hi):
+            if in_phase(phase_of_thread(th), lo, hi):
                 return name
         return None  # 1404/03 window-opening stub
 
-    L = ["## 2. Phase narrative", "",
-         "Thread first-seen dates and monthly activity split the window into "
-         "four phases (Jalali months; the window opens 1404/03/07 = 2025-05-28). "
-         "First-seen dates derive from affiliated messages, so they inherit "
-         "the §7 affiliation caveat.", ""]
+    L = ["## " + t("perf.s2.h_title", lang), "",
+         t("perf.s2.intro", lang), ""]
     stub_months = [m for m in months if mkey(m) < (1404, 4)]
-    stub_thr = [t for t in thr if thread_phase(t) is None]
+    stub_thr = [th for th in thr if thread_phase(th) is None]
     if stub_months:
-        L += [f"*Window-opening stub:* the partial month(s) "
-              f"{', '.join(stub_months)} carry {fmt(sum(vol[m] for m in stub_months))} "
-              f"messages and the first-seen of {len(stub_thr)} threads "
-              f"(largest: `{max(stub_thr, key=lambda t: t['n_messages'])['event_ref']}`, "
-              f"{max(stub_thr, key=lambda t: t['n_messages'])['n_messages']} messages); "
-              f"they precede the four phases below.", ""]
+        L += [t("perf.s2.stub", lang, months=i18n.punct("comma", lang).join(stub_months),
+                n_msgs=fmt(sum(vol[m] for m in stub_months)),
+                n_thr=f"{len(stub_thr)}",
+                ref=f"{max(stub_thr, key=lambda th: th['n_messages'])['event_ref']}",
+                n_big=f"{max(stub_thr, key=lambda th: th['n_messages'])['n_messages']}"), ""]
     chat_msg = Counter((r["chat"], r["jalali_month"]) for r in w_rows
                        if r.get("chat") and r.get("jalali_month"))
     for name, lo, hi in PHASES:
         pm = [m for m in months if in_phase(m, lo, hi)]
         if not pm:
             continue
-        pt = [t for t in thr if thread_phase(t) == name]
+        pt = [th for th in thr if thread_phase(th) == name]
         chat_vol = Counter()
         cat_lab = Counter()
         for m in pm:
@@ -194,41 +216,48 @@ def sec2(tl, w_rows):
         top_chat, top_n = (chat_vol.most_common(1)[0] if chat_vol
                            else ("—", 0))
         (c1, c1n), (c2, c2n) = cat_lab.most_common(2)[:2]
-        biggest = max(pt, key=lambda t: t["n_messages"]) if pt else None
-        L.append(f"### {name} ({pm[0]}–{pm[-1]})")
+        biggest = max(pt, key=lambda th: th["n_messages"]) if pt else None
+        pname = term("phase", name, lang)
+        L.append(f"### {pname} ({pm[0]}–{pm[-1]})")
         L.append("")
-        para = (f"**{name}** spans Jalali {pm[0]}–{pm[-1]} with "
-                f"**{fmt(tot_msgs)} messages** across the chats; the busiest "
-                f"surface is {top_chat} ({fmt(top_n)} messages) and the "
-                f"dominant labels are {c1} ({fmt(c1n)}) and {c2} "
-                f"({fmt(c2n)}). ")
+        para = t("perf.s2.phase_para", lang, name=pname, m0=pm[0], m1=pm[-1],
+                 n_msgs=fmt(tot_msgs),
+                 top_chat=term("chat", top_chat, lang) if chat_vol else top_chat,
+                 top_n=fmt(top_n),
+                 c1=term("category", c1, lang), c1n=fmt(c1n),
+                 c2=term("category", c2, lang), c2n=fmt(c2n))
         if pt:
-            para += (f"{len(pt)} threads first appear in this phase, led by "
-                     f"`{biggest['event_ref']}` (first seen "
-                     f"{biggest['first_seen'][:10]} / {jdate(biggest['first_seen'])}, "
-                     f"{biggest['n_messages']:,} messages over "
-                     f"{plural(len(biggest['chats']))}). ")
+            para += t("perf.s2.phase_new", lang, n=f"{len(pt)}",
+                      ref=f"{biggest['event_ref']}",
+                      g=f"{biggest['first_seen'][:10]}",
+                      j=f"{jdate(biggest['first_seen'])}",
+                      n_big=f"{biggest['n_messages']:,}",
+                      chats=f"{plural(len(biggest['chats']), lang)}")
         else:
-            para += "No new threads first appear in this phase. "
+            para += t("perf.s2.phase_none", lang)
         mx = max(pm, key=lambda m: vol.get(m, 0))
-        para += (f"The phase's peak month is {mx} "
-                 f"({fmt(vol.get(mx, 0))} messages).")
+        para += t("perf.s2.phase_peak", lang, month=f"{mx}",
+                  n=fmt(vol.get(mx, 0)))
         L.append(para)
         L.append("")
-        top = sorted(pt, key=lambda t: -t["n_messages"])[:5]
+        top = sorted(pt, key=lambda th: -th["n_messages"])[:5]
         if top:
-            L += _table(["Thread", "First seen", "Jalali", "Msgs", "Chats",
-                         "Last seen"],
-                        [[f"`{t['event_ref']}`", t["first_seen"][:10],
-                          jdate(t["first_seen"]), f"{t['n_messages']:,}",
-                          str(len(t["chats"])), t["last_seen"][:10]]
-                         for t in top])
+            L += _table([t(k, lang) for k in ("perf.s2.tbl.h_thread",
+                                               "perf.s2.tbl.h_first",
+                                               "perf.s2.tbl.h_jalali",
+                                               "perf.s2.tbl.h_msgs",
+                                               "perf.s2.tbl.h_chats",
+                                               "perf.s2.tbl.h_last")],
+                        [[f"`{th['event_ref']}`", th["first_seen"][:10],
+                          jdate(th["first_seen"]), f"{th['n_messages']:,}",
+                          str(len(th["chats"])), i18n.dt(th["last_seen"], lang)]
+                         for th in top])
             L.append("")
     return L
 
 
 # --------------------------------------------------------------- section 3
-def sec3(tl, w_rows):
+def sec3(tl, w_rows, lang):
     ma = tl["monthly_activity"]
     months = sorted(ma.keys(), key=mkey)
     cat_month = defaultdict(lambda: defaultdict(int))
@@ -248,197 +277,192 @@ def sec3(tl, w_rows):
     # total explicit event_ref affiliations — same basis as §7's `aff`
     expl_total = sum(1 for r in w_rows if r.get("event_ref"))
 
-    L = ["## 3. Activity categories", "",
-         f"Monthly labelings per category, aggregated over chats "
-         f"(`monthly_activity`; a message with several labels counts once per "
-         f"label — {fmt(total_labelings)} labelings over the {len(w_rows):,} "
-         f"in-window messages).", ""]
+    L = ["## " + t("perf.s3.h_title", lang), "",
+         t("perf.s3.intro", lang, n_lab=fmt(total_labelings), n=f"{len(w_rows):,}"), ""]
     for yr in ("1404", "1405"):
         ym = [m for m in months if m.startswith(yr)]
         if not ym:
             continue
-        L += [f"**{yr}** (columns are Jalali month MM)", ""]
-        hdr = ["Category"] + [m.split("/")[1] for m in ym] + ["Total"]
+        L += [t("perf.s3.year_note", lang, yr=yr), ""]
+        hdr = ([t("perf.s3.tbl_month.h_category", lang)] + [m.split("/")[1] for m in ym]
+               + [t("perf.s3.tbl_month.h_total", lang)])
         rows = []
         for cat, tot in cats.most_common():
             vals = [cat_month[cat].get(m, 0) for m in ym]
             if not any(vals):
                 continue
-            rows.append([cat] + [fmt(v) for v in vals] + [f"**{fmt(tot)}**"])
+            rows.append([term("category", cat, lang)] + [fmt(v) for v in vals]
+                        + [f"**{fmt(tot)}**"])
         col_tot = [sum(cat_month[c].get(m, 0) for c in cats) for m in ym]
-        rows.append(["**All labelings**"] +
+        rows.append([f"**{t('perf.s3.tbl_month.all_labelings', lang)}**"] +
                     [f"**{fmt(v)}**" for v in col_tot] +
                     [f"**{fmt(total_labelings)}**"])
         L += _table(hdr, rows)
         L.append("")
 
-    L += ["Most-engaged threads per category, from the "
-          f"**{expl_total:,} explicitly affiliated** messages (LLM `event_ref`; "
-          "affiliation is conversational, not an evidence link — see §7):", ""]
+    L += [t("perf.s3.engaged_intro", lang, n=f"{expl_total:,}"), ""]
     rows = []
     for cat, tot in cats.most_common():
         refs = aff.get(cat, Counter()).most_common(3)
         aff_n = sum(aff.get(cat, Counter()).values())
         peak = max(cat_month[cat], key=lambda m: cat_month[cat][m]) if tot else "—"
-        thr_txt = ", ".join(f"`{r}` ({n})" for r, n in refs) if refs else "*(none explicitly affiliated)*"
-        rows.append([cat, fmt(tot), pct(tot, total_labelings), peak,
+        thr_txt = (i18n.punct("comma", lang).join(f"`{r}` ({n})" for r, n in refs) if refs
+                   else t("perf.s3.tbl_engaged.none", lang))
+        rows.append([term("category", cat, lang), fmt(tot), pct(tot, total_labelings), peak,
                      str(aff_n), thr_txt])
-    L += _table(["Category", "Labelings", "Share", "Peak month",
-                 "Explicitly affiliated", "Top threads by explicit affiliation "
-                 "(messages)"], rows)
+    L += _table([t(k, lang) for k in ("perf.s3.tbl_engaged.h_category",
+                                       "perf.s3.tbl_engaged.h_labelings",
+                                       "perf.s3.tbl_engaged.h_share",
+                                       "perf.s3.tbl_engaged.h_peak",
+                                       "perf.s3.tbl_engaged.h_explicit",
+                                       "perf.s3.tbl_engaged.h_top")], rows)
     L += ["",
-          "![Activity by month](charts/activity_by_month.png)",
-          "![Category breakdown](charts/category_breakdown.png)", ""]
+          img("perf.s3.chart_activity_alt", "activity_by_month", lang),
+          img("perf.s3.chart_category_alt", "category_breakdown", lang), ""]
     return L
 
 
 # --------------------------------------------------------------- section 4
-def sec4(tl, w_rows, registry, ledger):
-    threads = [t for t in tl["threads"] if not t.get("money_only")]
+def sec4(tl, w_rows, registry, ledger, lang):
+    threads = [th for th in tl["threads"] if not th.get("money_only")]
     expl = Counter(r["event_ref"] for r in w_rows if r.get("event_ref"))
     tx_by_id = {f["tx_id"]: f for f in ledger["financial_signals"]}
     # same basis as §7: explicit event_ref affiliations vs. total thread
     # membership (explicit + keyword-fallback), so the two sections agree
     expl_total = sum(expl.values())
-    affiliated_total = sum(t["n_messages"] for t in threads)
+    affiliated_total = sum(th["n_messages"] for th in threads)
     fb_total = affiliated_total - expl_total
-    L = ["## 4. Cross-chat correlation", "",
-         f"All {len(threads)} message-bearing threads with their per-chat "
-         f"spread, announcement lag and linked ledger money. `Explicit` counts "
-         f"messages whose LLM `event_ref` names the thread; the remainder of "
-         f"`Msgs` is keyword-fallback membership ({fb_total:,} of the "
-         f"{affiliated_total:,} affiliations), so fallback-heavy threads "
-         f"carry approximate message counts and lags (§7). `Lag` = days "
-         f"from the earliest non-channel chat first to the channel first; "
-         f"negative means the channel announcement preceded other-chat "
-         f"coordination.", ""]
+    L = ["## " + t("perf.s4.h_title", lang), "",
+         t("perf.s4.intro", lang, n=f"{len(threads)}", fb=f"{fb_total:,}",
+           aff=f"{affiliated_total:,}"), ""]
     rows = []
-    for t in sorted(threads, key=lambda t: -t["n_messages"]):
-        rows.append([f"`{t['event_ref']}`", t["first_seen"][:10],
-                     str(len(t["chats"])), f"{t['n_messages']:,}",
-                     str(expl.get(t["event_ref"], 0)),
-                     "—" if t["announcement_lag_days"] is None
-                     else f"{t['announcement_lag_days']:+d}",
-                     fmt(t["tx_total_toman"])])
-    L += _table(["Thread", "First seen", "Chats", "Msgs", "Explicit",
-                 "Lag (d)", "TX total (toman)"], rows)
+    for th in sorted(threads, key=lambda th: -th["n_messages"]):
+        rows.append([f"`{th['event_ref']}`", i18n.dt(th["first_seen"], lang),
+                     str(len(th["chats"])), f"{th['n_messages']:,}",
+                     str(expl.get(th["event_ref"], 0)),
+                     "—" if th["announcement_lag_days"] is None
+                     else f"{th['announcement_lag_days']:+d}",
+                     fmt(th["tx_total_toman"])])
+    L += _table([t(k, lang) for k in ("perf.s4.tbl.h_thread", "perf.s4.tbl.h_first",
+                                       "perf.s4.tbl.h_chats", "perf.s4.tbl.h_msgs",
+                                       "perf.s4.tbl.h_explicit", "perf.s4.tbl.h_lag",
+                                       "perf.s4.tbl.h_tx_total")], rows)
     L.append("")
 
     # money-only coverage gap (controller carry)
-    for t in tl["threads"]:
-        if t.get("money_only"):
-            txs = [tx_by_id[x] for x in t["tx_ids"]]
+    for th in tl["threads"]:
+        if th.get("money_only"):
+            txs = [tx_by_id[x] for x in th["tx_ids"]]
             r = sum(x["amount_toman"] for x in txs if x["direction"] == "Receipt")
             p = sum(x["amount_toman"] for x in txs if x["direction"] != "Receipt")
             dup = [x["tx_id"] for x in txs if x.get("status") == "Duplicate"]
             L.append(
-                f"**Money without matched messages — coverage gap:** "
-                f"`{t['event_ref']}` ({t['title']}) carries "
-                f"{len(txs)} ledger rows ({fmt(t['tx_total_toman'])} toman "
-                f"gross: {fmt(r)} receipts, {fmt(p)} payments; "
-                f"{', '.join(t['tx_ids'])}) but zero keyword- or "
-                f"LLM-matched messages, so it is kept money-only with null "
-                f"first/last/lag."
-                + (f" {', '.join(dup)} is status *Duplicate* in the ledger, "
-                   f"inflating the gross by its amount." if dup else ""))
+                t("perf.s4.money_gap", lang, ref=th["event_ref"],
+                  title=thread_title(th, lang), n=f"{len(txs)}",
+                  gross=fmt(th["tx_total_toman"]), rec=fmt(r), pay=fmt(p),
+                  ids=i18n.punct("comma", lang).join(th["tx_ids"]))
+                + (t("perf.s4.money_gap_dup", lang, ids=i18n.punct("comma", lang).join(dup))
+                   if dup else ""))
             L.append("")
 
-    L += ["![Event timeline](charts/event_timeline.png)",
-          "The three case studies below are the threads spanning the most "
-          "chats (all five; tie-broken by linked transaction volume, then "
-          "message count).", ""]
-    cands = sorted(threads, key=lambda t: (-len(t["chats"]),
-                                           -t["tx_total_toman"],
-                                           -t["n_messages"]))
-    for t in cands[:3]:
-        L += _case_study(t, w_rows, registry, tx_by_id, expl)
+    L += [img("perf.s4.chart_timeline_alt", "event_timeline", lang),
+          t("perf.s4.case_intro", lang), ""]
+    cands = sorted(threads, key=lambda th: (-len(th["chats"]),
+                                           -th["tx_total_toman"],
+                                           -th["n_messages"]))
+    for th in cands[:3]:
+        L += _case_study(th, w_rows, registry, tx_by_id, expl, lang)
     return L
 
 
-def _case_study(t, w_rows, registry, tx_by_id, expl):
-    ref = t["event_ref"]
+def _case_study(th, w_rows, registry, tx_by_id, expl, lang):
+    ref = th["event_ref"]
     E = sorted((r for r in w_rows if r.get("event_ref") == ref),
                key=lambda r: r["timestamp"] or "")
     e_n = expl.get(ref, 0)
-    fb = t["n_messages"] - e_n
-    txs = [tx_by_id[x] for x in t["tx_ids"] if x in tx_by_id]
+    fb = th["n_messages"] - e_n
+    txs = [tx_by_id[x] for x in th["tx_ids"] if x in tx_by_id]
     r = sum(x["amount_toman"] for x in txs if x["direction"] == "Receipt")
     p = sum(x["amount_toman"] for x in txs if x["direction"] != "Receipt")
     reg = next((x for x in registry["threads"] if x["event_ref"] == ref), {})
 
-    L = [f"### Case study: `{ref}` — {clean(t['title'], 60)}", "",
-         f"{t['n_messages']:,} affiliated messages across "
-         f"{len(t['chats'])} chats, {t['first_seen'][:10]} → "
-         f"{t['last_seen'][:10]} ({jdate(t['first_seen'])} → "
-         f"{jdate(t['last_seen'])}); announcement lag "
-         f"**{t['announcement_lag_days']:+d} days** (channel first "
-         f"{t['chats']['channel']['first'][:10]}). Explicit affiliation: "
-         f"{e_n:,} of {t['n_messages']:,} messages ({pct(e_n, t['n_messages'])}); "
-         f"the remaining {fb:,} are keyword-fallback memberships"
-         + (" — this thread is fallback-heavy, so its message count and lag "
-            "are approximate (§7)." if fb > e_n else "."),
-         f"Ledger money behind the thread: {fmt(t['tx_total_toman'])} toman "
-         f"gross across {len(txs)} transactions "
-         f"({fmt(r)} receipts / {fmt(p)} payments)."
+    L = ["### " + t("perf.case.h_title", lang, ref=ref,
+                    title=clean(thread_title(th, lang), lang, 60)), "",
+         t("perf.case.intro", lang, n=f"{th['n_messages']:,}",
+           n_chats=f"{len(th['chats'])}", g0=th["first_seen"][:10],
+           g1=th["last_seen"][:10], j0=jdate(th["first_seen"]),
+           j1=jdate(th["last_seen"]), lag=f"{th['announcement_lag_days']:+d}",
+           ch_first=i18n.dt(th["chats"]["channel"]["first"], lang),
+           e_n=f"{e_n:,}", pct=pct(e_n, th["n_messages"]), fb=f"{fb:,}")
+         + (t("perf.case.fallback_heavy", lang) if fb > e_n else "."),
+         t("perf.case.money", lang, gross=fmt(th["tx_total_toman"]),
+           n=f"{len(txs)}", rec=fmt(r), pay=fmt(p))
          if txs else
-         "No ledger transactions link to this thread (it is the receipt-"
-         "collection workstream itself, not a spending project).", ""]
+         t("perf.case.no_money", lang), ""]
 
     # stage table: planning -> announcement -> delivery -> payment
     rows = []
     first_rec = E[0] if E else None
-    rows.append(["Planning — earliest explicit affiliation",
-                 (first_rec or {}).get("timestamp", t["first_seen"])[:16],
+    rows.append([t("perf.case.stage_planning", lang),
+                 i18n.dt((first_rec or {}).get("timestamp", th["first_seen"]), lang, 16),
                  f"{first_rec['chat']}#{first_rec['message_id']}"
-                 if first_rec else "*(thread first seen, keyword-matched)*",
-                 snippet(first_rec) if first_rec else clean(t["title"], 60)])
-    busiest = max(t["chats"], key=lambda c: t["chats"][c]["n"]) if t["chats"] else None
-    for chat in sorted(t["chats"], key=lambda c: t["chats"][c]["first"]):
-        meta = t["chats"][chat]
+                 if first_rec else t("perf.case.ref_thread_first", lang),
+                 snippet(first_rec, lang) if first_rec else clean(thread_title(th, lang), lang, 60)])
+    busiest = max(th["chats"], key=lambda c: th["chats"][c]["n"]) if th["chats"] else None
+    for chat in sorted(th["chats"], key=lambda c: th["chats"][c]["first"]):
+        meta = th["chats"][chat]
         if chat == "channel":
-            label = f"Announcement — first channel post ({meta['n']} msgs)"
+            label = t("perf.case.stage_announce", lang, n=f"{meta['n']}")
         elif chat == busiest:
-            label = f"Delivery — busiest chat {chat} ({meta['n']} msgs)"
+            label = t("perf.case.stage_delivery", lang, chat=term("chat", chat, lang),
+                      n=f"{meta['n']}")
         else:
-            label = f"Work — first message in {chat} ({meta['n']} msgs)"
+            label = t("perf.case.stage_work", lang, chat=term("chat", chat, lang),
+                      n=f"{meta['n']}")
         ex = next((m for m in E if m["chat"] == chat), None)
         if ex and ex["timestamp"] == meta["first"]:
-            ref, ev = f"{chat}#{ex['message_id']}", snippet(ex)
+            ref, ev = f"{chat}#{ex['message_id']}", snippet(ex, lang)
         elif ex:
-            ref = "*(chat first, keyword-matched)*"
-            ev = (f"chat first {meta['first'][:10]}; earliest explicit "
-                  f"{chat}#{ex['message_id']} {ex['timestamp'][:10]}")
+            ref = t("perf.case.ref_chat_first", lang)
+            ev = t("perf.case.ev_chat_first", lang, d0=i18n.dt(meta["first"], lang),
+                   ref=f"{chat}#{ex['message_id']}", d1=i18n.dt(ex["timestamp"], lang))
         else:
-            ref, ev = "*(chat first, keyword-matched)*", "first message in this chat"
-        rows.append([label, meta["first"][:16], ref, ev])
-    if t["decision_dates"]:
-        rows.append(["Delivery-window decisions",
-                     ", ".join(sorted(set(t["decision_dates"]))),
-                     f"{len(set(t['decision_dates']))} dated decisions",
-                     "messages flagged is_decision in this thread"])
+            ref, ev = (t("perf.case.ref_chat_first", lang),
+                       t("perf.case.ev_first_in_chat", lang))
+        rows.append([label, i18n.dt(meta["first"], lang, 16), ref, ev])
+    if th["decision_dates"]:
+        rows.append([t("perf.case.stage_decisions", lang),
+                     i18n.punct("comma", lang).join(i18n.dt(d, lang)
+                                for d in sorted(set(th["decision_dates"]))),
+                     t("perf.case.ref_decisions", lang,
+                       n=f"{len(set(th['decision_dates']))}"),
+                     t("perf.case.ev_decisions", lang)])
     for x in txs:
         mids = x.get("message_ids") or []
-        rows.append([f"Payment — {x['tx_id']} ({x['direction']})",
+        status = x.get("status", "—")
+        rows.append([t("perf.case.stage_payment", lang, tx=x["tx_id"],
+                       direction=term("direction", x["direction"], lang)),
                      x.get("period", "—"),
-                     ("accounting_group#" + ", accounting_group#".join(mids))
-                     if mids else "*(ledger row, no message refs)*",
-                     f"{fmt(x['amount_toman'])} toman · {x['category']} · "
-                     f"{x.get('status', '—')}"])
-    L += _table(["Stage", "Date", "Reference", "Evidence"], rows)
-    bm = t["chats"].get(busiest, {})
-    L += ["", f"The delivery surface is `{busiest}` — {bm.get('n', 0):,} of "
-              f"the thread's {t['n_messages']:,} messages between "
-              f"{bm.get('first', '')[:10]} and {bm.get('last', '')[:10]}."]
+                     i18n.punct("comma", lang).join(f"accounting_group#{m}" for m in mids)
+                     if mids else t("perf.case.ref_ledger_row", lang),
+                     t("perf.case.ev_payment", lang, amount=fmt(x["amount_toman"]),
+                       category=term("ledger_category", x["category"], lang),
+                       status=term("status", status, lang) if status != "—" else status)])
+    L += _table([t(k, lang) for k in ("perf.case.tbl.h_stage", "perf.case.tbl.h_date",
+                                       "perf.case.tbl.h_reference",
+                                       "perf.case.tbl.h_evidence")], rows)
+    bm = th["chats"].get(busiest, {})
+    L += ["", t("perf.case.surface", lang, chat=f"{busiest}", n=f"{bm.get('n', 0):,}",
+                total=f"{th['n_messages']:,}", d0=i18n.dt(bm.get("first", ""), lang),
+                d1=i18n.dt(bm.get("last", ""), lang))]
     if "docx" in (reg.get("chats") or []):
-        L += ["", "The threads registry links this thread to the docx media "
-                  "report (`docx` listed among its chats); the corresponding "
-                  "شهریور–مهر ۱۴۰۵ campaign metrics are quoted in §5."]
+        L += ["", t("perf.case.docx", lang)]
     L.append("")
     return L
 
 
 # --------------------------------------------------------------- section 5
-def sec5(eco, docx, channel_profile):
+def sec5(eco, docx, channel_profile, lang):
     nodes = {n["id"]: n for n in eco["nodes"]}
     seeds = [n for n in eco["nodes"] if n.get("seed")]
     seed_ids = {s["id"] for s in seeds}
@@ -451,32 +475,35 @@ def sec5(eco, docx, channel_profile):
         else:
             men_in[e["target"]] += e["weight"]
 
-    L = ["## 5. Ecosystem map", "",
-         f"`ecosystem.json` carries **{len(eco['nodes'])} nodes / "
-         f"{len(eco['edges'])} edges** ({len(seeds)} seed entities, 5 chat "
-         f"exports, {sum(1 for n in eco['nodes'] if n.get('type') == 'external')} "
-         f"externals). Seed validation (an edge weight ≥ 3 into the seed "
-         f"evidences it):", ""]
-    L += _table(["Seed", "Label", "Status", "Forward weight in",
-                 "Mention weight in"],
-                [[s["id"], s["label"], eco["validation"].get(s["id"], "—"),
+    def seed_status(sid):
+        v = eco["validation"].get(sid, "—")
+        return term("validation", v, lang) if v != "—" else v
+
+    L = ["## " + t("perf.s5.h_title", lang), "",
+         t("perf.s5.intro", lang, n_nodes=f"{len(eco['nodes'])}",
+           n_edges=f"{len(eco['edges'])}", n_seeds=f"{len(seeds)}",
+           n_ext=f"{sum(1 for n in eco['nodes'] if n.get('type') == 'external')}"), ""]
+    L += _table([t(k, lang) for k in ("perf.s5.tbl_seeds.h_seed",
+                                       "perf.s5.tbl_seeds.h_label",
+                                       "perf.s5.tbl_seeds.h_status",
+                                       "perf.s5.tbl_seeds.h_fwd",
+                                       "perf.s5.tbl_seeds.h_men")],
+                [[s["id"], s["label"], seed_status(s["id"]),
                   fmt(fwd_in.get(s["id"], 0)), fmt(men_in.get(s["id"], 0))]
                  for s in seeds])
     unv = [s["id"] for s in seeds if eco["validation"].get(s["id"]) == "unverified"]
     if unv:
-        unv_labels = "; ".join(f"`{u}` = {nodes[u]['label']}" for u in unv)
-        L += ["", f"**Unverified seed caveat:** {unv_labels} has zero "
-                  f"forward and mention edges in the exports — an in-person "
-                  f"gathering with no digital footprint, so every graph "
-                  f"statement in this report is made over the "
-                  f"{len(seeds) - len(unv)} evidenced seeds only."]
+        unv_labels = i18n.punct("semi", lang).join(f"`{u}` = {nodes[u]['label']}" for u in unv)
+        L += ["", t("perf.s5.unverified", lang, labels=unv_labels,
+                    n=f"{len(seeds) - len(unv)}")]
     L += ["",
-          "Top external origins by forward weight (forwards into the five "
-          f"chats; {fmt(fwd_tot)} total forward weight):", ""]
+          t("perf.s5.ext_intro", lang, total=fmt(fwd_tot)), ""]
     ext = sorted(((k, v) for k, v in fwd_in.items()
                   if nodes.get(k, {}).get("type") == "external"),
                  key=lambda kv: -kv[1])[:10]
-    L += _table(["#", "External origin", "Forward weight", "Share of forwards"],
+    L += _table(["#"] + [t(k, lang) for k in ("perf.s5.tbl_ext.h_origin",
+                                               "perf.s5.tbl_ext.h_weight",
+                                               "perf.s5.tbl_ext.h_share")],
                 [[str(i + 1), nodes[k]["label"], fmt(v), pct(v, fwd_tot)]
                  for i, (k, v) in enumerate(ext)])
 
@@ -487,27 +514,18 @@ def sec5(eco, docx, channel_profile):
                      if x["event_ref"] == "dept-weekly-seminars")
     assoc_self = men_in.get("association", 0)
     L += ["",
-          "**The association operates as a relay.** Its channel is both a "
-          "megaphone and a redistribution point: the association handle "
-          f"anchors **{fmt(assoc_self)} mention weight** onto the association "
-          "seed (post alias merge; 1,793 of them the channel's own "
-          "post-signature handle), it has relayed the department's weekly "
-          f"seminar digests since 2018 — **{ch_digest['n']} all-time channel "
-          f"posts** (anchors {ch_digest['anchor_dates'][0]} → "
-          f"{ch_digest['anchor_dates'][-1]}, outside the analysis window) — "
-          f"and **کوانتا (QuantaSC study circles) takes {pct(q_fwd, ch_fwd)} "
-          f"of the channel's forward weight** "
-          f"({fmt(q_fwd)} of {fmt(ch_fwd)}), on top of "
-          f"{fmt(men_in.get('quantasc', 0))} mention weight. The strongest "
-          "subgroup partnership in the graph is thus the association's own "
-          "spin-off study-circle network.", ""]
+          t("perf.s5.relay", lang, assoc=fmt(assoc_self), n_posts=f"{ch_digest['n']}",
+            d0=i18n.dt(ch_digest["anchor_dates"][0], lang),
+            d1=i18n.dt(ch_digest["anchor_dates"][-1], lang),
+            q_pct=pct(q_fwd, ch_fwd), q_fwd=fmt(q_fwd), ch_fwd=fmt(ch_fwd),
+            q_men=fmt(men_in.get("quantasc", 0))), ""]
 
-    L += ["### Docx media report — verbatim metrics (quoted with period labels)",
+    L += ["### " + t("perf.s5.docx.h_title", lang),
           "",
-          f"`{docx['doc_title']}` — {docx['n_messages']} paragraphs / "
-          f"{docx['n_table_rows']} table rows; periods covered: "
-          f"{'; '.join(docx['periods_covered'])}. All "
-          f"{len(docx['metrics'])} metrics verbatim:", ""]
+          t("perf.s5.docx.intro", lang, title=docx["doc_title"],
+            n_par=f"{docx['n_messages']}", n_rows=f"{docx['n_table_rows']}",
+            periods=i18n.punct("semi", lang).join(docx["periods_covered"]),
+            n_metrics=f"{len(docx['metrics'])}"), ""]
     def mval(m):
         if "value" in m:
             v = float(m["value"])
@@ -516,104 +534,92 @@ def sec5(eco, docx, channel_profile):
             return f"{m['value_min']}–{m['value_max']}"
         return "—"
 
-    L += _table(["Metric", "Label", "Verbatim", "Value", "Period"],
-                [[m["id"], clean(m["label"], 40), m["verbatim"], mval(m),
-                  clean(m.get("period", "—"), 44)]
+    L += _table([t(k, lang) for k in ("perf.s5.tbl_metrics.h_metric",
+                                       "perf.s5.tbl_metrics.h_label",
+                                       "perf.s5.tbl_metrics.h_verbatim",
+                                       "perf.s5.tbl_metrics.h_value",
+                                       "perf.s5.tbl_metrics.h_period")],
+                [[m["id"], clean(m["label"], lang, 40), m["verbatim"], mval(m),
+                  clean(m.get("period", "—"), lang, 44)]
                  for m in docx["metrics"]])
-    L += ["", "The document's own caveats (claims, quoted):", ""]
-    L += [f"- {clean(c, 160)}" for c in docx.get("claims", [])]
-    L += ["", "No toman amounts appear anywhere in the docx report — its only "
-              "cost accounting is the 34–38 production-hour estimate (m29), "
-              "so the financial side of the same campaign rests entirely on "
-              "the ledger artifacts of §4.", "",
-          "![Ecosystem map](charts/ecosystem_map.png)", ""]
+    L += ["", t("perf.s5.docx.claims_intro", lang), ""]
+    L += [f"- {clean(c, lang, 160)}" for c in docx.get("claims", [])]
+    L += ["", t("perf.s5.docx.no_toman", lang), "",
+          img("perf.s5.chart_ecosystem_alt", "ecosystem_map", lang), ""]
     return L
 
 
 # --------------------------------------------------------------- section 6
-def sec6(tl, summerschool):
+def sec6(tl, summerschool, lang):
     mech = tl["mechanics"]
     est = tl["event_start_times"]
     hh = tl["hour_histogram"]
     heat = tl["weekday_hour_heat"]
-    L = ["## 6. Monthly × hourly patterns (university mechanics)", "",
-         f"`mechanics` lists {len(mech)} recurring patterns "
-         f"({sum(1 for m in mech if m['kind'] == 'fixed-slot')} fixed event "
-         f"slots, {sum(1 for m in mech if m['kind'] == 'peak')} weekday "
-         f"peaks, {sum(1 for m in mech if m['kind'] == 'tx-hour')} "
-         f"ledger-linked hours; n ≥ 5 only).", "",
-         "### Fixed event slots", ""]
+    L = ["## " + t("perf.s6.h_title", lang), "",
+         t("perf.s6.intro", lang, n=f"{len(mech)}",
+           n_fixed=f"{sum(1 for m in mech if m['kind'] == 'fixed-slot')}",
+           n_peak=f"{sum(1 for m in mech if m['kind'] == 'peak')}",
+           n_tx=f"{sum(1 for m in mech if m['kind'] == 'tx-hour')}"), "",
+         "### " + t("perf.s6.fixed.h_title", lang), ""]
     DEADLINE = {"00:00", "23:59"}
     rows = []
     for m in sorted((x for x in mech if x["kind"] == "fixed-slot"),
                     key=lambda x: -x["n"]):
         s = est[m["category"]]
-        dl = [t for t in s["times"] if t in DEADLINE]
+        dl = [x for x in s["times"] if x in DEADLINE]
         rows.append([f"`{m['category']}`", s["mode"], str(s["n"]),
                      str(len(s["times"])),
-                     f"{len(dl)} ({', '.join(dl)})" if dl else "0"])
-    L += _table(["Thread", "Mode start", "HH:MM mentions", "Distinct times",
-                 "Deadline-style times"], rows)
+                     f"{len(dl)} ({i18n.punct('comma', lang).join(dl)})" if dl else "0"])
+    L += _table([t(k, lang) for k in ("perf.s6.fixed.h_thread", "perf.s6.fixed.h_mode",
+                                       "perf.s6.fixed.h_mentions",
+                                       "perf.s6.fixed.h_distinct",
+                                       "perf.s6.fixed.h_deadline")], rows)
     L += ["",
-          "*Caveats (inherited from the extraction rules):* the mention "
-          "count `n` includes **deadline-style times** (00:00 / 23:59 appear "
-          "in several threads' `times` lists), so a mode is far more reliable "
-          "than its n; and colloquial hour-only mentions such as «ساعت ۳» "
-          "(old-style 15:00) are **never collected** — only literal HH:MM "
-          "strings are, so evening events advertised colloquially are "
-          "under-represented here.", "",
-          "### Weekday peaks (per chat)", ""]
+          t("perf.s6.fixed.caveat", lang), "",
+          "### " + t("perf.s6.peaks.h_title", lang), ""]
     order = {w.replace("‌", ""): i for i, w in enumerate(WD_ORDER)}
     peaks = sorted((m for m in mech if m["kind"] == "peak"),
                    key=lambda m: (m["category"], order.get(m["jalali_weekday"]
                                                            .replace("‌", ""), 9)))
-    L += _table(["Chat", "Weekday", "Peak hour", "Messages"],
-                [[m["category"], m["jalali_weekday"], f"{m['hour']:02d}:00",
-                  str(m["n"])] for m in peaks])
+    L += _table([t(k, lang) for k in ("perf.s6.peaks.h_chat", "perf.s6.peaks.h_weekday",
+                                       "perf.s6.peaks.h_hour", "perf.s6.peaks.h_messages")],
+                [[term("chat", m["category"], lang), m["jalali_weekday"],
+                  f"{m['hour']:02d}:00", str(m["n"])] for m in peaks])
     L += ["",
-          "### Ledger-linked accounting hours", ""]
-    L += _table(["Hour", "TX-linked accounting_group messages"],
+          "### " + t("perf.s6.tx.h_title", lang), ""]
+    L += _table([t("perf.s6.tx.h_hour", lang), t("perf.s6.tx.h_messages", lang)],
                 [[f"{m['hour']:02d}:00", str(m["n"])]
                  for m in sorted((x for x in mech if x["kind"] == "tx-hour"),
                                  key=lambda x: x["hour"])])
     L += ["",
-          "The 04:00 entry (n = 5) sits right at the n ≥ 5 threshold and "
-          "reflects night-time bookkeeping posts — observational, not a "
-          "scheduled mechanism.", "",
-          "### Nocturnal coordination", "",
-          f"The single strongest hourly signal in the corpus is late-night "
-          f"coordination: the private group's busiest hour is "
-          f"**23:00 with {hh['private_group']['23']:,} messages** and the "
-          f"public group's is **00:00 with {hh['public_group']['0']:,} "
-          f"messages** (its 23:00 follows at {hh['public_group']['23']:,}). "
-          f"Between 22:00 and 01:00 the private group posts "
-          f"{pct(sum(hh['private_group'].get(str(h), 0) for h in (22, 23, 0, 1)), sum(hh['private_group'].values()))} "
-          f"of its volume and the public group "
-          f"{pct(sum(hh['public_group'].get(str(h), 0) for h in (22, 23, 0, 1)), sum(hh['public_group'].values()))} "
-          f"— student-run coordination happens after midnight, not in the "
-          f"13:00–19:00 business band the fixed slots occupy.", "",
-          "### Summer-school channel mechanics", ""]
+          t("perf.s6.tx.note", lang), "",
+          "### " + t("perf.s6.night.h_title", lang), "",
+          t("perf.s6.night.para", lang,
+            priv23=f"{hh['private_group']['23']:,}",
+            pub0=f"{hh['public_group']['0']:,}",
+            pub23=f"{hh['public_group']['23']:,}",
+            priv_pct=pct(sum(hh['private_group'].get(str(h), 0) for h in (22, 23, 0, 1)),
+                         sum(hh['private_group'].values())),
+            pub_pct=pct(sum(hh['public_group'].get(str(h), 0) for h in (22, 23, 0, 1)),
+                        sum(hh['public_group'].values()))), "",
+          "### " + t("perf.s6.ss.h_title", lang), ""]
     ss_n = summerschool["n_messages"]
     ev18 = next(x for x in summerschool["time_patterns"]
                 if x["kind"] == "event-hour" and x["hour"] == 18)
     sat = next(x for x in summerschool["time_patterns"]
                if x["kind"] == "weekday-slot"
                and x["jalali_weekday"] == "شنبه")
-    kw = next((k for t in summerschool["candidate_threads"]
-               for k in t["keywords"] if "18:00" in k), None)
-    L += [f"The dedicated summer-school channel ({ss_n} in-window posts) "
-          f"runs its live sessions at a fixed class hour — **18:00–19:10** "
-          f"(«{kw}» in the 1405 course calendar; event-hour 18:00 appears in "
-          f"{ev18['n']} posts, «همه‌روزه») — and publishes its announcements "
-          f"in a **Saturday slot**: {sat['n']} of {ss_n} posts sit in the "
-          f"شنبه weekday-slot peak.", "",
-          "![Weekday × hour heatmap](charts/weekday_hour_heat.png)",
-          "![Hour histogram](charts/hour_histogram.png)", ""]
+    kw = next((k for th in summerschool["candidate_threads"]
+               for k in th["keywords"] if "18:00" in k), None)
+    L += [t("perf.s6.ss.para", lang, n=f"{ss_n}", kw=f"{kw}", n_ev=f"{ev18['n']}",
+            n_sat=f"{sat['n']}"), "",
+          img("perf.s6.chart_heat_alt", "weekday_hour_heat", lang),
+          img("perf.s6.chart_hist_alt", "hour_histogram", lang), ""]
     return L
 
 
 # --------------------------------------------------------------- section 7
-def sec7(stats, w_rows, tl):
+def sec7(stats, w_rows, tl, lang):
     iw = stats["in_window"]
     n = iw["total"]
     by_m = iw["by_method"]
@@ -631,8 +637,8 @@ def sec7(stats, w_rows, tl):
                 read_json(ROOT / "analysis/lexicon.json").values())
     decisions = sum(1 for r in w_rows if r.get("is_decision"))
     aff = sum(1 for r in w_rows if r.get("event_ref"))
-    affiliated = sum(t["n_messages"] for t in tl["threads"]
-                     if not t.get("money_only"))
+    affiliated = sum(th["n_messages"] for th in tl["threads"]
+                     if not th.get("money_only"))
     fb = affiliated - aff  # keyword-fallback memberships
     no_text = sum(1 for r in w_rows
                   if not (r.get("text_plain") or "").strip()
@@ -642,72 +648,38 @@ def sec7(stats, w_rows, tl):
                      and r.get("media_kinds") == ["voice"])
     llm_short = sum(1 for r in w_rows if r.get("method") == "llm"
                     and len((r.get("text_plain") or "").strip()) <= 15)
-    L = ["## 7. Classification method & limitations", "",
-         f"Three-layer pipeline over the {stats['total']:,} parsed records; "
-         f"the analysis denominator is the **{n:,} in-window, non-service "
-         f"messages**:", ""]
-    L += _table(["Layer", "Method", "Messages (in-window)", "Share"],
-                [["1", "structural rules (poll/forms/media-only)", fmt(by_m["rule"]),
+    n_corpus_lab = fmt(sum(stats['by_category'].values()))
+    L = ["## " + t("perf.s7.h_title", lang), "",
+         t("perf.s7.intro", lang, total=f"{stats['total']:,}", n=f"{n:,}"), ""]
+    L += _table([t(k, lang) for k in ("perf.s7.tbl.h_layer", "perf.s7.tbl.h_method",
+                                       "perf.s7.tbl.h_messages", "perf.s7.tbl.h_share")],
+                [["1", t("perf.s7.tbl.rule", lang), fmt(by_m["rule"]),
                   pct(by_m["rule"], n)],
-                 ["2", f"lexicon (multi-label, {n_lex} entries)", fmt(by_m["lexicon"]),
+                 ["2", t("perf.s7.tbl.lexicon", lang, n=f"{n_lex}"), fmt(by_m["lexicon"]),
                   pct(by_m["lexicon"], n)],
-                 ["3", "LLM residual (method=llm)", fmt(by_m["llm"]),
+                 ["3", t("perf.s7.tbl.llm", lang), fmt(by_m["llm"]),
                   pct(by_m["llm"], n)],
-                 ["", "**classified total**", f"**{fmt(iw['classified'])}**",
+                 ["", f"**{t('perf.s7.tbl.total', lang)}**", f"**{fmt(iw['classified'])}**",
                   f"**{pct(iw['classified'], n)}**"]])
     L += ["",
-          f"**Layer-2 coverage plateaued at {pct2(l2, n)} raw / "
-          f"{pct2(topical, n)} topical** — {fmt(l2)} of {fmt(n)} messages "
-          f"received at least one lexicon/rule label, but only "
-          f"**{fmt(topical)} carry at least one topical category** (anything "
-          f"beyond the chatter pair meta_noise/community_social); the "
-          f"remaining **{fmt(chatter_only)} layer-2 labelings are "
-          f"classified-only-chatter**. The structural ceiling is visible in "
-          f"the data itself: {no_text} in-window messages have no text and "
-          f"no media to classify, {voice_only} are voice-only with no text, "
-          f"and {fmt(llm_short)} of the layer-3 messages are 15 characters "
-          f"or shorter — so the residue was routed to layer 3 rather than "
-          f"forced into topics.",
+          t("perf.s7.layer2", lang, raw_pct=pct2(l2, n), top_pct=pct2(topical, n),
+            l2=fmt(l2), n=fmt(n), topical=fmt(topical), chatter=fmt(chatter_only),
+            no_text=f"{no_text}", voice=f"{voice_only}", short=fmt(llm_short)),
           "",
-          f"**Final state: {pct2(iw['classified'], n)} classified.** The LLM "
-          f"layer labeled **{fmt(by_m['llm'])} messages with `method=llm`** "
-          f"(confidence-gated at 0.7); after the Task-14 precision passes "
-          f"(risky-word corroboration, lexicon pruning, word-boundary "
-          f"matching for short keywords, demotion of low-confidence "
-          f"topical labels on micro-messages, multi-label gating on "
-          f"forwarded/channel broadcasts, affirmation-only resolution to "
-          f"meta_noise, verb-suffix boundary matching, and category "
-          f"blockers for macro-economy and external-journal markers), "
-          f"**{fmt(n - iw['classified'])} in-window messages** hold no label "
-          f"rather than a speculative one, and {unl:,} records remain "
-          f"unlabeled corpus-wide. **{decisions} messages** carry "
-          f"`is_decision` (all from the LLM layer).",
+          t("perf.s7.final", lang, cls_pct=pct2(iw['classified'], n),
+            llm=fmt(by_m['llm']), unlabeled=fmt(n - iw['classified']),
+            unl=f"{unl:,}", decisions=f"{decisions}"),
           "",
-          f"**event_ref is affiliation, not evidence.** The LLM attached "
-          f"explicit `event_ref` labels to **{aff:,} messages**, and the "
-          f"correlation stage added **{fb:,} keyword-fallback memberships** "
-          f"(first-6-keyword substring match) to reach {affiliated:,} "
-          f"affiliated messages across the 46 message-bearing threads. In "
-          f"fallback-heavy threads — e.g. `final-receipt-handover-1405` "
-          f"(1 explicit of 413) — the per-thread `n_messages` and "
-          f"`announcement_lag_days` are therefore approximate, and §4 marks "
-          f"them as such.",
+          t("perf.s7.event_ref", lang, aff=f"{aff:,}", fb=f"{fb:,}",
+            affiliated=f"{affiliated:,}"),
           "",
-          f"**Further limitations.** meta_noise is the largest category "
-          f"({fmt(noise_all)} of {fmt(sum(stats['by_category'].values()))} "
-          f"corpus labelings) — the groups are, by volume, mostly chat. "
-          f"Labels are multi-label (capped at 4): {fmt(multi)} of {fmt(n)} "
-          f"in-window messages carry more than one category, so category "
-          f"sums exceed message counts ({fmt(sum(stats['by_category'].values()))} "
-          f"corpus labelings over {stats['total']:,} records). Service messages "
-          f"(joins, title changes, poll closes) are excluded from every "
-          f"narrative and histogram here. Timestamps are export-local "
-          f"(UTC+03:30) — hour patterns are Tehran-local.", ""]
+          t("perf.s7.further", lang, noise=fmt(noise_all), corpus=n_corpus_lab,
+            multi=fmt(multi), n=fmt(n), total=f"{stats['total']:,}"), ""]
     return L
 
 
 # ------------------------------------------------------------------- build
-def build():
+def render(lang="en"):
     tl = read_json(ROOT / "analysis/timeline.json")
     eco = read_json(ROOT / "analysis/ecosystem.json")
     stats = read_json(ROOT / "analysis/classification_stats.json")
@@ -721,56 +693,71 @@ def build():
     w_rows = [r for r in rows if r["in_window"] and not r["is_service"]]
     assert len(w_rows) == stats["in_window"]["total"], "window mismatch"
 
-    charts = ["activity_by_month", "category_breakdown", "weekday_hour_heat",
-              "hour_histogram", "event_timeline", "ecosystem_map"]
-    for c in charts:
-        assert (OUT.parent / "charts" / f"{c}.png").exists(), f"missing {c}"
-
-    L = ["# Anjoman Performance & Activity Report (2025-05-28 → 2026-10-14)",
+    L = ["# " + t("perf.title", lang),
          "",
-         f"Window 2025-05-28 → 2026-10-14 "
-         f"({jdate('2025-05-28T00:00:00')} → {jdate('2026-10-14T00:00:00')}"
-         f"), five Telegram exports. Assembled from the analysis artifacts "
-         f"only: `timeline.json` ({len(tl['threads'])} threads, "
-         f"{len(tl['monthly_activity'])} Jalali months, "
-         f"{len(tl['mechanics'])} mechanics), `ecosystem.json` "
-         f"({len(eco['nodes'])} nodes / {len(eco['edges'])} edges), "
-         f"`classified.jsonl` ({len(rows):,} records; "
-         f"{len(w_rows):,} in-window non-service), "
-         f"`classification_stats.json`, `threads.json`, and the source "
-         f"profiles consumed here (channel, summerschool_channel, ledger, "
-         f"docx). Figures render the Task-11 charts.", ""]
-    L += sec1(tl, stats, w_rows)
-    L += sec2(tl, w_rows)
-    L += sec3(tl, w_rows)
-    L += sec4(tl, w_rows, registry, ledger)
-    L += sec5(eco, docx, channel_profile)
-    L += sec6(tl, summerschool)
-    L += sec7(stats, w_rows, tl)
+         t("perf.intro", lang, j0=jdate('2025-05-28T00:00:00'),
+           j1=jdate('2026-10-14T00:00:00'), n_threads=f"{len(tl['threads'])}",
+           n_months=f"{len(tl['monthly_activity'])}", n_mech=f"{len(tl['mechanics'])}",
+           n_nodes=f"{len(eco['nodes'])}", n_edges=f"{len(eco['edges'])}",
+           n_rows=f"{len(rows):,}", n_win=f"{len(w_rows):,}"), ""]
+    L += sec1(tl, stats, w_rows, lang)
+    L += sec2(tl, w_rows, lang)
+    L += sec3(tl, w_rows, lang)
+    L += sec4(tl, w_rows, registry, ledger, lang)
+    L += sec5(eco, docx, channel_profile, lang)
+    L += sec6(tl, summerschool, lang)
+    L += sec7(stats, w_rows, tl, lang)
 
     text = "\n".join(L)
     assert "(auto:" not in text, "placeholder text leaked into the report"
-    for c in charts:
-        assert f"charts/{c}.png" in text, f"chart {c} not embedded"
-    OUT.parent.mkdir(parents=True, exist_ok=True)
-    OUT.write_text(text + "\n", encoding="utf-8")
-    pdf = OUT.with_suffix(".pdf")
-    md_to_pdf(OUT, pdf,
-              footer="ANJOMAN | Performance & activity report | 2026-10-14",
-              title="Anjoman performance & activity report")
+    chart_dir = "charts" if lang == "en" else "charts_fa"
+    for c in CHARTS:
+        assert f"{chart_dir}/{c}.png" in text, f"chart {c} not embedded"
+    if lang == "fa":
+        text = i18n.localize(text)
+    return text + "\n"
 
-    # render gate: pages > 6 and known spot strings extractable
+
+def build(lang="en"):
+    ensure_disk(OUT.parent)
+    out = OUT if lang == "en" else OUT_FA
+    chart_dir = "charts" if lang == "en" else "charts_fa"
+    for c in CHARTS:
+        assert (out.parent / chart_dir / f"{c}.png").exists(), f"missing {chart_dir}/{c}"
+    text = render(lang)
+    out.parent.mkdir(parents=True, exist_ok=True)
+    out.write_text(text, encoding="utf-8")
+    pdf = out.with_suffix(".pdf")
     from pypdf import PdfReader
-    reader = PdfReader(str(pdf))
-    pages = len(reader.pages)
-    pdftext = "".join(p.extract_text() or "" for p in reader.pages)
-    assert pages > 6, f"PDF too short: {pages} pages"
-    for spot in ("726,527", "13:30", "2,694,750"):
-        assert spot in pdftext, f"spot string {spot!r} missing from PDF"
-    print(f"[report] {OUT.name}: {len(text.splitlines())} md lines, "
+    if lang == "en":
+        md_to_pdf(out, pdf,
+                  footer="ANJOMAN | Performance & activity report | 2026-10-14",
+                  title="Anjoman performance & activity report")
+
+        # render gate: pages > 6 and known spot strings extractable
+        reader = PdfReader(str(pdf))
+        pages = len(reader.pages)
+        pdftext = "".join(p.extract_text() or "" for p in reader.pages)
+        assert pages > 6, f"PDF too short: {pages} pages"
+        for spot in ("726,527", "13:30", "2,694,750"):
+            assert spot in pdftext, f"spot string {spot!r} missing from PDF"
+    else:
+        md_to_pdf_rtl(out, pdf,
+                      title="گزارش عملکرد و فعالیت انجمن علمی فیزیک",
+                      footer="انجمن علمی فیزیک | گزارش عملکرد و فعالیت | ۱۴۰۵/۰۷/۲۲")
+        # pypdf extracts RTL runs in visual order, so FA spot strings are
+        # checked in the sibling .html; the page count still comes from the PDF
+        pages = len(PdfReader(str(pdf)).pages)
+        assert pages > 6, f"PDF too short: {pages} pages"
+        html = out.with_suffix(".html").read_text(encoding="utf-8")
+        for spot in ("۷۲۶٬۵۲۷", "۱۳:۳۰", "۲٬۶۹۴٬۷۵۰"):
+            assert spot in html, f"FA spot string {spot} missing"
+    print(f"[report] {out.name}: {len(text.splitlines())} md lines, "
           f"PDF {pages} pages, spot strings OK")
-    return OUT
+    return out
 
 
 if __name__ == "__main__":
-    print(build())
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--lang", choices=("en", "fa"), default="en")
+    print(build(ap.parse_args().lang))

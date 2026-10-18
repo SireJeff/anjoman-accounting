@@ -1,0 +1,195 @@
+import json
+from collections import Counter
+
+import pytest
+
+from analysis_tools import i18n
+
+
+@pytest.fixture
+def cat(tmp_path):
+    (tmp_path / "en.json").write_text(json.dumps(
+        {"x.hello": "Hello {name}, {n} rows", "x.plain": "Plain text"}), encoding="utf-8")
+    (tmp_path / "fa.json").write_text(json.dumps(
+        {"x.hello": "سلام {name}، {n} ردیف", "x.plain": "متن ساده"}, ensure_ascii=False),
+        encoding="utf-8")
+    (tmp_path / "hashes.json").write_text(json.dumps(
+        {"x.hello": i18n.sha("Hello {name}, {n} rows"), "x.plain": "stale"}), encoding="utf-8")
+    (tmp_path / "glossary.json").write_text(json.dumps(
+        {"chat": {"channel": "کانال"}}, ensure_ascii=False), encoding="utf-8")
+    i18n.set_catalog_dir(tmp_path)
+    yield tmp_path
+    i18n.set_catalog_dir(None)
+
+
+def test_t_en_and_fa(cat):
+    assert i18n.t("x.hello", "en", name="A", n="3") == "Hello A, 3 rows"
+    assert i18n.t("x.hello", "fa", name="A", n="3") == "سلام A، 3 ردیف"
+
+
+def test_unknown_key_raises(cat):
+    with pytest.raises(KeyError):
+        i18n.t("nope", "en")
+
+
+def test_stale_fa_raises(cat):
+    with pytest.raises(i18n.CatalogError, match="stale"):
+        i18n.t("x.plain", "fa")
+
+
+def test_missing_fa_raises(cat):
+    (cat / "en.json").write_text(json.dumps({"x.new": "New"}), encoding="utf-8")
+    i18n.reload()
+    with pytest.raises(i18n.CatalogError, match="missing"):
+        i18n.t("x.new", "fa")
+
+
+def test_term(cat):
+    assert i18n.term("chat", "channel", "en") == "channel"
+    assert i18n.term("chat", "channel", "en", default="Channel") == "Channel"
+    assert i18n.term("chat", "channel", "fa") == "کانال"
+    with pytest.raises(i18n.CatalogError):
+        i18n.term("chat", "unknown_chat", "fa")
+
+
+def test_dt():
+    assert i18n.dt("2025-10-04T13:30:00", "en") == "2025-10-04"
+    assert i18n.dt("2025-10-04T13:30:00", "en", 16) == "2025-10-04T13:30"
+    assert i18n.dt("2025-10-04T13:30:00", "fa") == "1404/07/12"
+    assert i18n.dt("2025-10-04T13:30:00", "fa", 16) == "1404/07/12 13:30"
+    assert i18n.dt("2025-05-28", "fa") == "1404/03/07"
+
+
+def test_localize_numbers():
+    assert i18n.localize("1,234,567.5 and 12.5%") == "۱٬۲۳۴٬۵۶۷٫۵ and ۱۲٫۵٪"
+    assert i18n.localize("1404/07 at 13:30, n=62") == "۱۴۰۴/۰۷ at ۱۳:۳۰, n=۶۲"
+
+
+def test_localize_protects_identifiers():
+    s = ("TX0036 `analysis/timeline.json` @QuantaSC accounting_group#123 m29 "
+         "Task-11 ![a](charts_fa/x1.png) https://a.b/c1 and 5")
+    out = i18n.localize(s)
+    for keep in ("TX0036", "`analysis/timeline.json`", "@QuantaSC",
+                 "accounting_group#123", "m29", "Task-11", "![a](charts_fa/x1.png)",
+                 "https://a.b/c1"):
+        assert keep in out
+    assert out.endswith("and ۵")
+
+
+def test_protect_real_chat_reference():
+    # real refs in the analysis artifacts look like accounting_group#message10
+    ref = "accounting_group#message10"
+    assert i18n._PROTECT.fullmatch(ref)
+    out = i18n.localize(f"see {ref} and 5")
+    assert ref in out and out.endswith("and ۵")
+
+
+def test_localize_isolates_iso_dates():
+    LRI, PDI = "\u2066", "\u2069"
+    out = i18n.localize("بازهٔ 2025-05-28 ← 2026-10-14 و 2025-10-04T13:30، n=5")
+    assert out == (f"بازهٔ {LRI}۲۰۲۵-۰۵-۲۸{PDI} ← {LRI}۲۰۲۶-۱۰-۱۴{PDI} و "
+                   f"{LRI}۲۰۲۵-۱۰-۰۴T۱۳:۳۰{PDI}، n=۵")
+    # Persian-digit dates are isolated too; localize() is idempotent
+    assert i18n.localize("۲۰۲۵-۰۵-۲۸") == f"{LRI}۲۰۲۵-۰۵-۲۸{PDI}"
+    assert i18n.localize(out) == out
+    # protected spans are untouched (no isolates inside code or file names)
+    assert i18n.localize("`2026-10-10` report_2026-10-10.md") == \
+        "`2026-10-10` report_2026-10-10.md"
+    # isolates are invisible to delocalize / number parity
+    assert i18n.delocalize(out) == "بازهٔ 2025-05-28 ← 2026-10-14 و 2025-10-04T13:30، n=5"
+    assert i18n.number_tokens(out) == i18n.number_tokens(
+        "بازهٔ 2025-05-28 ← 2026-10-14 و 2025-10-04T13:30، n=5")
+
+
+def test_delocalize_roundtrip():
+    assert i18n.delocalize("۱٬۲۳۴٫۵٪") == "1,234.5%"
+
+
+def test_number_tokens_normalizes_dates():
+    en = "first seen 2025-10-04, total 1,234 (12.5%)"
+    fa = i18n.localize("اولین ۱۴۰۴/۰۷/۱۲، مجموع 1,234 (12.5%)")
+    assert i18n.number_tokens(en) == i18n.number_tokens(fa)
+    assert i18n.number_tokens("2025-10-04T13:30") == Counter({"1404": 1, "07": 1, "12": 1,
+                                                               "13": 1, "30": 1})
+
+
+def test_glossary_digit_tokens_preserved():
+    g = i18n.catalog("glossary")
+    for kind, m in g.items():
+        # "terms" is free vocabulary, not EN->FA display pairs; "jalali_month" is a
+        # numeric-index ("1".."12") -> Persian month-name lookup table, not a
+        # translation pair, so the index itself isn't expected to reappear in fa.
+        if kind in ("terms", "jalali_month"):
+            continue
+        for en, fa in m.items():
+            assert i18n.number_tokens(en) == i18n.number_tokens(fa), (kind, en, fa)
+
+
+def test_glossary_covers_ledger_vocab():
+    import pandas as pd
+    from analysis_tools.common import LEDGER_CSV
+    df = pd.read_csv(LEDGER_CSV, encoding="utf-8-sig")
+    g = i18n.catalog("glossary")
+    for col, kind in (("category", "ledger_category"), ("project", "project"),
+                      ("status", "status"), ("direction", "direction")):
+        missing = set(df[col].dropna().unique()) - set(g[kind])
+        assert not missing, (kind, missing)
+
+
+def test_glossary_covers_classifier_categories_and_chats():
+    from analysis_tools.common import SOURCES
+    g = i18n.catalog("glossary")
+    lex = json.loads((i18n.ROOT / "analysis/lexicon.json").read_text(encoding="utf-8"))
+    assert set(lex) <= set(g["category"]), set(lex) - set(g["category"])
+    assert set(SOURCES) | {"docx"} <= set(g["chat"])
+
+
+def test_glossary_covers_media_kinds():
+    g = i18n.catalog("glossary")
+    kinds = set()
+    with open(i18n.ROOT / "analysis/classified.jsonl", encoding="utf-8") as f:
+        for line in f:
+            kinds.update(json.loads(line).get("media_kinds") or [])
+    assert kinds, "no media kinds found in classified.jsonl"
+    assert kinds <= set(g.get("media", {})), kinds - set(g.get("media", {}))
+
+
+def test_glossary_ledger_terms_match_precedent():
+    import pandas as pd
+    from analysis_tools.common import LEDGER_CSV
+
+    # Read the ledger CSV and precedent FA file
+    df = pd.read_csv(LEDGER_CSV, encoding="utf-8-sig")
+    precedent_path = LEDGER_CSV.parent / "fa/Accounting_Data_FA.json"
+    precedent = json.loads(precedent_path.read_text(encoding="utf-8"))
+
+    # Build EN→FA mappings from the precedent
+    g = i18n.catalog("glossary")
+    field_map = {
+        "category": "ledger_category",
+        "project": "project",
+        "status": "status",
+        "direction": "direction"
+    }
+
+    # Extract all unique (EN, FA) pairs from precedent ledger
+    precedent_mappings = {k: {} for k in field_map.values()}
+    for row in precedent["ledger"]:
+        for csv_field, kind in field_map.items():
+            if row.get(csv_field):
+                csv_row = df[df["id"] == row["id"]]
+                if not csv_row.empty and csv_field in csv_row.columns:
+                    en_val = csv_row[csv_field].values[0]
+                    fa_val = row[csv_field]
+                    if en_val and pd.notna(en_val):
+                        precedent_mappings[kind][en_val] = fa_val
+
+    # Verify glossary matches precedent (allowing digit localization)
+    for kind, en_fa_map in precedent_mappings.items():
+        for en_val, precedent_fa in en_fa_map.items():
+            glossary_fa = g[kind][en_val]
+            expected_fa = i18n.localize(precedent_fa)
+            assert glossary_fa == expected_fa, (
+                f"{kind}[{en_val!r}]: glossary has {glossary_fa!r} "
+                f"but precedent (localized) is {expected_fa!r}"
+            )

@@ -8,6 +8,7 @@ charts.py so figures and tables read as one system.
 """
 import html
 import re
+import shutil
 from pathlib import Path
 
 from reportlab.lib import colors
@@ -18,6 +19,20 @@ from reportlab.lib.units import cm
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.platypus import Image, Paragraph, SimpleDocTemplate, Spacer, Table, TableStyle
+
+def ensure_disk(path=None, min_gb=1.0):
+    """Stop before chart/PDF generation when the drive holding `path` (default:
+    the reports tree) has less than `min_gb` GB free (spec 5: stop if < 1 GB)."""
+    from .common import ROOT
+    p = Path(path) if path else ROOT / "reports"
+    while not p.exists() and p != p.parent:   # disk_usage needs an existing path
+        p = p.parent
+    free_gb = shutil.disk_usage(p).free / 1024 ** 3
+    if free_gb < min_gb:
+        raise RuntimeError(f"only {free_gb:.2f} GB free on the drive holding {p} "
+                           f"(need >= {min_gb:g} GB); free space before rebuilding reports")
+    return free_gb
+
 
 # dataviz tokens (see charts.py)
 INK = "#0b0b0b"
@@ -212,4 +227,77 @@ def md_to_pdf(md_path, pdf_path, images_dir=None, footer=None, title=None):
         topMargin=1.5 * cm, bottomMargin=1.7 * cm,
         title=title, author="Anjoman")
     doc.build(story, onFirstPage=footer, onLaterPages=footer)
+    return pdf_path
+
+
+# --------------------------------------------------------------------------
+# Persian (RTL) path: markdown -> HTML (dir=rtl) -> WeasyPrint. Follows the
+# 2026-10-10 precedent (reports/2026-10-10/fa/Anjoman_Financial_Report_FA.html);
+# reportlab cannot shape Arabic script, WeasyPrint (Pango/HarfBuzz) can.
+# --------------------------------------------------------------------------
+_RTL_NUM = re.compile(r"^[\s\-−+*—]*[۰-۹0-9][۰-۹0-9٬٫,.%٪:/\s→–\-+*()]*$")
+
+_RTL_CSS = """
+@page { size: A4; margin: 16mm 14mm 18mm;
+  @bottom-center { content: "%(footer)s | صفحه " counter(page, persian);
+    font-family: Tahoma; font-size: 7.5pt; color: %(muted)s; } }
+html { direction: rtl; }
+body { font-family: Tahoma, "DejaVu Sans", sans-serif; font-size: 9pt;
+  line-height: 1.75; color: %(ink2)s; }
+h1 { font-size: 17pt; color: %(ink)s; margin: 0 0 4mm; }
+h2 { font-size: 12.5pt; color: %(accent)s; border-bottom: 0.6pt solid %(grid)s;
+  padding-bottom: 1.5mm; margin-top: 7mm; break-after: avoid; }
+h3 { font-size: 10.5pt; color: %(ink)s; break-after: avoid; }
+p, li { text-align: right; overflow-wrap: anywhere; }
+code { font-family: Consolas, Tahoma, monospace; font-size: 0.92em;
+  direction: ltr; unicode-bidi: isolate; }
+table { width: 100%%; border-collapse: collapse; margin: 2mm 0 5mm;
+  font-size: 7.4pt; line-height: 1.55; direction: rtl; }
+table.wide { font-size: 6.2pt; }
+th { background: %(accent)s; color: white; text-align: right; padding: 1.6mm 1.4mm; }
+td { padding: 1.3mm 1.4mm; vertical-align: top; overflow-wrap: break-word;
+  border-bottom: 0.4pt solid %(grid)s; text-align: right; }
+td.num, th.num { direction: ltr; unicode-bidi: isolate;
+  white-space: nowrap; }
+tr:nth-child(even) td { background: %(zebra)s; }
+thead { display: table-header-group; }
+tr { break-inside: avoid; }
+img { max-width: 100%%; display: block; margin: 3mm auto; }
+"""
+
+
+def _mark_tables(html_body):
+    """Tag numeric cells (class=num) and wide tables (class=wide)."""
+    def table(m):
+        t = m.group(0)
+        ncols = len(re.findall(r"<th[ >]", t.split("</tr>", 1)[0]))
+        t = re.sub(r"<td([^>]*)>(.*?)</td>",
+                   lambda c: (f'<td{c.group(1)} class="num">{c.group(2)}</td>'
+                              if _RTL_NUM.match(re.sub(r"<[^>]+>", "", c.group(2)))
+                              else c.group(0)),
+                   t, flags=re.S)
+        if ncols > 8:
+            t = t.replace("<table>", '<table class="wide">', 1)
+        return t
+    return re.sub(r"<table>.*?</table>", table, html_body, flags=re.S)
+
+
+def md_to_html_rtl(md_text, title, footer):
+    import markdown
+    body = markdown.markdown(md_text, extensions=["tables", "fenced_code"])
+    body = _mark_tables(body)
+    css = _RTL_CSS % {"footer": footer.replace('"', "'"), "muted": MUTED, "ink": INK,
+                      "ink2": INK2, "accent": ACCENT, "grid": GRID, "zebra": ZEBRA}
+    return (f'<!DOCTYPE html>\n<html lang="fa" dir="rtl"><head><meta charset="utf-8">'
+            f"<title>{html.escape(title)}</title><style>{css}</style></head>"
+            f"<body>{body}</body></html>\n")
+
+
+def md_to_pdf_rtl(md_path, pdf_path, title, footer):
+    from weasyprint import HTML
+    md_path, pdf_path = Path(md_path), Path(pdf_path)
+    doc = md_to_html_rtl(md_path.read_text(encoding="utf-8"), title, footer)
+    html_path = pdf_path.with_suffix(".html")
+    html_path.write_text(doc, encoding="utf-8")
+    HTML(string=doc, base_url=str(md_path.parent)).write_pdf(str(pdf_path))
     return pdf_path

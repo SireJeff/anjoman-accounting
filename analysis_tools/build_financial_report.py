@@ -5,13 +5,21 @@ monthly aggregates must match a fresh recomputation from Transactions.csv on
 BOTH bases — all 96 rows and status-Supported rows — and the supported basis
 must reproduce reports/2026-10-10/final_checks.json exactly.
 """
+import argparse
+
 import pandas as pd
 
+from . import i18n
 from .common import ROOT, LEDGER_CSV, LEDGER_DIR, WINDOW_END, WINDOW_START, read_json
 from .correlate import _load_tx
-from .report_common import md_to_pdf
+from .i18n import t, term
+from .report_common import ensure_disk, md_to_pdf, md_to_pdf_rtl
 
 TOL = 0.5  # toman
+
+OUT = ROOT / "reports/2026-10-14/financial_monthly/Anjoman_Financial_Report_Monthly.md"
+OUT_FA = OUT.with_name("Anjoman_Financial_Report_Monthly_FA.md")
+FA_LEDGER = LEDGER_DIR / "fa/Accounting_Data_FA.json"
 
 # reference totals (toman). ALL = every ledger row regardless of status (the
 # monthly-table basis); SUPPORTED = status 'Supported' only (the headline,
@@ -89,41 +97,59 @@ def _n_msgs(greg):
     return by.to_dict()
 
 
-def _schedule_tables(title, key, months, cash, label_map):
+def img(alt_key, name, lang):
+    return f"![{t(alt_key, lang)}]({'charts' if lang == 'en' else 'charts_fa'}/{name}.png)"
+
+
+def _reason(r, lang, fa_rows):
+    """Review reason in the report language (R11)."""
+    if lang == "en":
+        return (r.get("review_reason") or r.get("notes") or "unresolved").strip()
+    row = fa_rows.get(r["id"])
+    if row is None:
+        raise i18n.CatalogError(f"{r['id']} missing from {FA_LEDGER.name}")
+    return (row.get("review_reason") or row.get("notes")
+            or t("fin.flag.unresolved", lang)).strip()
+
+
+def _schedule_tables(title, key, months, cash, label_map, lang, kind):
     """Category/project schedule, split by year so tables stay readable."""
     out = [f"## {title}", "",
-           "Gross flow per month (receipts and payments summed, all 96 rows, "
-           "all statuses). Month columns are Jalali; 1404 and 1405 split into "
-           "two tables for width.", ""]
+           t("fin.sched.gross_note", lang), ""]
     names = sorted({n for m in months for n in cash[m][key]},
                    key=lambda n: label_map.get(n, n))
     m04 = [m for m in months if m.startswith("1404/")]
     m05 = [m for m in months if m.startswith("1405/")]
     # the undated bucket gets ONE column (second table) so the two "All rows"
     # totals sum exactly to the grand total
-    for label, ms, with_und in (("1404", m04, False), ("1405 (+ undated*)", m05, True)):
-        cols = [m.split("/")[1] for m in ms] + (["Und*"] if with_und else [])
+    und_suffix = t("fin.sched.und_suffix", lang)
+    h0 = t("fin.sched.h_category", lang) if key == "by_category" else t("fin.sched.h_project", lang)
+    und_col = t("fin.sched.und_col", lang)
+    h_total = t("fin.sched.h_total", lang)
+    all_rows_label = t("fin.sched.all_rows", lang)
+    for label, ms, with_und in (("1404", m04, False), ("1405" + und_suffix, m05, True)):
+        cols = [m.split("/")[1] for m in ms] + ([und_col] if with_und else [])
         keys = ms + (["unknown"] if with_und else [])
         out += [f"### {label}", "",
-                "| " + " | ".join([key.split("_")[1].capitalize()] + cols + ["Total"]) + " |",
+                "| " + " | ".join([h0] + cols + [h_total]) + " |",
                 "|" + "---|" * (len(cols) + 2)]
         for n in names:
             vals = [cash[m][key].get(n, 0.0) for m in keys]
             if not any(vals):
                 continue
-            out.append("| " + label_map.get(n, n) + " | "
+            row_label = term(kind, n, lang, default=label_map.get(n, n))
+            out.append("| " + row_label + " | "
                        + " | ".join(fmt(v) for v in vals) + f" | {fmt(sum(vals))} |")
         col_tot = [sum(cash[m][key].get(n, 0.0) for n in names) for m in keys]
-        out.append("| **All rows** | " + " | ".join(f"**{fmt(v)}**" for v in col_tot)
+        out.append(f"| **{all_rows_label}** | " + " | ".join(f"**{fmt(v)}**" for v in col_tot)
                    + f" | **{fmt(sum(col_tot))}** |")
         out.append("")
-    out.append("The Und* column is the undated bucket (see the monthly summary "
-               "footnote); it appears once, in the second table.")
+    out.append(t("fin.sched.und_footnote", lang))
     out.append("")
     return out
 
 
-def build():
+def render(lang="en"):
     tx = _load_tx()
     tl = read_json(ROOT / "analysis/timeline.json")
     cash = tl["monthly_cashflow"]
@@ -139,61 +165,52 @@ def build():
           [f"1405/{m:02d}" for m in range(1, 8)]
     gap = [m for m in gap if m not in cash]
 
-    L = ["# Anjoman Financial Report — Monthly View (1404/04 – 1405/07)", "",
-         f"**Window:** {WINDOW_START} → {WINDOW_END} · **Source:** reconciled ledger "
-         f"of 2026-10-10 ({len(tx)} transactions, `Transactions.csv`). Derived view — "
-         "this report does not re-audit; Review-status transactions are flagged in "
-         "their own section below.", ""]
+    L = ["# " + t("fin.title", lang), "",
+         t("fin.intro", lang, start=i18n.dt(WINDOW_START, lang), end=i18n.dt(WINDOW_END, lang),
+           n=f"{len(tx)}"), ""]
 
     # -- monthly cashflow (ALL-rows basis, stated at the table) --------------
-    L += ["## Monthly cashflow summary (toman)", "",
-          f"Basis: **all {len(tx)} rows, every status** — including 4 Duplicate "
-          "payments, 22 Review items (among them TX0036, direction unknown) and "
-          "Invoice-only rows. The headline totals beneath the table are "
-          "supported-only.", "",
-          "| Jalali month | Gregorian range | Receipts | Payments | Net | Evidence |",
+    L += ["## " + t("fin.cash.h_title", lang), "",
+          t("fin.cash.basis", lang, n=f"{len(tx)}"), "",
+          "| " + " | ".join(t(k, lang) for k in (
+              "fin.cash.h_month", "fin.cash.h_greg", "fin.cash.h_receipts",
+              "fin.cash.h_payments", "fin.cash.h_net", "fin.cash.h_evidence")) + " |",
           "|---|---|---:|---:|---:|---:|"]
     for m in months:
         r, p = cash[m]["Receipts"], cash[m]["Payments"]
-        g = f'{gr.loc[m, "min"]} → {gr.loc[m, "max"]}' if m in gr.index else "—"
+        g = (f'{i18n.dt(gr.loc[m, "min"], lang)} {i18n.punct("arrow", lang)} '
+             f'{i18n.dt(gr.loc[m, "max"], lang)}'
+             if m in gr.index else "—")
         n = msgs.get(m, 0)
-        ev = f"{n} msg" if n == 1 else (f"{n} msgs" if n else "—")
-        L.append(f"| {m + '*' if m == 'unknown' else m} | {g} | {fmt(r)} | {fmt(p)} "
+        ev = (t("fin.cash.ev_one", lang, n=f"{n}") if n == 1 else
+              (t("fin.cash.ev_many", lang, n=f"{n}") if n else "—"))
+        label = (t("fin.cash.unknown_row", lang) + "*") if m == "unknown" else m
+        L.append(f"| {label} | {g} | {fmt(r)} | {fmt(p)} "
                  f"| {fmt(r - p)} | {ev} |")
-    L.append(f"| **Total (all rows)** |  | **{fmt(tot['all_r'])}** "
+    L.append(f"| **{t('fin.cash.total_row', lang)}** |  | **{fmt(tot['all_r'])}** "
              f"| **{fmt(tot['all_p'])}** | **{fmt(tot['all_r'] - tot['all_p'])}** "
-             f"| **{fmt(sum(msgs.values()))} msgs** |")
+             f"| **{t('fin.cash.total_msgs', lang, n=fmt(sum(msgs.values())))}** |")
     L += ["",
-          "The unknown* month row holds the two undated transactions — TX0060 "
-          "pomegranate/hospitality pre-payment invoice for Yalda (1,664,700) "
-          "and TX0096 declared alenush.com domain purchase (3,000,000) — which "
-          "carry no `period_jalali` and therefore share one bucket.",
+          t("fin.cash.unknown_note", lang),
           "",
-          f"**Totals — supported only (headline):** receipts {fmt(tot['sup_r'])} · "
-          f"payments {fmt(tot['sup_p'])} · net {fmt(tot['sup_r'] - tot['sup_p'])} "
-          "toman. Status `Supported` rows only — reproduces the 2026-10-10 "
-          "report's final checks exactly "
-          f"(`new_payments_total` {fc['new_payments_total']:,}, "
-          f"`new_net_activity` {fc['new_net_activity']:,}).",
+          t("fin.cash.totals_supported", lang, sup_r=fmt(tot['sup_r']), sup_p=fmt(tot['sup_p']),
+            net=fmt(tot['sup_r'] - tot['sup_p']), pay_total=f"{fc['new_payments_total']:,}",
+            net_activity=f"{fc['new_net_activity']:,}"),
           "",
-          f"**Totals — all rows:** receipts {fmt(tot['all_r'])} · payments "
-          f"{fmt(tot['all_p'])} · net {fmt(tot['all_r'] - tot['all_p'])} toman. "
-          "The table basis: the headline plus 4 Duplicate payments, 22 Review "
-          "items (incl. TX0036 and the declared domain purchase TX0096), 3 "
-          "Invoice-only rows and the Summary-only TX0094 gross-sales receipt.",
+          t("fin.cash.totals_all", lang, all_r=fmt(tot['all_r']), all_p=fmt(tot['all_p']),
+            net=fmt(tot['all_r'] - tot['all_p'])),
           "",
-          "![Monthly cashflow — receipts, payments and net by Jalali month]"
-          "(charts/cashflow_monthly.png)", ""]
+          img("fin.cash.chart_alt", "cashflow_monthly", lang), ""]
 
     # -- category & project schedules ---------------------------------------
-    L += _schedule_tables("Category schedule by month", "by_category", months,
-                          cash, CAT_LABELS)
-    L += _schedule_tables("Project schedule by month", "by_project", months,
-                          cash, PROJ_LABELS)
-    L += ["![Cumulative net cash across the ledger period]"
-          "(charts/cumulative_cash.png)", ""]
+    L += _schedule_tables(t("fin.sched.title_category", lang), "by_category", months,
+                          cash, CAT_LABELS, lang, "ledger_category")
+    L += _schedule_tables(t("fin.sched.title_project", lang), "by_project", months,
+                          cash, PROJ_LABELS, lang, "project")
+    L += [img("fin.cash.cum_chart_alt", "cumulative_cash", lang), ""]
 
     # -- flagged transactions -------------------------------------------------
+    fa_rows = {x["id"]: x for x in read_json(FA_LEDGER)["ledger"]} if lang == "fa" else {}
     review = [r for r in tx if r["status"] == "Review"]
     block = [r for r in review if r["id"] in VOLUNTEER_BLOCK]
     block_sum = sum(float(r["amount_toman"] or 0) for r in block)
@@ -202,29 +219,28 @@ def build():
     dup = [r for r in tx if r["status"] == "Duplicate"]
     inv = [r for r in tx if r["status"] == "Invoice only"]
     summ = [r for r in tx if r["status"] == "Summary only"]
-    L += ["## Flagged transactions (Review status)", "",
-          f"{len(review)} rows sit in Review — outside the supported headline, "
-          "inside the all-rows tables above. The ten December-1404 event "
-          "payments whose reasons are all volunteer-funded or scan-ambiguity "
-          "variants are grouped; the rest follow individually.", "",
-          "| ID / period | Direction | Amount | Why flagged |", "|---|---|---:|---|",
+    L += ["## " + t("fin.flag.h_title", lang), "",
+          t("fin.flag.intro", lang, n=f"{len(review)}"), "",
+          "| " + " | ".join(t(k, lang) for k in (
+              "fin.flag.h_id", "fin.flag.h_direction", "fin.flag.h_amount",
+              "fin.flag.h_reason")) + " |",
+          "|---|---|---:|---|",
           f"| {'–'.join([VOLUNTEER_BLOCK[0], VOLUNTEER_BLOCK[-1]])} (1404/10) "
-          f"| Payment | {fmt(block_sum)} | Grouped: volunteer-funded or "
-          "scan-ambiguous event payments (supports TX0050, TX0062/63 and the "
-          "Parnian reimbursement; several may be duplicate scans of one slip) |"]
+          f"| {term('direction', 'Payment', lang)} | {fmt(block_sum)} | "
+          + t("fin.flag.block_reason", lang) + " |"]
     for r in solo:
         amt = fmt(float(r["amount_toman"] or 0))
-        reason = (r.get("review_reason") or r.get("notes") or "unresolved").strip()
-        L.append(f"| {r['id']} ({_period(r)}) "
-                 f"| {r['direction']} | {amt} | {reason} |")
+        reason = _reason(r, lang, fa_rows)
+        period = _period(r)
+        period = t("fin.flag.period_undated", lang) if period == "undated" else period
+        direction = term("direction", r["direction"], lang)
+        L.append(f"| {r['id']} ({period}) "
+                 f"| {direction} | {amt} | {reason} |")
     L += ["",
-          f"Also outside the supported headline: {len(dup)} Duplicate payments "
-          f"({fmt(sum(float(r['amount_toman'] or 0) for r in dup))} toman), "
-          f"{len(inv)} Invoice-only rows "
-          f"({fmt(sum(float(r['amount_toman'] or 0) for r in inv))} toman, incl. "
-          "TX0060), and 1 Summary-only receipt "
-          f"({fmt(sum(float(r['amount_toman'] or 0) for r in summ))} toman, "
-          "TX0094 platform-reported gross ticket sales).", ""]
+          t("fin.flag.other_statuses", lang,
+            n_dup=f"{len(dup)}", dup_amt=fmt(sum(float(r['amount_toman'] or 0) for r in dup)),
+            n_inv=f"{len(inv)}", inv_amt=fmt(sum(float(r['amount_toman'] or 0) for r in inv)),
+            summ_amt=fmt(sum(float(r['amount_toman'] or 0) for r in summ))), ""]
 
     # -- evidence & time-of-day ----------------------------------------------
     mech = tl["mechanics"]
@@ -233,53 +249,55 @@ def build():
                     and e["category"] == "accounting_group"),
                    key=lambda e: WD_RANK.get(_wd_en(e["jalali_weekday"]), 99))
     est = tl["event_start_times"].get("association-website", {})
-    L += ["## Evidence and time-of-day notes", "",
-          "The Evidence column above counts ledger `message_ids` — the "
-          "accounting-group messages each month's rows are linked to. Where a "
-          "transaction links to messages, timestamps come from the Telegram "
-          "export and are **export-local (UTC+03:30)**: they show when the "
-          "treasurer posted, not necessarily when cash moved.", "",
-          f"Accounting-group hours holding at least 5 TX-linked messages "
-          f"(n ≥ 5 only, {len(tx_hours)} hours):", ""]
+    L += ["## " + t("fin.ev.h_title", lang), "",
+          t("fin.ev.intro", lang), "",
+          t("fin.ev.hours_intro", lang, n=f"{len(tx_hours)}"), ""]
     for e in sorted(tx_hours, key=lambda e: e["hour"]):
-        L.append(f"- {e['hour']:02d}:00 — {e['n']} TX-linked messages")
-    L += ["", "Weekday peaks in the accounting group (n ≥ 5): "
-          + ", ".join(f"{_wd_en(e['jalali_weekday'])} "
-                      f"{e['hour']:02d}:00 (n={e['n']})" for e in peaks) + ".", "",
-          "Caveats: these counts are **messages, not transactions**, and "
-          "start-time mention counts include deadline times. Example — the "
-          "money-linked association-website thread most often mentions start "
-          f"{est.get('mode')} (n={est.get('n')}), but its distinct times are "
-          f"{', '.join(est.get('times', []))}, so n counts a 23:59 deadline "
-          "alongside real starts.", ""]
+        L.append("- " + t("fin.ev.hour_line", lang, hour=f"{e['hour']:02d}", n=f"{e['n']}"))
+    items = i18n.punct("comma", lang).join(
+        t("fin.ev.peak_item", lang, weekday=term("weekday", _wd_en(e["jalali_weekday"]), lang),
+          hour=f"{e['hour']:02d}", n=f"{e['n']}") for e in peaks)
+    L += ["", t("fin.ev.peaks_line", lang, items=items), "",
+          t("fin.ev.caveat", lang, mode=f"{est.get('mode')}", n=f"{est.get('n')}",
+            times=i18n.punct("comma", lang).join(est.get('times', []))), ""]
 
     # -- caveats ---------------------------------------------------------------
-    L += ["## Caveats", "",
-          "- **Net activity is not closing cash.** Cash custodianship mixes "
-          "personal and association funds; opening cash and bank-reconciled "
-          "closing cash remain unavailable (2026-10-10 report, remaining gaps).",
-          "- **Monthly tables are all-rows basis** (stated at the table): every "
-          "status included. Only the headline totals are supported-only.",
-          "- **Review items are flagged, not resolved**: TX0096 (declared "
-          "3,000,000 domain purchase) and TX0036 (direction unknown, 300,000) "
-          "stay outside supported totals until date, funding and direction are "
-          "clarified.",
-          f"- **Window**: {WINDOW_START} → {WINDOW_END} fully covers the ledger "
-          "period 1404/04 – 1405/07; months with no ledger rows "
-          f"({', '.join(gap)}) are omitted from the tables.",
-          "- Derived from the reconciled 2026-10-10 ledger; this report does "
-          "not re-audit. Message timestamps are export-local (UTC+03:30).", ""]
+    L += ["## " + t("fin.cav.h_title", lang), "",
+          "- " + t("fin.cav.b1", lang),
+          "- " + t("fin.cav.b2", lang),
+          "- " + t("fin.cav.b3", lang),
+          "- " + t("fin.cav.b4", lang, start=i18n.dt(WINDOW_START, lang),
+                   end=i18n.dt(WINDOW_END, lang), gap=i18n.punct("comma", lang).join(gap)),
+          "- " + t("fin.cav.b5", lang), ""]
 
     text = "\n".join(L)
     assert "(auto:" not in text and "generate identically" not in text, \
         "placeholder text leaked into the report"
-    out = ROOT / "reports/2026-10-14/financial_monthly/Anjoman_Financial_Report_Monthly.md"
+    return i18n.localize(text) if lang == "fa" else text
+
+
+def build(lang="en"):
+    ensure_disk(OUT.parent)
+    text = render(lang)
+    out = OUT if lang == "en" else OUT_FA
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(text, encoding="utf-8")
-    md_to_pdf(out, out.with_suffix(".pdf"))
+    if lang == "en":
+        md_to_pdf(out, out.with_suffix(".pdf"))
+    else:
+        for c in ("cashflow_monthly", "cumulative_cash"):
+            assert (out.parent / "charts_fa" / f"{c}.png").exists(), f"missing charts_fa/{c}.png"
+        md_to_pdf_rtl(out, out.with_suffix(".pdf"),
+                      title="گزارش مالی ماهانهٔ انجمن علمی فیزیک",
+                      footer="انجمن علمی فیزیک | گزارش مالی ماهانه | ۱۴۰۵/۰۷/۲۲")
+        html = out.with_suffix(".html").read_text(encoding="utf-8")
+        for spot in ("۱۱۲٬۵۵۲٬۰۰۰", "۹۹٬۰۸۵٬۱۹۵", "۱۳٬۴۶۶٬۸۰۵"):
+            assert spot in html, f"FA spot string {spot} missing"
     print(f"[gate] reconciliation passed on both bases; wrote {out}")
     return out
 
 
 if __name__ == "__main__":
-    print(build())
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--lang", choices=("en", "fa"), default="en")
+    print(build(ap.parse_args().lang))
