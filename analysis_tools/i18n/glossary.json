@@ -9,7 +9,8 @@
     "website_tech": "وب‌سایت و فناوری",
     "community_social": "اجتماعی و گفت‌وگوی اعضا",
     "coordination_logistics": "هماهنگی و پشتیبانی",
-    "meta_noise": "پیام‌های حاشیه‌ای"
+    "meta_noise": "پیام‌های حاشیه‌ای",
+    "uncategorized": "دسته‌بندی‌نشده"
   },
   "chat": {
     "private_group": "گروه خصوصی",
@@ -61,6 +62,7 @@
     "Summer 1405": "تابستان ۱۴۰۵",
     "Fall 1405": "پاییز ۱۴۰۵"
   },
+  "validation": {"evidenced": "مستند", "unverified": "تأییدنشده"},
   "terms": {
     "thread": "رشته (موضوع)", "event thread": "رشتهٔ رویداد",
     "in-window": "درون بازه", "non-service": "غیرخدماتی",

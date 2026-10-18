@@ -39,3 +39,29 @@ def test_fin_gate_still_fires(monkeypatch, pseudo_fa):
     monkeypatch.setitem(fin.SUP_TOTALS, "Receipts", 1.0)
     with pytest.raises(AssertionError, match="gate FAILED"):
         fin.render("fa")
+
+
+from analysis_tools import build_performance_report as perf
+
+
+def test_perf_en_byte_identical():
+    assert perf.render("en") == perf.OUT.read_text(encoding="utf-8")
+
+
+def test_perf_fa_pseudo(pseudo_fa):
+    text = perf.render("fa")
+    assert "«FA»" in text
+    for c in ("activity_by_month", "category_breakdown", "weekday_hour_heat",
+              "hour_histogram", "event_timeline", "ecosystem_map"):
+        assert f"charts_fa/{c}.png" in text
+    assert "](charts/" not in text
+    assert not re.search(r"[0-9]", _unprotected(text)), "ASCII digit left unlocalized"
+    assert "۷۲۶٬۵۲۷" in text and "۱۳:۳۰" in text and "۲٬۶۹۴٬۷۵۰" in text
+    assert "گروه خصوصی" in text              # chat label via glossary
+
+
+def test_data_strings_in_sync():
+    en = i18n.catalog("en")
+    want = perf.collect_data_strings()
+    have = {k: v for k, v in en.items() if k.startswith("data.")}
+    assert have == want
