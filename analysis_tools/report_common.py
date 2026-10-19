@@ -11,6 +11,7 @@ import re
 import shutil
 from pathlib import Path
 
+from reportlab import rl_config
 from reportlab.lib import colors
 from reportlab.lib.enums import TA_RIGHT
 from reportlab.lib.pagesizes import A4
@@ -19,6 +20,13 @@ from reportlab.lib.units import cm
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.platypus import Image, Paragraph, SimpleDocTemplate, Spacer, Table, TableStyle
+
+# G7 (byte-reproducible outputs): pin the PDF /ID trailer and the
+# CreationDate/ModDate to constants instead of per-render clock values.
+# Must sit at module level, before any doc.build() call; visual output
+# is unchanged.  Without it, two renders of identical markdown produce
+# different PDF bytes and a rebuild dirties the committed file.
+rl_config.invariant = 1
 
 def ensure_disk(path=None, min_gb=1.0):
     """Stop before chart/PDF generation when the drive holding `path` (default:
@@ -293,11 +301,61 @@ def md_to_html_rtl(md_text, title, footer):
             f"<body>{body}</body></html>\n")
 
 
+def _sfnt_checksum(data):
+    """sfnt table checksum: big-endian 32-bit sum over zero-padded 4-byte
+    blocks."""
+    padded = bytes(data) + b"\0" * (-len(data) % 4)
+    total = 0
+    for i in range(0, len(padded), 4):
+        total = (total + int.from_bytes(padded[i:i + 4], "big")) & 0xFFFFFFFF
+    return total
+
+
+def _pin_font_stamps(document, pdf):
+    """write_pdf finisher: make the embedded font programs deterministic.
+
+    HarfBuzz's subsetter stamps each embedded font's head.modified field
+    with the render clock (and derives checkSumAdjustment and the head
+    directory checksum from it), so two renders of the same HTML differ in
+    a few bytes inside the FontFile2 streams.  This runs on the pydyf
+    object graph right before the trailer is written and pins those stamps
+    to a fixed value (the Mac epoch), recomputing the two affected
+    checksums exactly as the sfnt spec prescribes.  Glyph outlines, cmap
+    and metrics are untouched, so the rendered pages are identical to an
+    unstamped build (G7: byte-reproducible output, visual output
+    unchanged)."""
+    import pydyf
+    for obj in pdf.objects:
+        if not isinstance(obj, pydyf.Stream):
+            continue
+        if "Length1" not in obj.extra and obj.extra.get("Subtype") != "/OpenType":
+            continue
+        buf = bytearray(b"".join(obj.stream))
+        if buf[:4] not in (b"\x00\x01\x00\x00", b"OTTO", b"true"):
+            continue  # not a bare sfnt program we know how to patch
+        num_tables = int.from_bytes(buf[4:6], "big")
+        for i in range(num_tables):
+            e = 12 + 16 * i
+            if buf[e:e + 4] != b"head":
+                continue
+            off = int.from_bytes(buf[e + 8:e + 12], "big")
+            buf[off + 28:off + 36] = b"\0" * 8      # modified -> Mac epoch
+            zeroed = (bytes(buf[off:off + 8]) + b"\0\0\0\0"
+                      + bytes(buf[off + 12:off + 54]))
+            buf[e + 4:e + 8] = _sfnt_checksum(zeroed).to_bytes(4, "big")
+            buf[off + 8:off + 12] = b"\0\0\0\0"
+            adjustment = (0xB1B0AFBA - _sfnt_checksum(bytes(buf))) & 0xFFFFFFFF
+            buf[off + 8:off + 12] = adjustment.to_bytes(4, "big")
+        obj.stream = [bytes(buf)]
+        obj.extra["Length1"] = len(buf)
+
+
 def md_to_pdf_rtl(md_path, pdf_path, title, footer):
     from weasyprint import HTML
     md_path, pdf_path = Path(md_path), Path(pdf_path)
     doc = md_to_html_rtl(md_path.read_text(encoding="utf-8"), title, footer)
     html_path = pdf_path.with_suffix(".html")
     html_path.write_text(doc, encoding="utf-8")
-    HTML(string=doc, base_url=str(md_path.parent)).write_pdf(str(pdf_path))
+    HTML(string=doc, base_url=str(md_path.parent)).write_pdf(
+        str(pdf_path), finisher=_pin_font_stamps)
     return pdf_path

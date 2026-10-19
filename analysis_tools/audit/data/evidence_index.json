@@ -1,0 +1,1109 @@
+{
+  "rows": {
+    "TX0001": [
+      {
+        "ref": "message6; message7; message8",
+        "timestamp": "2025-07-24T20:47:03",
+        "shows": "Three course reports posted 2025-07-24 total 33,643 thousand toman of summer-school income, 1,000 toman above the ledgered 33,642,000."
+      },
+      {
+        "ref": "Anjoman accounting.xlsx!مرداد!B2 and !مجموع!B3",
+        "timestamp": null,
+        "shows": "Workbook records the 33,642,000-toman summer-school income as the Mordad block total."
+      },
+      {
+        "ref": "private_group message1533 / message1628 / message3155 / message3021",
+        "timestamp": "2025-07-19T00:20:42 .. 2025-07-22T16:10:55",
+        "shows": "Registration messages show fees paid into members' personal cards with a 2025-07-22 noon deadline and a later request to consolidate everything into the association card."
+      }
+    ],
+    "TX0002": [
+      {
+        "ref": "photos/photo_1@24-07-2025_21-00-16.jpg (message25)",
+        "timestamp": "2025-07-24T21:00:16",
+        "shows": "Bank Shahr transfer of 30,000,000 rial (3,000,000 toman) to Sohrab Maleki on 1404/05/02 20:52, ref 130034187178, for the Mathematica instructor fee."
+      }
+    ],
+    "TX0003": [
+      {
+        "ref": "photos/photo_2@24-07-2025_21-00-17.jpg (message26)",
+        "timestamp": "2025-07-24T21:00:17",
+        "shows": "Bank Shahr transfer of 35,000,000 rial (3,500,000 toman) to Amir-Mohammad Joshaghani on 1404/05/02 20:55, ref 130034190881, for the Python instructor fee."
+      }
+    ],
+    "TX0004": [
+      {
+        "ref": "photos/photo_3@24-07-2025_21-02-51.jpg (message27)",
+        "timestamp": "2025-07-24T21:02:51",
+        "shows": "Bank Shahr Pol transfer of 37,000,000 rial (3,700,000 toman) from deposit 400816808774 to Matin Jokartangi Kermi on 1404/05/02 21:01, tracking 140405020613114740052, for the LaTeX instructor fee."
+      },
+      {
+        "ref": "message28",
+        "timestamp": "2025-07-24T21:02:54",
+        "shows": "Bank SMS confirms the 37,000,000-rial Pol debit one second later with a 230,203,965-rial balance and no fee."
+      }
+    ],
+    "TX0005": [
+      {
+        "ref": "photos/photo_4@25-07-2025_04-04-24.jpg (message29)",
+        "timestamp": "2025-07-25T04:04:24",
+        "shows": "Bank Shahr transfer of 5,000,000 rial (500,000 toman) to Ebrahim Khosrani on 1404/05/03 04:03, ref 130034551287, for TA and form/sheet work."
+      }
+    ],
+    "TX0006": [
+      {
+        "ref": "photos/photo_5@25-07-2025_04-08-41.jpg (message30)",
+        "timestamp": "2025-07-25T04:08:41",
+        "shows": "Bank Shahr transfer of 6,000,000 rial (600,000 toman) to Sepehr Tala'i on 1404/05/03 04:07, ref 130034536896, for registration and Python TA work."
+      }
+    ],
+    "TX0007": [
+      {
+        "ref": "photos/photo_6@25-07-2025_15-53-39.jpg (message31)",
+        "timestamp": "2025-07-25T15:53:39",
+        "shows": "Bank Shahr transfer of 6,000,000 rial (600,000 toman) to Mohammad-Amin Azizi on 1404/05/03 15:52, ref 130035112458, for registration, accounting and Python TA work."
+      },
+      {
+        "ref": "message32; message33; message34",
+        "timestamp": "2025-07-25T17:26:11..17:34:21",
+        "shows": "SMS of the same debit shows 6,009,000 rial including a 9,000-rial fee and a 220,589,565-rial balance; the treasurer confirms it was the last payout."
+      }
+    ],
+    "TX0008": [
+      {
+        "ref": "message32",
+        "timestamp": "2025-07-25T17:26:11",
+        "shows": "SMS shows the debit as 6,009,000 rial against the 6,000,000-rial principal, establishing the 9,000-rial transfer fee."
+      }
+    ],
+    "TX0009": [
+      {
+        "ref": "photos/photo_8@12-08-2025_09-58-34.jpg (message44, forwarded, original date 19.07.2025 16:42:32)",
+        "timestamp": "2025-08-12T09:58:34",
+        "shows": "Bank Shahr transfer of 4,000,000 rial (400,000 toman) to Mohammad-Hossein Meshk-Afshan on 1404/04/28 16:41, ref 130018173424, for the summer-school ad."
+      },
+      {
+        "ref": "photos/photo_9@12-08-2025_09-58-34.jpg (message46)",
+        "timestamp": "2025-08-12T09:58:34",
+        "shows": "Screenshot shows the summer-school ad posted once in the Mohemat Sharif channel with 3,889 views."
+      },
+      {
+        "ref": "Anjoman accounting.xlsx!مرداد!D9 and !مجموع!D9",
+        "timestamp": null,
+        "shows": "Workbook records the 400,000-toman ad expense paid to Meshk-Afshan."
+      }
+    ],
+    "TX0010": [
+      {
+        "ref": "Anjoman accounting.xlsx!مجموع!D12",
+        "timestamp": null,
+        "shows": "Workbook lists a second 400,000-toman ad row outside the M2 formula range, duplicating the ad already booked in the Mordad sheet at D9."
+      },
+      {
+        "ref": "message55; message56; message57",
+        "timestamp": "2025-10-10T04:08:44..04:09:43",
+        "shows": "The treasurer's 2025-10-10 request to enter 'the keys, the Mohemat ad and the poster' is the only trace of this row; the TX0009 receipt shows a single payment."
+      }
+    ],
+    "TX0011": [
+      {
+        "ref": "photos/photo_7@11-08-2025_15-51-55.jpg (message42)",
+        "timestamp": "2025-08-11T15:51:55",
+        "shows": "Bank Shahr Pol transfer of 3,000,000 rial (300,000 toman) to Matin Jokartangi Kermi on 1404/05/20 15:47, tracking 140405200613117542670, for the make-up recording of LaTeX session 3."
+      },
+      {
+        "ref": "Anjoman accounting.xlsx!مرداد!D8",
+        "timestamp": null,
+        "shows": "Workbook records the 300,000-toman make-up recording fee."
+      }
+    ],
+    "TX0012": [
+      {
+        "ref": "photos/photo_10@15-08-2025_18-28-22.jpg (message47)",
+        "timestamp": "2025-08-15T18:28:22",
+        "shows": "Bank Shahr transfer of 3,000,000 rial (300,000 toman) to Amir-Mohammad Joshaghani on 1404/05/24 18:19, ref 130072269291, for the make-up recording of Python session 4."
+      },
+      {
+        "ref": "Anjoman accounting.xlsx!مجموع!D10",
+        "timestamp": null,
+        "shows": "Workbook records the 300,000-toman fee; it is absent from the earlier Mordad sheet."
+      }
+    ],
+    "TX0014": [
+      {
+        "ref": "Anjoman accounting.xlsx!شهریور!B2 and !مجموع!B15",
+        "timestamp": null,
+        "shows": "Workbook records 4,920,000 toman of intro-event entry fees held by Mohammad-Amin Azizi, with the 1,765,000-toman net implied by formula M3."
+      },
+      {
+        "ref": "message49",
+        "timestamp": "2025-09-27T11:43:22",
+        "shows": "Azizi, holding the event money, asks for the association card on 2025-09-27 in order to deposit the remaining event proceeds."
+      },
+      {
+        "ref": "message51",
+        "timestamp": "2025-10-01T18:02:44",
+        "shows": "Message announces the transfer of the event's net income to the main account together with the 17,650,000 transfer screenshot (TX0018)."
+      },
+      {
+        "ref": "channel message3123; message3136",
+        "timestamp": "2025-09-04T16:22 / 2025-09-09T22:28",
+        "shows": "Channel posts establish the intro event on 1404/06/15 with registration through the site."
+      }
+    ],
+    "TX0015": [
+      {
+        "ref": "photos/photo_11@04-09-2025_14-05-56.jpg (message48)",
+        "timestamp": "2025-09-04T14:05:56",
+        "shows": "Thermal POS slip shows a 1,000,000-rial (100,000-toman) print charge on 1404/06/14 12:26 for the intro-event poster and barcode, to be reimbursed to Azizi."
+      },
+      {
+        "ref": "message53; message54",
+        "timestamp": "2025-10-01T22:22:51..23:25:53",
+        "shows": "The treasurer asks whether the poster was deducted and Azizi confirms it was taken from the event money before the net transfer."
+      }
+    ],
+    "TX0016": [
+      {
+        "ref": "Anjoman accounting.xlsx!شهریور!D3 and !مجموع!D16",
+        "timestamp": null,
+        "shows": "Workbook records the 2,866,000-toman supplies procurement for the intro event by Azizi; no message or invoice in any chat shows this amount."
+      }
+    ],
+    "TX0017": [
+      {
+        "ref": "Anjoman accounting.xlsx!شهریور!D4 / مجموع!D17",
+        "timestamp": null,
+        "shows": "Workbook derives the 189,000-toman procurement fee for Ebrahim Khosrani as 3,055,000 minus the supplies amount; no message shows it."
+      }
+    ],
+    "TX0018": [
+      {
+        "ref": "photos/photo_12@01-10-2025_18-02-44.jpg (message51)",
+        "timestamp": "2025-10-01T18:02:44",
+        "shows": "Bank Maskan transfer of 17,650,000 (no unit printed) from Azizi's card to the association card on 1404/07/09 18:00, tracking 500318322689, labelled transfer of the event's net income."
+      },
+      {
+        "ref": "message49; message50",
+        "timestamp": "2025-09-27 / 2025-10-01T11:51:03",
+        "shows": "Azizi asks for the card holding the association's money so he can deposit the remaining event proceeds."
+      },
+      {
+        "ref": "message52",
+        "timestamp": "2025-10-01T22:22:43",
+        "shows": "A balance message reading 22,765,000 after the transfer is consistent with the net amount having been deducted."
+      }
+    ],
+    "TX0019": [
+      {
+        "ref": "photos/photo_15@15-10-2025_14-18-25.jpg (message63)",
+        "timestamp": "2025-10-15T14:18:25",
+        "shows": "Bank Shahr deposit of 5,000,000 rial (500,000 toman) into deposit 400816808774 on 1404/07/22 13:12 from Dr. Moghimi's card, balance field 565,800,163, for the assembly pastry."
+      },
+      {
+        "ref": "مجموع!B19",
+        "timestamp": null,
+        "shows": "Workbook records the 500,000-toman Moghimi donation for the professors-assembly pastry."
+      }
+    ],
+    "TX0020": [
+      {
+        "ref": "photos/photo_13@12-10-2025_10-24-38.jpg (message61)",
+        "timestamp": "2025-10-12T10:24:38",
+        "shows": "Bank Shahr transfer of 900,000 rial (90,000 toman) to Zahra Amiri on 1404/07/20 08:39, ref 130097475275, for printing the assembly and quantum poster."
+      },
+      {
+        "ref": "مجموع!D19",
+        "timestamp": null,
+        "shows": "Workbook records the 90,000-toman poster expense."
+      }
+    ],
+    "TX0021": [
+      {
+        "ref": "photos/photo_16@15-10-2025_14-18-26.jpg (message64)",
+        "timestamp": "2025-10-15T14:18:26",
+        "shows": "Bank Shahr POS debit of 7,900,000 rial (790,000 toman) at terminal 12926362 on 1404/07/20 14:29, tracking 692472, balance field 22,953,913, for tea-society supplies."
+      }
+    ],
+    "TX0022": [
+      {
+        "ref": "recipts/photo_1_2026-10-10_14-07-27.jpg",
+        "timestamp": null,
+        "shows": "A second screenshot of the same 7,900,000-rial withdrawal (same terminal 12926362, tracking 692472, deposit 400816808774, balance 22,953,913 rial) - a different capture of TX0021's transaction, not a second payment."
+      }
+    ],
+    "TX0023": [
+      {
+        "ref": "photos/photo_17@15-10-2025_14-18-26.jpg (message65)",
+        "timestamp": "2025-10-15T14:18:26",
+        "shows": "Bank Shahr POS debit of 9,128,500 rial at terminal 14594032 on 1404/07/20 10:38, tracking 373710, balance field 30,853,913, for the tea-society pastry."
+      },
+      {
+        "ref": "photos/photo_37@27-06-2026_18-27-12.jpg (message150)",
+        "timestamp": "2026-06-27T18:27:12",
+        "shows": "Order screen shows the pastry order delivered 1404/07/20 with 912,850 toman paid after a 45,150-toman discount."
+      }
+    ],
+    "TX0024": [
+      {
+        "ref": "photos/photo_14@15-10-2025_14-18-25.jpg (message62)",
+        "timestamp": "2025-10-15T14:18:25",
+        "shows": "Bank Shahr POS debit of 10,523,750 rial (1,052,375 toman) at terminal 14594032 on 1404/07/22 10:40, tracking 175854, balance field 560,800,163, for the professors-assembly pastry."
+      },
+      {
+        "ref": "photos/photo_36@27-06-2026_18-26-45.jpg (message149)",
+        "timestamp": "2026-06-27T18:26:45",
+        "shows": "Order screen itemizes the 1404/07/22 pastry order at 1,052,375 toman paid after discount."
+      },
+      {
+        "ref": "message105",
+        "timestamp": "2025-11-21T13:25:18",
+        "shows": "Recap line lists the 10,523,750-rial pastry debit at 1404/07/22 10:40:31."
+      }
+    ],
+    "TX0025": [
+      {
+        "ref": "Anjoman accounting.xlsx!مجموع!D23",
+        "timestamp": null,
+        "shows": "Workbook carries a second 1,052,375-toman pastry row (D23) beside D20; the M4 balance formula excludes it, matching its Duplicate status against TX0024."
+      },
+      {
+        "ref": "message105",
+        "timestamp": "2025-11-21T13:25:18",
+        "shows": "The recap lists the 1404/07/22 10:40 pastry debit once, supporting D20 as the original record."
+      }
+    ],
+    "TX0026": [
+      {
+        "ref": "photos/photo_20@28-10-2025_22-07-57.jpg (message71, forwarded from 'Mŏ̈bina', orig 28.10.2025 10:19:30)",
+        "timestamp": "2025-10-28T22:07:57",
+        "shows": "Paper bank receipt shows a 100,000,000-rial (10,000,000-toman) transfer into the association card on 1404/08/04 17:52, tracking 8723, from the former association's bank."
+      },
+      {
+        "ref": "message72; message75",
+        "timestamp": "2025-10-28T22:08:16 / 22:40:35",
+        "shows": "Messages label the receipt 'received from the former association' and total the two transfers at 11 million toman."
+      }
+    ],
+    "TX0027": [
+      {
+        "ref": "photos/photo_18@28-10-2025_01-53-01.jpg (message67, forwarded from 'Mŏ̈bina', orig 28.10.2025 00:13:04)",
+        "timestamp": "2025-10-28T01:53:01",
+        "shows": "Card-to-card transfer of 10,000,000 rial (1,000,000 toman) into the association card on 1404/08/05 20:02, ref 066592116416, the second former-association transfer."
+      },
+      {
+        "ref": "message73; message74; message75",
+        "timestamp": "2025-10-28T22:38:17..22:40:35",
+        "shows": "The exchange confirms this transfer is also from the former association, together with TX0026 totalling 11 million toman."
+      }
+    ],
+    "TX0028": [
+      {
+        "ref": "photos/photo_31@27-06-2026_18-24-39.jpg (message144, no caption)",
+        "timestamp": "2026-06-27T18:24:39",
+        "shows": "Mellat POS slip shows a 700,000-rial (70,000-toman) purchase on 1404/08/03 16:36, ref 324530191247, handwritten as tissues and toilet paper."
+      },
+      {
+        "ref": "message106",
+        "timestamp": "2025-11-21T13:25:31",
+        "shows": "Recap line lists the 700,000-rial tissue purchase at 1404/08/03 16:36:35."
+      }
+    ],
+    "TX0029": [
+      {
+        "ref": "message108 line 1",
+        "timestamp": "2025-11-21T13:25:55",
+        "shows": "Recap line lists a 3,100,000-rial (310,000-toman) projector-connector purchase on 1404/08/05 12:16:49; no receipt image exists for it."
+      },
+      {
+        "ref": "مجموع!D31",
+        "timestamp": null,
+        "shows": "Workbook records the 310,000-toman connector purchase."
+      }
+    ],
+    "TX0030": [
+      {
+        "ref": "message108 line 2",
+        "timestamp": "2025-11-21T13:25:55",
+        "shows": "Recap line lists a 17,600,000-rial (1,760,000-toman) electrical-guard and tools purchase on 1404/08/05 12:24:15; no receipt image exists for it."
+      },
+      {
+        "ref": "مجموع!D32",
+        "timestamp": null,
+        "shows": "Workbook records the 1,760,000-toman purchase."
+      }
+    ],
+    "TX0031": [
+      {
+        "ref": "photos/photo_40@27-06-2026_18-31-08.jpg (message153)",
+        "timestamp": "2026-06-27T18:31:08",
+        "shows": "Zoomed POS slip at Sharif Plus reads 2,300,000 rial (230,000 toman) on 1404/08/05 13:13, terminal 6723260, not the ledgered 2,350,000."
+      },
+      {
+        "ref": "message108 line 3",
+        "timestamp": "2025-11-21T13:25:55",
+        "shows": "Recap line independently lists 2,300,000 rial for the booth catering at the same timestamp."
+      }
+    ],
+    "TX0032": [
+      {
+        "ref": "photos/photo_19@28-10-2025_01-58-07.jpg (message69)",
+        "timestamp": "2025-10-28T01:58:07",
+        "shows": "Bank Shahr transfer of 7,250,000 rial (725,000 toman) to Nima Kuhi on 1404/08/06 01:57, ref 130031981359, for the video-camera battery."
+      },
+      {
+        "ref": "files/dk-file-2025-10-16-14-43-08.pdf p1 (message66, forwarded from 'Matin (Korosh) Ghassami', orig 16.10.2025)",
+        "timestamp": "2025-10-20T13:05:39",
+        "shows": "Digikala invoices itemize the 7,250,000-rial battery purchase (6,960,000 battery plus 290,000 shipping and insurance)."
+      }
+    ],
+    "TX0033": [
+      {
+        "ref": "photos/photo_33@27-06-2026_18-25-49.jpg (message146)",
+        "timestamp": "2026-06-27T18:25:49",
+        "shows": "Refah POS slip shows a 14,440,000-rial (1,444,000-toman) stationery purchase on 1404/08/07 15:18, terminal 6625182, for freshman-party prizes."
+      },
+      {
+        "ref": "message107 line 1",
+        "timestamp": "2025-11-21T13:25:42",
+        "shows": "Recap line lists the 14,440,000-rial prize purchase at 1404/08/07 15:18:06."
+      }
+    ],
+    "TX0034": [
+      {
+        "ref": "photos/photo_35@27-06-2026_18-26-22.jpg (message148)",
+        "timestamp": "2026-06-27T18:26:22",
+        "shows": "Handwritten invoice to the physics association for flash drives and handsfrees totals 15,000,000 rial with an attached POS slip at 1404/08/07 15:23:42."
+      },
+      {
+        "ref": "message107 line 2",
+        "timestamp": "2025-11-21T13:25:42",
+        "shows": "Recap line lists the 15,000,000-rial prize purchase at 1404/08/07 15:23:42."
+      }
+    ],
+    "TX0035": [
+      {
+        "ref": "message107 line 3",
+        "timestamp": "2025-11-21T13:25:42",
+        "shows": "Recap line lists a 14,000,000-rial (1,400,000-toman) prize purchase on 1404/08/07 15:32:21."
+      },
+      {
+        "ref": "photos/photo_34@27-06-2026_18-26-03.jpg (message147)",
+        "timestamp": "2026-06-27T18:26:03",
+        "shows": "Handwritten invoice itemizes prizes totalling 1,435,000 toman with the grand total partly illegible and no bracelet line legible, so the 1,400,000 figure is not directly confirmed."
+      }
+    ],
+    "TX0013": [
+      {
+        "ref": "original ledger",
+        "timestamp": null,
+        "shows": "amount and counterparty as recorded in the 2026-10-10 reconciliation; no external document located"
+      }
+    ],
+    "TX0036": [
+      {
+        "ref": "message111",
+        "timestamp": "2025-11-21T13:33:16",
+        "shows": "Note reads '300,000 toman, also the party's cash shabash', stating the amount but not whether the cash was collected or paid out."
+      },
+      {
+        "ref": "message105-message110",
+        "timestamp": "2025-11-21T13:25:18..13:26:19",
+        "shows": "The note follows six minus-signed bank-statement debit lines, continuing the expense list without a sign of its own."
+      },
+      {
+        "ref": "Anjoman accounting.xlsx!مجموع!D29",
+        "timestamp": null,
+        "shows": "Workbook books the 300,000 toman in the expense column and the Aban balance formula subtracts it."
+      },
+      {
+        "ref": "channel message3212",
+        "timestamp": "2025-10-27T21:02:48",
+        "shows": "The freshman party was held on 1404/08/07, bounding the transaction date."
+      }
+    ],
+    "TX0037": [
+      {
+        "ref": "photos/photo_21@09-11-2025_23-16-09.jpg (message90)",
+        "timestamp": "2025-11-09T23:16:09",
+        "shows": "Shadzi invoice 29449 shows four balloon-glue sticks for 1,200,000 rial (120,000 toman) bought 1404/08/07 15:12."
+      },
+      {
+        "ref": "photos/photo_23@14-11-2025_04-07-19.jpg (message99)",
+        "timestamp": "2025-11-14T04:07:19",
+        "shows": "Bank Shahr transfer of 1,200,000 rial to Ardavan Shahbazi on 1404/08/23 04:03, tracking 130065814259, reimbursing the balloon glue."
+      },
+      {
+        "ref": "Anjoman accounting.xlsx!مجموع!D26",
+        "timestamp": null,
+        "shows": "Workbook records the 120,000-toman expense paid to Shahbazi."
+      }
+    ],
+    "TX0038": [
+      {
+        "ref": "photos/photo_22@09-11-2025_23-16-15.jpg (message91)",
+        "timestamp": "2025-11-09T23:16:15",
+        "shows": "Shadzi invoice 29350 itemizes 13,100,000 rial (1,310,000 toman) of party decorations bought 1404/08/06 13:40."
+      },
+      {
+        "ref": "photos/photo_24@14-11-2025_04-07-19.jpg (message100)",
+        "timestamp": "2025-11-14T04:07:19",
+        "shows": "Bank Shahr transfer of 13,100,000 rial to Seyedeh Raheleh Mokhtari on 1404/08/23 04:06, tracking 130065885759, reimbursing the decorations."
+      },
+      {
+        "ref": "Anjoman accounting.xlsx!مجموع!D27",
+        "timestamp": null,
+        "shows": "Workbook records the 1,310,000-toman decoration expense."
+      }
+    ],
+    "TX0039": [
+      {
+        "ref": "message109",
+        "timestamp": "2025-11-21T13:26:09",
+        "shows": "Recap line lists a 12,261,000-rial (1,226,100-toman) first-aid medicine purchase on 1404/08/28 06:49:28; no receipt image exists for it."
+      },
+      {
+        "ref": "Anjoman accounting.xlsx!مجموع!D34",
+        "timestamp": null,
+        "shows": "Workbook records the 1,226,100-toman medicine purchase."
+      }
+    ],
+    "TX0040": [
+      {
+        "ref": "message110",
+        "timestamp": "2025-11-21T13:26:19",
+        "shows": "Recap line lists a 23,000-rial (2,300-toman) rules-printing charge on 1404/08/28 12:55:53; no receipt image exists for it."
+      },
+      {
+        "ref": "Anjoman accounting.xlsx!مجموع!D35",
+        "timestamp": null,
+        "shows": "Workbook records the 2,300-toman printing charge."
+      }
+    ],
+    "TX0041": [
+      {
+        "ref": "message110",
+        "timestamp": "2025-11-21T13:26:19",
+        "shows": "Recap line lists a 13,000-rial (1,300-toman) rules-printing charge on 1404/08/28 12:55:53; no receipt image exists for it."
+      },
+      {
+        "ref": "photos/photo_32@27-06-2026_18-24-52.jpg (message145)",
+        "timestamp": "2026-06-27T18:24:52",
+        "shows": "A same-day POS slip at the print shop shows 130,000 rial (TX0042), exactly ten times this line, so the two are distinct charges."
+      }
+    ],
+    "TX0042": [
+      {
+        "ref": "photos/photo_32@27-06-2026_18-24-52.jpg (message145)",
+        "timestamp": "2026-06-27T18:24:52",
+        "shows": "POS slip at Kopi Aram Graphic shows a 130,000-rial (13,000-toman) poster print on 1404/08/28 12:35:53, terminal 15283664, ref 856401535048."
+      },
+      {
+        "ref": "message110",
+        "timestamp": "2025-11-21T13:26:19",
+        "shows": "The recap lists only the 23,000 and 13,000 rules-printing lines for that day, not this poster print."
+      }
+    ],
+    "TX0043": [
+      {
+        "ref": "recipts/photo_4_2026-10-10_14-07-27.jpg",
+        "timestamp": null,
+        "shows": "Bank Shahr withdrawal of 10,200,000 rial (1,020,000 toman) from deposit 400816808774 on 1404/09/02 13:21, terminal 06723260, tracking 406547, balance after 121,745,270 rial."
+      }
+    ],
+    "TX0044": [
+      {
+        "ref": "photos/photo_25@19-11-2025_11-46-31.jpg (message102, forwarded from Saman Moghimi, original 19.11.2025 11:44:07)",
+        "timestamp": "2025-11-19T11:46:31",
+        "shows": "Transfer-screen crop from Saman Moghimi shows a 100,000,000-rial (10,000,000-toman) remittance to the association card; the crop carries no date or tracking number."
+      },
+      {
+        "ref": "message101",
+        "timestamp": "2025-11-19T11:46:31",
+        "shows": "Caption labels the deposit as Dr. Moghimi's contribution toward the association's running costs."
+      },
+      {
+        "ref": "message103 (forwarded from Saman Moghimi, original 19.11.2025 11:44:07)",
+        "timestamp": "2025-11-19T11:46:31",
+        "shows": "The sender's note 'this is ten million for now' implies further giving (TX0045 and TX0046)."
+      },
+      {
+        "ref": "Anjoman accounting.xlsx!مجموع!B38",
+        "timestamp": null,
+        "shows": "Workbook books the 10,000,000-toman donation in the Azar block."
+      }
+    ],
+    "TX0046": [
+      {
+        "ref": "photos/photo_26@21-12-2025_05-36-21.jpg (message112)",
+        "timestamp": "2025-12-21T05:36:21",
+        "shows": "Transfer of 60,000,000 rial (6,000,000 toman) from Moghimi's card to the association card on 1404/09/28 19:02:45, transaction 171502426735."
+      },
+      {
+        "ref": "Anjoman accounting.xlsx!مجموع!B40",
+        "timestamp": null,
+        "shows": "Workbook books the 6,000,000-toman donation."
+      }
+    ],
+    "TX0047": [
+      {
+        "ref": "message115",
+        "timestamp": "2026-02-16T15:49:32",
+        "shows": "Bank SMS lines show Sepah deposit credits of 1,500,000, 5,000,000 and 10,000,000 rial and a 100,037,800-rial withdrawal on 1404/10/01-02."
+      },
+      {
+        "ref": "message116",
+        "timestamp": "2026-02-16T15:50:28",
+        "shows": "The treasurer's summary counts 15,790,000 of bank donations plus 700,000 cash collected for Yalda."
+      },
+      {
+        "ref": "message121 (reply to message116)",
+        "timestamp": "2026-02-21T02:54:33",
+        "shows": "A reply confirms the collective-support income equals the sum of those two figures."
+      },
+      {
+        "ref": "Anjoman accounting.xlsx!مجموع!B42",
+        "timestamp": null,
+        "shows": "Workbook books the 15,790,000-toman Yalda donation."
+      }
+    ],
+    "TX0048": [
+      {
+        "ref": "message116",
+        "timestamp": "2026-02-16T15:50:28",
+        "shows": "The treasurer's summary counts 700,000 of cash donations for the Yalda party."
+      },
+      {
+        "ref": "message121",
+        "timestamp": "2026-02-21T02:54:33",
+        "shows": "A reply confirms the cash figure adds into the collective-support income."
+      },
+      {
+        "ref": "Anjoman accounting.xlsx!مجموع!B43",
+        "timestamp": null,
+        "shows": "Workbook books the 700,000-toman cash donation."
+      }
+    ],
+    "TX0049": [
+      {
+        "ref": "message115",
+        "timestamp": "2026-02-16T15:49:32",
+        "shows": "SMS line shows a 100,037,800-rial withdrawal on 1404/10/01 10:29 leaving a 30,945,051-rial balance."
+      },
+      {
+        "ref": "message120 (reply to message118)",
+        "timestamp": "2026-02-21T02:53:32",
+        "shows": "The treasurer explains the withdrawal covered card-to-card expenses and was included only so the deposits could be totalled."
+      },
+      {
+        "ref": "arithmetic on message115",
+        "timestamp": null,
+        "shows": "Balance arithmetic (130,982,851 minus 100,037,800 equals 30,945,051) fixes the SMS unit as rial, i.e. 10,003,780 toman."
+      }
+    ],
+    "TX0059": [
+      {
+        "ref": "photos/photo_39@27-06-2026_18-29-10.jpg (message152)",
+        "timestamp": "2026-06-27T18:29:10",
+        "shows": "Bank Shahr transfer of 1,800,000 rial (180,000 toman) to Dina Zali on 1404/10/09 04:40, tracking 130062165421, for the Yalda fortune-band string."
+      }
+    ],
+    "TX0060": [
+      {
+        "ref": "photos/photo_38@27-06-2026_18-27-25.jpg (message151)",
+        "timestamp": "2026-06-27T18:27:25",
+        "shows": "Order-history screen shows a Yalda catering order totalling 1,664,700 toman (1,609,300 order plus 40,400 shipping and 15,000 service); no date, order number or payer is shown."
+      },
+      {
+        "ref": "channel message3304",
+        "timestamp": "2025-12-21T17:45:00",
+        "shows": "The Yalda party was held on 1404/10/03, bounding the purchase."
+      }
+    ],
+    "TX0050": [
+      {
+        "ref": "anjoman_accounting_group_export/photos/photo_45@27-06-2026_18-36-09.jpg (message159)",
+        "timestamp": "2026-06-27T18:36:09 (forwarded; original 2025-12-29T00:50:11)",
+        "shows": "Bank Shahr transfer of 21,370,000 rial (2,137,000 toman) to Seyed-Bardia Ahmadi-Morvast on 1404/10/08 00:49, tracking 130060015629, reimbursing Yalda prizes and catering."
+      },
+      {
+        "ref": "message154",
+        "timestamp": "2026-06-27T18:36:09 (forwarded; original Bardia 2025-12-25T19:23:28)",
+        "shows": "Bardia's itemization lists volunteer purchases of 400, 250, 600, 1,162 and 887 thousand toman, with the 600 receipt and the 1,162 invoice missing."
+      },
+      {
+        "ref": "Anjoman accounting.xlsx!مجموع!D42",
+        "timestamp": null,
+        "shows": "Workbook books the 2,137,000-toman Yalda prize-and-catering reimbursement."
+      }
+    ],
+    "TX0051": [
+      {
+        "ref": "anjoman_accounting_group_export/photos/photo_48@27-06-2026_18-43-30.jpg (message165)",
+        "timestamp": "2026-06-27T18:43:30",
+        "shows": "A re-encoded copy of the same 21,370,000-rial transfer slip to Ahmadi-Morvast (1404/10/08 00:49, tracking 130060015629) - the same transaction as TX0050, not a second payment."
+      }
+    ],
+    "TX0052": [
+      {
+        "ref": "anjoman_accounting_group_export/photos/photo_42@27-06-2026_18-36-09.jpg (message156)",
+        "timestamp": "2026-06-27T18:36:09 (forwarded; original Bardia 2025-12-25T19:23:48)",
+        "shows": "Bank Melli transfer of 4,000,000 rial (400,000 toman) from Bardia's card to Sanaz Behrami on 1404/10/01 17:50, tracking 705679, for keychain purchases."
+      }
+    ],
+    "TX0053": [
+      {
+        "ref": "anjoman_accounting_group_export/photos/photo_41@27-06-2026_18-36-09.jpg (message155)",
+        "timestamp": "2026-06-27T18:36:09 (forwarded; original Bardia 2025-12-25T19:23:48)",
+        "shows": "Bank Melli transfer of 2,500,000 rial (250,000 toman) from Bardia's card to Parvin Haqverdi on 1404/10/01 17:55, tracking 269183, for keychain purchases."
+      }
+    ],
+    "TX0054": [
+      {
+        "ref": "anjoman_accounting_group_export/photos/photo_43@27-06-2026_18-36-09.jpg (message157)",
+        "timestamp": "2026-06-27T18:36:09 (forwarded; original Bardia 2025-12-25T19:32:19)",
+        "shows": "POS debit of 6,000,000 rial (600,000 toman) on Bardia's card on 1404/10/01 18:41, tracking 14000623, for watermelon and small pomegranates; the receipt is absent."
+      }
+    ],
+    "TX0055": [
+      {
+        "ref": "anjoman_accounting_group_export/photos/photo_44@27-06-2026_18-36-09.jpg (message158)",
+        "timestamp": "2026-06-27T18:36:09 (forwarded; original Bardia 2025-12-25T19:32:19)",
+        "shows": "POS debit of 11,625,840 rial on Bardia's card on 1404/10/02 17:13, tracking 14482839, for sandwiches and jelly; the invoice was lost."
+      },
+      {
+        "ref": "message164",
+        "timestamp": "2026-06-27T18:43:30",
+        "shows": "The itemization lists the 1,162-thousand sandwich and 887-thousand jelly components as coming from the lost invoice."
+      }
+    ],
+    "TX0056": [
+      {
+        "ref": "anjoman_accounting_group_export/photos/photo_46@27-06-2026_18-38-52.jpg (message161)",
+        "timestamp": "2026-06-27T18:38:52 (forwarded; original hossein 2025-12-26T21:51:06)",
+        "shows": "Canbo Tarasht receipt shows a 21,500,000-rial (2,150,000-toman) purchase of 32 jelly powders and 2 cherry syrups on 1404/10/01 19:57, barcode 99T0S85F5ZMDN8E."
+      }
+    ],
+    "TX0057": [
+      {
+        "ref": "anjoman_accounting_group_export/photos/photo_47@27-06-2026_18-43-30.jpg (message164)",
+        "timestamp": "2026-06-27T18:43:30",
+        "shows": "A re-encoded copy of the same Canbo receipt (1404/10/01 19:57, 21,500,000 rial, barcode 99T0S85F5ZMDN8E) - the same transaction as TX0056."
+      }
+    ],
+    "TX0058": [
+      {
+        "ref": "message162",
+        "timestamp": "2026-06-27T18:38:52 (forwarded; original hossein 2025-12-26T21:52:41)",
+        "shows": "Note attributes the 165-thousand-toman line to paper and markers."
+      },
+      {
+        "ref": "message163",
+        "timestamp": "2026-06-27T18:38:52 (forwarded; original hossein 2025-12-26T21:53:41)",
+        "shows": "Note attributes the 60- and 50-thousand-toman lines to roadside sweets."
+      },
+      {
+        "ref": "message164",
+        "timestamp": "2026-06-27T18:43:30",
+        "shows": "The itemization lists the paper-and-markers and roadside-sweets lines within a 4,837-thousand-toman volunteer total; no receipts exist for them."
+      }
+    ],
+    "TX0062": [
+      {
+        "ref": "anjoman_accounting_group_export/photos/photo_28@17-05-2026_19-45-07.jpg (message126)",
+        "timestamp": "2026-05-17T19:45:07",
+        "shows": "Bank Shahr transfer of 15,500,000 rial (1,550,000 toman) to Parnian Asgari on 1405/02/24 12:57, tracking 130035640932, labelled 'settlement 1.5 of 4.05 of the Yalda party expenses'."
+      },
+      {
+        "ref": "message124",
+        "timestamp": "2026-05-17T19:45:07 (forwarded; original Parnian 2026-05-13T13:19:49)",
+        "shows": "Parnian's 11-page scanned receipt bundle (forwarded 2026-05-13) documents the underlying Yalda purchases."
+      }
+    ],
+    "TX0063": [
+      {
+        "ref": "anjoman_accounting_group_export/photos/photo_27@17-05-2026_19-45-07.jpg (message125)",
+        "timestamp": "2026-05-17T19:45:07 (forwarded; original 2026-05-17T18:38:53)",
+        "shows": "Bank Shahr transfer of 25,000,000 rial (2,500,000 toman) to Parnian Asgari on 1405/02/27 18:13, tracking 130014131832, labelled 'settlement 2.5 of 4.05 of the Yalda party'."
+      },
+      {
+        "ref": "message124",
+        "timestamp": "2026-05-17T19:45:07 (forwarded; original Parnian 2026-05-13T13:19:49)",
+        "shows": "Parnian's 11-page scanned receipt bundle (forwarded 2026-05-13) documents the underlying Yalda purchases."
+      }
+    ],
+    "TX0064": [
+      {
+        "ref": "anjoman_accounting_group_export/files/CamScanner 13-05-2026 12.43 (1).pdf p1",
+        "timestamp": null,
+        "shows": "Canbo Tarasht receipt: 1,074,000 rial (107,400 toman) of cheese snacks on 1404/10/02 18:48 after discount."
+      },
+      {
+        "ref": "anjoman_accounting_group_export/files/CamScanner 13-05-2026 12.43 (1).pdf p1",
+        "timestamp": null,
+        "shows": "Overlaid POS slips show a 1,790,000-rial debit on the reimbursement destination card at 1404/10/02 18:47:06."
+      },
+      {
+        "ref": "message124",
+        "timestamp": "2026-05-17T19:45:07 (forwarded; original Parnian 2026-05-13T13:19:49)",
+        "shows": "Parnian's 11-page scanned receipt bundle documents the Yalda purchases being reimbursed."
+      }
+    ],
+    "TX0065": [
+      {
+        "ref": "anjoman_accounting_group_export/files/CamScanner 13-05-2026 12.43 (1).pdf p2",
+        "timestamp": null,
+        "shows": "Canbo Tarasht receipt: 1,790,000 rial (179,000 toman) of cheese snacks on 1404/10/02 18:47."
+      }
+    ],
+    "TX0066": [
+      {
+        "ref": "anjoman_accounting_group_export/files/CamScanner 13-05-2026 12.43 (1).pdf p3",
+        "timestamp": null,
+        "shows": "Canbo Tarasht receipt: 1,790,000 rial (179,000 toman) of cheese snacks on 1404/10/02 18:48."
+      }
+    ],
+    "TX0067": [
+      {
+        "ref": "anjoman_accounting_group_export/files/CamScanner 13-05-2026 12.43 (1).pdf p4",
+        "timestamp": null,
+        "shows": "Canbo Tarasht receipt: 1,790,000 rial (179,000 toman) of cheese snacks on 1404/10/02 18:46 (unstamped, faint barcode 99TD8856BX8Y71R)."
+      }
+    ],
+    "TX0068": [
+      {
+        "ref": "anjoman_accounting_group_export/files/CamScanner 13-05-2026 12.43 (1).pdf p5",
+        "timestamp": null,
+        "shows": "Canbo Tarasht receipt: 1,790,000 rial (179,000 toman) of cheese snacks on 1404/10/02 18:47."
+      }
+    ],
+    "TX0069": [
+      {
+        "ref": "anjoman_accounting_group_export/files/CamScanner 13-05-2026 12.43 (1).pdf p6",
+        "timestamp": null,
+        "shows": "Canbo Tarasht receipt: 1,790,000 rial (179,000 toman) of cheese snacks on 1404/10/02 18:46, with the stamp across the barcode."
+      }
+    ],
+    "TX0070": [
+      {
+        "ref": "anjoman_accounting_group_export/files/CamScanner 13-05-2026 12.43 (1).pdf p7",
+        "timestamp": null,
+        "shows": "HyperFamili receipt: 19,166,400 rial (1,916,640 toman) for 99 cheese snacks on 1404/10/02 after a 2,613,600-rial discount, barcode 99T00AUDQUGIYFZ."
+      }
+    ],
+    "TX0071": [
+      {
+        "ref": "anjoman_accounting_group_export/files/CamScanner 13-05-2026 12.43 (1).pdf p8",
+        "timestamp": null,
+        "shows": "Ekano POS slip: a 1,357,999-rial chocolate tablet on 1404/10/03 11:36 paid from the reimbursement card - the fractional rial amount behind the ledger's 135,799.9 toman."
+      }
+    ],
+    "TX0072": [
+      {
+        "ref": "anjoman_accounting_group_export/files/CamScanner 13-05-2026 12.43 (1).pdf p9",
+        "timestamp": null,
+        "shows": "Canbo Tarasht Metro receipt: 1,790,000 rial (179,000 toman) of cheese snacks on 1404/10/02 18:56, barcode 99T1XLWSMFVK3PB."
+      }
+    ],
+    "TX0073": [
+      {
+        "ref": "anjoman_accounting_group_export/files/CamScanner 13-05-2026 12.43 (1).pdf p10",
+        "timestamp": null,
+        "shows": "Canbo Tarasht Metro receipt: 1,253,000 rial (125,300 toman) for 7 cheese snacks on 1404/10/02 18:56 after discount."
+      }
+    ],
+    "TX0074": [
+      {
+        "ref": "anjoman_accounting_group_export/files/CamScanner 13-05-2026 12.43 (1).pdf p11",
+        "timestamp": null,
+        "shows": "Handwritten Ribar coffee invoice for chocolate cookies totalling 4,950,000 rial (495,000 toman), dated 1404/10/03; no payment proof is attached."
+      },
+      {
+        "ref": "message128",
+        "timestamp": "2026-05-17T20:16:06",
+        "shows": "The treasurer explains the bundle contains Yalda cookies and items Parnian had sent late."
+      }
+    ],
+    "TX0061": [
+      {
+        "ref": "recipts/photo_6_2026-10-10_14-07-27.jpg",
+        "timestamp": null,
+        "shows": "Bank Shahr withdrawal of 18,012,200 rial (1,801,220 toman) from deposit 400816808774 to a personal card on 1404/12/09 10:10, balance after 12,262,895 rial; no tracking number or payee printed."
+      }
+    ],
+    "TX0075": [
+      {
+        "ref": "recipts/photo_3_2026-10-10_14-07-27.jpg",
+        "timestamp": null,
+        "shows": "Bank Shahr withdrawal of 63,370,000 rial (6,337,000 toman) from deposit 400816808774 on 1405/05/21 17:43, terminal 80957455, tracking printed 001873 against the ledger's 187300, balance after 260,305,702 rial."
+      }
+    ],
+    "TX0076": [
+      {
+        "ref": "recipts/photo_2_2026-10-10_14-07-27.jpg",
+        "timestamp": null,
+        "shows": "Bank Shahr withdrawal of 11,000,000 rial (1,100,000 toman) on 1405/05/22 15:05, terminal 09039608, tracking 308839, balance after 217,675,702 rial."
+      }
+    ],
+    "TX0077": [
+      {
+        "ref": "recipts/photo_5_2026-10-10_14-07-27.jpg",
+        "timestamp": null,
+        "shows": "Bank Shahr withdrawal of 13,200,000 rial (1,320,000 toman) on 1405/05/22 15:11, terminal 09039608, tracking 666086, balance after 204,475,702 rial."
+      }
+    ],
+    "TX0078": [
+      {
+        "ref": "recipts/photo_8_2026-10-10_14-07-27.jpg",
+        "timestamp": null,
+        "shows": "Bank Shahr withdrawal of 13,000,000 rial (1,300,000 toman) on 1405/05/22 15:31, terminal 03202703, tracking 008584, balance after 191,475,702 rial."
+      }
+    ],
+    "TX0079": [
+      {
+        "ref": "recipts/photo_7_2026-10-10_14-07-27.jpg",
+        "timestamp": null,
+        "shows": "Bank Shahr withdrawal of 11,600,000 rial (1,160,000 toman) on 1405/05/22 15:35, terminal 22958772, tracking 972094, balance after 179,875,702 rial."
+      }
+    ],
+    "TX0080": [
+      {
+        "ref": "recipts/photo_5_2026-10-10_11-09-04.jpg",
+        "timestamp": null,
+        "shows": "Blu transfer of 4,500,000 rial (450,000 toman) to Mohammad-Hossein Meshk-Afshan on 1405/06/05 21:52, document 14054456800606."
+      },
+      {
+        "ref": "public_group message504",
+        "timestamp": "2026-08-27T21:55:04",
+        "shows": "The summer-school ad was posted three minutes after the transfer; the payee is the same as the 1404 ad payment (TX0009)."
+      }
+    ],
+    "TX0081": [
+      {
+        "ref": "recipts/photo_4_2026-10-10_11-09-04.jpg",
+        "timestamp": null,
+        "shows": "Blu card-to-card transfer of 45,000,000 rial (4,500,000 toman) to Atefeh Nekhai on 1405/06/06 01:03, tracking 233888; no chat mentions the payee or purpose."
+      }
+    ],
+    "TX0082": [
+      {
+        "ref": "invoice-61150.pdf p1",
+        "timestamp": null,
+        "shows": "Skyroom invoice 61150 of 1405/06/07 totals 42,570,000 rial (4,257,000 toman): a 50-user educational-app month plus a 20-hour event-recording package and tax; buyer recorded as Mohammad-Hassan Shiri, no paid stamp."
+      },
+      {
+        "ref": "summerschool_channel message29; message40; message43",
+        "timestamp": "2026-08-29T11:04:57",
+        "shows": "The first summer-school session ran on 1405/06/07 with sessions recorded and distributed to registrants, matching the invoiced services."
+      },
+      {
+        "ref": "private_group message12188",
+        "timestamp": "2026-08-20T12:14:06",
+        "shows": "A 2026-08-20 discussion about whether Skyroom could host 100 people precedes the purchase, tying it to summer-school 1405 preparation."
+      }
+    ],
+    "TX0083": [
+      {
+        "ref": "recipts/photo_1_2026-10-10_11-09-04.jpg",
+        "timestamp": null,
+        "shows": "Blu interbank (Pol) transfer of 6,000,000 rial (600,000 toman) to Zahra Saleh Koshali on 1405/06/30 15:33; the receipt was captured while still marked provisional."
+      },
+      {
+        "ref": "summerschool_channel message32",
+        "timestamp": "2026-08-25T22:55:08",
+        "shows": "The summer-school channel names Zahra Saleh as the OOP course instructor."
+      }
+    ],
+    "TX0084": [
+      {
+        "ref": "recipts/photo_2_2026-10-10_11-09-04.jpg",
+        "timestamp": null,
+        "shows": "Blu interbank (Pol) transfer of 12,000,000 rial (1,200,000 toman) to Reza Farhadi on 1405/06/30 15:34; the receipt was captured while still marked provisional."
+      },
+      {
+        "ref": "summerschool_channel message33",
+        "timestamp": "2026-08-25T23:00:25",
+        "shows": "The summer-school channel names Reza Farhadi as the content-production-with-Python (Manim) instructor."
+      }
+    ],
+    "TX0085": [
+      {
+        "ref": "recipts/photo_3_2026-10-10_11-09-04.jpg",
+        "timestamp": null,
+        "shows": "Blu-to-Saman transfer of 24,000,000 rial (2,400,000 toman) to Alireza Kachouei on 1405/06/30 15:36, document 14055256207674."
+      },
+      {
+        "ref": "summerschool_channel message30; message31",
+        "timestamp": "2026-08-25T22:45:15",
+        "shows": "The summer-school channel names Abolfazl Ahmadi as the LaTeX and API instructor."
+      }
+    ],
+    "TX0086": [
+      {
+        "ref": "recipts/photo_7_2026-10-10_11-09-04.jpg",
+        "timestamp": null,
+        "shows": "Blu interbank (Paya) transfer of 47,000,000 rial (4,700,000 toman) to Bahareh Khishk-khah on 1405/07/01 01:09, tracking 140507010562889372."
+      },
+      {
+        "ref": "summerschool_channel message34",
+        "timestamp": "2026-08-25T23:05:09",
+        "shows": "The summer-school channel names Bahareh Khishk-khah as the physics-simulation instructor."
+      }
+    ],
+    "TX0087": [
+      {
+        "ref": "recipts/photo_8_2026-10-10_11-09-04.jpg",
+        "timestamp": null,
+        "shows": "Blu-to-Blu transfer of 26,000,000 rial (2,600,000 toman) to Ilia Asgharian on 1405/07/01 01:09, document 14055311988732."
+      },
+      {
+        "ref": "summerschool_channel message29",
+        "timestamp": "2026-08-25T22:40:13",
+        "shows": "The summer-school channel names Ilia Asgharian as the introductory-Python instructor."
+      }
+    ],
+    "TX0088": [
+      {
+        "ref": "recipts/photo_6_2026-10-10_11-09-04.jpg",
+        "timestamp": null,
+        "shows": "Blu interbank (Pol) transfer of 9,500,000 rial (950,000 toman) to Zahra Amiri on 1405/07/01 04:17; the receipt was captured while still marked provisional."
+      },
+      {
+        "ref": "reports/2026-10-10/user_confirmation_2026-10-10.json",
+        "timestamp": null,
+        "shows": "The owner's confirmation identifies the payment as sticker packs for the intro event."
+      },
+      {
+        "ref": "public_group message4353; message5405",
+        "timestamp": "2026-09-22T22:16:08",
+        "shows": "Organizer messages count 180 stickers printed for about 90 attendees."
+      }
+    ],
+    "TX0089": [
+      {
+        "ref": "recipts/photo_2026-10-10_12-16-28.jpg",
+        "timestamp": null,
+        "shows": "Printed Yaran Daryan Lux Gisha invoice 165826 of 1405/07/01 19:11 for 100 drinks and 90 cakes totals 99,879,000 rial (9,987,900 toman) after discount; the customer-balance line shows it unpaid when issued."
+      },
+      {
+        "ref": "public_group message5411",
+        "timestamp": "2026-09-22T22:23:37",
+        "shows": "The night before, organizers planned about 70 chocolate milks plus cakes for the intro event."
+      },
+      {
+        "ref": "public_group message5405; physics_intro full report.pdf p1",
+        "timestamp": "2026-09-22T22:16:08",
+        "shows": "Attendance of 90 in the platform report matches the invoice's 90 cakes."
+      }
+    ],
+    "TX0090": [
+      {
+        "ref": "recipts/photo_10_2026-10-10_11-09-04.jpg",
+        "timestamp": null,
+        "shows": "Blu card-to-card transfer of 139,000,000 rial (13,900,000 toman) to Priya Hashemi on 1405/07/02 10:03, tracking 487065; no chat mentions the payee or purpose."
+      }
+    ],
+    "TX0091": [
+      {
+        "ref": "recipts/photo_11_2026-10-10_11-09-04.jpg",
+        "timestamp": null,
+        "shows": "Blu purchase record at merchant 12738006 of 23,322,500 rial (2,332,250 toman) on 1405/07/02 10:17, balance after 16,921,310 rial."
+      }
+    ],
+    "TX0092": [
+      {
+        "ref": "recipts/photo_12_2026-10-10_11-09-04.jpg",
+        "timestamp": null,
+        "shows": "Blu card-to-card transfer of 3,050,000 rial (305,000 toman) to Mozhddeh Salmani Sershaki on 1405/07/14 18:07, tracking 981431; no chat mentions the payee or purpose."
+      }
+    ],
+    "TX0093": [
+      {
+        "ref": "Anjoman accounting.xlsx!مجموع!A45:B45",
+        "timestamp": null,
+        "shows": "Workbook books 23,000,000 toman of intro-event 1405 receipts with no date, account or settlement detail."
+      },
+      {
+        "ref": "physics_intro full report.pdf p1-2",
+        "timestamp": null,
+        "shows": "The platform report shows 27,235,000 toman of gross ticket sales for the 1405/07/02 event with 90 participants - 4,235,000 above the ledgered figure."
+      }
+    ],
+    "TX0094": [
+      {
+        "ref": "physics_intro full report.pdf p1",
+        "timestamp": null,
+        "shows": "The platform report states 27,235,000 toman of ticket sales across 90 tickets for the 1405/07/02 event - a platform summary figure, not a cash receipt."
+      },
+      {
+        "ref": "physics_intro full report.pdf p2",
+        "timestamp": null,
+        "shows": "The report was generated on 1405/07/03 11:05 from the organizer's last 10 events."
+      }
+    ],
+    "TX0096": [
+      {
+        "ref": "reports/2026-10-10/website_user_confirmation_2026-10-11.json",
+        "timestamp": null,
+        "shows": "The owner's website declaration records the Alnush domain purchase at 3,000,000 toman with no receipt available and no purchase date."
+      },
+      {
+        "ref": "private_group message11098",
+        "timestamp": "2026-06-29T20:26:58",
+        "shows": "A 2026-06-29 message reports the .com domain finally secured."
+      }
+    ],
+    "TX0045": [
+      {
+        "ref": "original ledger",
+        "timestamp": null,
+        "shows": "amount and counterparty as recorded in the 2026-10-10 reconciliation; no external document located"
+      }
+    ],
+    "TX0095": [
+      {
+        "ref": "original ledger",
+        "timestamp": null,
+        "shows": "amount and counterparty as recorded in the 2026-10-10 reconciliation; no external document located"
+      }
+    ]
+  },
+  "balance_chain": {
+    "basis": "Evidenced Bank Shahr balance snapshots vs recorded ledger flows; figures approximate, in toman.",
+    "gaps": [
+      {
+        "id": "BC-1",
+        "window": "1405/05/21-1405/05/22",
+        "approx_toman": 3163000,
+        "direction": "debits",
+        "note": "unrecorded debits between TX0075 and TX0076 snapshots",
+        "source": "recipts/photo_3_2026-10-10_14-07-27.jpg; recipts/photo_2_2026-10-10_14-07-27.jpg"
+      },
+      {
+        "id": "BC-2",
+        "window": "1404/12 - 1405/05",
+        "approx_toman": 35200000,
+        "direction": "credits",
+        "note": "credits exceeding recorded inflows",
+        "source": "recipts/photo_6_2026-10-10_14-07-27.jpg; recipts/photo_3_2026-10-10_14-07-27.jpg"
+      },
+      {
+        "id": "BC-3",
+        "window": "1404/09 - 1404/12",
+        "approx_toman": 12800000,
+        "direction": "debits",
+        "note": "debits exceeding recorded outflows; upper bound 19,800,000",
+        "source": "recipts/photo_4_2026-10-10_14-07-27.jpg; recipts/photo_6_2026-10-10_14-07-27.jpg"
+      },
+      {
+        "id": "BC-4",
+        "window": "-",
+        "approx_toman": null,
+        "direction": "inflow anomalies",
+        "note": "TX0007 and TX0024 amounts exceed the surrounding balance movement",
+        "source": "message28; message32; message33; message34; photos/photo_16@15-10-2025_14-18-26.jpg (message64); photos/photo_14@15-10-2025_14-18-25.jpg (message62)"
+      }
+    ],
+    "open_item": "OI-07"
+  }
+}

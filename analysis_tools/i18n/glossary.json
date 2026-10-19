@@ -44,8 +44,23 @@
     "Yalda 1404": "یلدا ۱۴۰۴"
   },
   "status": {
+    "Internal transfer": "انتقال داخلی", "Pending": "در انتظار",
+    "Payable": "پرداختنی", "Supporting detail": "جزئیات پشتیبان",
+    "Memo": "یادداشت",
     "Supported": "تأییدشده", "Review": "نیازمند بررسی", "Duplicate": "تکراری",
     "Invoice only": "صرفاً صورتحساب", "Summary only": "صرفاً گزارش تجمیعی"
+  },
+  "date_basis": {
+    "printed": "تاریخِ سند", "event-day proxy": "تقریب روزِ رویداد",
+    "on or before": "در یا قبل از", "month only": "فقط ماه",
+    "Telegram post time": "زمان ارسال در تلگرام",
+    "by event association": "قرینهٔ رویداد",
+    "reports posted": "زمان انتشار گزارش‌ها"
+  },
+  "account_type": {
+    "personal": "شخصی", "association": "انجمن", "volunteer": "داوطلب",
+    "event custodian": "امین رویداد", "cash": "نقد",
+    "not evidenced": "مستندنشده"
   },
   "direction": {
     "Receipt": "دریافت", "Payment": "پرداخت", "Unknown": "نامشخص",

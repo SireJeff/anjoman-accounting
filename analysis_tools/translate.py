@@ -109,6 +109,30 @@ def manual_stale(en, fa, hashes):
             if k in en and k in fa and hashes.get(k) != i18n.sha(en[k])]
 
 
+def _parse_batch(text):
+    """Tolerate fence and shape drift in the model's JSON reply.
+
+    messages.parse(output_format=...) validated content.text as strict JSON
+    inside the SDK; the model now wraps output in a ``` fence and returns
+    items as a mapping ({key: fa}, nested or flat) instead of the documented
+    {"items": [{key, fa}]} array. Read the response as plain text and accept
+    all three shapes here.
+    """
+    t = text.strip()
+    if t.startswith("```"):
+        t = re.sub(r"^```[a-zA-Z]*\s*", "", t)
+        t = re.sub(r"\s*```$", "", t)
+    data = json.loads(t)
+    if isinstance(data.get("items"), list):
+        return Batch.model_validate(data)
+    raw = data.get("items", data)  # {"items": {k: ...}} or flat {k: ...}
+    items = []
+    for k, v in raw.items():
+        fa = v.get("fa") if isinstance(v, dict) else v
+        items.append(Item(key=k, fa=fa))
+    return Batch(items=items)
+
+
 def call_model(client, items, glossary, notes=None, attempt=0):
     body = {"glossary": glossary, "items": items}
     if notes:
@@ -119,14 +143,14 @@ def call_model(client, items, glossary, notes=None, attempt=0):
     cache = CACHE / f"{i18n.sha(MODEL + SYSTEM + payload)}.json"
     if cache.exists():
         return json.loads(cache.read_text(encoding="utf-8"))
-    resp = client.messages.parse(model=MODEL, max_tokens=16000, system=SYSTEM,
-                                 messages=[{"role": "user", "content": payload}],
-                                 output_format=Batch)
+    resp = client.messages.create(model=MODEL, max_tokens=16000, system=SYSTEM,
+                                  messages=[{"role": "user", "content": payload}])
     if resp.stop_reason == "max_tokens":
         raise Truncated()
     if resp.stop_reason == "refusal":
         raise RuntimeError(f"model refused chunk: {resp.stop_details}")
-    out = {it.key: it.fa for it in resp.parsed_output.items}
+    text = "".join(b.text for b in resp.content if b.type == "text")
+    out = {it.key: it.fa for it in _parse_batch(text).items}
     CACHE.mkdir(parents=True, exist_ok=True)
     cache.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
     return out
