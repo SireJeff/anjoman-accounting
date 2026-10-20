@@ -58,9 +58,18 @@ def test_build_all_smoke(tmp_path, monkeypatch):
 
 
 def test_docx_deterministic(tmp_path):
-    doc = md_to_docx_rtl(MD, title="آزمون")
+    # Two independent builds (separate Document objects from separate
+    # md_to_docx_rtl calls, a tick apart) must still produce byte-identical
+    # output -- the real G7 scenario is two independent build runs, not one
+    # Document saved twice, so a regression that stamps a live
+    # modified/revision field onto a *new* Document would slip past a
+    # same-object save/save test.
+    import time
+    doc_a = md_to_docx_rtl(MD, title="آزمون")
+    time.sleep(1.1)  # exceeds OOXML/zip's 1s (DOS) / 1s (dcterms) resolution
+    doc_b = md_to_docx_rtl(MD, title="آزمون")
     a, b = tmp_path / "a.docx", tmp_path / "b.docx"
-    doc.save(str(a)); doc.save(str(b))
+    doc_a.save(str(a)); doc_b.save(str(b))
     from analysis_tools.governance_build import _rezip_deterministic
     _rezip_deterministic(a); _rezip_deterministic(b)
     assert a.read_bytes() == b.read_bytes()
