@@ -105,7 +105,7 @@ def parse_file(path: Path, chat: str):
     return records
 
 import jdatetime
-from .common import ROOT, SOURCES, write_json, WINDOW_START, WINDOW_END
+from .common import MEDIA_DOCX, ROOT, SOURCES, write_json, WINDOW_START, WINDOW_END
 
 # Persian weekday names only render when the date's locale is FA_LOCALE;
 # without it jd.strftime("%A") returns the English name on non-Persian hosts.
@@ -145,8 +145,7 @@ def run_all():
     with open(ROOT / "analysis/messages.jsonl", "w", encoding="utf-8") as fh:
         for rec in out:
             fh.write(json.dumps(rec, ensure_ascii=False) + "\n")
-    write_json(ROOT / "analysis/docx_content.json",
-               parse_docx(ROOT / "گزارش_عملکرد_رسانه‌ای_انجمن_علمی_فیزیک.docx"))
+    write_json(ROOT / "analysis/docx_content.json", parse_docx(MEDIA_DOCX))
     print(f"parsed {len(out)} messages -> analysis/messages.jsonl")
 
 if __name__ == "__main__":

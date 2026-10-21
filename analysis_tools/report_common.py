@@ -1,6 +1,6 @@
 """Shared markdown->PDF builder for the 2026-10-14 reports.
 
-Render pipeline follows the accounting_tools/build_report.py precedent (real
+Render pipeline follows the accounting_2026_10_10/build_report.py precedent (real
 Table flowables with Paragraph cells, repeating header rows) rather than the
 brief's wrapped-rows simplification: the month-schedule tables are too wide to
 stay readable as joined text lines. Dataviz tokens mirror analysis_tools/

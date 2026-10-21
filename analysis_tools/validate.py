@@ -1,7 +1,7 @@
 """Final gates: classification spot-check sampling + cross-artifact reconciliation."""
 import json, random
 from pathlib import Path
-from .common import ROOT, write_json, read_json
+from .common import LEDGER_DIR, ROOT, write_json, read_json
 
 def sample_for_review(n_per_cat=20, seed=42):
     random.seed(seed)
@@ -17,7 +17,7 @@ def sample_for_review(n_per_cat=20, seed=42):
 def main():
     report = {"samples": sample_for_review()}
     tl = read_json(ROOT / "analysis/timeline.json")
-    checks = read_json(ROOT / "anjoman_accounting_information/reports/2026-10-10/final_checks.json")
+    checks = read_json(LEDGER_DIR / "final_checks.json")
     fin = Path(ROOT / "reports/2026-10-14/financial_monthly/Anjoman_Financial_Report_Monthly.md")
     perf = Path(ROOT / "reports/2026-10-14/performance/Anjoman_Performance_Activity_Report.md")
     report["artifacts_present"] = {"financial_md": fin.exists(), "financial_pdf": fin.with_suffix(".pdf").exists(),

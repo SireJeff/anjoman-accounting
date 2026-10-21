@@ -1,13 +1,13 @@
 # analysis_tools/tests/test_audit_accounts.py
 import csv, json
-from analysis_tools.common import ROOT
+from analysis_tools.common import LEDGER_CSV, ROOT
 
 ACC = ROOT / "analysis_tools/audit/data/accounts.json"
 TYPES = {"personal", "association", "volunteer", "event custodian",
          "cash", "not evidenced"}
 
 def _source_accounts():
-    src = ROOT / "anjoman_accounting_information/reports/2026-10-10/Transactions.csv"
+    src = LEDGER_CSV
     with open(src, encoding="utf-8-sig") as f:
         return {r["cash_account"] for r in csv.DictReader(f) if r["cash_account"]}
 

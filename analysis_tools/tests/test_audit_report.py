@@ -26,9 +26,12 @@ def test_number_parity():
 
 def test_readonly_folders_untouched():
     import subprocess
-    for p in ("anjoman_accounting_information/reports/2026-10-10",
-              "anjoman_accounting_information/reports/2026-10-14"):
-        subprocess.run(["git", "diff", "--quiet", "--", p], check=True)
+    from analysis_tools.common import REPORTS, ROOT
+    for d in ("2026-10-10", "2026-10-14"):
+        p = REPORTS / d
+        assert p.is_dir(), p
+        subprocess.run(["git", "diff", "--quiet", "--", str(p.relative_to(ROOT))],
+                       check=True, cwd=ROOT)
 
 def test_no_pii_in_outputs():
     from pypdf import PdfReader

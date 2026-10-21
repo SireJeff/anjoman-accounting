@@ -4,11 +4,10 @@ import csv
 import json
 from pathlib import Path
 
-from ..common import ROOT
+from ..common import LEDGER_CSV, ROOT
 
 DATA = ROOT / "analysis_tools/audit/data"
-SOURCE_CSV = (ROOT / "anjoman_accounting_information"
-              / "reports/2026-10-10/Transactions.csv")
+SOURCE_CSV = LEDGER_CSV
 
 SOURCE_COLS = ["id", "date_gregorian", "date_jalali", "period_jalali",
                "direction", "amount_original", "unit_original", "amount_toman",
