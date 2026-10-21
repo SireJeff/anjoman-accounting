@@ -21,7 +21,7 @@
 
 ## نقشه مخزن
 
-پوشه‌ها بر پایه نقش چیده شده‌اند: ورودی‌های خام در <span dir="ltr">`data/`</span>، گزارش‌های منتشرشده در <span dir="ltr">`reports/`</span>، اسناد در <span dir="ltr">`docs/`</span>، و ابزارها و خروجی‌های میانی در <span dir="ltr">`analysis_tools/`</span> و <span dir="ltr">`analysis/`</span>. هر مسیری که ابزارها می‌خوانند یا می‌نویسند فقط در یک جا تعریف شده است: <span dir="ltr">`analysis_tools/common.py`</span>.
+پوشه‌ها بر پایه نقش چیده شده‌اند: ورودی‌های خام در <span dir="ltr">`data/`</span>، گزارش‌های منتشرشده در <span dir="ltr">`reports/`</span>، اسناد در <span dir="ltr">`docs/`</span>، و ابزارها و خروجی‌های میانی در <span dir="ltr">`analysis_tools/`</span> و <span dir="ltr">`analysis/`</span>. فایل <span dir="ltr">`analysis_tools/common.py`</span> محل ورودی‌های خام، دفتر کل و پوشه‌های گزارش را تعریف می‌کند (ثابت‌های <span dir="ltr">`DATA`</span>، <span dir="ltr">`REPORTS`</span>، <span dir="ltr">`TELEGRAM`</span>، <span dir="ltr">`SOURCES`</span>، <span dir="ltr">`LEDGER_CSV`</span> و <span dir="ltr">`MEDIA_DOCX`</span>)؛ سایر ماژول‌ها مسیرهای <span dir="ltr">`analysis/`</span> و خروجی گزارش خود را جدا تعریف می‌کنند.
 
 <div dir="ltr">
 
@@ -189,7 +189,7 @@ docs/governance/build/
 
 | ماژول | کار |
 |---|---|
-| ماژول <span dir="ltr">`analysis_tools/common.py`</span> | تنها محل تعریف مسیرها (<span dir="ltr">`DATA`</span>، <span dir="ltr">`REPORTS`</span>، <span dir="ltr">`TELEGRAM`</span>، <span dir="ltr">`SOURCES`</span>، <span dir="ltr">`LEDGER_CSV`</span>، <span dir="ltr">`MEDIA_DOCX`</span>) و تابع‌های کمکی مشترک |
+| ماژول <span dir="ltr">`analysis_tools/common.py`</span> | محل تعریف مسیرهای ورودی خام، دفتر کل و پوشه‌های گزارش (<span dir="ltr">`DATA`</span>، <span dir="ltr">`REPORTS`</span>، <span dir="ltr">`TELEGRAM`</span>، <span dir="ltr">`SOURCES`</span>، <span dir="ltr">`LEDGER_CSV`</span>، <span dir="ltr">`MEDIA_DOCX`</span>) و تابع‌های کمکی مشترک؛ سایر ماژول‌ها مسیرهای <span dir="ltr">`analysis/`</span> و خروجی گزارش خود را جدا تعریف می‌کنند |
 | ماژول <span dir="ltr">`analysis_tools/parse_exports.py`</span> | تجزیه خروجی‌های HTML تلگرام و سند Word به رکوردهای پیام در <span dir="ltr">`analysis/messages.jsonl`</span> |
 | ماژول <span dir="ltr">`analysis_tools/reconcile_parse.py`</span> | دروازه‌ای که شمار پیام‌های تجزیه‌شده را با شمارش خام فایل‌ها می‌سنجد |
 | ماژول <span dir="ltr">`analysis_tools/classify.py`</span> | رده‌بندی پیام‌ها با قاعده‌های ساختاری، واژه‌نامه و برچسب‌گذاری مدل زبانی برای پیام‌های باقی‌مانده |
@@ -277,7 +277,7 @@ python -m analysis_tools.extract_governance_sources
 ### نسل‌های منجمد
 
 - هر نسل گزارش پس از انتشار ویرایش نمی‌شود؛ هر اصلاح یا کار تازه در پوشه‌ای با تاریخ تازه زیر <span dir="ltr">`reports/`</span> می‌آید.
-- آزمون <span dir="ltr">`test_readonly_folders_untouched`</span> در <span dir="ltr">`analysis_tools/tests/test_audit_report.py`</span> با <span dir="ltr">`git diff`</span> بررسی می‌کند که <span dir="ltr">`reports/2026-10-10/`</span> و <span dir="ltr">`reports/2026-10-14/`</span> دست نخورده باشند. پوشه <span dir="ltr">`reports/2026-10-18/`</span> بنا بر قرارداد منجمد است و هیچ آزمونی فایل‌های آن را روی دیسک نمی‌خواند؛ یکسانی آن با ساخت دوباره بررسی می‌شود: اجرای <span dir="ltr">`python -m analysis_tools.build_audit_report --lang all`</span> و سپس <span dir="ltr">`git status`</span> که نباید تغییری نشان دهد. دروازه <span dir="ltr">`G7`</span> در مجموعه آزمون‌ها فقط بررسی می‌کند که دو ساخت پیاپی گزارش در هر زبان یکسان باشند.
+- آزمون <span dir="ltr">`test_readonly_folders_untouched`</span> در <span dir="ltr">`analysis_tools/tests/test_audit_report.py`</span> با <span dir="ltr">`git diff`</span> بررسی می‌کند که <span dir="ltr">`reports/2026-10-10/`</span> و <span dir="ltr">`reports/2026-10-14/`</span> دست نخورده باشند. پوشه <span dir="ltr">`reports/2026-10-18/`</span> بنا بر قرارداد منجمد است؛ هیچ آزمونی دست‌نخوردگی آن را بررسی نمی‌کند، فقط دروازه <span dir="ltr">`G9`</span> فایل‌های آن را برای یافتن اطلاعات شخصی می‌خواند. یکسانی آن با ساخت دوباره بررسی می‌شود: اجرای <span dir="ltr">`python -m analysis_tools.build_audit_report --lang all`</span> و سپس <span dir="ltr">`git status`</span> که نباید تغییری نشان دهد. دروازه <span dir="ltr">`G7`</span> در مجموعه آزمون‌ها فقط بررسی می‌کند که دو ساخت پیاپی گزارش در هر زبان یکسان باشند.
 - اسناد طراحی و برنامه‌ها در <span dir="ltr">`docs/superpowers/`</span> و ارجاع‌های شاهد حسابرسی متن تاریخی‌اند و حتی جایی که مسیرهای قدیم را نام می‌برند بازنویسی نمی‌شوند؛ [جدول تطبیق مسیرها](#جدول-تطبیق-مسیرها) پل میان این دو است.
 
 ### ساخت تکرارپذیر
@@ -295,7 +295,7 @@ python -m analysis_tools.extract_governance_sources
 
 ### نکته‌های همکاری
 
-- فایل‌های بزرگ‌تر از ۵۰ مگابایت با Git LFS نگهداری می‌شوند. سه فایل کنونی روی هم ۲۸۷ مگابایت‌اند. طبق وضعیت اکتبر ۲۰۲۶، سهمیه رایگان LFS در گیت‌هاب ۱ گیگابایت فضا و ۱ گیگابایت پهنای باند در ماه است.
+- فایل‌های بزرگ‌تر از ۵۰ مگابایت با Git LFS نگهداری می‌شوند. سه فایل کنونی روی هم ۲۸۷ مگابایت‌اند.
 - پیش از هر انتشار، آزمون‌ها و <span dir="ltr">`governance_lint`</span> باید بی‌خطا باشند.
 - برای هر مرحله کار تازه، نخست سند طراحی و برنامه اجرا در <span dir="ltr">`docs/superpowers/`</span> نوشته می‌شود؛ [اسناد طراحی](#اسناد-طراحی) را ببینید.
 

@@ -1,4 +1,4 @@
-> **Archived record (moved here 2026-10-21 from `anjoman_accounting_information/accounting_tools/`).** This is the frozen pipeline that produced `reports/2026-10-10/`. It was run in a separate workspace (`ANJOMAN_WORKSPACE`), is not imported by `analysis_tools`, and is not run in place.
+> **Archived record (moved here 2026-10-21 from `anjoman_accounting_information/accounting_tools/`).** This is the frozen pipeline that produced `reports/2026-10-10/`. It was run in a separate workspace (`ANJOMAN_WORKSPACE`), is not imported by `analysis_tools`, and is not run in place. All paths in the steps below are relative to that separate workspace, not to this repository.
 
 # Accounting evidence workflow
 

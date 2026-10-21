@@ -15,7 +15,6 @@ sys.stdout.reconfigure(encoding="utf-8")
 
 SRC = ROOT / "sources" / "governance"
 OUT = SRC / "extracts"
-OUT.mkdir(parents=True, exist_ok=True)
 
 SOURCES = [
     # (path, ascii slug)
@@ -63,17 +62,23 @@ def docx_text(path: pathlib.Path) -> tuple[str, int]:
     return "\n".join(parts), 0
 
 
-for path, slug in SOURCES:
-    if not path.exists():
-        print(f"MISSING: {path}")
-        continue
-    try:
-        if path.suffix.lower() == ".pdf":
-            text, n = pdf_text(path)
-        else:
-            text, n = docx_text(path)
-        out = OUT / f"{slug}.txt"
-        out.write_text(text, encoding="utf-8")
-        print(f"OK  {slug}: {n} pages, {len(text)} chars -> {out.name}")
-    except Exception as e:
-        print(f"ERR {slug}: {e}")
+def main():
+    OUT.mkdir(parents=True, exist_ok=True)
+    for path, slug in SOURCES:
+        if not path.exists():
+            print(f"MISSING: {path}")
+            continue
+        try:
+            if path.suffix.lower() == ".pdf":
+                text, n = pdf_text(path)
+            else:
+                text, n = docx_text(path)
+            out = OUT / f"{slug}.txt"
+            out.write_text(text, encoding="utf-8")
+            print(f"OK  {slug}: {n} pages, {len(text)} chars -> {out.name}")
+        except Exception as e:
+            print(f"ERR {slug}: {e}")
+
+
+if __name__ == "__main__":
+    main()
