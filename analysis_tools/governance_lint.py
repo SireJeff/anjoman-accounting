@@ -78,13 +78,16 @@ def _block_numbers(text: str) -> dict[int, list[int]]:
 # --- reference resolution (final fix wave F2-F5) ----------------------------
 #
 # A «بند» reference is a Persian-digit token «N-M»; an annex reference is
-# «پیوست» optionally followed by a label (الف/ب/ج or Persian digits). Lists use
-# «،» and «و», ranges use «تا». Cross-document references name the target
-# document right before a «،»; everything else in D2-D4 that is not an
-# آیین‌نامه «بند» citation is an internal reference to the same document.
+# «پیوست» optionally followed by a label: Persian digits, «الف», «هـ», or any
+# single abjad letter standing as its own word. «و» is excluded because after
+# «پیوست» it is almost always the conjunction. Lists use «،» and «و», ranges
+# use «تا». Cross-document references name the target document right before a
+# «،»; everything else in D2-D4 that is not an آیین‌نامه «بند» citation is an
+# internal reference to the same document.
 
 _BAND =r"[۰-۹]+-[۰-۹]+"
-_ANNEX = r"پیوست(?:\s+(?:الف|ب|ج|[۰-۹]+))?(?![\w‌])"
+_ANNEX_LABEL = r"(?:الف|هـ|[ابپتثجچحخدذرزژسشصضطظعغفقکگلمنهی]|[۰-۹]+)(?![\w‌])"
+_ANNEX = rf"پیوست(?:\s+{_ANNEX_LABEL})?(?![\w‌])"
 _SEP = r"\s*(?:،|و|تا)\s*"
 _REF = rf"(?:{_BAND}|{_ANNEX})"
 _SRC_NAMES = {

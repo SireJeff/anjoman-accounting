@@ -273,6 +273,22 @@ def test_internal_annex_refs_resolve():
     assert not any("پیوست ۲" in f for f in out)
 
 
+def test_annex_labels_beyond_alef_be_jim():
+    # Any abjad letter is a label, so «پیوست د» / «پیوست هـ» must not degrade to a
+    # bare «پیوست» (skipped internally, auto-resolved against D3's single annex).
+    out = findings_for("D2", D2_FIX + "\nمطابق پیوست د و پیوست هـ و پیوست ب.\n")
+    assert any("پیوست د" in f for f in out)
+    assert any("پیوست هـ" in f for f in out)
+    assert not any("پیوست ب" in f for f in out)
+    out = _x(D4=D4_FIX + "\nمتن (منشور مجمع، پیوست د).\n")
+    assert any("پیوست د" in f and "منشور" in f for f in out)
+    out = _x(D4=D4_FIX + "\nمتن (شیوه‌نامه داخلی شورا، پیوست د).\n")
+    assert any("پیوست د" in f and "شورا" in f for f in out)
+    # a letter glued to a word, and the conjunction «و», are not labels
+    ok = D2_FIX + "\nاین فهرست در پیوست درج می‌شود؛ پیوست و ۱-۱ با هم خوانده می‌شوند.\n"
+    assert not any("پیوست" in f for f in findings_for("D2", ok))
+
+
 def test_cross_doc_maddi_lists():
     # F3: «مواد X، Y و Z» / «مواد X و Y» / «مواد X تا Y» in either order, all members.
     d2 = D2_FIX + (
