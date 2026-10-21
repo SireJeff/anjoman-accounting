@@ -1,12 +1,12 @@
 # analysis_tools/tests/test_audit_evidence.py
 import json
-from analysis_tools.common import ROOT
+from analysis_tools.common import LEDGER_CSV, ROOT
 
 EV = ROOT / "analysis_tools/audit/data/evidence_index.json"
 
 def test_every_source_row_has_evidence():
     import csv
-    src = ROOT / "anjoman_accounting_information/reports/2026-10-10/Transactions.csv"
+    src = LEDGER_CSV
     with open(src, encoding="utf-8-sig") as f:
         ids = [r["id"] for r in csv.DictReader(f)]
     ev = json.loads(EV.read_text(encoding="utf-8"))["rows"]

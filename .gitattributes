@@ -1,4 +1,4 @@
 # Large Telegram-export media stored via Git LFS (over 50 MB each)
-"anjoman_channel_content/files/شباهنگ شماره‌ی 21 (1).pdf" filter=lfs diff=lfs merge=lfs -text
-"anjoman_channel_content/files/صوت مصاحبه لایه نازک.m4a" filter=lfs diff=lfs merge=lfs -text
-"anjoman_channel_content/files/وبینارهای_شبانه_Sharif_Frontiers_شب_دهمه.mp3" filter=lfs diff=lfs merge=lfs -text
+"data/telegram/channel/files/شباهنگ شماره‌ی 21 (1).pdf" filter=lfs diff=lfs merge=lfs -text
+"data/telegram/channel/files/صوت مصاحبه لایه نازک.m4a" filter=lfs diff=lfs merge=lfs -text
+"data/telegram/channel/files/وبینارهای_شبانه_Sharif_Frontiers_شب_دهمه.mp3" filter=lfs diff=lfs merge=lfs -text

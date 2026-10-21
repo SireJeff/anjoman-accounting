@@ -40,10 +40,10 @@ import json
 import re
 import shutil
 
-from ..common import ROOT
+from ..common import REPORTS
 from . import load, rules
 
-OUT_DIR = ROOT / "anjoman_accounting_information" / "reports" / "2026-10-18"
+OUT_DIR = REPORTS / "2026-10-18"
 
 LOG_COLS = ["tx", "field", "old", "new", "source_id", "reason", "evidence"]
 SHEET_COLS = ["project", "section", "line_label", "amount_toman", "extra"]
