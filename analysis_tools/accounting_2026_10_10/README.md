@@ -1,3 +1,5 @@
+> **Archived record (moved here 2026-10-21 from `anjoman_accounting_information/accounting_tools/`).** This is the frozen pipeline that produced `reports/2026-10-10/`. It was run in a separate workspace (`ANJOMAN_WORKSPACE`), is not imported by `analysis_tools`, and is not run in place.
+
 # Accounting evidence workflow
 
 The report is a reconstructed cash-activity report, not an audit or a complete accrual balance sheet. The workbook retains Persian descriptions and the original evidence. Review items are excluded from supported totals. Original-ledger-only records remain included with an explicit evidence label; they are not bank-confirmed. The 10–11 October user confirmation establishes all recipts/ items as association expenses. Five Summer School 1405 instructor payments and intro-event sticker packs are specifically allocated; a sixth instructor payment remains unmatched. Provisional screens and the photographed invoice remain explicitly user-attested.

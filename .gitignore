@@ -1,2 +1,5 @@
 analysis/cache/
 __pycache__/
+.pytest_cache/
+# Governance source documents and their text extracts: local only (repo is public)
+sources/governance/
