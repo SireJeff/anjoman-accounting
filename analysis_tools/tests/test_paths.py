@@ -16,7 +16,7 @@ def test_ledger_and_media_inputs_exist():
 
 
 def test_report_generations_exist():
-    for d in ("2026-10-10", "2026-10-14", "2026-10-18"):
+    for d in ("2026-10-10", "2026-10-14", "2026-10-18", "2026-11-03"):
         assert (common.REPORTS / d).is_dir(), d
 
 

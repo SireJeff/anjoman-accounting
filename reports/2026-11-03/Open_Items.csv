@@ -1,0 +1,19 @@
+﻿id,project,rows,amount_toman,question,what_settles
+OI-01,Summer School 1404,TX0001,1000.0,"The posted report shows 33,643,000 for this receipt; the ledger has 33,642,000 (1,000 difference).","Settled: Confirmed net deposit of 33,642,000 into card 8966 per owner response (decision C-02)."
+OI-02,Yalda 1404,TX0062;TX0063,195860.1,"195,860.1 toman of volunteer-reported purchases (TX0064-74) not covered by 4,050,000 reimbursement.",Settled: Owner confirmed difference is delivery/courier costs for Yalda supplies (decision C-18).
+OI-03,Intro Event 1405,TX0093;TX0094,4235000.0,"Intro Event 1405 evidence implies 4,235,000 beyond recorded net of 23,000,000.","Settled: Evand platform fee of 4,235,000 deducted from gross 27,235,000; net 23,000,000 confirmed (decision C-24)."
+OI-04,Association operations,TX0013,,"Room key copies 750,000 toman had no receipt outside original ledger.","Settled: Custodian confirmed 7 keys copied for room, paid personally and offset from funds (decision C-03)."
+OI-05,Association operations,TX0045,,"Dr. Saman Moghimi second donation of 7,000,000 toman in Azar 1404.",Settled: Owner confirmed receipt of second donation in late Azar 1404 (decision C-14).
+OI-06,Intro Event 1405,TX0095,,"Organizers after-party 5,000,000 toman had no receipt outside original ledger.",Settled: Owner confirmed gathering was never held or paid; row reclassified to Memo (decision C-24).
+OI-07,,,,Commingled bank accounts and unrecorded balance movements across Bank Shahr and Blu.,"Disclosed & Settled: Bank Shahr (80.pdf) and Blu (14050812012318.xlsx) statements reviewed; commingling disclosed. Net association position established at 37,189,180 toman (decisions C-01, C-25)."
+OI-08,Tea & Physics society,TX0043,,"Purpose of TX0043 (1,020,000 toman, 2 Azar 1404).",Settled: Identified as refreshments for 2nd Tea & Physics session; assigned to Tea & Physics society (decision C-13).
+OI-09,Association operations,TX0061,,"Purpose of TX0061 (1,801,220 toman, 9 Esfand 1404).",Settled: Drinking water for student silent assembly; assigned to Association operations (decision C-19).
+OI-10,Observation Camp 1405,TX0075,,"Purpose of TX0075 (6,337,000 toman on card …2167, 21 Mordad 1405).",Settled: 72 cakes and 72 juices for Perseid observation camp in Garmsar (decision C-21).
+OI-11,Observation Camp 1405,TX0076,,"Purpose of TX0076 (1,100,000 toman on card …2167, 21 Mordad 1405).",Settled: Provisions for Perseid observation camp (decision C-21).
+OI-12,Observation Camp 1405,TX0077,,"Purpose of TX0077 (1,320,000 toman on card …2167, 21 Mordad 1405).",Settled: Provisions for Perseid observation camp (decision C-21).
+OI-13,Observation Camp 1405,TX0078,,"Purpose of TX0078 (1,300,000 toman on card …2167, 21 Mordad 1405).","Settled: 30 bottles iced water, 3 watermelons, rice cakes for observation camp (decision C-21)."
+OI-14,Observation Camp 1405,TX0079,,"Purpose of TX0079 (1,160,000 toman on card …2167, 22 Mordad 1405).",Settled: Camp supplies for Perseid observation camp (decision C-21).
+OI-15,Summer School 1405,TX0081,,"Purpose of TX0081 (4,500,000 toman to Atefeh Nakhaei, 6 Shahrivar 1405).",Settled: Summer School 1405 advertising on Tehran University telegram channels (decision C-22).
+OI-16,Intro Event 1405,TX0090,,"Purpose of TX0090 (13,900,000 toman to Paria Hashemi, 2 Mehr 1405).","Settled: 70 notebooks, 70 folders, 70 pencils as gifts for Intro Event attendees (decision C-24)."
+OI-17,Intro Event 1405,TX0091,,"Purpose of TX0091 (2,332,250 toman at merchant 12738006, 2 Mehr 1405).",Settled: Confectionery and sweets from Family Market for Intro Event 1405 (decision C-24).
+OI-18,Tea & Physics society,TX0092,,"Purpose of TX0092 (305,000 toman to Mozhdeh Salmani, 14 Mehr 1405).",Settled: Paper cups for Tea & Physics session 14 Mehr 1405 (decision C-24).
