@@ -45,9 +45,9 @@ def test_communal_report_financial_concordance():
     text = MD_PATH.read_text(encoding="utf-8")
     
     # Key verified financial and performance metrics (in Persian or ASCII digits)
-    assert "۳۷٬۱۸۹٬۱۸۰" in text or "37,189,180" in text, "Missing closing surplus figure"
+    assert "۳۱٬۱۵۹٬۱۳۲" in text or "31,159,132" in text, "Missing closing surplus figure"
     assert "۱۴۴٬۴۷۹٬۰۷۵" in text or "144,479,075" in text, "Missing receipts figure"
-    assert "۱۰۷٬۲۸۹٬۸۹۵" in text or "107,289,895" in text, "Missing payments figure"
+    assert "۱۱۳٬۳۱۹٬۹۴۳" in text or "113,319,943" in text, "Missing payments figure"
     assert "۷۲۶٬۵۲۷" in text or "726,527" in text, "Missing Instagram impressions figure"
     assert "۶٬۰۲۹" in text or "6,029" in text, "Missing follower growth figure"
 

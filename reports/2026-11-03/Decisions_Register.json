@@ -1363,11 +1363,31 @@
       "Reject statements"
     ],
     "choice": "Close OI-07 by disclosing commingled statements and establishing net cash balance",
-    "rationale": "Bank statements provided (Shahr 80.pdf, Blu 14050812012318.xlsx). Statements confirm active commingling with personal transactions. Net association cash position is established as 37,189,180 toman (Receipts 144,479,075 - Payments 107,289,895). Settles OI-07.",
+    "rationale": "Bank statements provided (Shahr 80.pdf, Blu 14050812012318.xlsx). Statements confirm active commingling with personal transactions. Net association cash position is established as 37,189,180 toman before website server settlement (Receipts 144,479,075 - Payments 107,289,895). Settles OI-07.",
     "evidence": [
       "80.pdf",
       "14050812012318.xlsx",
       "clarifications/00_cross_month_questions.md#X-04, X-08"
+    ]
+  },
+  {
+    "id": "C-26",
+    "kind": "transaction",
+    "tx": [
+      "TX0100"
+    ],
+    "date": "2026-11-03",
+    "question": "Server / VM hosting costs for alenush.com association website.",
+    "options": [
+      "Exclude from ledger",
+      "Hold in Review",
+      "Supported payment out of pocket by custodian"
+    ],
+    "choice": "Supported payment of 6,030,048 toman (TX0100)",
+    "rationale": "Custodian declared and confirmed paying for the 3-month Alnush cloud VM hosting (2 vCPU, 4GB RAM, 30GB SSD; 65,544 toman/day x 92 days = 6,030,048 toman) out of pocket from the association surplus held. Booked as Supported expense under Association website.",
+    "evidence": [
+      "reports/2026-10-10/website_user_confirmation_2026-10-11.json",
+      "Custodian confirmation 2026-11-03"
     ]
   }
 ]

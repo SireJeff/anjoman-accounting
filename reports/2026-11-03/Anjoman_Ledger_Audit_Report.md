@@ -2,11 +2,11 @@
 
 | Receipts | Payments | Net | Pending | Excluded |
 |---:|---:|---:|---:|---:|
-| 144,479,075 | 107,289,895 | 37,189,180 | 0 | 45,031,098.9 |
+| 144,479,075 | 113,319,943 | 31,159,132 | 0 | 45,031,098.9 |
 
 Pending: 0 (all pending rows resolved and settled; PI-01 waived)
 
-Basis: cash + pending. Supported rows are cash; duplicates, supporting detail and memo rows are excluded. Custody is mixed across personal and association accounts (section 5). The net cash balance of 37,189,180 toman represents the reconstructed association cash held by the custodian.
+Basis: cash + pending. Supported rows are cash; duplicates, supporting detail and memo rows are excluded. Custody is mixed across personal and association accounts (section 5). The net cash balance of 31,159,132 toman represents the reconstructed association cash held by the custodian.
 
 ## What changed since 2026-10-18
 
@@ -29,14 +29,15 @@ Basis: cash + pending. Supported rows are cash; duplicates, supporting detail an
 - C-24 - TX0092: 305,000 toman cups to Mozhdeh Salmani assigned to Tea & Physics society, Supplies (+305,000 toman in project)
 - C-24 - TX0095: Organizers after-party (5,000,000 toman) reclassified from Supported to Memo (never held or paid; -5,000,000 toman cash payments)
 - C-24 - TX0099: Intro Event 1405 ticket refund (350,000 toman) to Maedeh Sadat Ahmadi Nasiri booked as Supported (+350,000 toman cash payments)
-Audited 2026-11-03 supported: receipts 144,479,075 / payments 107,289,895 (net 37,189,180)
+- C-26 - TX0100: Three-month cloud VM server hosting for alenush.com (6,030,048 toman) confirmed paid out of pocket by custodian, now Supported (+6,030,048 toman cash payments)
+Audited 2026-11-03 supported: receipts 144,479,075 / payments 113,319,943 (net 31,159,132)
 
 ## Consolidated summary (cash basis)
 
 | Project | Receipts | Payments | Net | Pending | Excluded |
 |---|---:|---:|---:|---:|---:|
 | Association operations | 34,000,000 | 5,398,920 | 28,601,080 | 0 | 0 |
-| Association website | 0 | 3,000,000 | -3,000,000 | 0 | 0 |
+| Association website | 0 | 9,030,048 | -9,030,048 | 0 | 0 |
 | Booths 1404 | 0 | 1,990,000 | -1,990,000 | 0 | 0 |
 | Freshman Party 1404 | 0 | 4,144,000 | -4,144,000 | 0 | 0 |
 | Intro Event 1404 | 4,920,000 | 3,155,000 | 1,765,000 | 0 | 0 |
@@ -49,7 +50,7 @@ Audited 2026-11-03 supported: receipts 144,479,075 / payments 107,289,895 (net 3
 | Unassigned | 0 | 0 | 0 | 0 | 0 |
 | Unknown (likely 1405 summer school) | 0 | 0 | 0 | 0 | 0 |
 | Yalda 1404 | 16,490,000 | 11,886,700 | 4,603,300 | 0 | 17 |
-| **headline totals** | **144,479,075** | **107,289,895** | **37,189,180** | **0** | **22** |
+| **headline totals** | **144,479,075** | **113,319,943** | **31,159,132** | **0** | **22** |
 
 ## Project balance sheets
 
@@ -83,8 +84,8 @@ Audited 2026-11-03 supported: receipts 144,479,075 / payments 107,289,895 (net 3
 ### Association website
 
 **Receipts by source** — —
-**Payments by category** — Website domain: 3,000,000
-**Net (cash)** — -3,000,000
+**Payments by category** — Website domain: 3,000,000; Website server: 6,030,048
+**Net (cash)** — -9,030,048
 **Pending (rows + items)** — 0
 
 **Transactions**
@@ -92,6 +93,7 @@ Audited 2026-11-03 supported: receipts 144,479,075 / payments 107,289,895 (net 3
 | ID | Date | Counterparty | Description | Amount (toman) | Status | Evidence |
 |---|---|---|---|---:|---|---|
 | TX0096 | 1405/04 | Domain registrar not supplied | Purchase of alenush.com for the association website; user-declared expense without receipt | 3,000,000 | Supported | User declaration dated 2026-10-11; no receipt |
+| TX0100 | 2026-08-19 | ارائه‌دهنده سرور ابری (Alnush VM) | Three-month cloud VM server hosting for alenush.com website (2 vCPU, 4GB RAM, 30GB SSD, 1405/05/28 to 1405/08/28 at 655,440 rial/day); paid out of pocket by custodian | 6,030,048 | Supported | Custodian confirmation; VM configuration 1405/05/28 at 655,440 rial/day for 92 days |
 
 ### Booths 1404
 
@@ -314,6 +316,7 @@ Holder and type as evidenced. Bank statements and owner responses confirm active
 | AMIN-EVENT | محمدامین عزیزی (Mohammad-Amin Azizi) | event custodian | 4,920,000 | 3,155,000 | 0 |
 | BLU-CUSTODIAN | محمدحسن شیری (Mohammad-Hassan Shiri) | personal / commingled | 31,927,075 | 35,487,250 | 0 |
 | CASH | محمد حسن شیری (Mohammad-Hassan Shiri) | cash in hand | 700,000 | 300,000 | 0 |
+| CUSTODIAN | Not evidenced | not evidenced | 0 | 6,030,048 | 0 |
 | SEPAH-2925 | محمدحسن شیری (Mohammad-Hassan Shiri) | personal / event donations | 15,790,000 | 0 | 10,003,780 |
 | SHAHR-2167 | Not evidenced | not evidenced | 0 | 11,217,000 | 0 |
 | SHAHR-8966 | محمد حسن شیری (Mohammad-Hassan Shiri) | personal / commingled | 68,142,000 | 35,046,045 | 1,765,000 |
@@ -323,7 +326,7 @@ Holder and type as evidenced. Bank statements and owner responses confirm active
 
 ## Balance-chain reconciliation & bank statements
 
-In earlier audits (2026-10-18), significant unexplained balance movements were noted on Bank Shahr deposit 400816808774. With the submission of bank statement 80.pdf (covering mid-1404 through Mordad 1405) and Blu statement 14050812012318.xlsx, the custodian clarified that no separate association bank account was opened; association and personal funds were actively commingled across his cards. Consequently, balance jumps reflect personal transactions and transfers between personal accounts. The ledger reconstruction establishes that the association has net cumulative surplus funds of 37,189,180 toman held by the custodian.
+In earlier audits (2026-10-18), significant unexplained balance movements were noted on Bank Shahr deposit 400816808774. With the submission of bank statement 80.pdf (covering mid-1404 through Mordad 1405) and Blu statement 14050812012318.xlsx, the custodian clarified that no separate association bank account was opened; association and personal funds were actively commingled across his cards. Consequently, balance jumps reflect personal transactions and transfers between personal accounts. The ledger reconstruction establishes that the association has net cumulative surplus funds of 31,159,132 toman held by the custodian.
 
 ## Open items settlement
 
@@ -352,9 +355,9 @@ All 18 previously open items have been settled through the owner clarifications 
 
 ## Decisions and audit log
 
-A total of 63 decisions are recorded in `Decisions_Register.json` (38 baseline audit decisions + 25 final clarification decisions C-01 through C-25).
+A total of 64 decisions are recorded in `Decisions_Register.json` (38 baseline audit decisions + 25 final clarification decisions C-01 through C-25).
 
-Audit log: 271 field changes recorded in `Audit_Log.csv`.
+Audit log: 272 field changes recorded in `Audit_Log.csv`.
 
 ### New Clarification Decisions (C-01 to C-25)
 
@@ -382,7 +385,8 @@ Audit log: 271 field changes recorded in `Audit_Log.csv`.
 - **C-22** (TX0081, TX0082) — TX0081 Summer School 1405 Advertising; TX0082 Supported: TX0081 confirmed as advertising on Tehran University student channels (settles OI-15). TX0082 confirmed paid by custodian from mixed funds, updated to Supported.
 - **C-23** (TX0097, TX0098) — Create TX0097 (31,927,075 toman) and TX0098 (1,200,000 toman): Custodian confirmed total course registration income of 31,927,075 toman. Blu statement 1405/07/01 identifies 6th instructor payment: 12,000,000 rial (1,200,000 toman) to Reza Abedini. Both created as Supported.
 - **C-24** (TX0090, TX0091, TX0092, TX0093, TX0094, TX0095, TX0099) — Reassign TX0090 (Supplies) & TX0091 (Hospitality) to Intro Event 1405; TX0092 to Tea; TX0095 to Memo; create TX0099 refund: Evand fee of 4,235,000 toman settled net income of 23,000,000 (settles OI-03). TX0090 (13.9M to Paria Hashemi) was notebooks, folders, pencils (settles OI-16). TX0091 (2.33M at Family Market) was event confectionery (settles OI-17). TX0092 (305k to Mozhdeh Salmani) was paper cups for Tea session (settles OI-18). TX0095 after-party was never held or paid, marked Memo (settles OI-06). TX0099 created for 350,000 toman ticket refund to Maedeh Sadat Ahmadi Nasiri.
-- **C-25** — Close OI-07 by disclosing commingled statements and establishing net cash balance: Bank statements provided (Shahr 80.pdf, Blu 14050812012318.xlsx). Statements confirm active commingling with personal transactions. Net association cash position is established as 37,189,180 toman (Receipts 144,479,075 - Payments 107,289,895). Settles OI-07.
+- **C-25** — Close OI-07 by disclosing commingled statements and establishing net cash balance: Bank statements provided (Shahr 80.pdf, Blu 14050812012318.xlsx). Statements confirm active commingling with personal transactions. Net association cash position is established as 37,189,180 toman before website server settlement (Receipts 144,479,075 - Payments 107,289,895). Settles OI-07.
+- **C-26** (TX0100) — Supported payment of 6,030,048 toman (TX0100): Custodian declared and confirmed paying for the 3-month Alnush cloud VM hosting (2 vCPU, 4GB RAM, 30GB SSD; 65,544 toman/day x 92 days = 6,030,048 toman) out of pocket from the association surplus held. Booked as Supported expense under Association website.
 
 ## Method and scope
 

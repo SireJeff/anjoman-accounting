@@ -40,18 +40,20 @@
   },
   "Association website": {
     "receipts": 0.0,
-    "payments": 3000000.0,
-    "net": -3000000.0,
+    "payments": 9030048.0,
+    "net": -9030048.0,
     "pending": 0.0,
     "pending_rows": [],
     "pending_items": [],
     "excluded": [],
     "receipts_by_source": {},
     "payments_by_category": {
-      "Website domain": 3000000.0
+      "Website domain": 3000000.0,
+      "Website server": 6030048.0
     },
     "tx_rows": [
-      "TX0096"
+      "TX0096",
+      "TX0100"
     ],
     "open_items": [],
     "is_empty_note": null

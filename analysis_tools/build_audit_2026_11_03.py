@@ -236,8 +236,16 @@ NEW_DECISIONS = [
         "question": "Closing cash reconciliation and settlement of OI-07.",
         "options": ["Close OI-07 by disclosing commingled statements and establishing net cash balance", "Keep OI-07 open", "Reject statements"],
         "choice": "Close OI-07 by disclosing commingled statements and establishing net cash balance",
-        "rationale": "Bank statements provided (Shahr 80.pdf, Blu 14050812012318.xlsx). Statements confirm active commingling with personal transactions. Net association cash position is established as 37,189,180 toman (Receipts 144,479,075 - Payments 107,289,895). Settles OI-07.",
+        "rationale": "Bank statements provided (Shahr 80.pdf, Blu 14050812012318.xlsx). Statements confirm active commingling with personal transactions. Net association cash position is established as 37,189,180 toman before website server settlement (Receipts 144,479,075 - Payments 107,289,895). Settles OI-07.",
         "evidence": ["80.pdf", "14050812012318.xlsx", "clarifications/00_cross_month_questions.md#X-04, X-08"]
+    },
+    {
+        "id": "C-26", "kind": "transaction", "tx": ["TX0100"], "date": "2026-11-03",
+        "question": "Server / VM hosting costs for alenush.com association website.",
+        "options": ["Exclude from ledger", "Hold in Review", "Supported payment out of pocket by custodian"],
+        "choice": "Supported payment of 6,030,048 toman (TX0100)",
+        "rationale": "Custodian declared and confirmed paying for the 3-month Alnush cloud VM hosting (2 vCPU, 4GB RAM, 30GB SSD; 65,544 toman/day x 92 days = 6,030,048 toman) out of pocket from the association surplus held. Booked as Supported expense under Association website.",
+        "evidence": ["reports/2026-10-10/website_user_confirmation_2026-10-11.json", "Custodian confirmation 2026-11-03"]
     }
 ]
 
@@ -377,6 +385,19 @@ def apply_updates():
         "open_item": "", "changed_fields": ""
     }
     log.append({"tx": "TX0099", "field": "created", "old": "", "new": "TX0099", "source_id": "C-24", "reason": "Ticket refund to Maedeh Sadat Ahmadi Nasiri", "evidence": "photo_2026-11-02_18-45-33.jpg"})
+
+    rows["TX0100"] = {
+        "id": "TX0100", "date_gregorian": "2026-08-19", "date_jalali": "1405/05/28", "period_jalali": "1405/05",
+        "direction": "Payment", "amount_original": "60300480.0", "unit_original": "rial", "amount_toman": "6030048.0",
+        "counterparty": "ارائه‌دهنده سرور ابری (Alnush VM)", "description_en": "Three-month cloud VM server hosting for alenush.com website (2 vCPU, 4GB RAM, 30GB SSD, 1405/05/28 to 1405/08/28 at 655,440 rial/day); paid out of pocket by custodian",
+        "description_fa": "هزینهٔ هاستینگ و سرور ابری ۳ ماهه وب‌سایت alenush.com (۲ هسته، ۴ گیگابایت رم، ۳۰ گیگابایت حافظه) از ۱۴۰۵/۰۵/۲۸ تا ۱۴۰۵/۰۸/۲۸؛ پرداخت از جیب توسط متولی", "category": "Website server",
+        "project": "Association website", "status": "Supported", "evidence_basis": "Custodian confirmation; VM configuration 1405/05/28 at 655,440 rial/day for 92 days",
+        "cash_account": "CUSTODIAN", "message_ids": "", "tracking_id": "", "duplicate_of": "", "review_reason": "",
+        "notes": "Decision C-26: Website VM hosting cost for alenush.com confirmed paid out-of-pocket by custodian and recognized as supported association expense.", "sources": "reports/2026-10-10/website_user_confirmation_2026-10-11.json",
+        "source_status": "New", "pending_reason": "", "parent": "", "date_basis": "creation timestamp", "evidence_label": "tariff quote and custodian declaration",
+        "open_item": "", "changed_fields": ""
+    }
+    log.append({"tx": "TX0100", "field": "created", "old": "", "new": "TX0100", "source_id": "C-26", "reason": "Three-month website VM hosting confirmed paid out of pocket by custodian", "evidence": "website_user_confirmation_2026-10-11.json; user confirmation 2026-11-03"})
 
     sorted_rows = [rows[k] for k in sorted(rows.keys(), key=lambda x: (int(x.replace("TX", "").split("-")[0]), x))]
     return sorted_rows, log, decs
@@ -543,7 +564,7 @@ def write_csv_and_json(out_dir, rows, log, decs, sheets, open_items):
             w.writerow([_scrub(r.get(c, "")) for c in header])
 
     with open(out_dir / "Transactions_Audited.json", "w", encoding="utf-8") as f:
-        json.dump([_scrub(r) for r in rows], f, ensure_ascii=False, indent=2)
+        json.dump([{k: _scrub(v) for k, v in r.items()} for r in rows], f, ensure_ascii=False, indent=2)
 
     # 2. Audit_Log
     log_cols = ["tx", "field", "old", "new", "source_id", "reason", "evidence"]
@@ -758,11 +779,11 @@ def render_en(rows, log, decs, sheets, open_items):
     L.append("")
     L.append("| Receipts | Payments | Net | Pending | Excluded |")
     L.append("|---:|---:|---:|---:|---:|")
-    L.append("| 144,479,075 | 107,289,895 | 37,189,180 | 0 | 45,031,098.9 |")
+    L.append("| 144,479,075 | 113,319,943 | 31,159,132 | 0 | 45,031,098.9 |")
     L.append("")
     L.append("Pending: 0 (all pending rows resolved and settled; PI-01 waived)")
     L.append("")
-    L.append("Basis: cash + pending. Supported rows are cash; duplicates, supporting detail and memo rows are excluded. Custody is mixed across personal and association accounts (section 5). The net cash balance of 37,189,180 toman represents the reconstructed association cash held by the custodian.")
+    L.append("Basis: cash + pending. Supported rows are cash; duplicates, supporting detail and memo rows are excluded. Custody is mixed across personal and association accounts (section 5). The net cash balance of 31,159,132 toman represents the reconstructed association cash held by the custodian.")
     L.append("")
     
     # Section 2: What changed since 2026-10-18
@@ -787,7 +808,8 @@ def render_en(rows, log, decs, sheets, open_items):
     L.append("- C-24 - TX0092: 305,000 toman cups to Mozhdeh Salmani assigned to Tea & Physics society, Supplies (+305,000 toman in project)")
     L.append("- C-24 - TX0095: Organizers after-party (5,000,000 toman) reclassified from Supported to Memo (never held or paid; -5,000,000 toman cash payments)")
     L.append("- C-24 - TX0099: Intro Event 1405 ticket refund (350,000 toman) to Maedeh Sadat Ahmadi Nasiri booked as Supported (+350,000 toman cash payments)")
-    L.append("Audited 2026-11-03 supported: receipts 144,479,075 / payments 107,289,895 (net 37,189,180)")
+    L.append("- C-26 - TX0100: Three-month cloud VM server hosting for alenush.com (6,030,048 toman) confirmed paid out of pocket by custodian, now Supported (+6,030,048 toman cash payments)")
+    L.append("Audited 2026-11-03 supported: receipts 144,479,075 / payments 113,319,943 (net 31,159,132)")
     L.append("")
 
     # Section 3: Consolidated summary
@@ -799,7 +821,7 @@ def render_en(rows, log, decs, sheets, open_items):
         s = sheets[p]
         ex_count = len(s["excluded"])
         L.append(f"| {p} | {fmt(s['receipts'])} | {fmt(s['payments'])} | {fmt(s['net'])} | {fmt(s['pending'])} | {ex_count} |")
-    L.append(f"| **headline totals** | **144,479,075** | **107,289,895** | **37,189,180** | **0** | **22** |")
+    L.append(f"| **headline totals** | **144,479,075** | **113,319,943** | **31,159,132** | **0** | **22** |")
     L.append("")
 
     # Section 4: Project balance sheets
@@ -883,7 +905,7 @@ def render_en(rows, log, decs, sheets, open_items):
     # Section 6: Balance-chain gaps
     L.append("## Balance-chain reconciliation & bank statements")
     L.append("")
-    L.append("In earlier audits (2026-10-18), significant unexplained balance movements were noted on Bank Shahr deposit 400816808774. With the submission of bank statement 80.pdf (covering mid-1404 through Mordad 1405) and Blu statement 14050812012318.xlsx, the custodian clarified that no separate association bank account was opened; association and personal funds were actively commingled across his cards. Consequently, balance jumps reflect personal transactions and transfers between personal accounts. The ledger reconstruction establishes that the association has net cumulative surplus funds of 37,189,180 toman held by the custodian.")
+    L.append("In earlier audits (2026-10-18), significant unexplained balance movements were noted on Bank Shahr deposit 400816808774. With the submission of bank statement 80.pdf (covering mid-1404 through Mordad 1405) and Blu statement 14050812012318.xlsx, the custodian clarified that no separate association bank account was opened; association and personal funds were actively commingled across his cards. Consequently, balance jumps reflect personal transactions and transfers between personal accounts. The ledger reconstruction establishes that the association has net cumulative surplus funds of 31,159,132 toman held by the custodian.")
     L.append("")
 
     # Section 7: Open items
@@ -932,11 +954,11 @@ def render_fa(rows, log, decs, sheets, open_items):
     L.append("")
     L.append("| دریافت‌ها | پرداخت‌ها | خالص | در انتظار | مستثنی‌شده |")
     L.append("|---:|---:|---:|---:|---:|")
-    L.append("| 144,479,075 | 107,289,895 | 37,189,180 | 0 | 45,031,098.9 |")
+    L.append("| 144,479,075 | 113,319,943 | 31,159,132 | 0 | 45,031,098.9 |")
     L.append("")
     L.append("در انتظار: 0 (تمام موارد باز و ردیف‌های معلق تسویه و نهایی شدند؛ سهم ساندویچ بردیا بخشیده شد)")
     L.append("")
-    L.append("مبنا: نقد + در انتظار. ردیف‌های تأییدشده نقد واقعی هستند؛ موارد تکراری، جزئیات پشتیبان و یادداشت مستثنی شده‌اند. نگه‌داشت وجوه نقد در حساب‌های شخصی و حساب‌های واسط انجمن ادغام بوده است (بخش ۵). مانده خالص ۳۷٬۱۸۹٬۱۸۰ تومان بیانگر موجودی نقدی بازسازی‌شده متعلق به انجمن نزد امین اموال است.")
+    L.append("مبنا: نقد + در انتظار. ردیف‌های تأییدشده نقد واقعی هستند؛ موارد تکراری، جزئیات پشتیبان و یادداشت مستثنی شده‌اند. نگه‌داشت وجوه نقد در حساب‌های شخصی و حساب‌های واسط انجمن ادغام بوده است (بخش ۵). مانده خالص ۳۱٬۱۵۹٬۱۳۲ تومان بیانگر موجودی نقدی بازسازی‌شده متعلق به انجمن نزد امین اموال است.")
     L.append("")
 
     # Section 2: What changed
@@ -961,7 +983,8 @@ def render_fa(rows, log, decs, sheets, open_items):
     L.append("- C-24 - تراکنش TX0092 (مبلغ ۳۰۵٬۰۰۰ تومان به مژده سلمانی): شناسایی خرید لیوان برای جلسه چای و فیزیک ۱۴ مهر ۱۴۰۵")
     L.append("- C-24 - تراکنش TX0095 (مبلغ ۵٬۰۰۰٬۰۰۰ تومان دورهمی معارفه): تغییر وضعیت به یادداشت به دلیل عدم برگزاری و عدم پرداخت وجه (-۵٬۰۰۰٬۰۰۰ تومان پرداخت نقدی)")
     L.append("- C-24 - تراکنش TX0099 (مبلغ ۳۵۰٬۰۰۰ تومان استرداد بلیت به مائده سادات احمدی ناصری): ثبت رسمی بازگشت وجه بلیت طبق رسید و صورتحساب بلو (+۳۵۰٬۰۰۰ تومان پرداخت نقدی)")
-    L.append("حسابرسی نهایی ۱۴۰۵/۰۸/۱۳: دریافت‌ها ۱۴۴٬۴۷۹٬۰۷۵ / پرداخت‌ها ۱۰۷٬۲۸۹٬۸۹۵ (خالص ۳۷٬۱۸۹٬۱۸۰ تومان)")
+    L.append("- C-26 - تراکنش TX0100 (مبلغ ۶٬۰۳۰٬۰۴۸ تومان سرور ابری ۳ ماهه آل‌نوش برای وب‌سایت alenush.com): تأیید پرداخت از جیب توسط متولی و ارتقا به وضعیت تأییدشده (+۶٬۰۳۰٬۰۴۸ تومان پرداخت نقدی)")
+    L.append("حسابرسی نهایی ۱۴۰۵/۰۸/۱۳: دریافت‌ها ۱۴۴٬۴۷۹٬۰۷۵ / پرداخت‌ها ۱۱۳٬۳۱۹٬۹۴۳ (خالص ۳۱٬۱۵۹٬۱۳۲ تومان)")
     L.append("")
 
     # Section 3: Summary
@@ -992,7 +1015,7 @@ def render_fa(rows, log, decs, sheets, open_items):
         p_name = fa_proj.get(p, p)
         ex_count = len(s["excluded"])
         L.append(f"| {p_name} | {fmt(s['receipts'])} | {fmt(s['payments'])} | {fmt(s['net'])} | {fmt(s['pending'])} | {ex_count} |")
-    L.append(f"| **جمع‌های اصلی** | **144,479,075** | **107,289,895** | **37,189,180** | **0** | **22** |")
+    L.append(f"| **جمع‌های اصلی** | **144,479,075** | **113,319,943** | **31,159,132** | **0** | **22** |")
     L.append("")
 
     # Section 4: Sheets
@@ -1079,7 +1102,7 @@ def render_fa(rows, log, decs, sheets, open_items):
     # Section 6: Balance chain
     L.append("## انطباق صورتحساب‌های بانکی و جهش‌های مانده")
     L.append("")
-    L.append("در گزارش‌های پیشین، مغایرت‌هایی میان مانده‌های چاپ‌شده بر روی فیش‌ها و ردیف‌های دفتر کل مشاهده شده بود. با ارائه صورتحساب بانک شهر (فایل 80.pdf شامل ۲۳۱ صفحه از اواسط ۱۴۰۴ تا مرداد ۱۴۰۵) و صورتحساب اکسل بانک بلو (فایل 14050812012318.xlsx)، مشخص گردید که حساب بانکی مجزایی برای انجمن افتتاح نشده بوده و تراکنش‌های شخصی دارنده حساب با درآمدهای دوره‌ها و رویدادها درهم‌آمیخته بوده است. بنابراین جهش‌های مانده مربوط به واریزها و برداشت‌های شخصی بوده و مبنای محاسبه مالی انجمن، مجموع جبری دریافت‌ها و پرداخت‌های مستند شده است که رقم مازاد ۳۷٬۱۸۹٬۱۸۰ تومان را به عنوان طلب انجمن از امین اموال اثبات می‌نماید.")
+    L.append("در گزارش‌های پیشین، مغایرت‌هایی میان مانده‌های چاپ‌شده بر روی فیش‌ها و ردیف‌های دفتر کل مشاهده شده بود. با ارائه صورتحساب بانک شهر (فایل 80.pdf شامل ۲۳۱ صفحه از اواسط ۱۴۰۴ تا مرداد ۱۴۰۵) و صورتحساب اکسل بانک بلو (فایل 14050812012318.xlsx)، مشخص گردید که حساب بانکی مجزایی برای انجمن افتتاح نشده بوده و تراکنش‌های شخصی دارنده حساب با درآمدهای دوره‌ها و رویدادها درهم‌آمیخته بوده است. بنابراین جهش‌های مانده مربوط به واریزها و برداشت‌های شخصی بوده و مبنای محاسبه مالی انجمن، مجموع جبری دریافت‌ها و پرداخت‌های مستند شده است که رقم مازاد ۳۱٬۱۵۹٬۱۳۲ تومان را به عنوان طلب انجمن از امین اموال اثبات می‌نماید.")
     L.append("")
 
     # Section 7: Open items
