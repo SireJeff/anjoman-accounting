@@ -2,11 +2,11 @@
 
 | Receipts | Payments | Net | Pending | Excluded |
 |---:|---:|---:|---:|---:|
-| 144,479,075 | 113,319,943 | 31,159,132 | 0 | 45,031,098.9 |
+| 144,479,075 | 129,598,693 | 14,880,382 | 0 | 45,031,098.9 |
 
 Pending: 0 (all pending rows resolved and settled; PI-01 waived)
 
-Basis: cash + pending. Supported rows are cash; duplicates, supporting detail and memo rows are excluded. Custody is mixed across personal and association accounts (section 5). The net cash balance of 31,159,132 toman represents the reconstructed association cash held by the custodian.
+Basis: cash + pending. Supported rows are cash; duplicates, supporting detail and memo rows are excluded. Custody is mixed across personal and association accounts (section 5). The net cash balance of 14,880,382 toman represents the reconstructed association cash held by the custodian.
 
 ## What changed since 2026-10-18
 
@@ -30,13 +30,15 @@ Basis: cash + pending. Supported rows are cash; duplicates, supporting detail an
 - C-24 - TX0095: Organizers after-party (5,000,000 toman) reclassified from Supported to Memo (never held or paid; -5,000,000 toman cash payments)
 - C-24 - TX0099: Intro Event 1405 ticket refund (350,000 toman) to Maedeh Sadat Ahmadi Nasiri booked as Supported (+350,000 toman cash payments)
 - C-26 - TX0100: Three-month cloud VM server hosting for alenush.com (6,030,048 toman) confirmed paid out of pocket by custodian, now Supported (+6,030,048 toman cash payments)
-Audited 2026-11-03 supported: receipts 144,479,075 / payments 113,319,943 (net 31,159,132)
+- C-27 - TX0101: Tea & Physics gathering food and hospitality on 1405/06/02 (2,800,000 toman) confirmed paid via ATM transfer, now Supported (+2,800,000 toman cash payments)
+- C-28 - TX0102: Hollyland Lark M1 wireless microphone for association podcasts/videos (13,478,750 toman) purchased on Digikala, now Supported (+13,478,750 toman cash payments)
+Audited 2026-11-03 supported: receipts 144,479,075 / payments 129,598,693 (net 14,880,382)
 
 ## Consolidated summary (cash basis)
 
 | Project | Receipts | Payments | Net | Pending | Excluded |
 |---|---:|---:|---:|---:|---:|
-| Association operations | 34,000,000 | 5,398,920 | 28,601,080 | 0 | 0 |
+| Association operations | 34,000,000 | 18,877,670 | 15,122,330 | 0 | 0 |
 | Association website | 0 | 9,030,048 | -9,030,048 | 0 | 0 |
 | Booths 1404 | 0 | 1,990,000 | -1,990,000 | 0 | 0 |
 | Freshman Party 1404 | 0 | 4,144,000 | -4,144,000 | 0 | 0 |
@@ -46,19 +48,19 @@ Audited 2026-11-03 supported: receipts 144,479,075 / payments 113,319,943 (net 3
 | Professors assembly Mehr | 500,000 | 1,142,375 | -642,375 | 0 | 1 |
 | Summer School 1404 | 33,642,000 | 12,900,900 | 20,741,100 | 0 | 1 |
 | Summer School 1405 | 31,927,075 | 21,907,000 | 10,020,075 | 0 | 0 |
-| Tea & Physics society | 0 | 3,027,850 | -3,027,850 | 0 | 1 |
+| Tea & Physics society | 0 | 5,827,850 | -5,827,850 | 0 | 1 |
 | Unassigned | 0 | 0 | 0 | 0 | 0 |
 | Unknown (likely 1405 summer school) | 0 | 0 | 0 | 0 | 0 |
 | Yalda 1404 | 16,490,000 | 11,886,700 | 4,603,300 | 0 | 17 |
-| **headline totals** | **144,479,075** | **113,319,943** | **31,159,132** | **0** | **22** |
+| **headline totals** | **144,479,075** | **129,598,693** | **14,880,382** | **0** | **22** |
 
 ## Project balance sheets
 
 ### Association operations
 
 **Receipts by source** — Former association (Mellat card …7532): 10,000,000; Former association (card …7532): 1,000,000; دکتر مقیمی: 7,000,000; سامان مقیمی عراقی: 16,000,000
-**Payments by category** — Equipment: 2,285,000; Printing: 16,600; Supplies: 3,097,320
-**Net (cash)** — 28,601,080
+**Payments by category** — Equipment: 15,763,750; Printing: 16,600; Supplies: 3,097,320
+**Net (cash)** — 15,122,330
 **Pending (rows + items)** — 0
 
 **Transactions**
@@ -80,6 +82,7 @@ Audited 2026-11-03 supported: receipts 144,479,075 / payments 113,319,943 (net 3
 | TX0045 | 1404/09 | دکتر مقیمی | Donation from Dr. Saman Moghimi to support the association (Azar 1404), per treasurer ledger row مجموع!B39 only; no receipt or Telegram message for this 7,000,000 — evidence thin (Anjoman accounting.xlsx!مجموع!A39:B39). | 7,000,000 | Supported | Original ledger |
 | TX0046 | 2025-12-19 | سامان مقیمی عراقی | Moghimi donation | 6,000,000 | Supported | Receipt and message |
 | TX0061 | 2026-02-28 | Card …9676 (owner unknown) | Card-to-card transfer of 1,801,220 toman from the association's Bank Shahr card …8966 to card …9676 (holder not shown) on 1404/12/09 10:10; purpose not shown in any evidence (recipts/photo_6_2026-10-10_14-07-27.jpg). | 1,801,220 | Supported | Receipt and user confirmation |
+| TX0102 | 2026-09-23 | دیجی‌کالا (Digikala) | Purchase of Hollyland Lark M1 wireless microphone (USB-C) for association events and podcast recording (Digikala order DK1295013868, delivered to Jabbari Hall) | 13,478,750 | Supported | Digikala order invoice screenshot DK1295013868 on 1405/07/01 |
 
 ### Association website
 
@@ -244,8 +247,8 @@ Audited 2026-11-03 supported: receipts 144,479,075 / payments 113,319,943 (net 3
 ### Tea & Physics society
 
 **Receipts by source** — —
-**Payments by category** — Hospitality: 2,722,850; Supplies: 305,000
-**Net (cash)** — -3,027,850
+**Payments by category** — Hospitality: 5,522,850; Supplies: 305,000
+**Net (cash)** — -5,827,850
 **Pending (rows + items)** — 0
 
 **Transactions**
@@ -257,6 +260,7 @@ Audited 2026-11-03 supported: receipts 144,479,075 / payments 113,319,943 (net 3
 | TX0023 | 2025-10-12 | شیرینی مارژولن (terminal 14594032) | Pastry for Tea society meeting 20 Mehr | 912,850 | Supported | Receipt and message |
 | TX0043 | 2025-11-23 | Merchant terminal 06723260 | Card purchase with association card …8966 at terminal 06723260 on 1404/09/02 13:21, 10,200,000 rial (1,020,000 toman), tracking 406547; purpose not shown in any message — evidence thin (recipts/photo_4_2026-10-10_14-07-27.jpg). | 1,020,000 | Supported | Receipt and user confirmation |
 | TX0092 | 2026-10-06 | مژده سلمانی سرشکی | Card-to-card transfer of 305,000 toman from Hassan Shiri's Blu card …6947 to Mozhdeh Salmani Sarshaki (card …6083) on 1405/07/14 18:07; purpose not shown (recipts/photo_12_2026-10-10_11-09-04.jpg). | 305,000 | Supported | Receipt and user confirmation |
+| TX0101 | 2026-08-24 | حاضرین رویداد چای (کارت منتهی به ۸۶۷۱) | Hospitality and food for Tea & Physics gathering; ATM transfer from Shahr card to attendee (tracking 300311527) | 2,800,000 | Supported | ATM transfer slip (tracking 300311527 on 1405/06/02 15:06) and custodian confirmation |
 
 ### Unassigned
 
@@ -316,17 +320,17 @@ Holder and type as evidenced. Bank statements and owner responses confirm active
 | AMIN-EVENT | محمدامین عزیزی (Mohammad-Amin Azizi) | event custodian | 4,920,000 | 3,155,000 | 0 |
 | BLU-CUSTODIAN | محمدحسن شیری (Mohammad-Hassan Shiri) | personal / commingled | 31,927,075 | 35,487,250 | 0 |
 | CASH | محمد حسن شیری (Mohammad-Hassan Shiri) | cash in hand | 700,000 | 300,000 | 0 |
-| CUSTODIAN | Not evidenced | not evidenced | 0 | 6,030,048 | 0 |
+| CUSTODIAN | Not evidenced | not evidenced | 0 | 19,508,798 | 0 |
 | SEPAH-2925 | محمدحسن شیری (Mohammad-Hassan Shiri) | personal / event donations | 15,790,000 | 0 | 10,003,780 |
 | SHAHR-2167 | Not evidenced | not evidenced | 0 | 11,217,000 | 0 |
-| SHAHR-8966 | محمد حسن شیری (Mohammad-Hassan Shiri) | personal / commingled | 68,142,000 | 35,046,045 | 1,765,000 |
+| SHAHR-8966 | محمد حسن شیری (Mohammad-Hassan Shiri) | personal / commingled | 68,142,000 | 37,846,045 | 1,765,000 |
 | UNKNOWN | Not evidenced | not evidenced | 23,000,000 | 16,659,600 | 0 |
 | Unknown funding source | Not evidenced | not evidenced | 0 | 3,000,000 | 0 |
 | VOLUNTEER | Multiple volunteers | volunteer out-of-pocket | 0 | 2,425,000 | 0 |
 
 ## Balance-chain reconciliation & bank statements
 
-In earlier audits (2026-10-18), significant unexplained balance movements were noted on Bank Shahr deposit 400816808774. With the submission of bank statement 80.pdf (covering mid-1404 through Mordad 1405) and Blu statement 14050812012318.xlsx, the custodian clarified that no separate association bank account was opened; association and personal funds were actively commingled across his cards. Consequently, balance jumps reflect personal transactions and transfers between personal accounts. The ledger reconstruction establishes that the association has net cumulative surplus funds of 31,159,132 toman held by the custodian.
+In earlier audits (2026-10-18), significant unexplained balance movements were noted on Bank Shahr deposit 400816808774. With the submission of bank statement 80.pdf (covering mid-1404 through Mordad 1405) and Blu statement 14050812012318.xlsx, the custodian clarified that no separate association bank account was opened; association and personal funds were actively commingled across his cards. Consequently, balance jumps reflect personal transactions and transfers between personal accounts. The ledger reconstruction establishes that the association has net cumulative surplus funds of 14,880,382 toman held by the custodian.
 
 ## Open items settlement
 
@@ -355,9 +359,9 @@ All 18 previously open items have been settled through the owner clarifications 
 
 ## Decisions and audit log
 
-A total of 64 decisions are recorded in `Decisions_Register.json` (38 baseline audit decisions + 25 final clarification decisions C-01 through C-25).
+A total of 66 decisions are recorded in `Decisions_Register.json` (38 baseline audit decisions + 28 clarification decisions C-01 through C-28).
 
-Audit log: 272 field changes recorded in `Audit_Log.csv`.
+Audit log: 274 field changes recorded in `Audit_Log.csv`.
 
 ### New Clarification Decisions (C-01 to C-25)
 
@@ -387,6 +391,8 @@ Audit log: 272 field changes recorded in `Audit_Log.csv`.
 - **C-24** (TX0090, TX0091, TX0092, TX0093, TX0094, TX0095, TX0099) — Reassign TX0090 (Supplies) & TX0091 (Hospitality) to Intro Event 1405; TX0092 to Tea; TX0095 to Memo; create TX0099 refund: Evand fee of 4,235,000 toman settled net income of 23,000,000 (settles OI-03). TX0090 (13.9M to Paria Hashemi) was notebooks, folders, pencils (settles OI-16). TX0091 (2.33M at Family Market) was event confectionery (settles OI-17). TX0092 (305k to Mozhdeh Salmani) was paper cups for Tea session (settles OI-18). TX0095 after-party was never held or paid, marked Memo (settles OI-06). TX0099 created for 350,000 toman ticket refund to Maedeh Sadat Ahmadi Nasiri.
 - **C-25** — Close OI-07 by disclosing commingled statements and establishing net cash balance: Bank statements provided (Shahr 80.pdf, Blu 14050812012318.xlsx). Statements confirm active commingling with personal transactions. Net association cash position is established as 37,189,180 toman before website server settlement (Receipts 144,479,075 - Payments 107,289,895). Settles OI-07.
 - **C-26** (TX0100) — Supported payment of 6,030,048 toman (TX0100): Custodian declared and confirmed paying for the 3-month Alnush cloud VM hosting (2 vCPU, 4GB RAM, 30GB SSD; 65,544 toman/day x 92 days = 6,030,048 toman) out of pocket from the association surplus held. Booked as Supported expense under Association website.
+- **C-27** (TX0101) — Supported payment of 2,800,000 toman (TX0101): ATM card-to-card transfer slip from Shahr card to attendee (card ending in 8671) on 1405/06/02 15:06 (tracking 300311527) for 2,800,000 toman. Booked as Supported expense under Tea & Physics society, Hospitality.
+- **C-28** (TX0102) — Supported payment of 13,478,750 toman (TX0102): Digikala order DK1295013868 placed on 1405/07/01 for Hollyland Lark M1 wireless microphone (USB-C) delivered to Sharif University Jabbari Hall. Amount 13,478,750 toman booked as Supported under Association operations, Equipment.
 
 ## Method and scope
 

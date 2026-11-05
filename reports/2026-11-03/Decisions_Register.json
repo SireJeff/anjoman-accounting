@@ -1389,5 +1389,43 @@
       "reports/2026-10-10/website_user_confirmation_2026-10-11.json",
       "Custodian confirmation 2026-11-03"
     ]
+  },
+  {
+    "id": "C-27",
+    "kind": "transaction",
+    "tx": [
+      "TX0101"
+    ],
+    "date": "2026-11-03",
+    "question": "Tea & Physics gathering food and hospitality on 1405/06/02.",
+    "options": [
+      "Exclude from ledger",
+      "Supported payment of 2,800,000 toman (TX0101)"
+    ],
+    "choice": "Supported payment of 2,800,000 toman (TX0101)",
+    "rationale": "ATM card-to-card transfer slip from Shahr card to attendee (card ending in 8671) on 1405/06/02 15:06 (tracking 300311527) for 2,800,000 toman. Booked as Supported expense under Tea & Physics society, Hospitality.",
+    "evidence": [
+      "data/accounting/receipts/receipt_tea_gathering_14050602.jpg",
+      "Custodian confirmation 2026-11-03"
+    ]
+  },
+  {
+    "id": "C-28",
+    "kind": "transaction",
+    "tx": [
+      "TX0102"
+    ],
+    "date": "2026-11-03",
+    "question": "Hollyland Lark M1 wireless microphone purchased for association events/podcasts.",
+    "options": [
+      "Exclude from ledger",
+      "Supported payment of 13,478,750 toman (TX0102)"
+    ],
+    "choice": "Supported payment of 13,478,750 toman (TX0102)",
+    "rationale": "Digikala order DK1295013868 placed on 1405/07/01 for Hollyland Lark M1 wireless microphone (USB-C) delivered to Sharif University Jabbari Hall. Amount 13,478,750 toman booked as Supported under Association operations, Equipment.",
+    "evidence": [
+      "data/accounting/receipts/receipt_microphone_digikala_14050701.png",
+      "Custodian confirmation 2026-11-03"
+    ]
   }
 ]

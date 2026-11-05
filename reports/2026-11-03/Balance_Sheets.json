@@ -1,8 +1,8 @@
 {
   "Association operations": {
     "receipts": 34000000.0,
-    "payments": 5398920.0,
-    "net": 28601080.0,
+    "payments": 18877670.0,
+    "net": 15122330.0,
     "pending": 0.0,
     "pending_rows": [],
     "pending_items": [],
@@ -14,7 +14,7 @@
       "دکتر مقیمی": 7000000.0
     },
     "payments_by_category": {
-      "Equipment": 2285000.0,
+      "Equipment": 15763750.0,
       "Supplies": 3097320.0,
       "Printing": 16600.0
     },
@@ -33,7 +33,8 @@
       "TX0044",
       "TX0045",
       "TX0046",
-      "TX0061"
+      "TX0061",
+      "TX0102"
     ],
     "open_items": [],
     "is_empty_note": null
@@ -288,8 +289,8 @@
   },
   "Tea & Physics society": {
     "receipts": 0.0,
-    "payments": 3027850.0,
-    "net": -3027850.0,
+    "payments": 5827850.0,
+    "net": -5827850.0,
     "pending": 0.0,
     "pending_rows": [],
     "pending_items": [],
@@ -302,7 +303,7 @@
     ],
     "receipts_by_source": {},
     "payments_by_category": {
-      "Hospitality": 2722850.0,
+      "Hospitality": 5522850.0,
       "Supplies": 305000.0
     },
     "tx_rows": [
@@ -310,7 +311,8 @@
       "TX0022",
       "TX0023",
       "TX0043",
-      "TX0092"
+      "TX0092",
+      "TX0101"
     ],
     "open_items": [],
     "is_empty_note": null
