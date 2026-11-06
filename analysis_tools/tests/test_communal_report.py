@@ -32,6 +32,10 @@ def test_communal_report_content_and_scale():
         "شب یلدا",
         "چای و فیزیک",
         "اردوی رصدی",
+        "حلقه‌های مطالعاتی کوانتا",
+        "معادلات دیفرانسیل",
+        "۳ ترم گذشته",
+        "گروه صنعتی شیشه کاوه",
         "بهره‌وری",
         "آسیب‌شناسی",
         "تراز مالی",
@@ -39,6 +43,8 @@ def test_communal_report_content_and_scale():
     ]
     for c in required_concepts:
         assert c in text, f"Missing concept in communal report: {c}"
+
+    assert "مجموعه کاوا" not in text, "Found deprecated name 'مجموعه کاوا' in communal report"
 
 
 def test_communal_report_financial_concordance():
