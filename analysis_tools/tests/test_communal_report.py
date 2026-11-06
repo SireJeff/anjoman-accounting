@@ -56,6 +56,8 @@ def test_communal_report_financial_concordance():
     assert "۱۲۹٬۵۹۸٬۶۹۳" in text or "129,598,693" in text, "Missing payments figure"
     assert "۷۲۶٬۵۲۷" in text or "726,527" in text, "Missing Instagram impressions figure"
     assert "۶٬۰۲۹" in text or "6,029" in text, "Missing follower growth figure"
+    assert "۷٬۶۷۱" in text or "7,671" in text, "Missing TGStat telegram subscriber figure"
+    assert "TGStat" in text, "Missing TGStat mention"
 
 
 def test_communal_report_pii_clean():
