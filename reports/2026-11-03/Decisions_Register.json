@@ -1427,5 +1427,24 @@
       "data/accounting/receipts/receipt_microphone_digikala_14050701.png",
       "Custodian confirmation 2026-11-03"
     ]
+  },
+  {
+    "id": "C-29",
+    "kind": "transaction",
+    "tx": [
+      "TX0103"
+    ],
+    "date": "2026-11-03",
+    "question": "University subsidy/reimbursement for Sharif Salam booths (غرفه‌های ورودی / سلام شریف) on 1404/09/24.",
+    "options": [
+      "Exclude from ledger",
+      "Supported receipt of 6,696,900 toman (TX0103)"
+    ],
+    "choice": "Supported receipt of 6,696,900 toman (TX0103)",
+    "rationale": "Paya bank transfer receipt from Sharif University of Technology (دانشگاه صنعتی شریف) of 66,969,000 rial (6,696,900 toman) into Bank Shahr deposit 400816808774 on 1404/09/24 19:05 (Paya tracking 140409240172758355). Reimburses expenses incurred for Sharif Salam freshmen orientation booths (Booths 1404). Booked as Supported receipt under Booths 1404, Events.",
+    "evidence": [
+      "data/accounting/receipts/receipt_booths_reimbursement_14040924.png",
+      "Custodian confirmation 2026-11-03"
+    ]
   }
 ]

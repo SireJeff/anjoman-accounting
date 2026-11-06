@@ -262,6 +262,14 @@ NEW_DECISIONS = [
         "choice": "Supported payment of 13,478,750 toman (TX0102)",
         "rationale": "Digikala order DK1295013868 placed on 1405/07/01 for Hollyland Lark M1 wireless microphone (USB-C) delivered to Sharif University Jabbari Hall. Amount 13,478,750 toman booked as Supported under Association operations, Equipment.",
         "evidence": ["data/accounting/receipts/receipt_microphone_digikala_14050701.png", "Custodian confirmation 2026-11-03"]
+    },
+    {
+        "id": "C-29", "kind": "transaction", "tx": ["TX0103"], "date": "2026-11-03",
+        "question": "University subsidy/reimbursement for Sharif Salam booths (غرفه‌های ورودی / سلام شریف) on 1404/09/24.",
+        "options": ["Exclude from ledger", "Supported receipt of 6,696,900 toman (TX0103)"],
+        "choice": "Supported receipt of 6,696,900 toman (TX0103)",
+        "rationale": "Paya bank transfer receipt from Sharif University of Technology (دانشگاه صنعتی شریف) of 66,969,000 rial (6,696,900 toman) into Bank Shahr deposit 400816808774 on 1404/09/24 19:05 (Paya tracking 140409240172758355). Reimburses expenses incurred for Sharif Salam freshmen orientation booths (Booths 1404). Booked as Supported receipt under Booths 1404, Events.",
+        "evidence": ["data/accounting/receipts/receipt_booths_reimbursement_14040924.png", "Custodian confirmation 2026-11-03"]
     }
 ]
 
@@ -440,6 +448,19 @@ def apply_updates():
         "open_item": "", "changed_fields": ""
     }
     log.append({"tx": "TX0102", "field": "created", "old": "", "new": "TX0102", "source_id": "C-28", "reason": "Hollyland Lark M1 wireless microphone purchased for association events/podcasts", "evidence": "receipt_microphone_digikala_14050701.png"})
+
+    rows["TX0103"] = {
+        "id": "TX0103", "date_gregorian": "2025-12-15", "date_jalali": "1404/09/24", "period_jalali": "1404/09",
+        "direction": "Receipt", "amount_original": "66969000.0", "unit_original": "rial", "amount_toman": "6696900.0",
+        "counterparty": "دانشگاه صنعتی شریف (Sharif University of Technology)", "description_en": "University subsidy and reimbursement for Sharif Salam orientation booths; Paya transfer to Bank Shahr deposit 400816808774 (tracking PAYA-140409240172758355)",
+        "description_fa": "واریز کمک‌هزینه و تسویه دانشگاه صنعتی شریف بابت هزینه‌های غرفه‌های سلام شریف و جشن ورودی ۱۴۰۴؛ واریز پایا به حساب بانک شهر ۴۰۰۸۱۶۸۰۸۷۷۴ (کد پیگیری PAYA-140409240172758355)", "category": "Events",
+        "project": "Booths 1404", "status": "Supported", "evidence_basis": "Bank Shahr deposit receipt (Paya tracking 140409240172758355 on 1404/09/24 19:05)",
+        "cash_account": "SHAHR-8966", "message_ids": "", "tracking_id": "PAYA-140409240172758355", "duplicate_of": "", "review_reason": "",
+        "notes": "Decision C-29: 6,696,900 toman received from Sharif University of Technology via Paya on 1404/09/24 into deposit 400816808774 to reimburse Sharif Salam orientation booth expenses.", "sources": "data/accounting/receipts/receipt_booths_reimbursement_14040924.png",
+        "source_status": "New", "pending_reason": "", "parent": "", "date_basis": "printed", "evidence_label": "Bank Shahr deposit receipt",
+        "open_item": "", "changed_fields": ""
+    }
+    log.append({"tx": "TX0103", "field": "created", "old": "", "new": "TX0103", "source_id": "C-29", "reason": "University subsidy and reimbursement for Sharif Salam booths on 1404/09/24", "evidence": "receipt_booths_reimbursement_14040924.png"})
 
     sorted_rows = [rows[k] for k in sorted(rows.keys(), key=lambda x: (int(x.replace("TX", "").split("-")[0]), x))]
     return sorted_rows, log, decs
@@ -821,11 +842,11 @@ def render_en(rows, log, decs, sheets, open_items):
     L.append("")
     L.append("| Receipts | Payments | Net | Pending | Excluded |")
     L.append("|---:|---:|---:|---:|---:|")
-    L.append("| 144,479,075 | 129,598,693 | 14,880,382 | 0 | 45,031,098.9 |")
+    L.append("| 151,175,975 | 129,598,693 | 21,577,282 | 0 | 45,031,098.9 |")
     L.append("")
     L.append("Pending: 0 (all pending rows resolved and settled; PI-01 waived)")
     L.append("")
-    L.append("Basis: cash + pending. Supported rows are cash; duplicates, supporting detail and memo rows are excluded. Custody is mixed across personal and association accounts (section 5). The net cash balance of 14,880,382 toman represents the reconstructed association cash held by the custodian.")
+    L.append("Basis: cash + pending. Supported rows are cash; duplicates, supporting detail and memo rows are excluded. Custody is mixed across personal and association accounts (section 5). The net cash balance of 21,577,282 toman represents the reconstructed association cash held by the custodian.")
     L.append("")
     
     # Section 2: What changed since 2026-10-18
@@ -853,7 +874,8 @@ def render_en(rows, log, decs, sheets, open_items):
     L.append("- C-26 - TX0100: Three-month cloud VM server hosting for alenush.com (6,030,048 toman) confirmed paid out of pocket by custodian, now Supported (+6,030,048 toman cash payments)")
     L.append("- C-27 - TX0101: Tea & Physics gathering food and hospitality on 1405/06/02 (2,800,000 toman) confirmed paid via ATM transfer, now Supported (+2,800,000 toman cash payments)")
     L.append("- C-28 - TX0102: Hollyland Lark M1 wireless microphone for association podcasts/videos (13,478,750 toman) purchased on Digikala, now Supported (+13,478,750 toman cash payments)")
-    L.append("Audited 2026-11-03 supported: receipts 144,479,075 / payments 129,598,693 (net 14,880,382)")
+    L.append("- C-29 - TX0103: University subsidy and reimbursement for Sharif Salam booths (6,696,900 toman) received via Paya into Shahr deposit 400816808774 on 1404/09/24, now Supported (+6,696,900 toman cash receipts)")
+    L.append("Audited 2026-11-03 supported: receipts 151,175,975 / payments 129,598,693 (net 21,577,282)")
     L.append("")
 
     # Section 3: Consolidated summary
@@ -865,7 +887,7 @@ def render_en(rows, log, decs, sheets, open_items):
         s = sheets[p]
         ex_count = len(s["excluded"])
         L.append(f"| {p} | {fmt(s['receipts'])} | {fmt(s['payments'])} | {fmt(s['net'])} | {fmt(s['pending'])} | {ex_count} |")
-    L.append(f"| **headline totals** | **144,479,075** | **129,598,693** | **14,880,382** | **0** | **22** |")
+    L.append(f"| **headline totals** | **151,175,975** | **129,598,693** | **21,577,282** | **0** | **22** |")
     L.append("")
 
     # Section 4: Project balance sheets
@@ -949,7 +971,7 @@ def render_en(rows, log, decs, sheets, open_items):
     # Section 6: Balance-chain gaps
     L.append("## Balance-chain reconciliation & bank statements")
     L.append("")
-    L.append("In earlier audits (2026-10-18), significant unexplained balance movements were noted on Bank Shahr deposit 400816808774. With the submission of bank statement 80.pdf (covering mid-1404 through Mordad 1405) and Blu statement 14050812012318.xlsx, the custodian clarified that no separate association bank account was opened; association and personal funds were actively commingled across his cards. Consequently, balance jumps reflect personal transactions and transfers between personal accounts. The ledger reconstruction establishes that the association has net cumulative surplus funds of 14,880,382 toman held by the custodian.")
+    L.append("In earlier audits (2026-10-18), significant unexplained balance movements were noted on Bank Shahr deposit 400816808774. With the submission of bank statement 80.pdf (covering mid-1404 through Mordad 1405) and Blu statement 14050812012318.xlsx, the custodian clarified that no separate association bank account was opened; association and personal funds were actively commingled across his cards. Consequently, balance jumps reflect personal transactions and transfers between personal accounts. The ledger reconstruction establishes that the association has net cumulative surplus funds of 21,577,282 toman held by the custodian.")
     L.append("")
 
     # Section 7: Open items
@@ -966,11 +988,11 @@ def render_en(rows, log, decs, sheets, open_items):
     # Section 8: Decisions and audit log
     L.append("## Decisions and audit log")
     L.append("")
-    L.append(f"A total of {len(decs)} decisions are recorded in `Decisions_Register.json` (38 baseline audit decisions + 28 clarification decisions C-01 through C-28).")
+    L.append(f"A total of {len(decs)} decisions are recorded in `Decisions_Register.json` (38 baseline audit decisions + 29 clarification decisions C-01 through C-29).")
     L.append("")
     L.append(f"Audit log: {len(log)} field changes recorded in `Audit_Log.csv`.")
     L.append("")
-    L.append("### New Clarification Decisions (C-01 to C-25)")
+    L.append("### New Clarification Decisions (C-01 to C-29)")
     L.append("")
     for d in NEW_DECISIONS:
         tx_str = f" ({', '.join(d['tx'])})" if d["tx"] else ""
@@ -998,11 +1020,11 @@ def render_fa(rows, log, decs, sheets, open_items):
     L.append("")
     L.append("| دریافت‌ها | پرداخت‌ها | خالص | در انتظار | مستثنی‌شده |")
     L.append("|---:|---:|---:|---:|---:|")
-    L.append("| 144,479,075 | 129,598,693 | 14,880,382 | 0 | 45,031,098.9 |")
+    L.append("| 151,175,975 | 129,598,693 | 21,577,282 | 0 | 45,031,098.9 |")
     L.append("")
     L.append("در انتظار: 0 (تمام موارد باز و ردیف‌های معلق تسویه و نهایی شدند؛ سهم ساندویچ بردیا بخشیده شد)")
     L.append("")
-    L.append("مبنا: نقد + در انتظار. ردیف‌های تأییدشده نقد واقعی هستند؛ موارد تکراری، جزئیات پشتیبان و یادداشت مستثنی شده‌اند. نگه‌داشت وجوه نقد در حساب‌های شخصی و حساب‌های واسط انجمن ادغام بوده است (بخش ۵). مانده خالص ۱۴٬۸۸۰٬۳۸۲ تومان بیانگر موجودی نقدی بازسازی‌شده متعلق به انجمن نزد امین اموال است.")
+    L.append("مبنا: نقد + در انتظار. ردیف‌های تأییدشده نقد واقعی هستند؛ موارد تکراری، جزئیات پشتیبان و یادداشت مستثنی شده‌اند. نگه‌داشت وجوه نقد در حساب‌های شخصی و حساب‌های واسط انجمن ادغام بوده است (بخش ۵). مانده خالص ۲۱٬۵۷۷٬۲۸۲ تومان بیانگر موجودی نقدی بازسازی‌شده متعلق به انجمن نزد امین اموال است.")
     L.append("")
 
     # Section 2: What changed
@@ -1030,7 +1052,8 @@ def render_fa(rows, log, decs, sheets, open_items):
     L.append("- C-26 - تراکنش TX0100 (مبلغ ۶٬۰۳۰٬۰۴۸ تومان سرور ابری ۳ ماهه آل‌نوش برای وب‌سایت alenush.com): تأیید پرداخت از جیب توسط متولی و ارتقا به وضعیت تأییدشده (+۶٬۰۳۰٬۰۴۸ تومان پرداخت نقدی)")
     L.append("- C-27 - تراکنش TX0101 (مبلغ ۲٬۸۰۰٬۰۰۰ تومان پذیرایی و اسکان چای و فیزیک): تأیید واریز خودپرداز بانک شهر به فرد حاضر در برنامه در تاریخ ۱۴۰۵/۰۶/۰۲؛ ثبت پرداخت نقدی تأییدشده (+۲٬۸۰۰٬۰۰۰ تومان پرداخت نقدی)")
     L.append("- C-28 - تراکنش TX0102 (مبلغ ۱۳٬۴۷۸٬۷۵۰ تومان میکروفن بی‌سیم هالی‌لند Lark M1 از دیجی‌کالا): ثبت خرید تجهیزات چندرسانه‌ای و پادکست برای عملیات انجمن (+۱۳٬۴۷۸٬۷۵۰ تومان پرداخت نقدی)")
-    L.append("حسابرسی نهایی ۱۴۰۵/۰۸/۱۳: دریافت‌ها ۱۴۴٬۴۷۹٬۰۷۵ / پرداخت‌ها ۱۲۹٬۵۹۸٬۶۹۳ (خالص ۱۴٬۸۸۰٬۳۸۲ تومان)")
+    L.append("- C-29 - تراکنش TX0103 (مبلغ ۶٬۶۹۶٬۹۰۰ تومان کمک‌هزینه و تسویه دانشگاه بابت غرفه‌های سلام شریف و جشن ورودی): واریز پایا از دانشگاه صنعتی شریف به حساب بانک شهر ۴۰۰۸۱۶۸۰۸۷۷۴ در تاریخ ۱۴۰۴/۰۹/۲۴؛ ثبت دریافت نقدی تأییدشده (+۶٬۶۹۶٬۹۰۰ تومان دریافت نقدی)")
+    L.append("حسابرسی نهایی ۱۴۰۵/۰۸/۱۳: دریافت‌ها ۱۵۱٬۱۷۵٬۹۷۵ / پرداخت‌ها ۱۲۹٬۵۹۸٬۶۹۳ (خالص ۲۱٬۵۷۷٬۲۸۲ تومان)")
     L.append("")
 
     # Section 3: Summary
@@ -1061,7 +1084,7 @@ def render_fa(rows, log, decs, sheets, open_items):
         p_name = fa_proj.get(p, p)
         ex_count = len(s["excluded"])
         L.append(f"| {p_name} | {fmt(s['receipts'])} | {fmt(s['payments'])} | {fmt(s['net'])} | {fmt(s['pending'])} | {ex_count} |")
-    L.append(f"| **جمع‌های اصلی** | **144,479,075** | **129,598,693** | **14,880,382** | **0** | **22** |")
+    L.append(f"| **جمع‌های اصلی** | **151,175,975** | **129,598,693** | **21,577,282** | **0** | **22** |")
     L.append("")
 
     # Section 4: Sheets
@@ -1148,7 +1171,7 @@ def render_fa(rows, log, decs, sheets, open_items):
     # Section 6: Balance chain
     L.append("## انطباق صورتحساب‌های بانکی و جهش‌های مانده")
     L.append("")
-    L.append("در گزارش‌های پیشین، مغایرت‌هایی میان مانده‌های چاپ‌شده بر روی فیش‌ها و ردیف‌های دفتر کل مشاهده شده بود. با ارائه صورتحساب بانک شهر (فایل 80.pdf شامل ۲۳۱ صفحه از اواسط ۱۴۰۴ تا مرداد ۱۴۰۵) و صورتحساب اکسل بانک بلو (فایل 14050812012318.xlsx)، مشخص گردید که حساب بانکی مجزایی برای انجمن افتتاح نشده بوده و تراکنش‌های شخصی دارنده حساب با درآمدهای دوره‌ها و رویدادها درهم‌آمیخته بوده است. بنابراین جهش‌های مانده مربوط به واریزها و برداشت‌های شخصی بوده و مبنای محاسبه مالی انجمن، مجموع جبری دریافت‌ها و پرداخت‌های مستند شده است که رقم مازاد ۱۴٬۸۸۰٬۳۸۲ تومان را به عنوان طلب انجمن از امین اموال اثبات می‌نماید.")
+    L.append("در گزارش‌های پیشین، مغایرت‌هایی میان مانده‌های چاپ‌شده بر روی فیش‌ها و ردیف‌های دفتر کل مشاهده شده بود. با ارائه صورتحساب بانک شهر (فایل 80.pdf شامل ۲۳۱ صفحه از اواسط ۱۴۰۴ تا مرداد ۱۴۰۵) و صورتحساب اکسل بانک بلو (فایل 14050812012318.xlsx)، مشخص گردید که حساب بانکی مجزایی برای انجمن افتتاح نشده بوده و تراکنش‌های شخصی دارنده حساب با درآمدهای دوره‌ها و رویدادها درهم‌آمیخته بوده است. بنابراین جهش‌های مانده مربوط به واریزها و برداشت‌های شخصی بوده و مبنای محاسبه مالی انجمن، مجموع جبری دریافت‌ها و پرداخت‌های مستند شده است که رقم مازاد ۲۱٬۵۷۷٬۲۸۲ تومان را به عنوان طلب انجمن از امین اموال اثبات می‌نماید.")
     L.append("")
 
     # Section 7: Open items
@@ -1166,11 +1189,11 @@ def render_fa(rows, log, decs, sheets, open_items):
     # Section 8: Decisions
     L.append("## ثبت تصمیمات و سیاهه تغییرات (Audit Log)")
     L.append("")
-    L.append(f"در مجموع ۶۶ تصمیم در پرونده Decisions_Register.json ثبت شده است (۳۸ تصمیم در رسیدگی نخستین و ۲۸ تصمیم تکمیلی و نهایی C-01 تا C-28).")
+    L.append(f"در مجموع ۶۷ تصمیم در پرونده Decisions_Register.json ثبت شده است (۳۸ تصمیم در رسیدگی نخستین و ۲۹ تصمیم تکمیلی و نهایی C-01 تا C-29).")
     L.append("")
     L.append(f"تعداد {len(log)} رکورد تغییرات فیلدها در Audit_Log.csv ثبت گردید.")
     L.append("")
-    L.append("### تصمیم‌های تکمیلی بسته شفاف‌سازی (C-01 تا C-28)")
+    L.append("### تصمیم‌های تکمیلی بسته شفاف‌سازی (C-01 تا C-29)")
     L.append("")
     for d in NEW_DECISIONS:
         tx_str = f" ({', '.join(d['tx'])})" if d["tx"] else ""

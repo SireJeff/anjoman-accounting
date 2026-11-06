@@ -60,21 +60,24 @@
     "is_empty_note": null
   },
   "Booths 1404": {
-    "receipts": 0.0,
+    "receipts": 6696900.0,
     "payments": 1990000.0,
-    "net": -1990000.0,
+    "net": 4706900.0,
     "pending": 0.0,
     "pending_rows": [],
     "pending_items": [],
     "excluded": [],
-    "receipts_by_source": {},
+    "receipts_by_source": {
+      "دانشگاه صنعتی شریف (Sharif University of Technology)": 6696900.0
+    },
     "payments_by_category": {
       "Equipment": 1760000.0,
       "Hospitality": 230000.0
     },
     "tx_rows": [
       "TX0030",
-      "TX0031"
+      "TX0031",
+      "TX0103"
     ],
     "open_items": [],
     "is_empty_note": null

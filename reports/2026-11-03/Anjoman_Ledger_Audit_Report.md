@@ -2,11 +2,11 @@
 
 | Receipts | Payments | Net | Pending | Excluded |
 |---:|---:|---:|---:|---:|
-| 144,479,075 | 129,598,693 | 14,880,382 | 0 | 45,031,098.9 |
+| 151,175,975 | 129,598,693 | 21,577,282 | 0 | 45,031,098.9 |
 
 Pending: 0 (all pending rows resolved and settled; PI-01 waived)
 
-Basis: cash + pending. Supported rows are cash; duplicates, supporting detail and memo rows are excluded. Custody is mixed across personal and association accounts (section 5). The net cash balance of 14,880,382 toman represents the reconstructed association cash held by the custodian.
+Basis: cash + pending. Supported rows are cash; duplicates, supporting detail and memo rows are excluded. Custody is mixed across personal and association accounts (section 5). The net cash balance of 21,577,282 toman represents the reconstructed association cash held by the custodian.
 
 ## What changed since 2026-10-18
 
@@ -32,7 +32,8 @@ Basis: cash + pending. Supported rows are cash; duplicates, supporting detail an
 - C-26 - TX0100: Three-month cloud VM server hosting for alenush.com (6,030,048 toman) confirmed paid out of pocket by custodian, now Supported (+6,030,048 toman cash payments)
 - C-27 - TX0101: Tea & Physics gathering food and hospitality on 1405/06/02 (2,800,000 toman) confirmed paid via ATM transfer, now Supported (+2,800,000 toman cash payments)
 - C-28 - TX0102: Hollyland Lark M1 wireless microphone for association podcasts/videos (13,478,750 toman) purchased on Digikala, now Supported (+13,478,750 toman cash payments)
-Audited 2026-11-03 supported: receipts 144,479,075 / payments 129,598,693 (net 14,880,382)
+- C-29 - TX0103: University subsidy and reimbursement for Sharif Salam booths (6,696,900 toman) received via Paya into Shahr deposit 400816808774 on 1404/09/24, now Supported (+6,696,900 toman cash receipts)
+Audited 2026-11-03 supported: receipts 151,175,975 / payments 129,598,693 (net 21,577,282)
 
 ## Consolidated summary (cash basis)
 
@@ -40,7 +41,7 @@ Audited 2026-11-03 supported: receipts 144,479,075 / payments 129,598,693 (net 1
 |---|---:|---:|---:|---:|---:|
 | Association operations | 34,000,000 | 18,877,670 | 15,122,330 | 0 | 0 |
 | Association website | 0 | 9,030,048 | -9,030,048 | 0 | 0 |
-| Booths 1404 | 0 | 1,990,000 | -1,990,000 | 0 | 0 |
+| Booths 1404 | 6,696,900 | 1,990,000 | 4,706,900 | 0 | 0 |
 | Freshman Party 1404 | 0 | 4,144,000 | -4,144,000 | 0 | 0 |
 | Intro Event 1404 | 4,920,000 | 3,155,000 | 1,765,000 | 0 | 0 |
 | Intro Event 1405 | 23,000,000 | 27,520,150 | -4,520,150 | 0 | 2 |
@@ -52,7 +53,7 @@ Audited 2026-11-03 supported: receipts 144,479,075 / payments 129,598,693 (net 1
 | Unassigned | 0 | 0 | 0 | 0 | 0 |
 | Unknown (likely 1405 summer school) | 0 | 0 | 0 | 0 | 0 |
 | Yalda 1404 | 16,490,000 | 11,886,700 | 4,603,300 | 0 | 17 |
-| **headline totals** | **144,479,075** | **129,598,693** | **14,880,382** | **0** | **22** |
+| **headline totals** | **151,175,975** | **129,598,693** | **21,577,282** | **0** | **22** |
 
 ## Project balance sheets
 
@@ -100,9 +101,9 @@ Audited 2026-11-03 supported: receipts 144,479,075 / payments 129,598,693 (net 1
 
 ### Booths 1404
 
-**Receipts by source** — —
+**Receipts by source** — دانشگاه صنعتی شریف (Sharif University of Technology): 6,696,900
 **Payments by category** — Equipment: 1,760,000; Hospitality: 230,000
-**Net (cash)** — -1,990,000
+**Net (cash)** — 4,706,900
 **Pending (rows + items)** — 0
 
 **Transactions**
@@ -111,6 +112,7 @@ Audited 2026-11-03 supported: receipts 144,479,075 / payments 129,598,693 (net 1
 |---|---|---|---|---:|---|---|
 | TX0030 | 2025-10-27 | Unknown | Power protectors and tools for booth projectors | 1,760,000 | Supported | Message only |
 | TX0031 | 2025-10-27 | سوپر مارکت شریف پلاس | Booth refreshments | 230,000 | Supported | Receipt and message |
+| TX0103 | 2025-12-15 | دانشگاه صنعتی شریف (Sharif University of Technology) | University subsidy and reimbursement for Sharif Salam orientation booths; Paya transfer to Bank Shahr deposit 400816808774 (tracking PAYA-140409240172758355) | 6,696,900 | Supported | Bank Shahr deposit receipt (Paya tracking 140409240172758355 on 1404/09/24 19:05) |
 
 ### Freshman Party 1404
 
@@ -323,14 +325,14 @@ Holder and type as evidenced. Bank statements and owner responses confirm active
 | CUSTODIAN | Not evidenced | not evidenced | 0 | 19,508,798 | 0 |
 | SEPAH-2925 | محمدحسن شیری (Mohammad-Hassan Shiri) | personal / event donations | 15,790,000 | 0 | 10,003,780 |
 | SHAHR-2167 | Not evidenced | not evidenced | 0 | 11,217,000 | 0 |
-| SHAHR-8966 | محمد حسن شیری (Mohammad-Hassan Shiri) | personal / commingled | 68,142,000 | 37,846,045 | 1,765,000 |
+| SHAHR-8966 | محمد حسن شیری (Mohammad-Hassan Shiri) | personal / commingled | 74,838,900 | 37,846,045 | 1,765,000 |
 | UNKNOWN | Not evidenced | not evidenced | 23,000,000 | 16,659,600 | 0 |
 | Unknown funding source | Not evidenced | not evidenced | 0 | 3,000,000 | 0 |
 | VOLUNTEER | Multiple volunteers | volunteer out-of-pocket | 0 | 2,425,000 | 0 |
 
 ## Balance-chain reconciliation & bank statements
 
-In earlier audits (2026-10-18), significant unexplained balance movements were noted on Bank Shahr deposit 400816808774. With the submission of bank statement 80.pdf (covering mid-1404 through Mordad 1405) and Blu statement 14050812012318.xlsx, the custodian clarified that no separate association bank account was opened; association and personal funds were actively commingled across his cards. Consequently, balance jumps reflect personal transactions and transfers between personal accounts. The ledger reconstruction establishes that the association has net cumulative surplus funds of 14,880,382 toman held by the custodian.
+In earlier audits (2026-10-18), significant unexplained balance movements were noted on Bank Shahr deposit 400816808774. With the submission of bank statement 80.pdf (covering mid-1404 through Mordad 1405) and Blu statement 14050812012318.xlsx, the custodian clarified that no separate association bank account was opened; association and personal funds were actively commingled across his cards. Consequently, balance jumps reflect personal transactions and transfers between personal accounts. The ledger reconstruction establishes that the association has net cumulative surplus funds of 21,577,282 toman held by the custodian.
 
 ## Open items settlement
 
@@ -359,11 +361,11 @@ All 18 previously open items have been settled through the owner clarifications 
 
 ## Decisions and audit log
 
-A total of 66 decisions are recorded in `Decisions_Register.json` (38 baseline audit decisions + 28 clarification decisions C-01 through C-28).
+A total of 67 decisions are recorded in `Decisions_Register.json` (38 baseline audit decisions + 29 clarification decisions C-01 through C-29).
 
-Audit log: 274 field changes recorded in `Audit_Log.csv`.
+Audit log: 275 field changes recorded in `Audit_Log.csv`.
 
-### New Clarification Decisions (C-01 to C-25)
+### New Clarification Decisions (C-01 to C-29)
 
 - **C-01** — Ledger reconstruction & net position disclosure: Owner confirmed that association funds were commingled across personal cards. Bank statements for Bank Shahr (80.pdf) and Blu (14050812012318.xlsx) were provided. Reconstructed ledger net balance (37,189,180 toman) represents the association cash position held by the custodian.
 - **C-02** (TX0001) — Maintain 33,642,000 per ledger and close OI-01: Custodian confirmed all registrations were transferred into card 8966 and instructor disbursements made accordingly. Ledger amount 33,642,000 toman accepted as final net deposit.
@@ -393,6 +395,7 @@ Audit log: 274 field changes recorded in `Audit_Log.csv`.
 - **C-26** (TX0100) — Supported payment of 6,030,048 toman (TX0100): Custodian declared and confirmed paying for the 3-month Alnush cloud VM hosting (2 vCPU, 4GB RAM, 30GB SSD; 65,544 toman/day x 92 days = 6,030,048 toman) out of pocket from the association surplus held. Booked as Supported expense under Association website.
 - **C-27** (TX0101) — Supported payment of 2,800,000 toman (TX0101): ATM card-to-card transfer slip from Shahr card to attendee (card ending in 8671) on 1405/06/02 15:06 (tracking 300311527) for 2,800,000 toman. Booked as Supported expense under Tea & Physics society, Hospitality.
 - **C-28** (TX0102) — Supported payment of 13,478,750 toman (TX0102): Digikala order DK1295013868 placed on 1405/07/01 for Hollyland Lark M1 wireless microphone (USB-C) delivered to Sharif University Jabbari Hall. Amount 13,478,750 toman booked as Supported under Association operations, Equipment.
+- **C-29** (TX0103) — Supported receipt of 6,696,900 toman (TX0103): Paya bank transfer receipt from Sharif University of Technology (دانشگاه صنعتی شریف) of 66,969,000 rial (6,696,900 toman) into Bank Shahr deposit 400816808774 on 1404/09/24 19:05 (Paya tracking 140409240172758355). Reimburses expenses incurred for Sharif Salam freshmen orientation booths (Booths 1404). Booked as Supported receipt under Booths 1404, Events.
 
 ## Method and scope
 
