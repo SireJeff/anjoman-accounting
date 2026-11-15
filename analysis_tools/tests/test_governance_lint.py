@@ -21,6 +21,17 @@ def test_to_en_digits():
     assert to_en_digits("ماده ۱۲ و ۳") == "ماده 12 و 3"
 
 
+def test_compound_citation_checks_its_tabsare_not_just_article():
+    """A valid article cannot hide an invalid proviso later in the citation."""
+    d1 = _d1_full({8: ["۱", "۲"]})
+    bad = "مطابق (اساسنامه، ماده ۸ و تبصره ۵ ماده ۸) عمل شود."
+    findings = cross_doc_findings({"D1": d1, "D2": bad})
+    assert any("تبصره 5 ماده 8" in f for f in findings)
+    good = "مطابق (اساسنامه، ماده ۸ و تبصره ۲ ماده ۸) عمل شود."
+    findings = cross_doc_findings({"D1": d1, "D2": good})
+    assert not any("تبصره 2 ماده 8" in f for f in findings)
+
+
 def test_normalize_fa_fixes_lam_alef_artifacts():
     # PyMuPDF extractions render لا as «ال» mid-word (اطلاعات -> اطالعات)
     assert normalize_fa("اطالعات و اعالم") == "اطلاعات و اعلام"
