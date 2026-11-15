@@ -249,6 +249,18 @@ def _d1_tabsare_index(d1: str) -> dict[int, dict]:
 def _asasname_ref_findings(text: str, d1: str, prefix: str, own: bool) -> list[str]:
     """F3-F5: every ماده (lists and ranges) and تبصره cited from the اساسنامه exists."""
     en = to_en_digits(text)
+    # In a compound parenthetical, the named source governs subsequent
+    # provisos until another source is explicitly named. Qualify each proviso
+    # for the same resolver rather than accepting a valid first article only.
+    qualified = []
+    bare_tab = re.compile(rf"{_TAB}(?:\s+{_NUMLIST})?\s+ماده\s+{_NUM}")
+    for parenthetical in re.findall(r"\(([^()]*)\)", en):
+        pieces = re.split(r"(اساسنامه|آیین‌نامه|شیوه‌نامه[^،)]*|منشور[^،)]*)", parenthetical)
+        for i in range(1, len(pieces) - 1, 2):
+            if pieces[i] == "اساسنامه":
+                qualified.extend("اساسنامه، " + m.group(0)
+                                 for m in bare_tab.finditer(pieces[i + 1]))
+    en += "\n" + "\n".join(qualified)
     nums = set(_maddi_numbers(d1))
     idx = _d1_tabsare_index(d1)
     where = "همین اساسنامه" if own else "اساسنامه"
