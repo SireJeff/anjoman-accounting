@@ -232,3 +232,14 @@ def test_build_all_writes_portable_bundle_without_private_inputs(tmp_path, monke
         assert set(z.namelist()) == {"asasname.docx", "asasname.pdf", "START-HERE.txt"}
         assert "تصویب" in z.read("START-HERE.txt").decode("utf-8")
         assert all(info.date_time == (1980, 1, 1, 0, 0, 0) for info in z.infolist())
+
+
+def test_missing_canonical_master_stops_release_instead_of_silent_partial_bundle(tmp_path, monkeypatch):
+    import pytest
+    from analysis_tools import governance_lint as gl
+    from analysis_tools.governance_build import build_all
+    monkeypatch.setattr(gl, "MASTER_FILES", {"D1": tmp_path / "missing.md"})
+    out = tmp_path / "build"
+    with pytest.raises(FileNotFoundError, match="missing.md"):
+        build_all(out)
+    assert not (out / "governance-proposed-v1.1.zip").exists()

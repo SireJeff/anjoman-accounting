@@ -16,7 +16,6 @@ from __future__ import annotations
 
 import re
 import shutil
-import sys
 import tempfile
 import zipfile
 from pathlib import Path
@@ -359,17 +358,17 @@ def _bundle(out: Path, written: list[Path]) -> Path:
 
 def build_all(out_dir: Path | None = None) -> list[Path]:
     out = Path(out_dir) if out_dir else gl.GOV / "build"
-    out.mkdir(parents=True, exist_ok=True)
     written: list[Path] = []
     masters = list(gl.MASTER_FILES.values())
+    missing = [str(p) for p in masters if not p.is_file()]
+    if missing:
+        raise FileNotFoundError("Missing governance master: " + ", ".join(missing))
+    out.mkdir(parents=True, exist_ok=True)
     parents = {p.parent for p in masters}
     for parent in sorted(parents):
         masters += [parent / f"{stem}.md" for stem in COMPANIONS
                     if (parent / f"{stem}.md").exists()]
     for md in masters:
-        if not md.exists():
-            print(f"skip {md}: missing", file=sys.stderr)
-            continue
         text = md.read_text(encoding="utf-8")
         title = text.splitlines()[0].lstrip("# ").strip()
         stem = md.stem
